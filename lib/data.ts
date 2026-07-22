@@ -30,6 +30,11 @@ export interface WatchModel {
   popular: boolean;
   summary_ja: string;
   summary_en: string;
+  caseMaterial?: string | null;
+  waterResistanceM?: number | null;
+  gender?: string | null;
+  releaseYear?: number | null;
+  addedAt?: string | null;
 }
 
 export interface BrandCatalog {
@@ -58,6 +63,9 @@ export interface SummaryEntry {
   shop: string;
   offerCount: number;
   updatedAt: string;
+  image?: string | null;
+  lowestNew?: number | null;
+  lowestUsed?: number | null;
 }
 
 export interface Dealer {

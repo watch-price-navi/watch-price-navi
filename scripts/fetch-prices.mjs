@@ -216,12 +216,17 @@ for (const file of brandFiles) {
     );
     if (offers.length > 0) {
       withOffers++;
+      const lowestNew = offers.find((o) => o.condition === 'new');
+      const lowestUsed = offers.find((o) => o.condition === 'used');
       summary[key] = {
         lowestPrice: offers[0].price,
         source: offers[0].source,
         shop: offers[0].shop,
         offerCount: offers.length,
         updatedAt,
+        image: offers[0].image ?? null,
+        lowestNew: lowestNew ? lowestNew.price : null,
+        lowestUsed: lowestUsed ? lowestUsed.price : null,
       };
       console.log(`  OK ${model.id}: ${offers.length}件 / 最安 ¥${offers[0].price.toLocaleString('ja-JP')}`);
     } else {

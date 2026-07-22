@@ -27,7 +27,11 @@
       "tags": ["pilot", "sport"],
       "popular": true,
       "summary_ja": "軍用時計マーク11の系譜を継ぐ現行パイロット・ウォッチの定番。40mmケースに自社製キャリバー32111を搭載し、約120時間のパワーリザーブと高い実用性を誇る人気モデル。",
-      "summary_en": "The latest evolution of IWC's iconic Mark series, featuring a 40mm case and the in-house calibre 32111 with a 120-hour power reserve."
+      "summary_en": "The latest evolution of IWC's iconic Mark series, featuring a 40mm case and the in-house calibre 32111 with a 120-hour power reserve.",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": 100,
+      "gender": "mens",
+      "releaseYear": 2022
     },
     {
       "id": "pilots-watch-mark-xviii-iw327001",
@@ -46,7 +50,11 @@
       "tags": ["pilot", "sport"],
       "popular": false,
       "summary_ja": "2016年から2022年頃まで展開された先代マークシリーズ。視認性に優れたシンプルな文字盤と40mmの扱いやすいサイズで、中古市場でも安定した人気を維持する定番機。",
-      "summary_en": "The previous-generation Mark series pilot's watch, prized on the pre-owned market for its clean dial and versatile 40mm case."
+      "summary_en": "The previous-generation Mark series pilot's watch, prized on the pre-owned market for its clean dial and versatile 40mm case.",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": 60,
+      "gender": "mens",
+      "releaseYear": 2016
     },
     {
       "id": "big-pilots-watch-43-iw329301",
@@ -65,7 +73,11 @@
       "tags": ["pilot", "luxury-sport"],
       "popular": true,
       "summary_ja": "象徴的なコーン型リューズを備えたビッグ・パイロットを43mmに凝縮した現行モデル。ペラトン式自動巻きの自社キャリバー82100を搭載し、日常使いしやすいサイズ感で人気。",
-      "summary_en": "A wearable 43mm take on IWC's iconic Big Pilot, powered by the in-house calibre 82100 with the Pellaton winding system."
+      "summary_en": "A wearable 43mm take on IWC's iconic Big Pilot, powered by the in-house calibre 82100 with the Pellaton winding system.",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": 100,
+      "gender": "mens",
+      "releaseYear": 2021
     },
     {
       "id": "pilots-watch-chronograph-41-iw388101",
@@ -81,10 +93,14 @@
       "priceFloorJpy": 480000,
       "searchKeywordJa": "IWC パイロット クロノグラフ 41 IW388101",
       "searchKeywordEn": "IWC Pilot's Watch Chronograph 41 IW388101",
-      "tags": ["pilot", "chronograph"],
+      "tags": ["pilot", "chronograph", "sport"],
       "popular": true,
       "summary_ja": "自社製クロノグラフキャリバー69385を搭載した41mmのパイロット・クロノグラフ。シースルーバックと交換式ストラップシステムを備え、現行パイロットラインの中核を担う人気機。",
-      "summary_en": "A 41mm pilot's chronograph with the in-house calibre 69385, a display caseback, and IWC's quick-change strap system."
+      "summary_en": "A 41mm pilot's chronograph with the in-house calibre 69385, a display caseback, and IWC's quick-change strap system.",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": 100,
+      "gender": "mens",
+      "releaseYear": 2021
     },
     {
       "id": "pilots-watch-chronograph-iw377710",
@@ -100,10 +116,14 @@
       "priceFloorJpy": 320000,
       "searchKeywordJa": "IWC パイロット クロノグラフ IW377710",
       "searchKeywordEn": "IWC Pilot's Watch Chronograph IW377710",
-      "tags": ["pilot", "chronograph"],
+      "tags": ["pilot", "chronograph", "day-date", "sport"],
       "popular": false,
       "summary_ja": "デイデイト表示付きの43mmパイロット・クロノグラフ。コックピットの計器を思わせる高視認性ダイヤルが特徴で、中古市場でも流通量が多く手が届きやすい定番モデル。",
-      "summary_en": "The classic 43mm pilot's chronograph with day-date display, widely available and popular on the pre-owned market."
+      "summary_en": "The classic 43mm pilot's chronograph with day-date display, widely available and popular on the pre-owned market.",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": 60,
+      "gender": "mens",
+      "releaseYear": 2016
     },
     {
       "id": "portugieser-chronograph-iw371605",
@@ -119,10 +139,14 @@
       "priceFloorJpy": 600000,
       "searchKeywordJa": "IWC ポルトギーゼ クロノグラフ IW371605",
       "searchKeywordEn": "IWC Portugieser Chronograph IW371605",
-      "tags": ["chronograph", "dress"],
+      "tags": ["chronograph", "dress", "small-seconds"],
       "popular": true,
       "summary_ja": "IWCを代表する看板モデル。優美なアラビア数字とリーフ針、縦二つ目のクロノグラフレイアウトが特徴で、自社製キャリバー69355を搭載。国内外で圧倒的な知名度を誇る。",
-      "summary_en": "IWC's flagship dress chronograph with elegant Arabic numerals and feuille hands, now powered by the in-house calibre 69355."
+      "summary_en": "IWC's flagship dress chronograph with elegant Arabic numerals and feuille hands, now powered by the in-house calibre 69355.",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": 30,
+      "gender": "mens",
+      "releaseYear": 2020
     },
     {
       "id": "portugieser-automatic-40-iw358303",
@@ -138,10 +162,14 @@
       "priceFloorJpy": 500000,
       "searchKeywordJa": "IWC ポルトギーゼ オートマティック 40 IW358303",
       "searchKeywordEn": "IWC Portugieser Automatic 40 IW358303",
-      "tags": ["dress"],
+      "tags": ["dress", "small-seconds"],
       "popular": false,
       "summary_ja": "オリジナルのポルトギーゼを想起させる40.4mmケースの3針モデル。ペラトン式自動巻きキャリバー82200を搭載し、スーツにも合わせやすい上品なドレスウォッチとして人気。",
-      "summary_en": "A 40.4mm three-hand Portugieser inspired by the 1939 original, driven by the Pellaton-equipped calibre 82200."
+      "summary_en": "A 40.4mm three-hand Portugieser inspired by the 1939 original, driven by the Pellaton-equipped calibre 82200.",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": 30,
+      "gender": "mens",
+      "releaseYear": 2020
     },
     {
       "id": "portugieser-7-days-iw500705",
@@ -157,10 +185,14 @@
       "priceFloorJpy": 650000,
       "searchKeywordJa": "IWC ポルトギーゼ 7デイズ IW500705",
       "searchKeywordEn": "IWC Portugieser Automatic 7 Days IW500705",
-      "tags": ["dress"],
+      "tags": ["dress", "power-reserve", "small-seconds"],
       "popular": false,
       "summary_ja": "7日間パワーリザーブの大型自社キャリバー52010を搭載したポルトギーゼの上位3針モデル。9時位置のスモールセコンドと3時位置のパワーリザーブ表示が特徴。",
-      "summary_en": "The 7-day Portugieser Automatic with calibre 52010, featuring a power reserve indicator and small seconds display."
+      "summary_en": "The 7-day Portugieser Automatic with calibre 52010, featuring a power reserve indicator and small seconds display.",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": 30,
+      "gender": "mens",
+      "releaseYear": 2015
     },
     {
       "id": "portofino-automatic-iw356502",
@@ -179,7 +211,11 @@
       "tags": ["dress"],
       "popular": false,
       "summary_ja": "イタリアの高級リゾート地の名を冠したシンプルで洗練された40mmドレスウォッチ。バーインデックスと薄型ケースが上品で、IWC入門機としても中古市場で人気が高い。",
-      "summary_en": "A refined 40mm dress watch named after the Italian resort town, popular as an accessible entry point into IWC."
+      "summary_en": "A refined 40mm dress watch named after the Italian resort town, popular as an accessible entry point into IWC.",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": 30,
+      "gender": "mens",
+      "releaseYear": 2011
     },
     {
       "id": "aquatimer-automatic-iw328801",
@@ -198,7 +234,11 @@
       "tags": ["diver", "sport"],
       "popular": false,
       "summary_ja": "1967年誕生のダイバーズライン最新世代となる42mmモデル。自社製キャリバー32111（約120時間パワーリザーブ）を搭載し、30気圧防水と高い堅牢性を誇る。",
-      "summary_en": "The 42mm current-generation Aquatimer powered by the in-house calibre 32111 with a 120-hour power reserve and 30 bar water resistance, continuing IWC's dive watch line dating back to 1967."
+      "summary_en": "The 42mm current-generation Aquatimer powered by the in-house calibre 32111 with a 120-hour power reserve and 30 bar water resistance, continuing IWC's dive watch line dating back to 1967.",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": 300,
+      "gender": "mens",
+      "releaseYear": 2022
     },
     {
       "id": "ingenieur-automatic-40-iw328901",
@@ -217,7 +257,11 @@
       "tags": ["luxury-sport", "sport"],
       "popular": true,
       "summary_ja": "ジェラルド・ジェンタが手掛けた名作SL（Ref.1832）を現代的に再解釈した2023年発表のラグジュアリースポーツ。ビス留めベゼルと一体型ブレスレットが特徴で入手困難な人気モデル。",
-      "summary_en": "A 2023 reinterpretation of Gerald Genta's Ingenieur SL, featuring the signature screwed bezel and integrated bracelet."
+      "summary_en": "A 2023 reinterpretation of Gerald Genta's Ingenieur SL, featuring the signature screwed bezel and integrated bracelet.",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": 100,
+      "gender": "mens",
+      "releaseYear": 2023
     },
     {
       "id": "portugieser-perpetual-calendar-42-iw344202",
@@ -236,7 +280,11 @@
       "tags": ["perpetual-calendar", "moonphase", "dress"],
       "popular": false,
       "summary_ja": "クルト・クラウス考案のリューズ一括調整式永久カレンダーを42.4mmケースに収めた高複雑モデル。ムーンフェイズも備え、IWCの技術力を象徴するグランドコンプリケーション入門機。",
-      "summary_en": "A 42.4mm perpetual calendar with moonphase based on Kurt Klaus's crown-adjusted mechanism, showcasing IWC's haute horlogerie expertise."
+      "summary_en": "A 42.4mm perpetual calendar with moonphase based on Kurt Klaus's crown-adjusted mechanism, showcasing IWC's haute horlogerie expertise.",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": 2020
     },
     {
       "id": "pilots-watch-chronograph-top-gun-iw389101",
@@ -252,10 +300,14 @@
       "priceFloorJpy": 380000,
       "searchKeywordJa": "IWC トップガン クロノグラフ IW389101",
       "searchKeywordEn": "IWC Pilot's Watch Chronograph TOP GUN IW389101",
-      "tags": ["pilot", "chronograph", "sport"],
+      "tags": ["pilot", "chronograph", "military", "day-date", "sport"],
       "popular": false,
       "summary_ja": "米海軍戦闘機兵器学校の名を冠したトップガンシリーズの44.5mmクロノグラフ。ブラックセラミックケースとチタン製リューズを組み合わせたタフな仕様で、ミリタリー色の強い人気モデル。",
-      "summary_en": "A rugged 44.5mm chronograph from the TOP GUN line with a black ceramic case and titanium crown, honoring the US Navy Fighter Weapons School."
+      "summary_en": "A rugged 44.5mm chronograph from the TOP GUN line with a black ceramic case and titanium crown, honoring the US Navy Fighter Weapons School.",
+      "caseMaterial": "ceramic",
+      "waterResistanceM": 60,
+      "gender": "mens",
+      "releaseYear": 2019
     }
   ]
 }

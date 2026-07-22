@@ -1,0 +1,58 @@
+{
+  "caseMaterials": [
+    { "id": "stainless-steel", "ja": "ステンレススチール", "en": "Stainless steel" },
+    { "id": "titanium", "ja": "チタン", "en": "Titanium" },
+    { "id": "carbon", "ja": "カーボン", "en": "Carbon" },
+    { "id": "ceramic", "ja": "セラミック", "en": "Ceramic" },
+    { "id": "bronze", "ja": "ブロンズ", "en": "Bronze" },
+    { "id": "yellow-gold", "ja": "イエローゴールド", "en": "Yellow gold" },
+    { "id": "rose-gold", "ja": "ローズゴールド", "en": "Rose gold" },
+    { "id": "white-gold", "ja": "ホワイトゴールド", "en": "White gold" },
+    { "id": "platinum", "ja": "プラチナ", "en": "Platinum" },
+    { "id": "two-tone", "ja": "コンビ（2素材）", "en": "Two-tone" },
+    { "id": "resin", "ja": "樹脂", "en": "Resin" },
+    { "id": "other", "ja": "その他", "en": "Other" }
+  ],
+  "movements": [
+    { "id": "automatic", "ja": "自動巻き", "en": "Automatic" },
+    { "id": "manual", "ja": "手巻き", "en": "Hand-wound" },
+    { "id": "quartz", "ja": "クォーツ", "en": "Quartz" },
+    { "id": "solar", "ja": "ソーラー", "en": "Solar" },
+    { "id": "spring-drive", "ja": "スプリングドライブ", "en": "Spring Drive" },
+    { "id": "kinetic", "ja": "キネティック", "en": "Kinetic" }
+  ],
+  "tags": [
+    { "id": "diver", "ja": "ダイバーズ", "en": "Diver" },
+    { "id": "chronograph", "ja": "クロノグラフ", "en": "Chronograph" },
+    { "id": "gmt", "ja": "GMT", "en": "GMT" },
+    { "id": "world-timer", "ja": "ワールドタイマー", "en": "World timer" },
+    { "id": "dress", "ja": "ドレス", "en": "Dress" },
+    { "id": "pilot", "ja": "パイロット", "en": "Pilot" },
+    { "id": "field", "ja": "フィールド", "en": "Field" },
+    { "id": "sport", "ja": "スポーツ", "en": "Sport" },
+    { "id": "luxury-sport", "ja": "ラグスポ", "en": "Luxury sport" },
+    { "id": "moonphase", "ja": "ムーンフェイズ", "en": "Moonphase" },
+    { "id": "perpetual-calendar", "ja": "永久カレンダー", "en": "Perpetual calendar" },
+    { "id": "annual-calendar", "ja": "年次カレンダー", "en": "Annual calendar" },
+    { "id": "tourbillon", "ja": "トゥールビヨン", "en": "Tourbillon" },
+    { "id": "minute-repeater", "ja": "ミニッツリピーター", "en": "Minute repeater" },
+    { "id": "power-reserve", "ja": "パワーリザーブ表示", "en": "Power reserve" },
+    { "id": "small-seconds", "ja": "スモールセコンド", "en": "Small seconds" },
+    { "id": "skeleton", "ja": "スケルトン", "en": "Skeleton" },
+    { "id": "day-date", "ja": "デイデイト", "en": "Day-date" },
+    { "id": "lightweight", "ja": "軽量", "en": "Lightweight" },
+    { "id": "radio-controlled", "ja": "電波", "en": "Radio-controlled" },
+    { "id": "gps", "ja": "GPS", "en": "GPS" },
+    { "id": "digital", "ja": "デジタル", "en": "Digital" },
+    { "id": "ana-digi", "ja": "アナデジ", "en": "Ana-digi" },
+    { "id": "military", "ja": "ミリタリー", "en": "Military" },
+    { "id": "racing", "ja": "レーシング", "en": "Racing" },
+    { "id": "vintage-reissue", "ja": "復刻", "en": "Vintage reissue" },
+    { "id": "limited-edition", "ja": "限定モデル", "en": "Limited edition" }
+  ],
+  "genders": [
+    { "id": "mens", "ja": "メンズ", "en": "Men's" },
+    { "id": "ladies", "ja": "レディース", "en": "Ladies" },
+    { "id": "unisex", "ja": "ユニセックス", "en": "Unisex" }
+  ]
+}

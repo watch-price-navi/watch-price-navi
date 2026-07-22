@@ -31,7 +31,7 @@ export default function PriceTable({
           </thead>
           <tbody>
             {offers.map((o, i) => (
-              <tr key={`${o.source}-${o.shop}-${i}`}>
+              <tr key={`${o.source}-${o.shop}-${i}`} className={i === 0 ? 'best-row' : undefined}>
                 <td className="pt-shop">
                   {i === 0 && <span className="badge badge-best">{t(lang, 'lowest_price')}</span>}{' '}
                   {o.shop}
@@ -45,7 +45,12 @@ export default function PriceTable({
                 </td>
                 <td className={`pt-price${i === 0 ? ' best' : ''}`}>{formatJpy(o.price, lang)}</td>
                 <td>
-                  <a className="btn" href={o.url} target="_blank" rel="sponsored nofollow noopener">
+                  <a
+                    className={`btn btn-sm${i === 0 ? ' btn-deal' : ' btn-outline'}`}
+                    href={o.url}
+                    target="_blank"
+                    rel="sponsored nofollow noopener"
+                  >
                     {t(lang, 'buy_at')}
                   </a>
                 </td>

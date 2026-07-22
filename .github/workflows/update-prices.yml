@@ -1,15 +1,16 @@
-# 毎日 JST 03:00 に価格を自動収集し、サイトを再ビルドして GitHub Pages に公開する
+# 1日2回（JST 6:00 / 18:00）価格を自動収集し、朝はブログ記事も生成してサイトを公開する
 name: Update prices & deploy
 
 on:
   schedule:
-    - cron: '0 18 * * *' # UTC 18:00 = JST 03:00
+    - cron: '0 21 * * *' # UTC 21:00 = JST 6:00（朝の回：ブログ生成 + 新作検出あり）
+    - cron: '0 9 * * *'  # UTC 09:00 = JST 18:00（夕方の回：価格のみ更新）
   workflow_dispatch: {}
   push:
     branches: [main]
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -34,8 +35,29 @@ jobs:
       - name: Validate catalog data
         run: npm run validate
 
+      # 朝の回（および手動実行・push）でのみブログを1本生成する
+      - name: Generate today's blog post
+        if: github.event.schedule != '0 9 * * *'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          BLOG_MODEL: ${{ vars.BLOG_MODEL }}
+        run: node scripts/generate-blog.mjs
+
+      - name: Commit new blog post
+        if: github.event.schedule != '0 9 * * *'
+        run: |
+          git config user.name "watch-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/blog
+          if git diff --cached --quiet; then
+            echo "No new post"
+          else
+            git commit -m "post: $(date -u +%Y-%m-%d) の記事を追加 [skip ci]"
+            git push
+          fi
+
       # 価格はリポジトリに保存せず、実行のたびにAPIから取得してビルドにのみ使う
-      # (楽天APIの「取得データの恒久保存・再配布禁止」規約への対応)
+      # （楽天APIの「取得データの恒久保存・再配布禁止」規約への対応）
       - name: Fetch latest prices
         env:
           RAKUTEN_APP_ID: ${{ secrets.RAKUTEN_APP_ID }}
@@ -46,6 +68,31 @@ jobs:
           VC_SID: ${{ secrets.VC_SID }}
           VC_PID: ${{ secrets.VC_PID }}
         run: node scripts/fetch-prices.mjs
+
+      # 未収録の新作型番を検出して data/pending-models.json に記録（朝の回のみ）
+      - name: Discover new models
+        if: github.event.schedule != '0 9 * * *'
+        continue-on-error: true
+        env:
+          RAKUTEN_APP_ID: ${{ secrets.RAKUTEN_APP_ID }}
+          RAKUTEN_ACCESS_KEY: ${{ secrets.RAKUTEN_ACCESS_KEY }}
+          RAKUTEN_GENRE_ID: ${{ vars.RAKUTEN_GENRE_ID }}
+          YAHOO_APP_ID: ${{ secrets.YAHOO_APP_ID }}
+        run: node scripts/discover-models.mjs
+
+      - name: Commit new-model candidates
+        if: github.event.schedule != '0 9 * * *'
+        continue-on-error: true
+        run: |
+          git config user.name "watch-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/pending-models.json
+          if git diff --cached --quiet; then
+            echo "No new candidates"
+          else
+            git commit -m "chore: 新作モデル候補を更新 [skip ci]"
+            git push
+          fi
 
       - name: Build site
         env:

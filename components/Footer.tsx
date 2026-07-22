@@ -11,7 +11,9 @@ export default function Footer({ lang }: { lang: Lang }) {
         <div className="footer-brand">{siteName}</div>
         <p>{t(lang, 'footer_note')}</p>
         <nav>
+          <Link href={`/${lang}/search/`}>{t(lang, 'nav_search')}</Link>
           <Link href={`/${lang}/brands/`}>{t(lang, 'nav_brands')}</Link>
+          <Link href={`/${lang}/blog/`}>{t(lang, 'nav_blog')}</Link>
           <Link href={`/${lang}/about/`}>{t(lang, 'footer_about')}</Link>
           <Link href={`/${lang}/privacy/`}>{t(lang, 'footer_privacy')}</Link>
           <Link href={`/${lang}/disclaimer/`}>{t(lang, 'footer_disclaimer')}</Link>

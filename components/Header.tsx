@@ -15,8 +15,9 @@ export default function Header({ lang }: { lang: Lang }) {
             <span className="logo-sub">Watch Price Navi</span>
           </Link>
           <nav className="header-nav">
+            <Link href={`/${lang}/search/`}>{t(lang, 'nav_search')}</Link>
             <Link href={`/${lang}/brands/`}>{t(lang, 'nav_brands')}</Link>
-            <Link href={`/${lang}/about/`}>{t(lang, 'nav_about')}</Link>
+            <Link href={`/${lang}/blog/`}>{t(lang, 'nav_blog')}</Link>
             <LangSwitch lang={lang} />
           </nav>
         </div>

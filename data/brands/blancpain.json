@@ -27,7 +27,11 @@
       "tags": ["diver", "sport"],
       "popular": true,
       "summary_ja": "1953年誕生の元祖ダイバーズの現行代表作。45mmケースにサファイア製ベゼル、5日間パワーリザーブの自社キャリバー1315を搭載。ブランドの顔として中古市場でも屈指の人気を誇る。",
-      "summary_en": "The flagship modern descendant of the original 1953 dive watch, with a 45mm case, sapphire bezel and the in-house Cal.1315 offering a five-day power reserve."
+      "summary_en": "The flagship modern descendant of the original 1953 dive watch, with a 45mm case, sapphire bezel and the in-house Cal.1315 offering a five-day power reserve.",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": 300,
+      "gender": "mens",
+      "releaseYear": 2007
     },
     {
       "id": "fifty-fathoms-automatique-42mm-5010-12b30-b52a",
@@ -43,10 +47,14 @@
       "priceFloorJpy": 900000,
       "searchKeywordJa": "ブランパン フィフティファゾムス 5010 42mm",
       "searchKeywordEn": "Blancpain Fifty Fathoms 42mm 5010-12B30-B52A",
-      "tags": ["diver", "sport"],
+      "tags": ["diver", "sport", "lightweight"],
       "popular": true,
       "summary_ja": "2023年の70周年を機に加わった42.3mm径・チタンケースの現行フィフティ ファゾムス。従来の45mmより日本人の腕にも収まりやすく、発売以来高い人気を維持している注目モデル。",
-      "summary_en": "Introduced around the collection's 70th anniversary, this 42.3mm titanium-cased Fifty Fathoms brings the icon to a more wearable size and has been in strong demand since launch."
+      "summary_en": "Introduced around the collection's 70th anniversary, this 42.3mm titanium-cased Fifty Fathoms brings the icon to a more wearable size and has been in strong demand since launch.",
+      "caseMaterial": "titanium",
+      "waterResistanceM": 300,
+      "gender": "mens",
+      "releaseYear": 2023
     },
     {
       "id": "fifty-fathoms-bathyscaphe-5000-1110-b52a",
@@ -65,7 +73,11 @@
       "tags": ["diver", "sport"],
       "popular": true,
       "summary_ja": "1950年代の小径ダイバーズ「バチスカーフ」を現代的に再解釈した43mmモデル。セラミックベゼルとサテン仕上げのケースが特徴で、フィフティ ファゾムス入門としても人気が高い。",
-      "summary_en": "A modern reinterpretation of the 1950s Bathyscaphe with a 43mm case and ceramic bezel — a popular, slightly more accessible entry into the Fifty Fathoms family."
+      "summary_en": "A modern reinterpretation of the 1950s Bathyscaphe with a 43mm case and ceramic bezel — a popular, slightly more accessible entry into the Fifty Fathoms family.",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": 300,
+      "gender": "mens",
+      "releaseYear": 2013
     },
     {
       "id": "bathyscaphe-flyback-chronograph-5200-0130-b52a",
@@ -84,7 +96,11 @@
       "tags": ["diver", "chronograph", "sport"],
       "popular": false,
       "summary_ja": "バチスカーフに自社製ハイビートフライバッククロノグラフF385を搭載した実力派。ダイバーズの防水性能とクロノグラフを両立し、スポーティな複雑時計として評価が高い。",
-      "summary_en": "A Bathyscaphe powered by the in-house high-beat F385 flyback chronograph, combining serious dive-watch credentials with a sporty complication."
+      "summary_en": "A Bathyscaphe powered by the in-house high-beat F385 flyback chronograph, combining serious dive-watch credentials with a sporty complication.",
+      "caseMaterial": "ceramic",
+      "waterResistanceM": 300,
+      "gender": "mens",
+      "releaseYear": 2014
     },
     {
       "id": "villeret-quantieme-complet-6654-1127-55b",
@@ -100,10 +116,14 @@
       "priceFloorJpy": 500000,
       "searchKeywordJa": "ブランパン ヴィルレ 6654",
       "searchKeywordEn": "Blancpain Villeret Quantieme Complet 6654",
-      "tags": ["dress", "moonphase"],
+      "tags": ["dress", "moonphase", "day-date"],
       "popular": true,
       "summary_ja": "ムーンフェイズ、曜日、日付、月表示を備えたコンプリートカレンダー。ダブルステップベゼルの端正な40mmケースで、ブランパンの伝統美を象徴するドレスウォッチの定番。",
-      "summary_en": "A complete-calendar dress watch with moonphase, day, date and month in an elegant 40mm double-stepped case — a signature Blancpain classic."
+      "summary_en": "A complete-calendar dress watch with moonphase, day, date and month in an elegant 40mm double-stepped case — a signature Blancpain classic.",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": 30,
+      "gender": "mens",
+      "releaseYear": 2013
     },
     {
       "id": "villeret-ultraplate-6651-1127-55b",
@@ -122,7 +142,11 @@
       "tags": ["dress"],
       "popular": true,
       "summary_ja": "薄型自動巻キャリバー1151を積んだヴィルレの3針デイトモデル。ローマ数字インデックスとリーフ針による端正なデザインで、ビジネスからフォーマルまで使える王道ドレスウォッチ。",
-      "summary_en": "Villeret's ultra-thin three-hand date model with Cal.1151, Roman numerals and leaf hands — a quintessential classic dress watch."
+      "summary_en": "Villeret's ultra-thin three-hand date model with Cal.1151, Roman numerals and leaf hands — a quintessential classic dress watch.",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": 30,
+      "gender": "mens",
+      "releaseYear": null
     },
     {
       "id": "leman-flyback-chronograph-2185f",
@@ -141,7 +165,11 @@
       "tags": ["chronograph", "dress"],
       "popular": false,
       "summary_ja": "1990〜2000年代を代表する生産終了コレクション「レマン」のフライバッククロノグラフ。上品なサイズ感と実用機構を兼ね備え、中古市場で根強い人気を持つ定番モデル。",
-      "summary_en": "A flyback chronograph from the discontinued Léman line of the 1990s–2000s, prized on the pre-owned market for its refined proportions and practical complication."
+      "summary_en": "A flyback chronograph from the discontinued Léman line of the 1990s–2000s, prized on the pre-owned market for its refined proportions and practical complication.",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null
     },
     {
       "id": "air-command-flyback-chronograph",
@@ -157,10 +185,14 @@
       "priceFloorJpy": 1000000,
       "searchKeywordJa": "ブランパン エアコマンド クロノグラフ",
       "searchKeywordEn": "Blancpain Air Command Flyback Chronograph",
-      "tags": ["pilot", "chronograph"],
+      "tags": ["pilot", "chronograph", "vintage-reissue"],
       "popular": false,
       "summary_ja": "1950年代の希少なパイロットクロノグラフを復刻した現行コレクション。回転ベゼルとカウントダウン目盛を備え、ハイビートの自社製フライバッククロノグラフムーブメントを搭載する。",
-      "summary_en": "A revival of Blancpain's rare 1950s pilot's chronograph, featuring a rotating countdown bezel and a high-beat in-house flyback chronograph movement."
+      "summary_en": "A revival of Blancpain's rare 1950s pilot's chronograph, featuring a rotating countdown bezel and a high-beat in-house flyback chronograph movement.",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null
     }
   ]
 }

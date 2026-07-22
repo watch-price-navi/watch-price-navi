@@ -8,9 +8,12 @@
     "build": "next build",
     "validate": "node scripts/validate-data.mjs",
     "fetch-prices": "node scripts/fetch-prices.mjs",
+    "blog": "node scripts/generate-blog.mjs",
+    "discover": "node scripts/discover-models.mjs",
     "search-index": "node scripts/build-search-index.mjs"
   },
   "dependencies": {
+    "marked": "^15.0.12",
     "next": "^15.1.6",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
