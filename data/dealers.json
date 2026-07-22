@@ -1,0 +1,64 @@
+{
+  "dealers": [
+    {
+      "id": "housekihiroba",
+      "name_ja": "宝石広場",
+      "name_en": "Housekihiroba",
+      "homepage": "https://housekihiroba.jp/shop/",
+      "searchUrlTemplate": "https://housekihiroba.jp/shop/goods/search.aspx?keyword={q}&search=x",
+      "handles": "both",
+      "note_ja": "東京・渋谷の腕時計＆ジュエリー専門店。新品から中古・ヴィンテージまで幅広く扱い、販売・修理・買取を自社で行う老舗。",
+      "note_en": "Long-established watch and jewelry specialist in Shibuya, Tokyo, handling everything from new to used and vintage pieces, with in-house sales, repair, and buy-back services."
+    },
+    {
+      "id": "gmt",
+      "name_ja": "時計専門店GMT",
+      "name_en": "GMT",
+      "homepage": "https://www.gmt-j.com/",
+      "searchUrlTemplate": null,
+      "handles": "both",
+      "note_ja": "シュッピン株式会社が運営する新宿の新品・中古ブランド腕時計専門店。ロレックスからパテック フィリップまで幅広い品揃え。",
+      "note_en": "New and pre-owned luxury watch specialist in Shinjuku, Tokyo, operated by Syuppin Co., Ltd., stocking a wide range from Rolex to Patek Philippe."
+    },
+    {
+      "id": "zetton",
+      "name_ja": "ブランド時計 ゼットン",
+      "name_en": "Zetton",
+      "homepage": "https://www.kingsroad.jp/",
+      "searchUrlTemplate": "https://www.kingsroad.jp/SHOP/list.php?Search={q}",
+      "handles": "both",
+      "note_ja": "名古屋・大須のブランド時計専門店。「日本最安値を目指す」をコンセプトに、新品・中古・未使用品を豊富に取り扱う。",
+      "note_en": "Brand watch specialist in Osu, Nagoya, aiming for the lowest prices in Japan, with a large stock of new, unused, and pre-owned watches."
+    },
+    {
+      "id": "jackroad",
+      "name_ja": "ジャックロード",
+      "name_en": "Jackroad",
+      "homepage": "https://www.jackroad.co.jp/shop/default.aspx",
+      "searchUrlTemplate": "https://www.jackroad.co.jp/shop/goods/search.aspx?keyword={q}&search=x",
+      "handles": "both",
+      "note_ja": "中野ブロードウェイのメンズブランド腕時計専門店。新品・中古・アンティークを常時6,000本以上展示する「買える時計博物館」。",
+      "note_en": "Men's luxury watch specialist in Nakano Broadway, Tokyo, displaying over 6,000 new, used, and antique watches — a 'watch museum where you can buy'."
+    },
+    {
+      "id": "kamekichi",
+      "name_ja": "まじめなとけいや かめ吉",
+      "name_en": "Kame-Kichi",
+      "homepage": "https://www.kame-kichi.com/",
+      "searchUrlTemplate": "https://www.kame-kichi.com/search?word={q}",
+      "handles": "both",
+      "note_ja": "東京・中野、大阪・心斎橋、福岡・天神に店舗を持つ高級ブランド時計専門店。新品・中古の格安販売と高価買取が売り。",
+      "note_en": "Luxury watch dealer with stores in Nakano (Tokyo), Shinsaibashi (Osaka), and Tenjin (Fukuoka), known for discounted new and used watches and high buy-back prices."
+    },
+    {
+      "id": "quark",
+      "name_ja": "ロレックス専門店クォーク",
+      "name_en": "Quark",
+      "homepage": "https://www.909.co.jp/",
+      "searchUrlTemplate": "https://www.909.co.jp/rolex_search/result.html?freeword={q}",
+      "handles": "both",
+      "note_ja": "全国に店舗を展開するロレックス専門店。新品・中古・アンティークのロレックスの販売と買取を行う。",
+      "note_en": "Rolex specialist with stores across Japan, selling and buying new, used, and antique Rolex watches."
+    }
+  ]
+}

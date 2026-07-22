@@ -1,0 +1,26 @@
+{
+  "name": "watch-price-navi",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node scripts/build-search-index.mjs && next dev",
+    "prebuild": "node scripts/build-search-index.mjs",
+    "build": "next build",
+    "validate": "node scripts/validate-data.mjs",
+    "fetch-prices": "node scripts/fetch-prices.mjs",
+    "search-index": "node scripts/build-search-index.mjs"
+  },
+  "dependencies": {
+    "next": "^15.1.6",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/react": "^19.0.2",
+    "typescript": "^5.7.2"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

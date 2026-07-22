@@ -1,0 +1,13 @@
+node_modules/
+.next/
+out/
+.env
+.env.local
+*.log
+.DS_Store
+next-env.d.ts
+public/search-index.json
+
+# 価格データはAPI規約(恒久保存・再配布の禁止)に配慮しリポジトリに含めない。
+# 毎日のGitHub Actions実行時にAPIから取得し、ビルドにのみ使用する。
+data/prices/

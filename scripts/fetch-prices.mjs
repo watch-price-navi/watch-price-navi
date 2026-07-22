@@ -1,0 +1,235 @@
+#!/usr/bin/env node
+/**
+ * 価格収集スクリプト
+ * 楽天市場・Yahoo!ショッピングの公式APIから各モデルの出品価格を取得し、
+ * data/prices/<brandId>/<modelId>.json と data/prices/summary.json に保存する。
+ *
+ * 使い方:
+ *   node scripts/fetch-prices.mjs                 # 全ブランド
+ *   node scripts/fetch-prices.mjs --brand rolex   # 1ブランドのみ
+ *   node scripts/fetch-prices.mjs --limit 5       # 各ブランド先頭5モデルのみ(テスト用)
+ *
+ * 必要な環境変数(.env でも可): RAKUTEN_APP_ID, YAHOO_APP_ID
+ * 任意: RAKUTEN_AFFILIATE_ID, RAKUTEN_GENRE_ID, VC_SID, VC_PID
+ */
+
+import fs from 'node:fs';
+import path from 'node:path';
+
+const ROOT = process.cwd();
+
+// ---- .env の簡易読み込み(依存パッケージなし) ----
+const envFile = path.join(ROOT, '.env');
+if (fs.existsSync(envFile)) {
+  for (const line of fs.readFileSync(envFile, 'utf8').split(/\r?\n/)) {
+    const m = line.match(/^\s*([A-Z0-9_]+)\s*=\s*(.*)\s*$/);
+    if (m && !(m[1] in process.env)) process.env[m[1]] = m[2].replace(/^["']|["']$/g, '');
+  }
+}
+
+const RAKUTEN_APP_ID = process.env.RAKUTEN_APP_ID || '';
+// 2026年の新API基盤ではapplicationIdに加えてaccessKeyが必須(旧エンドポイントは2026-08-17廃止予定)
+const RAKUTEN_ACCESS_KEY = process.env.RAKUTEN_ACCESS_KEY || '';
+const RAKUTEN_AFFILIATE_ID = process.env.RAKUTEN_AFFILIATE_ID || '';
+const RAKUTEN_GENRE_ID = process.env.RAKUTEN_GENRE_ID ?? '558929'; // 558929 = 腕時計。'off' で無効化
+const YAHOO_APP_ID = process.env.YAHOO_APP_ID || '';
+const VC_SID = process.env.VC_SID || '';
+const VC_PID = process.env.VC_PID || '';
+
+const args = process.argv.slice(2);
+function argValue(name) {
+  const i = args.indexOf(name);
+  return i >= 0 && args[i + 1] ? args[i + 1] : null;
+}
+const onlyBrand = argValue('--brand');
+const limit = Number(argValue('--limit')) || Infinity;
+const delayMs = Number(argValue('--delay')) || 1100; // 楽天APIは1リクエスト/秒制限
+
+if (!RAKUTEN_APP_ID && !YAHOO_APP_ID) {
+  console.log('APIキーが設定されていないため、価格収集をスキップしました。');
+  console.log('  RAKUTEN_APP_ID : https://webservice.rakuten.co.jp/ で無料発行');
+  console.log('  YAHOO_APP_ID   : https://e.developer.yahoo.co.jp/ で無料発行');
+  console.log('.env または GitHub Secrets に設定してください。詳細: docs/セットアップ手順.md');
+  process.exit(0);
+}
+
+// タイトルにこれらの語が含まれる出品は本体ではないとみなして除外
+const NG_WORDS = [
+  'ベルト', 'バンド', 'ストラップ', 'ブレスレット単品', 'コマ', '駒', '尾錠', 'バックル',
+  '風防', 'ガラス', 'パーツ', '部品', 'ケースのみ', '箱のみ', '空箱', '純正BOX',
+  '説明書', '冊子', 'タグのみ', '互換', '社外', '汎用', 'ノベルティ', '非売品',
+  '置時計', '置き時計', '掛け時計', '壁掛け', 'クロック', 'ぬいぐるみ', 'キーホルダー',
+  '修理', 'オーバーホール', '電池交換', '磨き', 'ラッピング', 'コーティング',
+];
+
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+function looksLikeGenuine(title, brand) {
+  if (NG_WORDS.some((w) => title.includes(w))) return false;
+  const t = title.toLowerCase();
+  return t.includes(brand.name_en.toLowerCase()) || title.includes(brand.name_ja);
+}
+
+function detectCondition(title) {
+  if (/中古|USED|ユーズド|美品/i.test(title)) return 'used';
+  if (/未使用|新品/.test(title)) return 'new';
+  return 'unknown';
+}
+
+async function fetchJson(url, attempt = 0) {
+  const res = await fetch(url, { headers: { 'User-Agent': 'watch-price-navi/1.0' } });
+  if (res.status === 429 && attempt < 2) {
+    // レート制限超過: 指数バックオフで再試行
+    await sleep(10_000 * (attempt + 1));
+    return fetchJson(url, attempt + 1);
+  }
+  if (!res.ok) throw new Error(`HTTP ${res.status} for ${url.split('?')[0]}`);
+  return res.json();
+}
+
+async function fetchRakuten(model, brand) {
+  if (!RAKUTEN_APP_ID) return [];
+  const params = new URLSearchParams({
+    format: 'json',
+    applicationId: RAKUTEN_APP_ID,
+    keyword: model.searchKeywordJa,
+    hits: '30',
+    sort: '+itemPrice',
+    minPrice: String(Math.max(1, Math.floor(model.priceFloorJpy))),
+  });
+  if (RAKUTEN_AFFILIATE_ID) params.set('affiliateId', RAKUTEN_AFFILIATE_ID);
+  if (RAKUTEN_GENRE_ID && RAKUTEN_GENRE_ID !== 'off') params.set('genreId', RAKUTEN_GENRE_ID);
+  // accessKey があれば新エンドポイント、なければ旧エンドポイント(2026-08-17廃止予定)を使用
+  let endpoint = 'https://app.rakuten.co.jp/services/api/IchibaItem/Search/20220601';
+  if (RAKUTEN_ACCESS_KEY) {
+    endpoint = 'https://openapi.rakuten.co.jp/ichibams/api/IchibaItem/Search/20260701';
+    params.set('accessKey', RAKUTEN_ACCESS_KEY);
+  }
+  const url = `${endpoint}?${params}`;
+  const data = await fetchJson(url);
+  return (data.Items ?? []).map(({ Item: it }) => ({
+    source: 'rakuten',
+    title: it.itemName ?? '',
+    price: Number(it.itemPrice) || 0,
+    url: it.affiliateUrl || it.itemUrl || '',
+    shop: it.shopName ?? '',
+    image: it.mediumImageUrls?.[0]?.imageUrl?.replace(/\?_ex=\d+x\d+$/, '') ?? null,
+    condition: detectCondition(it.itemName ?? ''),
+  }));
+}
+
+async function fetchYahoo(model, brand) {
+  if (!YAHOO_APP_ID) return [];
+  const params = new URLSearchParams({
+    appid: YAHOO_APP_ID,
+    query: model.searchKeywordJa,
+    results: '30',
+    sort: '+price',
+    price_from: String(Math.max(1, Math.floor(model.priceFloorJpy))),
+  });
+  if (VC_SID && VC_PID) {
+    params.set('affiliate_type', 'vc');
+    // 公式仕様: referralプレフィックスURLを丸ごとaffiliate_idに渡す(URLSearchParamsがエンコードする)
+    params.set('affiliate_id', `http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=${VC_SID}&pid=${VC_PID}&vc_url=`);
+  }
+  const url = `https://shopping.yahooapis.jp/ShoppingWebService/V3/itemSearch?${params}`;
+  const data = await fetchJson(url);
+  return (data.hits ?? []).map((h) => ({
+    source: 'yahoo',
+    title: h.name ?? '',
+    price: Number(h.price) || 0,
+    url: h.url ?? '',
+    shop: h.seller?.name ?? '',
+    image: h.image?.medium || null,
+    condition: h.condition === 'used' ? 'used' : h.condition === 'new' ? 'new' : detectCondition(h.name ?? ''),
+  }));
+}
+
+function cleanOffers(offers, model, brand) {
+  const filtered = offers.filter(
+    (o) => o.price >= model.priceFloorJpy && o.url && o.shop && looksLikeGenuine(o.title, brand)
+  );
+  // 同一ショップは最安の1件のみ残す
+  const byShop = new Map();
+  for (const o of filtered.sort((a, b) => a.price - b.price)) {
+    const key = `${o.source}:${o.shop}`;
+    if (!byShop.has(key)) byShop.set(key, o);
+  }
+  return [...byShop.values()].sort((a, b) => a.price - b.price).slice(0, 12);
+}
+
+// ---- メイン処理 ----
+const brandsDir = path.join(ROOT, 'data', 'brands');
+const pricesDir = path.join(ROOT, 'data', 'prices');
+fs.mkdirSync(pricesDir, { recursive: true });
+
+const summaryFile = path.join(pricesDir, 'summary.json');
+let summary = {};
+if (fs.existsSync(summaryFile)) {
+  try { summary = JSON.parse(fs.readFileSync(summaryFile, 'utf8')); } catch { summary = {}; }
+}
+
+const brandFiles = fs.existsSync(brandsDir)
+  ? fs.readdirSync(brandsDir).filter((f) => f.endsWith('.json'))
+  : [];
+
+let processed = 0;
+let withOffers = 0;
+let failures = 0;
+
+for (const file of brandFiles) {
+  let catalog;
+  try {
+    catalog = JSON.parse(fs.readFileSync(path.join(brandsDir, file), 'utf8'));
+  } catch (e) {
+    console.warn(`skip malformed ${file}: ${e.message}`);
+    continue;
+  }
+  const { brand, models } = catalog;
+  if (onlyBrand && brand.id !== onlyBrand) continue;
+
+  console.log(`\n=== ${brand.name_en} (${models.length} models) ===`);
+  const brandDir = path.join(pricesDir, brand.id);
+  fs.mkdirSync(brandDir, { recursive: true });
+
+  for (const model of models.slice(0, limit)) {
+    processed++;
+    let offers = [];
+    try {
+      const rakuten = await fetchRakuten(model, brand);
+      await sleep(delayMs); // 楽天のレート制限(1req/秒)対応
+      const yahoo = await fetchYahoo(model, brand);
+      await sleep(2100); // Yahoo!のレート制限(30req/分)対応
+      offers = cleanOffers([...rakuten, ...yahoo], model, brand);
+    } catch (e) {
+      failures++;
+      console.warn(`  NG ${model.id}: ${e.message}`);
+      continue;
+    }
+
+    const key = `${brand.id}/${model.id}`;
+    const updatedAt = new Date().toISOString();
+    fs.writeFileSync(
+      path.join(brandDir, `${model.id}.json`),
+      JSON.stringify({ updatedAt, offers }, null, 2),
+      'utf8'
+    );
+    if (offers.length > 0) {
+      withOffers++;
+      summary[key] = {
+        lowestPrice: offers[0].price,
+        source: offers[0].source,
+        shop: offers[0].shop,
+        offerCount: offers.length,
+        updatedAt,
+      };
+      console.log(`  OK ${model.id}: ${offers.length}件 / 最安 ¥${offers[0].price.toLocaleString('ja-JP')}`);
+    } else {
+      delete summary[key];
+      console.log(`  -- ${model.id}: 該当出品なし`);
+    }
+  }
+}
+
+fs.writeFileSync(summaryFile, JSON.stringify(summary, null, 2), 'utf8');
+console.log(`\n完了: ${processed}モデル処理 / ${withOffers}モデルで価格取得 / エラー${failures}件`);

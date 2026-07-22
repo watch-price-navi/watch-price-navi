@@ -1,0 +1,66 @@
+# 毎日 JST 03:00 に価格を自動収集し、サイトを再ビルドして GitHub Pages に公開する
+name: Update prices & deploy
+
+on:
+  schedule:
+    - cron: '0 18 * * *' # UTC 18:00 = JST 03:00
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  update-build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Validate catalog data
+        run: npm run validate
+
+      # 価格はリポジトリに保存せず、実行のたびにAPIから取得してビルドにのみ使う
+      # (楽天APIの「取得データの恒久保存・再配布禁止」規約への対応)
+      - name: Fetch latest prices
+        env:
+          RAKUTEN_APP_ID: ${{ secrets.RAKUTEN_APP_ID }}
+          RAKUTEN_ACCESS_KEY: ${{ secrets.RAKUTEN_ACCESS_KEY }}
+          RAKUTEN_AFFILIATE_ID: ${{ secrets.RAKUTEN_AFFILIATE_ID }}
+          RAKUTEN_GENRE_ID: ${{ vars.RAKUTEN_GENRE_ID }}
+          YAHOO_APP_ID: ${{ secrets.YAHOO_APP_ID }}
+          VC_SID: ${{ secrets.VC_SID }}
+          VC_PID: ${{ secrets.VC_PID }}
+        run: node scripts/fetch-prices.mjs
+
+      - name: Build site
+        env:
+          NEXT_PUBLIC_SITE_URL: ${{ vars.NEXT_PUBLIC_SITE_URL }}
+          NEXT_PUBLIC_BASE_PATH: ${{ vars.NEXT_PUBLIC_BASE_PATH }}
+          NEXT_PUBLIC_ADSENSE_CLIENT: ${{ vars.NEXT_PUBLIC_ADSENSE_CLIENT }}
+          NEXT_PUBLIC_ADSENSE_SLOT: ${{ vars.NEXT_PUBLIC_ADSENSE_SLOT }}
+          NEXT_PUBLIC_VC_PID: ${{ vars.NEXT_PUBLIC_VC_PID }}
+          NEXT_PUBLIC_CONTACT_EMAIL: ${{ vars.NEXT_PUBLIC_CONTACT_EMAIL }}
+        run: npm run build
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: out
+
+      - uses: actions/deploy-pages@v4
