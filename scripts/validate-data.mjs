@@ -2,6 +2,8 @@
 /** data/ 配下のJSONを検証する。ビルド前の健全性チェック用 */
 import fs from 'node:fs';
 import path from 'node:path';
+import { loadCatalogs } from './lib/catalog.mjs';
+import { readJson } from './lib/json.mjs';
 
 const ROOT = process.cwd();
 const brandsDir = path.join(ROOT, 'data', 'brands');
@@ -10,7 +12,7 @@ const errors = [];
 const warns = [];
 
 const ID_RE = /^[a-z0-9][a-z0-9.-]*$/;
-const taxonomy = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'taxonomy.json'), 'utf8'));
+const taxonomy = readJson(path.join(ROOT, 'data', 'taxonomy.json'));
 const MOVEMENTS = taxonomy.movements.map((m) => m.id);
 const MATERIALS = taxonomy.caseMaterials.map((m) => m.id);
 const TAGS = taxonomy.tags.map((t) => t.id);
@@ -30,7 +32,7 @@ let enrichedCount = 0;
 for (const f of fs.readdirSync(brandsDir).filter((f) => f.endsWith('.json'))) {
   let cat;
   try {
-    cat = JSON.parse(fs.readFileSync(path.join(brandsDir, f), 'utf8'));
+    cat = readJson(path.join(brandsDir, f));
   } catch (e) {
     errors.push(`${f}: JSONとして不正 (${e.message})`);
     continue;
@@ -89,7 +91,7 @@ if (fs.existsSync(blogDir)) {
   for (const f of fs.readdirSync(blogDir).filter((f) => f.endsWith('.json'))) {
     let p;
     try {
-      p = JSON.parse(fs.readFileSync(path.join(blogDir, f), 'utf8'));
+      p = readJson(path.join(blogDir, f));
     } catch (e) {
       errors.push(`blog/${f}: JSONとして不正 (${e.message})`);
       continue;
@@ -115,7 +117,15 @@ if (fs.existsSync(blogDir)) {
   }
 }
 
-console.log(`検証: ${brandCount}ブランド / ${modelCount}モデル（属性付与済み ${enrichedCount}）/ ブログ${postCount}本`);
+// ---- 自動カタログを含めた最終的な掲載数 ----
+const merged = loadCatalogs(ROOT);
+const mergedTotal = merged.reduce((s, c) => s + c.models.length, 0);
+const autoTotal = merged.reduce((s, c) => s + c.models.filter((m) => m.source === 'auto').length, 0);
+
+console.log(`検証: ${brandCount}ブランド / 人手カタログ ${modelCount}モデル（属性付与済み ${enrichedCount}）/ ブログ${postCount}本`);
+if (autoTotal > 0) {
+  console.log(`掲載合計: ${mergedTotal}モデル（うち出品データからの自動収録 ${autoTotal}件）`);
+}
 if (warns.length) {
   console.log(`\n警告 (${warns.length}):`);
   for (const w of warns.slice(0, 40)) console.log(`  - ${w}`);

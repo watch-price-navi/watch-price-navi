@@ -13,6 +13,7 @@
 
 import fs from 'node:fs';
 import path from 'node:path';
+import { loadCatalogs, readJson } from './lib/catalog.mjs';
 
 const ROOT = process.cwd();
 
@@ -26,7 +27,11 @@ if (fs.existsSync(envFile)) {
 
 const RAKUTEN_APP_ID = process.env.RAKUTEN_APP_ID || '';
 const RAKUTEN_ACCESS_KEY = process.env.RAKUTEN_ACCESS_KEY || '';
-const RAKUTEN_GENRE_ID = process.env.RAKUTEN_GENRE_ID ?? '558929';
+/** 新API基盤が要求する Origin。アプリ登録時の「許可サイト」と一致させること */
+const RAKUTEN_ORIGIN =
+  process.env.RAKUTEN_ORIGIN || process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000';
+// CIでは未登録Variablesが空文字で渡るため || で既定値に倒す
+const RAKUTEN_GENRE_ID = (process.env.RAKUTEN_GENRE_ID ?? '').trim() || '558929';
 const YAHOO_APP_ID = process.env.YAHOO_APP_ID || '';
 
 const args = process.argv.slice(2);
@@ -41,11 +46,11 @@ if (!RAKUTEN_APP_ID && !YAHOO_APP_ID) {
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-async function fetchJson(url, attempt = 0) {
-  const res = await fetch(url, { headers: { 'User-Agent': 'watch-price-navi/1.0' } });
+async function fetchJson(url, attempt = 0, extraHeaders = {}) {
+  const res = await fetch(url, { headers: { 'User-Agent': 'watch-price-navi/1.0', ...extraHeaders } });
   if (res.status === 429 && attempt < 2) {
     await sleep(10_000 * (attempt + 1));
-    return fetchJson(url, attempt + 1);
+    return fetchJson(url, attempt + 1, extraHeaders);
   }
   if (!res.ok) throw new Error(`HTTP ${res.status}`);
   return res.json();
@@ -55,8 +60,11 @@ async function fetchJson(url, attempt = 0) {
 const REF_RE = /\b(?=[A-Z0-9][A-Z0-9.\-/]{3,19}\b)(?=(?:[^0-9]*[0-9]){2,})[A-Z0-9][A-Z0-9.\-/]{3,19}\b/gi;
 
 // 型番と紛らわしいノイズを除外
-const NOISE_RE = /^(20[0-9]{2}|19[0-9]{2}|[0-9]{1,3}MM|[0-9]+[年月日個点セット]|P[0-9]+|NO[0-9]+|[0-9]+[%％]|[0-9]{1,2}[-/][0-9]{1,2})$/i;
-const NOISE_WORDS = ['ATM', 'BAR', 'SS', 'YG', 'PG', 'WG', 'GMT', 'USED', 'NEW'];
+const NOISE_RE = /^((20[0-9]{2}|19[0-9]{2})(SS|AW|FW)?|[0-9]{1,4}(MM|CM|M|G|KG|ML)|[0-9]+[年月日個点セット]|P[0-9]+|NO[0-9]+|[0-9]+[%％]|[0-9]{1,2}[-/][0-9]{1,2}|[0-9]{8,})$/i;
+const NOISE_WORDS = [
+  'ATM', 'BAR', 'SS', 'YG', 'PG', 'WG', 'GMT', 'USED', 'NEW',
+  '316L', '904L', 'PT950', 'PT900', 'PT850', 'AU750', 'AG925', '925', '750', '585',
+];
 
 function extractRefs(title) {
   const found = new Set();
@@ -64,6 +72,8 @@ function extractRefs(title) {
     const s = raw.toUpperCase();
     if (NOISE_RE.test(s) || NOISE_WORDS.includes(s)) continue;
     if (!/[0-9]/.test(s) || !/[A-Z0-9]/.test(s)) continue;
+    // 数字が2桁以下のトークン(K18YG・2WAY等)は型番らしくないので除外
+    if (s.replace(/[^0-9]/g, '').length < 3) continue;
     found.add(s);
   }
   return [...found];
@@ -80,11 +90,14 @@ async function searchRakuten(keyword) {
   });
   if (RAKUTEN_GENRE_ID && RAKUTEN_GENRE_ID !== 'off') params.set('genreId', RAKUTEN_GENRE_ID);
   let endpoint = 'https://app.rakuten.co.jp/services/api/IchibaItem/Search/20220601';
+  const headers = {};
   if (RAKUTEN_ACCESS_KEY) {
     endpoint = 'https://openapi.rakuten.co.jp/ichibams/api/IchibaItem/Search/20260701';
     params.set('accessKey', RAKUTEN_ACCESS_KEY);
+    // 新システムはアプリ登録時の「許可サイト」と一致する Origin ヘッダを要求する
+    headers.Origin = RAKUTEN_ORIGIN;
   }
-  const data = await fetchJson(`${endpoint}?${params}`);
+  const data = await fetchJson(`${endpoint}?${params}`, 0, headers);
   return (data.Items ?? []).map(({ Item }) => ({ title: Item.itemName ?? '', price: Number(Item.itemPrice) || 0 }));
 }
 
@@ -95,20 +108,13 @@ async function searchYahoo(keyword) {
   return (data.hits ?? []).map((h) => ({ title: h.name ?? '', price: Number(h.price) || 0 }));
 }
 
-// ---- カタログの既知型番を集める ----
-const brandsDir = path.join(ROOT, 'data', 'brands');
-const catalogs = fs
-  .readdirSync(brandsDir)
-  .filter((f) => f.endsWith('.json'))
-  .map((f) => {
-    try { return JSON.parse(fs.readFileSync(path.join(brandsDir, f), 'utf8')); } catch { return null; }
-  })
-  .filter(Boolean);
+// ---- カタログの既知型番を集める（自動カタログ data/brands-auto の掲載済み型番も含める） ----
+const catalogs = loadCatalogs(ROOT);
 
 const pendingFile = path.join(ROOT, 'data', 'pending-models.json');
 let previous = { generatedAt: null, candidates: [] };
 if (fs.existsSync(pendingFile)) {
-  try { previous = JSON.parse(fs.readFileSync(pendingFile, 'utf8')); } catch { /* 壊れていれば作り直す */ }
+  try { previous = readJson(pendingFile); } catch { /* 壊れていれば作り直す */ }
 }
 // 一度確認して不要と判断した型番は再掲しない
 const dismissed = new Set((previous.dismissed ?? []).map((s) => s.toUpperCase()));
@@ -145,7 +151,7 @@ for (const cat of catalogs) {
     for (const ref of extractRefs(it.title)) {
       const flat = ref.replace(/[.\-/]/g, '');
       if (known.has(ref) || known.has(flat) || dismissed.has(ref)) continue;
-      const cur = hits.get(ref) ?? { ref, count: 0, minPrice: Infinity, sample: it.title };
+      const cur = hits.get(ref) ?? { ref, count: 0, minPrice: Infinity };
       cur.count++;
       cur.minPrice = Math.min(cur.minPrice, it.price || Infinity);
       hits.set(ref, cur);
@@ -161,8 +167,8 @@ for (const cat of catalogs) {
       brandName: brand.name_ja,
       reference: h.ref,
       listingCount: h.count,
-      minPriceJpy: Number.isFinite(h.minPrice) ? h.minPrice : null,
-      sampleTitle: h.sample.slice(0, 120),
+      // 個別出品の生価格は保存しない(API規約対応)。千円単位に丸めた参考値のみ
+      approxPriceJpy: Number.isFinite(h.minPrice) ? Math.round(h.minPrice / 1000) * 1000 : null,
     }));
 
   if (brandCandidates.length > 0) {

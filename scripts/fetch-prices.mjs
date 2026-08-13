@@ -4,10 +4,15 @@
  * 楽天市場・Yahoo!ショッピングの公式APIから各モデルの出品価格を取得し、
  * data/prices/<brandId>/<modelId>.json と data/prices/summary.json に保存する。
  *
+ * build-auto-catalog.mjs のブランド一括走査では拾えなかったモデルを、型番キーワードで
+ * 個別に検索して補完する役割。人気モデルと価格未取得のモデルを優先し、時間予算内で打ち切る。
+ *
  * 使い方:
  *   node scripts/fetch-prices.mjs                 # 全ブランド
  *   node scripts/fetch-prices.mjs --brand rolex   # 1ブランドのみ
  *   node scripts/fetch-prices.mjs --limit 5       # 各ブランド先頭5モデルのみ(テスト用)
+ *   node scripts/fetch-prices.mjs --max-minutes 90  # 時間予算(既定120分)
+ *   node scripts/fetch-prices.mjs --missing-only  # 価格未取得のモデルだけを対象にする
  *
  * 必要な環境変数(.env でも可): RAKUTEN_APP_ID, YAHOO_APP_ID
  * 任意: RAKUTEN_AFFILIATE_ID, RAKUTEN_GENRE_ID, VC_SID, VC_PID
@@ -15,6 +20,8 @@
 
 import fs from 'node:fs';
 import path from 'node:path';
+import { loadCatalogs } from './lib/catalog.mjs';
+import { readJson } from './lib/json.mjs';
 
 const ROOT = process.cwd();
 
@@ -30,8 +37,12 @@ if (fs.existsSync(envFile)) {
 const RAKUTEN_APP_ID = process.env.RAKUTEN_APP_ID || '';
 // 2026年の新API基盤ではapplicationIdに加えてaccessKeyが必須(旧エンドポイントは2026-08-17廃止予定)
 const RAKUTEN_ACCESS_KEY = process.env.RAKUTEN_ACCESS_KEY || '';
+/** 新システムが要求する Origin。アプリ登録時の「許可サイト」と一致させること */
+const RAKUTEN_ORIGIN =
+  process.env.RAKUTEN_ORIGIN || process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000';
 const RAKUTEN_AFFILIATE_ID = process.env.RAKUTEN_AFFILIATE_ID || '';
-const RAKUTEN_GENRE_ID = process.env.RAKUTEN_GENRE_ID ?? '558929'; // 558929 = 腕時計。'off' で無効化
+// 558929 = 腕時計。'off' で無効化。CIでは未登録Variablesが空文字で渡るため || で既定値に倒す
+const RAKUTEN_GENRE_ID = (process.env.RAKUTEN_GENRE_ID ?? '').trim() || '558929';
 const YAHOO_APP_ID = process.env.YAHOO_APP_ID || '';
 const VC_SID = process.env.VC_SID || '';
 const VC_PID = process.env.VC_PID || '';
@@ -44,6 +55,9 @@ function argValue(name) {
 const onlyBrand = argValue('--brand');
 const limit = Number(argValue('--limit')) || Infinity;
 const delayMs = Number(argValue('--delay')) || 1100; // 楽天APIは1リクエスト/秒制限
+const maxMinutes = Number(argValue('--max-minutes')) || 120;
+const missingOnly = args.includes('--missing-only');
+const deadline = Date.now() + maxMinutes * 60_000;
 
 if (!RAKUTEN_APP_ID && !YAHOO_APP_ID) {
   console.log('APIキーが設定されていないため、価格収集をスキップしました。');
@@ -76,12 +90,14 @@ function detectCondition(title) {
   return 'unknown';
 }
 
-async function fetchJson(url, attempt = 0) {
-  const res = await fetch(url, { headers: { 'User-Agent': 'watch-price-navi/1.0' } });
+async function fetchJson(url, attempt = 0, extraHeaders = {}) {
+  const res = await fetch(url, {
+    headers: { 'User-Agent': 'watch-price-navi/1.0', ...extraHeaders },
+  });
   if (res.status === 429 && attempt < 2) {
     // レート制限超過: 指数バックオフで再試行
     await sleep(10_000 * (attempt + 1));
-    return fetchJson(url, attempt + 1);
+    return fetchJson(url, attempt + 1, extraHeaders);
   }
   if (!res.ok) throw new Error(`HTTP ${res.status} for ${url.split('?')[0]}`);
   return res.json();
@@ -101,12 +117,15 @@ async function fetchRakuten(model, brand) {
   if (RAKUTEN_GENRE_ID && RAKUTEN_GENRE_ID !== 'off') params.set('genreId', RAKUTEN_GENRE_ID);
   // accessKey があれば新エンドポイント、なければ旧エンドポイント(2026-08-17廃止予定)を使用
   let endpoint = 'https://app.rakuten.co.jp/services/api/IchibaItem/Search/20220601';
+  const headers = {};
   if (RAKUTEN_ACCESS_KEY) {
     endpoint = 'https://openapi.rakuten.co.jp/ichibams/api/IchibaItem/Search/20260701';
     params.set('accessKey', RAKUTEN_ACCESS_KEY);
+    // 新システムはアプリ登録時の「許可サイト」と一致する Origin ヘッダを要求する
+    headers.Origin = RAKUTEN_ORIGIN;
   }
   const url = `${endpoint}?${params}`;
-  const data = await fetchJson(url);
+  const data = await fetchJson(url, 0, headers);
   return (data.Items ?? []).map(({ Item: it }) => ({
     source: 'rakuten',
     title: it.itemName ?? '',
@@ -159,82 +178,105 @@ function cleanOffers(offers, model, brand) {
 }
 
 // ---- メイン処理 ----
-const brandsDir = path.join(ROOT, 'data', 'brands');
 const pricesDir = path.join(ROOT, 'data', 'prices');
 fs.mkdirSync(pricesDir, { recursive: true });
 
 const summaryFile = path.join(pricesDir, 'summary.json');
 let summary = {};
 if (fs.existsSync(summaryFile)) {
-  try { summary = JSON.parse(fs.readFileSync(summaryFile, 'utf8')); } catch { summary = {}; }
+  try { summary = readJson(summaryFile); } catch { summary = {}; }
 }
 
-const brandFiles = fs.existsSync(brandsDir)
-  ? fs.readdirSync(brandsDir).filter((f) => f.endsWith('.json'))
-  : [];
+const catalogs = loadCatalogs(ROOT);
 
 let processed = 0;
 let withOffers = 0;
 let failures = 0;
+let skippedForTime = 0;
 
-for (const file of brandFiles) {
-  let catalog;
-  try {
-    catalog = JSON.parse(fs.readFileSync(path.join(brandsDir, file), 'utf8'));
-  } catch (e) {
-    console.warn(`skip malformed ${file}: ${e.message}`);
-    continue;
-  }
+for (const catalog of catalogs) {
   const { brand, models } = catalog;
   if (onlyBrand && brand.id !== onlyBrand) continue;
 
-  console.log(`\n=== ${brand.name_en} (${models.length} models) ===`);
+  // 人気モデル → 価格未取得 → その他 の順に処理し、時間切れ時の取りこぼしを最小化する
+  const queue = models
+    .filter((m) => !missingOnly || !summary[`${brand.id}/${m.id}`])
+    .map((m) => ({
+      m,
+      rank: (m.popular ? 0 : 2) + (summary[`${brand.id}/${m.id}`] ? 1 : 0) + (m.source === 'auto' ? 1 : 0),
+    }))
+    .sort((a, b) => a.rank - b.rank)
+    .map((x) => x.m)
+    .slice(0, limit);
+
+  if (queue.length === 0) continue;
+  console.log(`\n=== ${brand.name_en} (${queue.length} models) ===`);
   const brandDir = path.join(pricesDir, brand.id);
   fs.mkdirSync(brandDir, { recursive: true });
 
-  for (const model of models.slice(0, limit)) {
+  let brandProcessed = 0;
+  for (const model of queue) {
+    if (Date.now() > deadline) {
+      skippedForTime += queue.length - brandProcessed;
+      break;
+    }
     processed++;
-    let offers = [];
+    brandProcessed++;
+    // 片方のAPIが落ちてももう片方の結果は使う（楽天旧API廃止後にYahoo!まで道連れにしない）
+    let rakuten = [];
+    let yahoo = [];
+    let errors = 0;
     try {
-      const rakuten = await fetchRakuten(model, brand);
-      await sleep(delayMs); // 楽天のレート制限(1req/秒)対応
-      const yahoo = await fetchYahoo(model, brand);
-      await sleep(2100); // Yahoo!のレート制限(30req/分)対応
-      offers = cleanOffers([...rakuten, ...yahoo], model, brand);
+      rakuten = await fetchRakuten(model, brand);
     } catch (e) {
-      failures++;
-      console.warn(`  NG ${model.id}: ${e.message}`);
+      errors++;
+      console.warn(`  NG(楽天) ${model.id}: ${e.message}`);
+    }
+    await sleep(delayMs); // 楽天のレート制限(1req/秒)対応
+    try {
+      yahoo = await fetchYahoo(model, brand);
+    } catch (e) {
+      errors++;
+      console.warn(`  NG(Yahoo) ${model.id}: ${e.message}`);
+    }
+    await sleep(2100); // Yahoo!のレート制限(30req/分)対応
+    if (errors > 0) failures++;
+    if (rakuten.length === 0 && yahoo.length === 0 && errors > 0) continue;
+    const offers = cleanOffers([...rakuten, ...yahoo], model, brand);
+
+    const key = `${brand.id}/${model.id}`;
+    const priceFile = path.join(brandDir, `${model.id}.json`);
+
+    // 0件のときは既存データを消さない。ブランド一括走査(build-auto-catalog)が
+    // 型番一致で取得した価格の方が信頼できるため、それを上書きしてしまわないようにする。
+    if (offers.length === 0) {
+      console.log(`  -- ${model.id}: 該当出品なし${summary[key] ? '（既存の価格を維持）' : ''}`);
+      if (!summary[key] && fs.existsSync(priceFile)) fs.rmSync(priceFile);
       continue;
     }
 
-    const key = `${brand.id}/${model.id}`;
     const updatedAt = new Date().toISOString();
-    fs.writeFileSync(
-      path.join(brandDir, `${model.id}.json`),
-      JSON.stringify({ updatedAt, offers }, null, 2),
-      'utf8'
-    );
-    if (offers.length > 0) {
-      withOffers++;
-      const lowestNew = offers.find((o) => o.condition === 'new');
-      const lowestUsed = offers.find((o) => o.condition === 'used');
-      summary[key] = {
-        lowestPrice: offers[0].price,
-        source: offers[0].source,
-        shop: offers[0].shop,
-        offerCount: offers.length,
-        updatedAt,
-        image: offers[0].image ?? null,
-        lowestNew: lowestNew ? lowestNew.price : null,
-        lowestUsed: lowestUsed ? lowestUsed.price : null,
-      };
-      console.log(`  OK ${model.id}: ${offers.length}件 / 最安 ¥${offers[0].price.toLocaleString('ja-JP')}`);
-    } else {
-      delete summary[key];
-      console.log(`  -- ${model.id}: 該当出品なし`);
-    }
+    fs.writeFileSync(priceFile, JSON.stringify({ updatedAt, offers }, null, 2), 'utf8');
+    withOffers++;
+    const lowestNew = offers.find((o) => o.condition === 'new');
+    const lowestUsed = offers.find((o) => o.condition === 'used');
+    summary[key] = {
+      lowestPrice: offers[0].price,
+      source: offers[0].source,
+      shop: offers[0].shop,
+      offerCount: offers.length,
+      updatedAt,
+      image: offers[0].image ?? null,
+      lowestNew: lowestNew ? lowestNew.price : null,
+      lowestUsed: lowestUsed ? lowestUsed.price : null,
+    };
+    console.log(`  OK ${model.id}: ${offers.length}件 / 最安 ¥${offers[0].price.toLocaleString('ja-JP')}`);
   }
 }
 
 fs.writeFileSync(summaryFile, JSON.stringify(summary, null, 2), 'utf8');
 console.log(`\n完了: ${processed}モデル処理 / ${withOffers}モデルで価格取得 / エラー${failures}件`);
+if (skippedForTime > 0) {
+  console.log(`時間予算(${maxMinutes}分)に達したため${skippedForTime}モデルを次回に繰り越しました`);
+}
+console.log(`価格データ合計: ${Object.keys(summary).length}モデル`);

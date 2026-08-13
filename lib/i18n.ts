@@ -86,6 +86,10 @@ const dict: Dict = {
   spec_gender: { ja: 'サイズ区分', en: 'Gender' },
   spec_release: { ja: '発表年', en: 'Released' },
   find_similar: { ja: '似た条件のモデルを探す', en: 'Find similar watches' },
+  auto_sourced: {
+    ja: 'このページの仕様は販売店の出品情報から自動で収録したものです。詳細はメーカー公式情報および各販売店ページでご確認ください。',
+    en: 'The specifications on this page were compiled automatically from seller listings. Please verify details with the manufacturer and the store page.',
+  },
   offers_col_shop: { ja: '販売店', en: 'Store' },
   offers_col_item: { ja: '商品', en: 'Listing' },
   offers_col_cond: { ja: '状態', en: 'Condition' },

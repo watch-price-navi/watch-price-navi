@@ -1,5 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import { readJson } from './json';
 
 export interface BrandInfo {
   id: string;
@@ -35,6 +36,9 @@ export interface WatchModel {
   gender?: string | null;
   releaseYear?: number | null;
   addedAt?: string | null;
+  /** 'auto' は出品データから自動収録したモデル（人手カタログの補完） */
+  source?: 'auto' | undefined;
+  listingCount?: number;
 }
 
 export interface BrandCatalog {
@@ -94,12 +98,38 @@ export function getAllBrands(): BrandCatalog[] {
   for (const f of fs.readdirSync(dir)) {
     if (!f.endsWith('.json')) continue;
     try {
-      const parsed = JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8')) as BrandCatalog;
+      const parsed = readJson<BrandCatalog>(path.join(dir, f));
       if (parsed?.brand?.id && Array.isArray(parsed.models)) list.push(parsed);
     } catch (e) {
       console.warn(`[data] skipping malformed brand file: ${f}`, e);
     }
   }
+
+  // 出品データから自動収録したモデルを追記する（人手カタログの型番・IDが常に優先）
+  const autoDir = path.join(dataDir, 'brands-auto');
+  if (fs.existsSync(autoDir)) {
+    for (const cat of list) {
+      const file = path.join(autoDir, `${cat.brand.id}.json`);
+      if (!fs.existsSync(file)) continue;
+      try {
+        const auto = readJson<{ models: WatchModel[] }>(file);
+        const takenIds = new Set(cat.models.map((m) => m.id));
+        const takenRefs = new Set(
+          cat.models.filter((m) => m.reference).map((m) => m.reference!.toUpperCase().replace(/[.\-/\s]/g, ''))
+        );
+        for (const m of auto.models ?? []) {
+          const ref = m.reference ? m.reference.toUpperCase().replace(/[.\-/\s]/g, '') : null;
+          if (takenIds.has(m.id) || (ref && takenRefs.has(ref))) continue;
+          takenIds.add(m.id);
+          if (ref) takenRefs.add(ref);
+          cat.models.push({ ...m, source: 'auto' });
+        }
+      } catch (e) {
+        console.warn(`[data] skipping malformed auto-catalog: ${cat.brand.id}`, e);
+      }
+    }
+  }
+
   list.sort((a, b) => a.brand.name_en.localeCompare(b.brand.name_en));
   brandsCache = list;
   return list;
@@ -120,7 +150,7 @@ export function getPriceData(brandId: string, modelId: string): PriceData | null
   const file = path.join(dataDir, 'prices', brandId, `${modelId}.json`);
   if (!fs.existsSync(file)) return null;
   try {
-    return JSON.parse(fs.readFileSync(file, 'utf8')) as PriceData;
+    return readJson<PriceData>(file);
   } catch {
     return null;
   }
@@ -132,7 +162,7 @@ export function getSummary(): Record<string, SummaryEntry> {
   if (summaryCache) return summaryCache;
   const file = path.join(dataDir, 'prices', 'summary.json');
   try {
-    summaryCache = fs.existsSync(file) ? (JSON.parse(fs.readFileSync(file, 'utf8')) as Record<string, SummaryEntry>) : {};
+    summaryCache = fs.existsSync(file) ? readJson<Record<string, SummaryEntry>>(file) : {};
   } catch {
     summaryCache = {};
   }
@@ -149,7 +179,7 @@ export function getDealers(): Dealer[] {
   if (dealersCache) return dealersCache;
   const file = path.join(dataDir, 'dealers.json');
   try {
-    dealersCache = fs.existsSync(file) ? ((JSON.parse(fs.readFileSync(file, 'utf8')) as { dealers: Dealer[] }).dealers ?? []) : [];
+    dealersCache = fs.existsSync(file) ? (readJson<{ dealers: Dealer[] }>(file).dealers ?? []) : [];
   } catch {
     dealersCache = [];
   }

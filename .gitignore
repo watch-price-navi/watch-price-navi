@@ -6,6 +6,7 @@ out/
 *.log
 .DS_Store
 next-env.d.ts
+tsconfig.tsbuildinfo
 public/search-index.json
 
 # 価格データはAPI規約(恒久保存・再配布の禁止)に配慮しリポジトリに含めない。

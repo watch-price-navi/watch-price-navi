@@ -2,22 +2,22 @@
 /** 検索ページ・検索ボックス用のインデックス public/search-index.json を生成する */
 import fs from 'node:fs';
 import path from 'node:path';
+import { loadCatalogs } from './lib/catalog.mjs';
+import { readJson } from './lib/json.mjs';
 
 const ROOT = process.cwd();
-const brandsDir = path.join(ROOT, 'data', 'brands');
 const summaryFile = path.join(ROOT, 'data', 'prices', 'summary.json');
 const outFile = path.join(ROOT, 'public', 'search-index.json');
 
 let summary = {};
 if (fs.existsSync(summaryFile)) {
-  try { summary = JSON.parse(fs.readFileSync(summaryFile, 'utf8')); } catch { summary = {}; }
+  try { summary = readJson(summaryFile); } catch { summary = {}; }
 }
 
 const entries = [];
-if (fs.existsSync(brandsDir)) {
-  for (const f of fs.readdirSync(brandsDir).filter((f) => f.endsWith('.json'))) {
-    try {
-      const { brand, models } = JSON.parse(fs.readFileSync(path.join(brandsDir, f), 'utf8'));
+{
+  for (const { brand, models } of loadCatalogs(ROOT)) {
+    {
       for (const m of models ?? []) {
         const s = summary[`${brand.id}/${m.id}`] ?? null;
         entries.push({
@@ -42,8 +42,6 @@ if (fs.existsSync(brandsDir)) {
           img: s ? (s.image ?? null) : null,
         });
       }
-    } catch (e) {
-      console.warn(`skip malformed ${f}: ${e.message}`);
     }
   }
 }

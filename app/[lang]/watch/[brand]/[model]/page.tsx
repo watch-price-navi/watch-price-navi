@@ -232,6 +232,12 @@ export default async function ModelPage({
           </div>
         </dl>
 
+        {model.source === 'auto' && (
+          <p className="small-note" style={{ marginTop: 14 }}>
+            {t(lang, 'auto_sourced')}
+          </p>
+        )}
+
         {model.tags.length > 0 && (
           <div className="tag-row">
             {model.tags.map((tag) => (

@@ -10,6 +10,7 @@
     "fetch-prices": "node scripts/fetch-prices.mjs",
     "blog": "node scripts/generate-blog.mjs",
     "discover": "node scripts/discover-models.mjs",
+    "auto-catalog": "node scripts/build-auto-catalog.mjs",
     "search-index": "node scripts/build-search-index.mjs"
   },
   "dependencies": {

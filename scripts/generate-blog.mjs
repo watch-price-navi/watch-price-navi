@@ -13,6 +13,7 @@
 
 import fs from 'node:fs';
 import path from 'node:path';
+import { readJson } from './lib/json.mjs';
 
 const ROOT = process.cwd();
 
@@ -31,7 +32,10 @@ const MODEL = process.env.BLOG_MODEL || 'claude-sonnet-5';
 const args = process.argv.slice(2);
 const force = args.includes('--force');
 const dateArg = args[args.indexOf('--date') + 1];
-const today = /^\d{4}-\d{2}-\d{2}$/.test(dateArg || '') ? dateArg : new Date().toISOString().slice(0, 10);
+// 「今日」はJST基準で決める。UTC基準だと朝6時JST(=前日21時UTC)の定期実行が前日日付になり、
+// 手動実行と日付が衝突して記事の出ない日ができてしまう。
+const todayJst = new Date(Date.now() + 9 * 3600_000).toISOString().slice(0, 10);
+const today = /^\d{4}-\d{2}-\d{2}$/.test(dateArg || '') ? dateArg : todayJst;
 
 const brandsDir = path.join(ROOT, 'data', 'brands');
 const blogDir = path.join(ROOT, 'data', 'blog');
@@ -41,7 +45,7 @@ fs.mkdirSync(blogDir, { recursive: true });
 const catalogs = [];
 for (const f of fs.readdirSync(brandsDir).filter((f) => f.endsWith('.json'))) {
   try {
-    catalogs.push(JSON.parse(fs.readFileSync(path.join(brandsDir, f), 'utf8')));
+    catalogs.push(readJson(path.join(brandsDir, f)));
   } catch { /* 壊れたファイルは無視 */ }
 }
 if (catalogs.length === 0) {
@@ -58,7 +62,7 @@ if (!force && existing.some((f) => f.startsWith(today))) {
 // 既出テーマを読み、直近の重複を避ける
 const pastPosts = existing
   .map((f) => {
-    try { return JSON.parse(fs.readFileSync(path.join(blogDir, f), 'utf8')); } catch { return null; }
+    try { return readJson(path.join(blogDir, f)); } catch { return null; }
   })
   .filter(Boolean);
 const usedHeroes = new Set(pastPosts.map((p) => p.heroModel).filter(Boolean));

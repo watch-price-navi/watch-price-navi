@@ -1,5 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import { readJson } from './json';
 
 export interface BlogPost {
   slug: string;
@@ -26,7 +27,7 @@ export function getBlogPosts(): BlogPost[] {
     for (const f of fs.readdirSync(blogDir)) {
       if (!f.endsWith('.json')) continue;
       try {
-        const p = JSON.parse(fs.readFileSync(path.join(blogDir, f), 'utf8')) as BlogPost;
+        const p = readJson<BlogPost>(path.join(blogDir, f));
         if (p?.slug && p?.date && p?.title_ja && p?.body_ja) {
           p.relatedModels = Array.isArray(p.relatedModels) ? p.relatedModels : [];
           p.topics = Array.isArray(p.topics) ? p.topics : [];
