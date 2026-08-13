@@ -28,7 +28,9 @@
       "waterResistanceM": 30,
       "gender": "mens",
       "releaseYear": null,
-      "tags": ["dress"],
+      "tags": [
+        "dress"
+      ],
       "popular": true,
       "summary_ja": "ブランドを象徴する樽型ケースの大型モデル。デイト付き自動巻きで、ビザン数字の文字盤と手首に沿う立体的なカーベックスケースが魅力。中古市場でも常に高い人気を維持する定番機。",
       "summary_en": "The large tonneau-shaped icon of the brand, featuring an automatic movement with date and the signature Byzantine numerals. A perennial favorite on the pre-owned market."
@@ -51,7 +53,9 @@
       "waterResistanceM": 30,
       "gender": "unisex",
       "releaseYear": 2003,
-      "tags": ["dress"],
+      "tags": [
+        "dress"
+      ],
       "popular": true,
       "summary_ja": "文字盤の数字を不規則に配置し、時針がジャンプして正しい時刻を示す独創的な機構を搭載。2003年の発表以来、フランク ミュラーの遊び心を象徴する看板モデルとして人気が高い。",
       "summary_en": "An inventive model whose jumping hour hand leaps across randomly arranged numerals to show the correct time. A signature of Franck Muller's playful watchmaking since 2003."
@@ -74,7 +78,10 @@
       "waterResistanceM": 30,
       "gender": "unisex",
       "releaseYear": null,
-      "tags": ["dress", "sport"],
+      "tags": [
+        "dress",
+        "sport"
+      ],
       "popular": true,
       "summary_ja": "映画『カサブランカ』に着想を得たカジュアルライン。夜光インデックスを備えたクラシックな文字盤とトノウケースの組み合わせで、日本では特に知名度が高い定番人気モデル。",
       "summary_en": "A casual line inspired by the film Casablanca, pairing a vintage-style luminous dial with the tonneau case. One of Franck Muller's best-known models in Japan."
@@ -97,7 +104,9 @@
       "waterResistanceM": 30,
       "gender": "ladies",
       "releaseYear": null,
-      "tags": ["dress"],
+      "tags": [
+        "dress"
+      ],
       "popular": true,
       "summary_ja": "アール・デコ様式の縦長レクタンギュラーケースが特徴のレディース定番。クオーツ搭載で日常使いしやすく、日本の中古市場で流通量が非常に多い人気モデル。",
       "summary_en": "A ladies' staple with an elongated Art Deco rectangular case and quartz movement. Widely traded on the Japanese pre-owned market."
@@ -120,7 +129,10 @@
       "waterResistanceM": 30,
       "gender": "mens",
       "releaseYear": 2013,
-      "tags": ["sport", "luxury-sport"],
+      "tags": [
+        "sport",
+        "luxury-sport"
+      ],
       "popular": true,
       "summary_ja": "2013年に登場した現行の主力スポーツライン。大型トノウケースに立体的なアプライド数字を備え、ラバーストラップと一体化した現代的なデザインで幅広い層の支持を集める。",
       "summary_en": "The brand's flagship sporty line launched in 2013, combining a bold tonneau case with applied numerals and an integrated rubber strap."
@@ -143,7 +155,9 @@
       "waterResistanceM": 30,
       "gender": "unisex",
       "releaseYear": null,
-      "tags": ["dress"],
+      "tags": [
+        "dress"
+      ],
       "popular": false,
       "summary_ja": "ミドルサイズのトノウ カーベックス。手首に沿う湾曲ケースとビザン数字のクラシックな佇まいが魅力で、男女問わず着用できるサイズ感から中古市場で根強い人気を持つ。",
       "summary_en": "The mid-size Cintree Curvex with a curved case that hugs the wrist. Its unisex proportions keep it in steady demand on the secondary market."
@@ -166,7 +180,11 @@
       "waterResistanceM": 30,
       "gender": "unisex",
       "releaseYear": null,
-      "tags": ["dress", "gmt", "world-timer"],
+      "tags": [
+        "dress",
+        "gmt",
+        "world-timer"
+      ],
       "popular": false,
       "summary_ja": "1つのリューズで3つのタイムゾーンを設定できる独創的なトリプルタイムゾーン機構を搭載。世界市場を相手にする銀行家に向けて開発された、実用性の高い複雑時計。",
       "summary_en": "A triple time zone watch controlled by a single crown, originally conceived for bankers tracking global markets."
@@ -189,10 +207,197 @@
       "waterResistanceM": null,
       "gender": "mens",
       "releaseYear": null,
-      "tags": ["sport", "luxury-sport"],
+      "tags": [
+        "sport",
+        "luxury-sport"
+      ],
       "popular": false,
       "summary_ja": "「征服者」の名を持つスポーツライン。堅牢で厚みのあるトノウケースが力強い印象を与え、ドレス系が中心の同ブランドの中でスポーティな選択肢として人気を集める。",
       "summary_en": "Franck Muller's 'conqueror' sports line, offering a robust tonneau case and a muscular presence as a sportier alternative within the collection."
+    },
+    {
+      "id": "vanguard-v41-sc-dt",
+      "name_en": "Vanguard V41 SC DT",
+      "name_ja": "ヴァンガード V41 SC DT",
+      "reference": "V41 SC DT",
+      "collection_en": "Vanguard",
+      "collection_ja": "ヴァンガード",
+      "caseSizeMm": 41,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 500000,
+      "searchKeywordJa": "フランクミュラー ヴァンガード V41SCDT",
+      "searchKeywordEn": "Franck Muller Vanguard V41 SC DT",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": 30,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport",
+        "luxury-sport"
+      ],
+      "popular": true,
+      "summary_ja": "ヴァンガードの41mmケースを採用したミドルサイズモデル。44mmのV45より扱いやすく、日本人の腕にも収まりやすいことから人気が高い。デイト付き自動巻きでラバーストラップを組み合わせる。",
+      "summary_en": "The 41 mm version of the Vanguard, easier to wear than the 44 mm V45. An automatic with date on an integrated rubber strap."
+    },
+    {
+      "id": "vanguard-v45-cc-dt",
+      "name_en": "Vanguard Chronograph V45 CC DT",
+      "name_ja": "ヴァンガード クロノグラフ V45 CC DT",
+      "reference": "V45 CC DT",
+      "collection_en": "Vanguard",
+      "collection_ja": "ヴァンガード",
+      "caseSizeMm": 44,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 700000,
+      "searchKeywordJa": "フランクミュラー ヴァンガード クロノグラフ V45CCDT",
+      "searchKeywordEn": "Franck Muller Vanguard Chronograph V45 CC DT",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": 30,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph",
+        "sport",
+        "luxury-sport"
+      ],
+      "popular": true,
+      "summary_ja": "ヴァンガードのクロノグラフ仕様。44mmの大型トノウケースに2カウンターのクロノグラフとデイトを備え、立体的なアプライド数字とスポーティな存在感で男性人気の高い一本。",
+      "summary_en": "The chronograph version of the Vanguard, with a 44 mm tonneau case, two counters and a date. A bold, sporty favorite among men."
+    },
+    {
+      "id": "vanguard-crazy-hours-v45-ch",
+      "name_en": "Vanguard Crazy Hours V45 CH",
+      "name_ja": "ヴァンガード クレイジーアワーズ V45 CH",
+      "reference": "V45 CH",
+      "collection_en": "Vanguard",
+      "collection_ja": "ヴァンガード",
+      "caseSizeMm": 44,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 850000,
+      "searchKeywordJa": "フランクミュラー ヴァンガード クレイジーアワーズ V45CH",
+      "searchKeywordEn": "Franck Muller Vanguard Crazy Hours V45 CH",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": 30,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport",
+        "luxury-sport"
+      ],
+      "popular": false,
+      "summary_ja": "看板機構クレイジーアワーズを現行のヴァンガードケースに搭載したモデル。不規則配置の数字を時針がジャンプして正しい時刻を指す遊び心を、44mmのスポーティな装いで楽しめる。",
+      "summary_en": "The brand's signature jumping-hour Crazy Hours complication housed in the modern 44 mm Vanguard case."
+    },
+    {
+      "id": "cintree-curvex-8880-cc-at",
+      "name_en": "Cintree Curvex Chronograph 8880 CC AT",
+      "name_ja": "トノウ カーベックス クロノグラフ 8880 CC AT",
+      "reference": "8880 CC AT",
+      "collection_en": "Cintree Curvex",
+      "collection_ja": "トノウ カーベックス",
+      "caseSizeMm": 39.5,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 500000,
+      "searchKeywordJa": "フランクミュラー トノウカーベックス クロノグラフ 8880CCAT",
+      "searchKeywordEn": "Franck Muller Cintree Curvex Chronograph 8880 CC AT",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": 30,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph",
+        "dress"
+      ],
+      "popular": false,
+      "summary_ja": "8880ケースにクロノグラフを組み込んだ人気作。湾曲した樽型ケースにビザン数字とクロノカウンターが同居し、ドレッシーでありながら実用性も備える。中古市場での流通量も多い。",
+      "summary_en": "A chronograph built into the curved 8880 tonneau case, combining Byzantine numerals with chronograph counters. Widely available pre-owned."
+    },
+    {
+      "id": "conquistador-cortez-10000-h-sc",
+      "name_en": "Conquistador Cortez 10000 H SC",
+      "name_ja": "コンキスタドール コルテス 10000 H SC",
+      "reference": "10000 H SC",
+      "collection_en": "Conquistador Cortez",
+      "collection_ja": "コンキスタドール コルテス",
+      "caseSizeMm": 41,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 450000,
+      "searchKeywordJa": "フランクミュラー コンキスタドール コルテス 10000HSC",
+      "searchKeywordEn": "Franck Muller Conquistador Cortez 10000 H SC",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport",
+        "luxury-sport"
+      ],
+      "popular": false,
+      "summary_ja": "コンキスタドールの発展型コルテス。41mmのステンレスケースにブレスレットを組み合わせ、日常使いしやすいスポーティモデルとして日本の中古市場でも定番の存在となっている。",
+      "summary_en": "The Cortez evolution of the Conquistador, a 41 mm steel sports model on a bracelet and a staple of the Japanese pre-owned market."
+    },
+    {
+      "id": "conquistador-cortez-10000-k-sc",
+      "name_en": "Conquistador King Cortez 10000 K SC",
+      "name_ja": "コンキスタドール キングコルテス 10000 K SC",
+      "reference": "10000 K SC",
+      "collection_en": "Conquistador Cortez",
+      "collection_ja": "コンキスタドール コルテス",
+      "caseSizeMm": 45,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 900000,
+      "searchKeywordJa": "フランクミュラー コンキスタドール キングコルテス 10000KSC",
+      "searchKeywordEn": "Franck Muller Conquistador King Cortez 10000 K SC",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport",
+        "luxury-sport"
+      ],
+      "popular": false,
+      "summary_ja": "コルテスの大型版「キングコルテス」。45mmの迫力あるトノウケースにセンターセコンドの自動巻きを搭載し、ステンレスからゴールドまで多彩な素材違いが存在する。",
+      "summary_en": "The oversized King Cortez, a 45 mm tonneau case with a centre-seconds automatic, offered in steel through to gold."
+    },
+    {
+      "id": "conquistador-cortez-10000-k-cc",
+      "name_en": "Conquistador King Cortez Chronograph 10000 K CC",
+      "name_ja": "コンキスタドール キングコルテス クロノグラフ 10000 K CC",
+      "reference": "10000 K CC",
+      "collection_en": "Conquistador Cortez",
+      "collection_ja": "コンキスタドール コルテス",
+      "caseSizeMm": 45,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 1000000,
+      "searchKeywordJa": "フランクミュラー コンキスタドール キングコルテス 10000KCC",
+      "searchKeywordEn": "Franck Muller Conquistador King Cortez Chronograph 10000 K CC",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph",
+        "sport",
+        "luxury-sport"
+      ],
+      "popular": false,
+      "summary_ja": "キングコルテスのクロノグラフ版。45mmの大ぶりなケースにクロノグラフとデイトを備え、力強い存在感が魅力。ステンレスやローズゴールドなど素材違いが流通している。",
+      "summary_en": "The chronograph King Cortez, a commanding 45 mm case with chronograph and date, found in steel and rose gold."
     }
   ]
 }

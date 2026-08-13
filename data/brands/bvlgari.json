@@ -28,7 +28,11 @@
       "waterResistanceM": 30,
       "gender": "mens",
       "releaseYear": null,
-      "tags": ["dress", "luxury-sport", "small-seconds"],
+      "tags": [
+        "dress",
+        "luxury-sport",
+        "small-seconds"
+      ],
       "popular": true,
       "summary_ja": "厚さ約2.23mmの極薄自動巻キャリバーBVL138を搭載した、サンドブラスト仕上げスチールの薄型時計。世界最薄級の設計と建築的な八角形ケースで、現代ブルガリを象徴するモデル。",
       "summary_en": "An ultra-thin sandblasted steel icon powered by the 2.23mm-thick BVL 138 micro-rotor movement, part of the line that redefined Bvlgari as a leader in slim mechanical watchmaking."
@@ -51,7 +55,9 @@
       "waterResistanceM": 30,
       "gender": "mens",
       "releaseYear": null,
-      "tags": ["dress"],
+      "tags": [
+        "dress"
+      ],
       "popular": true,
       "summary_ja": "ベゼルのダブルロゴが象徴の1977年発祥アイコンの現行メンズサイズ。自社製自動巻ムーブメントを搭載し、新品・中古ともに流通量が多いブルガリの定番ドレスウォッチ。",
       "summary_en": "The current 41mm men's version of the 1977 double-logo icon, powered by an in-house automatic movement and a staple of Bvlgari's dress watch lineup."
@@ -74,7 +80,9 @@
       "waterResistanceM": 30,
       "gender": "ladies",
       "releaseYear": null,
-      "tags": ["dress"],
+      "tags": [
+        "dress"
+      ],
       "popular": true,
       "summary_ja": "蛇が腕に巻き付く姿を表現したトゥボガス製法のブレスレットウォッチ。1940年代から続くブルガリを代表するレディースアイコンで、日本の中古市場でも常に高い人気を誇る。",
       "summary_en": "A snake-inspired bracelet watch built with the signature Tubogas technique, Bvlgari's most famous ladies' icon since the 1940s and a perennial favorite on the pre-owned market."
@@ -97,7 +105,12 @@
       "waterResistanceM": 100,
       "gender": "unisex",
       "releaseYear": 2020,
-      "tags": ["sport", "luxury-sport", "lightweight", "vintage-reissue"],
+      "tags": [
+        "sport",
+        "luxury-sport",
+        "lightweight",
+        "vintage-reissue"
+      ],
       "popular": true,
       "summary_ja": "1998年に登場したアルミとラバーの軽量スポーツウォッチを2020年に復刻した現行モデル。カジュアルに使える価格帯とデザインで、若年層にも人気が高いエントリーモデル。",
       "summary_en": "The 2020 revival of Bvlgari's 1998 aluminium-and-rubber sports watch, an accessible automatic that has become a popular entry point into the brand."
@@ -120,7 +133,9 @@
       "waterResistanceM": 30,
       "gender": "unisex",
       "releaseYear": null,
-      "tags": ["dress"],
+      "tags": [
+        "dress"
+      ],
       "popular": true,
       "summary_ja": "1990年代に登場したシンプルなクォーツ3針モデル。ミニマルなラウンドケースと視認性の高い文字盤で、中古市場では手頃な価格帯のブルガリ入門機として長年安定した人気を保つ。",
       "summary_en": "A minimalist quartz three-hander from the 1990s that remains one of the most affordable and widely traded Bvlgari watches on Japan's pre-owned market."
@@ -143,7 +158,11 @@
       "waterResistanceM": 100,
       "gender": "mens",
       "releaseYear": null,
-      "tags": ["sport", "chronograph", "luxury-sport"],
+      "tags": [
+        "sport",
+        "chronograph",
+        "luxury-sport"
+      ],
       "popular": false,
       "summary_ja": "1990年代から2010年代までブルガリのスポーツラインを担ったディアゴノのクロノグラフ。既に生産終了しているが、中古市場では豊富な個体数と手頃な相場で定番人気を維持する。",
       "summary_en": "The chronograph version of Bvlgari's long-running Diagono sports line; discontinued but still abundant and popular on the secondary market."
@@ -166,7 +185,10 @@
       "waterResistanceM": 50,
       "gender": "mens",
       "releaseYear": null,
-      "tags": ["dress", "luxury-sport"],
+      "tags": [
+        "dress",
+        "luxury-sport"
+      ],
       "popular": false,
       "summary_ja": "オクトの八角形デザインをより丸みを帯びた日常向けケースに落とし込んだ現行コレクション。自社製自動巻を搭載し、フィニッシモより手の届きやすい価格帯で支持を集める。",
       "summary_en": "A rounder, more wearable take on the octagonal Octo case, powered by Bvlgari's in-house BVL 191 automatic movement."
@@ -189,10 +211,228 @@
       "waterResistanceM": 30,
       "gender": "mens",
       "releaseYear": 2019,
-      "tags": ["chronograph", "gmt", "luxury-sport", "lightweight"],
+      "tags": [
+        "chronograph",
+        "gmt",
+        "luxury-sport",
+        "lightweight"
+      ],
       "popular": false,
       "summary_ja": "2019年に世界最薄記録を打ち立てた自動巻クロノグラフGMTのブラックチタン版。厚さ約3.3mmのBVL318を42mmのサンドブラストチタンケースに収め、薄型技術の頂点を示す一本。",
       "summary_en": "The black titanium execution of the record-setting ultra-thin automatic chronograph GMT, housing the 3.3mm-thick BVL 318 calibre in a 42mm sandblasted titanium case."
+    },
+    {
+      "id": "octo-finissimo-automatic-103011",
+      "name_en": "Octo Finissimo Automatic Steel Bracelet",
+      "name_ja": "オクト フィニッシモ オートマティック スチール ブレスレット",
+      "reference": "103011",
+      "collection_en": "Octo Finissimo",
+      "collection_ja": "オクト フィニッシモ",
+      "caseSizeMm": 40,
+      "movementType": "automatic",
+      "caliber": "BVL 138",
+      "listPriceJpy": null,
+      "priceFloorJpy": 500000,
+      "searchKeywordJa": "ブルガリ オクト フィニッシモ 103011",
+      "searchKeywordEn": "Bvlgari Octo Finissimo 103011",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": 30,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "dress",
+        "luxury-sport",
+        "small-seconds"
+      ],
+      "popular": true,
+      "summary_ja": "40mmステンレススチールケースに極薄自動巻BVL138を収めたオクト フィニッシモ。一体型ブレスレットと八角形ケースが生む建築的な佇まいで、薄型ラグジュアリースポーツの代表格。",
+      "summary_en": "A 40mm steel Octo Finissimo on an integrated bracelet, powered by the ultra-thin BVL 138 micro-rotor automatic movement."
+    },
+    {
+      "id": "octo-finissimo-skeleton-102941",
+      "name_en": "Octo Finissimo Skeleton Titanium",
+      "name_ja": "オクト フィニッシモ スケルトン チタン",
+      "reference": "102941",
+      "collection_en": "Octo Finissimo",
+      "collection_ja": "オクト フィニッシモ",
+      "caseSizeMm": 40,
+      "movementType": "manual",
+      "caliber": "BVL 128SK",
+      "listPriceJpy": null,
+      "priceFloorJpy": 1500000,
+      "searchKeywordJa": "ブルガリ オクト フィニッシモ スケルトン 102941",
+      "searchKeywordEn": "Bvlgari Octo Finissimo Skeleton 102941",
+      "caseMaterial": "titanium",
+      "waterResistanceM": 30,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "skeleton",
+        "dress",
+        "luxury-sport",
+        "lightweight"
+      ],
+      "popular": false,
+      "summary_ja": "サンドブラスト仕上げのチタンケースに手巻スケルトンムーブメントを搭載した薄型モデル。骨格を露わにした地板とオクト特有の八角形が響き合う、技巧派向けの一本。",
+      "summary_en": "A sandblasted titanium Octo Finissimo with a hand-wound skeletonised movement, showcasing Bvlgari's ultra-thin engineering."
+    },
+    {
+      "id": "serpenti-seduttori-103145",
+      "name_en": "Serpenti Seduttori Rose Gold",
+      "name_ja": "セルペンティ セドゥットーリ ローズゴールド",
+      "reference": "103145",
+      "collection_en": "Serpenti",
+      "collection_ja": "セルペンティ",
+      "caseSizeMm": 33,
+      "movementType": "quartz",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 1500000,
+      "searchKeywordJa": "ブルガリ セルペンティ セドゥットーリ 103145",
+      "searchKeywordEn": "Bvlgari Serpenti Seduttori 103145",
+      "caseMaterial": "rose-gold",
+      "waterResistanceM": 30,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "dress",
+        "luxury-sport"
+      ],
+      "popular": false,
+      "summary_ja": "33mmの18Kローズゴールドケースにピンクルベライトのカボションを配したレディースモデル。蛇のウロコを思わせるブレスレットとオパーリンダイヤルが上品な輝きを放つ。",
+      "summary_en": "A 33mm 18kt rose gold Serpenti Seduttori with a rubellite cabochon crown and silver opaline dial on a scale-like gold bracelet."
+    },
+    {
+      "id": "aluminium-chronograph-103383",
+      "name_en": "Bvlgari Aluminium Chronograph",
+      "name_ja": "ブルガリ アルミニウム クロノグラフ",
+      "reference": "103383",
+      "collection_en": "Bvlgari Aluminium",
+      "collection_ja": "ブルガリ アルミニウム",
+      "caseSizeMm": 40,
+      "movementType": "automatic",
+      "caliber": "B130",
+      "listPriceJpy": null,
+      "priceFloorJpy": 250000,
+      "searchKeywordJa": "ブルガリ アルミニウム クロノグラフ 103383",
+      "searchKeywordEn": "Bvlgari Aluminium Chronograph 103383",
+      "caseMaterial": "other",
+      "waterResistanceM": 100,
+      "gender": "mens",
+      "releaseYear": 2020,
+      "tags": [
+        "chronograph",
+        "sport",
+        "lightweight",
+        "vintage-reissue"
+      ],
+      "popular": true,
+      "summary_ja": "2020年の復活と同時に登場したアルミニウム製クロノグラフ。40mmケースにグレーダイヤルとラバーベゼルを組み合わせ、自動巻B130を搭載した軽量スポーツクロノ。",
+      "summary_en": "The 40mm aluminium chronograph launched with the 2020 Aluminium revival, driven by the automatic B130 calibre and water resistant to 100m."
+    },
+    {
+      "id": "aluminium-chronograph-103868",
+      "name_en": "Bvlgari Aluminium Chronograph Black",
+      "name_ja": "ブルガリ アルミニウム クロノグラフ ブラック",
+      "reference": "103868",
+      "collection_en": "Bvlgari Aluminium",
+      "collection_ja": "ブルガリ アルミニウム",
+      "caseSizeMm": 41,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 300000,
+      "searchKeywordJa": "ブルガリ アルミニウム クロノグラフ 103868",
+      "searchKeywordEn": "Bvlgari Aluminium Chronograph 103868",
+      "caseMaterial": "other",
+      "waterResistanceM": 100,
+      "gender": "mens",
+      "releaseYear": 2023,
+      "tags": [
+        "chronograph",
+        "sport",
+        "lightweight"
+      ],
+      "popular": false,
+      "summary_ja": "2023年に登場したオールブラック仕様のアルミニウム クロノグラフ。41mmケースにDLC加工チタンのクラウンとバックを備え、ラバーベゼルと黒文字盤で統一感を高めた一本。",
+      "summary_en": "The 2023 all-black Aluminium Chronograph in a 41mm case with DLC-coated titanium crown and caseback, on a rubber-and-aluminium bracelet."
+    },
+    {
+      "id": "lucea-33",
+      "name_en": "Lucea 33mm",
+      "name_ja": "ルチェア 33mm",
+      "reference": null,
+      "collection_en": "Lucea",
+      "collection_ja": "ルチェア",
+      "caseSizeMm": 33,
+      "movementType": "quartz",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 120000,
+      "searchKeywordJa": "ブルガリ ルチェア 33mm",
+      "searchKeywordEn": "Bvlgari Lucea 33mm",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": 30,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "dress"
+      ],
+      "popular": false,
+      "summary_ja": "光をテーマにした丸みのあるラウンドケースが特徴のレディースコレクション。柔らかなラグとカボション付きリューズが上品で、日本の中古市場でも流通量が多い定番の一本。",
+      "summary_en": "Bvlgari's rounded ladies' collection inspired by light, with soft lugs and a cabochon crown; widely traded on Japan's pre-owned market."
+    },
+    {
+      "id": "rettangolo",
+      "name_en": "Rettangolo",
+      "name_ja": "レッタンゴロ",
+      "reference": null,
+      "collection_en": "Rettangolo",
+      "collection_ja": "レッタンゴロ",
+      "caseSizeMm": null,
+      "movementType": "quartz",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 40000,
+      "searchKeywordJa": "ブルガリ レッタンゴロ",
+      "searchKeywordEn": "Bvlgari Rettangolo",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": 30,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "dress"
+      ],
+      "popular": false,
+      "summary_ja": "1990年代に登場したブルガリの角型ドレスウォッチ。イタリアらしい端正な長方形ケースとダブルロゴのダイヤルが特徴で、生産終了後も中古市場で手頃な価格帯の定番として人気。",
+      "summary_en": "Bvlgari's rectangular dress watch from the 1990s, discontinued but still an affordable and popular staple on the secondary market."
+    },
+    {
+      "id": "diagono-magnesium-41",
+      "name_en": "Diagono Magnesium",
+      "name_ja": "ディアゴノ マグネシウム",
+      "reference": null,
+      "collection_en": "Diagono",
+      "collection_ja": "ディアゴノ",
+      "caseSizeMm": 41,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 130000,
+      "searchKeywordJa": "ブルガリ ディアゴノ マグネシウム",
+      "searchKeywordEn": "Bvlgari Diagono Magnesium",
+      "caseMaterial": "other",
+      "waterResistanceM": 100,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport",
+        "luxury-sport",
+        "lightweight"
+      ],
+      "popular": false,
+      "summary_ja": "軽量なマグネシウム合金とPEEK樹脂を組み合わせたディアゴノのスポーツモデル。自社製自動巻を搭載し、手に取ると驚くほど軽い装着感でカジュアルに使える実用機として支持された。",
+      "summary_en": "A lightweight Diagono sports model combining a magnesium alloy case with PEEK components and an in-house automatic movement."
     }
   ]
 }

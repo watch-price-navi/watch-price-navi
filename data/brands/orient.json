@@ -28,7 +28,10 @@
       "waterResistanceM": 200,
       "gender": "mens",
       "releaseYear": 2019,
-      "tags": ["diver", "sport"],
+      "tags": [
+        "diver",
+        "sport"
+      ],
       "popular": true,
       "summary_ja": "20気圧防水とサファイアガラスを備えた本格ダイバーズ。魚のカマスに由来する名を持ち、コストパフォーマンスの高さで国内外に多くのファンを持つオリエントの看板スポーツモデル。",
       "summary_en": "A 200m dive watch with sapphire crystal and in-house automatic movement, the Kamasu is Orient's flagship affordable diver and a favorite among enthusiasts worldwide."
@@ -51,7 +54,9 @@
       "waterResistanceM": 30,
       "gender": "mens",
       "releaseYear": null,
-      "tags": ["dress"],
+      "tags": [
+        "dress"
+      ],
       "popular": true,
       "summary_ja": "ドーム型風防とクラシックな文字盤が魅力の定番ドレスウォッチ。手巻き・ハック機能付きの自社製自動巻きを搭載し、機械式入門機として世界的なベストセラーとなっている。",
       "summary_en": "Orient's best-selling classic dress watch with a domed crystal and hacking, hand-winding automatic movement — a worldwide favorite entry into mechanical watches."
@@ -74,7 +79,10 @@
       "waterResistanceM": 200,
       "gender": "mens",
       "releaseYear": null,
-      "tags": ["diver", "sport"],
+      "tags": [
+        "diver",
+        "sport"
+      ],
       "popular": true,
       "summary_ja": "オリエントのダイバーズを象徴するロングセラー。歴代モデルが海外でも高い人気を誇り、20気圧防水と堅実な自動巻きで日常使いからマリンスポーツまで対応する。中古市場でも流通量が多い。",
       "summary_en": "A long-running icon of Orient's dive watch lineup, the Mako combines 200m water resistance with a reliable in-house automatic at an accessible price."
@@ -97,7 +105,11 @@
       "waterResistanceM": 50,
       "gender": "mens",
       "releaseYear": null,
-      "tags": ["dress", "moonphase", "power-reserve"],
+      "tags": [
+        "dress",
+        "moonphase",
+        "power-reserve"
+      ],
       "popular": true,
       "summary_ja": "自社開発ムーブメントで月齢表示を実現したオリエントスターの上位機。約50時間のパワーリザーブと端正なデザインで、国産ムーンフェイズの代表格として評価が高い。",
       "summary_en": "A flagship Orient Star complication with an in-house moon phase movement and roughly 50 hours of power reserve, among the finest Japanese moon phase watches in its class."
@@ -120,7 +132,11 @@
       "waterResistanceM": null,
       "gender": "mens",
       "releaseYear": null,
-      "tags": ["dress", "skeleton", "power-reserve"],
+      "tags": [
+        "dress",
+        "skeleton",
+        "power-reserve"
+      ],
       "popular": true,
       "summary_ja": "文字盤の一部を開口しテンプの動きを見せるオリエントスターの看板意匠。パワーリザーブ表示を備え、機械式時計の鼓動を視覚的に楽しめるロングセラーシリーズ。",
       "summary_en": "Orient Star's signature semi-skeleton design reveals the beating balance wheel through an open dial aperture and features a power reserve indicator."
@@ -143,7 +159,11 @@
       "waterResistanceM": 200,
       "gender": "mens",
       "releaseYear": null,
-      "tags": ["diver", "sport", "power-reserve"],
+      "tags": [
+        "diver",
+        "sport",
+        "power-reserve"
+      ],
       "popular": false,
       "summary_ja": "耐衝撃構造とリューズガードを備えたオリエント最強のツールダイバー。ISO規格準拠の20気圧防水を誇り、アウトドア志向のユーザーから根強い支持を集めるフラッグシップスポーツ。",
       "summary_en": "Orient's toughest ISO-compliant 200m tool diver with shock-resistant construction and crown guard, built for serious outdoor use."
@@ -166,7 +186,10 @@
       "waterResistanceM": null,
       "gender": "mens",
       "releaseYear": null,
-      "tags": ["dress", "day-date"],
+      "tags": [
+        "dress",
+        "day-date"
+      ],
       "popular": false,
       "summary_ja": "太陽と月のインジケーターで昼夜を表示する遊び心あるドレスウォッチ。この価格帯では希少な多針表示のクラシックデザインで、贈答用としても定番の人気シリーズ。",
       "summary_en": "A romantic dress watch featuring a rotating sun-and-moon day/night indicator, offering complication-style charm at an accessible price."
@@ -189,10 +212,250 @@
       "waterResistanceM": null,
       "gender": "mens",
       "releaseYear": null,
-      "tags": ["dress", "skeleton"],
+      "tags": [
+        "dress",
+        "skeleton"
+      ],
       "popular": false,
       "summary_ja": "オープンワークダイヤルで機械の美しさを大胆に見せる上位モデル。シリコン製ガンギ車を採用した高性能ムーブメントを搭載し、オリエントスターの技術力を象徴する一本。",
       "summary_en": "A premium open-worked model showcasing Orient Star's technical prowess, powered by a high-grade movement featuring a silicon escape wheel."
+    },
+    {
+      "id": "mako-40-ra-ac0q01b",
+      "name_en": "Orient Sports Mako 40",
+      "name_ja": "オリエント スポーツ マコ 40",
+      "reference": "RA-AC0Q01B",
+      "collection_en": "Orient Sports",
+      "collection_ja": "オリエント スポーツ",
+      "caseSizeMm": 40,
+      "movementType": "automatic",
+      "caliber": "F6722",
+      "listPriceJpy": null,
+      "priceFloorJpy": 18000,
+      "searchKeywordJa": "オリエント マコ RA-AC0Q01B",
+      "searchKeywordEn": "Orient Mako 40 RA-AC0Q01B",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": 200,
+      "gender": "mens",
+      "releaseYear": 2023,
+      "tags": [
+        "diver",
+        "sport"
+      ],
+      "popular": true,
+      "summary_ja": "人気ダイバーズ「マコ」を40mmにダウンサイジングした現行版。厚さ12.8mmの扱いやすいケースに自社製F6722を搭載し、20気圧防水を維持しながら細腕にも似合うサイズ感で支持を集める。",
+      "summary_en": "A downsized 40mm version of Orient's popular Mako diver, powered by the in-house F6722 automatic with 200m water resistance in a more wearable case."
+    },
+    {
+      "id": "bambino-open-heart-ra-ag0002s",
+      "name_en": "Bambino Open Heart",
+      "name_ja": "バンビーノ オープンハート",
+      "reference": "RA-AG0002S",
+      "collection_en": "Bambino",
+      "collection_ja": "バンビーノ",
+      "caseSizeMm": 40.5,
+      "movementType": "automatic",
+      "caliber": "F6T22",
+      "listPriceJpy": null,
+      "priceFloorJpy": 17000,
+      "searchKeywordJa": "オリエント バンビーノ RA-AG0002S",
+      "searchKeywordEn": "Orient Bambino Open Heart RA-AG0002S",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": 30,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "dress",
+        "skeleton"
+      ],
+      "popular": true,
+      "summary_ja": "定番ドレスウォッチ「バンビーノ」に文字盤開口部を設けたオープンハート仕様。ドーム風防越しにテンプの動きが覗け、手巻き・ハック対応のF6T22を搭載する人気の入門機械式。",
+      "summary_en": "An open-heart take on the classic Bambino dress watch, showing the balance wheel through the dial and driven by the hacking, hand-winding F6T22 automatic."
+    },
+    {
+      "id": "kanno-ra-aa0011b",
+      "name_en": "Kanno",
+      "name_ja": "カンノ",
+      "reference": "RA-AA0011B",
+      "collection_en": "Orient Sports",
+      "collection_ja": "オリエント スポーツ",
+      "caseSizeMm": 44,
+      "movementType": "automatic",
+      "caliber": "F6922",
+      "listPriceJpy": null,
+      "priceFloorJpy": 20000,
+      "searchKeywordJa": "オリエント カンノ RA-AA0011B",
+      "searchKeywordEn": "Orient Kanno RA-AA0011B",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": 200,
+      "gender": "mens",
+      "releaseYear": 2019,
+      "tags": [
+        "diver",
+        "sport",
+        "power-reserve"
+      ],
+      "popular": false,
+      "summary_ja": "44mmの大径ケースにパワーリザーブ表示を備えたダイバースタイル。自社製F6922を搭載し20気圧防水を確保、存在感のあるデザインで海外市場でも高い人気を誇るモデル。",
+      "summary_en": "A bold 44mm diver-style watch with power reserve indicator, 200m water resistance and Orient's in-house F6922 automatic."
+    },
+    {
+      "id": "mako-rn-aa0808e",
+      "name_en": "Mako (Japan Edition)",
+      "name_ja": "マコ 日本版",
+      "reference": "RN-AA0808E",
+      "collection_en": "Orient Sports",
+      "collection_ja": "オリエント スポーツ",
+      "caseSizeMm": 41.8,
+      "movementType": "automatic",
+      "caliber": "F6922",
+      "listPriceJpy": null,
+      "priceFloorJpy": 18000,
+      "searchKeywordJa": "オリエント ダイバースタイル RN-AA0808E",
+      "searchKeywordEn": "Orient Mako RN-AA0808E",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": 200,
+      "gender": "mens",
+      "releaseYear": 2019,
+      "tags": [
+        "diver",
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "国内向けに展開されるダイバースタイルのグリーンダイヤル。サファイアガラスと20気圧防水を備え、海外版カマスと同じF6922を搭載する日本市場の定番自動巻きダイバー。",
+      "summary_en": "The Japan-market green-dial diver style sharing the Kamasu case and F6922 movement, with sapphire crystal and 200m water resistance."
+    },
+    {
+      "id": "orient-star-diver-1964-rk-au0701b",
+      "name_en": "Orient Star Diver 1964 2nd Edition Titanium",
+      "name_ja": "オリエントスター ダイバー1964 2ndエディション チタン",
+      "reference": "RK-AU0701B",
+      "collection_en": "Orient Star Sports",
+      "collection_ja": "オリエントスター スポーツ",
+      "caseSizeMm": 41,
+      "movementType": "automatic",
+      "caliber": "F6N47",
+      "listPriceJpy": null,
+      "priceFloorJpy": 110000,
+      "searchKeywordJa": "オリエントスター ダイバー1964 RK-AU0701B",
+      "searchKeywordEn": "Orient Star Diver 1964 RK-AU0701B",
+      "caseMaterial": "titanium",
+      "waterResistanceM": 200,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "diver",
+        "vintage-reissue",
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "1964年のカレンダーオートオリエントを源流とする復刻ダイバー。軽量チタンケースにF6N47を収め、200mスキューバ潜水用防水を確保したオリエントスターの本格スポーツモデル。",
+      "summary_en": "A titanium reissue diver inspired by the 1964 Calendar Auto Orient, with the F6N47 automatic and 200m scuba-rated water resistance."
+    },
+    {
+      "id": "orient-star-standard-rk-au0004b",
+      "name_en": "Orient Star Contemporary Standard",
+      "name_ja": "オリエントスター コンテンポラリー スタンダード",
+      "reference": "RK-AU0004B",
+      "collection_en": "Orient Star Contemporary",
+      "collection_ja": "オリエントスター コンテンポラリー",
+      "caseSizeMm": 38.5,
+      "movementType": "automatic",
+      "caliber": "F6N43",
+      "listPriceJpy": null,
+      "priceFloorJpy": 28000,
+      "searchKeywordJa": "オリエントスター スタンダード RK-AU0004B",
+      "searchKeywordEn": "Orient Star Standard RK-AU0004B",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": 100,
+      "gender": "mens",
+      "releaseYear": 2018,
+      "tags": [
+        "dress",
+        "power-reserve"
+      ],
+      "popular": false,
+      "summary_ja": "38.5mmの端正なケースに約50時間巻き上げのF6N43を搭載したオリエントスターの基準機。10気圧防水とシンプルな三針デイト表示で、ビジネスから普段使いまでこなす万能モデル。",
+      "summary_en": "Orient Star's benchmark three-hander in a trim 38.5mm case, with the 50-hour F6N43 automatic and 100m water resistance."
+    },
+    {
+      "id": "orient-star-modern-skeleton-rk-av0004l",
+      "name_en": "Orient Star Modern Skeleton",
+      "name_ja": "オリエントスター モダンスケルトン",
+      "reference": "RK-AV0004L",
+      "collection_en": "Orient Star Contemporary",
+      "collection_ja": "オリエントスター コンテンポラリー",
+      "caseSizeMm": 41,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 40000,
+      "searchKeywordJa": "オリエントスター モダンスケルトン RK-AV0004L",
+      "searchKeywordEn": "Orient Star Modern Skeleton RK-AV0004L",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "dress",
+        "skeleton",
+        "power-reserve"
+      ],
+      "popular": false,
+      "summary_ja": "ネイビーダイヤルにオープンハートを組み合わせた41mmのモダンスケルトン。約50時間のパワーリザーブを備え、シースルーバックからも自社製ムーブメントの造形を楽しめる一本。",
+      "summary_en": "A 41mm navy-dial open-heart Orient Star with roughly 50 hours of power reserve and an exhibition caseback."
+    },
+    {
+      "id": "contemporary-ra-ac0j05l",
+      "name_en": "Orient Mechanical Contemporary",
+      "name_ja": "オリエント メカニカル コンテンポラリー",
+      "reference": "RA-AC0J05L",
+      "collection_en": "Orient Contemporary",
+      "collection_ja": "オリエント コンテンポラリー",
+      "caseSizeMm": 42.4,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 18000,
+      "searchKeywordJa": "オリエント コンテンポラリー RA-AC0J05L",
+      "searchKeywordEn": "Orient Contemporary RA-AC0J05L",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "dress",
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "42.4mmケースにレザーストラップを合わせたコンテンポラリーラインの自動巻き。落ち着いた文字盤とシースルーバックを備え、手頃な価格で本格機械式を楽しめる実用モデル。",
+      "summary_en": "A 42.4mm leather-strap automatic from Orient's Contemporary line, offering an exhibition caseback and genuine mechanical value."
+    },
+    {
+      "id": "contemporary-ra-aa0c05l",
+      "name_en": "Orient Mechanical Contemporary 41.9",
+      "name_ja": "オリエント メカニカル コンテンポラリー 41.9mm",
+      "reference": "RA-AA0C05L",
+      "collection_en": "Orient Contemporary",
+      "collection_ja": "オリエント コンテンポラリー",
+      "caseSizeMm": 41.9,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 18000,
+      "searchKeywordJa": "オリエント コンテンポラリー RA-AA0C05L",
+      "searchKeywordEn": "Orient Contemporary RA-AA0C05L",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport",
+        "dress"
+      ],
+      "popular": false,
+      "summary_ja": "41.9mmケースにネイビーダイヤルを組み合わせたコンテンポラリーの自動巻き。シースルーバックから機械の動きを眺められ、スポーティにもドレッシーにも使える汎用性が魅力。",
+      "summary_en": "A 41.9mm navy-dial Contemporary automatic with a display caseback, versatile enough for both sporty and dressy wear."
     }
   ]
 }

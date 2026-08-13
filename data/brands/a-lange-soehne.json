@@ -28,7 +28,11 @@
       "waterResistanceM": 30,
       "gender": "mens",
       "releaseYear": 2015,
-      "tags": ["dress", "small-seconds", "power-reserve"],
+      "tags": [
+        "dress",
+        "small-seconds",
+        "power-reserve"
+      ],
       "popular": true,
       "summary_ja": "非対称ダイヤルとアウトサイズデイトで知られるブランドの象徴的モデル。ピンクゴールドケースに自社製手巻きキャリバーL121.1を搭載し、新生ランゲの哲学を体現する定番中の定番。",
       "summary_en": "The brand's iconic flagship with its asymmetric dial and outsize date, housing the hand-wound calibre L121.1 in a pink gold case."
@@ -51,7 +55,11 @@
       "waterResistanceM": 120,
       "gender": "mens",
       "releaseYear": 2019,
-      "tags": ["luxury-sport", "sport", "day-date"],
+      "tags": [
+        "luxury-sport",
+        "sport",
+        "day-date"
+      ],
       "popular": true,
       "summary_ja": "2019年発表のブランド初となる本格スポーツライン。ステンレススチールケースにブルーダイヤル、曜日・日付表示を備え、中古市場では定価を大きく上回るプレミアム価格で取引される人気モデル。",
       "summary_en": "Lange's first sports watch, launched in 2019 in stainless steel with a blue dial and day-date display; it trades well above retail on the secondary market."
@@ -74,7 +82,9 @@
       "waterResistanceM": 30,
       "gender": "mens",
       "releaseYear": null,
-      "tags": ["dress"],
+      "tags": [
+        "dress"
+      ],
       "popular": true,
       "summary_ja": "2針のみの極めてミニマルなデザインと薄型ケースが魅力のドレスウォッチ。手巻きキャリバーL093.1を搭載し、ランゲ入門機としても中古市場で安定した人気を誇る。",
       "summary_en": "An ultra-clean two-hand dress watch with a slim case and the hand-wound calibre L093.1, popular as an entry point into the brand."
@@ -97,7 +107,10 @@
       "waterResistanceM": 30,
       "gender": "mens",
       "releaseYear": null,
-      "tags": ["dress", "small-seconds"],
+      "tags": [
+        "dress",
+        "small-seconds"
+      ],
       "popular": true,
       "summary_ja": "創業者の生誕年を冠したクラシックライン。アラビア数字と鉄道レール状ミニッツトラックが懐中時計の伝統を受け継ぐ。スモールセコンド付き手巻きで、端正なドレスウォッチとして根強い人気。",
       "summary_en": "A classic hand-wound dress watch named after the founder's birth year, with Arabic numerals and a railway minute track inspired by pocket watches."
@@ -120,7 +133,11 @@
       "waterResistanceM": 30,
       "gender": "mens",
       "releaseYear": 2012,
-      "tags": ["chronograph", "dress", "power-reserve"],
+      "tags": [
+        "chronograph",
+        "dress",
+        "power-reserve"
+      ],
       "popular": true,
       "summary_ja": "世界最高峰と評されるフライバッククロノグラフ。プラチナケースにパワーリザーブ表示を備え、ムーブメントL951.6の仕上げは時計愛好家の憧れ。中古市場でも常に高値で取引される。",
       "summary_en": "Widely regarded as one of the finest chronographs ever made, this platinum flyback chronograph with power-reserve indicator houses the superbly finished calibre L951.6."
@@ -143,7 +160,11 @@
       "waterResistanceM": 30,
       "gender": "mens",
       "releaseYear": 2009,
-      "tags": ["dress", "digital", "power-reserve"],
+      "tags": [
+        "dress",
+        "digital",
+        "power-reserve"
+      ],
       "popular": false,
       "summary_ja": "2009年発表のデジタル表示式機械時計。瞬転するジャンピングアワーとジャンピングミニッツを機械式で実現した革新作で、ホワイトゴールドケースの初代モデルは中古市場でも高い評価を得る。",
       "summary_en": "A mechanical digital watch introduced in 2009, featuring instantaneously jumping hour and minute discs in a white gold case."
@@ -166,7 +187,12 @@
       "waterResistanceM": 30,
       "gender": "mens",
       "releaseYear": 2017,
-      "tags": ["dress", "moonphase", "small-seconds", "power-reserve"],
+      "tags": [
+        "dress",
+        "moonphase",
+        "small-seconds",
+        "power-reserve"
+      ],
       "popular": false,
       "summary_ja": "ランゲ1に昼夜表示付きムーンフェイズを組み合わせたモデル。122.6年に1日しか誤差が生じない高精度な月齢表示を備え、非対称ダイヤルの美しさをさらに引き立てる人気バリエーション。",
       "summary_en": "The Lange 1 enhanced with a highly accurate day/night moon-phase display that deviates by only one day in 122.6 years."
@@ -189,10 +215,177 @@
       "waterResistanceM": 30,
       "gender": "mens",
       "releaseYear": 2012,
-      "tags": ["dress", "small-seconds", "power-reserve"],
+      "tags": [
+        "dress",
+        "small-seconds",
+        "power-reserve"
+      ],
       "popular": false,
       "summary_ja": "ランゲ1のデザインを40.9mmの大型ケースで再構成したモデル。薄型化された専用キャリバーL095.1を搭載し、存在感と着用感を両立。大きめの時計を好む層から支持される定番。",
       "summary_en": "A larger 40.9 mm interpretation of the Lange 1 with the slim dedicated calibre L095.1, favoured by those who prefer greater wrist presence."
+    },
+    {
+      "id": "lange-1-time-zone-136-032",
+      "name_en": "Lange 1 Time Zone",
+      "name_ja": "ランゲ1 タイムゾーン",
+      "reference": "136.032",
+      "collection_en": "Lange 1",
+      "collection_ja": "ランゲ1",
+      "caseSizeMm": 41.9,
+      "movementType": "manual",
+      "caliber": "L141.1",
+      "listPriceJpy": null,
+      "priceFloorJpy": 3800000,
+      "searchKeywordJa": "ランゲ&ゾーネ ランゲ1 タイムゾーン 136.032",
+      "searchKeywordEn": "A. Lange & Söhne Lange 1 Time Zone 136.032",
+      "caseMaterial": "rose-gold",
+      "waterResistanceM": 30,
+      "gender": "mens",
+      "releaseYear": 2020,
+      "tags": [
+        "dress",
+        "gmt",
+        "world-timer",
+        "power-reserve"
+      ],
+      "popular": true,
+      "summary_ja": "ランゲ1に第2時間帯と都市リングを組み合わせたトラベルウォッチ。2020年に一新されキャリバーL141.1を搭載、41.9mmのピンクゴールドケースに昼夜表示を備えた実用性の高い上位モデル。",
+      "summary_en": "A travel-oriented Lange 1 with a second time zone and rotating city ring, updated in 2020 with the calibre L141.1 in a 41.9 mm pink gold case."
+    },
+    {
+      "id": "zeitwerk-date-148-038",
+      "name_en": "Zeitwerk Date",
+      "name_ja": "ツァイトヴェルク デイト",
+      "reference": "148.038",
+      "collection_en": "Zeitwerk",
+      "collection_ja": "ツァイトヴェルク",
+      "caseSizeMm": 44.2,
+      "movementType": "manual",
+      "caliber": "L043.8",
+      "listPriceJpy": null,
+      "priceFloorJpy": 6000000,
+      "searchKeywordJa": "ランゲ&ゾーネ ツァイトヴェルク デイト 148.038",
+      "searchKeywordEn": "A. Lange & Söhne Zeitwerk Date 148.038",
+      "caseMaterial": "white-gold",
+      "waterResistanceM": 30,
+      "gender": "mens",
+      "releaseYear": 2019,
+      "tags": [
+        "dress",
+        "digital",
+        "power-reserve"
+      ],
+      "popular": false,
+      "summary_ja": "ジャンピング数字表示のツァイトヴェルクにリング式デイトを加えた上位機。ホワイトゴールド44.2mmケースにキャリバーL043.8を収め、定力脱進機で72時間のパワーリザーブを実現した意欲作。",
+      "summary_en": "The jumping-numeral Zeitwerk enhanced with a peripheral date ring, powered by the constant-force calibre L043.8 with 72-hour reserve in a 44.2 mm white gold case."
+    },
+    {
+      "id": "1815-chronograph-414-028",
+      "name_en": "1815 Chronograph",
+      "name_ja": "1815 クロノグラフ",
+      "reference": "414.028",
+      "collection_en": "1815",
+      "collection_ja": "1815",
+      "caseSizeMm": 39.5,
+      "movementType": "manual",
+      "caliber": "L951.5",
+      "listPriceJpy": null,
+      "priceFloorJpy": 3500000,
+      "searchKeywordJa": "ランゲ&ゾーネ 1815 クロノグラフ 414.028",
+      "searchKeywordEn": "A. Lange & Söhne 1815 Chronograph 414.028",
+      "caseMaterial": "white-gold",
+      "waterResistanceM": 30,
+      "gender": "mens",
+      "releaseYear": 2018,
+      "tags": [
+        "chronograph",
+        "dress",
+        "small-seconds"
+      ],
+      "popular": true,
+      "summary_ja": "手巻きフライバッククロノグラフの名作。39.5mmのホワイトゴールドケースにブラックダイヤルを合わせ、脈拍計表示とキャリバーL951.5を搭載。ダトグラフに次ぐ人気を誇る実用サイズの一本。",
+      "summary_en": "A hand-wound flyback chronograph with pulsometer scale and calibre L951.5, offered here with a black dial in a wearable 39.5 mm white gold case."
+    },
+    {
+      "id": "lange-1-daymatic-320-032",
+      "name_en": "Lange 1 Daymatic",
+      "name_ja": "ランゲ1 デイマティック",
+      "reference": "320.032",
+      "collection_en": "Lange 1",
+      "collection_ja": "ランゲ1",
+      "caseSizeMm": 39.5,
+      "movementType": "automatic",
+      "caliber": "L021.1",
+      "listPriceJpy": null,
+      "priceFloorJpy": 2800000,
+      "searchKeywordJa": "ランゲ&ゾーネ ランゲ1 デイマティック 320.032",
+      "searchKeywordEn": "A. Lange & Söhne Lange 1 Daymatic 320.032",
+      "caseMaterial": "rose-gold",
+      "waterResistanceM": 30,
+      "gender": "mens",
+      "releaseYear": 2010,
+      "tags": [
+        "dress",
+        "day-date",
+        "power-reserve"
+      ],
+      "popular": false,
+      "summary_ja": "ランゲ1のダイヤル配置を左右反転させた自動巻きモデル。曜日表示を備えたキャリバーL021.1を搭載し、ピンクゴールド39.5mmケースで日常使いしやすい一本として支持される。",
+      "summary_en": "An automatic Lange 1 with a mirrored dial layout and day indication, driven by the calibre L021.1 in a 39.5 mm pink gold case."
+    },
+    {
+      "id": "saxonia-moon-phase-384-032",
+      "name_en": "Saxonia Moon Phase",
+      "name_ja": "サクソニア ムーンフェイズ",
+      "reference": "384.032",
+      "collection_en": "Saxonia",
+      "collection_ja": "サクソニア",
+      "caseSizeMm": 40,
+      "movementType": "automatic",
+      "caliber": "L086.5",
+      "listPriceJpy": null,
+      "priceFloorJpy": 2300000,
+      "searchKeywordJa": "ランゲ&ゾーネ サクソニア ムーンフェイズ 384.032",
+      "searchKeywordEn": "A. Lange & Söhne Saxonia Moon Phase 384.032",
+      "caseMaterial": "rose-gold",
+      "waterResistanceM": 30,
+      "gender": "mens",
+      "releaseYear": 2016,
+      "tags": [
+        "dress",
+        "moonphase",
+        "annual-calendar"
+      ],
+      "popular": false,
+      "summary_ja": "サクソニアにアウトサイズデイトとムーンフェイズを組み合わせた自動巻きモデル。40mmのピンクゴールドケースにキャリバーL086.5を搭載し、端正な文字盤と高精度な月齢表示が魅力。",
+      "summary_en": "A Saxonia with outsize date and moon-phase display, powered by the self-winding calibre L086.5 in a 40 mm pink gold case."
+    },
+    {
+      "id": "1815-up-down-234-032",
+      "name_en": "1815 Up/Down",
+      "name_ja": "1815 アップ/ダウン",
+      "reference": "234.032",
+      "collection_en": "1815",
+      "collection_ja": "1815",
+      "caseSizeMm": 39,
+      "movementType": "manual",
+      "caliber": "L051.2",
+      "listPriceJpy": null,
+      "priceFloorJpy": 2200000,
+      "searchKeywordJa": "ランゲ&ゾーネ 1815 アップダウン 234.032",
+      "searchKeywordEn": "A. Lange & Söhne 1815 Up/Down 234.032",
+      "caseMaterial": "rose-gold",
+      "waterResistanceM": 30,
+      "gender": "mens",
+      "releaseYear": 2013,
+      "tags": [
+        "dress",
+        "power-reserve",
+        "small-seconds"
+      ],
+      "popular": false,
+      "summary_ja": "1815にパワーリザーブ表示を加えたクラシックモデル。39mmのピンクゴールドケースに手巻きキャリバーL051.2を搭載し、アラビア数字と鉄道レール状トラックの伝統的意匠をまとう。",
+      "summary_en": "The classic 1815 with an added up/down power-reserve indicator, using the hand-wound calibre L051.2 in a 39 mm pink gold case."
     }
   ]
 }

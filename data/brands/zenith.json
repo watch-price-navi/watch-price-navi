@@ -24,7 +24,11 @@
       "priceFloorJpy": 600000,
       "searchKeywordJa": "ゼニス クロノマスター スポーツ 03.3100.3600",
       "searchKeywordEn": "Zenith Chronomaster Sport 03.3100.3600",
-      "tags": ["chronograph", "sport", "luxury-sport"],
+      "tags": [
+        "chronograph",
+        "sport",
+        "luxury-sport"
+      ],
       "caseMaterial": "stainless-steel",
       "waterResistanceM": 100,
       "gender": "mens",
@@ -47,7 +51,12 @@
       "priceFloorJpy": 500000,
       "searchKeywordJa": "ゼニス クロノマスター オリジナル 03.3200.3600",
       "searchKeywordEn": "Zenith Chronomaster Original 03.3200.3600",
-      "tags": ["chronograph", "dress", "sport", "vintage-reissue"],
+      "tags": [
+        "chronograph",
+        "dress",
+        "sport",
+        "vintage-reissue"
+      ],
       "caseMaterial": "stainless-steel",
       "waterResistanceM": 50,
       "gender": "mens",
@@ -70,7 +79,10 @@
       "priceFloorJpy": 300000,
       "searchKeywordJa": "ゼニス エル・プリメロ 03.2040.400",
       "searchKeywordEn": "Zenith El Primero Chronomaster 03.2040.400",
-      "tags": ["chronograph", "dress"],
+      "tags": [
+        "chronograph",
+        "dress"
+      ],
       "caseMaterial": "stainless-steel",
       "waterResistanceM": 100,
       "gender": "mens",
@@ -93,7 +105,10 @@
       "priceFloorJpy": 480000,
       "searchKeywordJa": "ゼニス デファイ スカイライン 03.9300.3620",
       "searchKeywordEn": "Zenith Defy Skyline 03.9300.3620",
-      "tags": ["luxury-sport", "sport"],
+      "tags": [
+        "luxury-sport",
+        "sport"
+      ],
       "caseMaterial": "stainless-steel",
       "waterResistanceM": 100,
       "gender": "mens",
@@ -116,7 +131,11 @@
       "priceFloorJpy": 350000,
       "searchKeywordJa": "ゼニス クロノマスター オープン",
       "searchKeywordEn": "Zenith Chronomaster Open",
-      "tags": ["chronograph", "dress", "sport"],
+      "tags": [
+        "chronograph",
+        "dress",
+        "sport"
+      ],
       "caseMaterial": "stainless-steel",
       "waterResistanceM": 50,
       "gender": "mens",
@@ -139,7 +158,11 @@
       "priceFloorJpy": 450000,
       "searchKeywordJa": "ゼニス クロノマスター リバイバル A384",
       "searchKeywordEn": "Zenith Chronomaster Revival A384",
-      "tags": ["chronograph", "sport", "vintage-reissue"],
+      "tags": [
+        "chronograph",
+        "sport",
+        "vintage-reissue"
+      ],
       "caseMaterial": "stainless-steel",
       "waterResistanceM": 50,
       "gender": "mens",
@@ -162,7 +185,12 @@
       "priceFloorJpy": 350000,
       "searchKeywordJa": "ゼニス デファイ クラシック 95.9000.670",
       "searchKeywordEn": "Zenith Defy Classic 95.9000.670",
-      "tags": ["luxury-sport", "sport", "skeleton", "lightweight"],
+      "tags": [
+        "luxury-sport",
+        "sport",
+        "skeleton",
+        "lightweight"
+      ],
       "caseMaterial": "titanium",
       "waterResistanceM": 100,
       "gender": "mens",
@@ -185,7 +213,12 @@
       "priceFloorJpy": 550000,
       "searchKeywordJa": "ゼニス デファイ エル・プリメロ 21",
       "searchKeywordEn": "Zenith Defy El Primero 21",
-      "tags": ["chronograph", "sport", "luxury-sport", "lightweight"],
+      "tags": [
+        "chronograph",
+        "sport",
+        "luxury-sport",
+        "lightweight"
+      ],
       "caseMaterial": "titanium",
       "waterResistanceM": 100,
       "gender": "mens",
@@ -208,7 +241,11 @@
       "priceFloorJpy": 300000,
       "searchKeywordJa": "ゼニス パイロット タイプ20 ブロンズ",
       "searchKeywordEn": "Zenith Pilot Type 20 Extra Special Bronze",
-      "tags": ["pilot", "vintage-reissue", "military"],
+      "tags": [
+        "pilot",
+        "vintage-reissue",
+        "military"
+      ],
       "caseMaterial": "bronze",
       "waterResistanceM": 100,
       "gender": "mens",
@@ -231,7 +268,10 @@
       "priceFloorJpy": 600000,
       "searchKeywordJa": "ゼニス パイロット ビッグデイト フライバック",
       "searchKeywordEn": "Zenith Pilot Big Date Flyback",
-      "tags": ["pilot", "chronograph"],
+      "tags": [
+        "pilot",
+        "chronograph"
+      ],
       "caseMaterial": "stainless-steel",
       "waterResistanceM": 100,
       "gender": "mens",
@@ -254,7 +294,9 @@
       "priceFloorJpy": 200000,
       "searchKeywordJa": "ゼニス エリート クラシック",
       "searchKeywordEn": "Zenith Elite Classic",
-      "tags": ["dress"],
+      "tags": [
+        "dress"
+      ],
       "caseMaterial": "stainless-steel",
       "waterResistanceM": 50,
       "gender": "mens",
@@ -262,6 +304,168 @@
       "popular": false,
       "summary_ja": "薄型自動巻きエリートムーブメントを搭載したシンプルなドレスウォッチ。クロノグラフ中心のゼニスにおいて、上品な2針・3針モデルとして手の届きやすい選択肢として人気。",
       "summary_en": "A clean dress watch powered by Zenith's thin automatic Elite calibre, offering an accessible entry point into the brand beyond its chronographs."
+    },
+    {
+      "id": "defy-extreme-95-9100-9004",
+      "name_en": "Defy Extreme",
+      "name_ja": "デファイ エクストリーム",
+      "reference": "95.9100.9004/01.I001",
+      "collection_en": "Defy",
+      "collection_ja": "デファイ",
+      "caseSizeMm": 45,
+      "movementType": "automatic",
+      "caliber": "El Primero 9004",
+      "listPriceJpy": null,
+      "priceFloorJpy": 900000,
+      "searchKeywordJa": "ゼニス デファイ エクストリーム 95.9100.9004",
+      "searchKeywordEn": "Zenith Defy Extreme 95.9100.9004",
+      "caseMaterial": "titanium",
+      "waterResistanceM": 200,
+      "gender": "mens",
+      "releaseYear": 2021,
+      "tags": [
+        "chronograph",
+        "sport",
+        "luxury-sport",
+        "lightweight"
+      ],
+      "popular": false,
+      "summary_ja": "1/100秒計測のエル・プリメロ9004を積む45mmチタンクロノグラフ。サファイア文字盤と交換可能なストラップシステムを備え、デファイの中でも最も力強い佇まいを持つ上位モデル。",
+      "summary_en": "A 45mm titanium chronograph with a sapphire dial and interchangeable strap system, powered by the 1/100th-of-a-second El Primero 9004."
+    },
+    {
+      "id": "defy-skyline-skeleton-03-9300-3620-78",
+      "name_en": "Defy Skyline Skeleton",
+      "name_ja": "デファイ スカイライン スケルトン",
+      "reference": "03.9300.3620/78.I001",
+      "collection_en": "Defy",
+      "collection_ja": "デファイ",
+      "caseSizeMm": 41,
+      "movementType": "automatic",
+      "caliber": "El Primero 3620 SK",
+      "listPriceJpy": null,
+      "priceFloorJpy": 500000,
+      "searchKeywordJa": "ゼニス デファイ スカイライン スケルトン 03.9300.3620",
+      "searchKeywordEn": "Zenith Defy Skyline Skeleton 03.9300.3620",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": 100,
+      "gender": "mens",
+      "releaseYear": 2022,
+      "tags": [
+        "luxury-sport",
+        "skeleton",
+        "sport"
+      ],
+      "popular": true,
+      "summary_ja": "八角形ケースと一体型ブレスレットのデファイ スカイラインをスケルトン化した41mmモデル。毎時36,000振動のエル・プリメロ3620SKが透けて見え、9時位置に1/10秒表示を備える。",
+      "summary_en": "The octagonal, integrated-bracelet Defy Skyline in openworked form, showing off the 36,000 vph El Primero 3620 SK with its 1/10th-of-a-second indicator."
+    },
+    {
+      "id": "defy-skyline-36-03-9400-670",
+      "name_en": "Defy Skyline 36",
+      "name_ja": "デファイ スカイライン 36mm",
+      "reference": "03.9400.670/51.I001",
+      "collection_en": "Defy",
+      "collection_ja": "デファイ",
+      "caseSizeMm": 36,
+      "movementType": "automatic",
+      "caliber": "Elite 670",
+      "listPriceJpy": null,
+      "priceFloorJpy": 450000,
+      "searchKeywordJa": "ゼニス デファイ スカイライン 36 03.9400.670",
+      "searchKeywordEn": "Zenith Defy Skyline 36 03.9400.670",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": 100,
+      "gender": "unisex",
+      "releaseYear": 2023,
+      "tags": [
+        "luxury-sport",
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "デファイ スカイラインを36mmにダウンサイズしたミッドサイズモデル。星型パターンの文字盤とエリート670自動巻きを組み合わせ、ストラップ交換システムで日常使いしやすい一本。",
+      "summary_en": "A 36mm mid-size Defy Skyline with a star-patterned dial, the Elite 670 automatic calibre and a quick-change strap system."
+    },
+    {
+      "id": "defy-revival-a3642-03-a3642-670",
+      "name_en": "Defy Revival A3642",
+      "name_ja": "デファイ リバイバル A3642",
+      "reference": "03.A3642.670/75.M3642",
+      "collection_en": "Defy",
+      "collection_ja": "デファイ",
+      "caseSizeMm": 37,
+      "movementType": "automatic",
+      "caliber": "Elite 670",
+      "listPriceJpy": null,
+      "priceFloorJpy": 700000,
+      "searchKeywordJa": "ゼニス デファイ リバイバル A3642",
+      "searchKeywordEn": "Zenith Defy Revival A3642",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": 300,
+      "gender": "mens",
+      "releaseYear": 2022,
+      "tags": [
+        "luxury-sport",
+        "vintage-reissue",
+        "limited-edition",
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "1969年の初代デファイA3642を忠実に復刻した37mmモデル。八角形ケースにグラデーションブラウン文字盤と「ラダー」ブレスレットを組み合わせ、250本限定で即完売した人気作。",
+      "summary_en": "A faithful 37mm revival of the 1969 Defy A3642, with its octagonal case, gradient brown dial and ladder bracelet, limited to 250 pieces."
+    },
+    {
+      "id": "chronomaster-revival-a385-03-a384-400-385",
+      "name_en": "Chronomaster Revival El Primero A385",
+      "name_ja": "クロノマスター リバイバル エル・プリメロ A385",
+      "reference": "03.A384.400/385.M385",
+      "collection_en": "Chronomaster",
+      "collection_ja": "クロノマスター",
+      "caseSizeMm": 37,
+      "movementType": "automatic",
+      "caliber": "El Primero 400",
+      "listPriceJpy": null,
+      "priceFloorJpy": 550000,
+      "searchKeywordJa": "ゼニス クロノマスター リバイバル A385",
+      "searchKeywordEn": "Zenith Chronomaster Revival A385 03.A384.400",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": 50,
+      "gender": "mens",
+      "releaseYear": 2021,
+      "tags": [
+        "chronograph",
+        "vintage-reissue",
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "1969年A385を復刻した37mmトノー型クロノグラフ。周辺に向かって濃くなるスモークブラウンのグラデーション文字盤が特徴で、エル・プリメロ400とラダーブレスレットを備える。",
+      "summary_en": "A 37mm tonneau-cased revival of the 1969 A385, defined by its smoked brown gradient dial, El Primero 400 calibre and ladder bracelet."
+    },
+    {
+      "id": "pilot-automatic-03-4000-3620",
+      "name_en": "Pilot Automatic",
+      "name_ja": "パイロット オートマティック",
+      "reference": "03.4000.3620/21.I001",
+      "collection_en": "Pilot",
+      "collection_ja": "パイロット",
+      "caseSizeMm": 40,
+      "movementType": "automatic",
+      "caliber": "El Primero 3620",
+      "listPriceJpy": null,
+      "priceFloorJpy": 450000,
+      "searchKeywordJa": "ゼニス パイロット オートマティック 03.4000.3620",
+      "searchKeywordEn": "Zenith Pilot Automatic 03.4000.3620",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": 100,
+      "gender": "mens",
+      "releaseYear": 2023,
+      "tags": [
+        "pilot",
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "2023年に一新されたパイロットの3針モデル。40mmケースに横溝入りの黒文字盤と大型夜光アラビア数字を配し、毎時36,000振動のエル・プリメロ3620を搭載する現行定番。",
+      "summary_en": "The three-hand model of the redesigned 2023 Pilot line: a 40mm steel case, grooved black dial with large luminous numerals and the high-beat El Primero 3620."
     }
   ]
 }

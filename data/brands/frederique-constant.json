@@ -6,7 +6,8 @@
     "country": "スイス",
     "founded": 1988,
     "officialUrl": "https://frederiqueconstant.com/",
-    "description_ja": "フレデリック・コンスタントは1988年にピーター&アレッタ・スタース夫妻がジュネーブで創業したスイスの時計ブランド。「アクセシブル・ラグジュアリー（手の届く高級時計）」を掲げ、良心的な価格帯で本格的な機械式時計を提供することで世界的な支持を獲得した。2004年には自社開発ムーブメント「マニュファクチュール・キャリバー」を発表し、ワールドタイマーやムーンフェイズ、永久カレンダーまで自社製で展開する数少ないブランドへと成長。テンプを文字盤側に見せる「ハートビート」や、薄型エレガンスを追求した「スリムライン」、スポーティな一体型ブレスの「ハイライフ」などが代表作。ドレスウォッチ入門やビジネス用途として日本市場でも高い人気を誇る。", "description_en": "Founded in Geneva in 1988 by Peter and Aletta Stas, Frederique Constant champions 'accessible luxury' — finely finished Swiss watches at attainable prices. Since 2004 the brand has developed its own in-house Manufacture calibres, powering complications such as the Classic Worldtimer, Slimline Moonphase and even a perpetual calendar. Signature designs include the open-dial Heart Beat, the elegant Slimline dress line and the sporty integrated-bracelet Highlife collection, making the brand a favourite entry point into serious Swiss watchmaking."
+    "description_ja": "フレデリック・コンスタントは1988年にピーター&アレッタ・スタース夫妻がジュネーブで創業したスイスの時計ブランド。「アクセシブル・ラグジュアリー（手の届く高級時計）」を掲げ、良心的な価格帯で本格的な機械式時計を提供することで世界的な支持を獲得した。2004年には自社開発ムーブメント「マニュファクチュール・キャリバー」を発表し、ワールドタイマーやムーンフェイズ、永久カレンダーまで自社製で展開する数少ないブランドへと成長。テンプを文字盤側に見せる「ハートビート」や、薄型エレガンスを追求した「スリムライン」、スポーティな一体型ブレスの「ハイライフ」などが代表作。ドレスウォッチ入門やビジネス用途として日本市場でも高い人気を誇る。",
+    "description_en": "Founded in Geneva in 1988 by Peter and Aletta Stas, Frederique Constant champions 'accessible luxury' — finely finished Swiss watches at attainable prices. Since 2004 the brand has developed its own in-house Manufacture calibres, powering complications such as the Classic Worldtimer, Slimline Moonphase and even a perpetual calendar. Signature designs include the open-dial Heart Beat, the elegant Slimline dress line and the sporty integrated-bracelet Highlife collection, making the brand a favourite entry point into serious Swiss watchmaking."
   },
   "models": [
     {
@@ -27,7 +28,10 @@
       "waterResistanceM": null,
       "gender": "mens",
       "releaseYear": null,
-      "tags": ["dress", "world-timer"],
+      "tags": [
+        "dress",
+        "world-timer"
+      ],
       "popular": true,
       "summary_ja": "自社製キャリバーFC-718を搭載し、リューズのみで全操作が可能なワールドタイマー。世界地図をあしらった文字盤が特徴で、ブランドを代表する人気コンプリケーションモデル。",
       "summary_en": "The brand's flagship complication: an in-house worldtimer adjusted entirely via the crown, with a distinctive world-map dial."
@@ -50,7 +54,10 @@
       "waterResistanceM": 30,
       "gender": "mens",
       "releaseYear": null,
-      "tags": ["dress", "moonphase"],
+      "tags": [
+        "dress",
+        "moonphase"
+      ],
       "popular": true,
       "summary_ja": "自社製ムーブメントFC-705を積む薄型ムーンフェイズ。日付とムーンフェイズをリューズだけで調整でき、上品なシルバー文字盤はドレスウォッチとして定番の一本。",
       "summary_en": "A slim in-house moonphase dress watch with date and moon indications set entirely through the crown."
@@ -73,7 +80,10 @@
       "waterResistanceM": 100,
       "gender": "mens",
       "releaseYear": 2020,
-      "tags": ["luxury-sport", "sport"],
+      "tags": [
+        "luxury-sport",
+        "sport"
+      ],
       "popular": true,
       "summary_ja": "2020年に復活した一体型ブレスレットのラグジュアリースポーツライン。COSC認定クロノメーターで、ブレスとラバーストラップを工具なしで交換可能。ネイビーのグローブ柄文字盤が人気。",
       "summary_en": "A COSC-certified luxury sports watch with integrated, tool-free interchangeable bracelet and a globe-patterned dial."
@@ -96,7 +106,9 @@
       "waterResistanceM": null,
       "gender": "mens",
       "releaseYear": null,
-      "tags": ["dress"],
+      "tags": [
+        "dress"
+      ],
       "popular": true,
       "summary_ja": "文字盤の窓からテンプの鼓動を見せる「ハートビート」はブランドの代名詞的デザイン。ローマ数字インデックスのクラシカルな意匠で、中古市場でも流通量が多い定番ドレスウォッチ。",
       "summary_en": "The brand's signature 'Heart Beat' design reveals the balance wheel through a dial aperture; a classic dress staple widely available on the secondary market."
@@ -119,7 +131,9 @@
       "waterResistanceM": null,
       "gender": "mens",
       "releaseYear": null,
-      "tags": ["dress"],
+      "tags": [
+        "dress"
+      ],
       "popular": true,
       "summary_ja": "シンプルな3針デイト仕様のエントリー自動巻き。視認性の高いインデックスと端正なケースでビジネスシーンに最適。機械式入門機として日本でも長年の売れ筋モデル。",
       "summary_en": "A clean three-hand date automatic and long-running entry point into the brand, ideal for business wear."
@@ -142,7 +156,10 @@
       "waterResistanceM": 100,
       "gender": "mens",
       "releaseYear": null,
-      "tags": ["luxury-sport", "sport"],
+      "tags": [
+        "luxury-sport",
+        "sport"
+      ],
       "popular": false,
       "summary_ja": "ラグスポの「ハイライフ」にブランドの象徴ハートビートを組み合わせた現行モデル。オープンダイヤルからテンプが覗き、交換可能なブレスレットシステムも継承する。",
       "summary_en": "The Highlife's integrated sports case combined with the signature open Heart Beat dial and interchangeable strap system."
@@ -165,7 +182,11 @@
       "waterResistanceM": 30,
       "gender": "mens",
       "releaseYear": 2016,
-      "tags": ["dress", "perpetual-calendar", "moonphase"],
+      "tags": [
+        "dress",
+        "perpetual-calendar",
+        "moonphase"
+      ],
       "popular": false,
       "summary_ja": "2016年発表、100万円を切る価格で話題を呼んだ自社製永久カレンダー。キャリバーFC-775を搭載し、複雑時計の民主化というブランド哲学を象徴する一本。",
       "summary_en": "An in-house perpetual calendar that made headlines for its accessible price, embodying the brand's democratization of complications."
@@ -188,10 +209,225 @@
       "waterResistanceM": null,
       "gender": "mens",
       "releaseYear": null,
-      "tags": ["dress", "sport", "limited-edition"],
+      "tags": [
+        "dress",
+        "sport",
+        "limited-edition"
+      ],
       "popular": false,
       "summary_ja": "1920年代の高級木製モーターボート「ランナバウト」に着想を得た限定シリーズ。クラシカルな意匠とマリンテイストを融合し、コレクターに人気の高いレトロ系モデル。",
       "summary_en": "A limited retro-styled series inspired by 1920s mahogany runabout boats, blending classic and nautical design cues."
+    },
+    {
+      "id": "classics-index-business-timer-fc-270n4p6b",
+      "name_en": "Classics Index Business Timer",
+      "name_ja": "クラシック インデックス ビジネスタイマー",
+      "reference": "FC-270N4P6B",
+      "collection_en": "Classics",
+      "collection_ja": "クラシック",
+      "caseSizeMm": 40,
+      "movementType": "automatic",
+      "caliber": "FC-270",
+      "listPriceJpy": null,
+      "priceFloorJpy": 55000,
+      "searchKeywordJa": "フレデリック・コンスタント ビジネスタイマー FC-270",
+      "searchKeywordEn": "Frederique Constant Classics Business Timer FC-270N4P6B",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "dress",
+        "day-date"
+      ],
+      "popular": true,
+      "summary_ja": "曜日・日付に加えて週番号（ウィークナンバー）を表示する実用派の自動巻き。ビジネスパーソン向けに設計された多機能ダイヤルながら、クラシックらしい端正な佇まいを保つ定番モデル。",
+      "summary_en": "A practical automatic that adds a week-number indication to day and date, designed for business use while keeping the Classics line's restrained looks."
+    },
+    {
+      "id": "runabout-chronograph-fc392",
+      "name_en": "Runabout RHS Chronograph Automatic",
+      "name_ja": "ランナバウト RHS クロノグラフ オートマチック",
+      "reference": null,
+      "collection_en": "Runabout",
+      "collection_ja": "ランナバウト",
+      "caseSizeMm": 42,
+      "movementType": "automatic",
+      "caliber": "FC-392",
+      "listPriceJpy": null,
+      "priceFloorJpy": 100000,
+      "searchKeywordJa": "フレデリック・コンスタント ランナバウト クロノグラフ 自動巻き",
+      "searchKeywordEn": "Frederique Constant Runabout RHS Chronograph Automatic FC-392",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": 50,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph",
+        "limited-edition",
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "クラシックボート協会リヴァ・ヒストリカル・ソサエティとの協業による限定クロノグラフ。自社組み上げの自動巻きキャリバーFC-392を搭載し、シースルーバックからローターを鑑賞できる。",
+      "summary_en": "A limited chronograph created with the Riva Historical Society, powered by the automatic FC-392 calibre and shown off through a display caseback."
+    },
+    {
+      "id": "highlife-chronograph-automatic",
+      "name_en": "Highlife Chronograph Automatic",
+      "name_ja": "ハイライフ クロノグラフ オートマチック",
+      "reference": null,
+      "collection_en": "Highlife",
+      "collection_ja": "ハイライフ",
+      "caseSizeMm": 41,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 120000,
+      "searchKeywordJa": "フレデリック・コンスタント ハイライフ クロノグラフ",
+      "searchKeywordEn": "Frederique Constant Highlife Chronograph Automatic",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": 100,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph",
+        "luxury-sport",
+        "sport"
+      ],
+      "popular": true,
+      "summary_ja": "一体型ブレスのハイライフに自動巻きクロノグラフを組み合わせたスポーツモデル。工具不要でブレスとラバーを交換できるシステムを備え、日常からドレスダウンまで幅広く使える。",
+      "summary_en": "The integrated-bracelet Highlife in automatic chronograph form, with the line's tool-free interchangeable strap system."
+    },
+    {
+      "id": "highlife-worldtimer-manufacture-fc718",
+      "name_en": "Highlife Worldtimer Manufacture",
+      "name_ja": "ハイライフ ワールドタイマー マニュファクチュール",
+      "reference": null,
+      "collection_en": "Highlife",
+      "collection_ja": "ハイライフ",
+      "caseSizeMm": 41,
+      "movementType": "automatic",
+      "caliber": "FC-718",
+      "listPriceJpy": null,
+      "priceFloorJpy": 150000,
+      "searchKeywordJa": "フレデリック・コンスタント ハイライフ ワールドタイマー",
+      "searchKeywordEn": "Frederique Constant Highlife Worldtimer Manufacture FC-718",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": 100,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "world-timer",
+        "luxury-sport",
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "自社製キャリバーFC-718のワールドタイマーをスポーティなハイライフのケースに収めたモデル。リューズだけで24都市の時刻・日付を同時調整でき、旅行者に実用的な一本。",
+      "summary_en": "The in-house FC-718 worldtimer housed in the sporty Highlife case, with all 24-city adjustments made through the crown alone."
+    },
+    {
+      "id": "highlife-ladies-automatic",
+      "name_en": "Highlife Ladies Automatic",
+      "name_ja": "ハイライフ レディース オートマチック",
+      "reference": null,
+      "collection_en": "Highlife",
+      "collection_ja": "ハイライフ",
+      "caseSizeMm": 34,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 90000,
+      "searchKeywordJa": "フレデリック・コンスタント ハイライフ レディース 自動巻き",
+      "searchKeywordEn": "Frederique Constant Highlife Ladies Automatic",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": 100,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "luxury-sport",
+        "dress"
+      ],
+      "popular": false,
+      "summary_ja": "ハイライフのデザインを34mmサイズに落とし込んだレディース自動巻き。グローブモチーフのダイヤルと一体型ブレスレットが特徴で、ストラップ交換により印象を変えて楽しめる。",
+      "summary_en": "The Highlife design in a 34mm automatic for women, with the globe-motif dial and interchangeable integrated bracelet."
+    },
+    {
+      "id": "slimline-gents-quartz",
+      "name_en": "Slimline Gents Quartz",
+      "name_ja": "スリムライン ジェンツ クォーツ",
+      "reference": null,
+      "collection_en": "Slimline",
+      "collection_ja": "スリムライン",
+      "caseSizeMm": 40,
+      "movementType": "quartz",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 25000,
+      "searchKeywordJa": "フレデリック・コンスタント スリムライン クォーツ",
+      "searchKeywordEn": "Frederique Constant Slimline Gents Quartz",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "dress"
+      ],
+      "popular": false,
+      "summary_ja": "薄型ケースにシンプルな2針・3針ダイヤルを備えたスリムラインのクォーツ版。スーツの袖口に収まる薄さと手頃な価格から、ドレスウォッチ入門として日本でも流通量が多い。",
+      "summary_en": "The quartz version of the ultra-slim Slimline, an affordable dress watch that slips easily under a cuff."
+    },
+    {
+      "id": "classics-quartz",
+      "name_en": "Classics Quartz",
+      "name_ja": "クラシック クォーツ",
+      "reference": null,
+      "collection_en": "Classics",
+      "collection_ja": "クラシック",
+      "caseSizeMm": 40,
+      "movementType": "quartz",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 20000,
+      "searchKeywordJa": "フレデリック・コンスタント クラシック クォーツ",
+      "searchKeywordEn": "Frederique Constant Classics Quartz",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "dress"
+      ],
+      "popular": false,
+      "summary_ja": "クラシックコレクションのクォーツ仕様。ローマ数字やバーインデックスの端正な文字盤にレザーストラップを合わせた王道ドレス仕様で、価格を抑えたエントリー機として支持されている。",
+      "summary_en": "The quartz entry to the Classics line: a restrained dial on a leather strap at the brand's most accessible price."
+    },
+    {
+      "id": "vintage-rally-healey-chronograph",
+      "name_en": "Vintage Rally Healey Chronograph Automatic",
+      "name_ja": "ヴィンテージ ラリー ヒーレー クロノグラフ オートマチック",
+      "reference": null,
+      "collection_en": "Vintage Rally",
+      "collection_ja": "ヴィンテージ ラリー",
+      "caseSizeMm": 42,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 90000,
+      "searchKeywordJa": "フレデリック・コンスタント ヒーレー クロノグラフ",
+      "searchKeywordEn": "Frederique Constant Vintage Rally Healey Chronograph Automatic",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph",
+        "racing",
+        "limited-edition",
+        "vintage-reissue"
+      ],
+      "popular": false,
+      "summary_ja": "英国の名車オースチン・ヒーレーとの長年のパートナーシップから生まれたラリー系限定クロノグラフ。レーシングダイヤルとレトロな書体を採用し、クラシックカー愛好家に人気が高い。",
+      "summary_en": "A limited racing chronograph born from the brand's long partnership with Austin-Healey, styled with retro rally dial cues."
     }
   ]
 }
