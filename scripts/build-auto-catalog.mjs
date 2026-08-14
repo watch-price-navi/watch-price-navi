@@ -58,7 +58,9 @@ const WRITE_PRICES = !args.includes('--no-prices');
 // コレクション名でも走査して、ブランド名だけでは埋もれる出品を拾う
 const USE_COLLECTIONS = !args.includes('--no-collections');
 // 1ブランドあたりの追加キーワード上限。増やすほど網羅率は上がるが実行時間も伸びる
-const MAX_KEYWORDS = Number(argValue('--max-keywords')) || 18;
+const MAX_KEYWORDS = Number(argValue('--max-keywords')) || 30;
+// キーワード検索を何頁辿るか（楽天）
+const KEYWORD_PAGES = Number(argValue('--keyword-pages')) || 4;
 
 if (!RAKUTEN_APP_ID && !YAHOO_APP_ID) {
   console.log('APIキーが未設定のため自動カタログ生成をスキップしました。');
@@ -438,13 +440,42 @@ const catalogs = fs
 const keywordsDir = path.join(ROOT, 'data', 'sweep-keywords');
 function loadExtraKeywords(brandId) {
   const file = path.join(keywordsDir, `${brandId}.json`);
-  if (!fs.existsSync(file)) return [];
+  if (!fs.existsSync(file)) return { keywords: [], prefixes: [] };
   try {
     const d = readJson(file);
-    return (d.keywords ?? []).filter((k) => typeof k === 'string' && k.trim()).slice(0, 40);
+    return {
+      keywords: (d.keywords ?? []).filter((k) => typeof k === 'string' && k.trim()),
+      prefixes: (d.refPrefixes ?? []).filter((k) => typeof k === 'string' && k.trim()),
+    };
   } catch {
-    return [];
+    return { keywords: [], prefixes: [] };
   }
+}
+
+/**
+ * 走査に使うキーワードを、収穫の多い順に並べて返す。
+ *
+ * 型番の接頭辞（「オメガ 233.」など）が最も効く。実測で 233.系は313件に絞り込まれ、
+ * その2頁目に目的の型番があった。一方ブランド名やコレクション名だけの検索では
+ * 人気商品に埋もれて到達できない。上限で打ち切られても接頭辞が残るよう先頭に置く。
+ */
+function buildKeywords(cat) {
+  const brandJa = cat.brand.name_ja;
+  const { keywords: extra, prefixes } = loadExtraKeywords(cat.brand.id);
+  const isPrefixLike = (k) => /[0-9]\.$/.test(k) || /\s[A-Z]{2,4}$/.test(k) || prefixes.some((p) => k.endsWith(p));
+
+  const ordered = [];
+  const seen = new Set();
+  const push = (k) => {
+    const s = k.trim();
+    if (s && !seen.has(s)) { seen.add(s); ordered.push(s); }
+  };
+
+  for (const p of prefixes) push(`${brandJa} ${p}`);   // 型番接頭辞（最優先）
+  for (const k of extra) if (isPrefixLike(k)) push(k);
+  for (const m of cat.models) if (m.collection_ja) push(`${brandJa} ${m.collection_ja}`);
+  for (const k of extra) push(k);                       // 残り（別表記・英語名など）
+  return ordered.slice(0, MAX_KEYWORDS);
 }
 
 let grandTotal = 0;
@@ -467,17 +498,14 @@ for (const cat of catalogs) {
   // ブランド名だけの検索は人気商品に埋もれて裾野を取りこぼす。
   // コレクション名（+外部で用意したキーワード）でも引き、掲載網羅率を上げる。
   if (USE_COLLECTIONS) {
-    const keywords = new Set();
-    for (const m of cat.models) {
-      if (m.collection_ja) keywords.add(`${brand.name_ja} ${m.collection_ja}`);
-    }
-    for (const k of loadExtraKeywords(brand.id)) keywords.add(k);
-    const list = [...keywords].slice(0, MAX_KEYWORDS);
+    const list = buildKeywords(cat);
     if (list.length) {
       process.stdout.write(`出品${afterBrand}件 → ${list.length}語で追加走査… `);
       for (const kw of list) {
-        await sweepRakuten(brand, listings, kw, NO_BANDS, 3);
-        await sweepYahoo(brand, listings, kw, NO_BANDS, 2);
+        // キーワード検索は母数が絞れているので楽天を深く辿る（実測で2頁目に目的の型番があった）。
+        // Yahoo!は同じ検索での件数が少なく、かつ1件2秒かかるので1頁に留める。
+        await sweepRakuten(brand, listings, kw, NO_BANDS, KEYWORD_PAGES);
+        await sweepYahoo(brand, listings, kw, NO_BANDS, 1);
       }
     }
   }
