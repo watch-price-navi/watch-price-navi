@@ -620,29 +620,57 @@ for (const cat of catalogs) {
     writePrices(brand.id, id, buildOffers(g.items, floor));
   }
 
+  // ---- 既存カタログへの積み上げ ----
+  // 毎回まるごと上書きすると、その日たまたま出品が無かった型番のページが消える。
+  // 一度実在が確認できた型番は実在し続けるし、消すとGoogleに登録済みのURLが404になる。
+  // 走査の深さは実行環境（CIは時間制限があるので浅い）で変わるため、
+  // 浅い走査が深い走査の成果を削らないよう、必ず「足す」方向で書き込む。
   const autoFile = path.join(autoDir, `${brand.id}.json`);
-  if (models.length === 0 && fs.existsSync(autoFile)) {
-    // API障害等で走査が空振りした日は上書きしない（公開済みの自動モデルページを消さないため）
-    console.log('走査結果が空のため既存の自動カタログを維持');
-  } else {
-    fs.writeFileSync(
-      autoFile,
-      JSON.stringify(
-        {
-          brandId: brand.id,
-          generatedAt: new Date().toISOString(),
-          note: '出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。',
-          models,
-        },
-        null,
-        2
-      ),
-      'utf8'
-    );
-    console.log(`${models.length}モデルを自動生成`);
+  const today = new Date().toISOString().slice(0, 10);
+  let merged = models.map((m) => ({ ...m, lastSeen: today }));
+
+  if (fs.existsSync(autoFile)) {
+    let prev = [];
+    try {
+      prev = readJson(autoFile).models ?? [];
+    } catch {
+      /* 壊れていれば今回の結果で作り直す */
+    }
+    const foundNow = new Map(merged.map((m) => [normRef(m.reference ?? m.id), m]));
+    const kept = [];
+    for (const old of prev) {
+      const key = normRef(old.reference ?? old.id);
+      if (foundNow.has(key)) continue; // 今回も見つかった分は新しい情報で置き換わる
+      // 今回は出品が見つからなかったが、過去に実在を確認した型番なので残す
+      kept.push({ ...old, listingCount: 0 });
+    }
+    merged = [...merged, ...kept];
   }
 
-  grandTotal += models.length;
+  // 上限を超えたら、今回見つかったもの・出品数の多いものを優先して残す
+  merged.sort((a, b) => {
+    const seen = (x) => (x.lastSeen === today ? 0 : 1);
+    return seen(a) - seen(b) || (b.listingCount ?? 0) - (a.listingCount ?? 0);
+  });
+  if (merged.length > MAX_PER_BRAND) merged = merged.slice(0, MAX_PER_BRAND);
+
+  fs.writeFileSync(
+    autoFile,
+    JSON.stringify(
+      {
+        brandId: brand.id,
+        generatedAt: new Date().toISOString(),
+        note: '出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。',
+        models: merged,
+      },
+      null,
+      2
+    ),
+    'utf8'
+  );
+  console.log(`今回${models.length}モデル / 累計${merged.length}モデル`);
+
+  grandTotal += merged.length;
 }
 
 if (WRITE_PRICES) {
