@@ -39,14 +39,18 @@ const FIELDS = [
   {
     key: 'RAKUTEN_APP_ID',
     label: '楽天ウェブサービスの アプリID',
-    help: 'https://webservice.rakuten.co.jp/ → アプリ一覧 に表示される20桁ほどの数字',
-    validate: (v) => (/^[0-9]{15,25}$/.test(v) ? null : '数字だけの15〜25桁のはずです。別の値を貼っていないか確認してください'),
+    help: 'https://webservice.rakuten.co.jp/app/list に表示されます（新API基盤ではUUID形式）',
+    // 新基盤は 8-4-4-4-12 のUUID。旧基盤は数字19桁前後。どちらも受け付ける
+    validate: (v) =>
+      /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(v) || /^[0-9]{15,25}$/.test(v)
+        ? null
+        : 'UUID形式（xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx）か、数字15〜25桁のはずです',
   },
   {
     key: 'RAKUTEN_ACCESS_KEY',
     label: '楽天ウェブサービスの アクセスキー',
-    help: 'アプリIDと同じ画面に表示されます。新しい楽天APIではこれが必須です',
-    validate: (v) => (v.length >= 10 ? null : '短すぎます。コピーし損ねていないか確認してください'),
+    help: 'アプリIDと同じ画面に表示されます（pk_ で始まる文字列）。新しい楽天APIでは必須です',
+    validate: (v) => (v.length >= 20 ? null : '短すぎます。コピーし損ねていないか確認してください'),
   },
   {
     key: 'RAKUTEN_AFFILIATE_ID',
@@ -159,13 +163,26 @@ async function testRakuten(env) {
     const res = await fetch(`${endpoint}?${params}`, { headers });
     if (!res.ok) {
       const body = await res.text().catch(() => '');
-      ng(`楽天: HTTP ${res.status}`);
-      if (res.status === 400 || res.status === 401 || res.status === 403) {
-        say(`      → アプリID/アクセスキーの誤り、または Origin（許可サイト）の不一致が疑われます。`);
-        say(`      → 楽天のアプリ登録画面の「許可サイト」と、.env の RAKUTEN_ORIGIN（現在: ${headers.Origin ?? 'なし'}）を`);
-        say(`         同じドメインに揃えてください。`);
+      let code = '';
+      try { code = JSON.parse(body).errors?.errorMessage ?? ''; } catch { /* JSONでないことがある */ }
+      ng(`楽天: HTTP ${res.status}${code ? ` (${code})` : ''}`);
+
+      // 実際に返ってくるエラーごとに、直し方を具体的に案内する
+      if (code === 'REQUESTED_SCOPES_NOT_ALLOWED') {
+        say('      → アプリに「楽天市場商品検索API」の利用権限(スコープ)が付いていません。');
+        say('      → https://webservice.rakuten.co.jp/app/list でアプリを開き、');
+        say('         APIアクセススコープで「楽天市場商品検索API(IchibaItem/Search)」を有効にして保存してください。');
+      } else if (code === 'REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING') {
+        say('      → Originヘッダが送られていません。.env の RAKUTEN_ORIGIN が空の可能性があります。');
+      } else if (/REFERRER|ORIGIN|DOMAIN/i.test(code)) {
+        say(`      → Origin（現在: ${headers.Origin ?? 'なし'}）が、楽天アプリ登録の「許可サイト」と一致していません。`);
+        say('      → 許可サイト欄はドメインのみ（https:// なし）で登録します。');
+      } else if (/ACCESS[_ ]?KEY/i.test(code) || res.status === 401) {
+        say('      → アクセスキーが違います。https://webservice.rakuten.co.jp/app/list で確認し直してください。');
+      } else {
+        say('      → アプリID・アクセスキー・許可サイトのいずれかを確認してください。');
       }
-      if (body) say(`${C.dim}      応答: ${body.slice(0, 200)}${C.reset}`);
+      if (body && !code) say(`${C.dim}      応答: ${body.slice(0, 200)}${C.reset}`);
       return;
     }
     const data = await res.json();
