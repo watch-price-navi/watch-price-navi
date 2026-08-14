@@ -1,6 +1,6 @@
 {
   "brandId": "richard-mille",
-  "generatedAt": "2026-08-14T12:46:13.671Z",
+  "generatedAt": "2026-08-14T23:04:55.942Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -61,6 +61,34 @@
       "lastSeen": "2026-08-14"
     },
     {
+      "id": "ref-rm1103fq",
+      "name_en": "RM11-03FQ",
+      "name_ja": "オートマティック フライバック RM11-03FQ",
+      "reference": "RM11-03FQ",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 38930000,
+      "searchKeywordJa": "リシャール・ミル RM11-03FQ",
+      "searchKeywordEn": "Richard Mille RM11-03FQ",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph"
+      ],
+      "popular": false,
+      "summary_ja": "リシャール・ミルの型番RM11-03FQ。市場で10件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Richard Mille reference RM11-03FQ, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 10,
+      "lastSeen": "2026-08-14"
+    },
+    {
       "id": "ref-rm6501fq",
       "name_en": "RM65-01FQ",
       "name_ja": "オートマティック スプリットセコンド RM65-01FQ",
@@ -84,34 +112,6 @@
       "popular": false,
       "summary_ja": "リシャール・ミルの型番RM65-01FQ。市場で8件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Richard Mille reference RM65-01FQ, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 8,
-      "lastSeen": "2026-08-14"
-    },
-    {
-      "id": "ref-rm1103fq",
-      "name_en": "RM11-03FQ",
-      "name_ja": "オートマティック フライバック RM11-03FQ",
-      "reference": "RM11-03FQ",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 38930000,
-      "searchKeywordJa": "リシャール・ミル RM11-03FQ",
-      "searchKeywordEn": "Richard Mille RM11-03FQ",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "chronograph"
-      ],
-      "popular": false,
-      "summary_ja": "リシャール・ミルの型番RM11-03FQ。市場で8件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Richard Mille reference RM11-03FQ, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 8,
       "lastSeen": "2026-08-14"
@@ -257,34 +257,6 @@
       "lastSeen": "2026-08-14"
     },
     {
-      "id": "ref-rm3001catzp",
-      "name_en": "RM30-01.CA-TZP",
-      "name_ja": "オートマティック デクラッチャブル RM30-01.CA-TZP",
-      "reference": "RM30-01.CA-TZP",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 55930000,
-      "searchKeywordJa": "リシャール・ミル RM30-01.CA-TZP",
-      "searchKeywordEn": "Richard Mille RM30-01.CA-TZP",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "リシャール・ミルの型番RM30-01.CA-TZP。市場で4件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Richard Mille reference RM30-01.CA-TZP, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 4,
-      "lastSeen": "2026-08-14"
-    },
-    {
       "id": "ref-rm1103ca",
       "name_en": "RM11-03CA",
       "name_ja": "グレー RM11-03CA",
@@ -308,6 +280,34 @@
       "popular": false,
       "summary_ja": "リシャール・ミルの型番RM11-03CA。市場で4件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Richard Mille reference RM11-03CA, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 4,
+      "lastSeen": "2026-08-14"
+    },
+    {
+      "id": "ref-rm3001catzp",
+      "name_en": "RM30-01.CA-TZP",
+      "name_ja": "オートマティック デクラッチャブル RM30-01.CA-TZP",
+      "reference": "RM30-01.CA-TZP",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 55930000,
+      "searchKeywordJa": "リシャール・ミル RM30-01.CA-TZP",
+      "searchKeywordEn": "Richard Mille RM30-01.CA-TZP",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "リシャール・ミルの型番RM30-01.CA-TZP。市場で4件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Richard Mille reference RM30-01.CA-TZP, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
       "lastSeen": "2026-08-14"
