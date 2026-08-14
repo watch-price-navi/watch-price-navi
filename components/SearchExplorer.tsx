@@ -160,10 +160,15 @@ export default function SearchExplorer({
   const base = useMemo(() => {
     if (!entries) return [];
     const tokens = q.trim().toLowerCase().split(/\s+/).filter(Boolean);
+    // 型番は表記ゆれが激しい（233.32.41.21.01.001 / 23332412101001 / 233-32-41...）。
+    // 区切り文字を落とした形でも照合し、どの書き方でも当たるようにする
+    const flatTokens = tokens.map((tk) => tk.replace(/[.\-/\s]/g, '')).filter(Boolean);
     return entries.filter((e) => {
       if (tokens.length) {
         const hay = `${e.bja} ${e.ben} ${e.mja} ${e.men} ${e.ref ?? ''}`.toLowerCase();
-        if (!tokens.every((tk) => hay.includes(tk))) return false;
+        const flatHay = hay.replace(/[.\-/\s]/g, '');
+        const hit = tokens.every((tk) => hay.includes(tk)) || flatTokens.every((tk) => flatHay.includes(tk));
+        if (!hit) return false;
       }
       if (inStockOnly && e.price == null) return false;
       return true;
@@ -359,6 +364,28 @@ export default function SearchExplorer({
           <div className="notice notice-empty">
             <b>{t(lang, 'search_no_results')}</b>
             {t(lang, 'search_no_results_hint')}
+            {/* カタログ未収録でも行き止まりにしない。入力した語をそのままECで検索できるようにする。
+                収録漏れは翌朝の自動走査で拾われる */}
+            {q.trim() && (
+              <div className="empty-actions">
+                <a
+                  className="btn btn-sm"
+                  href={`https://search.rakuten.co.jp/search/mall/${encodeURIComponent(q.trim())}/`}
+                  target="_blank"
+                  rel="sponsored nofollow noopener"
+                >
+                  {t(lang, 'search_on_rakuten')}
+                </a>
+                <a
+                  className="btn btn-sm btn-outline"
+                  href={`https://shopping.yahoo.co.jp/search?p=${encodeURIComponent(q.trim())}`}
+                  target="_blank"
+                  rel="sponsored nofollow noopener"
+                >
+                  {t(lang, 'search_on_yahoo')}
+                </a>
+              </div>
+            )}
           </div>
         ) : (
           <>

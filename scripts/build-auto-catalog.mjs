@@ -48,9 +48,17 @@ const VC_PID = process.env.VC_PID || '';
 const args = process.argv.slice(2);
 const argValue = (n) => (args.indexOf(n) >= 0 ? args[args.indexOf(n) + 1] : null);
 const onlyBrand = argValue('--brand');
-const MIN_LISTINGS = Number(argValue('--min-listings')) || 2;
-const MAX_PER_BRAND = Number(argValue('--max-per-brand')) || 600;
+// 出品1件でも実在する型番なので採用する（掲載網羅を優先）。
+// 誤検出はREF_RE/NOISE/NG_WORDSの各フィルタ側で抑える。
+const MIN_LISTINGS = Number(argValue('--min-listings')) || 1;
+const MAX_PER_BRAND = Number(argValue('--max-per-brand')) || 3000;
+const PAGES_PER_BAND = Number(argValue('--pages')) || 4;   // 楽天(1req/秒)
+const YAHOO_PAGES = Number(argValue('--yahoo-pages')) || 3; // Yahoo!(30req/分)
 const WRITE_PRICES = !args.includes('--no-prices');
+// コレクション名でも走査して、ブランド名だけでは埋もれる出品を拾う
+const USE_COLLECTIONS = !args.includes('--no-collections');
+// 1ブランドあたりの追加キーワード上限。増やすほど網羅率は上がるが実行時間も伸びる
+const MAX_KEYWORDS = Number(argValue('--max-keywords')) || 18;
 
 if (!RAKUTEN_APP_ID && !YAHOO_APP_ID) {
   console.log('APIキーが未設定のため自動カタログ生成をスキップしました。');
@@ -266,22 +274,36 @@ const NG_WORDS = [
 
 // ---------- API 走査 ----------
 
-// 価格帯を分割して走査し、1クエリあたりの取得上限を回避する
-const PRICE_BANDS = [
+// 価格帯を分割して走査し、1クエリあたりの取得上限を回避する。
+// 帯を細かくするほど「同じ検索の続き」を深く辿れるので取りこぼしが減るが、
+// レート制限がそのまま実行時間になる。楽天は1req/秒、Yahoo!は30req/分（=2秒）と
+// 倍近く違うため、深さを揃えず**楽天を厚く・Yahoo!を薄く**配分する。
+// 楽天はアフィリエイト収益の主戦場でもあるので、こちらを優先するのが合理的。
+const RAKUTEN_BANDS = [
+  [10000, 20000], [20000, 30000], [30000, 45000], [45000, 60000],
+  [60000, 80000], [80000, 100000], [100000, 140000], [140000, 200000],
+  [200000, 280000], [280000, 400000], [400000, 550000], [550000, 700000],
+  [700000, 900000], [900000, 1200000], [1200000, 1700000], [1700000, 2500000],
+  [2500000, 4000000], [4000000, 6000000], [6000000, 12000000], [12000000, 100000000],
+];
+const YAHOO_BANDS = [
   [10000, 30000], [30000, 60000], [60000, 100000], [100000, 200000],
   [200000, 400000], [400000, 700000], [700000, 1200000],
   [1200000, 2500000], [2500000, 6000000], [6000000, 100000000],
 ];
 
-async function sweepRakuten(brand, out) {
+// コレクション名での検索は母数が小さいので価格帯で割らず、ページを辿るだけでよい
+const NO_BANDS = [[10000, 100000000]];
+
+async function sweepRakuten(brand, out, keyword = brand.name_ja, bands = RAKUTEN_BANDS, pages = PAGES_PER_BAND) {
   if (!RAKUTEN_APP_ID) return;
   let endpoint = 'https://app.rakuten.co.jp/services/api/IchibaItem/Search/20220601';
-  for (const [min, max] of PRICE_BANDS) {
-    for (let page = 1; page <= 3; page++) {
+  for (const [min, max] of bands) {
+    for (let page = 1; page <= pages; page++) {
       const params = new URLSearchParams({
         format: 'json',
         applicationId: RAKUTEN_APP_ID,
-        keyword: brand.name_ja,
+        keyword,
         hits: '30',
         page: String(page),
         minPrice: String(min),
@@ -322,13 +344,14 @@ async function sweepRakuten(brand, out) {
   }
 }
 
-async function sweepYahoo(brand, out) {
+async function sweepYahoo(brand, out, keyword = brand.name_ja, bands = YAHOO_BANDS, pages = YAHOO_PAGES) {
   if (!YAHOO_APP_ID) return;
-  for (const [min, max] of PRICE_BANDS) {
-    for (let start = 1; start <= 61; start += 30) {
+  const lastStart = 1 + (pages - 1) * 30;
+  for (const [min, max] of bands) {
+    for (let start = 1; start <= lastStart; start += 30) {
       const params = new URLSearchParams({
         appid: YAHOO_APP_ID,
-        query: brand.name_ja,
+        query: keyword,
         results: '30',
         start: String(start),
         price_from: String(min),
@@ -408,6 +431,22 @@ const catalogs = fs
   })
   .filter(Boolean);
 
+/**
+ * data/sweep-keywords/<brandId>.json があれば、その keywords を追加の検索語として使う。
+ * 別途生成しておくファイルなので、無くても動く。
+ */
+const keywordsDir = path.join(ROOT, 'data', 'sweep-keywords');
+function loadExtraKeywords(brandId) {
+  const file = path.join(keywordsDir, `${brandId}.json`);
+  if (!fs.existsSync(file)) return [];
+  try {
+    const d = readJson(file);
+    return (d.keywords ?? []).filter((k) => typeof k === 'string' && k.trim()).slice(0, 40);
+  } catch {
+    return [];
+  }
+}
+
 let grandTotal = 0;
 let curatedPriced = 0;
 
@@ -423,6 +462,25 @@ for (const cat of catalogs) {
   const listings = [];
   await sweepRakuten(brand, listings);
   await sweepYahoo(brand, listings);
+  const afterBrand = listings.length;
+
+  // ブランド名だけの検索は人気商品に埋もれて裾野を取りこぼす。
+  // コレクション名（+外部で用意したキーワード）でも引き、掲載網羅率を上げる。
+  if (USE_COLLECTIONS) {
+    const keywords = new Set();
+    for (const m of cat.models) {
+      if (m.collection_ja) keywords.add(`${brand.name_ja} ${m.collection_ja}`);
+    }
+    for (const k of loadExtraKeywords(brand.id)) keywords.add(k);
+    const list = [...keywords].slice(0, MAX_KEYWORDS);
+    if (list.length) {
+      process.stdout.write(`出品${afterBrand}件 → ${list.length}語で追加走査… `);
+      for (const kw of list) {
+        await sweepRakuten(brand, listings, kw, NO_BANDS, 3);
+        await sweepYahoo(brand, listings, kw, NO_BANDS, 2);
+      }
+    }
+  }
   process.stdout.write(`出品${listings.length}件 → `);
 
   // 型番ごとに集約

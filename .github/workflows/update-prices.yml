@@ -74,7 +74,9 @@ jobs:
           YAHOO_APP_ID: ${{ secrets.YAHOO_APP_ID }}
           VC_SID: ${{ secrets.VC_SID }}
           VC_PID: ${{ secrets.VC_PID }}
-        run: node scripts/build-auto-catalog.mjs
+        # 毎日の実行はGitHub Actionsの6時間制限に収まるよう控えめな深さにする。
+        # より深く掘りたいときは手元で引数なし（既定の最大深度）で実行する。
+        run: node scripts/build-auto-catalog.mjs --pages 3 --yahoo-pages 2 --max-keywords 12
 
       - name: Commit auto catalog
         continue-on-error: true
