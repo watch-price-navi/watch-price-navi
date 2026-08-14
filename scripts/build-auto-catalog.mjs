@@ -96,13 +96,22 @@ const NOISE_EXACT = new Set([
 ]);
 const NOISE_RE = /^(?:(?:1[89][0-9]{2}|20[0-4][0-9])(?:SS|AW|FW)?|[0-9]{1,4}(?:MM|CM|G|KG|ML|M|%|％|周年|気圧|万円|円|点|個|本|枚|年|月|日|時間|色)|[0-9]{1,2}[-/][0-9]{1,2}|NO[0-9]+|P[0-9]{1,3}|[0-9]+ATM|[0-9]+BAR|[0-9]{8,})$/i;
 
+// キャリバー(ムーブメント)番号は型番ではない。
+// CAL.2080 だけでなく CAL.K2001 / CAL.HUB4100 / CAL.L.633.1 のように
+// 接頭辞のあとに英字が来る表記も弾く
+const CALIBER_RE = /^(?:CAL|CALIBER|CALIBRE|MOVEMENT|MVT)[.\-_/]/i;
+// 貴金属の品位表記。750YG(18金) や 925SV など、型番と紛らわしい
+const PURITY_RE = /^(?:750|585|375|900|950|925|999)(?:YG|PG|RG|WG|SV|PT|GP)?$/i;
+
 function extractRefs(title) {
   const out = new Set();
   for (const raw of title.match(REF_RE) ?? []) {
     const s = raw.toUpperCase().replace(/[.,]$/, '');
     if (NOISE_EXACT.has(s) || NOISE_RE.test(s)) continue;
+    if (CALIBER_RE.test(s) || PURITY_RE.test(s)) continue;
     if (!/[0-9]/.test(s)) continue;
-    if (s.replace(/[^0-9]/g, '').length < 3) continue; // 数字が2桁以下は型番らしくない
+    // 腕時計の型番は通常4桁以上の数字を含む。3桁以下は価格・寸法・金位である場合が多い
+    if (s.replace(/[^0-9]/g, '').length < 4) continue;
     out.add(s);
   }
   return [...out];
@@ -123,6 +132,9 @@ const NAME_STOP = new Set([
   'ランキング', 'キャンペーン', 'スーパー', 'ネット', 'オンライン', 'ロング', 'ショート',
 ]);
 
+// 「ラバーウォッチバンド」のような連結語は完全一致では弾けないので部分一致でも見る
+const NAME_STOP_PART = /バンド|ベルト|ストラップ|ブレスレット|バックル|尾錠|ケース|ボックス|カバー|フィルム|工具|クリーナー|スタンド|ワインダー/;
+
 function extractNameTokens(title, brandJa, brandEn) {
   const cleaned = title
     .replace(new RegExp(brandJa, 'gi'), ' ')
@@ -130,7 +142,7 @@ function extractNameTokens(title, brandJa, brandEn) {
     .replace(/[【】\[\]（）()｜|/／・,、。!！?？"'’”“]/g, ' ');
   const tokens = [];
   for (const kata of cleaned.match(/[ァ-ヴー]{3,12}/g) ?? []) {
-    if (NAME_STOP.has(kata)) continue;
+    if (NAME_STOP.has(kata) || NAME_STOP_PART.test(kata)) continue;
     tokens.push(kata);
   }
   return tokens;
@@ -246,6 +258,10 @@ const NG_WORDS = [
   '互換', '社外', '汎用', 'ノベルティ', '置時計', '掛け時計', 'クロック',
   '修理', 'オーバーホール', '電池交換', '磨き', '保護フィルム', 'カバー',
   'ジャンク', '部品取り', 'コピー品', 'レプリカ',
+  // 交換用の部材。本体と誤認すると「デイトナ ¥14,960」のような表示になる
+  'ウォッチバンド', 'ラバーバンド', 'レザーバンド', 'ラバーベルト', 'レザーベルト',
+  'メタルバンド', '交換用', '交換ベルト', '替えベルト', 'ウォッチケース',
+  'コレクションケース', '収納ケース', 'ワインディングマシーン', 'ワインダー',
 ];
 
 // ---------- API 走査 ----------
