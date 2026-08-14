@@ -8,6 +8,7 @@ import { absUrl } from '@/lib/config';
 import { getBlogPost, getBlogPosts } from '@/lib/blog';
 import { getModel, getSummary } from '@/lib/data';
 import { formatDate } from '@/lib/format';
+import { imageUrl } from '@/lib/image';
 import { LANGS, t, type Lang } from '@/lib/i18n';
 
 export const dynamicParams = false;
@@ -99,7 +100,7 @@ export default async function BlogPostPage({
 
         {hero && (
           <aside className="hero-cta">
-            {heroSummary?.image && <img src={heroSummary.image} alt="" loading="lazy" />}
+            {heroSummary?.image && <img src={imageUrl(heroSummary.image, 'hero') ?? ''} alt="" loading="lazy" />}
             <div className="hc-body">
               <div className="card-brand">{lang === 'ja' ? hero.brand.name_ja : hero.brand.name_en}</div>
               <div className="hc-name">{lang === 'ja' ? hero.model.name_ja : hero.model.name_en}</div>

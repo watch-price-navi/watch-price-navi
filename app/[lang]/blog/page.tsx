@@ -4,6 +4,7 @@ import { absUrl } from '@/lib/config';
 import { getBlogPosts } from '@/lib/blog';
 import { getSummary } from '@/lib/data';
 import { formatDate } from '@/lib/format';
+import { imageUrl } from '@/lib/image';
 import { t, type Lang } from '@/lib/i18n';
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
@@ -50,7 +51,7 @@ export default async function BlogIndex({ params }: { params: Promise<{ lang: st
                 <Link key={p.slug} href={`/${lang}/blog/${p.slug}/`} className="card post-card">
                   <div className="pc-media">
                     {hero?.image ? (
-                      <img src={hero.image} alt="" loading="lazy" />
+                      <img src={imageUrl(hero.image, 'card') ?? ''} alt="" loading="lazy" />
                     ) : (
                       <div className="pc-noimg">{lang === 'ja' ? '時計ブログ' : 'Journal'}</div>
                     )}

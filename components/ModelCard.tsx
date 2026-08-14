@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import type { BrandInfo, SummaryEntry, WatchModel } from '@/lib/data';
 import { formatJpy } from '@/lib/format';
+import { imageUrl } from '@/lib/image';
 import { t, type Lang } from '@/lib/i18n';
 import { CASE_MATERIALS, MOVEMENTS, taxLabel } from '@/lib/taxonomy';
 
@@ -29,7 +30,11 @@ export default function ModelCard({
     <Link href={`/${lang}/watch/${brandId}/${model.id}/`} className="card product-card" prefetch={false}>
       <div className="pc-media">
         {lowest?.image ? (
-          <img src={lowest.image} alt={lang === 'ja' ? model.name_ja : model.name_en} loading="lazy" />
+          <img
+            src={imageUrl(lowest.image, 'card') ?? ''}
+            alt={lang === 'ja' ? model.name_ja : model.name_en}
+            loading="lazy"
+          />
         ) : (
           <div className="pc-noimg">{brand.name_en}</div>
         )}

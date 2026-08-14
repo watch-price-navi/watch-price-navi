@@ -378,7 +378,8 @@ async function sweepYahoo(brand, out, keyword = brand.name_ja, bands = YAHOO_BAN
           price: Number(h.price) || 0,
           url: h.url ?? '',
           shop: h.seller?.name ?? '',
-          image: h.image?.medium ?? null,
+          // Yahoo!のパス1文字がサイズ。g=146px / j=300px / l=600px。最大の l で保存する
+          image: h.image?.medium ? h.image.medium.replace(/\/i\/[a-z]\//, '/i/l/') : null,
           condition: h.condition === 'used' ? 'used' : h.condition === 'new' ? 'new' : detectCondition(title),
         });
       }

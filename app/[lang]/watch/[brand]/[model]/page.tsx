@@ -8,6 +8,7 @@ import PriceTable from '@/components/PriceTable';
 import { absUrl } from '@/lib/config';
 import { getAllBrands, getBrand, getDealers, getModel, getPriceData, getSummary } from '@/lib/data';
 import { formatDate, formatJpy } from '@/lib/format';
+import { imageUrl } from '@/lib/image';
 import { LANGS, t, type Lang } from '@/lib/i18n';
 import { CASE_MATERIALS, GENDERS, MOVEMENTS, TAGS, taxLabel } from '@/lib/taxonomy';
 
@@ -128,7 +129,7 @@ export default async function ModelPage({
       <section className="model-hero">
         <div className="mh-image">
           {lowest?.image ? (
-            <img src={lowest.image} alt={`${bName} ${mName}`} />
+            <img src={imageUrl(lowest.image, 'hero') ?? ''} alt={`${bName} ${mName}`} />
           ) : (
             <div className="pc-noimg">{brand.name_en}</div>
           )}
