@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import { Suspense } from 'react';
 import SearchExplorer from '@/components/SearchExplorer';
 import { absUrl } from '@/lib/config';
 import { getAllBrands } from '@/lib/data';
@@ -56,7 +57,11 @@ export default async function SearchPage({ params }: { params: Promise<{ lang: s
         ))}
       </div>
 
-      <SearchExplorer lang={lang} brands={brands} />
+      {/* SearchExplorer は useSearchParams を使う。静的エクスポートでは
+          Suspense 境界が無いとビルドが通らない */}
+      <Suspense fallback={<p className="small-note">{t(lang, 'loading')}</p>}>
+        <SearchExplorer lang={lang} brands={brands} />
+      </Suspense>
     </div>
   );
 }

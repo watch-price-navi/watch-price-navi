@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import { useSearchParams } from 'next/navigation';
 import { useEffect, useMemo, useState } from 'react';
 import { t, type Lang } from '@/lib/i18n';
 import { CASE_MATERIALS, GENDERS, MOVEMENTS, TAGS, type TaxEntry } from '@/lib/taxonomy';
@@ -134,19 +135,24 @@ export default function SearchExplorer({
       .catch(() => setEntries([]));
   }, []);
 
-  // URLクエリから初期条件を復元（?brand=rolex&tag=diver など。共有・SEO流入に対応）
+  // URLクエリから条件を復元（?brand=rolex&tag=diver など。共有・SEO流入に対応）
+  // searchParams に追従させること。同じ /search/ 内のクイックピックはページ遷移では
+  // 再マウントされないため、依存配列が空だと2回目以降のリンクが効かなくなる。
+  const searchParams = useSearchParams();
   useEffect(() => {
-    const p = new URLSearchParams(window.location.search);
+    const p = new URLSearchParams(searchParams?.toString() ?? '');
     const get = (k: string) => p.getAll(k).flatMap((v) => v.split(',')).filter(Boolean);
-    if (p.get('q')) setQ(p.get('q') as string);
-    const b = get('brand'); if (b.length) setFBrand(b);
-    const mt = get('material'); if (mt.length) setFMat(mt);
-    const mvv = get('movement'); if (mvv.length) setFMv(mvv);
-    const tg = get('tag'); if (tg.length) setFTag(tg);
-    const g = get('gender'); if (g.length) setFGender(g);
-    const pr = get('price'); if (pr.length) setFPrice(pr);
-    const cs = get('case'); if (cs.length) setFCase(cs);
-  }, []);
+    setQ(p.get('q') ?? '');
+    setFBrand(get('brand'));
+    setFMat(get('material'));
+    setFMv(get('movement'));
+    setFTag(get('tag'));
+    setFGender(get('gender'));
+    setFPrice(get('price'));
+    setFCase(get('case'));
+    setFWr(get('wr'));
+    setLimit(48);
+  }, [searchParams]);
 
   const brandItems = useMemo(() => brands.map((b) => ({ id: b.id, ja: b.ja, en: b.en })), [brands]);
 

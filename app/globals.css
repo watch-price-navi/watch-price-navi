@@ -4,7 +4,9 @@
   --surface-2: #faf9f6;
   --ink: #16191d;
   --ink-soft: #4d545c;
-  --ink-faint: #878e96;
+  /* #878e96 は白地でコントラスト比3.3:1しかなくWCAG AA(4.5:1)未満だった。
+     価格の出典表記や広告表示の注記にも使うため、5.8:1まで濃くする */
+  --ink-faint: #5f666d;
   --line: #e6e3dd;
   --line-soft: #f0eee9;
   --accent: #b0873a;
@@ -460,6 +462,22 @@ table.price-table, table.model-table { width: 100%; border-collapse: collapse; f
   .mh-image { max-width: 320px; margin: 0 auto; width: 100%; }
   .explorer { grid-template-columns: 1fr; }
   .filter-toggle { display: inline-flex; }
+
+  /* iOSは16px未満の入力欄にフォーカスするとページを勝手に拡大し、元に戻らない */
+  .searchbox input, .explorer-search, .sort-select { font-size: 16px; }
+
+  /* 絞り込みは指で操作する。行を44px前後まで広げ、誤タップを防ぐ */
+  .facet-item { padding: 11px 0; font-size: 14px; gap: 12px; }
+  .facet-item input { width: 20px; height: 20px; }
+  /* ドロワー自体がスクロールするので、入れ子のスクロール領域は解除する
+     （260pxのままだとブランド39件のうち9件しか見えない） */
+  .facet-body { max-height: none; overflow-y: visible; }
+  .drawer-head .link-btn { font-size: 18px; padding: 12px 14px; margin: -12px -14px -12px 0; line-height: 1; }
+  .chips .link-btn { padding: 10px 6px; }
+  .chip { padding: 9px 14px; font-size: 13px; }
+  .chips { gap: 10px; }
+  /* 幅指定が親をはみ出して右端が切れていた */
+  .drawer-apply { width: auto; right: 16px; }
   .explorer-side {
     position: fixed; inset: 0 auto 0 0; width: min(88vw, 330px); z-index: 200;
     border-radius: 0; max-height: none; transform: translateX(-100%);
@@ -478,9 +496,51 @@ table.price-table, table.model-table { width: 100%; border-collapse: collapse; f
 
 @media (max-width: 640px) {
   body { font-size: 15px; }
-  .site-header .container { gap: 12px; padding-top: 10px; padding-bottom: 10px; }
+
+  /* ヘッダーは1行に収まらず約135pxはみ出していた（全ページで横スクロールし、
+     言語切替が画面外に出る）。ナビを2段目に折り返して収める */
+  .site-header .container {
+    flex-wrap: wrap; gap: 4px 12px; padding-top: 8px; padding-bottom: 8px;
+  }
   .logo { font-size: 18px; }
-  .header-nav { gap: 13px; font-size: 12.5px; }
+  .logo .logo-sub { letter-spacing: 0.16em; }
+  .header-nav {
+    width: 100%; margin-left: 0; gap: 0; justify-content: space-between; font-size: 12.5px;
+  }
+  /* 指で押せる高さ（約44px）を確保する */
+  .header-nav a { padding: 11px 0; }
+  .header-nav .lang-switch { padding: 9px 13px; }
+
+  /* --- 価格表: 横並びのままだと価格と購入ボタンが画面外になるのでカード化する --- */
+  .table-wrap { overflow-x: visible; background: none; border: none; border-radius: 0; }
+  table.price-table { min-width: 0; display: block; font-size: 15px; }
+  .price-table thead { display: none; }
+  .price-table tbody { display: block; }
+  .price-table tbody tr {
+    display: block; background: var(--surface); border: 1px solid var(--line);
+    border-radius: var(--radius); padding: 13px 15px; margin-bottom: 10px;
+  }
+  .price-table tbody tr:hover { background: var(--surface); }
+  .price-table tbody tr.best-row {
+    border-color: var(--deal);
+    background: linear-gradient(180deg, rgba(176,135,58,0.09), transparent 70%);
+  }
+  .price-table td { display: block; border-bottom: none; padding: 3px 0; }
+  .pt-shop { max-width: none; overflow: visible; font-size: 14px; }
+  .pt-title { max-width: none; -webkit-line-clamp: 2; }
+  .pt-source { font-size: 12px; color: var(--ink-soft); }
+  .pt-price { font-size: 22px; }
+  .pt-price.best { font-size: 25px; }
+  .price-table td:last-child { padding-top: 9px; }
+  .price-table td:last-child .btn {
+    display: block; width: 100%; padding: 13px 18px; font-size: 14.5px;
+  }
+  .badge { font-size: 12px; }
+  .small-note { font-size: 13px; color: var(--ink-soft); }
+
+  /* モデルページの画像が大きすぎて、最安値と購入ボタンが初期表示から押し出されていた */
+  .mh-image { max-width: 210px; }
+
   .hero { padding: 44px 0 50px; }
   .hero-stats { gap: 26px; margin-top: 28px; }
   .section { padding: 36px 0; }
@@ -490,4 +550,17 @@ table.price-table, table.model-table { width: 100%; border-collapse: collapse; f
   .card-price { font-size: 17px; }
   .cta-band { padding: 24px 20px; }
   .price-panel { padding: 18px 18px; }
+
+  /* 小さすぎて読めなかった箇所を底上げする（薄いグレーの11px前後は
+     スマホの実機では潰れる。景表法の注記や出典表記も含まれる） */
+  .spec-grid .spec dt { font-size: 12px; letter-spacing: 0.04em; color: var(--ink-soft); }
+  .pp-note { font-size: 13px; color: var(--ink-soft); }
+  .pc-meta { font-size: 12.5px; color: var(--ink-soft); }
+  .card-price small { font-size: 12px; color: var(--ink-soft); }
+
+  /* タップ領域が44px未満だったリンク類 */
+  .qp { padding: 11px 16px; }
+  .hero-links a { padding: 10px 18px; }
+  .tag-pill { padding: 10px 16px; font-size: 13px; }
+  .btn-sm { padding: 11px 16px; font-size: 13.5px; }
 }
