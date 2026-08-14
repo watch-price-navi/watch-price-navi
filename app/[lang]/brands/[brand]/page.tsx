@@ -38,7 +38,7 @@ export async function generateMetadata({
       languages: {
         ja: absUrl(`/ja/brands/${brandId}/`),
         en: absUrl(`/en/brands/${brandId}/`),
-        'x-default': absUrl(`/ja/brands/${brandId}/`),
+        'x-default': absUrl(`/en/brands/${brandId}/`),
       },
     },
   };

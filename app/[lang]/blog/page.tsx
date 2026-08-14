@@ -17,7 +17,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
         : 'Daily articles on watch history, movements, brands and how to wear them — with live lowest prices for every watch we mention.',
     alternates: {
       canonical: absUrl(`/${lang}/blog/`),
-      languages: { ja: absUrl('/ja/blog/'), en: absUrl('/en/blog/'), 'x-default': absUrl('/ja/blog/') },
+      languages: { ja: absUrl('/ja/blog/'), en: absUrl('/en/blog/'), 'x-default': absUrl('/en/blog/') },
     },
   };
 }

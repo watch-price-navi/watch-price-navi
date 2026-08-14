@@ -14,7 +14,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
         : 'All watch brands we track, with daily-updated lowest prices per model.',
     alternates: {
       canonical: absUrl(`/${lang}/brands/`),
-      languages: { ja: absUrl('/ja/brands/'), en: absUrl('/en/brands/'), 'x-default': absUrl('/ja/brands/') },
+      languages: { ja: absUrl('/ja/brands/'), en: absUrl('/en/brands/'), 'x-default': absUrl('/en/brands/') },
     },
   };
 }

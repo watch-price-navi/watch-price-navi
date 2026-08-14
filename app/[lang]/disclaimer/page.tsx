@@ -8,7 +8,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
     title: lang === 'ja' ? '免責事項' : 'Disclaimer',
     alternates: {
       canonical: absUrl(`/${lang}/disclaimer/`),
-      languages: { ja: absUrl('/ja/disclaimer/'), en: absUrl('/en/disclaimer/'), 'x-default': absUrl('/ja/disclaimer/') },
+      languages: { ja: absUrl('/ja/disclaimer/'), en: absUrl('/en/disclaimer/'), 'x-default': absUrl('/en/disclaimer/') },
     },
   };
 }

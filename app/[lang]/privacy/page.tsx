@@ -8,7 +8,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
     title: lang === 'ja' ? 'プライバシーポリシー' : 'Privacy Policy',
     alternates: {
       canonical: absUrl(`/${lang}/privacy/`),
-      languages: { ja: absUrl('/ja/privacy/'), en: absUrl('/en/privacy/'), 'x-default': absUrl('/ja/privacy/') },
+      languages: { ja: absUrl('/ja/privacy/'), en: absUrl('/en/privacy/'), 'x-default': absUrl('/en/privacy/') },
     },
   };
 }

@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { marked } from 'marked';
+import { insertFigures } from '@/lib/blog-figures';
 import AdSlot from '@/components/AdSlot';
 import ModelCard from '@/components/ModelCard';
 import { absUrl } from '@/lib/config';
@@ -34,7 +35,7 @@ export async function generateMetadata({
       languages: {
         ja: absUrl(`/ja/blog/${slug}/`),
         en: absUrl(`/en/blog/${slug}/`),
-        'x-default': absUrl(`/ja/blog/${slug}/`),
+        'x-default': absUrl(`/en/blog/${slug}/`),
       },
     },
     openGraph: { type: 'article', publishedTime: post.date },
@@ -64,7 +65,8 @@ export default async function BlogPostPage({
 
   const summary = getSummary();
   const body = lang === 'ja' ? post.body_ja : post.body_en;
-  const html = marked.parse(body || '', { async: false }) as string;
+  // 本文中のモデルリンクを目印に商品写真を差し込む（記事データは変更しない）
+  const html = insertFigures(marked.parse(body || '', { async: false }) as string, lang);
   const related = resolveModels(post.relatedModels);
   const hero = post.heroModel ? resolveModels([post.heroModel])[0] ?? null : null;
   const heroSummary = post.heroModel ? summary[post.heroModel] ?? null : null;

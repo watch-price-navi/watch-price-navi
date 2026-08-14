@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import AdSlot from '@/components/AdSlot';
 import DealerLinks from '@/components/DealerLinks';
+import KaitoriPanel from '@/components/KaitoriPanel';
 import ModelCard from '@/components/ModelCard';
 import PriceTable from '@/components/PriceTable';
 import { absUrl } from '@/lib/config';
@@ -66,7 +67,9 @@ export async function generateMetadata({
           : {
               ja: absUrl(`/ja/watch/${brandId}/${modelId}/`),
               en: absUrl(`/en/watch/${brandId}/${modelId}/`),
-              'x-default': absUrl(`/ja/watch/${brandId}/${modelId}/`),
+              // x-default は「言語を特定できない全世界のユーザー」の受け皿。
+              // 英語版がある場合は英語に向ける（日本語話者以外を日本語ページに送らない）
+              'x-default': absUrl(`/en/watch/${brandId}/${modelId}/`),
             },
     },
   };
@@ -92,9 +95,17 @@ export default async function ModelPage({
   const offers = prices?.offers ?? [];
   const bestOffer = offers[0] ?? null;
 
-  const related = cat.models
-    .filter((m) => m.id !== model.id && m.collection_en && m.collection_en === model.collection_en)
-    .slice(0, 4);
+  // 出品が1店だけのモデルは比較する中身が無い。関連モデル・取扱店一覧・広告枠を省いた
+  // 軽量ページにする。29,000件すべてに通常ページを作ると出力が3.7GBになり、
+  // GitHub Pages の上限1GBを超えて公開自体が失敗するため。
+  // 「型番で検索したらページに辿り着ける」ことを優先し、中身を削って全件に用意する。
+  const compact = offers.length < 2;
+
+  const related = compact
+    ? []
+    : cat.models
+        .filter((m) => m.id !== model.id && m.collection_en && m.collection_en === model.collection_en)
+        .slice(0, 4);
 
   const jsonLd: Record<string, unknown> = {
     '@context': 'https://schema.org',
@@ -284,18 +295,22 @@ export default async function ModelPage({
         )}
       </section>
 
-      <AdSlot />
+      <KaitoriPanel lang={lang} modelName={`${bName} ${mName}`} />
 
-      <section className="section" id="dealers" style={{ paddingTop: 8, scrollMarginTop: 80 }}>
-        <h2 className="section-title">{t(lang, 'dealers_title')}</h2>
-        <DealerLinks
-          dealers={dealers}
-          keyword={model.reference ?? (lang === 'ja' ? model.searchKeywordJa : model.searchKeywordEn)}
-          officialUrl={brand.officialUrl}
-          brandName={bName}
-          lang={lang}
-        />
-      </section>
+      {!compact && <AdSlot />}
+
+      {!compact && (
+        <section className="section" id="dealers" style={{ paddingTop: 8, scrollMarginTop: 80 }}>
+          <h2 className="section-title">{t(lang, 'dealers_title')}</h2>
+          <DealerLinks
+            dealers={dealers}
+            keyword={model.reference ?? (lang === 'ja' ? model.searchKeywordJa : model.searchKeywordEn)}
+            officialUrl={brand.officialUrl}
+            brandName={bName}
+            lang={lang}
+          />
+        </section>
+      )}
 
       {related.length > 0 && (
         <section className="section" style={{ paddingTop: 8 }}>

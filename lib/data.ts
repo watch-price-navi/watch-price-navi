@@ -79,6 +79,8 @@ export interface Dealer {
   homepage: string;
   searchUrlTemplate: string | null;
   handles: 'new' | 'used' | 'both';
+  /** 成果報酬のある提携先。true なら rel="sponsored" と広告表示を出す */
+  affiliate?: boolean;
   note_ja: string;
   note_en: string;
 }
@@ -186,6 +188,10 @@ export function getLowest(brandId: string, modelId: string): SummaryEntry | null
  * 1店舗だけのモデルは検索には出るが、リンク先は販売店へ直接向ける
  * （比較する中身が無いので、そのほうが利用者にとっても速い）。
  */
+// 1 = 価格が取れた全モデルにページを用意する。
+// 出品1店のモデルは関連モデル・取扱店一覧・広告枠を省いた軽量ページになる
+// （app/[lang]/watch/[brand]/[model]/page.tsx の compact 分岐）。
+// 「型番で検索したらページに辿り着ける」ことを優先した設定。
 export const MIN_OFFERS_FOR_PAGE = Number(process.env.MIN_OFFERS_FOR_PAGE ?? 2);
 
 export function hasOwnPage(brandId: string, modelId: string): boolean {
@@ -204,6 +210,39 @@ export function hasOwnPage(brandId: string, modelId: string): boolean {
 
   const s = summary[`${brandId}/${modelId}`];
   return (s?.offerCount ?? 0) >= MIN_OFFERS_FOR_PAGE;
+}
+
+export interface KaitoriService {
+  id: string;
+  name_ja: string;
+  name_en: string;
+  url: string;
+  asp?: string;
+  reward_note?: string;
+  note_ja: string;
+  note_en: string;
+}
+
+export interface KaitoriData {
+  disclosure_ja: string;
+  disclosure_en: string;
+  services: KaitoriService[];
+}
+
+let kaitoriCache: KaitoriData | null = null;
+
+/** 時計買取の広告主。提携前は services の url が空で、その場合は表示しない */
+export function getKaitori(): KaitoriData {
+  if (kaitoriCache) return kaitoriCache;
+  const file = path.join(dataDir, 'kaitori.json');
+  try {
+    kaitoriCache = fs.existsSync(file)
+      ? readJson<KaitoriData>(file)
+      : { disclosure_ja: '', disclosure_en: '', services: [] };
+  } catch {
+    kaitoriCache = { disclosure_ja: '', disclosure_en: '', services: [] };
+  }
+  return kaitoriCache;
 }
 
 let dealersCache: Dealer[] | null = null;

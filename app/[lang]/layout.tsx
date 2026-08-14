@@ -31,7 +31,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
       languages: {
         ja: absUrl('/ja/'),
         en: absUrl('/en/'),
-        'x-default': absUrl('/ja/'),
+        'x-default': absUrl('/en/'),
       },
     },
     openGraph: {
@@ -39,6 +39,9 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
       locale: lang === 'ja' ? 'ja_JP' : 'en_US',
       type: 'website',
     },
+    // Google Search Console の所有権確認。確認後も消さないこと
+    // （タグを外すと所有権が失われ、検索パフォーマンスのデータが見られなくなる）
+    verification: { google: 'KvGbogTeR8tpBVeEMV8ZnFNqdHkHb8VwNVEr6xPXRRM' },
   };
 }
 

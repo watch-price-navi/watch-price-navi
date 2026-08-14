@@ -258,7 +258,7 @@ function buildOffers(items, floor) {
       });
     }
   }
-  return [...byShop.values()].sort((a, b) => a.price - b.price).slice(0, 12);
+  return [...byShop.values()].sort((a, b) => a.price - b.price).slice(0, 8);
 }
 
 // 本体ではない出品を弾く

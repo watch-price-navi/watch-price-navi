@@ -1,0 +1,47 @@
+{
+  "note": "時計買取の広告主。ASPの審査が通ったら url を成果URLに差し替える。url が空のものは表示されない（審査待ちのあいだ空リンクを出さないため）。報酬額は各ASPの管理画面で必ず確認すること — 調査時点の第三者情報のため変動する。",
+  "disclosure_ja": "以下は広告です。査定は無料で、売却の義務はありません。",
+  "disclosure_en": "The following are advertisements. Appraisals are free with no obligation to sell.",
+  "services": [
+    {
+      "id": "tokei-kaitori-biz",
+      "name_ja": "時計買取.biz",
+      "name_en": "Tokei-Kaitori.biz",
+      "url": "",
+      "asp": "afb / タウンライフアフィリエイト",
+      "reward_note": "約10,000円/件（承認地点は要確認：査定申込か買取成立か）",
+      "note_ja": "宅配・出張・店頭に対応。査定は無料",
+      "note_en": "Mail-in, on-site and in-store appraisal. Free of charge"
+    },
+    {
+      "id": "komehyo",
+      "name_ja": "KOMEHYO",
+      "name_en": "KOMEHYO",
+      "url": "",
+      "asp": "アクセストレード",
+      "reward_note": "約7,500円/件",
+      "note_ja": "国内最大級のリユース企業。高級時計の取扱実績が豊富",
+      "note_en": "One of Japan's largest reuse companies with strong luxury watch experience"
+    },
+    {
+      "id": "nanboya",
+      "name_ja": "なんぼや",
+      "name_en": "Nanboya",
+      "url": "",
+      "asp": "アクセストレード",
+      "reward_note": "要確認",
+      "note_ja": "全国に店舗展開。ブランド時計の買取に対応",
+      "note_en": "Nationwide stores specialising in branded watches"
+    },
+    {
+      "id": "antigrande",
+      "name_ja": "アンティグランデ",
+      "name_en": "Anti Grande",
+      "url": "",
+      "asp": "タウンライフアフィリエイト",
+      "reward_note": "要確認",
+      "note_ja": "アンティーク・ヴィンテージ時計に強い",
+      "note_en": "Specialists in antique and vintage watches"
+    }
+  ]
+}

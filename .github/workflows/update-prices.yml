@@ -158,6 +158,10 @@ jobs:
 
       - name: Build site
         env:
+          # 29,000ページの静的生成はNodeの既定ヒープ(約2GB)を超える。
+          # 未設定だとビルドがメモリ不足で落ち、デプロイまで到達しない
+          # （手元では 0xC0000409 で落ちた）。GitHubランナーは7GBなので6GB割り当てる
+          NODE_OPTIONS: --max-old-space-size=6144
           NEXT_PUBLIC_SITE_URL: ${{ vars.NEXT_PUBLIC_SITE_URL }}
           NEXT_PUBLIC_BASE_PATH: ${{ vars.NEXT_PUBLIC_BASE_PATH }}
           NEXT_PUBLIC_ADSENSE_CLIENT: ${{ vars.NEXT_PUBLIC_ADSENSE_CLIENT }}

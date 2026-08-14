@@ -16,7 +16,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
         : 'Filter watches by brand, price, case size, material, movement and complication. Lowest prices updated daily from Rakuten and Yahoo! Shopping Japan.',
     alternates: {
       canonical: absUrl(`/${lang}/search/`),
-      languages: { ja: absUrl('/ja/search/'), en: absUrl('/en/search/'), 'x-default': absUrl('/ja/search/') },
+      languages: { ja: absUrl('/ja/search/'), en: absUrl('/en/search/'), 'x-default': absUrl('/en/search/') },
     },
   };
 }

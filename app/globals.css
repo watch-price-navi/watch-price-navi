@@ -1029,3 +1029,30 @@ table.price-table, table.model-table {
   margin-left: 12px;
   font-variant-numeric: tabular-nums lining-nums;
 }
+
+/* 成果報酬リンクである旨の表示。景表法・各ASP規約・eBay規約が求める */
+.dealer-ad {
+  display: inline-block;
+  margin-left: 8px;
+  padding: 1px 7px;
+  font-family: var(--sans);
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  color: var(--ink-faint);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  vertical-align: middle;
+}
+.dealer-go { display: block; margin-top: 10px; color: var(--brass-ink); font-size: 13.5px; font-weight: 600; }
+.kaitori-lead { max-width: 62ch; margin: 6px 0 18px; color: var(--ink-soft); }
+
+/* 記事本文に差し込む商品写真。本文の流れを止めないよう、幅いっぱいにはしない */
+.article-figure { margin: 26px 0; }
+.article-figure a { display: block; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; }
+.article-figure img { width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: contain; padding: 18px; background: #fff; }
+.article-figure figcaption { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 12px; margin-top: 9px; font-size: 13px; color: var(--ink-soft); }
+.article-figure figcaption b { font-size: 14px; color: var(--ink); font-weight: 600; }
+.article-figure .af-price { font-family: var(--num); font-variant-numeric: tabular-nums lining-nums; color: var(--signal); font-weight: 600; }
+.article-figure .af-src { font-size: 12px; color: var(--ink-faint); }
+@media (max-width: 640px) { .article-figure img { padding: 12px; } }

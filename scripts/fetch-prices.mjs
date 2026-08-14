@@ -192,7 +192,7 @@ function cleanOffers(offers, model, brand) {
     const key = `${o.source}:${o.shop}`;
     if (!byShop.has(key)) byShop.set(key, o);
   }
-  return [...byShop.values()].sort((a, b) => a.price - b.price).slice(0, 12);
+  return [...byShop.values()].sort((a, b) => a.price - b.price).slice(0, 8);
 }
 
 // ---- メイン処理 ----
