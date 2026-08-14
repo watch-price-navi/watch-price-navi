@@ -1,110 +1,222 @@
 /* ============================================================================
-   時計価格ナビ — 案B「ショーケース」
+   時計価格ナビ — 案C「ATRIUM（アトリウム）」
    ----------------------------------------------------------------------------
-   前提: 写真は楽天/Yahoo!の出品者がアップした雑多な商品写真。
-        白背景・グレー背景・文字帯入り・斜め撮り・非正方形が混在する。
-        しかも「画像が無いモデル」が大量にある。
+   コンセプト: 光と余白で威圧する。
+   吹き抜けのロビー。天窓から落ちる昼光。石の床。誰も急いでいない。
 
-   この案の唯一の原則:
-     写真の“中身”は揃えられない。だから“写真が乗る面”を完全に揃える。
-     台は常にフラットな純白(#fff)、常に同じ内側余白、常に contain、常に角ゼロ。
-     グラデーションもブレンドも影も、台には一切敷かない。
-     （白背景の商品写真は台の白に溶けて消える。=多数派が自動的に「揃う」）
+   ■ 1回目（サロン案）の失敗を繰り返さないための線引き
+     生成り/象牙/ベージュの地 → 使わない。地は「寒色側の淡い石」。
+     明朝の見出し → 使わない。全ページ1ファミリーのサンセリフ。
+     真鍮・金・銅の罫 → 使わない。金属色はCSSに一切登場しない。
+     大字間のスモールキャップス → 使わない。字間を開けるのは11-12pxの小ラベルのみ、
+       しかも 0.02〜0.09em（1回目の 0.2em 級とは別物）。
+     根拠: Bulgari は金を象徴とするブランドでありながら、画面上に金色のUIパーツが
+       ひとつも無い（ロゴと写真の中の実物にしか金が無い）。貴金属をCSSで塗った瞬間に
+       安く見えることを本物は知っている。
 
-   面と面のあいだの 4px の隙間そのものが罫線。線は引かない。
-   文字は全てサンセリフ。色はほぼ無彩色。色を持っているのは写真と、
-   「最安・購入」を指す1色の赤だけ。
+   ■ 2回目（ショーケース案）の失敗を繰り返さないための線引き
+     純白の台に商品が整列 → やめる。台は残すが「カード」をやめた。
+       写真の白面だけが白く、その下の文字は地の上に直接置く。
+       白い矩形が並ぶのではなく、淡い石の床に光の板が浮く。
+     無彩色グレーの地 → やめる。地に色温度を入れる（後述）。
+     赤の差し色・赤い価格 → 全廃。有彩色は深緑1色のみ、出現面積は1%未満。
+       根拠: Jaeger-LeCoultre の .price は font-weight:600 / 1.25rem / サンセリフで
+       「色指定が無い」。本文インクを継承する。Bang & Olufsen も $2,300 を
+       ただの文字として置く。価格を叫ばないことが価格の説得力になる。
+     太いシステムゴシックの大見出し → 全廃。font-weight は最大 500。
+       根拠: Patek の CSS で font-weight:700 はわずか7ルール、支配的なのは 400(156) と
+       300(108)。Apple も最上位ページの見出しを 600 止まりにし、大きくした分だけ
+       字間を詰める（負のトラッキング）。「大きくする、太くしない」。
 
-   既存クラス名は一切変更していない。中身だけを入れ替えている。
+   ■ この案の骨格（すべて実在サイトの実測値に紐づける）
+     1. 外周は画面比例で広く、ガターは狭く。
+        Rolex は --outer-margin:8vw に対し --grid-gap:6px(モバイル)/8px(デスクトップ)。
+        本案は外周 clamp(20px,7vw,132px) に対し 列ガター clamp(14px,1.6vw,26px)。
+        比が5倍以上開く。量販EC（外周が狭くガターが広い）と骨格が反転する。
+     2. 縦のリズムは px ではなく vh。
+        Rolex --s-h-space:4vh / --m-h-space:7vh / --l-h-space:10vh。
+        本案 --band:clamp(72px,12vh,168px)。画面が大きいほど余白も伸びる。
+     3. カードから装飾を全部外す。border / box-shadow / border-radius / 背景塗り の
+        4点セットを同時に付けない（付けた瞬間に楽天になる）。
+        Audemars Piguet は --radius-none、影を使わない。
+        分離は「地の明度差」と「間隔」だけで作る。
+     4. 均等グリッドをやめる。
+        Patek は 16/9・1/1・9/16・4/3 に加え 683/384、248/441 という半端な比率を
+        モジュールごとに直接指定している。全カード同一比率の均等グリッドが
+        いちばん強くAI生成臭を出す。本案は既定 4/5 に対し 4枚に1枚を 1/1 にし、
+        先頭1枚だけ2カラム分・16/11 で開く。align-items:start でわざと裾を揃えない。
+     5. 明暗の反転を「点」で入れる。
+        Audemars Piguet は normal / contrast の完全な鏡像トークンを持ち、
+        セクション単位で配色を反転させる。本案は光の側に振り切っているので、
+        暗部は フッター・CTA帯 の2箇所だけに絞る。1ページに黒が2回だけ来る。
    ========================================================================== */
 
 :root {
-  /* --- 面 -----------------------------------------------------------------
-     地はやや寒色寄りのニュートラルグレー。生成り・象牙・ベージュは使わない。
-     カード/写真台は純白。地との明度差だけで面を切る（枠線も影も使わない）。 */
-  --ground: #ececed;       /* ページ地 */
-  --stage: #ffffff;        /* 写真台。ここだけは絶対にフラットな白 */
-  --panel: #ffffff;        /* カード・パネル */
-  --panel-2: #f4f4f5;      /* 一段沈んだ面（表ヘッダの代替・引用など） */
-  --ink: #111214;          /* near-black。青みをわずかに含む */
-  --ink-2: #33353a;
-  --ink-3: #5c5e63;        /* 補助文字。白地6.5:1 / 地6.2:1 */
-  --edge: #dedee0;         /* 機能上どうしても要る境界線だけに使う */
-  --edge-strong: #c6c7ca;
+  /* ── 地と面 ────────────────────────────────────────────────────────────
+     地 #E9EFEC は「Rolex の緑（--dark-green #0b3e27）と同じ色相を、明度92%まで
+     持ち上げた色」。つまりこのサイトのアクセント色の最も淡い親戚が、そのまま
+     部屋の光の色になっている。
+     ・生成り(#F5F0E6 前後・色相40°の暖色)とは色相が真逆で重ならない。
+     ・2回目の #ECECED(色相240°・彩度2%の無彩色)とも数値的に重ならない。
+     根拠: 実在の高級サイトに純粋な無彩色グレーは一社も無い。Patek の副次テキストは
+     #4a4a52/#666672(青寄り)、JLC は #96938e/#5a5952(暖寄り)。中間色には必ず
+     色味が入っている。本案は「寒色・緑寄り」を選ぶ。 */
+  --ground: #e9efec;        /* ページの地。ここが画面の9割を占める */
+  --stage: #ffffff;         /* 写真が乗る面。純白はここだけに許す＝光 */
+  --recess: #e1e8e5;        /* 地より一段沈んだ面（画像なし・注記・引用・表頭） */
+  --recess-2: #d9e1de;      /* その hover */
 
-  /* --- 暗部（ヘッダ/ヒーロー/画像なしタイル/フッタ） --- */
-  --void: #111214;
-  --void-2: #1c1e22;
-  --on-void: #ffffff;
-  --on-void-2: #9ea2aa;    /* void上 7.4:1 */
-  --on-void-3: #c3c6cc;    /* 法定表記用。void上 12:1 */
+  /* 暗部。純黒にはしない。緑の温度を持った黒。
+     根拠: Rolls-Royce は青紫寄りの黒、Bentley は深緑寄りの黒。彩度0の黒ではない。
+     一方 Rolex は「暗いセクションの地」に background-color:black を28回使う。
+     文字が#000だと硬くなり、地が#000だと深くなる、というこの非対称に従い、
+     暗部は地としてのみ使う。 */
+  --deep: #101917;
+  --deep-2: #182322;
 
-  /* --- 唯一の色。最安値・購入・進行中を指す --------------------------------
-     ワインレッド（臙脂）ではない、彩度の高い現代的な赤。
-     白地5.9:1 / 地5.6:1 で小さい文字にも使える。 */
-  --signal: #c8102e;
-  --signal-dark: #a30d26;
+  /* ── インク ────────────────────────────────────────────────────────────
+     本文色に純黒を使わない（Patek #2e2e33 / JLC #3a3935 / AP #1b1b1b と同じ考え方）。
+     コントラストは地 #E9EFEC 上で ink 14.1:1 / ink-2 8.4:1 / ink-3 5.0:1。
+     沈んだ面 #E1E8E5 上でも ink-3 は 4.7:1 を確保している。 */
+  --ink: #17211f;
+  --ink-2: #3b4643;
+  --ink-3: #5b6764;
 
-  /* 状態色は無彩色で表す（新品=輪郭が強い / 中古=面が沈む） */
+  --on-deep: #edf2f0;       /* 暗部の上の白文字 */
+  --on-deep-2: #9daca8;     /* 暗部の上の補助文字 8.0:1 */
+  --on-deep-3: #c2cecb;     /* 法定表記・クレジット用 11:1 超 */
+
+  /* ── 罫 ───────────────────────────────────────────────────────────────
+     1回目で却下された「真鍮のヘアライン」の代替は、金属色ではなく
+     “地の隣接階調の1px”。色を持たせない。二重線・グラデーション・装飾罫は使わない。 */
+  --line: #d6dedb;
+  --line-strong: #bfc9c6;
+
+  /* ── 唯一の有彩色 ─────────────────────────────────────────────────────
+     深緑1色。Rolex #0b3e27 / #127749、AP green24 #2b4f4f と同じ領域。
+     使う場所は フォーカスリング / 最安行の2px縦罫 / 最安ラベルの文字と枠 だけ。
+     価格・在庫・CTAには絶対に使わない。画面占有率1%未満。 */
+  --accent: #12463a;
+  --accent-2: #1c6350;
+
+  /* ── 旧トークン名の互換エイリアス（既存記述を壊さないため） ── */
+  --paper: var(--ground);
+  --bg: var(--ground);
+  --surface: var(--stage);
+  --surface-2: var(--recess);
+  --panel: var(--ground);
+  --panel-2: var(--recess);
+  --edge: var(--line);
+  --edge-strong: var(--line-strong);
+  --line-soft: var(--line);
+  --ink-soft: var(--ink-2);
+  --ink-faint: var(--ink-3);
+  --accent-dark: var(--accent-2);
+  --accent-soft: var(--recess);
+  --header-bg: var(--ground);
+  --header-ink: var(--ink);
+  --void: var(--deep);
+  --void-2: var(--deep-2);
+  --on-void: var(--on-deep);
+  --on-void-2: var(--on-deep-2);
+  --on-void-3: var(--on-deep-3);
+  --signal: var(--ink);       /* 旧「赤」の参照先。赤には戻さない */
+  --signal-dark: var(--ink);
+  --deal: var(--ink);
   --new: var(--ink);
   --used: var(--ink-3);
 
-  /* --- 互換エイリアス（旧トークン名を参照する記述を壊さない） --- */
-  --paper: var(--ground);
-  --bg: var(--ground);
-  --surface: var(--panel);
-  --surface-2: var(--panel-2);
-  --line: var(--edge);
-  --line-soft: var(--edge);
-  --ink-soft: var(--ink-2);
-  --ink-faint: var(--ink-3);
-  --accent: var(--ink);
-  --accent-dark: var(--ink);
-  --accent-soft: var(--panel-2);
-  --header-bg: var(--void);
-  --header-ink: var(--on-void);
-  --deal: var(--signal);
-
-  /* --- 形 ---------------------------------------------------------------
-     角は丸めない。全幅の白い矩形が次々流れる、という体験そのものが主題。 */
+  /* ── 形 ───────────────────────────────────────────────────────────────
+     角丸ゼロ。AP の --radius-none にならう。影も使わない（唯一の例外は
+     画面の上に浮くもの＝検索候補とドロワーのみ。JLC も影はオーバーレイ限定）。 */
   --radius: 0;
   --radius-sm: 0;
-
-  /* --- 面と面の隙間。これが罫線の代わり --- */
-  --gap: 4px;
-
-  /* --- 影は「浮いている物」にしか使わない（検索候補・ドロワーのみ）--- */
   --shadow-sm: none;
   --shadow-md: none;
   --shadow-lift: none;
-  --shadow-lg: 0 24px 60px -24px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 24px 64px -28px rgba(16, 25, 23, 0.34);
 
-  /* --- 書体: 全てサンセリフ。明朝は使わない ------------------------------
-     Webフォントは使えない。OS標準のサンセリフを、
-     大きく・詰めて・太く組むことだけで見出しをつくる。 */
+  /* ── 寸法系（ここが高級感の本体） ─────────────────────────────────────
+     余白は非線形。最小4px と 最大128px で32倍の落差を作る。
+     AI臭の正体は「すべての隙間が24px前後で一定」なこと。 */
+  --s1: 4px;
+  --s2: 8px;
+  --s3: 12px;
+  --s4: 16px;
+  --s5: 24px;
+  --s6: 32px;
+  --s7: 48px;
+  --s8: 64px;
+  --s9: 96px;
+  --s10: 128px;
+
+  --outer: clamp(20px, 7vw, 132px);      /* Rolex --outer-margin:8vw 相当 */
+  --band: clamp(72px, 12vh, 168px);      /* Rolex --l-h-space:10vh 相当 */
+  --band-sm: clamp(44px, 7vh, 96px);
+  --gutter: clamp(14px, 1.6vw, 26px);    /* 列の隙間。外周の1/5以下に保つ */
+  --row-gap: clamp(40px, 4.4vw, 76px);   /* 行の隙間。文字が下に付くので列より広い */
+  --stagger: clamp(24px, 3.4vw, 64px);
+
+  /* ── 書体 ─────────────────────────────────────────────────────────────
+     1ファミリーのサンセリフのみ。明朝は1文字も使わない。
+     根拠: Rolex は完全サンセリフ単一。Aman も Bulgari も Pictet も B&O も
+     本文UIはサンセリフ。「見出し明朝＋本文ゴシック」というAI的高級感の定型は
+     実在サイトのどこにも存在しない。
+     Webフォントは静的書き出しのため使えないので、OS標準のサンセリフを
+     “大きく・詰めて・細く”組むことだけで見出しを作る。 */
   --sans:
     -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial,
     'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Yu Gothic Medium', 'Yu Gothic', YuGothic,
     Meiryo, 'Noto Sans JP', sans-serif;
   --display: var(--sans);
-  --serif: var(--sans);   /* 旧参照の保険。明朝には戻さない */
+  --serif: var(--sans);      /* 旧参照の保険。明朝には戻さない */
   --num: var(--sans);
 
-  --ease: cubic-bezier(0.22, 0.61, 0.24, 1);
-  --dur: 0.22s;
+  /* 文字サイズの階梯。JLCの12段ラダーにならい、値は必ずこの中から選ぶ */
+  --t11: 11px;
+  --t12: 12px;
+  --t13: 13px;
+  --t14: 14px;
+  --t15: 15.5px;   /* 本文基準。JLCの本文は .9375rem=15px */
+  --t17: 17px;
+  --t19: 19px;
+  --t22: 22px;
+  --t26: 26px;
+  --t32: 32px;
+  --h1: clamp(34px, 4.8vw, 76px);
+  --h2: clamp(24px, 2.7vw, 42px);
+  --h3: clamp(19px, 1.5vw, 25px);
+
+  --lead-body: 1.85;   /* 日本語の本文は行送りを大きく取らないと読めない */
+  --lead-title: 1.16;
+
+  /* ── モーション ───────────────────────────────────────────────────────
+     JLC のトークンをそのまま借りる: duration .25〜.4s / ease cubic-bezier(.4,0,.2,1)。
+     hover で動かすプロパティは常に1つだけ。跳ねない。1.02倍を超えて拡大しない。 */
+  --dur: 0.26s;
+  --dur-slow: 0.9s;
+  --ease: cubic-bezier(0.22, 0.61, 0.36, 1);
+
+  --gap: var(--gutter);   /* 旧 --gap 参照の互換 */
 }
 
 /* ============ Reset ============ */
 * { box-sizing: border-box; margin: 0; padding: 0; }
-html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+  background: var(--ground);
+}
 
 body {
   font-family: var(--sans);
   background: var(--ground);
   color: var(--ink);
-  line-height: 1.7;
-  font-size: 16px;
-  letter-spacing: 0.005em;
+  font-size: var(--t15);
+  line-height: var(--lead-body);
+  letter-spacing: 0.004em;
+  font-weight: 400;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -113,687 +225,1538 @@ a { color: inherit; text-decoration: none; }
 img { max-width: 100%; height: auto; display: block; }
 button { font-family: inherit; cursor: pointer; }
 
-::selection { background: var(--ink); color: #fff; }
+::selection { background: var(--accent); color: #fff; }
 
-/* キーボード操作の可視化。赤は白地でも黒地でも見えるので1種類で足りる */
-:focus-visible { outline: 2px solid var(--signal); outline-offset: 2px; }
+/* フォーカスリングは唯一の有彩色で。Rolex も --focus に light-green を使っている */
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
 
-/* 見出し・価格など「大きく詰めて組む」ところだけ palt を効かせる。
-   本文で詰めると日本語は読みづらくなるので本文には掛けない。 */
+/* 見出し・価格など「大きく詰めて組む」ところにだけ palt を効かせる。
+   本文で詰めると日本語は読みづらくなるので本文には掛けない */
 .logo, .hero h1, .section-title, .page-head h1, .article-head h1,
 .post-title, .hc-name, .cta-band b, .notice-empty b, .pp-empty b,
-.brand-card h3, .pc-noimg, .footer-brand, .prose h1, .prose h2, .prose h3 {
+.brand-card h3, .pc-noimg, .footer-brand, .prose h1, .prose h2, .prose h3,
+.pp-main, .hero-stats .stat b, .how-num {
   font-feature-settings: 'palt' 1;
 }
 
-/* 数字は必ず等幅・ライニング。価格の桁が揃わないと比較にならない */
+/* 数字は必ず等幅・ライニング。29,095件のカタログは「桁が列で揃っている」ことが
+   そのまま信頼になる。Pictet のエグゼクティブ感は余白ではなく整列から来ている */
 .card-price, .pt-price, .pp-main, .pp-split dd, .hc-price b, .hero-stats .stat b,
 .spec-grid .spec dd, .facet-item em, .result-count, .bc-meta, .chip-count,
-table.price-table td, table.model-table td, .post-date, .breadcrumb, .how-num {
+.section-count, table.price-table td, table.model-table td, .post-date,
+.breadcrumb, .how-num {
   font-variant-numeric: tabular-nums lining-nums;
   font-feature-settings: 'tnum' 1, 'lnum' 1;
 }
 
-.container { max-width: 1240px; margin: 0 auto; padding: 0 24px; }
-
-/* ============ PR bar（景表法・ステマ規制／全ページ最上部に常時表示）============ */
-/* ヘッダーと2段の黒で重ねる。法定表記なので色は落とさない（12:1） */
-.pr-bar {
-  background: #000;
-  color: var(--on-void-3);
-  font-size: 12px;
-  line-height: 1.5;
-  text-align: center;
-  padding: 8px 14px;
-  letter-spacing: 0.01em;
+/* ============================================================================
+   Container — 外周は画面比例で広く取る
+   ========================================================================== */
+.container {
+  max-width: 1560px;
+  margin: 0 auto;
+  padding: 0 var(--outer);
 }
 
-/* ============ Header ============ */
+/* ============================================================================
+   PR bar（景表法・ステマ規制／全ページ最上部に常時表示）
+   ----------------------------------------------------------------------------
+   法定表記なので消さない・薄くしない。ただしこの案は「光」なので、
+   黒帯ではなく“一段沈んだ石の帯”にする。ink-2 で 10:1 以上を確保。
+   ========================================================================== */
+.pr-bar {
+  background: var(--recess);
+  color: var(--ink-2);
+  font-size: var(--t12);
+  line-height: 1.6;
+  text-align: left;
+  padding: 9px var(--outer);
+  letter-spacing: 0.02em;
+}
+
+/* ============================================================================
+   Header
+   ----------------------------------------------------------------------------
+   黒いヘッダーを置かない。地の色のまま、1pxの罫だけで下と切る。
+   Aman のナビゲーションは11〜12px相当の極小字。ロゴも叫ばない。
+   ========================================================================== */
 .site-header {
-  background: var(--void);
-  color: var(--on-void);
+  background: var(--ground);
+  color: var(--ink);
   position: sticky;
   top: 0;
   z-index: 100;
+  border-bottom: 1px solid var(--line);
 }
 .site-header .container {
-  display: flex; align-items: center; gap: 32px;
-  padding-top: 14px; padding-bottom: 14px;
+  display: flex;
+  align-items: center;
+  gap: var(--s6);
+  padding-top: 18px;
+  padding-bottom: 18px;
 }
 .logo {
-  font-family: var(--display); font-size: 21px; font-weight: 700;
-  letter-spacing: -0.02em; white-space: nowrap; line-height: 1.15;
+  font-family: var(--display);
+  font-size: var(--t19);
+  font-weight: 500;
+  letter-spacing: -0.015em;
+  white-space: nowrap;
+  line-height: 1.2;
+  color: var(--ink);
 }
 .logo .logo-sub {
-  display: block; font-size: 10.5px; letter-spacing: 0.01em; color: var(--on-void-2);
-  font-weight: 500; margin-top: 3px;
+  display: block;
+  font-size: var(--t11);
+  letter-spacing: 0.09em;   /* 字間を開けてよいのは11-12pxの小ラベルだけ */
+  color: var(--ink-3);
+  font-weight: 400;
+  margin-top: 4px;
 }
 .header-nav {
-  display: flex; align-items: center; gap: 26px; margin-left: auto; font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: var(--s6);
+  margin-left: auto;
+  font-size: var(--t13);
 }
 .header-nav a {
-  padding: 6px 0; white-space: nowrap; font-weight: 500;
-  color: #e6e7ea; transition: color var(--dur) var(--ease);
-  border-bottom: 2px solid transparent;
+  padding: 12px 0;
+  white-space: nowrap;
+  font-weight: 400;
+  color: var(--ink-2);
+  transition: color var(--dur) var(--ease);
 }
-.header-nav a:hover { color: #fff; border-bottom-color: #fff; }
-.lang-switch {
-  border: 1px solid rgba(255, 255, 255, 0.34); padding: 7px 13px; font-size: 12.5px;
-  background: transparent; color: var(--on-void); font-weight: 600; line-height: 1.3;
-  transition: background var(--dur) var(--ease), color var(--dur) var(--ease);
-}
-.lang-switch:hover { background: #fff; color: var(--ink); border-color: #fff; }
+.header-nav a:hover { color: var(--ink); }
 
-/* ============ Search box（ヘッダ/ヒーロー内）============ */
-/* 暗いヒーローの中に置かれる白い矩形。角も影も付けない */
-.searchbox { position: relative; width: 100%; max-width: 620px; margin: 0; }
+/* ボタンは角丸ゼロ・1px枠・透明背景。AP のボタン定義そのまま
+   （--radius-none / border:1px solid currentColor / background:#00000000） */
+.lang-switch {
+  border: 1px solid var(--line-strong);
+  padding: 11px 15px;
+  font-size: var(--t12);
+  background: transparent;
+  color: var(--ink-2);
+  font-weight: 400;
+  line-height: 1.3;
+  letter-spacing: 0.06em;
+  transition: border-color var(--dur) var(--ease);
+}
+.lang-switch:hover { border-color: var(--ink); }
+
+/* ============================================================================
+   Search box
+   ----------------------------------------------------------------------------
+   淡い地の上に置かれる“光の板”。塗りボタンも影も付けない。
+   入力欄は16px以上（iOSのオートズーム防止）。
+   ========================================================================== */
+.searchbox { position: relative; width: 100%; max-width: 640px; margin: 0; }
 .searchbox input {
-  width: 100%; padding: 18px 20px; font-size: 17px; font-family: inherit;
-  line-height: 1.4; border: none; background: var(--stage); color: var(--ink); outline: none;
-  font-weight: 500;
+  width: 100%;
+  padding: 20px 22px;
+  font-size: 17px;
+  font-family: inherit;
+  line-height: 1.4;
+  border: 1px solid var(--line-strong);
+  background: var(--stage);
+  color: var(--ink);
+  outline: none;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  transition: border-color var(--dur) var(--ease);
 }
 .searchbox input::placeholder { color: var(--ink-3); font-weight: 400; }
-.searchbox input:focus { box-shadow: inset 0 0 0 3px var(--signal); }
+.searchbox input:focus { border-color: var(--ink); }
+
+/* 画面の上に浮くものだけが影を持てる（JLC も影はオーバーレイ限定） */
 .search-results {
-  position: absolute; top: 100%; left: 0; right: 0; z-index: 60;
-  background: var(--panel); box-shadow: var(--shadow-lg); overflow: hidden;
-  max-height: 60vh; overflow-y: auto; text-align: left;
-  border-top: 1px solid var(--edge);
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 60;
+  background: var(--stage);
+  box-shadow: var(--shadow-lg);
+  border: 1px solid var(--line-strong);
+  border-top: none;
+  max-height: 62vh;
+  overflow-y: auto;
+  text-align: left;
 }
 .search-results a {
-  display: block; padding: 15px 20px; font-size: 15px; line-height: 1.5;
-  border-bottom: 1px solid var(--edge);
+  display: block;
+  padding: 16px 22px;
+  font-size: var(--t15);
+  line-height: 1.5;
+  border-bottom: 1px solid var(--line);
   transition: background var(--dur) var(--ease);
 }
 .search-results a:last-child { border-bottom: none; }
-.search-results a:hover { background: var(--panel-2); }
+.search-results a:hover { background: var(--recess); }
 .search-results .sr-brand {
-  color: var(--ink-3); font-size: 13px; margin-right: 8px;
+  color: var(--ink-3);
+  font-size: var(--t12);
+  letter-spacing: 0.05em;
+  margin-right: 10px;
 }
-.search-results .sr-ref { color: var(--ink-3); font-size: 13px; margin-left: 8px; font-weight: 600; }
-.search-empty { padding: 20px; font-size: 14px; color: var(--ink-3); }
+.search-results .sr-ref {
+  color: var(--ink-3);
+  font-size: var(--t12);
+  margin-left: 10px;
+  font-weight: 400;
+}
+.search-empty { padding: 24px 22px; font-size: var(--t14); color: var(--ink-3); }
 
-/* ============ Hero ============ */
-/* 写真が主役なので、ヒーローは短く黒く、すぐ終わる。
-   ここで「黒の塊」を作っておくと、直後に始まる白い写真面が強く効く。 */
+/* ============================================================================
+   Hero — 余白の量そのものが贅沢の表明
+   ----------------------------------------------------------------------------
+   ・中央揃えのヒーローを作らない（「中央の大見出し＋サブコピー＋ボタン2つ」は
+     AI生成サイトの最大の型）。すべて左端の1本の線に揃える。
+   ・見出しは巨大な clamp ＋ 負のトラッキング ＋ font-weight 400。
+     Rolex の見出しは clamp(2.75rem, 1rem + 4.37vw, 6.25rem) で letter-spacing:0、
+     AP は大見出しに -.022rem 〜 -.056rem の負トラッキング。
+     「大きくする、太くしない」（Apple）。
+   ========================================================================== */
 .hero {
-  background: var(--void);
-  color: var(--on-void);
-  padding: clamp(56px, 9vw, 108px) 0 clamp(48px, 8vw, 88px);
+  background: var(--ground);
+  color: var(--ink);
+  padding: var(--band) 0 var(--band-sm);
   text-align: left;
 }
 .hero .eyebrow {
-  display: inline-flex; align-items: center; gap: 9px;
-  font-size: 13px; color: var(--on-void-2); margin-bottom: 20px; font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-size: var(--t11);
+  color: var(--ink-3);
+  margin-bottom: var(--s6);
+  font-weight: 400;
+  letter-spacing: 0.11em;
 }
-/* 「毎日自動更新」であることの印。丸ではなく四角。線ではなく面 */
+/* 「毎日自動更新」の印。丸でも点滅でもなく、1本の短い罫 */
 .hero .eyebrow::before {
-  content: ''; width: 8px; height: 8px; background: var(--signal); flex: none;
+  content: '';
+  width: 28px;
+  height: 1px;
+  background: var(--ink-3);
+  flex: none;
 }
 .hero h1 {
   font-family: var(--display);
-  font-size: clamp(32px, 6.2vw, 68px); font-weight: 700;
-  letter-spacing: -0.035em; line-height: 1.22; margin-bottom: 18px;
-  color: #fff; max-width: 18ch;
+  font-size: var(--h1);
+  font-weight: 400;
+  letter-spacing: -0.032em;
+  line-height: var(--lead-title);
+  margin-bottom: var(--s5);
+  color: var(--ink);
+  max-width: 15ch;
 }
 .hero p.sub {
-  max-width: 54ch; margin: 0 0 32px; color: var(--on-void-2); font-size: 15.5px; line-height: 1.85;
+  max-width: 46ch;
+  margin: 0 0 var(--s8);
+  color: var(--ink-2);
+  font-size: var(--t15);
+  line-height: var(--lead-body);
 }
-.hero-stats { display: flex; gap: clamp(28px, 5vw, 64px); margin-top: 40px; flex-wrap: wrap; }
-.hero-stats .stat { text-align: left; }
+.hero-links {
+  display: flex;
+  gap: var(--s2);
+  flex-wrap: wrap;
+  margin-top: var(--s6);
+  max-width: 720px;
+}
+.hero-links a {
+  border: 1px solid var(--line-strong);
+  padding: 13px 18px;
+  font-size: var(--t13);
+  color: var(--ink-2);
+  line-height: 1.4;
+  transition: border-color var(--dur) var(--ease);
+}
+.hero-links a:hover { border-color: var(--ink); }
+
+/* 数字は大きいが太くない。1pxの罫で頭を揃えて並べる＝Pictet型の整列 */
+.hero-stats {
+  display: flex;
+  gap: 0;
+  margin-top: var(--band-sm);
+  flex-wrap: wrap;
+}
+.hero-stats .stat {
+  text-align: left;
+  border-top: 1px solid var(--line-strong);
+  padding: var(--s4) var(--s7) 0 0;
+  min-width: 150px;
+}
 .hero-stats .stat b {
-  display: block; font-family: var(--num); font-size: clamp(28px, 3.6vw, 40px); font-weight: 700;
-  color: #fff; line-height: 1.05; letter-spacing: -0.035em;
+  display: block;
+  font-family: var(--num);
+  font-size: clamp(26px, 3vw, 40px);
+  font-weight: 400;
+  color: var(--ink);
+  line-height: 1.1;
+  letter-spacing: -0.035em;
 }
 .hero-stats .stat span {
-  display: block; font-size: 12.5px; color: var(--on-void-2); margin-top: 8px;
+  display: block;
+  font-size: var(--t12);
+  color: var(--ink-3);
+  margin-top: 10px;
+  letter-spacing: 0.04em;
 }
-.hero-links { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 26px; }
-.hero-links a {
-  border: 1px solid rgba(255, 255, 255, 0.3); padding: 10px 16px; font-size: 13.5px;
-  color: #e6e7ea; line-height: 1.4;
-  transition: background var(--dur) var(--ease), color var(--dur) var(--ease), border-color var(--dur) var(--ease);
-}
-.hero-links a:hover { background: #fff; color: var(--ink); border-color: #fff; }
-
-/* ============ Sections ============ */
-.section { padding: clamp(48px, 7vw, 92px) 0; }
-.section-head {
-  display: flex; align-items: baseline; justify-content: space-between;
-  gap: 16px; margin-bottom: 22px; flex-wrap: wrap;
-}
-/* 見出しの下に飾り罫は引かない。大きさと詰めだけで見出しにする */
-.section-title {
-  font-family: var(--display); font-size: clamp(23px, 3.2vw, 38px); font-weight: 700;
-  letter-spacing: -0.032em; line-height: 1.25; display: block; margin-bottom: 22px;
-}
-.section-head .section-title { margin-bottom: 0; }
-.section-more {
-  font-size: 14px; color: var(--ink); font-weight: 600;
-  text-decoration: underline; text-underline-offset: 5px; text-decoration-thickness: 1px;
-  transition: color var(--dur) var(--ease);
-}
-.section-more:hover { color: var(--signal); }
 
 /* ============================================================================
-   Cards — ショーケースの本体
-   ----------------------------------------------------------------------------
-   .grid-models は「2列＋5枚に1枚が全幅の見開き」というリズムで流す。
-   検索結果（.explorer-main 配下）だけは後段で密度重視に上書きする。
+   Sections
    ========================================================================== */
-.grid { display: grid; gap: var(--gap); }
+.section { padding: var(--band-sm) 0; }
+.section:first-of-type { padding-top: var(--band-sm); }
+.section-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--s4);
+  margin-bottom: var(--s7);
+  flex-wrap: wrap;
+}
+/* 見出しの下に飾り罫を引かない。大きさと詰めだけで見出しにする */
+.section-title {
+  font-family: var(--display);
+  font-size: var(--h2);
+  font-weight: 400;
+  letter-spacing: -0.028em;
+  line-height: 1.2;
+  display: block;
+  margin-bottom: var(--s7);
+  color: var(--ink);
+}
+.section-head .section-title { margin-bottom: 0; }
+.section-count {
+  font-size: var(--t13);
+  color: var(--ink-3);
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  margin-left: var(--s3);
+}
+.section-more {
+  font-size: var(--t13);
+  color: var(--ink-2);
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  padding-bottom: 3px;
+  border-bottom: 1px solid var(--line-strong);
+  transition: border-color var(--dur) var(--ease);
+}
+.section-more:hover { border-color: var(--ink); }
 
-.grid-models { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-.grid-brands { grid-template-columns: repeat(auto-fill, minmax(232px, 1fr)); }
-.grid-posts { grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); }
+/* ============================================================================
+   Grid & Cards — 「カード」をやめる
+   ----------------------------------------------------------------------------
+   .card に background も border も box-shadow も border-radius も付けない。
+   白いのは写真が乗る面（.pc-media）だけで、商品名も価格も地の上に直接置く。
+   根拠:
+     ・AP は --radius-none、影を使わない。分離は地の明度差だけで作る。
+     ・高級不動産（Sotheby's/Christie's）の物件一覧は枠線も影も無く、
+       グリッドの間隔が量販ECより明確に広い。カードに枠と影を付けた瞬間に楽天になる。
+     ・JLC は「白い紙に少し沈んだ窓を開ける」。本案はそれを反転させ、
+       「淡い石の床に光の板を置く」形にした（出品写真の多数派が白背景なので、
+       台を純白にすると写真の背景が台に溶けて“縦横比の不揃い”が視覚的に消える）。
+   ========================================================================== */
+.grid {
+  display: grid;
+  column-gap: var(--gutter);
+  row-gap: var(--row-gap);
+  align-items: start;         /* 裾を揃えない＝均等グリッドのAI臭を殺す */
+}
+
+.grid-models { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.grid-brands { grid-template-columns: repeat(auto-fill, minmax(258px, 1fr)); }
+.grid-posts { grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); }
 
 .card {
-  background: var(--panel); padding: 24px; display: block;
-  transition: background var(--dur) var(--ease), color var(--dur) var(--ease);
+  background: none;
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+  padding: 0;
+  display: block;
+  color: var(--ink);
 }
+
+/* 商品名の上のブランド名。小さく、わずかに字間を開ける小ラベル。
+   Patek は 136箇所の text-transform:uppercase にだけ .0175rem〜.045rem を付ける */
 .card-brand {
-  font-size: 12.5px; color: var(--ink-3); font-weight: 600; letter-spacing: 0;
+  font-size: var(--t11);
+  color: var(--ink-3);
+  font-weight: 400;
+  letter-spacing: 0.11em;
 }
 .card-name {
-  font-weight: 700; font-size: clamp(16px, 1.3vw, 19px); margin: 6px 0 4px; line-height: 1.4;
-  letter-spacing: -0.015em;
+  font-weight: 400;
+  font-size: var(--t17);
+  margin: 10px 0 6px;
+  line-height: 1.45;
+  letter-spacing: -0.012em;
+  color: var(--ink);
 }
-.card-ref { font-size: 13px; color: var(--ink-3); font-weight: 500; }
+.card-ref {
+  font-size: var(--t12);
+  color: var(--ink-3);
+  font-weight: 400;
+  letter-spacing: 0.03em;
+}
+
+/* 価格には色を与えない。本文インクを継承する。太字にもしない。
+   JLC .price{font-weight:600; font-size:1.25rem} に色指定が無いのと同じ扱い。
+   本文の約1.4倍のサイズだけで「大きいが静か」を作る */
 .card-price {
-  margin-top: 16px;
-  font-family: var(--num); font-size: clamp(21px, 2vw, 28px); color: var(--ink); font-weight: 700;
-  line-height: 1.15; letter-spacing: -0.035em;
+  margin-top: var(--s4);
+  font-family: var(--num);
+  font-size: var(--t22);
+  color: var(--ink);
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: -0.025em;
 }
 .card-price small {
-  font-family: var(--sans); font-size: 12.5px; color: var(--ink-3); display: block;
-  font-weight: 400; margin-top: 7px; letter-spacing: 0; line-height: 1.5;
+  font-family: var(--sans);
+  font-size: var(--t12);
+  color: var(--ink-3);
+  display: block;
+  font-weight: 400;
+  margin-top: 8px;
+  letter-spacing: 0.02em;
+  line-height: 1.6;
 }
-.card-nodata { margin-top: 16px; font-size: 14px; color: var(--ink-3); font-weight: 600; }
+.card-nodata {
+  margin-top: var(--s4);
+  font-size: var(--t13);
+  color: var(--ink-3);
+  font-weight: 400;
+  letter-spacing: 0.03em;
+}
 
 /* --- 商品カード ------------------------------------------------------------
-   .pc-media = 「写真が乗る台」。ここが設計の核心。
-     1) background は純白のベタ。グラデーションも影も敷かない。
-        （敷くと、白背景の出品写真との境目に必ず継ぎ目が出る）
-     2) object-fit: contain 固定。cover は使わない。
-        cover は「送料無料」等の合成文字帯や複数商品並びを切り落とし、
-        何が写っているか分からなくなる。contain なら必ず全体が残る。
-     3) aspect-ratio で枠の縦横比を固定し、内側に大きめの padding。
-        → 非正方形の写真は白い余白で letterbox されるが、
-          台が純白なので余白は目に見えない。「縦横比の不揃い」が消える。
-     4) padding は見た目のためだけではない。表示幅より小さく描画させて
-        解像度不足（Yahoo!は最大600px）の粗さを出さないための実務上の措置。
-   --------------------------------------------------------------------------- */
-.product-card { padding: 0; overflow: hidden; }
+   .pc-media = 光の板。
+     1) background は純白のベタ。グラデーションもブレンドも影も敷かない
+        （mix-blend-mode は暗背景の出品写真が黒つぶれするので使用禁止）。
+     2) object-fit: contain 固定。cover は「送料無料」の合成文字帯や
+        複数商品並びを切り落として何が写っているか分からなくする。
+     3) 内側 padding を大きく取り、被写体を枠いっぱいに拡大しない。
+        Apple / Rolls-Royce に共通する原理：高級は被写体を小さく置き、
+        周囲に被写体と同等以上の余白を残す。実務上も、Yahoo!の画像が最大600px
+        しかないため表示幅より小さく描かせて粗さを出さない措置になっている。
+   ------------------------------------------------------------------------- */
+.product-card { padding: 0; }
 .pc-media {
   position: relative;
   container-type: inline-size;
-  aspect-ratio: 1 / 1;
+  aspect-ratio: 4 / 5;
   background: var(--stage);
-  display: flex; align-items: center; justify-content: center; overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
 }
 .pc-media img {
-  width: 100%; height: 100%; object-fit: contain;
-  padding: 9%;
-  background: var(--stage);   /* 透過PNGが暗く抜けないように */
-  transition: transform 0.55s var(--ease);
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 13%;
+  background: var(--stage);
+  transition: transform var(--dur-slow) var(--ease);
 }
-.product-card:hover .pc-media img { transform: scale(1.025); }
-.product-card:hover .card-name {
-  text-decoration: underline; text-underline-offset: 4px; text-decoration-thickness: 2px;
+/* hover で動かすのは1プロパティだけ、ゆっくり、1.02倍未満 */
+.product-card:hover .pc-media img { transform: scale(1.015); }
+
+/* 写真とテキストの左端を1本の線で揃える。写真の上には何も重ねない */
+.pc-body { padding: var(--s5) 0 0; }
+.pc-meta {
+  font-size: var(--t12);
+  color: var(--ink-3);
+  margin-top: 8px;
+  line-height: 1.7;
+  letter-spacing: 0.02em;
 }
 
-/* --- 画像が無いモデル（大量に出る）------------------------------------------
-   空の白い箱を並べない。台を黒く塗り潰し、ブランド名を大きく置いた
-   「文字の面」に置き換える。写真の白面と黒面が交互に流れることで、
-   欠損がリズムに変わる。cqw で枠の幅に追従するので、
-   見開きでは巨大に、検索結果の小さいタイルでは控えめに出る。 */
+/* --- 4枚に1枚だけ比率を変える -----------------------------------------------
+   Patek は 16/9・1/1・9/16・4/3 に加え 683/384、248/441、395/257、20/13 という
+   半端な比率をモジュールごとに直接指定している。全カード同一比率の均等グリッドが
+   いちばん強くAI生成臭・テンプレ臭を出すため、1画面に1〜2つ違う比率を混ぜる。 */
+.grid-models > .product-card:nth-child(4n + 2) .pc-media { aspect-ratio: 1 / 1; }
+.grid-models > .product-card:nth-child(6n + 5) .pc-media { aspect-ratio: 5 / 6; }
+
+/* 先頭の1枚だけ2カラム分・横長で開く。中央に寄せず、左端から始める。
+   Rolex のヒーローが min(100vw,1920px) の全幅であるのと同じ考え方を、
+   一覧の中に1回だけ持ち込む */
+.grid-models > .product-card:first-child {
+  grid-column: span 2;
+}
+.grid-models > .product-card:first-child .pc-media {
+  aspect-ratio: 16 / 11;
+}
+.grid-models > .product-card:first-child .pc-media img { padding: 11%; }
+.grid-models > .product-card:first-child .card-name {
+  font-size: clamp(20px, 1.9vw, 27px);
+  letter-spacing: -0.024em;
+  line-height: 1.3;
+}
+.grid-models > .product-card:first-child .card-price {
+  font-size: clamp(24px, 2.2vw, 32px);
+}
+
+/* --- 画像が無いモデル（29,095件中およそ2万件）------------------------------
+   この案では欠損が破綻にならない。余白そのものが主題だから、
+   写真の無いタイルは「まだ何も置かれていない台座」として成立する。
+   一段沈んだ面（--recess）にブランド名を左下へ小さく置くだけ。
+   黒く塗り潰さない：2万件が黒タイルになると画面が騒がしくなる。
+   cqw で枠幅に追従するので、見開きでは大きく、検索結果の小タイルでは控えめに出る。 */
 .pc-noimg {
-  position: absolute; inset: 0;
-  background: var(--void);
-  color: #fff;
-  display: flex; align-items: flex-end; justify-content: flex-start;
-  padding: 7%;
-  font-family: var(--display); font-weight: 700;
-  font-size: 24px;                       /* cqw 非対応環境のフォールバック */
-  font-size: clamp(15px, 11cqw, 58px);
-  letter-spacing: -0.035em; line-height: 0.98;
-  text-align: left; overflow: hidden;
+  position: absolute;
+  inset: 0;
+  background: var(--recess);
+  color: var(--ink-3);
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 9%;
+  font-family: var(--display);
+  font-weight: 400;
+  font-size: 20px;                        /* cqw 非対応環境のフォールバック */
+  font-size: clamp(13px, 8cqw, 40px);
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+  text-align: left;
+  overflow: hidden;
+  transition: background var(--dur) var(--ease);
 }
-/* 人気の印。白い写真台の上でも黒い文字面の上でも同じ見え方をするよう、
-   白ベタ＋1pxの黒縁にする。contain＋余白のおかげで隅は必ず空いている */
+.product-card:hover .pc-noimg,
+.post-card:hover .pc-noimg { background: var(--recess-2); }
+
+/* 人気の印。リボンでもバッジでもなく、ただの小さな文字。
+   台が純白なので白背景の写真の上では紙に刷った註記のように溶け、
+   暗い背景の写真の上でも白い小片として必ず読める。
+   内側 padding が13%あるので隅は常に空いている。 */
 .pc-badge {
-  position: absolute; top: 10px; left: 10px; z-index: 2;
-  background: #fff; color: var(--ink);
-  box-shadow: 0 0 0 1px var(--ink);
-  font-size: 11.5px; font-weight: 700; letter-spacing: 0;
-  padding: 4px 9px; line-height: 1.4;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  background: var(--stage);
+  color: var(--ink-3);
+  font-size: var(--t11);
+  font-weight: 400;
+  letter-spacing: 0.11em;
+  padding: 10px 12px;
+  line-height: 1.4;
 }
-.pc-body { padding: 20px 22px 24px; }
-.pc-meta { font-size: 13px; color: var(--ink-3); margin-top: 8px; line-height: 1.6; }
 
-/* --- 5枚に1枚を「見開き」にする。写真が画面を占める ---------------------- */
-.grid-models > .product-card:nth-child(5n + 1) {
-  grid-column: 1 / -1;
-  display: grid;
-  grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr);
-  align-items: stretch;
+/* --- ブランドカード: 写真が無い面。文字と1本の罫だけで組む --------------- */
+.brand-card {
+  text-align: left;
+  min-height: 156px;
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid var(--line-strong);
+  padding-top: var(--s5);
+  transition: border-color var(--dur) var(--ease);
 }
-/* 見開きは横長(5/4)にすると、object-fit:contain が高さで律速されて
-   時計が通常タイルより小さく写ってしまう（1240px時 389px 対 487px）。
-   正方形寄りに保ち、内側余白も詰めて「大きい枠には大きく写る」を成立させる */
-.grid-models > .product-card:nth-child(5n + 1) .pc-media { aspect-ratio: 1 / 1; }
-.grid-models > .product-card:nth-child(5n + 1) .pc-media img { padding: 6%; }
-.grid-models > .product-card:nth-child(5n + 1) .pc-body {
-  display: flex; flex-direction: column; justify-content: center;
-  padding: clamp(24px, 3.4vw, 56px);
-}
-.grid-models > .product-card:nth-child(5n + 1) .card-name {
-  font-size: clamp(22px, 2.6vw, 36px); letter-spacing: -0.032em; line-height: 1.2; margin: 10px 0 6px;
-}
-.grid-models > .product-card:nth-child(5n + 1) .card-price {
-  font-size: clamp(28px, 3.2vw, 42px); margin-top: 24px;
-}
-.grid-models > .product-card:nth-child(5n + 1) .pc-badge { top: 0; left: 0; }
-/* 見開きは1枚おきに左右を入れ替える。雑誌の丁合いのように流れる */
-.grid-models > .product-card:nth-child(10n + 6) {
-  grid-template-columns: minmax(0, 1fr) minmax(0, 1.3fr);
-}
-.grid-models > .product-card:nth-child(10n + 6) .pc-media { order: 2; }
-
-/* --- ブランドカード: 写真が無い面なので、文字そのものを図版にする --------- */
-.brand-card { text-align: left; min-height: 168px; display: flex; flex-direction: column; }
 .brand-card h3 {
-  font-family: var(--display); font-size: clamp(19px, 1.7vw, 24px); font-weight: 700;
-  letter-spacing: -0.03em; line-height: 1.15;
+  font-family: var(--display);
+  font-size: var(--h3);
+  font-weight: 400;
+  letter-spacing: -0.022em;
+  line-height: 1.2;
+  color: var(--ink);
 }
-.brand-card .bc-ja { font-size: 13.5px; color: var(--ink-3); margin-top: 6px; }
-.brand-card .bc-meta { margin-top: auto; padding-top: 18px; font-size: 13px; color: var(--ink-3); }
-/* ホバーで面が反転する。白い面の連なりの中で、触れた1枚だけが黒くなる */
-.brand-card:hover { background: var(--void); color: #fff; }
-.brand-card:hover .bc-ja, .brand-card:hover .bc-meta { color: var(--on-void-2); }
+.brand-card .bc-ja {
+  font-size: var(--t13);
+  color: var(--ink-3);
+  margin-top: 8px;
+  letter-spacing: 0.02em;
+}
+.brand-card .bc-meta {
+  margin-top: auto;
+  padding-top: var(--s6);
+  font-size: var(--t12);
+  color: var(--ink-3);
+  letter-spacing: 0.03em;
+}
+/* hover で変えるのは1プロパティだけ。面を反転させない */
+.brand-card:hover { border-color: var(--ink); }
 
 /* --- 記事カード --- */
-.post-card { padding: 0; overflow: hidden; }
+.post-card { padding: 0; }
 .post-card .pc-media { aspect-ratio: 16 / 10; }
-.post-card .pc-media img { padding: 7%; }
-.post-date { font-size: 13px; color: var(--ink-3); }
+.post-card .pc-media img { padding: 10%; }
+.post-date {
+  font-size: var(--t12);
+  color: var(--ink-3);
+  letter-spacing: 0.05em;
+}
 .post-title {
-  font-size: clamp(19px, 1.6vw, 23px); font-weight: 700; line-height: 1.35; margin: 8px 0 10px;
-  font-family: var(--display); letter-spacing: -0.025em;
+  font-size: var(--t22);
+  font-weight: 400;
+  line-height: 1.4;
+  margin: 10px 0 12px;
+  font-family: var(--display);
+  letter-spacing: -0.02em;
+  color: var(--ink);
 }
-.post-desc { font-size: 14px; color: var(--ink-2); line-height: 1.75; }
-.post-more { display: inline-block; margin-top: 16px; font-size: 14px; color: var(--ink); font-weight: 600; }
-.post-card:hover .post-title { text-decoration: underline; text-underline-offset: 4px; }
+.post-desc {
+  font-size: var(--t14);
+  color: var(--ink-2);
+  line-height: var(--lead-body);
+  max-width: 46ch;
+}
+.post-more {
+  display: inline-block;
+  margin-top: var(--s5);
+  font-size: var(--t13);
+  color: var(--ink-2);
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  border-bottom: 1px solid var(--line-strong);
+  padding-bottom: 3px;
+  transition: border-color var(--dur) var(--ease);
+}
+.post-card:hover .post-more { border-color: var(--ink); }
 
-/* ============ How it works ============ */
-.how-grid { display: grid; gap: var(--gap); grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
-.how-grid .card { padding: 32px 28px 34px; }
+/* ============================================================================
+   How it works — アイコン＋見出し＋短文の3カラム特徴グリッドにしない
+   数字を大きく置き、1pxの罫で頭を揃えるだけ
+   ========================================================================== */
+.how-grid {
+  display: grid;
+  column-gap: var(--s8);
+  row-gap: var(--s7);
+  grid-template-columns: repeat(auto-fit, minmax(268px, 1fr));
+}
+.how-grid .card {
+  padding: var(--s5) 0 0;
+  border-top: 1px solid var(--line-strong);
+}
 .how-grid .card b {
-  display: block; margin-bottom: 10px; font-size: 18px; font-family: var(--display);
-  font-weight: 700; letter-spacing: -0.02em; line-height: 1.35;
+  display: block;
+  margin-bottom: var(--s3);
+  font-size: var(--t19);
+  font-family: var(--display);
+  font-weight: 400;
+  letter-spacing: -0.018em;
+  line-height: 1.4;
+  color: var(--ink);
 }
-.how-grid .card p { font-size: 14px; color: var(--ink-2); line-height: 1.8; }
-/* 丸で囲まない。数字を大きく置くだけ */
+.how-grid .card p {
+  font-size: var(--t14);
+  color: var(--ink-2);
+  line-height: var(--lead-body);
+  max-width: 42ch;
+}
 .how-num {
-  display: block; font-family: var(--num); font-size: 40px; font-weight: 700;
-  color: var(--ink); line-height: 1; letter-spacing: -0.05em; margin-bottom: 18px;
+  display: block;
+  font-family: var(--num);
+  font-size: var(--t22);
+  font-weight: 400;
+  color: var(--ink-3);
+  line-height: 1;
+  letter-spacing: 0.02em;
+  margin-bottom: var(--s5);
 }
 
-/* ============ Breadcrumb / page head ============ */
-.breadcrumb { font-size: 13px; color: var(--ink-3); padding: 22px 0 0; line-height: 1.8; }
-.breadcrumb a:hover { color: var(--ink); text-decoration: underline; text-underline-offset: 3px; }
-.page-head { padding: 22px 0 6px; }
+/* ============================================================================
+   Breadcrumb / page head
+   ========================================================================== */
+.breadcrumb {
+  font-size: var(--t12);
+  color: var(--ink-3);
+  padding: var(--s7) 0 0;
+  line-height: 1.9;
+  letter-spacing: 0.02em;
+}
+.breadcrumb a { transition: color var(--dur) var(--ease); }
+.breadcrumb a:hover { color: var(--ink); }
+
+.page-head { padding: var(--s7) 0 0; }
 .page-head h1 {
-  font-family: var(--display); font-size: clamp(26px, 4vw, 46px); font-weight: 700;
-  line-height: 1.2; letter-spacing: -0.035em;
+  font-family: var(--display);
+  font-size: clamp(28px, 3.6vw, 54px);
+  font-weight: 400;
+  line-height: 1.18;
+  letter-spacing: -0.03em;
+  max-width: 20ch;
+  color: var(--ink);
 }
-.page-head .page-sub { color: var(--ink-2); font-size: 15px; margin-top: 14px; max-width: 62ch; line-height: 1.8; }
-.brand-desc { max-width: 62ch; color: var(--ink-2); font-size: 15px; margin-top: 16px; line-height: 1.8; }
+.page-head .page-sub {
+  color: var(--ink-2);
+  font-size: var(--t15);
+  margin-top: var(--s5);
+  max-width: 54ch;
+  line-height: var(--lead-body);
+}
+.brand-desc {
+  max-width: 54ch;
+  color: var(--ink-2);
+  font-size: var(--t15);
+  margin-top: var(--s5);
+  line-height: var(--lead-body);
+}
 
-/* ============ Faceted search explorer ============ */
-.quick-picks { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; margin: 22px 0 6px; }
-.qp-label { font-size: 13px; color: var(--ink-3); margin-right: 4px; }
-.qp {
-  border: 1px solid var(--edge-strong); background: var(--panel);
-  padding: 10px 15px; font-size: 13.5px; color: var(--ink-2); line-height: 1.4;
-  transition: background var(--dur) var(--ease), color var(--dur) var(--ease), border-color var(--dur) var(--ease);
+/* ============================================================================
+   Faceted search explorer
+   ----------------------------------------------------------------------------
+   ここだけは思想を切り替える。
+   Aman の空白をそのまま価格比較サイトに持ち込むと「中身の無いAIサイト」になる。
+   エグゼクティブ感の本体は Pictet 型＝大量の情報が寸分の狂いなく整列している状態。
+   29,095件という物量はむしろ資産なので、検索結果は
+   ・段違いも比率変えもしない（完全な整列グリッド）
+   ・先頭1枚の見開きも解除する
+   ・字は小さく、行送りは保つ
+   トップページ＝編集の顔／検索＝道具の顔、という二層構造にする。
+   （Apple がグレードによってページの地の明度を変えるのと同じ手法）
+   ========================================================================== */
+.quick-picks {
+  display: flex;
+  align-items: center;
+  gap: var(--s2);
+  flex-wrap: wrap;
+  margin: var(--s7) 0 0;
 }
-.qp:hover { background: var(--ink); color: #fff; border-color: var(--ink); }
+.qp-label {
+  font-size: var(--t11);
+  color: var(--ink-3);
+  margin-right: var(--s3);
+  letter-spacing: 0.11em;
+}
+.qp {
+  border: 1px solid var(--line-strong);
+  background: transparent;
+  padding: 13px 18px;
+  font-size: var(--t13);
+  color: var(--ink-2);
+  line-height: 1.4;
+  transition: border-color var(--dur) var(--ease);
+}
+.qp:hover { border-color: var(--ink); }
 
 .explorer {
-  display: grid; grid-template-columns: 258px 1fr; gap: 28px; align-items: start;
-  padding: 26px 0 56px;
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: var(--s8);
+  align-items: start;
+  padding: var(--s7) 0 var(--band-sm);
 }
 .explorer-side {
-  position: sticky; top: 84px; background: var(--panel); padding: 20px;
-  max-height: calc(100vh - 108px); overflow-y: auto;
+  position: sticky;
+  top: 96px;
+  background: none;
+  padding: 0 var(--s5) 0 0;
+  max-height: calc(100vh - 128px);
+  overflow-y: auto;
 }
 .explorer-main { min-width: 0; }
 
-/* --- 検索結果だけは密度を確保する（ここは一覧性が価値）------------------- */
-.explorer-main .grid-models { grid-template-columns: repeat(auto-fill, minmax(214px, 1fr)); }
-.explorer-main .grid-models > .product-card:nth-child(5n + 1) {
-  grid-column: auto; display: block; grid-template-columns: none;
+/* 検索結果は整列・密度優先。段違いも比率変えも見開きも解除する */
+.explorer-main .grid-models {
+  grid-template-columns: repeat(auto-fill, minmax(212px, 1fr));
+  column-gap: var(--gutter);
+  row-gap: clamp(28px, 3vw, 48px);
 }
-.explorer-main .grid-models > .product-card:nth-child(5n + 1) .pc-media { aspect-ratio: 1 / 1; }
-.explorer-main .grid-models > .product-card:nth-child(5n + 1) .pc-media img { padding: 9%; }
-.explorer-main .grid-models > .product-card:nth-child(5n + 1) .pc-body { display: block; padding: 16px 16px 20px; }
-.explorer-main .grid-models > .product-card:nth-child(5n + 1) .card-name { font-size: 16px; margin: 6px 0 4px; letter-spacing: -0.015em; line-height: 1.4; }
-.explorer-main .grid-models > .product-card:nth-child(5n + 1) .card-price { font-size: 21px; margin-top: 14px; }
-.explorer-main .grid-models > .product-card:nth-child(5n + 1) .pc-badge { top: 10px; left: 10px; }
-.explorer-main .grid-models > .product-card:nth-child(10n + 6) .pc-media { order: 0; }
-.explorer-main .pc-body { padding: 16px 16px 20px; }
-.explorer-main .card-name { font-size: 16px; }
-.explorer-main .card-price { font-size: 21px; }
+.explorer-main .grid-models > .product-card:first-child { grid-column: auto; }
+.explorer-main .grid-models > .product-card .pc-media { aspect-ratio: 1 / 1; }
+.explorer-main .grid-models > .product-card .pc-media img { padding: 12%; }
+.explorer-main .grid-models > .product-card:first-child .card-name,
+.explorer-main .card-name { font-size: var(--t15); margin: 8px 0 4px; letter-spacing: -0.01em; }
+.explorer-main .grid-models > .product-card:first-child .card-price,
+.explorer-main .card-price { font-size: var(--t19); margin-top: var(--s3); }
+.explorer-main .pc-body { padding: var(--s4) 0 0; }
 
 .facet-top {
-  display: flex; align-items: center; justify-content: space-between;
-  padding-bottom: 14px; border-bottom: 1px solid var(--edge); margin-bottom: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: var(--s4);
+  border-bottom: 1px solid var(--ink);
+  margin-bottom: var(--s1);
 }
-.facet-top strong { font-size: 14px; color: var(--ink); font-weight: 700; }
+.facet-top strong {
+  font-size: var(--t11);
+  color: var(--ink);
+  font-weight: 400;
+  letter-spacing: 0.13em;
+}
 .link-btn {
-  background: none; border: none; color: var(--ink); font-size: 13.5px; padding: 0;
-  text-decoration: underline; text-underline-offset: 3px;
+  background: none;
+  border: none;
+  color: var(--ink-2);
+  font-size: var(--t12);
+  padding: 0;
+  letter-spacing: 0.03em;
+  border-bottom: 1px solid var(--line-strong);
+  transition: border-color var(--dur) var(--ease);
 }
-.link-btn:hover { color: var(--signal); }
-.facet { border-bottom: 1px solid var(--edge); }
+.link-btn:hover { border-color: var(--ink); }
+
+.facet { border-bottom: 1px solid var(--line); }
 .facet:last-of-type { border-bottom: none; }
 .facet-head {
-  width: 100%; display: flex; align-items: center; justify-content: space-between;
-  background: none; border: none; padding: 15px 0; font-size: 14.5px; font-weight: 700;
-  color: var(--ink); text-align: left;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: none;
+  border: none;
+  padding: var(--s4) 0;
+  font-size: var(--t13);
+  font-weight: 400;
+  color: var(--ink);
+  text-align: left;
+  letter-spacing: 0.03em;
 }
-.facet-caret { color: var(--ink-3); font-size: 11px; transition: transform var(--dur) var(--ease); }
+.facet-caret {
+  color: var(--ink-3);
+  font-size: 10px;
+  transition: transform var(--dur) var(--ease);
+}
 .facet-caret.open { transform: rotate(180deg); }
-.facet-body { padding-bottom: 12px; max-height: 262px; overflow-y: auto; }
+.facet-body { padding-bottom: var(--s3); max-height: 268px; overflow-y: auto; }
 .facet-item {
-  display: flex; align-items: center; gap: 11px; padding: 7px 0; font-size: 14px;
-  color: var(--ink-2); cursor: pointer; line-height: 1.5;
+  display: flex;
+  align-items: center;
+  gap: var(--s3);
+  padding: 8px 0;
+  font-size: var(--t13);
+  color: var(--ink-2);
+  cursor: pointer;
+  line-height: 1.6;
 }
 .facet-item span { flex: 1; }
-.facet-item em { font-style: normal; font-size: 12.5px; color: var(--ink-3); }
-.facet-item input { accent-color: var(--ink); width: 17px; height: 17px; flex-shrink: 0; cursor: pointer; }
+.facet-item em {
+  font-style: normal;
+  font-size: var(--t11);
+  color: var(--ink-3);
+  letter-spacing: 0.02em;
+}
+.facet-item input {
+  accent-color: var(--accent);
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  cursor: pointer;
+  border-radius: 0;
+}
 .facet-item:hover:not(.disabled) { color: var(--ink); }
-.facet-item.disabled { opacity: 0.34; cursor: default; }
-.facet-item.standalone { padding: 16px 0; border-bottom: 1px solid var(--edge); font-weight: 700; color: var(--ink); }
+.facet-item.disabled { opacity: 0.36; cursor: default; }
+.facet-item.standalone {
+  padding: var(--s4) 0;
+  border-bottom: 1px solid var(--line);
+  font-weight: 400;
+  color: var(--ink);
+}
 
-.explorer-bar { display: flex; gap: 8px; align-items: center; margin-bottom: 16px; flex-wrap: wrap; }
+.explorer-bar {
+  display: flex;
+  gap: var(--s2);
+  align-items: center;
+  margin-bottom: var(--s5);
+  flex-wrap: wrap;
+}
 .explorer-search {
-  flex: 1; min-width: 240px; padding: 14px 16px; font-size: 16px; font-family: inherit;
-  border: 1px solid var(--edge-strong); background: var(--panel); color: var(--ink);
-  outline: none; line-height: 1.4;
-  transition: border-color var(--dur) var(--ease), box-shadow var(--dur) var(--ease);
+  flex: 1;
+  min-width: 240px;
+  padding: 15px 18px;
+  font-size: 16px;                /* iOSズーム防止の下限 */
+  font-family: inherit;
+  border: 1px solid var(--line-strong);
+  background: var(--stage);
+  color: var(--ink);
+  outline: none;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+  transition: border-color var(--dur) var(--ease);
 }
 .explorer-search::placeholder { color: var(--ink-3); }
-.explorer-search:focus { border-color: var(--ink); box-shadow: inset 0 0 0 1px var(--ink); }
-.explorer-tools { display: flex; gap: 8px; align-items: center; }
+.explorer-search:focus { border-color: var(--ink); }
+.explorer-tools { display: flex; gap: var(--s2); align-items: center; }
 .sort-select {
-  padding: 13px 14px; font-size: 16px; font-family: inherit; border: 1px solid var(--edge-strong);
-  background: var(--panel); color: var(--ink-2); outline: none; cursor: pointer; line-height: 1.3;
+  padding: 14px 16px;
+  font-size: 16px;
+  font-family: inherit;
+  border: 1px solid var(--line-strong);
+  background: var(--stage);
+  color: var(--ink-2);
+  outline: none;
+  cursor: pointer;
+  line-height: 1.3;
+  border-radius: 0;
+  transition: border-color var(--dur) var(--ease);
 }
 .sort-select:focus { border-color: var(--ink); }
-.filter-toggle { display: none; align-items: center; gap: 8px; }
-.chip-count { background: var(--signal); color: #fff; font-size: 12px; padding: 1px 6px; font-weight: 700; }
-.chips { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-bottom: 16px; }
+.filter-toggle { display: none; align-items: center; gap: var(--s2); }
+.chip-count {
+  border: 1px solid currentColor;
+  color: inherit;
+  background: none;
+  font-size: var(--t11);
+  padding: 1px 7px;
+  font-weight: 400;
+  margin-left: var(--s2);
+  letter-spacing: 0.02em;
+}
+.chips {
+  display: flex;
+  gap: var(--s2);
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: var(--s5);
+}
 .chip {
-  background: var(--ink); border: 1px solid var(--ink); color: #fff;
-  padding: 7px 12px; font-size: 13px; font-weight: 600; line-height: 1.4;
-  transition: background var(--dur) var(--ease), border-color var(--dur) var(--ease);
+  background: transparent;
+  border: 1px solid var(--ink);
+  color: var(--ink);
+  padding: 9px 14px;
+  font-size: var(--t12);
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+  transition: background var(--dur) var(--ease);
 }
-.chip:hover { background: var(--signal); border-color: var(--signal); }
-.chip span { opacity: 0.7; margin-left: 6px; }
+.chip:hover { background: var(--recess); }
+.chip span { color: var(--ink-3); margin-left: var(--s2); }
 .result-count {
-  font-size: 13.5px; color: var(--ink-3); margin-bottom: 16px;
-  padding-bottom: 12px; border-bottom: 1px solid var(--edge);
+  font-size: var(--t12);
+  color: var(--ink-3);
+  margin-bottom: var(--s5);
+  padding-bottom: var(--s3);
+  border-bottom: 1px solid var(--line);
+  letter-spacing: 0.05em;
 }
-.load-more { text-align: center; margin-top: 40px; }
+.load-more { text-align: left; margin-top: var(--s9); }
 .drawer-head, .drawer-apply, .drawer-backdrop { display: none; }
 
-/* ============ Tables ============ */
-.table-wrap { overflow-x: auto; background: var(--panel); }
+/* ============================================================================
+   Tables — 帳簿として組む
+   ----------------------------------------------------------------------------
+   黒帯の表頭も、塗りつぶしの縞も使わない。
+   表頭は1pxの ink 罫、行は地の隣接階調の1px。数値は右揃え・等幅。
+   Pictet のエグゼクティブ感は「数字と文言が寸分の狂いなく揃っていること」から来る。
+   ========================================================================== */
+.table-wrap { overflow-x: auto; background: none; }
 table.price-table, table.model-table {
-  width: 100%; border-collapse: collapse; font-size: 14.5px; min-width: 660px;
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--t14);
+  min-width: 680px;
 }
-.price-table th, .price-table td, .model-table th, .model-table td {
-  padding: 17px 18px; text-align: left; border-bottom: 1px solid var(--edge); vertical-align: middle;
+.price-table th, .price-table td,
+.model-table th, .model-table td {
+  padding: var(--s5) var(--s5) var(--s5) 0;
+  text-align: left;
+  border-bottom: 1px solid var(--line);
+  vertical-align: middle;
 }
-/* 表頭は黒帯。仕様書のように読ませる。飾りの罫は使わない */
+.price-table th:last-child, .price-table td:last-child,
+.model-table th:last-child, .model-table td:last-child { padding-right: 0; }
+
+/* 表頭は小ラベル。字間を開けてよい数少ない場所 */
 .price-table thead th, .model-table thead th {
-  background: var(--void); color: #fff; font-size: 13px; white-space: nowrap;
-  font-weight: 600; padding-top: 13px; padding-bottom: 13px; border-bottom: none;
+  background: none;
+  color: var(--ink-3);
+  font-size: var(--t11);
+  white-space: nowrap;
+  font-weight: 400;
+  letter-spacing: 0.13em;
+  padding-top: 0;
+  padding-bottom: var(--s3);
+  border-bottom: 1px solid var(--ink);
 }
 .price-table thead th:nth-child(4), .price-table thead th:nth-child(5) { text-align: right; }
 .price-table td:nth-child(4), .price-table td:nth-child(5) { text-align: right; }
-.price-table tbody tr:last-child td, .model-table tbody tr:last-child td { border-bottom: none; }
+.price-table tbody tr:last-child td,
+.model-table tbody tr:last-child td { border-bottom: 1px solid var(--line); }
 .price-table tbody tr, .model-table tbody tr { transition: background var(--dur) var(--ease); }
-.price-table tbody tr:hover, .model-table tbody tr:hover { background: var(--panel-2); }
-/* 最安値の行。塗りではなく、行頭に赤の面を差す */
-/* border-collapse:collapse の tr に対する box-shadow は Chrome/Safari が描画しない。
-   サイト最大の収益要素なので、背景でも最安行とわかるようにする */
-.price-table tbody tr.best-row {
-  background: linear-gradient(90deg, rgba(200, 16, 46, 0.09), var(--panel) 55%);
-  box-shadow: inset 4px 0 0 var(--signal);
+.price-table tbody tr:hover, .model-table tbody tr:hover { background: var(--recess); }
+
+/* 最安値の行。塗りでも赤でもなく、行頭に2pxの深緑の縦罫を1本立てるだけ。
+   （border-collapse:collapse の tr に対する box-shadow は Chrome/Safari が
+     描画しないため、td:first-child の border-left で確実に出す） */
+.price-table tbody tr.best-row td { border-bottom-color: var(--line-strong); }
+.price-table tbody tr.best-row td:first-child {
+  border-left: 2px solid var(--accent);
+  padding-left: var(--s4);
 }
-.price-table tbody tr.best-row td:first-child { border-left: 4px solid var(--signal); }
-.price-table tbody tr.best-row:hover { background: var(--panel-2); }
+.price-table tbody tr.best-row:hover { background: var(--recess); }
+
 .pt-title {
-  max-width: 420px; overflow: hidden; text-overflow: ellipsis; display: -webkit-box;
-  -webkit-line-clamp: 2; -webkit-box-orient: vertical; font-size: 13px;
-  color: var(--ink-3); line-height: 1.6;
+  max-width: 420px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  font-size: var(--t12);
+  color: var(--ink-3);
+  line-height: 1.7;
 }
 .pt-price {
-  font-family: var(--num); font-size: 19px; white-space: nowrap; font-weight: 700; letter-spacing: -0.03em;
+  font-family: var(--num);
+  font-size: var(--t19);
+  white-space: nowrap;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  color: var(--ink);
 }
-.pt-price.best { color: var(--signal); font-weight: 700; font-size: 24px; }
-.pt-shop { font-weight: 600; max-width: 220px; overflow: hidden; text-overflow: ellipsis; line-height: 1.5; }
-.pt-source { display: block; font-size: 12.5px; color: var(--ink-3); font-weight: 400; margin-top: 4px; }
+/* 最安の価格も色を変えない。サイズだけ一段上げる */
+.pt-price.best { color: var(--ink); font-weight: 400; font-size: var(--t26); }
+.pt-shop {
+  font-weight: 400;
+  max-width: 220px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.6;
+  color: var(--ink);
+}
+.pt-source {
+  display: block;
+  font-size: var(--t11);
+  color: var(--ink-3);
+  font-weight: 400;
+  margin-top: 6px;
+  letter-spacing: 0.06em;
+}
 
-/* 札は矩形。丸めない・字間を空けない */
+/* ============================================================================
+   Badges — 塗らない。1pxの枠と文字色だけで区別する
+   星評価もレビュー件数もリボンも存在しない（高級サイトにはひとつも無い）
+   ========================================================================== */
 .badge {
-  display: inline-block; font-size: 12px; padding: 3px 8px; white-space: nowrap;
-  font-weight: 700; line-height: 1.5; border: 1px solid transparent;
+  display: inline-block;
+  font-size: var(--t11);
+  padding: 4px 9px;
+  white-space: nowrap;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.07em;
+  border: 1px solid var(--line-strong);
+  background: none;
+  color: var(--ink-2);
 }
-/* 新品か中古かは腕時計では一次的な購買判断。無彩色で揃えると見分けがつかないので、
-   ここだけは色で符号化する（緑=新品 / 青=中古） */
-.badge-new { background: #e8f3ec; color: #1c5c3c; border-color: #1c5c3c; }
-.badge-used { background: #e9eef4; color: #2d4a68; border-color: #2d4a68; }
-.badge-unknown { background: var(--panel-2); color: var(--ink-3); border-color: var(--edge); }
-.badge-best { background: var(--signal); color: #fff; border-color: var(--signal); }
+/* 新品/中古は腕時計では一次的な購買判断。ただし色ではなく“線の強さ”で符号化する */
+.badge-new { border-color: var(--ink); color: var(--ink); }
+.badge-used { border-color: var(--line-strong); color: var(--ink-2); }
+.badge-unknown { border-color: var(--line); color: var(--ink-3); }
+/* 唯一の有彩色がここに1回だけ出る。塗らない。面積は画面の0.1%未満 */
+.badge-best { border-color: var(--accent); color: var(--accent); }
 
-.empty-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 20px; justify-content: center; }
+.empty-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s2);
+  margin-top: var(--s6);
+  justify-content: flex-start;
+}
 
-/* ============ Buttons ============ */
+/* ============================================================================
+   Buttons
+   ----------------------------------------------------------------------------
+   AP のボタン定義をそのまま採る:
+     --radius-none / border:1px solid currentColor / background:透明が既定 /
+     min-height:64px / min-width:260px / padding:20px
+   塗りつぶしの丸ボタンをやめてこの形にするだけで、44px制約を満たしつつ画面が静かになる。
+   塗るのは購入導線（.btn-deal）だけ。しかも色は赤ではなくインク。
+   根拠: NetJets の "Request Information" は量販ECの巨大な赤ボタンと対極の静けさで置かれる。
+   ========================================================================== */
 .btn {
-  display: inline-block; padding: 15px 26px; font-size: 14.5px; font-weight: 700;
-  letter-spacing: 0; background: var(--ink); color: #fff; white-space: nowrap;
-  border: 1px solid var(--ink); text-align: center; line-height: 1.4;
-  transition: background var(--dur) var(--ease), border-color var(--dur) var(--ease), color var(--dur) var(--ease);
+  display: inline-block;
+  min-height: 56px;
+  padding: 18px 30px;
+  font-size: var(--t13);
+  font-weight: 400;
+  letter-spacing: 0.06em;
+  background: transparent;
+  color: var(--ink);
+  white-space: nowrap;
+  border: 1px solid var(--ink);
+  border-radius: 0;
+  text-align: center;
+  line-height: 1.5;
+  transition: background var(--dur) var(--ease);
 }
-.btn:hover { background: #000; border-color: #000; }
-.btn-outline { background: transparent; border-color: var(--ink); color: var(--ink); }
-.btn-outline:hover { background: var(--ink); color: #fff; }
-.btn-deal { background: var(--signal); border-color: var(--signal); color: #fff; }
-.btn-deal:hover { background: var(--signal-dark); border-color: var(--signal-dark); }
-.btn-sm { padding: 13px 18px; font-size: 13.5px; }
+.btn:hover { background: var(--recess); }
+.btn-outline {
+  background: transparent;
+  border-color: var(--line-strong);
+  color: var(--ink-2);
+  transition: border-color var(--dur) var(--ease);
+}
+.btn-outline:hover { background: transparent; border-color: var(--ink); }
+/* 唯一の塗り面。緑でも赤でもなくインク */
+.btn-deal {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: var(--on-deep);
+}
+.btn-deal:hover { background: var(--deep); border-color: var(--deep); }
+.btn-sm {
+  min-height: 44px;              /* タップ領域の下限 */
+  padding: 12px 20px;
+  font-size: var(--t12);
+}
 
-/* ============ Model page: 実物を大きく ============ */
+/* ============================================================================
+   Model page — 実物を大きく、しかし中央に寄せない
+   ----------------------------------------------------------------------------
+   写真の列を左に寄せ、価格は右に“天井から吊るす”。
+   価格パネルを箱にしない。1本の ink 罫の下に数字を並べるだけ。
+   ========================================================================== */
 .model-hero {
-  display: grid; grid-template-columns: minmax(0, 1.45fr) minmax(0, 1fr); gap: var(--gap);
-  align-items: stretch; margin: 26px 0 12px;
+  display: grid;
+  grid-template-columns: minmax(0, 1.55fr) minmax(0, 1fr);
+  gap: var(--s8);
+  align-items: start;
+  margin: var(--s7) 0 0;
 }
-/* 台の作りはカードと同一。純白・contain・大きめの内側余白 */
 .mh-image {
-  position: relative; container-type: inline-size;
-  background: var(--stage); aspect-ratio: 4 / 3;
-  display: flex; align-items: center; justify-content: center; overflow: hidden;
+  position: relative;
+  container-type: inline-size;
+  background: var(--stage);
+  aspect-ratio: 5 / 4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
 }
-.mh-image img { width: 100%; height: 100%; object-fit: contain; padding: 9%; background: var(--stage); }
-.mh-image .pc-noimg { font-size: clamp(22px, 12cqw, 76px); }
+.mh-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 11%;
+  background: var(--stage);
+}
+.mh-image .pc-noimg { font-size: clamp(20px, 9cqw, 56px); }
 
 .price-panel {
-  background: var(--panel); padding: clamp(24px, 2.6vw, 40px);
-  display: flex; flex-direction: column; justify-content: center;
+  background: none;
+  padding: 0;
+  border-top: 1px solid var(--ink);
+  padding-top: var(--s5);
+  display: flex;
+  flex-direction: column;
 }
-.pp-label { font-size: 13.5px; color: var(--ink-3); font-weight: 600; }
+.pp-label {
+  font-size: var(--t11);
+  color: var(--ink-3);
+  font-weight: 400;
+  letter-spacing: 0.13em;
+}
+/* 最安値。ページで最も大きい数字だが、色も太さも与えない。
+   B&O が $2,300 を製品名の直下にただの文字として置くのと同じ扱い */
 .pp-main {
-  font-family: var(--num); font-size: clamp(36px, 5vw, 58px); font-weight: 700;
-  color: var(--signal); line-height: 1.02; margin: 8px 0 8px; letter-spacing: -0.045em;
+  font-family: var(--num);
+  font-size: clamp(34px, 4.4vw, 62px);
+  font-weight: 400;
+  color: var(--ink);
+  line-height: 1.06;
+  margin: var(--s3) 0 var(--s3);
+  letter-spacing: -0.038em;
 }
-.pp-sub { font-size: 13.5px; color: var(--ink-3); line-height: 1.7; }
-.pp-split { display: flex; gap: 32px; margin: 24px 0; flex-wrap: wrap; }
-.pp-split div { min-width: 128px; }
+.pp-sub {
+  font-size: var(--t12);
+  color: var(--ink-3);
+  line-height: 1.8;
+  max-width: 40ch;
+}
+.pp-split {
+  display: flex;
+  gap: var(--s7);
+  margin: var(--s7) 0 var(--s6);
+  flex-wrap: wrap;
+}
+.pp-split div { min-width: 130px; border-top: 1px solid var(--line); padding-top: var(--s3); }
 .pp-split div + div { padding-left: 0; }
-.pp-split dt { font-size: 13px; color: var(--ink-3); font-weight: 600; }
-.pp-split dd { font-family: var(--num); font-size: 23px; font-weight: 700; margin-top: 4px; letter-spacing: -0.035em; }
-.pp-split dd.na { font-family: var(--sans); font-size: 14px; color: var(--ink-3); font-weight: 400; }
-.pp-actions { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 4px; }
-.pp-note { font-size: 13px; color: var(--ink-3); margin-top: 16px; line-height: 1.7; }
-.pp-empty { text-align: center; padding: 16px 0; }
+.pp-split dt { font-size: var(--t11); color: var(--ink-3); font-weight: 400; letter-spacing: 0.09em; }
+.pp-split dd {
+  font-family: var(--num);
+  font-size: var(--t22);
+  font-weight: 400;
+  margin-top: 8px;
+  letter-spacing: -0.025em;
+  color: var(--ink);
+}
+.pp-split dd.na {
+  font-family: var(--sans);
+  font-size: var(--t13);
+  color: var(--ink-3);
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.pp-actions { display: flex; gap: var(--s2); flex-wrap: wrap; margin-top: 0; }
+.pp-note {
+  font-size: var(--t12);
+  color: var(--ink-3);
+  margin-top: var(--s5);
+  line-height: 1.8;
+  max-width: 42ch;
+}
+.pp-empty { text-align: left; padding: var(--s4) 0 0; }
 .pp-empty b {
-  display: block; font-family: var(--display); font-size: 22px; font-weight: 700;
-  margin-bottom: 10px; letter-spacing: -0.025em; line-height: 1.35;
+  display: block;
+  font-family: var(--display);
+  font-size: var(--t22);
+  font-weight: 400;
+  margin-bottom: var(--s3);
+  letter-spacing: -0.02em;
+  line-height: 1.4;
+  color: var(--ink);
 }
-.pp-empty p { font-size: 14px; color: var(--ink-2); line-height: 1.8; }
+.pp-empty p { font-size: var(--t14); color: var(--ink-2); line-height: var(--lead-body); max-width: 40ch; }
 
-/* ============ Spec ============ */
-/* 罫線を引かず、面と面の隙間（=地の色）で仕切る */
+/* ============================================================================
+   Spec — 罫線の帳簿。面を塗らない
+   ========================================================================== */
 .spec-grid {
-  display: grid; grid-template-columns: repeat(auto-fit, minmax(178px, 1fr)); gap: var(--gap);
-  background: var(--ground);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(182px, 1fr));
+  column-gap: var(--s7);
+  row-gap: 0;
+  background: none;
 }
-.spec-grid .spec { background: var(--panel); padding: 18px 20px; }
-.spec-grid .spec dt { font-size: 12.5px; color: var(--ink-3); font-weight: 600; }
-.spec-grid .spec dd { font-size: 16px; font-weight: 700; margin-top: 6px; line-height: 1.45; letter-spacing: -0.01em; }
+.spec-grid .spec {
+  background: none;
+  padding: var(--s4) 0 var(--s5);
+  border-top: 1px solid var(--line);
+}
+.spec-grid .spec dt {
+  font-size: var(--t11);
+  color: var(--ink-3);
+  font-weight: 400;
+  letter-spacing: 0.09em;
+}
+.spec-grid .spec dd {
+  font-size: var(--t17);
+  font-weight: 400;
+  margin-top: 8px;
+  line-height: 1.5;
+  letter-spacing: -0.008em;
+  color: var(--ink);
+}
 
-.tag-row { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 22px; }
+.tag-row { display: flex; gap: var(--s2); flex-wrap: wrap; margin-top: var(--s7); }
 .tag-pill {
-  background: var(--panel); border: 1px solid var(--edge-strong); padding: 9px 15px;
-  font-size: 13.5px; color: var(--ink-2); line-height: 1.4;
-  transition: background var(--dur) var(--ease), color var(--dur) var(--ease), border-color var(--dur) var(--ease);
+  background: transparent;
+  border: 1px solid var(--line-strong);
+  padding: 13px 18px;
+  font-size: var(--t13);
+  color: var(--ink-2);
+  line-height: 1.4;
+  transition: border-color var(--dur) var(--ease);
 }
-.tag-pill:hover { background: var(--ink); color: #fff; border-color: var(--ink); }
+.tag-pill:hover { border-color: var(--ink); }
 
-/* ============ Notices / CTA ============ */
-.notice { background: var(--panel); padding: 22px 24px; font-size: 14px; color: var(--ink-2); line-height: 1.8; }
-.notice-empty { text-align: center; padding: 56px 24px; }
+/* ============================================================================
+   Notices / CTA
+   ========================================================================== */
+.notice {
+  background: var(--recess);
+  padding: var(--s6);
+  font-size: var(--t14);
+  color: var(--ink-2);
+  line-height: var(--lead-body);
+}
+.notice-empty { text-align: left; padding: var(--s8) var(--s6); }
 .notice-empty b {
-  display: block; font-family: var(--display); font-size: 22px; font-weight: 700;
-  color: var(--ink); margin-bottom: 10px; letter-spacing: -0.025em; line-height: 1.35;
+  display: block;
+  font-family: var(--display);
+  font-size: var(--t22);
+  font-weight: 400;
+  color: var(--ink);
+  margin-bottom: var(--s3);
+  letter-spacing: -0.02em;
+  line-height: 1.4;
 }
-.small-note { font-size: 13px; color: var(--ink-3); margin-top: 16px; line-height: 1.7; }
+.small-note {
+  font-size: var(--t12);
+  color: var(--ink-3);
+  margin-top: var(--s5);
+  line-height: 1.8;
+  max-width: 62ch;
+}
 
-/* 黒い面をもう一枚差し込む。写真の白い連なりを断ち切る役 */
+/* 1ページに2回だけ来る暗部のうちの1つ。純黒ではなく緑の温度を持った黒。
+   Rolex が暗いセクションの地に background-color:black を使うのと同じ役割 */
 .cta-band {
-  background: var(--void); color: #fff; padding: clamp(40px, 5vw, 64px) clamp(24px, 4vw, 56px);
-  margin: 48px 0; text-align: left;
+  background: var(--deep);
+  color: var(--on-deep);
+  padding: var(--band-sm) clamp(24px, 5vw, 80px);
+  margin: var(--band-sm) 0;
+  text-align: left;
 }
 .cta-band b {
-  display: block; font-family: var(--display); font-size: clamp(22px, 2.8vw, 34px); font-weight: 700;
-  margin-bottom: 12px; letter-spacing: -0.03em; line-height: 1.25;
+  display: block;
+  font-family: var(--display);
+  font-size: clamp(22px, 2.8vw, 38px);
+  font-weight: 400;
+  margin-bottom: var(--s4);
+  letter-spacing: -0.028em;
+  line-height: 1.25;
+  color: var(--on-deep);
+  max-width: 20ch;
 }
-.cta-band p { font-size: 15px; color: var(--on-void-2); max-width: 56ch; margin: 0 0 24px; line-height: 1.8; }
-.cta-band .btn { background: #fff; border-color: #fff; color: var(--ink); }
-.cta-band .btn:hover { background: var(--signal); border-color: var(--signal); color: #fff; }
+.cta-band p {
+  font-size: var(--t14);
+  color: var(--on-deep-2);
+  max-width: 46ch;
+  margin: 0 0 var(--s7);
+  line-height: var(--lead-body);
+}
+.cta-band .btn {
+  background: transparent;
+  border-color: rgba(237, 242, 240, 0.42);
+  color: var(--on-deep);
+  transition: border-color var(--dur) var(--ease);
+}
+.cta-band .btn:hover { background: transparent; border-color: var(--on-deep); }
 
 .hero-cta {
-  display: flex; gap: 22px; align-items: center; background: var(--panel);
-  padding: 20px 22px; margin: 28px 0; flex-wrap: wrap;
+  display: flex;
+  gap: var(--s6);
+  align-items: flex-start;
+  background: none;
+  border-top: 1px solid var(--ink);
+  padding: var(--s5) 0 0;
+  margin: var(--s8) 0;
+  flex-wrap: wrap;
 }
 .hero-cta img {
-  width: 132px; height: 132px; object-fit: contain; flex-shrink: 0;
-  background: var(--stage); padding: 8px;
+  width: 148px;
+  height: 148px;
+  object-fit: contain;
+  flex-shrink: 0;
+  background: var(--stage);
+  padding: 14px;
 }
 .hero-cta .hc-body { flex: 1; min-width: 230px; }
 .hc-name {
-  font-family: var(--display); font-size: 21px; font-weight: 700; margin: 2px 0 8px;
-  letter-spacing: -0.025em; line-height: 1.3;
+  font-family: var(--display);
+  font-size: var(--t22);
+  font-weight: 400;
+  margin: 0 0 var(--s3);
+  letter-spacing: -0.022em;
+  line-height: 1.35;
+  color: var(--ink);
 }
-.hc-price { font-size: 13.5px; color: var(--ink-3); margin-bottom: 14px; }
-.hc-price b { font-family: var(--num); font-size: 25px; color: var(--signal); letter-spacing: -0.035em; }
-
-/* ============ Dealers ============ */
-.dealer-grid { display: grid; gap: var(--gap); grid-template-columns: repeat(auto-fill, minmax(252px, 1fr)); }
-.dealer-card { background: var(--panel); padding: 22px 22px 24px; font-size: 14px; }
-.dealer-card b { font-size: 16px; font-weight: 700; letter-spacing: -0.015em; }
-.dealer-card .dc-note { color: var(--ink-3); font-size: 13px; margin: 8px 0 16px; line-height: 1.65; }
-
-/* ============ Prose / article ============ */
-/* 読み物だけは灰色の地の上に白い紙を1枚置く。長文を地の色の上で読ませない */
-.prose { max-width: 70ch; background: var(--panel); padding: clamp(22px, 3.6vw, 44px); }
-.prose > *:first-child { margin-top: 0; }
-.prose > *:last-child { margin-bottom: 0; }
-.article { max-width: 780px; margin: 0 auto; }
-.article-head { padding: 24px 0 4px; }
-.article-head h1 {
-  font-family: var(--display); font-size: clamp(27px, 3.6vw, 42px); font-weight: 700;
-  line-height: 1.28; margin: 10px 0 12px; letter-spacing: -0.035em;
+.hc-price {
+  font-size: var(--t12);
+  color: var(--ink-3);
+  margin-bottom: var(--s5);
+  letter-spacing: 0.03em;
 }
-.article-body { margin-top: 30px; }
-.prose h1 { font-family: var(--display); font-size: 30px; font-weight: 700; margin: 44px 0 18px; letter-spacing: -0.03em; line-height: 1.3; }
-.prose h2 {
-  font-family: var(--display); font-size: 24px; margin: 48px 0 16px; font-weight: 700;
-  letter-spacing: -0.028em; line-height: 1.35;
+.hc-price b {
+  font-family: var(--num);
+  font-size: var(--t22);
+  color: var(--ink);
+  letter-spacing: -0.025em;
+  font-weight: 400;
+  display: block;
+  margin-top: 6px;
 }
-.prose h3 { font-size: 18px; margin: 34px 0 12px; font-weight: 700; letter-spacing: -0.015em; }
-/* 日本語の長文は行間1.95前後で初めて「読める」 */
-.prose p, .prose li { font-size: 16px; color: var(--ink-2); margin-bottom: 18px; line-height: 1.95; }
-.prose ul, .prose ol { padding-left: 24px; margin-bottom: 22px; }
-.prose li { margin-bottom: 8px; }
-.prose strong { color: var(--ink); font-weight: 700; }
-.prose a { color: var(--ink); text-decoration: underline; text-underline-offset: 3px; }
-.prose a:hover { color: var(--signal); }
-/* 引用は左の縦罫ではなく、面を沈める */
-.prose blockquote {
-  background: var(--panel-2); padding: 20px 22px; margin: 26px 0;
-  color: var(--ink-2); font-size: 16px; line-height: 1.9;
-}
-.prose blockquote p:last-child { margin-bottom: 0; }
-.prose table { width: 100%; border-collapse: collapse; font-size: 14.5px; margin: 24px 0; background: var(--panel); }
-.prose th, .prose td { padding: 13px 15px; border: 1px solid var(--edge); text-align: left; line-height: 1.65; }
-.prose th { background: var(--void); color: #fff; font-weight: 600; font-size: 13.5px; border-color: var(--void); }
-.prose img { margin: 26px 0; background: var(--stage); }
-.prose hr { border: none; border-top: 1px solid var(--edge-strong); margin: 40px 0; }
-
-/* ============ Ad slot ============ */
-.ad-slot { margin: 40px 0; text-align: center; }
-
-/* ============ Footer ============ */
-.site-footer {
-  background: var(--void); color: var(--on-void-2); margin-top: 80px; padding: 60px 0 40px;
-  font-size: 14px; line-height: 1.8;
-}
-.site-footer .footer-brand {
-  font-family: var(--display); font-size: 22px; color: #fff; margin-bottom: 12px;
-  font-weight: 700; letter-spacing: -0.025em;
-}
-.site-footer nav {
-  display: flex; gap: 24px; flex-wrap: wrap; margin: 24px 0; padding: 20px 0;
-  border-top: 1px solid rgba(255, 255, 255, 0.14); border-bottom: 1px solid rgba(255, 255, 255, 0.14);
-}
-/* 指で押す領域を44px確保する（14px × 行高1.8 ≒ 25px + 上下10px = 45px） */
-.site-footer nav a { display: inline-block; padding: 10px 0; color: #e6e7ea; }
-.site-footer nav a:hover { color: #fff; text-decoration: underline; text-underline-offset: 4px; }
-/* API規約上の必須表記。12.5px / 12:1 を確保して潰さない */
-.site-footer .credits { font-size: 12.5px; color: var(--on-void-3); margin-top: 20px; line-height: 1.9; }
-.site-footer .credits a { text-decoration: underline; text-underline-offset: 3px; }
-.site-footer .credits a:hover { color: #fff; }
 
 /* ============================================================================
-   スクロールで写真が流れる
+   Dealers
+   ========================================================================== */
+.dealer-grid {
+  display: grid;
+  column-gap: var(--s7);
+  row-gap: var(--s7);
+  grid-template-columns: repeat(auto-fill, minmax(268px, 1fr));
+}
+.dealer-card {
+  background: none;
+  border-top: 1px solid var(--line-strong);
+  padding: var(--s5) 0 0;
+  font-size: var(--t14);
+}
+.dealer-card b {
+  font-size: var(--t17);
+  font-weight: 400;
+  letter-spacing: -0.012em;
+  color: var(--ink);
+}
+.dealer-card .dc-note {
+  color: var(--ink-3);
+  font-size: var(--t12);
+  margin: var(--s3) 0 var(--s5);
+  line-height: 1.75;
+}
+
+/* ============================================================================
+   Prose / article — 記事は左に寄せて、右に大きく余白を残す
+   （中央に据えた読み物カラムは量産ブログの型。左の1本線に揃えると新聞になる）
+   ========================================================================== */
+.prose {
+  max-width: 68ch;
+  background: none;
+  padding: 0;
+}
+.prose > *:first-child { margin-top: 0; }
+.prose > *:last-child { margin-bottom: 0; }
+.article { max-width: 820px; margin: 0; }
+.article-head { padding: var(--s7) 0 0; }
+.article-head h1 {
+  font-family: var(--display);
+  font-size: clamp(27px, 3.4vw, 46px);
+  font-weight: 400;
+  line-height: 1.25;
+  margin: var(--s3) 0 var(--s4);
+  letter-spacing: -0.03em;
+  color: var(--ink);
+}
+.article-body { margin-top: var(--s8); }
+.prose h1 {
+  font-family: var(--display);
+  font-size: var(--t32);
+  font-weight: 400;
+  margin: var(--s9) 0 var(--s5);
+  letter-spacing: -0.028em;
+  line-height: 1.3;
+  color: var(--ink);
+}
+.prose h2 {
+  font-family: var(--display);
+  font-size: var(--t26);
+  margin: var(--s9) 0 var(--s5);
+  font-weight: 400;
+  letter-spacing: -0.024em;
+  line-height: 1.35;
+  color: var(--ink);
+}
+.prose h3 {
+  font-size: var(--t19);
+  margin: var(--s7) 0 var(--s4);
+  font-weight: 500;
+  letter-spacing: -0.012em;
+  color: var(--ink);
+}
+/* 日本語の長文は行送り1.95前後で初めて「読める」。文字を大きく詰めるほど安く見える */
+.prose p, .prose li {
+  font-size: 16px;
+  color: var(--ink-2);
+  margin-bottom: var(--s5);
+  line-height: 1.95;
+}
+.prose ul, .prose ol { padding-left: var(--s5); margin-bottom: var(--s6); }
+.prose li { margin-bottom: var(--s2); }
+.prose strong { color: var(--ink); font-weight: 500; }
+.prose a {
+  color: var(--ink);
+  border-bottom: 1px solid var(--line-strong);
+  transition: border-color var(--dur) var(--ease);
+}
+.prose a:hover { border-color: var(--ink); }
+/* 引用は左の縦罫ではなく、面を一段沈める */
+.prose blockquote {
+  background: var(--recess);
+  padding: var(--s6);
+  margin: var(--s7) 0;
+  color: var(--ink-2);
+  font-size: 16px;
+  line-height: 1.95;
+}
+.prose blockquote p:last-child { margin-bottom: 0; }
+.prose table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--t14);
+  margin: var(--s7) 0;
+  background: none;
+}
+.prose th, .prose td {
+  padding: var(--s4) var(--s4) var(--s4) 0;
+  border: none;
+  border-bottom: 1px solid var(--line);
+  text-align: left;
+  line-height: 1.7;
+}
+.prose th {
+  background: none;
+  color: var(--ink-3);
+  font-weight: 400;
+  font-size: var(--t11);
+  letter-spacing: 0.13em;
+  border-bottom: 1px solid var(--ink);
+}
+.prose img { margin: var(--s7) 0; background: var(--stage); }
+.prose hr { border: none; border-top: 1px solid var(--line); margin: var(--s9) 0; }
+
+/* ============================================================================
+   Ad slot
+   ========================================================================== */
+.ad-slot { margin: var(--band-sm) 0; text-align: left; }
+
+/* ============================================================================
+   Footer — 1ページに2回だけ来る暗部のもう1つ。ページを閉じる床
+   ========================================================================== */
+.site-footer {
+  background: var(--deep);
+  color: var(--on-deep-2);
+  margin-top: var(--band);
+  padding: var(--band-sm) 0 var(--s8);
+  font-size: var(--t14);
+  line-height: var(--lead-body);
+}
+.site-footer .footer-brand {
+  font-family: var(--display);
+  font-size: var(--t26);
+  color: var(--on-deep);
+  margin-bottom: var(--s4);
+  font-weight: 400;
+  letter-spacing: -0.022em;
+}
+.site-footer p { max-width: 52ch; }
+.site-footer nav {
+  display: flex;
+  gap: var(--s7);
+  flex-wrap: wrap;
+  margin: var(--s8) 0 var(--s6);
+  padding: var(--s6) 0 var(--s5);
+  border-top: 1px solid rgba(237, 242, 240, 0.16);
+  border-bottom: 1px solid rgba(237, 242, 240, 0.16);
+}
+/* 指で押す領域を44px確保する（14px × 行高1.85 ≒ 26px + 上下10px = 46px） */
+.site-footer nav a {
+  display: inline-block;
+  padding: 10px 0;
+  color: var(--on-deep-3);
+  font-size: var(--t13);
+  letter-spacing: 0.03em;
+  transition: color var(--dur) var(--ease);
+}
+.site-footer nav a:hover { color: var(--on-deep); }
+/* API規約上の必須表記。12px / 11:1 以上を確保して潰さない */
+.site-footer .credits {
+  font-size: var(--t12);
+  color: var(--on-deep-3);
+  margin-top: var(--s6);
+  line-height: 2;
+}
+.site-footer .credits a { border-bottom: 1px solid rgba(237, 242, 240, 0.3); }
+.site-footer .credits a:hover { color: var(--on-deep); }
+
+/* ============================================================================
+   スクロールで写真が静かに立ち上がる
    CSSだけで実装する（JSもライブラリも足さない）。
-   view() timeline 非対応のブラウザでは何も起きない = 最初から見えている。
+   view() timeline 非対応のブラウザでは何も起きない＝最初から見えている。
+   出現は 600〜900ms・translateY(10px)+opacity の2つだけ。跳ねない。
    ========================================================================== */
 @media (prefers-reduced-motion: no-preference) {
   @supports (animation-timeline: view()) {
     @keyframes pcRise {
-      from { opacity: 0; transform: translateY(14px); }
+      from { opacity: 0; transform: translateY(12px); }
       to { opacity: 1; transform: none; }
     }
     .grid-models > .product-card,
-    .grid-posts > .post-card {
+    .grid-posts > .post-card,
+    .grid-brands > .brand-card {
       animation: pcRise linear both;
       animation-timeline: view();
-      animation-range: entry 0% entry 42%;
+      animation-range: entry 0% entry 46%;
     }
     /* 検索結果は次々読み込むので動かさない（待たされる感じになる） */
     .explorer-main .grid-models > .product-card { animation: none; }
@@ -801,193 +1764,265 @@ table.price-table, table.model-table {
 }
 
 /* ============================================================================
-   Responsive — 1024 / 780 / 640
+   Responsive — 1200 / 1024 / 780 / 640
    ========================================================================== */
 
+@media (max-width: 1200px) {
+  .grid-models { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .grid-models > .product-card:first-child { grid-column: span 2; }
+  .grid-models > .product-card:nth-child(4n + 2) .pc-media { aspect-ratio: 4 / 5; }
+  .grid-models > .product-card:nth-child(3n + 3) .pc-media { aspect-ratio: 1 / 1; }
+}
+
 @media (max-width: 1024px) {
-  .container { padding: 0 20px; }
-  .explorer { grid-template-columns: 218px 1fr; gap: 20px; }
-  .explorer-main .grid-models { grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); }
-  .model-hero { grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); }
-  .grid-brands { grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); }
+  :root {
+    --outer: clamp(20px, 6vw, 72px);
+    --band: clamp(64px, 10vh, 120px);
+  }
+  .explorer { grid-template-columns: 224px 1fr; gap: var(--s7); }
+  .explorer-main .grid-models { grid-template-columns: repeat(auto-fill, minmax(188px, 1fr)); }
+  .model-hero { grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: var(--s7); }
+  .grid-brands { grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); }
 }
 
 @media (max-width: 780px) {
-  .container { padding: 0 16px; }
+  :root {
+    --outer: clamp(18px, 5.5vw, 44px);
+    --row-gap: clamp(32px, 6vw, 52px);
+  }
 
   /* モデルページ: 写真は大きく、でも最安値と購入ボタンを画面外に押し出さない */
-  .model-hero { grid-template-columns: 1fr; }
+  .model-hero { grid-template-columns: 1fr; gap: var(--s6); }
   .mh-image { aspect-ratio: 1 / 1; max-height: 46vh; }
-  .mh-image img { padding: 7%; }
+  .mh-image img { padding: 9%; }
 
   .explorer { grid-template-columns: 1fr; gap: 0; }
   .filter-toggle { display: inline-flex; }
-  .cta-band { padding: 34px 22px; }
+  .cta-band { padding: var(--s8) var(--s5); }
 
   /* iOSは16px未満の入力欄にフォーカスするとページを勝手に拡大し、元に戻らない */
   .searchbox input, .explorer-search, .sort-select { font-size: 16px; }
 
   /* 絞り込みは指で操作する。行を44px前後まで広げる */
-  .facet-item { padding: 12px 0; font-size: 15px; gap: 14px; }
-  .facet-item input { width: 21px; height: 21px; }
+  .facet-item { padding: 12px 0; font-size: var(--t15); gap: var(--s4); }
+  .facet-item input { width: 20px; height: 20px; }
   /* ドロワー自体がスクロールするので、入れ子のスクロール領域は解除する */
   .facet-body { max-height: none; overflow-y: visible; }
-  .drawer-head .link-btn { font-size: 18px; padding: 12px 14px; margin: -12px -14px -12px 0; line-height: 1; }
+  .drawer-head .link-btn { font-size: 18px; padding: 12px 14px; margin: -12px -14px -12px 0; line-height: 1; border: none; }
   .chips .link-btn { padding: 12px 6px; }
-  .chip { padding: 12px 14px; font-size: 13.5px; }
+  .chip { padding: 12px 16px; font-size: var(--t13); }
   .drawer-apply { width: auto; right: 16px; }
   .explorer-side {
-    position: fixed; inset: 0 auto 0 0; width: min(88vw, 340px); z-index: 200;
-    max-height: none; transform: translateX(-100%);
-    transition: transform 0.26s var(--ease); box-shadow: var(--shadow-lg);
-    padding: 18px 18px 100px;
+    position: fixed;
+    inset: 0 auto 0 0;
+    width: min(88vw, 344px);
+    z-index: 200;
+    max-height: none;
+    transform: translateX(-100%);
+    transition: transform 0.3s var(--ease);
+    box-shadow: var(--shadow-lg);
+    background: var(--ground);
+    padding: var(--s5) var(--s5) 112px;
   }
   .explorer-side.open { transform: translateX(0); }
   .drawer-head {
-    display: flex; align-items: center; justify-content: space-between;
-    padding-bottom: 14px; margin-bottom: 4px; border-bottom: 1px solid var(--edge);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: var(--s4);
+    margin-bottom: var(--s1);
+    border-bottom: 1px solid var(--ink);
   }
-  .drawer-head strong { font-size: 16px; font-weight: 700; }
+  .drawer-head strong { font-size: var(--t11); font-weight: 400; letter-spacing: 0.13em; }
   .facet-top { display: none; }
   .drawer-apply {
-    display: block; position: fixed; bottom: 16px; left: 16px; width: min(88vw, 340px);
-    margin-left: 0; padding: 16px 20px; box-shadow: var(--shadow-lg);
+    display: block;
+    position: fixed;
+    bottom: 16px;
+    left: 16px;
+    width: min(88vw - 32px, 312px);
+    margin-left: 0;
+    background: var(--ink);
+    border-color: var(--ink);
+    color: var(--on-deep);
+    box-shadow: var(--shadow-lg);
   }
-  .drawer-backdrop { display: block; position: fixed; inset: 0; background: rgba(17, 18, 20, 0.55); z-index: 190; }
+  .drawer-backdrop {
+    display: block;
+    position: fixed;
+    inset: 0;
+    background: rgba(16, 25, 23, 0.5);
+    z-index: 190;
+  }
 }
 
 @media (max-width: 640px) {
-  body { font-size: 16px; line-height: 1.7; }
-  .container { padding: 0 12px; }
+  :root {
+    --outer: clamp(16px, 5vw, 28px);
+    --gutter: 14px;
+    --row-gap: 40px;
+    --band: 64px;
+    --band-sm: 44px;
+  }
+  body { font-size: var(--t15); line-height: 1.8; }
 
   /* ヘッダーは1行に収まらないのでナビを2段目に折り返す */
-  .site-header .container { flex-wrap: wrap; gap: 4px 14px; padding-top: 10px; padding-bottom: 8px; }
-  .logo { font-size: 18px; }
-  .logo .logo-sub { font-size: 10px; margin-top: 2px; }
-  .header-nav { width: 100%; margin-left: 0; gap: 0; justify-content: space-between; font-size: 13.5px; }
+  .site-header .container { flex-wrap: wrap; gap: 2px var(--s5); padding-top: 12px; padding-bottom: 6px; }
+  .logo { font-size: var(--t17); }
+  .logo .logo-sub { font-size: 10px; margin-top: 3px; letter-spacing: 0.11em; }
+  .header-nav { width: 100%; margin-left: 0; gap: 0; justify-content: space-between; font-size: var(--t13); }
   .header-nav a { padding: 13px 0; }                                  /* 13*2+19 ≒ 45px */
-  .header-nav .lang-switch { padding: 13px 12px; font-size: 12px; }   /* 26+16+2 ≒ 44px */
-  .pr-bar { font-size: 12px; padding: 8px 12px; }
+  .header-nav .lang-switch { padding: 13px 12px; font-size: var(--t11); }  /* 26+16+2 ≒ 44px */
+  .pr-bar { font-size: var(--t12); padding: 9px var(--outer); }
 
-  /* --- ヒーローは短く。すぐ写真に入る --- */
-  .hero { padding: 40px 0 44px; }
-  .hero h1 { max-width: none; letter-spacing: -0.03em; line-height: 1.28; }
-  .hero p.sub { margin-bottom: 26px; font-size: 15px; }
-  .hero-stats { gap: 26px; margin-top: 30px; }
+  /* --- ヒーロー: 余白は残すが、スマホでは1画面に収める --- */
+  .hero { padding: var(--s9) 0 var(--s8); }
+  .hero h1 { max-width: none; letter-spacing: -0.028em; line-height: 1.22; }
+  .hero p.sub { margin-bottom: var(--s7); }
+  .hero-stats { gap: 0; margin-top: var(--s8); }
+  .hero-stats .stat { min-width: 33%; padding-right: var(--s4); }
   .searchbox { max-width: none; }
 
-  /* --- 写真の流れ。2列を基本にし、5枚に1枚が全幅で画面を占める --- */
+  /* --- 一覧: 2列。先頭1枚だけ全幅で開く --- */
   .grid-models { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .grid-models > .product-card:nth-child(5n + 1) {
-    grid-column: 1 / -1; display: block; grid-template-columns: none;
-  }
-  .grid-models > .product-card:nth-child(5n + 1) .pc-media { aspect-ratio: 4 / 5; }
-  .grid-models > .product-card:nth-child(5n + 1) .pc-media img { padding: 10%; }
-  .grid-models > .product-card:nth-child(5n + 1) .pc-body { display: block; padding: 18px 16px 22px; }
-  .grid-models > .product-card:nth-child(5n + 1) .card-name { font-size: 21px; margin: 8px 0 4px; }
-  .grid-models > .product-card:nth-child(5n + 1) .card-price { font-size: 27px; margin-top: 16px; }
-  .grid-models > .product-card:nth-child(10n + 6) .pc-media { order: 0; }
-  .pc-body { padding: 14px 13px 18px; }
-  .pc-media img { padding: 8%; }
-  .card { padding: 20px 18px; }
-  .card-brand { font-size: 12px; }
-  .card-name { font-size: 15.5px; }
-  .card-price { font-size: 20px; margin-top: 12px; }
-  .card-price small { font-size: 12.5px; color: var(--ink-3); }
-  .card-nodata { margin-top: 12px; font-size: 13.5px; }
-  .pc-meta { font-size: 12.5px; }
-  .pc-badge { top: 8px; left: 8px; font-size: 11px; padding: 3px 7px; }
+  .grid-models > .product-card:first-child { grid-column: 1 / -1; }
+  .grid-models > .product-card:first-child .pc-media { aspect-ratio: 4 / 3; }
+  .grid-models > .product-card:first-child .card-name { font-size: var(--t19); }
+  .grid-models > .product-card:first-child .card-price { font-size: var(--t22); }
+  .grid-models > .product-card:nth-child(4n + 2) .pc-media,
+  .grid-models > .product-card:nth-child(3n + 3) .pc-media { aspect-ratio: 4 / 5; }
+  .grid-models > .product-card:nth-child(5n + 4) .pc-media { aspect-ratio: 1 / 1; }
+  .pc-media img { padding: 11%; }
+  .pc-body { padding: var(--s4) 0 0; }
+  .card-brand { font-size: 10.5px; letter-spacing: 0.1em; }
+  .card-name { font-size: var(--t14); margin: 7px 0 4px; }
+  .card-ref { font-size: var(--t11); }
+  .card-price { font-size: var(--t19); margin-top: var(--s3); }
+  .card-price small { font-size: var(--t11); }
+  .card-nodata { margin-top: var(--s3); font-size: var(--t12); }
+  .pc-meta { font-size: var(--t11); }
+  .pc-badge { font-size: 10px; padding: 8px 10px; }
 
   /* 検索結果はスマホでも2列を維持し、密度を落とさない */
-  .explorer-main .grid-models { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .explorer-main .grid-models > .product-card:nth-child(5n + 1) { grid-column: auto; }
-  .explorer-main .grid-models > .product-card:nth-child(5n + 1) .pc-media { aspect-ratio: 1 / 1; }
-  .explorer-main .grid-models > .product-card:nth-child(5n + 1) .card-name { font-size: 15.5px; }
-  .explorer-main .grid-models > .product-card:nth-child(5n + 1) .card-price { font-size: 20px; }
-  .explorer-main .card-name { font-size: 15.5px; }
-  .explorer-main .card-price { font-size: 20px; }
-  .explorer-main .pc-body { padding: 14px 13px 18px; }
+  .explorer-main .grid-models { grid-template-columns: repeat(2, minmax(0, 1fr)); row-gap: 32px; }
+  .explorer-main .grid-models > .product-card:first-child { grid-column: auto; }
+  .explorer-main .grid-models > .product-card .pc-media { aspect-ratio: 1 / 1; }
+  .explorer-main .card-name { font-size: var(--t14); }
+  .explorer-main .card-price { font-size: var(--t19); }
+  .explorer-main .pc-body { padding: var(--s4) 0 0; }
 
   .grid-brands { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .brand-card { min-height: 132px; }
+  .brand-card { min-height: 128px; }
   .grid-posts { grid-template-columns: 1fr; }
 
-  .section { padding: 40px 0; }
-  .section-head { margin-bottom: 18px; gap: 10px; }
+  .section { padding: var(--s9) 0; }
+  .section-head { margin-bottom: var(--s6); gap: var(--s3); }
+  .section-title { margin-bottom: var(--s6); }
 
-  /* --- 価格表: 横並びのままだと価格と購入ボタンが画面外になるのでカード化する --- */
-  /* ここが収益の中心。行 = 1枚の値札カードとして組み直す */
+  /* --- 価格表: 横並びのままだと価格と購入ボタンが画面外になるのでカード化する ---
+     ここが収益の中心。行 = 1枚の値札として、1本の罫の下に縦に組み直す。
+     枠でも影でも囲わない（囲った瞬間に量販ECになる）。 */
   .table-wrap { overflow-x: visible; background: none; }
-  table.price-table { min-width: 0; display: block; font-size: 15px; }
+  table.price-table { min-width: 0; display: block; font-size: var(--t15); }
   .price-table thead { display: none; }
   .price-table tbody { display: block; }
   .price-table tbody tr {
-    display: block; background: var(--panel); padding: 18px 16px 20px; margin-bottom: var(--gap);
+    display: block;
+    background: none;
+    border-top: 1px solid var(--line-strong);
+    padding: var(--s5) 0 var(--s6);
   }
-  .price-table tbody tr:hover { background: var(--panel); }
-  .price-table tbody tr.best-row { box-shadow: inset 0 0 0 2px var(--signal); background: var(--panel); }
-  .price-table tbody tr.best-row:hover { background: var(--panel); }
+  .price-table tbody tr:hover { background: none; }
+  .price-table tbody tr.best-row {
+    border-top-color: var(--accent);
+    border-left: 2px solid var(--accent);
+    padding-left: var(--s4);
+  }
+  .price-table tbody tr.best-row:hover { background: none; }
+  .price-table tbody tr.best-row td:first-child { border-left: none; padding-left: 0; }
   .price-table td { display: block; border-bottom: none; padding: 4px 0; text-align: left; }
+  .price-table tbody tr:last-child td { border-bottom: none; }
   /* 右揃えはカード化で解除する（縦積みでは左揃えが読みやすい） */
   .price-table td:nth-child(4), .price-table td:nth-child(5) { text-align: left; }
-  .pt-shop { max-width: none; overflow: visible; font-size: 15px; line-height: 1.6; }
-  .pt-title { max-width: none; -webkit-line-clamp: 2; font-size: 13px; }
-  .pt-source { font-size: 12.5px; color: var(--ink-3); }
-  .price-table td:nth-child(3) { padding: 8px 0 2px; }
-  .pt-price { font-size: 27px; padding-top: 2px; }
-  .pt-price.best { font-size: 31px; }
-  .price-table td:last-child { padding-top: 14px; }
-  .price-table td:last-child .btn { display: block; width: 100%; padding: 16px 18px; font-size: 15px; }
-  .badge { font-size: 12px; padding: 3px 8px; }
-  .small-note { font-size: 13px; color: var(--ink-3); }
+  .pt-shop { max-width: none; overflow: visible; font-size: var(--t15); line-height: 1.6; }
+  .pt-title { max-width: none; -webkit-line-clamp: 2; font-size: var(--t12); }
+  .pt-source { font-size: var(--t11); }
+  .price-table td:nth-child(3) { padding: var(--s3) 0 var(--s1); }
+  .pt-price { font-size: var(--t26); padding-top: var(--s1); }
+  .pt-price.best { font-size: var(--t32); }
+  .price-table td:last-child { padding-top: var(--s5); }
+  .price-table td:last-child .btn {
+    display: block;
+    width: 100%;
+    min-height: 56px;
+    padding: 18px 20px;
+    font-size: var(--t14);
+  }
+  .badge { font-size: var(--t11); padding: 4px 9px; }
 
   /* ブランドページの全モデル一覧(.model-table)も同じ手当てをする。
-     min-width:660px が残ると最安値と詳細ボタンが画面外に出る */
-  table.model-table { min-width: 0; display: block; }
+     min-width:680px が残ると最安値と詳細ボタンが画面外に出る */
+  table.model-table { min-width: 0; display: block; font-size: var(--t14); }
   .model-table thead { display: none; }
   .model-table tbody { display: block; }
-  .model-table tbody tr { display: block; background: var(--panel); padding: 14px 14px 16px; margin-bottom: var(--gap); }
-  .model-table tbody tr:hover { background: var(--panel); }
+  .model-table tbody tr {
+    display: block;
+    background: none;
+    border-top: 1px solid var(--line);
+    padding: var(--s5) 0 var(--s5);
+  }
+  .model-table tbody tr:hover { background: none; }
   .model-table td { display: block; border-bottom: none; padding: 3px 0; text-align: left; }
-  .model-table td:last-child { padding-top: 12px; }
-  .model-table td:last-child .btn { display: block; width: 100%; }
+  .model-table tbody tr:last-child td { border-bottom: none; }
+  .model-table td:last-child { padding-top: var(--s4); }
+  .model-table td:last-child .btn { display: block; width: 100%; min-height: 48px; }
 
   /* モデルページ: 画像を大きくしすぎると最安値と購入が初期表示から押し出される */
   .mh-image { max-height: 40vh; }
-  .model-hero { gap: var(--gap); margin-top: 20px; }
-  .price-panel { padding: 20px 18px 22px; }
-  .pp-split { gap: 20px; margin: 20px 0; }
+  .model-hero { gap: var(--s6); margin-top: var(--s6); }
+  .price-panel { padding-top: var(--s4); }
+  .pp-split { gap: var(--s5); margin: var(--s6) 0 var(--s5); }
   .pp-split div { min-width: 0; flex: 1; }
-  .pp-actions .btn { flex: 1; min-width: 100%; padding: 16px 20px; }
+  .pp-actions .btn { flex: 1; min-width: 100%; min-height: 56px; padding: 18px 20px; font-size: var(--t14); }
 
-  .cta-band { padding: 30px 20px; margin: 36px 0; }
-  .hero-cta { padding: 18px 16px; gap: 16px; }
-  .hero-cta img { width: 104px; height: 104px; }
-  .spec-grid { grid-template-columns: repeat(auto-fit, minmax(148px, 1fr)); }
-  .spec-grid .spec { padding: 15px 16px; }
-  .spec-grid .spec dt { font-size: 12.5px; }
-  .how-grid .card { padding: 26px 20px 28px; }
+  .cta-band { padding: var(--s8) var(--s5); margin: var(--s9) 0; }
+  .hero-cta { padding-top: var(--s5); gap: var(--s5); margin: var(--s8) 0; }
+  .hero-cta img { width: 112px; height: 112px; padding: 10px; }
+  .spec-grid { grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); column-gap: var(--s5); }
+  .spec-grid .spec { padding: var(--s3) 0 var(--s4); }
+  .spec-grid .spec dd { font-size: var(--t15); }
+  .how-grid { column-gap: var(--s6); row-gap: var(--s6); }
+  .how-grid .card { padding-top: var(--s5); }
+  .dealer-grid { column-gap: var(--s5); row-gap: var(--s6); }
   .prose p, .prose li { font-size: 16px; line-height: 1.95; }
-  .article-body { margin-top: 24px; }
-  .site-footer { margin-top: 52px; padding: 44px 0 32px; }
-  .site-footer nav { gap: 16px 22px; }
-  .site-footer .credits { font-size: 12.5px; }
+  .prose h1 { font-size: var(--t26); margin: var(--s8) 0 var(--s5); }
+  .prose h2 { font-size: var(--t22); margin: var(--s8) 0 var(--s4); }
+  .article-body { margin-top: var(--s7); }
+  .article { max-width: none; }
+  .site-footer { margin-top: var(--s9); padding: var(--s8) 0 var(--s7); }
+  .site-footer nav { gap: var(--s3) var(--s6); margin: var(--s7) 0 var(--s5); }
+  .site-footer .credits { font-size: var(--t12); }
 
   /* 小さすぎて読めない箇所の底上げ（法定の注記・出典表記を含む） */
-  .pp-note { font-size: 13px; color: var(--ink-3); }
-  .pp-label { font-size: 13px; }
-  .pp-sub { font-size: 13px; }
-  .result-count { font-size: 13.5px; }
-  .breadcrumb { font-size: 12.5px; }
+  .pp-note { font-size: var(--t12); }
+  .pp-label { font-size: var(--t11); }
+  .pp-sub { font-size: var(--t12); }
+  .result-count { font-size: var(--t12); }
+  .breadcrumb { font-size: var(--t11); padding-top: var(--s5); }
+  .page-head { padding-top: var(--s5); }
+  .quick-picks { margin-top: var(--s6); }
 
   /* タップ領域が44px未満だったリンク類（縦45px前後を確保） */
-  .qp { padding: 12px 15px; font-size: 13.5px; }
-  .hero-links a { padding: 12px 15px; font-size: 13.5px; }
-  .tag-pill { padding: 12px 15px; font-size: 13.5px; }
-  .btn-sm { padding: 13px 16px; font-size: 13.5px; }
-  .section-more { padding: 10px 0; display: inline-block; }
-  .post-more { padding: 8px 0; }
+  .qp { padding: 13px 16px; font-size: var(--t13); }
+  .hero-links a { padding: 13px 16px; font-size: var(--t13); }
+  .tag-pill { padding: 13px 16px; font-size: var(--t13); }
+  .btn { min-height: 52px; padding: 16px 24px; }
+  .btn-sm { min-height: 44px; padding: 12px 18px; font-size: var(--t12); }
+  .section-more { padding: 12px 0 3px; display: inline-block; }
+  .post-more { padding: 10px 0 3px; }
   .link-btn { padding: 12px 4px; }
+  .load-more { margin-top: var(--s8); }
+  .load-more .btn { width: 100%; }
 }
 
 /* 動きを減らす設定の利用者には、余計なアニメーションを出さない */
