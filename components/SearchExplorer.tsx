@@ -22,6 +22,10 @@ interface Entry {
   pn: number | null;
   pu: number | null;
   img: string | null;
+  /** 個別ページを持つか（1=持つ / 0=販売店へ直接） */
+  pg?: number;
+  /** pg=0 のときの販売店URL */
+  url?: string | null;
 }
 
 type SortKey = 'price-asc' | 'price-desc' | 'popular' | 'name' | 'newest' | 'case-asc' | 'case-desc';
@@ -390,8 +394,18 @@ export default function SearchExplorer({
         ) : (
           <>
             <div className="grid grid-models">
-              {results.slice(0, limit).map((e) => (
-                <Link key={`${e.b}/${e.m}`} href={`/${lang}/watch/${e.b}/${e.m}/`} className="card product-card" prefetch={false}>
+              {results.slice(0, limit).map((e) => {
+                // 出品が1店しかないモデルは比較する中身が無いので個別ページを作らず、
+                // 検索結果から販売店へ直接送る（利用者にとってもその方が速い）
+                // 価格も個別ページも無いモデル（463件）は、型番で楽天を検索させる。
+                // どこにも行けないカードを出さない
+                const fallback = `https://search.rakuten.co.jp/search/mall/${encodeURIComponent(
+                  `${e.bja} ${e.ref ?? e.mja}`
+                )}/`;
+                const target = e.url || (e.pg === 0 ? fallback : null);
+                const direct = e.pg === 0 && Boolean(target);
+                const inner = (
+                  <>
                   <div className="pc-media">
                     {e.img ? (
                       <img src={e.img} alt={lang === 'ja' ? e.mja : e.men} loading="lazy" />
@@ -421,8 +435,29 @@ export default function SearchExplorer({
                       <div className="card-nodata">{t(lang, 'view_model')} →</div>
                     )}
                   </div>
-                </Link>
-              ))}
+                  </>
+                );
+                return direct ? (
+                  <a
+                    key={`${e.b}/${e.m}`}
+                    href={target as string}
+                    target="_blank"
+                    rel="sponsored nofollow noopener"
+                    className="card product-card"
+                  >
+                    {inner}
+                  </a>
+                ) : (
+                  <Link
+                    key={`${e.b}/${e.m}`}
+                    href={`/${lang}/watch/${e.b}/${e.m}/`}
+                    className="card product-card"
+                    prefetch={false}
+                  >
+                    {inner}
+                  </Link>
+                );
+              })}
             </div>
             {results.length > limit && (
               <div className="load-more">

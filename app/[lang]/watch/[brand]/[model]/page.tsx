@@ -6,7 +6,7 @@ import DealerLinks from '@/components/DealerLinks';
 import ModelCard from '@/components/ModelCard';
 import PriceTable from '@/components/PriceTable';
 import { absUrl } from '@/lib/config';
-import { getAllBrands, getBrand, getDealers, getModel, getPriceData, getSummary } from '@/lib/data';
+import { getAllBrands, getBrand, getDealers, getModel, getPriceData, getSummary, hasOwnPage } from '@/lib/data';
 import { formatDate, formatJpy } from '@/lib/format';
 import { imageUrl } from '@/lib/image';
 import { LANGS, t, type Lang } from '@/lib/i18n';
@@ -15,8 +15,20 @@ import { CASE_MATERIALS, GENDERS, MOVEMENTS, TAGS, taxLabel } from '@/lib/taxono
 export const dynamicParams = false;
 
 export function generateStaticParams() {
+  // 複数店舗で比較できるモデルだけ個別ページを作る（理由は lib/data.ts の hasOwnPage）
   return LANGS.flatMap((lang) =>
-    getAllBrands().flatMap((b) => b.models.map((m) => ({ lang, brand: b.brand.id, model: m.id })))
+    getAllBrands().flatMap((b) =>
+      b.models
+        .filter((m) => {
+          if (!hasOwnPage(b.brand.id, m.id)) return false;
+          // 自動収録モデルの英語ページは機械生成の定型文で、日本のEC出品が対象のため
+          // 英語圏の読者がいない。重複コンテンツになるだけなので日本語のみとする。
+          // 人手で書いた968モデルは日英とも用意する。
+          if (lang !== 'ja' && m.source === 'auto') return false;
+          return true;
+        })
+        .map((m) => ({ lang, brand: b.brand.id, model: m.id }))
+    )
   );
 }
 
@@ -46,11 +58,16 @@ export async function generateMetadata({
         : `Daily-updated new & pre-owned prices for the ${bName} ${mName}${ref} from Rakuten and Yahoo! Shopping Japan. ${model.summary_en}`,
     alternates: {
       canonical: absUrl(`/${lang}/watch/${brandId}/${modelId}/`),
-      languages: {
-        ja: absUrl(`/ja/watch/${brandId}/${modelId}/`),
-        en: absUrl(`/en/watch/${brandId}/${modelId}/`),
-        'x-default': absUrl(`/ja/watch/${brandId}/${modelId}/`),
-      },
+      // 自動収録モデルは日本語ページしか作らないので、英語版を指してはいけない
+      // （存在しないURLをhreflangで示すと検索エンジンに404を教えることになる）
+      languages:
+        model.source === 'auto'
+          ? { ja: absUrl(`/ja/watch/${brandId}/${modelId}/`), 'x-default': absUrl(`/ja/watch/${brandId}/${modelId}/`) }
+          : {
+              ja: absUrl(`/ja/watch/${brandId}/${modelId}/`),
+              en: absUrl(`/en/watch/${brandId}/${modelId}/`),
+              'x-default': absUrl(`/ja/watch/${brandId}/${modelId}/`),
+            },
     },
   };
 }

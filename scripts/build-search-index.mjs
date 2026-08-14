@@ -8,6 +8,7 @@ import { readJson } from './lib/json.mjs';
 const ROOT = process.cwd();
 const summaryFile = path.join(ROOT, 'data', 'prices', 'summary.json');
 const outFile = path.join(ROOT, 'public', 'search-index.json');
+const MIN_OFFERS = Number(process.env.MIN_OFFERS_FOR_PAGE ?? 2);
 
 let summary = {};
 if (fs.existsSync(summaryFile)) {
@@ -20,6 +21,11 @@ const entries = [];
     {
       for (const m of models ?? []) {
         const s = summary[`${brand.id}/${m.id}`] ?? null;
+        let offerUrl = null;
+        if (s && (s.offerCount ?? 0) < MIN_OFFERS) {
+          const pf = path.join(ROOT, 'data', 'prices', brand.id, `${m.id}.json`);
+          if (fs.existsSync(pf)) { try { offerUrl = readJson(pf).offers?.[0]?.url ?? null; } catch {} }
+        }
         entries.push({
           b: brand.id,
           bja: brand.name_ja,
@@ -40,6 +46,9 @@ const entries = [];
           pn: s ? (s.lowestNew ?? null) : null,
           pu: s ? (s.lowestUsed ?? null) : null,
           img: s ? (s.image ?? null) : null,
+          // 個別ページを持つか。持たない場合は検索結果から販売店へ直接送る
+          pg: (s?.offerCount ?? 0) >= MIN_OFFERS ? 1 : 0,
+          url: offerUrl,
         });
       }
     }

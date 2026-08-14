@@ -1,7 +1,7 @@
 import type { MetadataRoute } from 'next';
 import { absUrl } from '@/lib/config';
 import { getBlogPosts } from '@/lib/blog';
-import { getAllBrands } from '@/lib/data';
+import { getAllBrands, hasOwnPage } from '@/lib/data';
 import { LANGS } from '@/lib/i18n';
 
 // sitemapは1ファイル50,000URLまで(Google仕様)。自動カタログでモデル数が数万規模に
@@ -35,6 +35,8 @@ export function allSitemapEntries(): MetadataRoute.Sitemap {
     for (const b of brands) {
       entries.push({ url: absUrl(`/${lang}/brands/${b.brand.id}/`), changeFrequency: 'daily', priority: 0.7 });
       for (const m of b.models) {
+        if (!hasOwnPage(b.brand.id, m.id)) continue; // 生成しないページはsitemapに載せない
+        if (lang !== 'ja' && m.source === 'auto') continue; // 自動収録は日本語のみ
         entries.push({
           url: absUrl(`/${lang}/watch/${b.brand.id}/${m.id}/`),
           changeFrequency: 'daily',

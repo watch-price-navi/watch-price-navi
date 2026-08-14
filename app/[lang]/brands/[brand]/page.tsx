@@ -53,6 +53,16 @@ export default async function BrandPage({ params }: { params: Promise<{ lang: st
   const name = lang === 'ja' ? cat.brand.name_ja : cat.brand.name_en;
 
   const popular = cat.models.filter((m) => m.popular).slice(0, 8);
+
+  // 全件を1ページに並べるとロレックスで1.4MBになり、スマホでは開くだけで一苦労になる。
+  // 出品数の多い順（＝実際に流通している順）に絞り、残りは検索ページへ送る。
+  const listed = [...cat.models]
+    .sort((a, b) => {
+      const oa = summary[`${cat.brand.id}/${a.id}`]?.offerCount ?? 0;
+      const ob = summary[`${cat.brand.id}/${b.id}`]?.offerCount ?? 0;
+      return (b.popular ? 1 : 0) - (a.popular ? 1 : 0) || ob - oa;
+    })
+    .slice(0, 60);
   const priced = cat.models
     .map((m) => summary[`${cat.brand.id}/${m.id}`]?.lowestPrice)
     .filter((p): p is number => typeof p === 'number');
@@ -102,7 +112,17 @@ export default async function BrandPage({ params }: { params: Promise<{ lang: st
       )}
 
       <section className="section" style={{ paddingTop: 8 }}>
-        <h2 className="section-title">{lang === 'ja' ? '全モデル一覧' : 'All models'}</h2>
+        <div className="section-head">
+          <h2 className="section-title">
+            {lang === 'ja' ? '主要モデル' : 'Key models'}
+            <span className="section-count">
+              {listed.length} / {cat.models.length}
+            </span>
+          </h2>
+          <Link className="section-more" href={`/${lang}/search/?brand=${cat.brand.id}`}>
+            {lang === 'ja' ? `${cat.models.length}件すべてを条件で絞る` : `Filter all ${cat.models.length}`} →
+          </Link>
+        </div>
         <div className="table-wrap">
           <table className="model-table">
             <thead>
@@ -117,7 +137,7 @@ export default async function BrandPage({ params }: { params: Promise<{ lang: st
               </tr>
             </thead>
             <tbody>
-              {cat.models.map((m) => {
+              {listed.map((m) => {
                 const lowest = summary[`${cat.brand.id}/${m.id}`];
                 return (
                   <tr key={m.id}>

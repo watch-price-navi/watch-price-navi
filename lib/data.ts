@@ -173,6 +173,26 @@ export function getLowest(brandId: string, modelId: string): SummaryEntry | null
   return getSummary()[`${brandId}/${modelId}`] ?? null;
 }
 
+/**
+ * 個別ページを生成するかどうか。
+ *
+ * 掲載は29,000モデルあるが、その6割は「1店舗しか扱いがない」もので、
+ * 価格比較のしようがない（比べる相手がいない）。そこにページを作っても
+ * 薄い内容が並ぶだけで、Googleはサイト全体の評価を下げる。
+ * さらに全件を生成すると出力が3.7GBになり、GitHub Pagesの上限1GBを超えて
+ * 公開自体が失敗する。
+ *
+ * そこで「複数店舗の価格を比べられるモデル」だけを個別ページにする。
+ * 1店舗だけのモデルは検索には出るが、リンク先は販売店へ直接向ける
+ * （比較する中身が無いので、そのほうが利用者にとっても速い）。
+ */
+export const MIN_OFFERS_FOR_PAGE = Number(process.env.MIN_OFFERS_FOR_PAGE ?? 2);
+
+export function hasOwnPage(brandId: string, modelId: string): boolean {
+  const s = getSummary()[`${brandId}/${modelId}`];
+  return (s?.offerCount ?? 0) >= MIN_OFFERS_FOR_PAGE;
+}
+
 let dealersCache: Dealer[] | null = null;
 
 export function getDealers(): Dealer[] {
