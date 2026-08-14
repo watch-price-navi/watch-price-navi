@@ -1,35 +1,8 @@
 {
   "brandId": "nomos-glashuette",
-  "generatedAt": "2026-08-14T06:04:31.543Z",
-  "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。",
+  "generatedAt": "2026-08-14T12:28:24.882Z",
+  "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
-    {
-      "id": "ref-cls161011b2csm",
-      "name_en": "CLS161011B2CSM",
-      "name_ja": "クラブスポーツ ネオマティック CLS161011B2CSM",
-      "reference": "CLS161011B2CSM",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 287300,
-      "searchKeywordJa": "ノモス グラスヒュッテ CLS161011B2CSM",
-      "searchKeywordEn": "NOMOS Glashütte CLS161011B2CSM",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ノモス グラスヒュッテの型番CLS161011B2CSM。市場で9件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "NOMOS Glashütte reference CLS161011B2CSM, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 9
-    },
     {
       "id": "ref-tn1a1w238",
       "name_en": "TN1A1W238",
@@ -52,91 +25,39 @@
         "sport"
       ],
       "popular": false,
-      "summary_ja": "ノモス グラスヒュッテの型番TN1A1W238。市場で6件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "ノモス グラスヒュッテの型番TN1A1W238。市場で3件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "NOMOS Glashütte reference TN1A1W238, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 6
+      "listingCount": 3,
+      "lastSeen": "2026-08-14"
     },
     {
-      "id": "ref-tn130011pg2",
-      "name_en": "TN130011PG2",
-      "name_ja": "タンジェント ネオマティック TN130011PG2",
-      "reference": "TN130011PG2",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": 35,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 564740,
-      "searchKeywordJa": "ノモス グラスヒュッテ TN130011PG2",
-      "searchKeywordEn": "NOMOS Glashütte TN130011PG2",
-      "caseMaterial": "platinum",
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ノモス グラスヒュッテの型番TN130011PG2。市場で6件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "NOMOS Glashütte reference TN130011PG2, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 6
-    },
-    {
-      "id": "ref-tn130011pg239",
-      "name_en": "TN130011PG239",
-      "name_ja": "タンジェント ネオマティック TN130011PG239",
-      "reference": "TN130011PG239",
+      "id": "ref-cls161011b2csm",
+      "name_en": "CLS161011B2CSM",
+      "name_ja": "クラブスポーツ ネオマティック CLS161011B2CSM",
+      "reference": "CLS161011B2CSM",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
       "movementType": null,
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 589050,
-      "searchKeywordJa": "ノモス グラスヒュッテ TN130011PG239",
-      "searchKeywordEn": "NOMOS Glashütte TN130011PG239",
-      "caseMaterial": "platinum",
+      "priceFloorJpy": 287300,
+      "searchKeywordJa": "ノモス グラスヒュッテ CLS161011B2CSM",
+      "searchKeywordEn": "NOMOS Glashütte CLS161011B2CSM",
+      "caseMaterial": null,
       "waterResistanceM": null,
-      "gender": "unisex",
+      "gender": "mens",
       "releaseYear": null,
       "tags": [
         "sport"
       ],
       "popular": false,
-      "summary_ja": "ノモス グラスヒュッテの型番TN130011PG239。市場で6件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "NOMOS Glashütte reference TN130011PG239, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ノモス グラスヒュッテの型番CLS161011B2CSM。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "NOMOS Glashütte reference CLS161011B2CSM, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 6
-    },
-    {
-      "id": "ref-nm160s2",
-      "name_en": "NM160S2",
-      "name_ja": "タンジェント ネオマティック NM160S2",
-      "reference": "NM160S2",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 1355750,
-      "searchKeywordJa": "ノモス グラスヒュッテ NM160S2",
-      "searchKeywordEn": "NOMOS Glashütte NM160S2",
-      "caseMaterial": "rose-gold",
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "limited-edition"
-      ],
-      "popular": false,
-      "summary_ja": "ノモス グラスヒュッテの型番NM160S2。市場で6件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "NOMOS Glashütte reference NM160S2, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 6
+      "listingCount": 2,
+      "lastSeen": "2026-08-14"
     },
     {
       "id": "ref-or1a3bl233",
@@ -160,15 +81,100 @@
         "sport"
       ],
       "popular": false,
-      "summary_ja": "ノモス グラスヒュッテの型番OR1A3BL233。市場で5件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "ノモス グラスヒュッテの型番OR1A3BL233。市場で2件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "NOMOS Glashütte reference OR1A3BL233, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 5
+      "listingCount": 2,
+      "lastSeen": "2026-08-14"
+    },
+    {
+      "id": "ref-tn130011pg2",
+      "name_en": "TN130011PG2",
+      "name_ja": "タンジェント ネオマティック TN130011PG2",
+      "reference": "TN130011PG2",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": 35,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 564740,
+      "searchKeywordJa": "ノモス グラスヒュッテ TN130011PG2",
+      "searchKeywordEn": "NOMOS Glashütte TN130011PG2",
+      "caseMaterial": "platinum",
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ノモス グラスヒュッテの型番TN130011PG2。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "NOMOS Glashütte reference TN130011PG2, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-08-14"
+    },
+    {
+      "id": "ref-tn130011pg239",
+      "name_en": "TN130011PG239",
+      "name_ja": "タンジェント ネオマティック TN130011PG239",
+      "reference": "TN130011PG239",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 589050,
+      "searchKeywordJa": "ノモス グラスヒュッテ TN130011PG239",
+      "searchKeywordEn": "NOMOS Glashütte TN130011PG239",
+      "caseMaterial": "platinum",
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ノモス グラスヒュッテの型番TN130011PG239。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "NOMOS Glashütte reference TN130011PG239, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-08-14"
+    },
+    {
+      "id": "ref-nm160s2",
+      "name_en": "NM160S2",
+      "name_ja": "タンジェント ネオマティック NM160S2",
+      "reference": "NM160S2",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 1355750,
+      "searchKeywordJa": "ノモス グラスヒュッテ NM160S2",
+      "searchKeywordEn": "NOMOS Glashütte NM160S2",
+      "caseMaterial": "rose-gold",
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "ノモス グラスヒュッテの型番NM160S2。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "NOMOS Glashütte reference NM160S2, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-08-14"
     },
     {
       "id": "ref-ld1a2ew238",
       "name_en": "LD1A2EW238",
-      "name_ja": "ラドウィッグ エナメルホワイト LD1A2EW238",
+      "name_ja": "LD1A2EW238",
       "reference": "LD1A2EW238",
       "collection_en": null,
       "collection_ja": null,
@@ -187,15 +193,16 @@
         "sport"
       ],
       "popular": false,
-      "summary_ja": "ノモス グラスヒュッテの型番LD1A2EW238。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "ノモス グラスヒュッテの型番LD1A2EW238。市場で1件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "NOMOS Glashütte reference LD1A2EW238, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 3
+      "listingCount": 1,
+      "lastSeen": "2026-08-14"
     },
     {
       "id": "ref-ab161011bl2",
       "name_en": "AB161011BL2",
-      "name_ja": "アウトバーン ネオマティック AB161011BL2",
+      "name_ja": "AB161011BL2",
       "reference": "AB161011BL2",
       "collection_en": null,
       "collection_ja": null,
@@ -214,64 +221,11 @@
         "sport"
       ],
       "popular": false,
-      "summary_ja": "ノモス グラスヒュッテの型番AB161011BL2。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "ノモス グラスヒュッテの型番AB161011BL2。市場で1件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "NOMOS Glashütte reference AB161011BL2, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 3
-    },
-    {
-      "id": "ref-nm250s2",
-      "name_en": "NM250.S2",
-      "name_ja": "ラドウィッグ ネオマティック NM250.S2",
-      "reference": "NM250.S2",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 278800,
-      "searchKeywordJa": "ノモス グラスヒュッテ NM250.S2",
-      "searchKeywordEn": "NOMOS Glashütte NM250.S2",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "limited-edition"
-      ],
-      "popular": false,
-      "summary_ja": "ノモス グラスヒュッテの型番NM250.S2。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "NOMOS Glashütte reference NM250.S2, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2
-    },
-    {
-      "id": "ref-250s2",
-      "name_en": "250.S2",
-      "name_ja": "ラドウィッグ ネオマティック 250.S2",
-      "reference": "250.S2",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 278800,
-      "searchKeywordJa": "ノモス グラスヒュッテ 250.S2",
-      "searchKeywordEn": "NOMOS Glashütte 250.S2",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "limited-edition"
-      ],
-      "popular": false,
-      "summary_ja": "ノモス グラスヒュッテの型番250.S2。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "NOMOS Glashütte reference 250.S2, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2
+      "listingCount": 1,
+      "lastSeen": "2026-08-14"
     },
     {
       "id": "ref-m12311lb",
@@ -298,7 +252,8 @@
       "summary_ja": "ノモス グラスヒュッテの型番M1-23-11LB。市場で1件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "NOMOS Glashütte reference M1-23-11LB, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 1
+      "listingCount": 1,
+      "lastSeen": "2026-08-14"
     },
     {
       "id": "ref-7143",
@@ -325,7 +280,8 @@
       "summary_ja": "ノモス グラスヒュッテの型番7143。市場で1件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "NOMOS Glashütte reference 7143, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 1
+      "listingCount": 1,
+      "lastSeen": "2026-08-14"
     },
     {
       "id": "ref-7013",
@@ -352,7 +308,8 @@
       "summary_ja": "ノモス グラスヒュッテの型番7013。市場で1件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "NOMOS Glashütte reference 7013, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 1
+      "listingCount": 1,
+      "lastSeen": "2026-08-14"
     },
     {
       "id": "ref-tan171w1",
@@ -379,7 +336,8 @@
       "summary_ja": "ノモス グラスヒュッテの型番TAN171W1。市場で1件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "NOMOS Glashütte reference TAN171W1, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 1
+      "listingCount": 1,
+      "lastSeen": "2026-08-14"
     },
     {
       "id": "ref-ld1a2w238",
@@ -406,7 +364,8 @@
       "summary_ja": "ノモス グラスヒュッテの型番LD1A2W238。市場で1件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "NOMOS Glashütte reference LD1A2W238, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 1
+      "listingCount": 1,
+      "lastSeen": "2026-08-14"
     },
     {
       "id": "ref-or1a3ch233",
@@ -433,7 +392,8 @@
       "summary_ja": "ノモス グラスヒュッテの型番OR1A3CH233。市場で1件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "NOMOS Glashütte reference OR1A3CH233, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 1
+      "listingCount": 1,
+      "lastSeen": "2026-08-14"
     },
     {
       "id": "ref-nm1124",
@@ -460,7 +420,8 @@
       "summary_ja": "ノモス グラスヒュッテの型番NM1124。市場で1件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "NOMOS Glashütte reference NM1124, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 1
+      "listingCount": 1,
+      "lastSeen": "2026-08-14"
     },
     {
       "id": "ref-1124",
@@ -487,7 +448,8 @@
       "summary_ja": "ノモス グラスヒュッテの型番1124。市場で1件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "NOMOS Glashütte reference 1124, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 1
+      "listingCount": 1,
+      "lastSeen": "2026-08-14"
     },
     {
       "id": "ref-nm1123sb",
@@ -514,7 +476,8 @@
       "summary_ja": "ノモス グラスヒュッテの型番NM1123.SB。市場で1件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "NOMOS Glashütte reference NM1123.SB, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 1
+      "listingCount": 1,
+      "lastSeen": "2026-08-14"
     },
     {
       "id": "ref-1123sb",
@@ -541,7 +504,8 @@
       "summary_ja": "ノモス グラスヒュッテの型番1123.SB。市場で1件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "NOMOS Glashütte reference 1123.SB, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 1
+      "listingCount": 1,
+      "lastSeen": "2026-08-14"
     },
     {
       "id": "ref-ld1a2w138",
@@ -568,7 +532,8 @@
       "summary_ja": "ノモス グラスヒュッテの型番LD1A2W138。市場で1件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "NOMOS Glashütte reference LD1A2W138, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 1
+      "listingCount": 1,
+      "lastSeen": "2026-08-14"
     },
     {
       "id": "ref-nm1123",
@@ -595,7 +560,8 @@
       "summary_ja": "ノモス グラスヒュッテの型番NM1123。市場で1件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "NOMOS Glashütte reference NM1123, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 1
+      "listingCount": 1,
+      "lastSeen": "2026-08-14"
     },
     {
       "id": "ref-1123",
@@ -622,7 +588,8 @@
       "summary_ja": "ノモス グラスヒュッテの型番1123。市場で1件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "NOMOS Glashütte reference 1123, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 1
+      "listingCount": 1,
+      "lastSeen": "2026-08-14"
     },
     {
       "id": "ref-tn130011w239",
@@ -649,7 +616,8 @@
       "summary_ja": "ノモス グラスヒュッテの型番TN130011W239。市場で1件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "NOMOS Glashütte reference TN130011W239, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 1
+      "listingCount": 1,
+      "lastSeen": "2026-08-14"
     },
     {
       "id": "ref-nm282s2",
@@ -676,7 +644,8 @@
       "summary_ja": "ノモス グラスヒュッテの型番NM282.S2。市場で1件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "NOMOS Glashütte reference NM282.S2, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 1
+      "listingCount": 1,
+      "lastSeen": "2026-08-14"
     },
     {
       "id": "ref-282s2",
@@ -703,7 +672,8 @@
       "summary_ja": "ノモス グラスヒュッテの型番282.S2。市場で1件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "NOMOS Glashütte reference 282.S2, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 1
+      "listingCount": 1,
+      "lastSeen": "2026-08-14"
     },
     {
       "id": "ref-179s7",
@@ -730,22 +700,23 @@
       "summary_ja": "ノモス グラスヒュッテの型番179.S7。市場で1件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "NOMOS Glashütte reference 179.S7, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 1
+      "listingCount": 1,
+      "lastSeen": "2026-08-14"
     },
     {
-      "id": "ref-179s25",
-      "name_en": "179.S25",
-      "name_ja": "179.S25",
-      "reference": "179.S25",
+      "id": "ref-nm250s2",
+      "name_en": "NM250.S2",
+      "name_ja": "NM250.S2",
+      "reference": "NM250.S2",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
       "movementType": null,
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 208250,
-      "searchKeywordJa": "ノモス グラスヒュッテ 179.S25",
-      "searchKeywordEn": "NOMOS Glashütte 179.S25",
+      "priceFloorJpy": 278800,
+      "searchKeywordJa": "ノモス グラスヒュッテ NM250.S2",
+      "searchKeywordEn": "NOMOS Glashütte NM250.S2",
       "caseMaterial": null,
       "waterResistanceM": null,
       "gender": "mens",
@@ -754,64 +725,39 @@
         "limited-edition"
       ],
       "popular": false,
-      "summary_ja": "ノモス グラスヒュッテの型番179.S25。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "NOMOS Glashütte reference 179.S25, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ノモス グラスヒュッテの型番NM250.S2。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "NOMOS Glashütte reference NM250.S2, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 1
+      "listingCount": 1,
+      "lastSeen": "2026-08-14"
     },
     {
-      "id": "ref-nm1124sb",
-      "name_en": "NM1124.SB",
-      "name_ja": "NM1124.SB",
-      "reference": "NM1124.SB",
+      "id": "ref-250s2",
+      "name_en": "250.S2",
+      "name_ja": "250.S2",
+      "reference": "250.S2",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
       "movementType": null,
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 191250,
-      "searchKeywordJa": "ノモス グラスヒュッテ NM1124.SB",
-      "searchKeywordEn": "NOMOS Glashütte NM1124.SB",
+      "priceFloorJpy": 278800,
+      "searchKeywordJa": "ノモス グラスヒュッテ 250.S2",
+      "searchKeywordEn": "NOMOS Glashütte 250.S2",
       "caseMaterial": null,
       "waterResistanceM": null,
-      "gender": "ladies",
+      "gender": "mens",
       "releaseYear": null,
       "tags": [
-        "sport"
+        "limited-edition"
       ],
       "popular": false,
-      "summary_ja": "ノモス グラスヒュッテの型番NM1124.SB。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "NOMOS Glashütte reference NM1124.SB, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ノモス グラスヒュッテの型番250.S2。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "NOMOS Glashütte reference 250.S2, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 1
-    },
-    {
-      "id": "ref-1124sb",
-      "name_en": "1124.SB",
-      "name_ja": "1124.SB",
-      "reference": "1124.SB",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 191250,
-      "searchKeywordJa": "ノモス グラスヒュッテ 1124.SB",
-      "searchKeywordEn": "NOMOS Glashütte 1124.SB",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ノモス グラスヒュッテの型番1124.SB。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "NOMOS Glashütte reference 1124.SB, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1
+      "listingCount": 1,
+      "lastSeen": "2026-08-14"
     },
     {
       "id": "ref-ab161011sg2",
@@ -838,7 +784,8 @@
       "summary_ja": "ノモス グラスヒュッテの型番AB161011SG2。市場で1件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "NOMOS Glashütte reference AB161011SG2, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 1
+      "listingCount": 1,
+      "lastSeen": "2026-08-14"
     },
     {
       "id": "ref-1303",
@@ -865,7 +812,89 @@
       "summary_ja": "ノモス グラスヒュッテの型番1303。市場で1件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "NOMOS Glashütte reference 1303, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 1
+      "listingCount": 1,
+      "lastSeen": "2026-08-14"
+    },
+    {
+      "id": "ref-179s25",
+      "name_en": "179.S25",
+      "name_ja": "179.S25",
+      "reference": "179.S25",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 208250,
+      "searchKeywordJa": "ノモス グラスヒュッテ 179.S25",
+      "searchKeywordEn": "NOMOS Glashütte 179.S25",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "ノモス グラスヒュッテの型番179.S25。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "NOMOS Glashütte reference 179.S25, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 0
+    },
+    {
+      "id": "ref-nm1124sb",
+      "name_en": "NM1124.SB",
+      "name_ja": "NM1124.SB",
+      "reference": "NM1124.SB",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 191250,
+      "searchKeywordJa": "ノモス グラスヒュッテ NM1124.SB",
+      "searchKeywordEn": "NOMOS Glashütte NM1124.SB",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ノモス グラスヒュッテの型番NM1124.SB。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "NOMOS Glashütte reference NM1124.SB, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 0
+    },
+    {
+      "id": "ref-1124sb",
+      "name_en": "1124.SB",
+      "name_ja": "1124.SB",
+      "reference": "1124.SB",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 191250,
+      "searchKeywordJa": "ノモス グラスヒュッテ 1124.SB",
+      "searchKeywordEn": "NOMOS Glashütte 1124.SB",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ノモス グラスヒュッテの型番1124.SB。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "NOMOS Glashütte reference 1124.SB, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 0
     }
   ]
 }
