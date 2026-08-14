@@ -16,11 +16,19 @@ permissions:
 
 concurrency:
   group: pages
-  cancel-in-progress: false
+  # 走査は数時間かかる。その最中にコードを直したとき、古い実行の完了を待たされて
+  # 修正がいつまでも公開されないのを防ぐため、新しい実行を優先する。
+  cancel-in-progress: true
 
 jobs:
   update-build-deploy:
     runs-on: ubuntu-latest
+    # 価格の収集は数時間かかる。コードを直しただけの push でそれを待たされると、
+    # 修正が公開されるまで半日かかってしまう。
+    #   push          → 収集を飛ばして即デプロイ（数分で反映される）
+    #   schedule/手動 → 収集込みのフル実行
+    env:
+      FULL_RUN: ${{ github.event_name != 'push' }}
     steps:
       - uses: actions/checkout@v4
 
@@ -63,6 +71,7 @@ jobs:
       # ブランド単位で出品を一括走査し、カタログ(未収録型番)と価格を同時に生成する。
       # モデル数が増えても実行時間が伸びない、この構成の中核ステップ。
       - name: Sweep listings (catalog + prices)
+        if: env.FULL_RUN == 'true'
         env:
           RAKUTEN_APP_ID: ${{ secrets.RAKUTEN_APP_ID }}
           RAKUTEN_ACCESS_KEY: ${{ secrets.RAKUTEN_ACCESS_KEY }}
@@ -79,6 +88,7 @@ jobs:
         run: node scripts/build-auto-catalog.mjs --pages 3 --yahoo-pages 2 --max-keywords 12
 
       - name: Commit auto catalog
+        if: env.FULL_RUN == 'true'
         continue-on-error: true
         run: |
           git config user.name "watch-bot"
@@ -96,6 +106,7 @@ jobs:
       # 価格データ自体はリポジトリに保存せずビルドにのみ使う
       # （楽天APIの「取得データの恒久保存・再配布禁止」規約への対応）
       - name: Fill remaining prices
+        if: env.FULL_RUN == 'true'
         continue-on-error: true
         env:
           RAKUTEN_APP_ID: ${{ secrets.RAKUTEN_APP_ID }}
@@ -111,7 +122,7 @@ jobs:
 
       # 未収録の新作型番を検出して data/pending-models.json に記録（朝の回のみ）
       - name: Discover new models
-        if: github.event.schedule != '0 9 * * *'
+        if: env.FULL_RUN == 'true' && (github.event.schedule != '0 9 * * *')
         continue-on-error: true
         env:
           RAKUTEN_APP_ID: ${{ secrets.RAKUTEN_APP_ID }}
@@ -123,7 +134,7 @@ jobs:
         run: node scripts/discover-models.mjs
 
       - name: Commit new-model candidates
-        if: github.event.schedule != '0 9 * * *'
+        if: env.FULL_RUN == 'true' && (github.event.schedule != '0 9 * * *')
         continue-on-error: true
         run: |
           git config user.name "watch-bot"
