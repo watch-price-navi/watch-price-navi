@@ -58,6 +58,16 @@ if (!RAKUTEN_APP_ID && !YAHOO_APP_ID) {
   process.exit(0);
 }
 
+// 楽天公式告知(2026-04-10)により旧エンドポイントは2026-08-17に完全廃止
+if (RAKUTEN_APP_ID && !RAKUTEN_ACCESS_KEY) {
+  const deadline = Date.parse('2026-08-17T00:00:00+09:00');
+  console.warn(
+    Date.now() >= deadline
+      ? '\n[停止] 楽天の旧APIは2026-08-17に廃止されました。RAKUTEN_ACCESS_KEY を設定してください。\n'
+      : `\n[警告] RAKUTEN_ACCESS_KEY が未設定です。旧APIはあと${Math.ceil((deadline - Date.now()) / 86_400_000)}日で廃止されます。\n`
+  );
+}
+
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 async function fetchJson(url, attempt = 0, extraHeaders = {}) {

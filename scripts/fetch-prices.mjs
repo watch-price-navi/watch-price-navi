@@ -67,6 +67,23 @@ if (!RAKUTEN_APP_ID && !YAHOO_APP_ID) {
   process.exit(0);
 }
 
+// 楽天公式告知(2026-04-10)により旧エンドポイントは2026-08-17に完全廃止。
+// アクセスキーが無いと旧エンドポイントにフォールバックするため、気付かず停止するのを防ぐ。
+export function warnRakutenDeadline(appId, accessKey, log = console.warn) {
+  if (!appId || accessKey) return false;
+  const deadline = Date.parse('2026-08-17T00:00:00+09:00');
+  if (Date.now() >= deadline) {
+    log('\n[停止] 楽天の旧APIは2026-08-17に廃止されました。RAKUTEN_ACCESS_KEY を設定してください。');
+    log('       https://webservice.rakuten.co.jp/app/list でアプリを開くとアクセスキーが表示されます。\n');
+  } else {
+    const days = Math.ceil((deadline - Date.now()) / 86_400_000);
+    log(`\n[警告] RAKUTEN_ACCESS_KEY が未設定です。旧APIはあと${days}日(2026-08-17)で廃止され、価格取得が止まります。`);
+    log('       https://webservice.rakuten.co.jp/app/list でアクセスキーを取得して設定してください。\n');
+  }
+  return true;
+}
+warnRakutenDeadline(RAKUTEN_APP_ID, RAKUTEN_ACCESS_KEY);
+
 // タイトルにこれらの語が含まれる出品は本体ではないとみなして除外
 const NG_WORDS = [
   'ベルト', 'バンド', 'ストラップ', 'ブレスレット単品', 'コマ', '駒', '尾錠', 'バックル',
