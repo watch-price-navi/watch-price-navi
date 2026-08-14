@@ -189,7 +189,20 @@ export function getLowest(brandId: string, modelId: string): SummaryEntry | null
 export const MIN_OFFERS_FOR_PAGE = Number(process.env.MIN_OFFERS_FOR_PAGE ?? 2);
 
 export function hasOwnPage(brandId: string, modelId: string): boolean {
-  const s = getSummary()[`${brandId}/${modelId}`];
+  const summary = getSummary();
+
+  // 価格データが1件も無い状態でビルドされることがある。
+  // 価格は API 規約（取得データの恒久保存の禁止）でリポジトリに保存していないため、
+  // 収集を伴わない実行（コード修正時の push など）では data/prices が存在しない。
+  // そのとき全モデルが対象外になり generateStaticParams が空配列を返すと、
+  // output:'export' は「関数が無い」とみなしてビルドが落ちる。
+  // この場合は人手カタログ（実際に書いた内容がある968件）だけを生成対象にする。
+  if (Object.keys(summary).length === 0) {
+    const model = getBrand(brandId)?.models.find((m) => m.id === modelId);
+    return model ? model.source !== 'auto' : false;
+  }
+
+  const s = summary[`${brandId}/${modelId}`];
   return (s?.offerCount ?? 0) >= MIN_OFFERS_FOR_PAGE;
 }
 
