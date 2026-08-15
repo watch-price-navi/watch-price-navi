@@ -53,16 +53,74 @@ const NON_WATCH_RE =
  * ブランドを跨いで適用してはならない（他社ではキャリバー記号に見える本物の型番がある）。
  */
 const normRef = (s) => String(s ?? '').toUpperCase().replace(/[^A-Z0-9]/g, '');
+let commonCalibers = new Set();
 const caliberSets = (() => {
   try {
-    const src = readJson(path.join(ROOT, 'data/calibers.json')).brands ?? {};
+    const j = readJson(path.join(ROOT, 'data/calibers.json'));
+    commonCalibers = new Set((j.common ?? []).map(normRef));
     const out = {};
-    for (const [b, list] of Object.entries(src)) out[b] = new Set(list.map(normRef));
+    for (const [b, list] of Object.entries(j.brands ?? {})) out[b] = new Set(list.map(normRef));
     return out;
   } catch {
     return {};
   }
 })();
+
+/**
+ * 他ブランドの名前がモデル名に入っているものは、そのブランドの時計ではない。
+ * 「ロレックス」の棚に「セイコー アンティーク SUR829P1」が並んでいた。
+ * 複数ブランドを扱う店の出品タイトルから拾ってしまうために起きる。
+ */
+const brandNames = [];
+/** ブランドIDから英語名を引く。型番に付いたブランド名を落とすのに使う */
+const brandEnOf = {};
+for (const f of fs.readdirSync(path.join(ROOT, 'data/brands')).filter((x) => x.endsWith('.json'))) {
+  try {
+    const c = readJson(path.join(ROOT, 'data/brands', f));
+    if (c.brand?.id && c.brand?.name_ja) brandNames.push([c.brand.id, c.brand.name_ja]);
+    if (c.brand?.id) brandEnOf[c.brand.id] = c.brand.name_en ?? '';
+  } catch {
+    /* 読めないものは飛ばす */
+  }
+}
+/** 親子関係にあるブランドは、名前が混ざっていても不自然ではない */
+const SAME_FAMILY = [['grand-seiko', 'seiko']];
+function isSameFamily(a, b) {
+  return SAME_FAMILY.some((pair) => pair.includes(a) && pair.includes(b));
+}
+
+/** 潤滑油の粘度表記（75W-140 など）。オメガは工業用オイルの同名企業がある */
+const OIL_GRADE_RE = /^\d{1,3}W-?\d{1,3}$/i;
+
+/**
+ * 価格による判定。これが最も強い。
+ * ロレックスのデイトナが1万7千円で出ていれば、それはベルトか付属品である。
+ * 型番は本物なので他の規則では弾けず、価格を見るしかない。
+ * 価格データは規約により保存していないので、収集直後（CI）でのみ効く。
+ */
+const minPrice = (() => {
+  try {
+    return readJson(path.join(ROOT, 'data/brand-min-price.json'));
+  } catch {
+    return { default: 0, brands: {} };
+  }
+})();
+const summary = (() => {
+  try {
+    const f = path.join(ROOT, 'data/prices/summary.json');
+    return fs.existsSync(f) ? readJson(f) : null;
+  } catch {
+    return null;
+  }
+})();
+if (!summary) console.log('（価格データが無いため、価格による判定は行いません）');
+
+/** 型番の先頭に付いたブランド名を落とす。「OMEGA1120」はキャリバー1120である */
+function stripBrandPrefix(ref, brandEn) {
+  const b = String(brandEn ?? '').replace(/[^A-Za-z]/g, '');
+  if (!b) return ref;
+  return String(ref).replace(new RegExp(`^${b}[-.\\s]?`, 'i'), '');
+}
 
 const rows = [];
 let totalBefore = 0;
@@ -86,9 +144,23 @@ for (const f of fs.readdirSync(autoDir).filter((f) => f.endsWith('.json'))) {
     const name = String(m.name_ja ?? '');
     let why = null;
     const both = `${name} ${String(m.name_en ?? '')}`;
-    const brandCalibers = caliberSets[cat.brandId ?? ''];
+    const brandId = cat.brandId ?? '';
+    const brandCalibers = caliberSets[brandId];
+    const foreign = brandNames.find(
+      ([id, nm]) => id !== brandId && !isSameFamily(id, brandId) && nm.length >= 3 && name.includes(nm),
+    );
+    // 「OMEGA1120」のようにブランド名が付いた形でもキャリバーとして判定する
+    const bare = normRef(stripBrandPrefix(ref, brandEnOf[brandId]));
+
     if (CALIBER_RE.test(ref)) why = 'キャリバー番号';
-    else if (brandCalibers?.has(normRef(ref))) why = 'キャリバー番号（銘柄別一覧）';
+    else if (brandCalibers?.has(normRef(ref)) || brandCalibers?.has(bare)) why = 'キャリバー番号（銘柄別一覧）';
+    else if (commonCalibers.has(normRef(ref)) || commonCalibers.has(bare)) why = '汎用ムーブメント番号';
+    // 価格でモデルごと消してはいけない。
+    // 「ヘリテージ ブラックベイ 79220 ¥18,700」は型番が本物で、安いのは
+    // その出品がベルトか部品だからである。モデルを消すと本物のページが失われる。
+    // 正しくは収集時に安すぎる『出品』を弾くこと（build-auto-catalog / fetch-prices）。
+    else if (OIL_GRADE_RE.test(ref)) why = '潤滑油の粘度表記';
+    else if (foreign) why = `他ブランドの商品（${foreign[1]}）`;
     else if (PURITY_RE.test(ref)) why = '貴金属の品位表記';
     else if (SIZE_LIST_RE.test(ref)) why = 'ベルトの取付幅';
     else if (HAS_UNIT_RE.test(ref)) why = '型番に寸法単位';

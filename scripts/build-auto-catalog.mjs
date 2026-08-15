@@ -472,6 +472,22 @@ const catalogs = fs
   .filter(Boolean);
 
 // ベルト等の付属品判定に使う。全ブランドの日本語名を1度だけ作る
+/**
+ * ブランドごとの「これより安ければ本体ではない」下限。
+ * ロレックスのデイトナが1万7千円なら、それはベルトか部品である。型番は本物なので
+ * 名前や記号では弾けず、値段で見るしかない。
+ * モデルごと消してはいけない（型番自体は実在する）。安い**出品**だけを落とす。
+ */
+const MIN_PRICE_BY_BRAND = (() => {
+  try {
+    const j = readJson(path.join(ROOT, 'data/brand-min-price.json'));
+    return { def: j.default ?? 0, brands: j.brands ?? {} };
+  } catch {
+    return { def: 0, brands: {} };
+  }
+})();
+const priceFloor = (brandId) => MIN_PRICE_BY_BRAND.brands[brandId] ?? MIN_PRICE_BY_BRAND.def;
+
 const ALL_BRAND_NAMES = catalogs.map((c) => c.brand?.name_ja).filter(Boolean);
 
 /**
@@ -610,7 +626,18 @@ for (const cat of catalogs) {
     const median = sorted[Math.floor(sorted.length / 2)];
     const min = sorted[0];
     // 極端に安い出品（付属品等）を除くため、中央値の3割と実測最安の高い方を下限にする
-    const floor = Math.max(Math.floor(median * 0.3), Math.floor(min * 0.85), 3000);
+    /*
+     * 下限を出品自体から計算していたため、ベルトばかりが並ぶ型番では中央値が下がり、
+     * 下限も一緒に下がって、ベルトが本体として通っていた。
+     * （デイトナ116523が¥17,000で「最安値」になっていた）
+     * ブランドとしてありえない安値は、出品の分布に関係なく弾く。
+     */
+    const floor = Math.max(
+      Math.floor(median * 0.3),
+      Math.floor(min * 0.85),
+      3000,
+      priceFloor(brand.id),
+    );
 
     const joined = g.titles.join(' ');
     const movement = inferMovement(joined);
