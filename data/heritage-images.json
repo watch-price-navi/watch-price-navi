@@ -1,0 +1,465 @@
+{
+  "note": "記事に使う実写の出典とライセンス。scripts/fetch-heritage-images.mjs が生成する。CC BY / CC BY-SA は表示義務があるため、author・license・source をキャプションに必ず出すこと。",
+  "images": {
+    "audemars-piguet-founder": {
+      "brand": "audemars-piguet",
+      "kind": "founder",
+      "src": "/img/heritage/audemars-piguet-founder.webp",
+      "subject": "Jules Louis Audemars",
+      "author": "MHM55",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Place_de_la_Fusterie-03.jpg"
+    },
+    "audemars-piguet-town": {
+      "brand": "audemars-piguet",
+      "kind": "town",
+      "src": "/img/heritage/audemars-piguet-town.webp",
+      "subject": "Le Brassus",
+      "author": "Giovanni-P",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Le_Brassus_temple.jpg"
+    },
+    "bell-ross-town": {
+      "brand": "bell-ross",
+      "kind": "town",
+      "src": "/img/heritage/bell-ross-town.webp",
+      "subject": "Paris",
+      "author": "Yann Caradec from Paris, France",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques,_Paris_ao%C3%BBt_2014_(2).jpg"
+    },
+    "breguet-founder": {
+      "brand": "breguet",
+      "kind": "founder",
+      "src": "/img/heritage/breguet-founder.webp",
+      "subject": "Abraham-Louis Breguet",
+      "author": "Unidentified painter",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "source": "https://commons.wikimedia.org/wiki/File:Abraham_Louis_Breguet_02.jpg"
+    },
+    "breguet-town": {
+      "brand": "breguet",
+      "kind": "town",
+      "src": "/img/heritage/breguet-town.webp",
+      "subject": "Paris",
+      "author": "Yann Caradec from Paris, France",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques,_Paris_ao%C3%BBt_2014_(2).jpg"
+    },
+    "breitling-town": {
+      "brand": "breitling",
+      "kind": "town",
+      "src": "/img/heritage/breitling-town.webp",
+      "subject": "Saint-Imier",
+      "author": "Green slash",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:St._Imier_From_Mont_Soleil.jpg"
+    },
+    "bvlgari-town": {
+      "brand": "bvlgari",
+      "kind": "town",
+      "src": "/img/heritage/bvlgari-town.webp",
+      "subject": "Rome",
+      "author": "Diliff",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Trevi_Fountain,_Rome,_Italy_2_-_May_2007.jpg"
+    },
+    "cartier-founder": {
+      "brand": "cartier",
+      "kind": "founder",
+      "src": "/img/heritage/cartier-founder.webp",
+      "subject": "Louis-François Cartier",
+      "author": "atelier Nadar",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "source": "https://commons.wikimedia.org/wiki/File:Louis-Fran%C3%A7ois_Cartier.jpg"
+    },
+    "cartier-town": {
+      "brand": "cartier",
+      "kind": "town",
+      "src": "/img/heritage/cartier-town.webp",
+      "subject": "Paris",
+      "author": "Yann Caradec from Paris, France",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques,_Paris_ao%C3%BBt_2014_(2).jpg"
+    },
+    "casio-town": {
+      "brand": "casio",
+      "kind": "town",
+      "src": "/img/heritage/casio-town.webp",
+      "subject": "Tokyo",
+      "author": "Morio",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Skyscrapers_of_Shinjuku_2009_January.jpg"
+    },
+    "chopard-town": {
+      "brand": "chopard",
+      "kind": "town",
+      "src": "/img/heritage/chopard-town.webp",
+      "subject": "Sonvilier",
+      "author": "Хрюша",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Sonvilier_01_10.jpg"
+    },
+    "citizen-town": {
+      "brand": "citizen",
+      "kind": "town",
+      "src": "/img/heritage/citizen-town.webp",
+      "subject": "Tokyo",
+      "author": "Morio",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Skyscrapers_of_Shinjuku_2009_January.jpg"
+    },
+    "franck-muller-founder": {
+      "brand": "franck-muller",
+      "kind": "founder",
+      "src": "/img/heritage/franck-muller-founder.webp",
+      "subject": "Franck Muller",
+      "author": "Unknown authorUnknown author",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "source": "https://commons.wikimedia.org/wiki/File:Franck_Muller_Initials_Logo.png"
+    },
+    "franck-muller-town": {
+      "brand": "franck-muller",
+      "kind": "town",
+      "src": "/img/heritage/franck-muller-town.webp",
+      "subject": "Geneva",
+      "author": "fr:Utilisateur:Stéphane_Pecorini",
+      "license": "CC BY-SA 2.0 fr",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/fr/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:Geneve_2005_001_Ork.ch.jpg"
+    },
+    "frederique-constant-town": {
+      "brand": "frederique-constant",
+      "kind": "town",
+      "src": "/img/heritage/frederique-constant-town.webp",
+      "subject": "Geneva",
+      "author": "fr:Utilisateur:Stéphane_Pecorini",
+      "license": "CC BY-SA 2.0 fr",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/fr/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:Geneve_2005_001_Ork.ch.jpg"
+    },
+    "girard-perregaux-town": {
+      "brand": "girard-perregaux",
+      "kind": "town",
+      "src": "/img/heritage/girard-perregaux-town.webp",
+      "subject": "La Chaux-de-Fonds",
+      "author": "MadGeographer",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "source": "https://commons.wikimedia.org/wiki/File:La_Chaux_de_Fonds.jpg"
+    },
+    "grand-seiko-founder": {
+      "brand": "grand-seiko",
+      "kind": "founder",
+      "src": "/img/heritage/grand-seiko-founder.webp",
+      "subject": "Kintarō Hattori",
+      "author": "Public domain. Photo from 1916. https://www.seikowatches.com/us-en/products/astron/special/kintaro_160th/",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:K._Hattori.jpg"
+    },
+    "hamilton-town": {
+      "brand": "hamilton",
+      "kind": "town",
+      "src": "/img/heritage/hamilton-town.webp",
+      "subject": "Lancaster, Pennsylvania",
+      "author": "Randolph Carney",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Lancaster_Pennsylvania_downtown.jpg"
+    },
+    "hublot-town": {
+      "brand": "hublot",
+      "kind": "town",
+      "src": "/img/heritage/hublot-town.webp",
+      "subject": "Nyon",
+      "author": "Chin tin tin",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "source": "https://commons.wikimedia.org/wiki/File:Lake_Geneva,_Nyon.JPG"
+    },
+    "iwc-founder": {
+      "brand": "iwc",
+      "kind": "founder",
+      "src": "/img/heritage/iwc-founder.webp",
+      "subject": "Florentine Ariosto Jones",
+      "author": "Unknown authorUnknown author",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "source": "https://commons.wikimedia.org/wiki/File:International_Watch_Company_logo.svg"
+    },
+    "iwc-town": {
+      "brand": "iwc",
+      "kind": "town",
+      "src": "/img/heritage/iwc-town.webp",
+      "subject": "Schaffhausen",
+      "author": "chensiyuan",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:1_schaffhausen_2012.jpg"
+    },
+    "jaeger-lecoultre-town": {
+      "brand": "jaeger-lecoultre",
+      "kind": "town",
+      "src": "/img/heritage/jaeger-lecoultre-town.webp",
+      "subject": "Le Sentier",
+      "author": "Roland Zumbühl",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Le-Sentier-Kirche.jpg"
+    },
+    "longines-town": {
+      "brand": "longines",
+      "kind": "town",
+      "src": "/img/heritage/longines-town.webp",
+      "subject": "Saint-Imier",
+      "author": "Green slash",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:St._Imier_From_Mont_Soleil.jpg"
+    },
+    "montblanc-town": {
+      "brand": "montblanc",
+      "kind": "town",
+      "src": "/img/heritage/montblanc-town.webp",
+      "subject": "Hamburg",
+      "author": "Dietmar Rabich",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Hamburg,_Landungsbr%C3%BCcken_--_2016_--_3131-7.jpg"
+    },
+    "omega-town": {
+      "brand": "omega",
+      "kind": "town",
+      "src": "/img/heritage/omega-town.webp",
+      "subject": "Biel/Bienne",
+      "author": "Roland Zumbühl (Picswiss), Arlesheim (Commons:Picswiss project)",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Picswiss_BE-98-20_Biel-_Stadthaus_und_Polizei_(Burgplatz).jpg"
+    },
+    "orient-town": {
+      "brand": "orient",
+      "kind": "town",
+      "src": "/img/heritage/orient-town.webp",
+      "subject": "Tokyo",
+      "author": "Morio",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Skyscrapers_of_Shinjuku_2009_January.jpg"
+    },
+    "oris-town": {
+      "brand": "oris",
+      "kind": "town",
+      "src": "/img/heritage/oris-town.webp",
+      "subject": "Hölstein",
+      "author": "Dietrich Michael Weidmann",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Hoelstein_115.JPG"
+    },
+    "panerai-town": {
+      "brand": "panerai",
+      "kind": "town",
+      "src": "/img/heritage/panerai-town.webp",
+      "subject": "Florence",
+      "author": "Giorgio Galeotti",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Firenze_-_Piazzale_Michelangelo,_Firenze,_Italy_-_April_6,_2015_02.jpg"
+    },
+    "patek-philippe-founder": {
+      "brand": "patek-philippe",
+      "kind": "founder",
+      "src": "/img/heritage/patek-philippe-founder.webp",
+      "subject": "Antoni Patek",
+      "author": null,
+      "license": "Public domain",
+      "licenseUrl": null,
+      "source": "https://commons.wikimedia.org/wiki/File:Antoni_Patek.jpg"
+    },
+    "patek-philippe-town": {
+      "brand": "patek-philippe",
+      "kind": "town",
+      "src": "/img/heritage/patek-philippe-town.webp",
+      "subject": "Geneva",
+      "author": "fr:Utilisateur:Stéphane_Pecorini",
+      "license": "CC BY-SA 2.0 fr",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/fr/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:Geneve_2005_001_Ork.ch.jpg"
+    },
+    "piaget-town": {
+      "brand": "piaget",
+      "kind": "town",
+      "src": "/img/heritage/piaget-town.webp",
+      "subject": "La Côte-aux-Fées",
+      "author": "Krol:k",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:La_C%C3%B4te_aux_F%C3%A9es.jpg"
+    },
+    "rado-town": {
+      "brand": "rado",
+      "kind": "town",
+      "src": "/img/heritage/rado-town.webp",
+      "subject": "Lengnau, Bern",
+      "author": "Dietrich Michael Weidmann",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:2012-05-26-Seeland_(Foto_Dietrich_Michael_Weidmann)_030.JPG"
+    },
+    "richard-mille-town": {
+      "brand": "richard-mille",
+      "kind": "town",
+      "src": "/img/heritage/richard-mille-town.webp",
+      "subject": "Les Breuleux",
+      "author": "Lutz Fischer-Lamprecht",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Les_Breuleux_3264.jpg"
+    },
+    "rolex-founder": {
+      "brand": "rolex",
+      "kind": "founder",
+      "src": "/img/heritage/rolex-founder.webp",
+      "subject": "Hans Wilsdorf",
+      "author": "Unknown authorUnknown author",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "source": "https://commons.wikimedia.org/wiki/File:Hans_Wilsdorf.jpg"
+    },
+    "rolex-town": {
+      "brand": "rolex",
+      "kind": "town",
+      "src": "/img/heritage/rolex-town.webp",
+      "subject": "Geneva",
+      "author": "fr:Utilisateur:Stéphane_Pecorini",
+      "license": "CC BY-SA 2.0 fr",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/fr/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:Geneve_2005_001_Ork.ch.jpg"
+    },
+    "seiko-founder": {
+      "brand": "seiko",
+      "kind": "founder",
+      "src": "/img/heritage/seiko-founder.webp",
+      "subject": "Kintarō Hattori",
+      "author": "Public domain. Photo from 1916. https://www.seikowatches.com/us-en/products/astron/special/kintaro_160th/",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:K._Hattori.jpg"
+    },
+    "seiko-town": {
+      "brand": "seiko",
+      "kind": "town",
+      "src": "/img/heritage/seiko-town.webp",
+      "subject": "Ginza",
+      "author": "Kakidai",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Ginza-WAKO_at_night.jpg"
+    },
+    "sinn-town": {
+      "brand": "sinn",
+      "kind": "town",
+      "src": "/img/heritage/sinn-town.webp",
+      "subject": "Frankfurt",
+      "author": "Kasa Fue",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Frankfurt_Main_August_2020_1.jpg"
+    },
+    "tag-heuer-town": {
+      "brand": "tag-heuer",
+      "kind": "town",
+      "src": "/img/heritage/tag-heuer-town.webp",
+      "subject": "La Chaux-de-Fonds",
+      "author": "MadGeographer",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "source": "https://commons.wikimedia.org/wiki/File:La_Chaux_de_Fonds.jpg"
+    },
+    "tissot-town": {
+      "brand": "tissot",
+      "kind": "town",
+      "src": "/img/heritage/tissot-town.webp",
+      "subject": "Le Locle",
+      "author": "Roland Zumbühl",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Le_Locle_Kath_Kirche.jpg"
+    },
+    "tudor-founder": {
+      "brand": "tudor",
+      "kind": "founder",
+      "src": "/img/heritage/tudor-founder.webp",
+      "subject": "Hans Wilsdorf",
+      "author": "Unknown authorUnknown author",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "source": "https://commons.wikimedia.org/wiki/File:Hans_Wilsdorf.jpg"
+    },
+    "tudor-town": {
+      "brand": "tudor",
+      "kind": "town",
+      "src": "/img/heritage/tudor-town.webp",
+      "subject": "Geneva",
+      "author": "fr:Utilisateur:Stéphane_Pecorini",
+      "license": "CC BY-SA 2.0 fr",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/fr/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:Geneve_2005_001_Ork.ch.jpg"
+    },
+    "ulysse-nardin-town": {
+      "brand": "ulysse-nardin",
+      "kind": "town",
+      "src": "/img/heritage/ulysse-nardin-town.webp",
+      "subject": "Le Locle",
+      "author": "Roland Zumbühl",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Le_Locle_Kath_Kirche.jpg"
+    },
+    "vacheron-constantin-town": {
+      "brand": "vacheron-constantin",
+      "kind": "town",
+      "src": "/img/heritage/vacheron-constantin-town.webp",
+      "subject": "Geneva",
+      "author": "fr:Utilisateur:Stéphane_Pecorini",
+      "license": "CC BY-SA 2.0 fr",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/fr/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:Geneve_2005_001_Ork.ch.jpg"
+    },
+    "zenith-founder": {
+      "brand": "zenith",
+      "kind": "founder",
+      "src": "/img/heritage/zenith-founder.webp",
+      "subject": "Georges Favre-Jacot",
+      "author": "LVMH Manufactures S.A.",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "source": "https://commons.wikimedia.org/wiki/File:Zenith_logo.svg"
+    },
+    "zenith-town": {
+      "brand": "zenith",
+      "kind": "town",
+      "src": "/img/heritage/zenith-town.webp",
+      "subject": "Le Locle",
+      "author": "Roland Zumbühl",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Le_Locle_Kath_Kirche.jpg"
+    }
+  }
+}
