@@ -46,6 +46,24 @@ const STRAP_MAKER_RE = /ヒルシュ|HIRSCH|モレラート|MORELLATO|カシス|
 const NON_WATCH_RE =
   /サングラス|メガネ|眼鏡|ボールペン|万年筆|シャープペン|財布|キーケース|名刺入れ|カフス|ネクタイ|ライター|香水|ネックレス|ピアス|キーリング|ガスケット|スマホケース|iPhone|アップルウォッチ|イヤホン/i;
 
+/**
+ * ブランドごとのキャリバー番号。
+ * 出品タイトルには型番とキャリバーが並んで書かれるため、キャリバーを型番として
+ * 拾うと「オーデマピゲ 2121」のような存在しないモデルのページができる。
+ * ブランドを跨いで適用してはならない（他社ではキャリバー記号に見える本物の型番がある）。
+ */
+const normRef = (s) => String(s ?? '').toUpperCase().replace(/[^A-Z0-9]/g, '');
+const caliberSets = (() => {
+  try {
+    const src = readJson(path.join(ROOT, 'data/calibers.json')).brands ?? {};
+    const out = {};
+    for (const [b, list] of Object.entries(src)) out[b] = new Set(list.map(normRef));
+    return out;
+  } catch {
+    return {};
+  }
+})();
+
 const rows = [];
 let totalBefore = 0;
 let totalAfter = 0;
@@ -68,7 +86,9 @@ for (const f of fs.readdirSync(autoDir).filter((f) => f.endsWith('.json'))) {
     const name = String(m.name_ja ?? '');
     let why = null;
     const both = `${name} ${String(m.name_en ?? '')}`;
+    const brandCalibers = caliberSets[cat.brandId ?? ''];
     if (CALIBER_RE.test(ref)) why = 'キャリバー番号';
+    else if (brandCalibers?.has(normRef(ref))) why = 'キャリバー番号（銘柄別一覧）';
     else if (PURITY_RE.test(ref)) why = '貴金属の品位表記';
     else if (SIZE_LIST_RE.test(ref)) why = 'ベルトの取付幅';
     else if (HAS_UNIT_RE.test(ref)) why = '型番に寸法単位';
