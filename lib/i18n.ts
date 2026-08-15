@@ -61,6 +61,8 @@ const dict: Dict = {
   blog_cta_title: { ja: '気になるモデルは、いまいくら？', en: 'What does it cost right now?' },
   blog_cta_body: { ja: '当サイトでは楽天市場・Yahoo!ショッピングの出品価格を毎日自動収集し、型番ごとの最安値を掲載しています。', en: 'We collect listings from Rakuten and Yahoo! Shopping Japan every day and show the lowest price for each reference.' },
   published: { ja: '公開日', en: 'Published' },
+  featured_label: { ja: '今日の一本', en: 'Featured today' },
+
   // --- コーディネート提案 ---
   styling_title: { ja: 'この時計に、何を着るか', en: 'What to wear with it' },
   styling_lead: { ja: '{watch} が最も映える装いを2通り。時計は服の一部として見られるので、合わせ方まで決めて初めて「似合う」になります。', en: 'Two ways to wear the {watch}. A watch is read as part of an outfit — it only truly suits you once the pairing is settled.' },

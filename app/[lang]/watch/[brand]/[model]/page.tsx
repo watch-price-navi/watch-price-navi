@@ -299,18 +299,21 @@ export default async function ModelPage({
 
       {!compact && <AdSlot />}
 
-      {!compact && (
-        <section className="section" id="dealers" style={{ paddingTop: 8, scrollMarginTop: 80 }}>
-          <h2 className="section-title">{t(lang, 'dealers_title')}</h2>
-          <DealerLinks
-            dealers={dealers}
-            keyword={model.reference ?? (lang === 'ja' ? model.searchKeywordJa : model.searchKeywordEn)}
-            officialUrl={brand.officialUrl}
-            brandName={bName}
-            lang={lang}
-          />
-        </section>
-      )}
+      {/* 取扱店は必ず出す。
+          以前は出品2件未満のページで省いていたが、そのページにこそ
+          「価格データ準備中 → 取扱店で確認」というボタンを置いていたため、
+          リンク先が存在せず押しても何も起きなかった。
+          そもそも価格が無いページでこそ、取扱店の情報に価値がある。 */}
+      <section className="section" id="dealers" style={{ paddingTop: 8, scrollMarginTop: 80 }}>
+        <h2 className="section-title">{t(lang, 'dealers_title')}</h2>
+        <DealerLinks
+          dealers={dealers}
+          keyword={model.reference ?? (lang === 'ja' ? model.searchKeywordJa : model.searchKeywordEn)}
+          officialUrl={brand.officialUrl}
+          brandName={bName}
+          lang={lang}
+        />
+      </section>
 
       {related.length > 0 && (
         <section className="section" style={{ paddingTop: 8 }}>

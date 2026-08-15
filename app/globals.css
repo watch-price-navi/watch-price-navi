@@ -439,6 +439,69 @@ a.card-price:hover .cp-go { color: var(--signal); }
   font-size: 12px; color: var(--brass-ink); font-weight: 600; letter-spacing: 0.08em;
 }
 
+/* ============ 今日の一本 ============ */
+/* 開いてすぐ、時計が大きく目に入る場所。宝石広場もGMTもこれをやっている。
+   この区画は楽天から取った写真と価格を出すので、リンクは出品ページのみ。 */
+.featured { padding: 40px 0 8px; }
+.fw-inner {
+  display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+  align-items: center; gap: clamp(24px, 4vw, 56px);
+  background: var(--surface); border: 1px solid var(--line);
+  padding: clamp(24px, 3.5vw, 44px);
+  box-shadow: var(--shadow-md); text-decoration: none; color: inherit;
+  transition: box-shadow var(--dur) var(--ease), border-color var(--dur) var(--ease);
+}
+.fw-inner:hover { box-shadow: var(--shadow-lg); border-color: #d5c9b1; }
+.fw-media {
+  aspect-ratio: 1 / 1;
+  background: radial-gradient(120% 92% at 50% -8%, #ffffff 0%, #f7f2e9 78%, #f2ece1 100%);
+  display: flex; align-items: center; justify-content: center; overflow: hidden;
+  border: 1px solid var(--line-soft);
+}
+.fw-media img {
+  width: 100%; height: 100%; object-fit: contain; padding: 6%;
+  transition: transform 0.6s var(--ease);
+}
+.fw-inner:hover .fw-media img { transform: scale(1.04); }
+.fw-body { display: flex; flex-direction: column; }
+.fw-eyebrow {
+  font-size: 10px; letter-spacing: 0.34em; text-transform: uppercase;
+  color: var(--brass-ink); font-weight: 700; margin-bottom: 18px;
+}
+.fw-brand {
+  font-size: 11px; letter-spacing: 0.2em; text-transform: uppercase;
+  color: var(--ink-faint); font-weight: 600;
+}
+.fw-name {
+  font-family: var(--serif); font-weight: 500; color: var(--ink);
+  font-size: clamp(22px, 3.2vw, 34px); line-height: 1.45; letter-spacing: 0.03em;
+  margin: 8px 0 6px; overflow-wrap: break-word;
+}
+.fw-ref {
+  font-family: var(--num); font-size: 12.5px; color: var(--brass-ink);
+  font-weight: 600; letter-spacing: 0.04em; overflow-wrap: anywhere;
+}
+.fw-price {
+  font-family: var(--num); font-size: clamp(28px, 4vw, 40px); font-weight: 600;
+  color: var(--ink); letter-spacing: -0.01em; margin-top: 20px; line-height: 1.2;
+}
+.fw-note { font-size: 12.5px; color: var(--ink-faint); margin-top: 6px; line-height: 1.7; }
+.fw-go {
+  margin-top: 20px; align-self: flex-start;
+  border: 1px solid var(--brass); color: var(--brass-ink);
+  padding: 11px 22px; font-size: 13px; font-weight: 700; letter-spacing: 0.08em;
+  transition: background var(--dur) var(--ease), color var(--dur) var(--ease);
+}
+.fw-inner:hover .fw-go { background: var(--brass); color: #fffdf9; }
+@media (max-width: 720px) {
+  .featured { padding: 26px 0 4px; }
+  /* 横並びだと写真が小さくなり、大きく見せる意味が失われる */
+  .fw-inner { grid-template-columns: 1fr; gap: 20px; padding: 18px; }
+  .fw-eyebrow { margin-bottom: 12px; }
+  .fw-price { margin-top: 14px; }
+  .fw-go { width: 100%; text-align: center; }
+}
+
 /* --- 商品カード: 時計を大きく、盆の上に載せる --- */
 /* カード全体をひとつのリンクにはできない。楽天ウェブサービス規約 第8条4項により
    「ウェブサービスを使用した部分」＝写真と価格から、楽天以外へリンクできないため。

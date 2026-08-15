@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import FeaturedWatch from '@/components/FeaturedWatch';
 import ModelCard from '@/components/ModelCard';
 import SearchBox from '@/components/SearchBox';
 import { getBlogPosts } from '@/lib/blog';
@@ -62,7 +63,8 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
         <div className="container">
           <span className="eyebrow">{lang === 'ja' ? '毎日自動更新の価格比較' : 'Prices updated daily'}</span>
           <h1>{t(lang, 'hero_title')}</h1>
-          <p className="sub">{t(lang, 'hero_sub')}</p>
+          {/* 説明文は外した。検索しに来た人に読ませるものではなく、
+              見出しと検索欄の間に挟まって、本題までの距離を伸ばしていた */}
           <SearchBox lang={lang} />
           <div className="hero-links">
             {ENTRY_POINTS.map((e) => (
@@ -87,6 +89,11 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
           </div>
         </div>
       </section>
+
+      {/* 時計を買いに来た人が最初に見たいのは時計そのもの。
+          説明文より先に、大きな1枚を置く。
+          この区画は楽天の写真と価格を出すので、リンクは出品ページのみ（規約8条4項） */}
+      <FeaturedWatch lang={lang} date={new Date().toISOString().slice(0, 10)} />
 
       <section className="section">
         <div className="container">

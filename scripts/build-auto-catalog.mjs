@@ -126,7 +126,8 @@ const MOVEMENT_RE = /^(?:(?:ST|TY)[-.]?[0-9]{4}|(?:NH|VK|VD|VH|YM)[-.]?[0-9]{2}[
 function extractRefs(title) {
   const out = new Set();
   for (const raw of title.match(REF_RE) ?? []) {
-    const s = raw.toUpperCase().replace(/[.,]$/, '');
+    // 末尾の区切り記号は落とす。「T137.907.97.201.00/」の / が残っていた
+    const s = raw.toUpperCase().replace(/[.,\-/]+$/, '');
     if (NOISE_EXACT.has(s) || NOISE_RE.test(s)) continue;
     if (CALIBER_RE.test(s) || PURITY_RE.test(s)) continue;
     if (SIZE_LIST_RE.test(s) || HAS_UNIT_RE.test(s) || MOVEMENT_RE.test(s)) continue;
@@ -139,6 +140,38 @@ function extractRefs(title) {
 }
 
 const normRef = (r) => r.toUpperCase().replace(/[.\-/\s]/g, '');
+
+/**
+ * 1つの出品タイトルに型番が複数書かれることがある。
+ * ティソの出品は「T137.907.97.201.00」と「T137907」を併記していて、
+ * 両方を別モデルとして登録したため、同じ時計・同じ価格・同じリンクのカードが
+ * 2枚並んでいた。
+ *
+ * 短い方が長い方の先頭に一致するなら、同じ時計の略記とみなして詳しい方だけを採る。
+ * 先頭一致しない型番どうしは別の時計かもしれないので、両方残す
+ * （付属品の型番を併記した出品などがあるため、勝手に1つへ絞らない）。
+ * 人手カタログに載っている型番があれば、常にそれを優先する。
+ */
+function dedupeRefs(refs, curatedByRef) {
+  if (refs.length <= 1) return refs;
+  const sorted = [...refs].sort((a, b) => normRef(b).length - normRef(a).length);
+  const kept = [];
+  for (const r of sorted) {
+    const n = normRef(r);
+    // 人手カタログにある型番は必ず残す
+    if (curatedByRef?.has(n)) {
+      kept.push(r);
+      continue;
+    }
+    // 既に採った、より詳しい型番の先頭に一致するなら略記とみなす
+    const isShortFormOfKept = kept.some((k) => {
+      const kn = normRef(k);
+      return kn.length > n.length && n.length >= 5 && kn.startsWith(n);
+    });
+    if (!isShortFormOfKept) kept.push(r);
+  }
+  return kept;
+}
 
 // タイトルからモデル名らしいカタカナ列を拾う
 const NAME_STOP = new Set([
@@ -578,7 +611,7 @@ for (const cat of catalogs) {
     if (mentionsTooManyBrands(title, ALL_BRAND_NAMES)) continue;
     if (!title.includes(brand.name_ja) && !title.toUpperCase().includes(brand.name_en.toUpperCase())) continue;
 
-    for (const ref of extractRefs(title)) {
+    for (const ref of dedupeRefs(extractRefs(title), curatedByRef)) {
       const key = normRef(ref);
 
       // 人手カタログに載っている型番なら、そのモデルの価格として記録する
