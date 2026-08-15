@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import BrandCard from '@/components/BrandCard';
 import FeaturedWatch from '@/components/FeaturedWatch';
 import ModelCard from '@/components/ModelCard';
 import SearchBox from '@/components/SearchBox';
@@ -208,13 +209,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
           </div>
           <div className="grid grid-brands">
             {brands.map((b) => (
-              <Link key={b.brand.id} href={`/${lang}/brands/${b.brand.id}/`} className="card brand-card">
-                <h3>{b.brand.name_en}</h3>
-                <div className="bc-ja">{lang === 'ja' ? b.brand.name_ja : b.brand.country}</div>
-                <div className="bc-meta">
-                  {b.models.length} {t(lang, 'models_count')}
-                </div>
-              </Link>
+              <BrandCard key={b.brand.id} lang={lang} cat={b} />
             ))}
           </div>
         </div>

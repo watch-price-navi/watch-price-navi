@@ -56,6 +56,18 @@ const WR_BANDS: { id: string; ja: string; en: string; min: number }[] = [
   { id: 'wr300', ja: '300m以上', en: '300m+', min: 300 },
 ];
 
+/**
+ * 新品か中古か。
+ * 高級時計では「同じ型番でも新品と中古で倍近く違う」ことが普通にあり、
+ * 予算から入る人にとっては価格帯と同じくらい効く条件になる。
+ * 索引には新品最安(pn)と中古最安(pu)が別々に入っているので、
+ * その有無で絞り込める。
+ */
+const CONDITIONS: { id: string; ja: string; en: string }[] = [
+  { id: 'new', ja: '新品', en: 'New' },
+  { id: 'used', ja: '中古', en: 'Pre-owned' },
+];
+
 function toggle(list: string[], v: string): string[] {
   return list.includes(v) ? list.filter((x) => x !== v) : [...list, v];
 }
@@ -124,6 +136,7 @@ export default function SearchExplorer({
   const [fMv, setFMv] = useState<string[]>([]);
   const [fTag, setFTag] = useState<string[]>([]);
   const [fGender, setFGender] = useState<string[]>([]);
+  const [fCond, setFCond] = useState<string[]>([]);
   const [fPrice, setFPrice] = useState<string[]>([]);
   const [fCase, setFCase] = useState<string[]>([]);
   const [fWr, setFWr] = useState<string[]>([]);
@@ -153,6 +166,7 @@ export default function SearchExplorer({
     setFMv(get('movement'));
     setFTag(get('tag'));
     setFGender(get('gender'));
+    setFCond(get('condition'));
     setFPrice(get('price'));
     setFCase(get('case'));
     setFWr(get('wr'));
@@ -186,11 +200,15 @@ export default function SearchExplorer({
       mv: (e: Entry) => fMv.length === 0 || (e.mv != null && fMv.includes(e.mv)),
       tag: (e: Entry) => fTag.length === 0 || fTag.every((tg) => e.tags.includes(tg)),
       gender: (e: Entry) => fGender.length === 0 || (e.g != null && fGender.includes(e.g)),
+      // 新品・中古は「その状態の出品があるか」で見る。両方選べば両方ある品に絞られる
+      cond: (e: Entry) =>
+        fCond.length === 0 ||
+        fCond.every((c) => (c === 'new' ? e.pn != null : e.pu != null)),
       price: inPrice,
       case: inCase,
       wr: inWr,
     };
-  }, [fBrand, fMat, fMv, fTag, fGender, fPrice, fCase, fWr]);
+  }, [fBrand, fMat, fMv, fTag, fGender, fCond, fPrice, fCase, fWr]);
 
   // あるファセットの件数は、そのファセット自身の条件を外して集計する（Chrono24等と同じ挙動）
   function countsFor(exclude: keyof typeof matchers, keyOf: (e: Entry) => string[]): Record<string, number> {
@@ -212,6 +230,10 @@ export default function SearchExplorer({
   const cMv = useMemo(() => countsFor('mv', (e) => (e.mv ? [e.mv] : [])), [base, matchers]);
   const cTag = useMemo(() => countsFor('tag', (e) => e.tags), [base, matchers]);
   const cGender = useMemo(() => countsFor('gender', (e) => (e.g ? [e.g] : [])), [base, matchers]);
+  const cCond = useMemo(
+    () => countsFor('cond', (e) => [e.pn != null ? 'new' : null, e.pu != null ? 'used' : null].filter(Boolean) as string[]),
+    [base, matchers]
+  );
   const cPrice = useMemo(
     () => countsFor('price', (e) => (e.price == null ? [] : PRICE_BANDS.filter((b) => e.price! >= b.min && e.price! < b.max).map((b) => b.id))),
     [base, matchers]
@@ -248,7 +270,7 @@ export default function SearchExplorer({
   }, [base, matchers, sort]);
 
   const activeCount =
-    fBrand.length + fMat.length + fMv.length + fTag.length + fGender.length + fPrice.length + fCase.length + fWr.length + (inStockOnly ? 1 : 0);
+    fBrand.length + fMat.length + fMv.length + fTag.length + fGender.length + fCond.length + fPrice.length + fCase.length + fWr.length + (inStockOnly ? 1 : 0);
 
   function clearAll() {
     setFBrand([]); setFMat([]); setFMv([]); setFTag([]); setFGender([]);
@@ -261,6 +283,7 @@ export default function SearchExplorer({
     ...fMv.map((id) => ({ label: label(MOVEMENTS, id), onRemove: () => setFMv(toggle(fMv, id)) })),
     ...fTag.map((id) => ({ label: label(TAGS, id), onRemove: () => setFTag(toggle(fTag, id)) })),
     ...fGender.map((id) => ({ label: label(GENDERS, id), onRemove: () => setFGender(toggle(fGender, id)) })),
+    ...fCond.map((id) => ({ label: label(CONDITIONS, id), onRemove: () => setFCond(toggle(fCond, id)) })),
     ...fPrice.map((id) => ({ label: bandLabel(PRICE_BANDS, id), onRemove: () => setFPrice(toggle(fPrice, id)) })),
     ...fCase.map((id) => ({ label: bandLabel(CASE_BANDS, id), onRemove: () => setFCase(toggle(fCase, id)) })),
     ...fWr.map((id) => ({ label: bandLabel(WR_BANDS as never, id), onRemove: () => setFWr(toggle(fWr, id)) })),
@@ -296,6 +319,7 @@ export default function SearchExplorer({
       <FacetGroup title={t(lang, 'f_material')} items={CASE_MATERIALS} selected={fMat} onToggle={(id) => setFMat(toggle(fMat, id))} lang={lang} counts={cMat} />
       <FacetGroup title={t(lang, 'f_movement')} items={MOVEMENTS} selected={fMv} onToggle={(id) => setFMv(toggle(fMv, id))} lang={lang} counts={cMv} />
       <FacetGroup title={t(lang, 'f_wr')} items={WR_BANDS as never} selected={fWr} onToggle={(id) => setFWr(toggle(fWr, id))} lang={lang} counts={cWr} />
+      <FacetGroup title={t(lang, 'f_condition')} items={CONDITIONS} selected={fCond} onToggle={(id) => setFCond(toggle(fCond, id))} lang={lang} counts={cCond} />
       <FacetGroup title={t(lang, 'f_gender')} items={GENDERS} selected={fGender} onToggle={(id) => setFGender(toggle(fGender, id))} lang={lang} counts={cGender} />
     </>
   );

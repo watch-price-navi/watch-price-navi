@@ -546,15 +546,44 @@ a.card-price:hover .cp-go { color: var(--signal); }
 }
 
 /* --- ブランドカード --- */
-.brand-card { text-align: left; }
-.brand-card h3 {
-  font-family: var(--serif); font-size: 18px; font-weight: 500; letter-spacing: 0.07em;
-  line-height: 1.45;
+/* ブランドカード。
+   文字だけでは、どのブランドがどんな時計を作っているのか伝わらない。
+   代表の1本を大きく載せる。
+   写真は楽天由来なので出品ページへ、名前はブランドページへ、と行き先を分ける
+   （規約8条4項。モデルカードと同じ作り） */
+.brand-card { text-align: left; padding: 0; overflow: hidden; }
+.bc-media {
+  display: flex; align-items: center; justify-content: center;
+  aspect-ratio: 4 / 3; overflow: hidden;
+  background: radial-gradient(120% 92% at 50% -8%, #ffffff 0%, #f7f2e9 78%, #f2ece1 100%);
+  border-bottom: 1px solid var(--line-soft);
 }
-.brand-card .bc-ja { font-size: 12.5px; color: var(--ink-soft); margin-top: 5px; letter-spacing: 0.04em; }
+.bc-media img {
+  width: 100%; height: 100%; object-fit: contain; padding: 8px;
+  transition: transform 0.5s var(--ease);
+}
+.brand-card:hover .bc-media img { transform: scale(1.04); }
+.bc-media-empty {
+  font-family: var(--serif); font-size: 15px; color: var(--ink-faint);
+  letter-spacing: 0.2em; text-transform: uppercase; text-align: center; padding: 14px;
+}
+.bc-link { display: block; padding: 18px 20px 20px; color: inherit; text-decoration: none; }
+.bc-name {
+  display: block; font-family: var(--serif); font-size: 18px; font-weight: 500;
+  letter-spacing: 0.07em; line-height: 1.45; overflow-wrap: break-word;
+}
+.bc-link:hover .bc-name { color: var(--brass-ink); }
+.brand-card .bc-ja {
+  display: block; font-size: 12.5px; color: var(--ink-soft); margin-top: 5px; letter-spacing: 0.04em;
+}
 .brand-card .bc-meta {
-  margin-top: 16px; padding-top: 13px; border-top: 1px solid var(--line-soft);
-  font-size: 11.5px; color: var(--ink-faint); letter-spacing: 0.06em;
+  display: block; margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--line-soft);
+  font-size: 11.5px; color: var(--ink-faint); letter-spacing: 0.06em; line-height: 1.7;
+}
+@media (max-width: 640px) {
+  .bc-link { padding: 13px 14px 15px; }
+  .bc-name { font-size: 16px; }
+  .brand-card .bc-meta { margin-top: 10px; padding-top: 9px; font-size: 11px; }
 }
 
 /* --- 記事カード --- */

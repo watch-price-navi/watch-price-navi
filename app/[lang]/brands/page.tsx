@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import BrandCard from '@/components/BrandCard';
 import { absUrl } from '@/lib/config';
 import { getAllBrands } from '@/lib/data';
 import { t, type Lang } from '@/lib/i18n';
@@ -33,15 +34,7 @@ export default async function BrandsPage({ params }: { params: Promise<{ lang: s
       <section className="section" style={{ paddingTop: 20 }}>
         <div className="grid grid-brands">
           {brands.map((b) => (
-            <Link key={b.brand.id} href={`/${lang}/brands/${b.brand.id}/`} className="card brand-card">
-              <h3>{b.brand.name_en}</h3>
-              <div className="bc-ja">{lang === 'ja' ? b.brand.name_ja : b.brand.country}</div>
-              <div className="bc-meta">
-                {b.brand.country}
-                {b.brand.founded ? ` ・ ${t(lang, 'founded')} ${b.brand.founded}` : ''} ・ {b.models.length}{' '}
-                {t(lang, 'models_count')}
-              </div>
-            </Link>
+            <BrandCard key={b.brand.id} lang={lang} cat={b} />
           ))}
         </div>
       </section>

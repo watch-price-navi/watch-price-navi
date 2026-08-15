@@ -24,6 +24,7 @@ const dict: Dict = {
   f_material: { ja: 'ケース素材', en: 'Case material' },
   f_movement: { ja: 'ムーブメント', en: 'Movement' },
   f_wr: { ja: '防水性能', en: 'Water resistance' },
+  f_condition: { ja: '新品・中古', en: 'Condition' },
   f_gender: { ja: 'サイズ区分', en: 'Gender' },
   sort_by: { ja: '並び替え', en: 'Sort by' },
   sort_popular: { ja: '人気順', en: 'Most popular' },
