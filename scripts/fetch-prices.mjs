@@ -285,6 +285,9 @@ for (const catalog of catalogs) {
       offerCount: offers.length,
       updatedAt,
       image: offers[0].image ?? null,
+      // 楽天ウェブサービス規約 第8条4項: ウェブサービスを使用した部分から
+      // 楽天以外へリンクしてはならない。カード上の写真と価格をこのURLへ向ける
+      url: offers[0].url ?? null,
       lowestNew: lowestNew ? lowestNew.price : null,
       lowestUsed: lowestUsed ? lowestUsed.price : null,
     };

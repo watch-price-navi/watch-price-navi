@@ -2,9 +2,9 @@ import Link from 'next/link';
 import ModelCard from '@/components/ModelCard';
 import SearchBox from '@/components/SearchBox';
 import { getBlogPosts } from '@/lib/blog';
+import { postCardImage } from '@/lib/blog-figures';
 import { getAllBrands, getSummary } from '@/lib/data';
 import { formatDate } from '@/lib/format';
-import { imageUrl } from '@/lib/image';
 import { t, type Lang } from '@/lib/i18n';
 
 /**
@@ -122,12 +122,15 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
             </div>
             <div className="grid grid-posts">
               {posts.map((p) => {
-                const hero = p.heroModel ? summary[p.heroModel] : null;
+                // 記事カードは記事ページへのリンク。楽天ウェブサービス規約 第8条4項により
+                // 「ウェブサービスを使用した部分」から楽天以外へリンクできないため、
+                // 商品写真ではなく自前（およびCC/PD）の写真を顔にする
+                const hero = postCardImage(p.heroModel);
                 return (
                   <Link key={p.slug} href={`/${lang}/blog/${p.slug}/`} className="card post-card">
                     <div className="pc-media">
-                      {hero?.image ? (
-                        <img src={imageUrl(hero.image, 'card') ?? ''} alt="" loading="lazy" />
+                      {hero ? (
+                        <img src={hero.src} alt="" loading="lazy" />
                       ) : (
                         // 記事ごとに違う文字を出す。固定文言だと同じ黒板が横に並んでしまう
                         <div className="pc-noimg">{lang === 'ja' ? p.title_ja : p.title_en}</div>

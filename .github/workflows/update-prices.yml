@@ -1,10 +1,12 @@
-# 1日2回（JST 6:00 / 18:00）価格を自動収集し、朝はブログ記事も生成してサイトを公開する
+# 1日2回（JST 6:20 / 18:20）価格を自動収集し、朝はブログ記事も生成してサイトを公開する
 name: Update prices & deploy
 
 on:
+  # 毎時0分は世界中の実行が集中し、GitHubの定期実行が後回しにされる
+  # （実測で朝53分・夕方51分の遅れ）。20分ずらしてピークを外す。
   schedule:
-    - cron: '0 21 * * *' # UTC 21:00 = JST 6:00（朝の回：ブログ生成 + 新作検出あり）
-    - cron: '0 9 * * *'  # UTC 09:00 = JST 18:00（夕方の回：価格のみ更新）
+    - cron: '20 21 * * *' # UTC 21:20 = JST 6:20（朝の回：ブログ生成 + 新作検出あり）
+    - cron: '20 9 * * *'  # UTC 09:20 = JST 18:20（夕方の回：価格のみ更新）
   workflow_dispatch: {}
   push:
     branches: [main]
@@ -48,7 +50,7 @@ jobs:
       # 朝の回（および手動実行・push）でのみブログを1本生成する
       # ブログは失敗しても価格更新とデプロイを止めない
       - name: Generate today's blog post
-        if: github.event.schedule != '0 9 * * *'
+        if: github.event.schedule != '20 9 * * *'
         continue-on-error: true
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -58,11 +60,11 @@ jobs:
       # 日本語の字が入った投稿画像を作るため、ランナーに日本語フォントを入れる。
       # 無いと文字が豆腐（□）になり、そのまま投稿されてしまう
       - name: Install Japanese fonts
-        if: github.event.schedule != '0 9 * * *'
+        if: github.event.schedule != '20 9 * * *'
         run: sudo apt-get update -qq && sudo apt-get install -y -qq fonts-noto-cjk
 
       - name: Build Instagram post
-        if: github.event.schedule != '0 9 * * *'
+        if: github.event.schedule != '20 9 * * *'
         continue-on-error: true
         env:
           NEXT_PUBLIC_SITE_URL: ${{ vars.NEXT_PUBLIC_SITE_URL }}
@@ -70,7 +72,7 @@ jobs:
         run: node scripts/build-instagram-post.mjs
 
       - name: Commit new blog post
-        if: github.event.schedule != '0 9 * * *'
+        if: github.event.schedule != '20 9 * * *'
         continue-on-error: true
         run: |
           git config user.name "watch-bot"
@@ -138,7 +140,7 @@ jobs:
 
       # 未収録の新作型番を検出して data/pending-models.json に記録（朝の回のみ）
       - name: Discover new models
-        if: env.FULL_RUN == 'true' && (github.event.schedule != '0 9 * * *')
+        if: env.FULL_RUN == 'true' && (github.event.schedule != '20 9 * * *')
         continue-on-error: true
         env:
           RAKUTEN_APP_ID: ${{ secrets.RAKUTEN_APP_ID }}
@@ -150,7 +152,7 @@ jobs:
         run: node scripts/discover-models.mjs
 
       - name: Commit new-model candidates
-        if: env.FULL_RUN == 'true' && (github.event.schedule != '0 9 * * *')
+        if: env.FULL_RUN == 'true' && (github.event.schedule != '20 9 * * *')
         continue-on-error: true
         run: |
           git config user.name "watch-bot"
@@ -215,7 +217,7 @@ jobs:
       # 先に呼ぶと画像がまだ404で、投稿が必ず失敗する。
       # 朝の回だけ（1日1投稿）。失敗してもサイトの更新は止めない。
       - name: Post to Instagram
-        if: steps.pricecheck.outputs.deploy == 'true' && github.event.schedule != '0 9 * * *'
+        if: steps.pricecheck.outputs.deploy == 'true' && github.event.schedule != '20 9 * * *'
         continue-on-error: true
         env:
           IG_USER_ID: ${{ secrets.IG_USER_ID }}

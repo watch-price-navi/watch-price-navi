@@ -1,0 +1,87 @@
+{
+  "note": "Instagram に載せる時計の実写。Wikimedia Commons の CC / PD 画像のみ。表示義務があるので author・license・source を投稿の本文に必ず出すこと。exact=false は同じ型番の写真とは限らない（同シリーズの別個体）。その旨を明記して使う。",
+  "models": {
+    "casio/g-shock-dw-5600e-1": {
+      "brandId": "casio",
+      "modelId": "g-shock-dw-5600e-1",
+      "reference": "DW-5600E-1",
+      "photos": [
+        {
+          "file": "/img/watches/casio-g-shock-dw-5600e-1-1.jpg",
+          "commonsTitle": "Casio G-Shock DW-5600E wristwatch.jpg",
+          "author": null,
+          "license": "Public domain",
+          "licenseUrl": null,
+          "source": "https://commons.wikimedia.org/wiki/File:Casio_G-Shock_DW-5600E_wristwatch.jpg",
+          "exact": false
+        }
+      ]
+    },
+    "casio/g-shock-gw-m5610u-1jf": {
+      "brandId": "casio",
+      "modelId": "g-shock-gw-m5610u-1jf",
+      "reference": "GW-M5610U-1JF",
+      "photos": [
+        {
+          "file": "/img/watches/casio-g-shock-gw-m5610u-1jf-1.jpg",
+          "commonsTitle": "CASIO G-Shock GW-M5610U.jpg",
+          "author": "Md",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:CASIO_G-Shock_GW-M5610U.jpg",
+          "exact": false
+        }
+      ]
+    },
+    "casio/casio-standard-f-91w-1": {
+      "brandId": "casio",
+      "modelId": "casio-standard-f-91w-1",
+      "reference": "F-91W-1",
+      "photos": [
+        {
+          "file": "/img/watches/casio-casio-standard-f-91w-1-1.jpg",
+          "commonsTitle": "Casio F-91W watch (2023) (packaging and contents) (i).jpg",
+          "author": "Multicherry",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Casio_F-91W_watch_(2023)_(packaging_and_contents)_(i).jpg",
+          "exact": false
+        },
+        {
+          "file": "/img/watches/casio-casio-standard-f-91w-1-2.jpg",
+          "commonsTitle": "Casio F-91W watch (2023) (packaging and contents) (ii).jpg",
+          "author": "Multicherry",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Casio_F-91W_watch_(2023)_(packaging_and_contents)_(ii).jpg",
+          "exact": false
+        },
+        {
+          "file": "/img/watches/casio-casio-standard-f-91w-1-3.jpg",
+          "commonsTitle": "Casio F-91W watch (2023) (packaging and contents) (iii).jpg",
+          "author": "Multicherry",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Casio_F-91W_watch_(2023)_(packaging_and_contents)_(iii).jpg",
+          "exact": false
+        }
+      ]
+    },
+    "casio/g-shock-ga-b2100-1ajf": {
+      "brandId": "casio",
+      "modelId": "g-shock-ga-b2100-1ajf",
+      "reference": "GA-B2100-1AJF",
+      "photos": [
+        {
+          "file": "/img/watches/casio-g-shock-ga-b2100-1ajf-1.jpg",
+          "commonsTitle": "Casio G-Shock GA-B2100-1AER.jpg",
+          "author": "Kasperl099",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Casio_G-Shock_GA-B2100-1AER.jpg",
+          "exact": false
+        }
+      ]
+    }
+  }
+}

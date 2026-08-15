@@ -70,6 +70,12 @@ export interface SummaryEntry {
   image?: string | null;
   lowestNew?: number | null;
   lowestUsed?: number | null;
+  /**
+   * 最安値の出品ページ。
+   * 楽天ウェブサービス規約 第8条4項により「ウェブサービスを使用した部分」からは
+   * 楽天以外へリンクできない。カード上の写真と価格はこのURLへ向ける。
+   */
+  url?: string | null;
 }
 
 export interface Dealer {

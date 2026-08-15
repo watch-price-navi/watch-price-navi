@@ -31,6 +31,30 @@ const esc = (s: string) =>
   s.replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c] as string);
 
 /**
+ * 記事カードの顔になる写真を選ぶ。
+ *
+ * 商品写真は使えない。楽天ウェブサービス規約 第8条4項により
+ * 「ウェブサービスを使用した部分」からは楽天以外へリンクできず、
+ * 記事カードは記事ページへのリンクだからである。
+ * 幸い、発祥の地の風景や店内の写真は自前（またはCC/PD）で権利上の制約がなく、
+ * 商品の切り抜きより誌面の扉らしくもある。
+ */
+export function postCardImage(heroModelKey: string | null | undefined): {
+  src: string;
+  credit: string | null;
+} | null {
+  const brandId = String(heroModelKey ?? '').split('/')[0];
+  if (!brandId) return null;
+  const images = getHeritageImages();
+  const img = images[`${brandId}-town`] ?? images[`${brandId}-founder`];
+  if (!img) return null;
+  return {
+    src: `${basePath()}${img.src}`,
+    credit: [img.author?.replace(/Unknown author/gi, 'Unknown'), img.license].filter(Boolean).join(' / ') || null,
+  };
+}
+
+/**
  * 実写（創業者の肖像・発祥地の風景）を本文に差し込む。
  *
  * 記事が創業者の名前や発祥の地に触れているのに文字だけ、という状態をなくす。

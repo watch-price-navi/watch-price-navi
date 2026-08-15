@@ -415,10 +415,20 @@ table.price-table td, table.model-table td, .post-date, .breadcrumb {
   font-size: 11.5px; color: var(--brass-ink); font-weight: 600; letter-spacing: 0.06em;
   overflow-wrap: anywhere;
 }
+/* 価格は楽天由来なので、押したら出品ページへ行く。
+   自サイトのページへ向けると規約違反になる */
 .card-price {
+  display: block; text-decoration: none;
   margin-top: 16px; padding-top: 14px; border-top: 1px solid var(--line-soft);
   font-family: var(--num); font-size: 21px; color: var(--ink); font-weight: 600;
   line-height: 1.3; letter-spacing: -0.01em;
+}
+a.card-price:hover { color: var(--signal); }
+a.card-price:hover .cp-go { color: var(--signal); }
+/* 押した先が店であることを明示する。黙って外部へ飛ばさない */
+.cp-go {
+  display: block; margin-top: 4px; color: var(--brass-ink); font-weight: 700;
+  letter-spacing: 0.06em; transition: color var(--dur) var(--ease);
 }
 .card-price small {
   font-family: var(--sans); font-size: 11px; color: var(--ink-faint); display: block;
@@ -430,7 +440,17 @@ table.price-table td, table.model-table td, .post-date, .breadcrumb {
 }
 
 /* --- 商品カード: 時計を大きく、盆の上に載せる --- */
+/* カード全体をひとつのリンクにはできない。楽天ウェブサービス規約 第8条4項により
+   「ウェブサービスを使用した部分」＝写真と価格から、楽天以外へリンクできないため。
+   写真と価格は出品ページへ、名前と仕様は自サイトのモデルページへ、と領域を分けている。 */
 .product-card { padding: 0; overflow: hidden; }
+/* 名前・型番・仕様の領域。ここは自前のデータなので自サイトへ向けてよい */
+.pc-link { display: block; color: inherit; text-decoration: none; }
+.pc-link .card-brand,
+.pc-link .card-name,
+.pc-link .card-ref,
+.pc-link .pc-meta { display: block; }
+.pc-link:hover .card-name { color: var(--brass-ink); }
 .pc-media {
   position: relative; aspect-ratio: 1 / 1;
   /* 上から光が落ちる盆。単色より奥行きが出る */

@@ -166,9 +166,24 @@ export default async function BlogPostPage({
                   </b>
                 </div>
               )}
-              <Link className="btn" href={`/${lang}/watch/${hero.brandId}/${hero.modelId}/`}>
-                {t(lang, 'blog_hero_cta')} →
-              </Link>
+              {/* この枠は楽天から取得した写真と価格を出している。
+                  規約 第8条4項により、ここから楽天以外へリンクできないので、
+                  ボタンの行き先は自サイトのモデルページではなく出品ページにする。
+                  比較ページへは本文中のリンクから行ける。 */}
+              {heroSummary?.url ? (
+                <a
+                  className="btn"
+                  href={heroSummary.url}
+                  target="_blank"
+                  rel="sponsored nofollow noopener"
+                >
+                  {t(lang, 'cta_check_price')} →
+                </a>
+              ) : (
+                <Link className="btn" href={`/${lang}/watch/${hero.brandId}/${hero.modelId}/`}>
+                  {t(lang, 'blog_hero_cta')} →
+                </Link>
+              )}
             </div>
           </aside>
         )}

@@ -2,9 +2,8 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { absUrl } from '@/lib/config';
 import { getBlogPosts } from '@/lib/blog';
-import { getSummary } from '@/lib/data';
+import { postCardImage } from '@/lib/blog-figures';
 import { formatDate } from '@/lib/format';
-import { imageUrl } from '@/lib/image';
 import { t, type Lang } from '@/lib/i18n';
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
@@ -25,7 +24,6 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
 export default async function BlogIndex({ params }: { params: Promise<{ lang: string }> }) {
   const lang = (await params).lang as Lang;
   const posts = getBlogPosts();
-  const summary = getSummary();
 
   return (
     <div className="container">
@@ -46,12 +44,15 @@ export default async function BlogIndex({ params }: { params: Promise<{ lang: st
         ) : (
           <div className="grid grid-posts">
             {posts.map((p) => {
-              const hero = p.heroModel ? summary[p.heroModel] : null;
+              // 記事カードは記事ページへのリンク。楽天ウェブサービス規約 第8条4項により
+              // 「ウェブサービスを使用した部分」から楽天以外へリンクできないため、
+              // 商品写真ではなく自前（およびCC/PD）の写真を顔にする
+              const hero = postCardImage(p.heroModel);
               return (
                 <Link key={p.slug} href={`/${lang}/blog/${p.slug}/`} className="card post-card">
                   <div className="pc-media">
-                    {hero?.image ? (
-                      <img src={imageUrl(hero.image, 'card') ?? ''} alt="" loading="lazy" />
+                    {hero ? (
+                      <img src={hero.src} alt="" loading="lazy" />
                     ) : (
                       <div className="pc-noimg">{lang === 'ja' ? '時計ブログ' : 'Journal'}</div>
                     )}
