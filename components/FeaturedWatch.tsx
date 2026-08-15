@@ -32,6 +32,10 @@ export default function FeaturedWatch({ lang, date }: { lang: Lang; date: string
       const s = summary[key];
       if (!s?.image || !s.url || !s.lowestPrice) continue;
       if (s.lowestPrice < 200000) continue;
+      // 看板に「39015-1」のような型番だけの項目を出しても意味が伝わらない。
+      // 名前のある、人手で確かめたモデルに限る。
+      if (m.source === 'auto') continue;
+      if (!m.name_ja || m.name_ja === m.reference) continue;
       pool.push({
         key,
         brandJa: cat.brand.name_ja,
