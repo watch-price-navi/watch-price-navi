@@ -55,13 +55,27 @@ jobs:
           BLOG_MODEL: ${{ vars.BLOG_MODEL }}
         run: node scripts/generate-blog.mjs
 
+      # 日本語の字が入った投稿画像を作るため、ランナーに日本語フォントを入れる。
+      # 無いと文字が豆腐（□）になり、そのまま投稿されてしまう
+      - name: Install Japanese fonts
+        if: github.event.schedule != '0 9 * * *'
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq fonts-noto-cjk
+
+      - name: Build Instagram post
+        if: github.event.schedule != '0 9 * * *'
+        continue-on-error: true
+        env:
+          NEXT_PUBLIC_SITE_URL: ${{ vars.NEXT_PUBLIC_SITE_URL }}
+          NEXT_PUBLIC_BASE_PATH: ${{ vars.NEXT_PUBLIC_BASE_PATH }}
+        run: node scripts/build-instagram-post.mjs
+
       - name: Commit new blog post
         if: github.event.schedule != '0 9 * * *'
         continue-on-error: true
         run: |
           git config user.name "watch-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/blog
+          git add data/blog data/social public/social
           if git diff --cached --quiet; then
             echo "No new post"
           else
@@ -196,3 +210,20 @@ jobs:
 
       - uses: actions/deploy-pages@v4
         if: steps.pricecheck.outputs.deploy == 'true'
+
+      # Instagram は「公開URLの画像」しか受け付けないので、必ずデプロイ後に投稿する。
+      # 先に呼ぶと画像がまだ404で、投稿が必ず失敗する。
+      # 朝の回だけ（1日1投稿）。失敗してもサイトの更新は止めない。
+      - name: Post to Instagram
+        if: steps.pricecheck.outputs.deploy == 'true' && github.event.schedule != '0 9 * * *'
+        continue-on-error: true
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+        run: |
+          # GitHub Pages の反映には少し間がある。画像が取得できるまで待つ
+          for i in 1 2 3 4 5 6; do
+            sleep 30
+            node scripts/post-to-instagram.mjs && break
+            echo "リトライ $i/6"
+          done
