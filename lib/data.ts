@@ -206,19 +206,39 @@ export function getLowest(brandId: string, modelId: string): SummaryEntry | null
 // 「型番で検索したらページに辿り着ける」ことを優先した設定。
 export const MIN_OFFERS_FOR_PAGE = Number(process.env.MIN_OFFERS_FOR_PAGE ?? 2);
 
-export function hasOwnPage(brandId: string, modelId: string): boolean {
-  const summary = getSummary();
+let curatedKeysCache: Set<string> | null = null;
 
+/** 人手カタログ（source が 'auto' でない）のモデル。29,000件を何度も走査しないよう一度だけ作る */
+function getCuratedKeys(): Set<string> {
+  if (curatedKeysCache) return curatedKeysCache;
+  const s = new Set<string>();
+  for (const cat of getAllBrands()) {
+    for (const m of cat.models) {
+      if (m.source !== 'auto') s.add(`${cat.brand.id}/${m.id}`);
+    }
+  }
+  curatedKeysCache = s;
+  return s;
+}
+
+export function hasOwnPage(brandId: string, modelId: string): boolean {
+  // 人手カタログの968件は、出品が1件も無くても必ずページを持たせる。
+  //
+  // ここを出品数だけで判定していたため、記事が参照する基幹モデルのページが
+  // 生成されず、本文のリンクが24本まとめて404になっていた。
+  // しかも記事が取り上げる名品ほど国内に在庫が無い（雪白SBGA211、ランゲ サクソニア、
+  // リシャール・ミル等）ので、価値の高いページから順に消えるという最悪の形だった。
+  //
+  // 出品が無いモデルほど「買いたい人」より「持っていて相場を知りたい人」が来るため、
+  // 買取査定への導線としてはむしろ価値が高い、という事情もある。
+  if (getCuratedKeys().has(`${brandId}/${modelId}`)) return true;
+
+  const summary = getSummary();
   // 価格データが1件も無い状態でビルドされることがある。
   // 価格は API 規約（取得データの恒久保存の禁止）でリポジトリに保存していないため、
   // 収集を伴わない実行（コード修正時の push など）では data/prices が存在しない。
-  // そのとき全モデルが対象外になり generateStaticParams が空配列を返すと、
-  // output:'export' は「関数が無い」とみなしてビルドが落ちる。
-  // この場合は人手カタログ（実際に書いた内容がある968件）だけを生成対象にする。
-  if (Object.keys(summary).length === 0) {
-    const model = getBrand(brandId)?.models.find((m) => m.id === modelId);
-    return model ? model.source !== 'auto' : false;
-  }
+  // その場合は上の人手カタログだけが対象になる（generateStaticParams は空にならない）。
+  if (Object.keys(summary).length === 0) return false;
 
   const s = summary[`${brandId}/${modelId}`];
   return (s?.offerCount ?? 0) >= MIN_OFFERS_FOR_PAGE;

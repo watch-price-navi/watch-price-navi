@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { marked } from 'marked';
-import { insertFigures } from '@/lib/blog-figures';
+import { fixDeadLinks, insertFigures } from '@/lib/blog-figures';
 import AdSlot from '@/components/AdSlot';
 import ModelCard from '@/components/ModelCard';
 import { absUrl } from '@/lib/config';
@@ -65,8 +65,12 @@ export default async function BlogPostPage({
 
   const summary = getSummary();
   const body = lang === 'ja' ? post.body_ja : post.body_en;
-  // 本文中のモデルリンクを目印に商品写真を差し込む（記事データは変更しない）
-  const html = insertFigures(marked.parse(body || '', { async: false }) as string, lang);
+  // 先にページの無いモデルへのリンクを向け直し（404を残さない）、
+  // そのうえで本文中のモデルリンクを目印に商品写真を差し込む（記事データは変更しない）
+  const html = insertFigures(
+    fixDeadLinks(marked.parse(body || '', { async: false }) as string, lang),
+    lang,
+  );
   const related = resolveModels(post.relatedModels);
   const hero = post.heroModel ? resolveModels([post.heroModel])[0] ?? null : null;
   const heroSummary = post.heroModel ? summary[post.heroModel] ?? null : null;

@@ -1,4 +1,4 @@
-import { getSummary, getPriceData, getAllBrands } from '@/lib/data';
+import { getSummary, getPriceData, getAllBrands, hasOwnPage } from '@/lib/data';
 import { imageUrl } from '@/lib/image';
 import { formatJpy } from '@/lib/format';
 import { t, type Lang } from '@/lib/i18n';
@@ -18,6 +18,24 @@ const LINK_RE = /<a href="\/(ja|en)\/watch\/([a-z0-9-]+)\/([a-z0-9.\-]+)\/">([^<
 
 const esc = (s: string) =>
   s.replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c] as string);
+
+/**
+ * 記事本文の行き止まりリンクを直す。
+ *
+ * 記事は生成時にモデルへの内部リンクを埋めるが、そのモデルのページが
+ * 生成されるとは限らない（出品数が閾値に届かない自動収録モデルなど）。
+ * 実際に本番で24本が404になっていた。
+ *
+ * 記事JSONは書き換えず、描画のたびにページの有無を見て、
+ * 無いものはブランドページへ向け直す。ブランドページは必ず存在し、
+ * そのブランドの他のモデルへ進めるので読者は行き止まりにならない。
+ */
+export function fixDeadLinks(html: string, lang: Lang): string {
+  return html.replace(LINK_RE, (whole, l: string, brandId: string, modelId: string, label: string) => {
+    if (hasOwnPage(brandId, modelId)) return whole;
+    return `<a href="/${l}/brands/${brandId}/">${label}</a>`;
+  });
+}
 
 export function insertFigures(html: string, lang: Lang, max = 6): string {
   const summary = getSummary();
