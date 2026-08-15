@@ -20,6 +20,7 @@ const ENTRY_POINTS: { q: string; ja: string; en: string }[] = [
 
 export default async function Home({ params }: { params: Promise<{ lang: string }> }) {
   const lang = (await params).lang as Lang;
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
   const brands = getAllBrands();
   const summary = getSummary();
   const posts = getBlogPosts().slice(0, 3);
@@ -36,7 +37,17 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
 
   return (
     <>
-      <section className="hero">
+      {/* 背景写真のURLはここから渡す。CSS内の url() には basePath が付かないため
+          （サブディレクトリ配信のGitHub Pagesでは404になる） */}
+      <section
+        className="hero"
+        style={{
+          ['--hero-img' as string]: `url(${basePath}/img/hero-salon.webp)`,
+          // スマホはワイドのまま敷くと陳列ケースが画面外に出るので、縦向きに切った版を使う
+          ['--hero-img-sm' as string]: `url(${basePath}/img/hero-salon-sm.webp)`,
+        }}
+      >
+        <div className="scrim" aria-hidden="true" />
         <div className="container">
           <span className="eyebrow">{lang === 'ja' ? '毎日自動更新の価格比較' : 'Prices updated daily'}</span>
           <h1>{t(lang, 'hero_title')}</h1>

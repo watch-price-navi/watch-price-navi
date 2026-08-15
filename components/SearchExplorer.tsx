@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { useSearchParams } from 'next/navigation';
 import { useEffect, useMemo, useState } from 'react';
 import { t, type Lang } from '@/lib/i18n';
+import { filterEntries } from '@/lib/search-match';
 import { CASE_MATERIALS, GENDERS, MOVEMENTS, TAGS, type TaxEntry } from '@/lib/taxonomy';
 
 interface Entry {
@@ -163,20 +164,10 @@ export default function SearchExplorer({
   // 検索語・在庫以外の条件で絞った集合に対し、各ファセットの件数を出す
   const base = useMemo(() => {
     if (!entries) return [];
-    const tokens = q.trim().toLowerCase().split(/\s+/).filter(Boolean);
-    // 型番は表記ゆれが激しい（233.32.41.21.01.001 / 23332412101001 / 233-32-41...）。
-    // 区切り文字を落とした形でも照合し、どの書き方でも当たるようにする
-    const flatTokens = tokens.map((tk) => tk.replace(/[.\-/\s]/g, '')).filter(Boolean);
-    return entries.filter((e) => {
-      if (tokens.length) {
-        const hay = `${e.bja} ${e.ben} ${e.mja} ${e.men} ${e.ref ?? ''}`.toLowerCase();
-        const flatHay = hay.replace(/[.\-/\s]/g, '');
-        const hit = tokens.every((tk) => hay.includes(tk)) || flatTokens.every((tk) => flatHay.includes(tk));
-        if (!hit) return false;
-      }
-      if (inStockOnly && e.price == null) return false;
-      return true;
-    });
+    // 型番の表記ゆれ（233.32.41.21.01.001 / 23332412101001）も、
+    // 打ち間違い（ロレッスク）も lib/search-match が吸収する
+    const matched = filterEntries(entries, q);
+    return inStockOnly ? matched.filter((e) => e.price != null) : matched;
   }, [entries, q, inStockOnly]);
 
   const matchers = useMemo(() => {

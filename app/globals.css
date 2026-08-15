@@ -188,8 +188,10 @@ table.price-table td, table.model-table td, .post-date, .breadcrumb {
 /* ============ Search box (header / hero) ============ */
 /* 検索窓は「応接卓に置かれた白い盆」。暗い部屋の中で最も明るい面にする */
 .searchbox { position: relative; width: 100%; max-width: 660px; margin: 0 auto; }
+.searchbox form { position: relative; display: block; }
 .searchbox input {
-  width: 100%; padding: 18px 24px; font-size: 16.5px; font-family: inherit;
+  /* 右は虫めがねボタンのぶん空ける。文字がボタンの下に潜らないようにする */
+  width: 100%; padding: 18px 60px 18px 24px; font-size: 16.5px; font-family: inherit;
   line-height: 1.5;
   border: 1px solid rgba(255, 255, 255, 0.14); border-radius: var(--radius);
   background: var(--surface); color: var(--ink); outline: none;
@@ -200,38 +202,92 @@ table.price-table td, table.model-table td, .post-date, .breadcrumb {
 .searchbox input:focus {
   box-shadow: 0 0 0 2px var(--brass-lit), 0 18px 40px -20px rgba(0, 0, 0, 0.7);
 }
+/* 押せば検索が進むことを目に見える形で示す。指で押せる44px角を確保する */
+.searchbox-go {
+  position: absolute; right: 7px; top: 50%; transform: translateY(-50%);
+  width: 44px; height: 44px; display: grid; place-items: center;
+  background: none; border: none; padding: 0; cursor: pointer;
+  color: var(--brass-ink); border-radius: var(--radius-sm);
+  transition: color var(--dur) var(--ease), background var(--dur) var(--ease);
+}
+.searchbox-go:hover { color: var(--signal); background: var(--brass-soft); }
+/* 入力例。placeholder に入れると狭い画面で末尾が切れて読めないので外に出した */
+.searchbox-hint {
+  margin: 12px 0 0; font-size: 12px; letter-spacing: 0.04em;
+  color: #a79d8e; font-family: var(--num);
+}
 .search-results {
   position: absolute; top: calc(100% + 10px); left: 0; right: 0; z-index: 60;
   background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
   box-shadow: var(--shadow-lg); overflow: hidden; max-height: 420px; overflow-y: auto;
   text-align: left;
 }
+/* 横並びのままだと、狭い画面で型番が右にはみ出して読めなくなる。
+   折り返しを許して、入りきらない型番は次の行に落とす */
 .search-results a {
-  display: block; padding: 14px 20px; font-size: 14.5px; line-height: 1.6;
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 8px;
+  padding: 14px 20px; font-size: 14.5px; line-height: 1.6;
   border-bottom: 1px solid var(--line-soft);
   transition: background var(--dur) var(--ease);
 }
-.search-results a:last-child { border-bottom: none; }
-.search-results a:hover { background: var(--surface-2); }
+.search-results a:hover,
+.search-results a.is-active { background: var(--surface-2); }
 .search-results .sr-brand {
+  flex: 0 0 auto;
   color: var(--ink-faint); font-size: 11px; letter-spacing: 0.14em;
-  text-transform: uppercase; margin-right: 10px;
+  text-transform: uppercase;
 }
-.search-results .sr-ref { color: var(--brass-ink); font-size: 12px; margin-left: 8px; font-weight: 600; }
+.search-results .sr-name { flex: 1 1 auto; min-width: 0; overflow-wrap: anywhere; }
+.search-results .sr-ref {
+  flex: 0 0 auto; color: var(--brass-ink); font-size: 12px; font-weight: 600;
+  font-family: var(--num); letter-spacing: 0.02em;
+}
+/* 候補に無くても行き止まりにしない。必ず「全部を探す」出口を最後に置く */
+.search-all {
+  display: block; width: 100%; text-align: left; font: inherit; font-size: 13.5px;
+  padding: 14px 20px; cursor: pointer;
+  background: var(--surface-2); border: none; border-top: 1px solid var(--line);
+  color: var(--brass-ink); letter-spacing: 0.02em;
+}
+.search-all:hover { background: var(--brass-soft); color: var(--signal); }
 .search-empty { padding: 20px; font-size: 13.5px; color: var(--ink-faint); }
 
 /* ============ Hero ============ */
 /* 応接室そのもの。胡桃材の壁に、天井から一灯だけ落ちている */
 .hero {
-  background:
-    radial-gradient(1100px 460px at 50% -8%, rgba(201, 164, 106, 0.16), transparent 68%),
-    radial-gradient(700px 420px at 50% 120%, rgba(0, 0, 0, 0.35), transparent 70%),
-    linear-gradient(168deg, var(--walnut) 0%, var(--walnut-2) 52%, #1e1812 100%);
+  background: linear-gradient(168deg, var(--walnut) 0%, var(--walnut-2) 52%, #1e1812 100%);
   color: var(--header-ink);
   padding: 92px 0 100px;
   text-align: center;
   position: relative;
   overflow: hidden;
+  isolation: isolate;
+}
+/* 応接室の写真そのものを敷く。文字だけの画面は第一印象で損をする。
+   画像URLは --hero-img で受ける（CSSのurl()はbasePathが付かず、
+   GitHub Pagesのサブディレクトリ配信で404になるため、コンポーネント側から渡す） */
+.hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background-image: var(--hero-img, none);
+  /* 陳列ケースが右下に来る位置。中央は暗い壁のまま残り、見出しが乗る */
+  background-position: 62% 46%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* 暗幕。中央（文字が乗る列）を濃く、左右は薄くして写真を見せる。
+   一様に暗くすると写真を敷いた意味が消え、薄くすると文字が読めない。 */
+.hero > .scrim {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    radial-gradient(ellipse 780px 120% at 50% 50%,
+      rgba(20, 15, 11, 0.90) 0%, rgba(20, 15, 11, 0.72) 58%, rgba(20, 15, 11, 0.42) 100%),
+    radial-gradient(1100px 460px at 50% -8%, rgba(201, 164, 106, 0.14), transparent 68%);
 }
 /* 額縁の内側罫。壁ではなく「室内」であることの記号 */
 .hero::after {
@@ -952,6 +1008,25 @@ table.price-table, table.model-table {
 
   .hero { padding: 46px 0 52px; }
   .hero::after { inset: 10px; }
+  /* ワイドのまま敷くと陳列ケースが画面外に出て、ただの暗い板になる。縦向きに切った版に差し替える */
+  .hero::before {
+    background-image: var(--hero-img-sm, var(--hero-img, none));
+    background-position: 50% 40%;
+  }
+  /* 狭い画面では文字が横いっぱいに広がり、中央だけ濃くする形が効かない。
+     上から下へ濃さを変え、文字の多い上部を確実に読ませる */
+  .hero > .scrim {
+    background:
+      linear-gradient(180deg,
+        rgba(20, 15, 11, 0.90) 0%, rgba(20, 15, 11, 0.80) 58%, rgba(20, 15, 11, 0.66) 100%),
+      radial-gradient(600px 300px at 50% -10%, rgba(201, 164, 106, 0.12), transparent 70%);
+  }
+  /* 左右の余白を詰め、入力文字と虫めがねが重ならない幅を確保する */
+  .searchbox input { padding: 15px 50px 15px 16px; }
+  .searchbox-go { width: 42px; height: 42px; right: 5px; }
+  .searchbox-hint { font-size: 11.5px; margin-top: 10px; }
+  .search-results a { padding: 13px 16px; }
+  .search-all { padding: 13px 16px; }
   .hero h1 { letter-spacing: 0.03em; line-height: 1.55; }
   .hero p.sub { margin-bottom: 30px; font-size: 14.5px; }
   .hero-stats { gap: 0; margin-top: 34px; }

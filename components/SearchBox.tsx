@@ -1,7 +1,9 @@
 'use client';
 
 import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 import { useEffect, useRef, useState } from 'react';
+import { searchEntries } from '@/lib/search-match';
 import { t, type Lang } from '@/lib/i18n';
 
 interface Entry {
@@ -17,9 +19,12 @@ interface Entry {
 let indexCache: Entry[] | null = null;
 
 export default function SearchBox({ lang }: { lang: Lang }) {
+  const router = useRouter();
   const [query, setQuery] = useState('');
   const [entries, setEntries] = useState<Entry[]>([]);
   const [open, setOpen] = useState(false);
+  // キーボードで候補を選べるようにする。-1 は「候補を選んでいない＝そのまま全文検索」
+  const [cursor, setCursor] = useState(-1);
   const boxRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -45,52 +50,98 @@ export default function SearchBox({ lang }: { lang: Lang }) {
     return () => document.removeEventListener('mousedown', onClick);
   }, []);
 
-  const q = query.trim().toLowerCase();
-  const tokens = q.split(/\s+/).filter(Boolean);
-  const results =
-    tokens.length === 0
-      ? []
-      : entries
-          .filter((e) => {
-            const hay = `${e.bja} ${e.ben} ${e.mja} ${e.men} ${e.ref ?? ''}`.toLowerCase();
-            return tokens.every((tk) => hay.includes(tk));
-          })
-          .slice(0, 8);
+  const trimmed = query.trim();
+  const results = trimmed ? searchEntries(entries, trimmed, 8) : [];
+
+  const goToSearch = () => {
+    if (!trimmed) return;
+    setOpen(false);
+    router.push(`/${lang}/search/?q=${encodeURIComponent(trimmed)}`);
+  };
+
+  const goToModel = (e: Entry) => {
+    setOpen(false);
+    router.push(`/${lang}/watch/${e.b}/${e.m}/`);
+  };
 
   return (
     <div className="searchbox" ref={boxRef}>
-      <input
-        type="search"
-        value={query}
-        placeholder={t(lang, 'search_placeholder')}
-        onChange={(e) => {
-          setQuery(e.target.value);
-          setOpen(true);
+      {/*
+        form にしているのは、スマホのキーボードに「検索」キーを出し、
+        押したときに素直に検索が進むようにするため。
+        候補を選ばずそのまま送信したときは、絞り込みページへ全文で渡す。
+      */}
+      <form
+        role="search"
+        onSubmit={(ev) => {
+          ev.preventDefault();
+          if (cursor >= 0 && results[cursor]) goToModel(results[cursor]);
+          else goToSearch();
         }}
-        onFocus={() => setOpen(true)}
-        onKeyDown={(e) => {
-          if (e.key === 'Escape') setOpen(false);
-        }}
-        aria-label={t(lang, 'search_placeholder')}
-      />
-      {open && tokens.length > 0 && (
+      >
+        <input
+          type="search"
+          value={query}
+          placeholder={t(lang, 'search_placeholder')}
+          enterKeyHint="search"
+          autoComplete="off"
+          autoCorrect="off"
+          autoCapitalize="off"
+          spellCheck={false}
+          onChange={(e) => {
+            setQuery(e.target.value);
+            setCursor(-1);
+            setOpen(true);
+          }}
+          onFocus={() => setOpen(true)}
+          onKeyDown={(e) => {
+            if (e.key === 'Escape') {
+              setOpen(false);
+            } else if (e.key === 'ArrowDown') {
+              e.preventDefault();
+              setOpen(true);
+              setCursor((c) => Math.min(c + 1, results.length - 1));
+            } else if (e.key === 'ArrowUp') {
+              e.preventDefault();
+              setCursor((c) => Math.max(c - 1, -1));
+            }
+          }}
+          aria-label={t(lang, 'search_aria')}
+        />
+        <button type="submit" className="searchbox-go" aria-label={t(lang, 'search_submit')}>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <circle cx="11" cy="11" r="7" stroke="currentColor" strokeWidth="2" />
+            <path d="M16.5 16.5 21 21" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+          </svg>
+        </button>
+      </form>
+
+      {/* 例文は placeholder に入れると狭い画面で切れて読めない。外に出す */}
+      <p className="searchbox-hint">{t(lang, 'search_example')}</p>
+
+      {open && trimmed.length > 0 && (
         <div className="search-results">
-          {results.length === 0 ? (
-            <div className="search-empty">{t(lang, 'search_no_results')}</div>
-          ) : (
-            results.map((e) => (
-              <Link
-                key={`${e.b}/${e.m}`}
-                href={`/${lang}/watch/${e.b}/${e.m}/`}
-                onClick={() => setOpen(false)}
-                prefetch={false}
-              >
-                <span className="sr-brand">{lang === 'ja' ? e.bja : e.ben}</span>
-                {lang === 'ja' ? e.mja : e.men}
-                {e.ref && <span className="sr-ref">{e.ref}</span>}
-              </Link>
-            ))
-          )}
+          {results.map((e, i) => (
+            <Link
+              key={`${e.b}/${e.m}`}
+              href={`/${lang}/watch/${e.b}/${e.m}/`}
+              onClick={() => setOpen(false)}
+              onMouseEnter={() => setCursor(i)}
+              className={i === cursor ? 'is-active' : undefined}
+              prefetch={false}
+            >
+              <span className="sr-brand">{lang === 'ja' ? e.bja : e.ben}</span>
+              <span className="sr-name">{lang === 'ja' ? e.mja : e.men}</span>
+              {e.ref && <span className="sr-ref">{e.ref}</span>}
+            </Link>
+          ))}
+          {/*
+            候補が0件でも行き止まりにしない。絞り込みページには
+            楽天・Yahoo!をそのキーワードで検索する導線があるため、必ず次の一手が残る
+          */}
+          <button type="button" className="search-all" onClick={goToSearch}>
+            {t(lang, results.length === 0 ? 'search_no_results_go' : 'search_see_all').replace('{q}', trimmed)}
+          </button>
         </div>
       )}
     </div>
