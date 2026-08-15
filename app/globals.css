@@ -1156,6 +1156,59 @@ table.price-table, table.model-table {
    2. 書き出しに大きな飾り文字を置き、記事の始まりを目で分からせる
    3. 引用は左罫の囲みではなく、段を割って大きく組む（雑誌の「抜き出し」） */
 
+/* ---- コーディネート提案（SAFARI の誌面構造を借りる）---- */
+/* 通番 → 装いの名 → 縦長写真 → 着用アイテムの列挙 → その時計が合う理由。
+   番号は飾りではなく、読者が 01 を見て 02 を見る、と順に辿るための道しるべ。 */
+.styling { padding-top: 8px; }
+.styling-lead { font-size: 15px; line-height: 2.0; color: var(--ink-soft); margin: 0 0 8px; }
+.look {
+  padding: 40px 0 44px;
+  border-top: 1px solid var(--line);
+  margin-top: 36px;
+}
+.look:first-of-type { border-top: none; margin-top: 12px; }
+.look-no {
+  font-family: var(--num); font-size: 12px; letter-spacing: 0.3em;
+  color: var(--brass-ink); margin-bottom: 10px;
+}
+.look-name {
+  font-family: var(--serif); font-size: clamp(20px, 2.6vw, 26px); font-weight: 500;
+  line-height: 1.6; letter-spacing: 0.04em; margin: 0 0 20px; color: var(--ink);
+}
+/* 装いの写真は縦長。人物ではなく「服の見え方」を見せるので、幅を絞って高さを出す */
+.look-photo {
+  display: block; width: 100%; max-width: 520px; height: auto;
+  margin: 0 0 22px; box-shadow: var(--shadow-md);
+}
+.look-lead { font-size: 15.5px; line-height: 2.05; color: var(--ink-soft); margin: 0 0 22px; }
+.look-items {
+  background: var(--surface-2); border: 1px solid var(--line);
+  padding: 18px 22px; margin-bottom: 18px;
+}
+.look-items > b {
+  display: block; font-size: 11px; letter-spacing: 0.22em; text-transform: uppercase;
+  color: var(--brass-ink); margin-bottom: 10px;
+}
+.look-items ul { margin: 0; padding: 0; list-style: none; }
+.look-items li {
+  font-size: 14.5px; line-height: 1.9; color: var(--ink-soft);
+  padding-left: 16px; position: relative;
+}
+.look-items li::before {
+  content: ''; position: absolute; left: 0; top: 0.85em;
+  width: 6px; height: 1px; background: var(--brass);
+}
+.look-fits { font-size: 14.5px; line-height: 1.95; color: var(--ink-soft); margin: 0; }
+.look-fits b {
+  color: var(--ink); font-weight: 700; font-size: 12.5px;
+  letter-spacing: 0.1em;
+}
+@media (max-width: 640px) {
+  .look { padding: 30px 0 34px; margin-top: 26px; }
+  .look-photo { max-width: none; }
+  .look-items { padding: 15px 16px; }
+}
+
 /* 創業者の肖像・発祥地の風景。実写なので余白で額装せず、面いっぱいに置く */
 .heritage-figure {
   margin: 44px calc(-1 * clamp(0px, 6vw, 92px));

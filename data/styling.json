@@ -1,0 +1,79 @@
+{
+  "note": "記事に載せるコーディネート提案。写真はオリジナルの作成画像（実在の人物・実在の商品ではないためキャプションで『イメージ』と明示する）。どの装いを出すかは lib/styling.ts が時計の性格（タグ・素材・ケース径）から選ぶ。",
+  "disclaimer_ja": "写真はスタイリングのイメージです。掲載の時計そのものを撮影したものではありません。",
+  "disclaimer_en": "Styling images are illustrative and do not depict the watch itself.",
+  "looks": [
+    {
+      "id": "business",
+      "image": "/img/styling/business.webp",
+      "name_ja": "濃紺のスーツに、白いシャツ",
+      "name_en": "Navy suit, white shirt",
+      "lead_ja": "商談の席で、袖口から一瞬だけ覗く。時計が最も雄弁になるのはこの一瞬で、だからこそ主張の強さより収まりの良さが効く。",
+      "lead_en": "A glimpse at the cuff across the negotiating table. This is where a watch speaks loudest — and why restraint beats assertion.",
+      "items_ja": ["ネイビーのウールスーツ", "白のブロードシャツ", "チャコールのニットタイ", "黒のストレートチップ"],
+      "items_en": ["Navy wool suit", "White broadcloth shirt", "Charcoal knitted tie", "Black cap-toe oxfords"],
+      "fits_ja": "文字盤が静かで、40mm前後までのモデル。革ベルトなら黒か濃茶を選ぶと袖口で喧嘩しない。",
+      "fits_en": "A quiet dial, up to about 40mm. On leather, black or dark brown keeps the peace at the cuff."
+    },
+    {
+      "id": "jacket",
+      "image": "/img/styling/jacket.webp",
+      "name_ja": "ジャケットに、ハイゲージのニット",
+      "name_en": "Jacket over fine-gauge knit",
+      "lead_ja": "タイを外した分だけ、手首に語らせる余地が生まれる。スーツよりも少しだけ大きく、少しだけ機械的な時計が似合う。",
+      "lead_en": "Losing the tie leaves room for the wrist to speak. A little larger, a little more mechanical than the suit would allow.",
+      "items_ja": ["グレーのアンコン仕立てジャケット", "キャメルのハイゲージニット", "濃紺のトラウザーズ", "スエードのローファー"],
+      "items_en": ["Grey unstructured jacket", "Camel fine-gauge knit", "Navy trousers", "Suede loafers"],
+      "fits_ja": "クロノグラフやパワーリザーブなど、盤面に情報のあるモデル。40〜42mmが最も収まる。",
+      "fits_en": "Chronographs and power reserves — dials with something to read. 40–42mm sits best."
+    },
+    {
+      "id": "smart-casual",
+      "image": "/img/styling/smart-casual.webp",
+      "name_ja": "オックスフォードシャツを、腕まくりして",
+      "name_en": "Oxford shirt, sleeves rolled",
+      "lead_ja": "袖をまくった腕には、隠す前提の時計は似合わない。見られることを織り込んだ一本を選ぶ。",
+      "lead_en": "A rolled sleeve hides nothing. Choose a watch that expects to be seen.",
+      "items_ja": ["ウォッシュドオックスフォードのBDシャツ", "ストーンカラーのチノ", "レザーのベルト", "白のレザースニーカー"],
+      "items_en": ["Washed oxford button-down", "Stone chinos", "Leather belt", "White leather sneakers"],
+      "fits_ja": "ステンレスブレスレットのスポーツモデル。多少の傷を気にせず使えることが、この装いでは価値になる。",
+      "fits_en": "A steel bracelet sports watch. Being able to ignore a scratch is part of the point here."
+    },
+    {
+      "id": "formal",
+      "image": "/img/styling/formal.webp",
+      "name_ja": "ブラックタイの夜に",
+      "name_en": "Black tie",
+      "lead_ja": "本来この場に腕時計は要らない。それでも着けるなら、薄く、静かで、袖に隠れる一本だけが許される。",
+      "lead_en": "Strictly, no watch belongs here. If one does, it must be thin, quiet, and content to stay under the cuff.",
+      "items_ja": ["ミッドナイトのタキシード", "ウイングカラーのドレスシャツ", "黒の蝶タイ", "エナメルのオペラパンプス"],
+      "items_en": ["Midnight tuxedo", "Marcella dress shirt", "Black bow tie", "Patent opera pumps"],
+      "fits_ja": "薄型の手巻き、38mm以下、黒か白の無地文字盤。金無垢やアリゲーターが最も場に合う。",
+      "fits_en": "A thin hand-wound piece, under 38mm, plain black or white. Gold and alligator suit the room."
+    },
+    {
+      "id": "resort",
+      "image": "/img/styling/resort.webp",
+      "name_ja": "リネンのシャツを、開けて着る",
+      "name_en": "Open-collar linen",
+      "lead_ja": "陽の下では、金属がよく光る。汗や水を気にしなくていいことが、そのまま装いの余裕になる。",
+      "lead_en": "Metal comes alive in sunlight. Not having to worry about sweat or water is itself a kind of ease.",
+      "items_ja": ["エクリュのリネンシャツ", "生成りのイージーパンツ", "ラフィアのハット", "レザーサンダル"],
+      "items_en": ["Ecru linen shirt", "Undyed easy trousers", "Raffia hat", "Leather sandals"],
+      "fits_ja": "ダイバーズ、GMT、そして防水性能のあるモデル。ラバーやNATOに替えると一気に軽くなる。",
+      "fits_en": "Divers, GMTs, anything properly water-resistant. Swap to rubber or NATO and it lightens instantly."
+    },
+    {
+      "id": "weekend",
+      "image": "/img/styling/weekend.webp",
+      "name_ja": "レザーブルゾンに、デニム",
+      "name_en": "Leather blouson and denim",
+      "lead_ja": "着込むほど良くなる服には、経年で表情の変わる時計が似合う。新品の完璧さより、使った痕跡に価値がある。",
+      "lead_en": "Clothes that improve with wear deserve a watch that ages with them. Traces of use beat factory perfection.",
+      "items_ja": ["ブラウンのレザーブルゾン", "杢グレーのスウェット", "インディゴデニム", "スエードブーツ"],
+      "items_en": ["Brown leather blouson", "Heather grey sweatshirt", "Indigo denim", "Suede boots"],
+      "fits_ja": "パイロットウォッチ、フィールドウォッチ、ヴィンテージ。革ベルトが焼けていくのも含めて楽しむ。",
+      "fits_en": "Pilot watches, field watches, vintage. The patina on the strap is part of the pleasure."
+    }
+  ]
+}

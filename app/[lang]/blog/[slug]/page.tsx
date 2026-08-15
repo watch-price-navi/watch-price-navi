@@ -5,9 +5,10 @@ import { marked } from 'marked';
 import { fixDeadLinks, insertFigures, insertHeritageFigures } from '@/lib/blog-figures';
 import AdSlot from '@/components/AdSlot';
 import ModelCard from '@/components/ModelCard';
+import StylingSection from '@/components/StylingSection';
 import { absUrl } from '@/lib/config';
 import { getBlogPost, getBlogPosts } from '@/lib/blog';
-import { getModel, getSummary } from '@/lib/data';
+import { getBrand, getModel, getSummary } from '@/lib/data';
 import { formatDate } from '@/lib/format';
 import { imageUrl } from '@/lib/image';
 import { LANGS, t, type Lang } from '@/lib/i18n';
@@ -53,6 +54,39 @@ function resolveModels(ids: string[]) {
     .filter((x): x is NonNullable<typeof x> => x !== null);
 }
 
+/**
+ * 「一緒に検討したいモデル」を必ず写真付きにする。
+ *
+ * 商品写真は楽天・Yahoo!の出品からしか取れないため、出品が無いモデルには写真が無い。
+ * 写真の無いカードが混ざると誌面が崩れるので、写真のあるものだけを並べ、
+ * 足りなければ同じブランドの写真があるモデルで補う。
+ * 記事が挙げたモデルを優先し、補充は人気モデルから採る。
+ */
+function relatedWithPhotos(
+  post: { relatedModels: string[]; heroModel?: string | null },
+  summary: Record<string, { image?: string | null } | undefined>,
+  want = 6,
+) {
+  const hasPhoto = (key: string) => Boolean(summary[key]?.image);
+  const picked = post.relatedModels.filter(hasPhoto);
+  const taken = new Set([...picked, post.heroModel ?? '']);
+
+  if (picked.length < want) {
+    // 記事が扱ったブランドの中から、写真があって人気の高いものを補う
+    const brandIds = [...new Set([post.heroModel, ...post.relatedModels].filter(Boolean).map((k) => (k as string).split('/')[0]))];
+    const pool = brandIds
+      .flatMap((bid) => (getBrand(bid)?.models ?? []).map((m) => ({ key: `${bid}/${m.id}`, popular: Boolean(m.popular) })))
+      .filter((c) => !taken.has(c.key) && hasPhoto(c.key))
+      .sort((a, b) => Number(b.popular) - Number(a.popular));
+    for (const c of pool) {
+      if (picked.length >= want) break;
+      picked.push(c.key);
+      taken.add(c.key);
+    }
+  }
+  return resolveModels(picked.slice(0, want));
+}
+
 export default async function BlogPostPage({
   params,
 }: {
@@ -83,7 +117,7 @@ export default async function BlogPostPage({
     ),
     lang,
   );
-  const related = resolveModels(post.relatedModels);
+  const related = relatedWithPhotos(post, summary);
   const hero = post.heroModel ? resolveModels([post.heroModel])[0] ?? null : null;
   const heroSummary = post.heroModel ? summary[post.heroModel] ?? null : null;
   const others = getBlogPosts().filter((p) => p.slug !== post.slug).slice(0, 3);
@@ -140,6 +174,15 @@ export default async function BlogPostPage({
         )}
 
         <div className="prose article-body" dangerouslySetInnerHTML={{ __html: html }} />
+
+        {/* 「この時計に何を着るか」。主役モデルの性格から装いを選んで出す */}
+        {hero && (
+          <StylingSection
+            lang={lang}
+            model={hero.model}
+            watchName={lang === 'ja' ? hero.model.name_ja : hero.model.name_en}
+          />
+        )}
 
         <AdSlot />
 
