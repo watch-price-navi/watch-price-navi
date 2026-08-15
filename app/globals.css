@@ -290,8 +290,8 @@ table.price-table td, table.model-table td, .post-date, .breadcrumb {
   pointer-events: none;
   background:
     radial-gradient(ellipse 700px 130% at 50% 50%,
-      rgba(18, 13, 9, 0.70) 0%, rgba(18, 13, 9, 0.62) 47%,
-      rgba(18, 13, 9, 0.26) 76%, rgba(18, 13, 9, 0.07) 100%),
+      rgba(18, 13, 9, 0.62) 0%, rgba(18, 13, 9, 0.54) 47%,
+      rgba(18, 13, 9, 0.21) 76%, rgba(18, 13, 9, 0.05) 100%),
     radial-gradient(1100px 460px at 50% -8%, rgba(201, 164, 106, 0.10), transparent 68%);
 }
 /* 幕を薄くしたぶん、文字の足元だけを局所的に締める。
@@ -1034,7 +1034,7 @@ table.price-table, table.model-table {
   .hero > .scrim {
     background:
       linear-gradient(180deg,
-        rgba(18, 13, 9, 0.74) 0%, rgba(18, 13, 9, 0.66) 58%, rgba(18, 13, 9, 0.54) 100%),
+        rgba(18, 13, 9, 0.68) 0%, rgba(18, 13, 9, 0.60) 58%, rgba(18, 13, 9, 0.48) 100%),
       radial-gradient(600px 300px at 50% -10%, rgba(201, 164, 106, 0.09), transparent 70%);
   }
   /* 左右の余白を詰め、入力文字と虫めがねが重ならない幅を確保する */
