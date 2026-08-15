@@ -279,16 +279,16 @@ table.price-table td, table.model-table td, .post-date, .breadcrumb {
 }
 /* 暗幕。中央（文字が乗る列）を濃く、左右は薄くして写真を見せる。
    一様に暗くすると写真を敷いた意味が消え、薄くすると文字が読めない。
-   淡いオーク材の店内は明るいので、以前の応接室より全体に濃くしている。 */
+   濃い大理石の店内はもともと暗いので、石目と真鍮が沈まないよう薄めにしている。 */
 .hero > .scrim {
   position: absolute;
   inset: 0;
   z-index: -1;
   pointer-events: none;
   background:
-    radial-gradient(ellipse 800px 125% at 50% 50%,
-      rgba(20, 15, 11, 0.88) 0%, rgba(20, 15, 11, 0.78) 58%, rgba(20, 15, 11, 0.58) 100%),
-    radial-gradient(1100px 460px at 50% -8%, rgba(201, 164, 106, 0.12), transparent 68%);
+    radial-gradient(ellipse 820px 125% at 50% 50%,
+      rgba(18, 13, 9, 0.84) 0%, rgba(18, 13, 9, 0.70) 58%, rgba(18, 13, 9, 0.44) 100%),
+    radial-gradient(1100px 460px at 50% -8%, rgba(201, 164, 106, 0.10), transparent 68%);
 }
 /* 額縁の内側罫。壁ではなく「室内」であることの記号 */
 .hero::after {
@@ -1019,8 +1019,8 @@ table.price-table, table.model-table {
   .hero > .scrim {
     background:
       linear-gradient(180deg,
-        rgba(20, 15, 11, 0.90) 0%, rgba(20, 15, 11, 0.82) 58%, rgba(20, 15, 11, 0.70) 100%),
-      radial-gradient(600px 300px at 50% -10%, rgba(201, 164, 106, 0.10), transparent 70%);
+        rgba(18, 13, 9, 0.86) 0%, rgba(18, 13, 9, 0.76) 58%, rgba(18, 13, 9, 0.60) 100%),
+      radial-gradient(600px 300px at 50% -10%, rgba(201, 164, 106, 0.09), transparent 70%);
   }
   /* 左右の余白を詰め、入力文字と虫めがねが重ならない幅を確保する */
   .searchbox input { padding: 15px 50px 15px 16px; }
