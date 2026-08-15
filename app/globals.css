@@ -214,7 +214,8 @@ table.price-table td, table.model-table td, .post-date, .breadcrumb {
 /* 入力例。placeholder に入れると狭い画面で末尾が切れて読めないので外に出した */
 .searchbox-hint {
   margin: 12px 0 0; font-size: 12px; letter-spacing: 0.04em;
-  color: #a79d8e; font-family: var(--num);
+  /* 幕を薄くした結果、この行が灯りの入ったケースの上に来ると沈む。少し明るく置く */
+  color: #c6bdad; font-family: var(--num);
 }
 .search-results {
   position: absolute; top: calc(100% + 10px); left: 0; right: 0; z-index: 60;
@@ -277,19 +278,31 @@ table.price-table td, table.model-table td, .post-date, .breadcrumb {
   background-size: cover;
   background-repeat: no-repeat;
 }
-/* 暗幕。中央（文字が乗る列）を濃く、左右は薄くして写真を見せる。
-   一様に暗くすると写真を敷いた意味が消え、薄くすると文字が読めない。
-   濃い大理石の店内はもともと暗いので、石目と真鍮が沈まないよう薄めにしている。 */
+/* 暗幕。
+   幕を濃くすれば文字は読めるが、大理石の石目と真鍮が灰色の靄に沈んでしまう。
+   そこで幕は文字が乗る幅（約660px）までだけ効かせ、その外側では一気に抜く。
+   足りないぶんのコントラストは文字側の影で補う。この配分は実際に合成して確認した。
+   47% = 330px = 文字ブロックの端。ここまでは濃さを保ち、そこから外へ落とす。 */
 .hero > .scrim {
   position: absolute;
   inset: 0;
   z-index: -1;
   pointer-events: none;
   background:
-    radial-gradient(ellipse 820px 125% at 50% 50%,
-      rgba(18, 13, 9, 0.84) 0%, rgba(18, 13, 9, 0.70) 58%, rgba(18, 13, 9, 0.44) 100%),
+    radial-gradient(ellipse 700px 130% at 50% 50%,
+      rgba(18, 13, 9, 0.70) 0%, rgba(18, 13, 9, 0.62) 47%,
+      rgba(18, 13, 9, 0.26) 76%, rgba(18, 13, 9, 0.07) 100%),
     radial-gradient(1100px 460px at 50% -8%, rgba(201, 164, 106, 0.10), transparent 68%);
 }
+/* 幕を薄くしたぶん、文字の足元だけを局所的に締める。
+   面で暗くするより、写真を殺さずにコントラストを稼げる */
+.hero h1 { text-shadow: 0 2px 24px rgba(0, 0, 0, 0.72), 0 1px 3px rgba(0, 0, 0, 0.45); }
+.hero .eyebrow,
+.hero p.sub,
+.hero .searchbox-hint,
+.hero-stats .stat b,
+.hero-stats .stat span,
+.hero-links a { text-shadow: 0 1px 14px rgba(0, 0, 0, 0.78), 0 1px 2px rgba(0, 0, 0, 0.5); }
 /* 額縁の内側罫。壁ではなく「室内」であることの記号 */
 .hero::after {
   content: ''; position: absolute; inset: 22px;
@@ -1016,10 +1029,12 @@ table.price-table, table.model-table {
   }
   /* 狭い画面では文字が横いっぱいに広がり、中央だけ濃くする形が効かない。
      上から下へ濃さを変え、文字の多い上部を確実に読ませる */
+  /* 狭い画面では文字が横いっぱいに広がり、中央だけ濃くする形が効かない。
+     縦方向で濃さを変える。ここも実際に合成して、石が見えて文字が読める配分にした */
   .hero > .scrim {
     background:
       linear-gradient(180deg,
-        rgba(18, 13, 9, 0.86) 0%, rgba(18, 13, 9, 0.76) 58%, rgba(18, 13, 9, 0.60) 100%),
+        rgba(18, 13, 9, 0.74) 0%, rgba(18, 13, 9, 0.66) 58%, rgba(18, 13, 9, 0.54) 100%),
       radial-gradient(600px 300px at 50% -10%, rgba(201, 164, 106, 0.09), transparent 70%);
   }
   /* 左右の余白を詰め、入力文字と虫めがねが重ならない幅を確保する */
