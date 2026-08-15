@@ -7,6 +7,16 @@ import { formatDate } from '@/lib/format';
 import { imageUrl } from '@/lib/image';
 import { t, type Lang } from '@/lib/i18n';
 
+/**
+ * ヒーローの背景写真。現代の高級時計ブティックの店内。
+ * 候補は public/img/hero-{a,b,c}.webp（PC用）と hero-{a,b,c}-sm.webp（スマホ用の切り出し）。
+ * 差し替えはこの1文字を変えるだけでよい。
+ *   a: 壁面に並ぶ照明入りの陳列ケース（奥へ続く）
+ *   b: 左右対称。左は陳列ケースの壁、正面に2つのニッチ
+ *   c: 広い店内。左右に陳列ケース、中央は通路
+ */
+const HERO = 'a';
+
 const ENTRY_POINTS: { q: string; ja: string; en: string }[] = [
   { q: 'tag=diver', ja: 'ダイバーズ', en: 'Divers' },
   { q: 'tag=chronograph', ja: 'クロノグラフ', en: 'Chronographs' },
@@ -42,9 +52,9 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
       <section
         className="hero"
         style={{
-          ['--hero-img' as string]: `url(${basePath}/img/hero-salon.webp)`,
+          ['--hero-img' as string]: `url(${basePath}/img/hero-${HERO}.webp)`,
           // スマホはワイドのまま敷くと陳列ケースが画面外に出るので、縦向きに切った版を使う
-          ['--hero-img-sm' as string]: `url(${basePath}/img/hero-salon-sm.webp)`,
+          ['--hero-img-sm' as string]: `url(${basePath}/img/hero-${HERO}-sm.webp)`,
         }}
       >
         <div className="scrim" aria-hidden="true" />

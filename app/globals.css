@@ -272,22 +272,23 @@ table.price-table td, table.model-table td, .post-date, .breadcrumb {
   inset: 0;
   z-index: -1;
   background-image: var(--hero-img, none);
-  /* 陳列ケースが右下に来る位置。中央は暗い壁のまま残り、見出しが乗る */
-  background-position: 62% 46%;
+  /* 陳列ケースは画像の高さの中ほどにある。cover では縦が削られるので中央を残す */
+  background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
 }
 /* 暗幕。中央（文字が乗る列）を濃く、左右は薄くして写真を見せる。
-   一様に暗くすると写真を敷いた意味が消え、薄くすると文字が読めない。 */
+   一様に暗くすると写真を敷いた意味が消え、薄くすると文字が読めない。
+   淡いオーク材の店内は明るいので、以前の応接室より全体に濃くしている。 */
 .hero > .scrim {
   position: absolute;
   inset: 0;
   z-index: -1;
   pointer-events: none;
   background:
-    radial-gradient(ellipse 780px 120% at 50% 50%,
-      rgba(20, 15, 11, 0.90) 0%, rgba(20, 15, 11, 0.72) 58%, rgba(20, 15, 11, 0.42) 100%),
-    radial-gradient(1100px 460px at 50% -8%, rgba(201, 164, 106, 0.14), transparent 68%);
+    radial-gradient(ellipse 800px 125% at 50% 50%,
+      rgba(20, 15, 11, 0.88) 0%, rgba(20, 15, 11, 0.78) 58%, rgba(20, 15, 11, 0.58) 100%),
+    radial-gradient(1100px 460px at 50% -8%, rgba(201, 164, 106, 0.12), transparent 68%);
 }
 /* 額縁の内側罫。壁ではなく「室内」であることの記号 */
 .hero::after {
@@ -1018,8 +1019,8 @@ table.price-table, table.model-table {
   .hero > .scrim {
     background:
       linear-gradient(180deg,
-        rgba(20, 15, 11, 0.90) 0%, rgba(20, 15, 11, 0.80) 58%, rgba(20, 15, 11, 0.66) 100%),
-      radial-gradient(600px 300px at 50% -10%, rgba(201, 164, 106, 0.12), transparent 70%);
+        rgba(20, 15, 11, 0.90) 0%, rgba(20, 15, 11, 0.82) 58%, rgba(20, 15, 11, 0.70) 100%),
+      radial-gradient(600px 300px at 50% -10%, rgba(201, 164, 106, 0.10), transparent 70%);
   }
   /* 左右の余白を詰め、入力文字と虫めがねが重ならない幅を確保する */
   .searchbox input { padding: 15px 50px 15px 16px; }
