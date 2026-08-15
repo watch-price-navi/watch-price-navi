@@ -25,9 +25,13 @@ export default function DealerLinks({
       </p>
       <div className="dealer-grid">
         {dealers.map((d) => {
-          let url = d.searchUrlTemplate
-            ? d.searchUrlTemplate.replace('{q}', encodeURIComponent(keyword))
-            : d.homepage;
+          // ASPの計測リンクは飛び先が固定でモデル名を渡せない。加工すると成果が
+          // 計上されなくなるため、そのまま使う（型番検索は各店のサイト内で行ってもらう）
+          let url = d.affiliateUrl
+            ? d.affiliateUrl
+            : d.searchUrlTemplate
+              ? d.searchUrlTemplate.replace('{q}', encodeURIComponent(keyword))
+              : d.homepage;
           // 成果報酬のある提携先は、トラッキングIDを付けたうえで sponsored を明示する。
           // 提携IDは環境変数で渡す（未設定なら素のリンクとして機能する）
           if (d.affiliate && d.id === 'ebay' && EBAY_CAMPID) {

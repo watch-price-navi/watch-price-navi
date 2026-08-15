@@ -81,6 +81,12 @@ export interface Dealer {
   handles: 'new' | 'used' | 'both';
   /** 成果報酬のある提携先。true なら rel="sponsored" と広告表示を出す */
   affiliate?: boolean;
+  /**
+   * ASP発行の成果計測リンク。指定時はこれをそのまま使う。
+   * ASPのリンクは飛び先が固定でモデル名を渡せないため、searchUrlTemplate より優先する
+   * （URLを加工すると成果が計上されない）。
+   */
+  affiliateUrl?: string;
   note_ja: string;
   note_en: string;
 }

@@ -16,9 +16,11 @@ permissions:
 
 concurrency:
   group: pages
-  # 走査は数時間かかる。その最中にコードを直したとき、古い実行の完了を待たされて
-  # 修正がいつまでも公開されないのを防ぐため、新しい実行を優先する。
-  cancel-in-progress: true
+  # 進行中の実行を絶対に止めない。
+  # 以前 true にしていたため、価格収集(2〜3時間)の最中にコードを push すると
+  # 収集ごと打ち切られ、価格も画像も入らないまま公開される事故が3回起きた。
+  # 待たされるのは不便だが、走っている仕事を殺すよりはるかにましである。
+  cancel-in-progress: false
 
 jobs:
   update-build-deploy:
@@ -170,10 +172,27 @@ jobs:
           NEXT_PUBLIC_CONTACT_EMAIL: ${{ vars.NEXT_PUBLIC_CONTACT_EMAIL }}
         run: npm run build
 
+      # 価格が入っていないビルドで公開してはいけない。
+      # push では価格収集を飛ばすため、そのまま公開すると価格も画像も無いサイトが
+      # 良い版を上書きしてしまう。価格データの有無を見て公開の可否を決める。
+      - name: Check price data before deploying
+        id: pricecheck
+        run: |
+          if [ -s data/prices/summary.json ] && [ "$(node -p "Object.keys(require('./data/prices/summary.json')).length")" -gt 0 ]; then
+            echo "deploy=true" >> $GITHUB_OUTPUT
+            echo "価格データあり。公開します"
+          else
+            echo "deploy=false" >> $GITHUB_OUTPUT
+            echo "::warning::価格データが無いため公開を見送りました（ビルドの検証のみ）。次の定期実行で価格つきで公開されます"
+          fi
+
       - uses: actions/configure-pages@v5
+        if: steps.pricecheck.outputs.deploy == 'true'
 
       - uses: actions/upload-pages-artifact@v3
+        if: steps.pricecheck.outputs.deploy == 'true'
         with:
           path: out
 
       - uses: actions/deploy-pages@v4
+        if: steps.pricecheck.outputs.deploy == 'true'
