@@ -839,15 +839,26 @@ table.price-table, table.model-table {
 .prose { max-width: 68ch; }
 .article { max-width: 760px; margin: 0 auto; }
 .article-head { padding: 26px 0 6px; }
+/* 見出しは記事の顔。誌面では本文との落差そのものが「読み物である」ことの合図になる */
+.article-head { text-align: center; padding: 40px 0 8px; }
 .article-head h1 {
-  font-family: var(--serif); font-size: clamp(25px, 3.6vw, 38px); font-weight: 500;
-  line-height: 1.6; margin: 12px 0 14px; letter-spacing: 0.05em;
+  font-family: var(--serif); font-size: clamp(28px, 4.6vw, 48px); font-weight: 500;
+  line-height: 1.45; margin: 14px 0 18px; letter-spacing: 0.04em; text-wrap: balance;
+  color: var(--ink);
+}
+.article-head .page-sub { max-width: 46em; margin: 0 auto; }
+/* 日付の下に細い罫を引き、ここから記事が始まることを示す */
+.article-head::after {
+  content: ''; display: block; width: 44px; height: 1px;
+  background: var(--brass); margin: 24px auto 0;
 }
 .article-body { margin-top: 34px; }
 .prose h1 { font-family: var(--serif); font-size: 28px; font-weight: 500; margin: 44px 0 20px; letter-spacing: 0.05em; line-height: 1.55; }
+/* 小見出しに下罫を引くのは文書の作法で、誌面の作法ではない。
+   罫を外して字を大きくし、前の段との間を空けて「章が変わった」ことを示す */
 .prose h2 {
-  font-family: var(--serif); font-size: 22px; margin: 52px 0 18px; padding-bottom: 12px;
-  border-bottom: 1px solid var(--line); font-weight: 500; letter-spacing: 0.06em; line-height: 1.55;
+  font-family: var(--serif); font-size: clamp(20px, 2.6vw, 26px); margin: 60px 0 20px;
+  font-weight: 500; letter-spacing: 0.05em; line-height: 1.6; color: var(--ink);
 }
 .prose h3 { font-size: 17px; margin: 36px 0 12px; font-weight: 700; letter-spacing: 0.03em; }
 /* 記事は読み物。日本語の長文は行間2.0で初めて「読める」 */
@@ -1139,6 +1150,60 @@ table.price-table, table.model-table {
 .kaitori-lead { max-width: 62ch; margin: 6px 0 18px; color: var(--ink-soft); }
 
 /* 記事本文に差し込む商品写真。本文の流れを止めないよう、幅いっぱいにはしない */
+/* ============ 誌面（記事の組版）============ */
+/* 高級誌の誌面をWebに翻訳する。要点は3つ。
+   1. 図版は本文の段より広く出る（本文と同じ幅だと「挿絵」になり、誌面にならない）
+   2. 書き出しに大きな飾り文字を置き、記事の始まりを目で分からせる
+   3. 引用は左罫の囲みではなく、段を割って大きく組む（雑誌の「抜き出し」） */
+
+/* 創業者の肖像・発祥地の風景。実写なので余白で額装せず、面いっぱいに置く */
+.heritage-figure {
+  margin: 44px calc(-1 * clamp(0px, 6vw, 92px));
+  position: relative;
+}
+.heritage-figure img {
+  width: 100%; height: auto; display: block; margin: 0;
+  border-radius: 0; box-shadow: var(--shadow-md);
+}
+/* 肖像は縦長。面いっぱいに引き伸ばすと不自然なので、幅を抑えて左に寄せる */
+.heritage-figure.heritage-founder {
+  margin: 44px 0; max-width: 380px;
+}
+.heritage-figure.heritage-founder img { box-shadow: var(--shadow-lift); }
+.heritage-figure figcaption {
+  padding: 12px clamp(0px, 6vw, 92px) 0;
+  font-size: 12.5px; line-height: 1.85; color: var(--ink-faint);
+}
+.heritage-figure.heritage-founder figcaption { padding: 12px 0 0; }
+.heritage-figure figcaption b {
+  display: block; color: var(--ink-soft); font-weight: 700;
+  font-size: 13px; letter-spacing: 0.04em; margin-bottom: 3px;
+}
+/* 出典表記。CC BY 系は表示が義務なので必ず出す。小さくとも消してはならない */
+.hf-credit { font-size: 11px; color: var(--ink-faint); letter-spacing: 0.02em; }
+.hf-credit a { color: var(--ink-faint); text-decoration: underline; text-underline-offset: 2px; }
+.hf-credit a:hover { color: var(--brass-ink); }
+
+/* 書き出しの飾り文字。日本語は1文字が正方形なので、欧文より控えめに落とす */
+.article-body > p:first-of-type::first-letter {
+  font-family: var(--serif); font-size: 3.1em; line-height: 0.92;
+  float: left; margin: 4px 10px 0 0; color: var(--brass-ink); font-weight: 500;
+}
+/* 導入の一段落だけ大きく組む。雑誌のリード文 */
+.article-body > p:first-of-type {
+  font-size: 17px; line-height: 2.0; color: var(--ink);
+}
+
+/* 引用は「抜き出し」として大きく組む。左罫の囲みは記事の流れを止めてしまう */
+.article-body blockquote {
+  border-left: none; border-top: 1px solid var(--brass);
+  border-bottom: 1px solid var(--brass);
+  margin: 44px calc(-1 * clamp(0px, 3vw, 40px)); padding: 30px clamp(0px, 3vw, 40px);
+  font-family: var(--serif); font-size: clamp(19px, 2.4vw, 25px);
+  line-height: 1.85; color: var(--ink); text-align: center; letter-spacing: 0.03em;
+}
+.article-body blockquote p { font-size: inherit; line-height: inherit; color: inherit; margin: 0; }
+
 .article-figure { margin: 26px 0; }
 .article-figure a { display: block; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; }
 .article-figure img { width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: contain; padding: 18px; background: #fff; }

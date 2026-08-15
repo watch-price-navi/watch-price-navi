@@ -128,9 +128,41 @@ function fmtModel(x) {
     .join(' ｜ ');
 }
 
+// ============ 誌面に載せられる実写 ============
+/**
+ * 記事に差し込める実写（創業者の肖像・発祥地の風景）を調べ、
+ * 「この語を本文に書けば写真が入る」という形で執筆側に渡す。
+ *
+ * 写真は本文からその語を探して差し込む仕組み（lib/blog-figures.ts）なので、
+ * 語が本文に出てこなければ写真は入らない。逆に言えば、執筆時に
+ * 創業者と土地に触れさせることが、そのまま誌面の写真点数になる。
+ */
+function heritageHints(brandIds) {
+  let heritage = {};
+  let images = {};
+  try {
+    heritage = readJson(path.join(ROOT, 'data/brand-heritage.json')).brands ?? {};
+    images = readJson(path.join(ROOT, 'data/heritage-images.json')).images ?? {};
+  } catch {
+    return [];
+  }
+  const hints = [];
+  for (const id of [...new Set(brandIds)]) {
+    const h = heritage[id];
+    if (!h) continue;
+    if (h.founderJa && images[`${id}-founder`]) hints.push(`「${h.founderJa}」…創業者の肖像写真あり`);
+    if (h.townJa && images[`${id}-town`]) hints.push(`「${h.townJa}」…発祥の地の風景写真あり`);
+  }
+  return hints;
+}
+
 // ============ Claude API で執筆 ============
 async function writeWithApi() {
-  const prompt = `あなたは日本の腕時計専門メディアの編集者兼ライターです。今日(${today})の記事を1本執筆してください。
+  const hints = heritageHints([hero.brand.id, ...related.map((r) => r.brand.id)]);
+
+  const prompt = `あなたは高級誌（The Rake、GQ、SAFARI、Leon）の腕時計特集を手がける編集者兼ライターです。今日(${today})の記事を1本執筆してください。
+
+書くのはブログ記事ではなく「誌面」です。読者が写真とともに読み進め、読み終えたときに一本の時計に恋をしている、という体験を作ってください。
 
 【主役モデル】
 ${fmtModel(hero)}
@@ -145,6 +177,11 @@ ${related.map(fmtModel).join('\n')}
 【今日の切り口】
 ${angle.ja}
 
+【本文に書けば写真が入る語（誌面の写真点数はここで決まる）】
+${hints.length ? hints.join('\n') : '（この記事のブランドには実写がありません。モデルへの内部リンクで写真を稼いでください）'}
+これらの語を本文にそのまま（一字一句同じ表記で）書くと、その段落の直後に実写が入ります。
+創業の経緯や産地に触れる段落を必ず設け、上の語を自然な文脈で使ってください。
+
 【既出記事(重複を避ける)】
 ${recentThemes.join('\n') || '（まだ記事はありません）'}
 
@@ -158,12 +195,21 @@ ${recentThemes.join('\n') || '（まだ記事はありません）'}
   "title_en": "English title",
   "description_ja": "記事要約120字前後",
   "description_en": "English summary, 1-2 sentences",
-  "body_ja": "本文(Markdown、1600〜2200字。## の見出しを3〜5個。事実に基づき、時計へのロマンと購買意欲を高める文体。関連モデルへは [モデル名](/ja/watch/ブランドID/モデルID/) 形式の内部リンクを3〜5個入れる)",
-  "body_en": "English body (Markdown, 500-700 words, same structure, links use /en/watch/... form)",
+  "body_ja": "本文(Markdown、2200〜2800字。## の見出しを4〜6個。関連モデルへは [モデル名](/ja/watch/ブランドID/モデルID/) 形式の内部リンクを5〜8個。> で始まる引用を1つだけ入れる)",
+  "body_en": "English body (Markdown, 700-900 words, same structure, one > blockquote, links use /en/watch/... form)",
   "heroModel": "${hero.key}",
   "relatedModels": [${related.map((r) => `"${r.key}"`).join(', ')}],
   "topics": ["${angle.id}"]
 }
+
+【誌面としての作法】
+- 書き出しの一段落は情景から入る。スペックや結論から始めない。ここだけ大きく組まれるので、
+  読者がその場に立っているような一文で始めること
+- 内部リンクは1つにつき商品写真が1枚入る。段落に埋め込む形で本文に散らし、
+  一箇所にまとめない（写真が固まると誌面が崩れる）
+- 引用(>)は記事の山場に1つだけ置く。段を割って大きく組まれるので、
+  記事全体を貫く一行を選ぶこと。誰かの発言でなくてよい
+- 見出しは内容の要約ではなく、次を読ませる言葉にする
 
 【厳守】
 - スペック・型番・歴史は上記データと一般に知られた事実の範囲で正確に書く。不確かなことは書かない

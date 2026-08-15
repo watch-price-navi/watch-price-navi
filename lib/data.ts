@@ -264,6 +264,50 @@ export interface KaitoriData {
 let kaitoriCache: KaitoriData | null = null;
 
 /** 時計買取の広告主。提携前は services の url が空で、その場合は表示しない */
+export interface HeritageBrand {
+  founderJa: string | null;
+  founderWiki: string | null;
+  townJa: string | null;
+  townWiki: string | null;
+}
+export interface HeritageImage {
+  brand: string;
+  kind: 'founder' | 'town';
+  src: string;
+  subject: string;
+  author: string | null;
+  license: string | null;
+  licenseUrl: string | null;
+  source: string | null;
+}
+
+let heritageCache: Record<string, HeritageBrand> | null = null;
+let heritageImgCache: Record<string, HeritageImage> | null = null;
+
+/** 創業者名・発祥地名（記事本文から探すためのキー） */
+export function getHeritage(): Record<string, HeritageBrand> {
+  if (heritageCache) return heritageCache;
+  try {
+    const f = path.join(dataDir, 'brand-heritage.json');
+    heritageCache = fs.existsSync(f) ? readJson<{ brands: Record<string, HeritageBrand> }>(f).brands ?? {} : {};
+  } catch {
+    heritageCache = {};
+  }
+  return heritageCache;
+}
+
+/** 実写の出典とライセンス。CC BY 系は表示義務があるのでキャプションに必ず出す */
+export function getHeritageImages(): Record<string, HeritageImage> {
+  if (heritageImgCache) return heritageImgCache;
+  try {
+    const f = path.join(dataDir, 'heritage-images.json');
+    heritageImgCache = fs.existsSync(f) ? readJson<{ images: Record<string, HeritageImage> }>(f).images ?? {} : {};
+  } catch {
+    heritageImgCache = {};
+  }
+  return heritageImgCache;
+}
+
 export function getKaitori(): KaitoriData {
   if (kaitoriCache) return kaitoriCache;
   const file = path.join(dataDir, 'kaitori.json');

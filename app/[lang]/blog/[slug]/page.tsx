@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { marked } from 'marked';
-import { fixDeadLinks, insertFigures } from '@/lib/blog-figures';
+import { fixDeadLinks, insertFigures, insertHeritageFigures } from '@/lib/blog-figures';
 import AdSlot from '@/components/AdSlot';
 import ModelCard from '@/components/ModelCard';
 import { absUrl } from '@/lib/config';
@@ -65,10 +65,22 @@ export default async function BlogPostPage({
 
   const summary = getSummary();
   const body = lang === 'ja' ? post.body_ja : post.body_en;
-  // 先にページの無いモデルへのリンクを向け直し（404を残さない）、
-  // そのうえで本文中のモデルリンクを目印に商品写真を差し込む（記事データは変更しない）
+  // 記事に登場するブランド。創業者・発祥地の写真を差し込む対象を、
+  // この記事が実際に扱っているブランドに限る（他ブランドの土地の写真が紛れ込まないように）
+  const articleBrands = [
+    ...new Set([post.heroModel, ...post.relatedModels].filter(Boolean).map((id) => (id as string).split('/')[0])),
+  ];
+
+  // 1. ページの無いモデルへのリンクを向け直す（404を残さない）
+  // 2. 創業者の肖像・発祥地の風景を、その語に触れている段落の直後に置く
+  // 3. モデルリンクを目印に商品写真を差し込む
+  // いずれも記事データ自体は書き換えない
   const html = insertFigures(
-    fixDeadLinks(marked.parse(body || '', { async: false }) as string, lang),
+    insertHeritageFigures(
+      fixDeadLinks(marked.parse(body || '', { async: false }) as string, lang),
+      lang,
+      articleBrands,
+    ),
     lang,
   );
   const related = resolveModels(post.relatedModels);

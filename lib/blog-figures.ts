@@ -1,4 +1,12 @@
-import { getSummary, getPriceData, getAllBrands, hasOwnPage } from '@/lib/data';
+import {
+  getSummary,
+  getPriceData,
+  getAllBrands,
+  hasOwnPage,
+  getHeritage,
+  getHeritageImages,
+  type HeritageImage,
+} from '@/lib/data';
 import { imageUrl } from '@/lib/image';
 import { formatJpy } from '@/lib/format';
 import { t, type Lang } from '@/lib/i18n';
@@ -16,8 +24,82 @@ import { t, type Lang } from '@/lib/i18n';
  */
 const LINK_RE = /<a href="\/(ja|en)\/watch\/([a-z0-9-]+)\/([a-z0-9.\-]+)\/">([^<]*)<\/a>/g;
 
+/** 画像は public/ 配下。CSS ではなく HTML に直接書き出すので basePath を自分で付ける */
+const basePath = () => process.env.NEXT_PUBLIC_BASE_PATH || '';
+
 const esc = (s: string) =>
   s.replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c] as string);
+
+/**
+ * 実写（創業者の肖像・発祥地の風景）を本文に差し込む。
+ *
+ * 記事が創業者の名前や発祥の地に触れているのに文字だけ、という状態をなくす。
+ * 本文からその語を探し、含まれる段落の直後に写真を置く。
+ * 記事JSONは書き換えないので、既存記事も今後の記事も同じ扱いになる。
+ *
+ * CC BY / CC BY-SA の写真は表示義務があるため、作者・ライセンス・出典を
+ * キャプションに必ず出す。出せないものはそもそも取得していない。
+ */
+function creditLine(img: HeritageImage): string {
+  const parts: string[] = [];
+  if (img.author) parts.push(esc(img.author.replace(/Unknown author/gi, 'Unknown').slice(0, 60)));
+  if (img.license) {
+    parts.push(
+      img.licenseUrl
+        ? `<a href="${esc(img.licenseUrl)}" target="_blank" rel="nofollow noopener">${esc(img.license)}</a>`
+        : esc(img.license),
+    );
+  }
+  if (img.source) parts.push(`<a href="${esc(img.source)}" target="_blank" rel="nofollow noopener">Wikimedia Commons</a>`);
+  return parts.join(' / ');
+}
+
+export function insertHeritageFigures(html: string, lang: Lang, brandIds: string[]): string {
+  const heritage = getHeritage();
+  const images = getHeritageImages();
+  const brands = getAllBrands();
+  const used = new Set<string>();
+
+  for (const brandId of brandIds) {
+    const h = heritage[brandId];
+    if (!h) continue;
+    const brand = brands.find((b) => b.brand.id === brandId);
+    const brandName = brand ? (lang === 'ja' ? brand.brand.name_ja : brand.brand.name_en) : brandId;
+
+    for (const kind of ['founder', 'town'] as const) {
+      const key = `${brandId}-${kind}`;
+      if (used.has(key)) continue;
+      const img = images[key];
+      const needle = kind === 'founder' ? h.founderJa : h.townJa;
+      if (!img || !needle) continue;
+
+      // 本文がその語に触れている段落を探す。触れていない記事には差し込まない
+      const at = html.indexOf(needle);
+      if (at === -1) continue;
+      const end = html.indexOf('</p>', at);
+      if (end === -1) continue;
+
+      const caption =
+        kind === 'founder'
+          ? lang === 'ja'
+            ? `${esc(h.founderJa ?? '')}｜${esc(brandName)}の創業者`
+            : `${esc(img.subject)} — founder of ${esc(brandName)}`
+          : lang === 'ja'
+            ? `${esc(h.townJa ?? '')}｜${esc(brandName)}が生まれた土地`
+            : `${esc(img.subject)} — where ${esc(brandName)} was born`;
+
+      const figure =
+        `<figure class="heritage-figure heritage-${kind}">` +
+        `<img src="${esc(basePath())}${esc(img.src)}" alt="${caption.replace(/<[^>]*>/g, '')}" loading="lazy">` +
+        `<figcaption><b>${caption}</b><span class="hf-credit">${creditLine(img)}</span></figcaption>` +
+        `</figure>`;
+
+      html = html.slice(0, end + 4) + figure + html.slice(end + 4);
+      used.add(key);
+    }
+  }
+  return html;
+}
 
 /**
  * 記事本文の行き止まりリンクを直す。
