@@ -30,6 +30,22 @@ const PURITY_RE = /^(?:750|585|375|900|950|925|999)(?:YG|PG|RG|WG|SV|PT|GP)?$/i;
 const ACCESSORY_HEAD_RE =
   /^(?:レザー|ラバー|メタル|ナイロン|クロコ|カーフ|ウォッチ)?(?:バンド|ベルト|ストラップ|ブレスレット|バックル|ケース|ボックス|ポーチ|ファスナー|ワインダー)/;
 
+/**
+ * ベルトの取付幅。「18MM」単独なら弾けていたが、ベルトの出品は対応サイズを
+ * 並べるため「18MM/19MM/20MM/21MM/」「19-16MM」となり、数字が4桁以上あるので
+ * 型番として通過していた。
+ */
+const SIZE_LIST_RE = /^[0-9]{1,2}(?:MM|CM)?(?:[-/][0-9]{1,2}(?:MM|CM)?)*\/?$/i;
+/** 型番に寸法の単位が入ることはない（25X25CM のような表記もここで落ちる） */
+const HAS_UNIT_RE = /[0-9]\s*(?:MM|CM)\b/i;
+/** ムーブメントの品番。ST1901＝シーガル、NH35＝セイコー等。連結表記(ST2901ST1901)も弾く */
+const MOVEMENT_RE = /^(?:(?:ST|TY)[-.]?[0-9]{4}|(?:NH|VK|VD|VH|YM)[-.]?[0-9]{2}[A-Z]?|(?:SW|ETA|MIYOTA|SII)[-.]?[0-9]{3,4}[A-Z]?)+$/i;
+/** ベルト専業メーカー。社名だけで売られ、対応ブランドを列挙するので各社に紛れ込む */
+const STRAP_MAKER_RE = /ヒルシュ|HIRSCH|モレラート|MORELLATO|カシス|CASSIS|バンビ/i;
+/** 時計ブランドは時計以外も売る。ブルガリのサングラスが大量に混ざっていた */
+const NON_WATCH_RE =
+  /サングラス|メガネ|眼鏡|ボールペン|万年筆|シャープペン|財布|キーケース|名刺入れ|カフス|ネクタイ|ライター|香水|ネックレス|ピアス|キーリング|ガスケット|スマホケース|iPhone|アップルウォッチ|イヤホン/i;
+
 const rows = [];
 let totalBefore = 0;
 let totalAfter = 0;
@@ -51,10 +67,16 @@ for (const f of fs.readdirSync(autoDir).filter((f) => f.endsWith('.json'))) {
     const ref = String(m.reference ?? '');
     const name = String(m.name_ja ?? '');
     let why = null;
+    const both = `${name} ${String(m.name_en ?? '')}`;
     if (CALIBER_RE.test(ref)) why = 'キャリバー番号';
     else if (PURITY_RE.test(ref)) why = '貴金属の品位表記';
+    else if (SIZE_LIST_RE.test(ref)) why = 'ベルトの取付幅';
+    else if (HAS_UNIT_RE.test(ref)) why = '型番に寸法単位';
+    else if (MOVEMENT_RE.test(ref)) why = 'ムーブメント品番';
     else if (ref.replace(/[^0-9]/g, '').length < 4) why = '数字が3桁以下';
     else if (ACCESSORY_HEAD_RE.test(name)) why = '付属品の出品';
+    else if (STRAP_MAKER_RE.test(both)) why = 'ベルト専業メーカー';
+    else if (NON_WATCH_RE.test(both)) why = '時計以外の商品';
     if (why) {
       reasons.set(why, (reasons.get(why) ?? 0) + 1);
       continue;

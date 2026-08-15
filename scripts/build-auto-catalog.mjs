@@ -113,12 +113,23 @@ const CALIBER_RE = /^(?:CAL|CALIBER|CALIBRE|MOVEMENT|MVT)[.\-_/]/i;
 // 貴金属の品位表記。750YG(18金) や 925SV など、型番と紛らわしい
 const PURITY_RE = /^(?:750|585|375|900|950|925|999)(?:YG|PG|RG|WG|SV|PT|GP)?$/i;
 
+// ベルトの取付幅。「18MM」単独は NOISE_RE で弾けるが、ベルトの出品は
+// 対応サイズを並べて書くため「18MM/19MM/20MM/21MM/」「19-16MM」の形になり、
+// 数字が4桁以上あるので型番として通過してしまっていた。
+const SIZE_LIST_RE = /^[0-9]{1,2}(?:MM|CM)?(?:[-/][0-9]{1,2}(?:MM|CM)?)*\/?$/i;
+// 型番に寸法単位が入ることはない。25X25CM のような表記もここで落ちる
+const HAS_UNIT_RE = /[0-9]\s*(?:MM|CM)\b/i;
+// ムーブメントの品番。CAL. の接頭辞が無い書き方（ST1901＝シーガル、NH35＝セイコー等）は
+// CALIBER_RE をすり抜けるため、製造元の記号で明示的に弾く
+const MOVEMENT_RE = /^(?:(?:ST|TY)[-.]?[0-9]{4}|(?:NH|VK|VD|VH|YM)[-.]?[0-9]{2}[A-Z]?|(?:SW|ETA|MIYOTA|SII)[-.]?[0-9]{3,4}[A-Z]?)+$/i;
+
 function extractRefs(title) {
   const out = new Set();
   for (const raw of title.match(REF_RE) ?? []) {
     const s = raw.toUpperCase().replace(/[.,]$/, '');
     if (NOISE_EXACT.has(s) || NOISE_RE.test(s)) continue;
     if (CALIBER_RE.test(s) || PURITY_RE.test(s)) continue;
+    if (SIZE_LIST_RE.test(s) || HAS_UNIT_RE.test(s) || MOVEMENT_RE.test(s)) continue;
     if (!/[0-9]/.test(s)) continue;
     // 腕時計の型番は通常4桁以上の数字を含む。3桁以下は価格・寸法・金位である場合が多い
     if (s.replace(/[^0-9]/g, '').length < 4) continue;
@@ -272,7 +283,30 @@ const NG_WORDS = [
   'ウォッチバンド', 'ラバーバンド', 'レザーバンド', 'ラバーベルト', 'レザーベルト',
   'メタルバンド', '交換用', '交換ベルト', '替えベルト', 'ウォッチケース',
   'コレクションケース', '収納ケース', 'ワインディングマシーン', 'ワインダー',
+  // ベルト専業メーカー。商品名に「ベルト」と書かず社名だけで売る出品が多く、
+  // 対応ブランドを列挙するため各ブランドの検索に必ず引っかかる
+  // （「ランゲ ヒルシュ 18MM/19MM/20MM/21MM/」がブレゲのカタログに入っていた）
+  'ヒルシュ', 'HIRSCH', 'モレラート', 'MORELLATO', 'カシス', 'CASSIS', 'バンビ',
+  // 時計ブランドは時計以外も売る。ブルガリのサングラスが大量に混ざっていた
+  'サングラス', 'メガネ', '眼鏡', 'ボールペン', '万年筆', 'シャープペン',
+  '財布', 'キーケース', '名刺入れ', 'カフス', 'ネクタイ', 'ライター', '香水',
+  'ネックレス', 'ピアス', 'ブレスレットのみ', 'キーリング', 'ガスケット',
+  'スマホケース', 'iPhone', 'アップルウォッチ', 'Apple Watch', 'イヤホン',
 ];
+
+/**
+ * ベルトや工具の出品は、対応する時計ブランドを何社も列挙する。
+ * 逆に時計そのものの出品が3社以上を並べることはまずないので、
+ * ブランド名が多く出てくる時点で本体ではないと判断できる。
+ */
+function mentionsTooManyBrands(title, allBrandNames) {
+  let n = 0;
+  for (const name of allBrandNames) {
+    if (name.length >= 3 && title.includes(name)) n++;
+    if (n >= 3) return true;
+  }
+  return false;
+}
 
 // ---------- API 走査 ----------
 
@@ -434,6 +468,9 @@ const catalogs = fs
   })
   .filter(Boolean);
 
+// ベルト等の付属品判定に使う。全ブランドの日本語名を1度だけ作る
+const ALL_BRAND_NAMES = catalogs.map((c) => c.brand?.name_ja).filter(Boolean);
+
 /**
  * data/sweep-keywords/<brandId>.json があれば、その keywords を追加の検索語として使う。
  * 別途生成しておくファイルなので、無くても動く。
@@ -519,6 +556,7 @@ for (const cat of catalogs) {
     const title = it.title;
     if (!title) continue;
     if (NG_WORDS.some((w) => title.includes(w))) continue;
+    if (mentionsTooManyBrands(title, ALL_BRAND_NAMES)) continue;
     if (!title.includes(brand.name_ja) && !title.toUpperCase().includes(brand.name_en.toUpperCase())) continue;
 
     for (const ref of extractRefs(title)) {
