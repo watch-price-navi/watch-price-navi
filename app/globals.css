@@ -402,12 +402,18 @@ table.price-table td, table.model-table td, .post-date, .breadcrumb {
   font-size: 10.5px; color: var(--ink-faint); letter-spacing: 0.2em;
   text-transform: uppercase; font-weight: 600;
 }
+/* 型番は「03.3100.3600/21.M3100」のように空白の無い一続きの文字列で、
+   長いものは21文字ある（該当3,801件）。ブラウザは切れ目が無いと折り返せないため、
+   指定が無いとカードの枠から溢れて途中で切れる。
+   小さな型番は途中で割ってよいが、モデル名は語の途中で割ると読みにくいので
+   「入りきらないときだけ割る」break-word にする。 */
 .card-name {
   font-weight: 600; font-size: 15.5px; margin: 9px 0 4px; line-height: 1.6;
-  letter-spacing: 0.01em;
+  letter-spacing: 0.01em; overflow-wrap: break-word;
 }
 .card-ref {
   font-size: 11.5px; color: var(--brass-ink); font-weight: 600; letter-spacing: 0.06em;
+  overflow-wrap: anywhere;
 }
 .card-price {
   margin-top: 16px; padding-top: 14px; border-top: 1px solid var(--line-soft);
@@ -508,6 +514,8 @@ table.price-table td, table.model-table td, .post-date, .breadcrumb {
 .page-head h1 {
   font-family: var(--serif); font-size: clamp(24px, 3.4vw, 38px); font-weight: 500;
   line-height: 1.5; letter-spacing: 0.05em;
+  /* 見出しは「ブランド名＋モデル名＋型番」。型番に切れ目が無いと枠から溢れる */
+  overflow-wrap: break-word;
 }
 .page-head .page-sub {
   color: var(--ink-soft); font-size: 14.5px; margin-top: 14px; max-width: 62ch; line-height: 1.95;
@@ -822,6 +830,7 @@ table.price-table, table.model-table {
 .hc-name {
   font-family: var(--serif); font-size: 19px; font-weight: 500; margin: 4px 0 8px;
   letter-spacing: 0.05em; line-height: 1.5;
+  overflow-wrap: break-word;
 }
 .hc-price { font-size: 13px; color: var(--ink-soft); margin-bottom: 16px; }
 .hc-price b { font-family: var(--num); font-size: 22px; color: var(--signal); letter-spacing: -0.01em; }
@@ -873,6 +882,10 @@ table.price-table, table.model-table {
   color: var(--ink-soft); font-family: var(--serif); font-style: normal; font-size: 16px; line-height: 1.95;
 }
 .prose table { width: 100%; border-collapse: collapse; font-size: 14px; margin: 26px 0; }
+/* 仕様欄と一覧表の型番も、切れ目が無いので溢れる。
+   ただし価格は桁の途中で折り返すと読み違えるので、そこだけ従来どおりにする */
+.spec-list dd, table td { overflow-wrap: anywhere; }
+.pt-price, .card-price, .pp-main { overflow-wrap: normal; }
 .prose th, .prose td { padding: 13px 15px; border: 1px solid var(--line); text-align: left; line-height: 1.7; }
 .prose th { background: var(--surface-2); font-weight: 700; font-size: 12.5px; letter-spacing: 0.06em; }
 .prose img { border-radius: var(--radius); margin: 28px 0; box-shadow: var(--shadow-sm); }
