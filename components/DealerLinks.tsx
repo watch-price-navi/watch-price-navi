@@ -1,8 +1,12 @@
 import type { Dealer } from '@/lib/data';
 import { t, type Lang } from '@/lib/i18n';
 
-/** eBay Partner Network のキャンペーンID。未設定なら素のリンクになる（報酬は発生しない） */
-const EBAY_CAMPID = process.env.NEXT_PUBLIC_EBAY_CAMPID || '';
+/**
+ * eBay Partner Network のキャンペーンID。
+ * 通常は data/dealers.json に持たせる（公開リンクに現れる値で秘密ではないため）。
+ * これは検証用の上書き口で、未設定なら dealers.json の値が使われる。
+ */
+const EBAY_CAMPID_OVERRIDE = process.env.NEXT_PUBLIC_EBAY_CAMPID || '';
 
 export default function DealerLinks({
   dealers,
@@ -34,8 +38,9 @@ export default function DealerLinks({
               : d.homepage;
           // 成果報酬のある提携先は、トラッキングIDを付けたうえで sponsored を明示する。
           // 提携IDは環境変数で渡す（未設定なら素のリンクとして機能する）
-          if (d.affiliate && d.id === 'ebay' && EBAY_CAMPID) {
-            url += `${url.includes('?') ? '&' : '?'}mkcid=1&mkrid=711-53200-19255-0&campid=${EBAY_CAMPID}&toolid=10001`;
+          const campid = EBAY_CAMPID_OVERRIDE || d.campaignId || '';
+          if (d.affiliate && d.id === 'ebay' && campid) {
+            url += `${url.includes('?') ? '&' : '?'}mkcid=1&mkrid=711-53200-19255-0&campid=${campid}&toolid=10001`;
           }
           return (
             <div className="dealer-card" key={d.id}>

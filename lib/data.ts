@@ -87,6 +87,12 @@ export interface Dealer {
    * （URLを加工すると成果が計上されない）。
    */
   affiliateUrl?: string;
+  /**
+   * eBay Partner Network のキャンペーンID。
+   * 公開ページのリンクにそのまま現れる値なので秘密情報ではない。
+   * 型番ごとの検索URLに付けて使うため、affiliateUrl とは別に持つ。
+   */
+  campaignId?: string;
   note_ja: string;
   note_en: string;
 }
