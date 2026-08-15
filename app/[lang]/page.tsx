@@ -3,6 +3,7 @@ import FeaturedWatch from '@/components/FeaturedWatch';
 import ModelCard from '@/components/ModelCard';
 import SearchBox from '@/components/SearchBox';
 import { getBlogPosts } from '@/lib/blog';
+import { absUrl } from '@/lib/config';
 import { postCardImage } from '@/lib/blog-figures';
 import { getAllBrands, getSummary } from '@/lib/data';
 import { formatDate } from '@/lib/format';
@@ -47,8 +48,48 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
     })
     .slice(0, 12);
 
+  /*
+   * サイト名を検索エンジンに明示する。
+   * 「時計価格ナビ」という固有名詞で検索されたとき、そのサイト自身が最上位に来るには、
+   * タイトルだけでなく WebSite / Organization として名前を宣言しておく方が確実に伝わる。
+   * SearchAction を添えると、検索結果にサイト内検索窓が出ることがある。
+   */
+  const siteJsonLd = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'WebSite',
+        '@id': `${absUrl('/')}#website`,
+        url: absUrl(`/${lang}/`),
+        name: lang === 'ja' ? '時計価格ナビ' : 'Watch Price Navi',
+        alternateName: lang === 'ja' ? ['Watch Price Navi', 'とけいかかくナビ'] : ['時計価格ナビ'],
+        inLanguage: lang === 'ja' ? 'ja-JP' : 'en-US',
+        publisher: { '@id': `${absUrl('/')}#org` },
+        potentialAction: {
+          '@type': 'SearchAction',
+          target: {
+            '@type': 'EntryPoint',
+            urlTemplate: `${absUrl(`/${lang}/search/`)}?q={search_term_string}`,
+          },
+          'query-input': 'required name=search_term_string',
+        },
+      },
+      {
+        '@type': 'Organization',
+        '@id': `${absUrl('/')}#org`,
+        name: lang === 'ja' ? '時計価格ナビ' : 'Watch Price Navi',
+        url: absUrl(`/${lang}/`),
+        description:
+          lang === 'ja'
+            ? '楽天市場・Yahoo!ショッピングの出品価格を毎日自動収集し、腕時計を型番ごとに比較できる価格比較サイト。'
+            : 'A watch price comparison site that collects listings from Rakuten and Yahoo! Shopping Japan every day.',
+      },
+    ],
+  };
+
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(siteJsonLd) }} />
       {/* 背景写真のURLはここから渡す。CSS内の url() には basePath が付かないため
           （サブディレクトリ配信のGitHub Pagesでは404になる） */}
       <section
