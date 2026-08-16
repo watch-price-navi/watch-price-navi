@@ -209,6 +209,35 @@ const catalogs = loadCatalogs(ROOT);
 
 let processed = 0;
 let withOffers = 0;
+/**
+ * 記事本文が参照しているモデルを集める。
+ * ここに載るモデルの価格が取れないと、記事から商品写真が消える。
+ */
+const blogReferenced = (() => {
+  const keys = new Set();
+  const dir = path.join(ROOT, 'data', 'blog');
+  if (!fs.existsSync(dir)) return keys;
+  for (const f of fs.readdirSync(dir).filter((x) => x.endsWith('.json'))) {
+    let post;
+    try {
+      post = readJson(path.join(dir, f));
+    } catch {
+      continue;
+    }
+    for (const k of [post.heroModel, ...(post.relatedModels ?? [])]) {
+      if (k) keys.add(String(k));
+    }
+    // 本文に直接埋め込まれたリンクも拾う（relatedModels に無いことがある）
+    for (const body of [post.body_ja, post.body_en]) {
+      for (const m of String(body ?? '').matchAll(/\/(?:ja|en)\/watch\/([a-z0-9-]+)\/([a-zA-Z0-9.\-]+)\//g)) {
+        keys.add(`${m[1]}/${m[2]}`);
+      }
+    }
+  }
+  return keys;
+})();
+console.log(`記事が参照するモデル: ${blogReferenced.size}件（最優先で価格を取得します）`);
+
 let failures = 0;
 let skippedForTime = 0;
 
@@ -216,12 +245,23 @@ for (const catalog of catalogs) {
   const { brand, models } = catalog;
   if (onlyBrand && brand.id !== onlyBrand) continue;
 
-  // 人気モデル → 価格未取得 → その他 の順に処理し、時間切れ時の取りこぼしを最小化する
+  // 記事が参照するモデル → 人気モデル → 価格未取得 → その他 の順に処理し、
+  // 時間切れ時の取りこぼしを最小化する。
+  //
+  // 記事の参照を最優先にする理由:
+  // 記事本文の商品写真は、そのモデルの価格データがあって初めて入る。
+  // 価格が取れなかった日は記事から写真が消え、読者には「壊れている」ように見える。
+  // 実際に7/22の記事で、参照先4件の価格が取れず図版が全部消えていた。
+  // 人気印は付いていなくても、記事に出る以上は必ず押さえる。
   const queue = models
     .filter((m) => !missingOnly || !summary[`${brand.id}/${m.id}`])
     .map((m) => ({
       m,
-      rank: (m.popular ? 0 : 2) + (summary[`${brand.id}/${m.id}`] ? 1 : 0) + (m.source === 'auto' ? 1 : 0),
+      rank:
+        (blogReferenced.has(`${brand.id}/${m.id}`) ? -4 : 0) +
+        (m.popular ? 0 : 2) +
+        (summary[`${brand.id}/${m.id}`] ? 1 : 0) +
+        (m.source === 'auto' ? 1 : 0),
     }))
     .sort((a, b) => a.rank - b.rank)
     .map((x) => x.m)
