@@ -111,6 +111,51 @@ const angle = ANGLES[dayNum % ANGLES.length];
 
 const slug = `${today}-${hero.brand.id}-${hero.model.id}`.slice(0, 80);
 
+/* ─── 下書き置き場 ───────────────────────────────────────────
+ *
+ * Claude API を有料で叩かずに、読み物として成立する記事を毎朝出すための仕組み。
+ *
+ * 型にはめただけの記事は「ケース径38mm、ケース素材はtitanium」の羅列にしかならず、
+ * 読み物にならない。かといってAPIには課金が要る。
+ * そこで、書き溜めた下書きを data/blog-drafts/ に置き、1日1本ずつ公開する。
+ * 公開済みかどうかは記事に残す draftId で判断するので、同じ下書きは二度出ない。
+ *
+ * 下書きが尽きたらテンプレートに落ちる（記事が出ない日は作らない）。
+ * 残り本数を毎回ログに出すので、少なくなったら書き足せばよい。
+ */
+const draftsDir = path.join(ROOT, 'data/blog-drafts');
+
+function listDrafts() {
+  if (!fs.existsSync(draftsDir)) return [];
+  const used = new Set(pastPosts.map((p) => p.draftId).filter(Boolean));
+  return fs
+    .readdirSync(draftsDir)
+    .filter((f) => f.endsWith('.json'))
+    .sort()
+    .map((f) => ({ id: f.replace(/\.json$/, ''), file: path.join(draftsDir, f) }))
+    .filter((d) => !used.has(d.id));
+}
+
+const countDrafts = () => listDrafts().length;
+
+function takeDraft() {
+  for (const d of listDrafts()) {
+    let j;
+    try {
+      j = readJson(d.file);
+    } catch {
+      continue;
+    }
+    // 壊れた下書きで穴を空けない。読めないものは飛ばして次を使う
+    if (!j.title_ja || !j.body_ja || String(j.body_ja).length < 200) {
+      console.log(`::warning::下書き ${d.id} は中身が足りないので飛ばします`);
+      continue;
+    }
+    return { ...j, draftId: d.id };
+  }
+  return null;
+}
+
 function fmtModel(x) {
   const m = x.model;
   return [
@@ -335,15 +380,34 @@ if (API_KEY) {
    * 静かに console.log していたため、緑の実行の中に紛れて誰も気づかなかった。
    * 失敗ではないが、望んだ状態でもない。目に入るようにする。
    */
-  console.log('::warning::ANTHROPIC_API_KEY が未設定です。型にはめただけの記事になります。');
-  console.log('::warning::Secrets に ANTHROPIC_API_KEY を入れると、翌朝から本文が書かれます。');
-  post = writeWithTemplate();
+  const draft = takeDraft();
+  if (draft) {
+    post = draft;
+    console.log(`下書き「${draft.draftId}」を公開します（残り${countDrafts() - 1}本）`);
+  } else {
+    console.log('::warning::下書きが尽きたため、型にはめただけの記事になります。');
+    console.log('::warning::data/blog-drafts/ に下書きを足すと、翌朝から順に公開されます。');
+    post = writeWithTemplate();
+  }
 }
 
 // 生成物の検証（壊れた記事をサイトに載せない）
 const catalogKeys = new Set(allModels.map((x) => x.key));
-post.slug = slug;
 post.date = today;
+/*
+ * 下書きはその時計のために書かれているので、主役を差し替えてはいけない。
+ * 差し替えると本文と写真が食い違う（サブマリーナーの話にセイコーの写真が付く）。
+ * slug も下書きの主役から作る。
+ */
+const fromDraft = Boolean(post.draftId);
+if (fromDraft && catalogKeys.has(post.heroModel)) {
+  post.slug = `${today}-${String(post.heroModel).replace('/', '-')}`.slice(0, 80);
+  if (usedHeroes.has(post.heroModel)) {
+    console.log(`::warning::下書き ${post.draftId} の主役 ${post.heroModel} は過去に出ています。`);
+  }
+} else {
+  post.slug = slug;
+}
 /*
  * 主役は「カタログにある」だけでなく「まだ主役にしていない」ことも要る。
  * 候補を選ぶ側では既出を外していたが、AIが返した主役はカタログにありさえすれば
@@ -351,8 +415,13 @@ post.date = today;
  * 記事一覧に同じ写真のカードが並んだ。
  * 記事の顔はその記事の時計なので、主役が重なれば絵も重なる。
  */
-post.heroModel =
-  catalogKeys.has(post.heroModel) && !usedHeroes.has(post.heroModel) ? post.heroModel : hero.key;
+post.heroModel = fromDraft
+  ? catalogKeys.has(post.heroModel)
+    ? post.heroModel
+    : hero.key
+  : catalogKeys.has(post.heroModel) && !usedHeroes.has(post.heroModel)
+    ? post.heroModel
+    : hero.key;
 post.relatedModels = (Array.isArray(post.relatedModels) ? post.relatedModels : []).filter((k) => catalogKeys.has(k));
 if (post.relatedModels.length === 0) post.relatedModels = related.map((r) => r.key);
 if (!post.title_ja || !post.body_ja || (post.body_ja || '').length < 200) {
@@ -360,7 +429,7 @@ if (!post.title_ja || !post.body_ja || (post.body_ja || '').length < 200) {
   post = writeWithTemplate();
 }
 
-const outFile = path.join(blogDir, `${slug}.json`);
+const outFile = path.join(blogDir, `${post.slug}.json`);
 fs.writeFileSync(outFile, JSON.stringify(post, null, 2), 'utf8');
 console.log(`記事を作成しました: ${path.relative(ROOT, outFile)}`);
 console.log(`  タイトル: ${post.title_ja}`);
