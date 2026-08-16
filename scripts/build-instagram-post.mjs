@@ -24,7 +24,10 @@ const SIZE = 1080;
 const args = process.argv.slice(2);
 const FORCE = args.includes('--force');
 const dateArg = args[args.indexOf('--date') + 1];
-const today = args.includes('--date') && dateArg ? dateArg : new Date().toISOString().slice(0, 10);
+// 日本時間で数える。generate-blog.mjs と揃えること。
+// UTC で数えると、朝6:20(=UTC 21:20)の実行ではまだ前日扱いになり、
+// その日生成した記事ではなく前日の記事を投稿しようとする。
+const today = args.includes('--date') && dateArg ? dateArg : new Date(Date.now() + 9 * 3600_000).toISOString().slice(0, 10);
 
 const SITE = process.env.NEXT_PUBLIC_SITE_URL || 'https://watch-price-navi.github.io';
 const BASE = process.env.NEXT_PUBLIC_BASE_PATH || '/watch-price-navi';

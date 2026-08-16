@@ -28,24 +28,27 @@ const ROOT = process.cwd();
 const args = process.argv.slice(2);
 const DRY = args.includes('--dry-run');
 const dateArg = args[args.indexOf('--date') + 1];
-const today = args.includes('--date') && dateArg ? dateArg : new Date().toISOString().slice(0, 10);
+// 日本時間で数える（build-instagram-post.mjs と揃える）
+const today = args.includes('--date') && dateArg ? dateArg : new Date(Date.now() + 9 * 3600_000).toISOString().slice(0, 10);
 
 const IG_USER_ID = process.env.IG_USER_ID;
 const TOKEN = process.env.IG_ACCESS_TOKEN;
 const API = 'https://graph.instagram.com/v21.0';
 
+// 投稿できなかったときは必ず異常終了する。
+// 以前はどの失敗でも exit 0 にしていたため、実際には1件も投稿されていないのに
+// ワークフローは緑のままで、気づくまで日数がかかった。
 const metaFile = path.join(ROOT, 'data/social', `${today}.json`);
 if (!fs.existsSync(metaFile)) {
-  console.log(`${today} の投稿データがありません。先に build-instagram-post.mjs を実行してください。`);
-  process.exit(0);
+  console.log(`::error::${today} の投稿データがありません。build-instagram-post.mjs が動いたか確認してください。`);
+  process.exit(1);
 }
 const meta = readJson(metaFile);
 
 if (!IG_USER_ID || !TOKEN) {
-  console.log('::warning::IG_USER_ID / IG_ACCESS_TOKEN が未設定のため投稿を見送りました。');
+  console.log('::error::IG_USER_ID / IG_ACCESS_TOKEN が未設定のため投稿できません。');
   console.log(`  画像: ${meta.image}`);
-  console.log('  設定すると、この画像と本文が毎日自動で投稿されます。');
-  process.exit(0);
+  process.exit(1);
 }
 
 async function call(url, init) {
@@ -58,8 +61,20 @@ async function call(url, init) {
     json = { raw: text };
   }
   if (!res.ok) {
-    const msg = json?.error?.message ?? text.slice(0, 300);
-    throw new Error(`${res.status} ${msg}`);
+    const err = json?.error ?? {};
+    const msg = err.message ?? text.slice(0, 300);
+    // よく出るものは、ログを見た人がそのまま対処できるように意味を添える
+    const hint =
+      /API access blocked/i.test(msg)
+        ? '\n  → Metaアプリ側で権限が下りていません。App Dashboard で\n' +
+          '     ・アプリが「ライブ」になっているか\n' +
+          '     ・instagram_business_content_publish が許可されているか\n' +
+          '     ・事業認証(Business Verification)を求める通知が出ていないか を確認してください。'
+        : /expired|session has been invalidated|Invalid OAuth/i.test(msg)
+          ? '\n  → アクセストークンが切れています。Meta の Graph API Explorer で再発行し、\n' +
+            '     GitHub の Secrets の IG_ACCESS_TOKEN を差し替えてください。'
+          : '';
+    throw new Error(`${res.status} ${msg}${err.code ? ` (code ${err.code})` : ''}${hint}`);
   }
   return json;
 }

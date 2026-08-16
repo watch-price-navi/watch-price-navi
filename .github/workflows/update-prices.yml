@@ -216,9 +216,12 @@ jobs:
       # Instagram は「公開URLの画像」しか受け付けないので、必ずデプロイ後に投稿する。
       # 先に呼ぶと画像がまだ404で、投稿が必ず失敗する。
       # 朝の回だけ（1日1投稿）。失敗してもサイトの更新は止めない。
+      # continue-on-error は付けない。
+      # 以前は付けたうえにループの終了状態が echo のものになっていたため、
+      # 6回とも失敗しても「成功」と表示され、1件も投稿されていないことに
+      # 気づくまで日数がかかった。投稿できなければ赤くする。
       - name: Post to Instagram
         if: steps.pricecheck.outputs.deploy == 'true' && github.event.schedule != '20 9 * * *'
-        continue-on-error: true
         env:
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
@@ -226,6 +229,10 @@ jobs:
           # GitHub Pages の反映には少し間がある。画像が取得できるまで待つ
           for i in 1 2 3 4 5 6; do
             sleep 30
-            node scripts/post-to-instagram.mjs && break
+            if node scripts/post-to-instagram.mjs; then
+              exit 0
+            fi
             echo "リトライ $i/6"
           done
+          echo "::error::Instagram への投稿が6回とも失敗しました。上のログの理由を確認してください。"
+          exit 1

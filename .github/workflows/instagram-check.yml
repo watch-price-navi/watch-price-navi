@@ -1,0 +1,85 @@
+# Instagram への接続を手動で確かめるためだけの実行。
+#
+# 毎日の本番（update-prices.yml）は価格収集に3時間かかるため、
+# 投稿が失敗した理由を知りたいだけのときに回すと待たされる。
+# こちらは1分で終わり、失敗の理由をそのままログに出す。
+#
+# 使い方: GitHub の Actions タブ → この実行を選ぶ → Run workflow
+name: Instagram check
+
+on:
+  workflow_dispatch:
+    inputs:
+      date:
+        description: '投稿する日付（空なら日本時間の今日）'
+        required: false
+        default: ''
+      publish:
+        description: '実際に投稿する。false なら接続確認だけ'
+        type: boolean
+        required: false
+        default: false
+
+# 本番の公開(pages)とは別枠にする。走っている収集を待たされないため。
+concurrency:
+  group: instagram-check
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      # トークン自体が生きているかを先に見る。
+      # ここで失敗するなら投稿以前の問題で、Metaアプリ側の設定を直す必要がある。
+      - name: Check token
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+        run: |
+          if [ -z "$IG_ACCESS_TOKEN" ]; then
+            echo "::error::IG_ACCESS_TOKEN が Secrets に設定されていません。"
+            exit 1
+          fi
+          echo "トークンの長さ: ${#IG_ACCESS_TOKEN} 文字"
+          code=$(curl -s -o /tmp/me.json -w '%{http_code}' \
+            "https://graph.instagram.com/v21.0/me?fields=id,username,account_type,media_count&access_token=$IG_ACCESS_TOKEN")
+          echo "HTTP $code"
+          # トークンそのものは出力しない。応答だけを見せる
+          cat /tmp/me.json
+          echo
+          if [ "$code" != "200" ]; then
+            echo "::error::トークンでアカウント情報を取得できません。上の error.message を見てください。"
+            exit 1
+          fi
+
+      # 入力値は env 経由で渡す。run: に直接埋め込むとシェルに解釈される
+      - name: Post
+        if: ${{ inputs.publish }}
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          DATE: ${{ inputs.date }}
+        run: |
+          if [ -n "$DATE" ]; then
+            node scripts/post-to-instagram.mjs --date "$DATE"
+          else
+            node scripts/post-to-instagram.mjs
+          fi
+
+      - name: Dry run
+        if: ${{ !inputs.publish }}
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          DATE: ${{ inputs.date }}
+        run: |
+          if [ -n "$DATE" ]; then
+            node scripts/post-to-instagram.mjs --date "$DATE" --dry-run
+          else
+            node scripts/post-to-instagram.mjs --dry-run
+          fi
