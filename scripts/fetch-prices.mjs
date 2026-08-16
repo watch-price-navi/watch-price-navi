@@ -23,6 +23,7 @@ import path from 'node:path';
 import { loadCatalogs } from './lib/catalog.mjs';
 import { readJson } from './lib/json.mjs';
 import { wrapYahoo } from './lib/affiliate.mjs';
+import { isJunkOffer } from './lib/junk.mjs';
 
 const ROOT = process.cwd();
 
@@ -83,19 +84,13 @@ export function warnRakutenDeadline(appId, accessKey, log = console.warn) {
 }
 warnRakutenDeadline(RAKUTEN_APP_ID, RAKUTEN_ACCESS_KEY);
 
-// タイトルにこれらの語が含まれる出品は本体ではないとみなして除外
-const NG_WORDS = [
-  'ベルト', 'バンド', 'ストラップ', 'ブレスレット単品', 'コマ', '駒', '尾錠', 'バックル',
-  '風防', 'ガラス', 'パーツ', '部品', 'ケースのみ', '箱のみ', '空箱', '純正BOX',
-  '説明書', '冊子', 'タグのみ', '互換', '社外', '汎用', 'ノベルティ', '非売品',
-  '置時計', '置き時計', '掛け時計', '壁掛け', 'クロック', 'ぬいぐるみ', 'キーホルダー',
-  '修理', 'オーバーホール', '電池交換', '磨き', 'ラッピング', 'コーティング',
-];
-
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-function looksLikeGenuine(title, brand) {
-  if (NG_WORDS.some((w) => title.includes(w))) return false;
+function looksLikeGenuine(title, brand, price = 0, floor = 0) {
+  // ゴミの判定は scripts/lib/junk.mjs に一本化してある。
+  // ここに独自の一覧を作らないこと。以前は3つのスクリプトが別々の一覧を持ち、
+  // 指摘のたびに片方だけ直したため、常にどこかに穴が残っていた。
+  if (isJunkOffer(title, price, floor)) return false;
   const t = title.toLowerCase();
   return t.includes(brand.name_en.toLowerCase()) || title.includes(brand.name_ja);
 }
@@ -193,7 +188,7 @@ async function fetchYahoo(model, brand) {
 
 function cleanOffers(offers, model, brand) {
   const filtered = offers.filter(
-    (o) => o.price >= model.priceFloorJpy && o.url && o.shop && looksLikeGenuine(o.title, brand)
+    (o) => o.price >= model.priceFloorJpy && o.url && o.shop && looksLikeGenuine(o.title, brand, o.price, model.priceFloorJpy)
   );
   // 同一ショップは最安の1件のみ残す
   const byShop = new Map();

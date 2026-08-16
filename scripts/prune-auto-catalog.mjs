@@ -12,10 +12,48 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { readJson } from './lib/json.mjs';
+import { isJunkName, isJunkOffer, junkReason } from './lib/junk.mjs';
 
 const ROOT = process.cwd();
 const APPLY = process.argv.includes('--apply');
 const autoDir = path.join(ROOT, 'data', 'brands-auto');
+
+/** ブランド別の「これより安ければ本体ではない」下限 */
+const MIN_PRICE = (() => {
+  try {
+    const j = readJson(path.join(ROOT, 'data', 'brand-min-price.json'));
+    return { def: Number(j.default) || 0, brands: j.brands ?? {} };
+  } catch {
+    return { def: 0, brands: {} };
+  }
+})();
+const floorOf = (brandId) => Number(MIN_PRICE.brands[brandId] ?? MIN_PRICE.def) || 0;
+
+/**
+ * そのモデルの出品が「全部」ゴミなら true。
+ * 価格データが無ければ判断材料が無いので false（消さない）。
+ *
+ * 価格も見るが、下限割れだけでは消さない。
+ * 「時計であることを示す語」（自動巻・文字盤など）があれば本体として残す。
+ * 下限を下回るだけで消すと、本物のヴィンテージや限定品まで失う。
+ * 実際に「デッドストック級 オメガ 手巻き ヴィンテージ ¥40,000」（下限¥60,000）や
+ * 「G-SHOCK MR-G 鉄鐔 ¥731,280」を消しかけた。
+ * 価格は収集時に安すぎる『出品』を落とすのには使うが、
+ * 『モデル』を消す根拠にはしない。消したものは戻らない。
+ */
+function allOffersAreJunk(brandId, modelId) {
+  const f = path.join(ROOT, 'data', 'prices', brandId, `${modelId}.json`);
+  if (!fs.existsSync(f)) return false;
+  let offers;
+  try {
+    offers = readJson(f).offers ?? [];
+  } catch {
+    return false;
+  }
+  if (offers.length === 0) return false;
+  const floor = floorOf(brandId);
+  return offers.every((o) => isJunkOffer(o.title, o.price, floor));
+}
 
 if (!fs.existsSync(autoDir)) {
   console.log('data/brands-auto がありません。先に npm run auto-catalog を実行してください。');
@@ -167,8 +205,18 @@ for (const f of fs.readdirSync(autoDir).filter((f) => f.endsWith('.json'))) {
     else if (MOVEMENT_RE.test(ref)) why = 'ムーブメント品番';
     else if (ref.replace(/[^0-9]/g, '').length < 4) why = '数字が3桁以下';
     else if (ACCESSORY_HEAD_RE.test(name)) why = '付属品の出品';
-    else if (STRAP_MAKER_RE.test(both)) why = 'ベルト専業メーカー';
-    else if (NON_WATCH_RE.test(both)) why = '時計以外の商品';
+    else if (isJunkName(both)) why = `時計ではない（${junkReason(both)}）`;
+    /*
+     * 出品が「全部」ゴミなら、そのモデルは存在の根拠が無い。
+     *
+     * 1件でもゴミがあれば消す、にしてはいけない。本物の時計も付属ベルトの
+     * 種類を書くので、「アリゲーターレザーストラップ ¥411,100」のような
+     * 本物のナビタイマーまで消してしまう（実際に消えかけた）。
+     *
+     * 語だけでは足りない。ロイヤルオークが2万円で出ていればベルトか小物なので、
+     * ブランド別の下限も併せて見る。価格は言語に依存しないぶん確実である。
+     */
+    else if (allOffersAreJunk(brandId, m.id)) why = '出品が全部ゴミ';
     if (why) {
       reasons.set(why, (reasons.get(why) ?? 0) + 1);
       continue;

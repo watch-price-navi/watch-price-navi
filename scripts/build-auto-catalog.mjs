@@ -23,6 +23,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { readJson } from './lib/json.mjs';
 import { wrapYahoo } from './lib/affiliate.mjs';
+import { isJunkOffer } from './lib/junk.mjs';
 
 const ROOT = process.cwd();
 
@@ -48,7 +49,7 @@ const args = process.argv.slice(2);
 const argValue = (n) => (args.indexOf(n) >= 0 ? args[args.indexOf(n) + 1] : null);
 const onlyBrand = argValue('--brand');
 // 出品1件でも実在する型番なので採用する（掲載網羅を優先）。
-// 誤検出はREF_RE/NOISE/NG_WORDSの各フィルタ側で抑える。
+// 誤検出は REF_RE / NOISE / scripts/lib/junk.mjs の各フィルタで抑える。
 const MIN_LISTINGS = Number(argValue('--min-listings')) || 1;
 const MAX_PER_BRAND = Number(argValue('--max-per-brand')) || 3000;
 const PAGES_PER_BAND = Number(argValue('--pages')) || 4;   // 楽天(1req/秒)
@@ -318,27 +319,9 @@ function buildOffers(items, floor) {
   return [...byShop.values()].sort((a, b) => a.price - b.price).slice(0, 8);
 }
 
-// 本体ではない出品を弾く
-const NG_WORDS = [
-  'ベルト単品', 'バンド単品', 'ストラップ単品', 'コマ', '尾錠', 'バックル単品',
-  '風防', 'パーツ', '部品', 'ケースのみ', '箱のみ', '空箱', '説明書', '冊子',
-  '互換', '社外', '汎用', 'ノベルティ', '置時計', '掛け時計', 'クロック',
-  '修理', 'オーバーホール', '電池交換', '磨き', '保護フィルム', 'カバー',
-  'ジャンク', '部品取り', 'コピー品', 'レプリカ',
-  // 交換用の部材。本体と誤認すると「デイトナ ¥14,960」のような表示になる
-  'ウォッチバンド', 'ラバーバンド', 'レザーバンド', 'ラバーベルト', 'レザーベルト',
-  'メタルバンド', '交換用', '交換ベルト', '替えベルト', 'ウォッチケース',
-  'コレクションケース', '収納ケース', 'ワインディングマシーン', 'ワインダー',
-  // ベルト専業メーカー。商品名に「ベルト」と書かず社名だけで売る出品が多く、
-  // 対応ブランドを列挙するため各ブランドの検索に必ず引っかかる
-  // （「ランゲ ヒルシュ 18MM/19MM/20MM/21MM/」がブレゲのカタログに入っていた）
-  'ヒルシュ', 'HIRSCH', 'モレラート', 'MORELLATO', 'カシス', 'CASSIS', 'バンビ',
-  // 時計ブランドは時計以外も売る。ブルガリのサングラスが大量に混ざっていた
-  'サングラス', 'メガネ', '眼鏡', 'ボールペン', '万年筆', 'シャープペン',
-  '財布', 'キーケース', '名刺入れ', 'カフス', 'ネクタイ', 'ライター', '香水',
-  'ネックレス', 'ピアス', 'ブレスレットのみ', 'キーリング', 'ガスケット',
-  'スマホケース', 'iPhone', 'アップルウォッチ', 'Apple Watch', 'イヤホン',
-];
+// 本体ではない出品の判定は scripts/lib/junk.mjs に一本化した。
+// ここに一覧を復活させないこと。3箇所に分裂して食い違ったため、
+// 指摘のたびに片方だけ直しては穴が残る、を繰り返していた。
 
 /**
  * ベルトや工具の出品は、対応する時計ブランドを何社も列挙する。
@@ -639,7 +622,10 @@ for (const cat of catalogs) {
   for (const it of listings) {
     const title = it.title;
     if (!title) continue;
-    if (NG_WORDS.some((w) => title.includes(w))) continue;
+    // ゴミの判定は scripts/lib/junk.mjs に一本化してある。ここに独自の一覧を作らない。
+    // 語だけでは足りない（本物も付属ベルトの種類を書く）ので、価格でも見る。
+    // ロイヤルオークが2万円で出ていれば、それはベルトか小物である。
+    if (isJunkOffer(title, it.price, priceFloor(brand.id))) continue;
     if (mentionsTooManyBrands(title, ALL_BRAND_NAMES)) continue;
     if (!title.includes(brand.name_ja) && !title.toUpperCase().includes(brand.name_en.toUpperCase())) continue;
 
