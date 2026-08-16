@@ -9,14 +9,25 @@
  * サイトを GitHub Pages で配信しているので、リポジトリに置いた画像がそのまま公開URLになる。
  * したがって「公開が終わってから」呼ぶこと（先に呼ぶと画像が404で取得できない）。
  *
- * トークンについて:
- * 長期トークンでも約60日で切れる。切れれば投稿は止まり「全自動」ではなくなるので、
- * 実行のたびに延長を試みる。延長は現在のトークンが生きているうちしかできないため、
- * 毎日動かしていれば実質無期限になる。
+ * 入口が2種類あり、トークンの見た目で判別する:
+ *
+ *   EAA… で始まる → Facebookページ経由 (graph.facebook.com)
+ *     Facebookページに紐づけた Instagram を操作する昔からの方式。
+ *     アプリが「開発中」のままでも、自分が管理者であるアカウントには使える。
+ *     ページのトークンは期限が無いので、延長の仕組みが要らない。
+ *
+ *   IGAA… で始まる → Instagramログイン経由 (graph.instagram.com)
+ *     新しい方式。手軽だがアプリを「公開」しないと弾かれ、
+ *     公開にはビジネス認証（書類提出・数日）が要る。
+ *     こちらは約60日で切れるため、実行のたびに延長を試みる。
+ *
+ * 当初は後者で組んだが、ビジネス認証で止まるため前者に移した。
+ * 判別式にしてあるので、将来ビジネス認証が通れば
+ * トークンを差し替えるだけで元の方式にも戻せる。
  *
  * 必要な環境変数:
  *   IG_USER_ID       … Instagram プロフェッショナルアカウントのID（数字）
- *   IG_ACCESS_TOKEN  … 長期アクセストークン
+ *   IG_ACCESS_TOKEN  … アクセストークン
  *
  * 使い方: node scripts/post-to-instagram.mjs [--date YYYY-MM-DD] [--dry-run]
  */
@@ -33,7 +44,9 @@ const today = args.includes('--date') && dateArg ? dateArg : new Date(Date.now()
 
 const IG_USER_ID = process.env.IG_USER_ID;
 const TOKEN = process.env.IG_ACCESS_TOKEN;
-const API = 'https://graph.instagram.com/v21.0';
+// Instagramログイン方式のトークンだけが IGAA で始まる。それ以外はFacebook経由とみなす
+const VIA_INSTAGRAM_LOGIN = String(TOKEN ?? '').startsWith('IGAA');
+const API = VIA_INSTAGRAM_LOGIN ? 'https://graph.instagram.com/v21.0' : 'https://graph.facebook.com/v21.0';
 
 // 投稿できなかったときは必ず異常終了する。
 // 以前はどの失敗でも exit 0 にしていたため、実際には1件も投稿されていないのに
@@ -73,7 +86,14 @@ async function call(url, init) {
         : /expired|session has been invalidated|Invalid OAuth/i.test(msg)
           ? '\n  → アクセストークンが切れています。Meta の Graph API Explorer で再発行し、\n' +
             '     GitHub の Secrets の IG_ACCESS_TOKEN を差し替えてください。'
-          : '';
+          : /Unsupported get request|does not exist|cannot be loaded/i.test(msg)
+            ? '\n  → IG_USER_ID が違う可能性があります。Instagramビジネスアカウントの数字IDを入れてください。\n' +
+              '     Facebookページ経由の場合、プロフィール画面のIDとは別物です。'
+            : /permission|Insufficient|scope/i.test(msg)
+              ? '\n  → トークンに権限が足りません。取得しなおすとき、次をすべて選んでください。\n' +
+                '     instagram_basic / instagram_content_publish /\n' +
+                '     pages_show_list / pages_read_engagement / business_management'
+              : '';
     throw new Error(`${res.status} ${msg}${err.code ? ` (code ${err.code})` : ''}${hint}`);
   }
   return json;
@@ -87,8 +107,17 @@ async function assertImageReachable(url) {
   if (!/jpe?g/i.test(type)) throw new Error(`JPEG ではありません（${type}）: ${url}`);
 }
 
-/** 長期トークンを延長する。失敗しても投稿自体は続ける */
+/**
+ * 長期トークンを延長する。失敗しても投稿自体は続ける。
+ *
+ * Facebookページのトークンには期限が無いので何もしない。
+ * 「全自動」を名乗るうえでは、こちらのほうが本質的に安全である。
+ */
 async function refreshToken() {
+  if (!VIA_INSTAGRAM_LOGIN) {
+    console.log('Facebookページのトークンは期限が無いため、延長は不要です。');
+    return;
+  }
   try {
     const j = await call(`${API}/refresh_access_token?grant_type=ig_refresh_token&access_token=${encodeURIComponent(TOKEN)}`);
     if (j.access_token && j.access_token !== TOKEN) {
@@ -104,6 +133,7 @@ async function refreshToken() {
 }
 
 console.log(`投稿対象: ${today}`);
+console.log(`  経路: ${VIA_INSTAGRAM_LOGIN ? 'Instagramログイン (graph.instagram.com)' : 'Facebookページ (graph.facebook.com)'}`);
 console.log(`  画像: ${meta.image}`);
 console.log(`  記事: ${meta.articleUrl}`);
 

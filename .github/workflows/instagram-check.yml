@@ -36,6 +36,10 @@ jobs:
 
       # トークン自体が生きているかを先に見る。
       # ここで失敗するなら投稿以前の問題で、Metaアプリ側の設定を直す必要がある。
+      #
+      # 入口が2種類あり、トークンの見た目で判別する。
+      #   IGAA… → Instagramログイン経由 (graph.instagram.com)
+      #   それ以外 → Facebookページ経由 (graph.facebook.com)
       - name: Check token
         env:
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
@@ -46,14 +50,29 @@ jobs:
             exit 1
           fi
           echo "トークンの長さ: ${#IG_ACCESS_TOKEN} 文字"
+          case "$IG_ACCESS_TOKEN" in
+            IGAA*) API=https://graph.instagram.com/v21.0; TARGET=me;   echo "経路: Instagramログイン" ;;
+            *)     API=https://graph.facebook.com/v21.0;  TARGET="$IG_USER_ID"; echo "経路: Facebookページ" ;;
+          esac
+          if [ -z "$TARGET" ]; then
+            echo "::error::IG_USER_ID が Secrets に設定されていません。"
+            exit 1
+          fi
           code=$(curl -s -o /tmp/me.json -w '%{http_code}' \
-            "https://graph.instagram.com/v21.0/me?fields=id,username,account_type,media_count&access_token=$IG_ACCESS_TOKEN")
+            "$API/$TARGET?fields=id,username,media_count&access_token=$IG_ACCESS_TOKEN")
           echo "HTTP $code"
           # トークンそのものは出力しない。応答だけを見せる
           cat /tmp/me.json
           echo
           if [ "$code" != "200" ]; then
             echo "::error::トークンでアカウント情報を取得できません。上の error.message を見てください。"
+            # Facebook経由なら、どのページにどのInstagramが紐づいているかを併せて出す。
+            # IG_USER_ID の取り違えが最も多い失敗なので、その場で正解を見せる。
+            if [ "$API" = "https://graph.facebook.com/v21.0" ]; then
+              echo "--- 参考: このトークンで見えるページとInstagram ---"
+              curl -s "$API/me/accounts?fields=name,instagram_business_account{id,username}&access_token=$IG_ACCESS_TOKEN"
+              echo
+            fi
             exit 1
           fi
 
