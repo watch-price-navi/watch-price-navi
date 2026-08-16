@@ -144,8 +144,33 @@ if (DRY) {
 
 await assertImageReachable(meta.image);
 
+/**
+ * 投稿先のIDを確かめる。
+ *
+ * Instagramログイン方式では、トークンに紐づくIDを `me` から引ける。
+ * 設定した IG_USER_ID と食い違っていても、こちらを信じたほうが確実である。
+ * IDの取り違えは原因が分かりにくく、権限の問題と見分けがつかない。
+ * 引けなければ設定値をそのまま使う（Facebookページ方式はこちら）。
+ */
+async function resolveTarget() {
+  if (!VIA_INSTAGRAM_LOGIN) return IG_USER_ID;
+  try {
+    const me = await call(`${API}/me?fields=user_id,username&access_token=${encodeURIComponent(TOKEN)}`);
+    const id = me.user_id ?? me.id;
+    if (id && String(id) !== String(IG_USER_ID)) {
+      console.log(`::warning::IG_USER_ID(${IG_USER_ID}) ではなく ${id} を使います（@${me.username}）。`);
+      console.log('::warning::Secrets の IG_USER_ID をこの値に直しておくと、次回から警告が出なくなります。');
+    }
+    return id ?? IG_USER_ID;
+  } catch (e) {
+    console.log(`::warning::IDを確認できなかったため設定値を使います: ${e.message}`);
+    return IG_USER_ID;
+  }
+}
+const target = await resolveTarget();
+
 // 1) コンテナを作る
-const container = await call(`${API}/${IG_USER_ID}/media`, {
+const container = await call(`${API}/${target}/media`, {
   method: 'POST',
   headers: { 'Content-Type': 'application/json' },
   body: JSON.stringify({ image_url: meta.image, caption: meta.caption, access_token: TOKEN }),
@@ -153,7 +178,7 @@ const container = await call(`${API}/${IG_USER_ID}/media`, {
 console.log(`  コンテナ作成: ${container.id}`);
 
 // 2) 公開する
-const published = await call(`${API}/${IG_USER_ID}/media_publish`, {
+const published = await call(`${API}/${target}/media_publish`, {
   method: 'POST',
   headers: { 'Content-Type': 'application/json' },
   body: JSON.stringify({ creation_id: container.id, access_token: TOKEN }),
