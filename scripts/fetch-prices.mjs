@@ -15,13 +15,14 @@
  *   node scripts/fetch-prices.mjs --missing-only  # 価格未取得のモデルだけを対象にする
  *
  * 必要な環境変数(.env でも可): RAKUTEN_APP_ID, YAHOO_APP_ID
- * 任意: RAKUTEN_AFFILIATE_ID, RAKUTEN_GENRE_ID, VC_SID, VC_PID
+ * 任意: RAKUTEN_AFFILIATE_ID, RAKUTEN_GENRE_ID
  */
 
 import fs from 'node:fs';
 import path from 'node:path';
 import { loadCatalogs } from './lib/catalog.mjs';
 import { readJson } from './lib/json.mjs';
+import { wrapYahoo } from './lib/affiliate.mjs';
 
 const ROOT = process.cwd();
 
@@ -44,8 +45,6 @@ const RAKUTEN_AFFILIATE_ID = process.env.RAKUTEN_AFFILIATE_ID || '';
 // 558929 = 腕時計。'off' で無効化。CIでは未登録Variablesが空文字で渡るため || で既定値に倒す
 const RAKUTEN_GENRE_ID = (process.env.RAKUTEN_GENRE_ID ?? '').trim() || '558929';
 const YAHOO_APP_ID = process.env.YAHOO_APP_ID || '';
-const VC_SID = process.env.VC_SID || '';
-const VC_PID = process.env.VC_PID || '';
 
 const args = process.argv.slice(2);
 function argValue(name) {
@@ -175,18 +174,16 @@ async function fetchYahoo(model, brand) {
     sort: '+price',
     price_from: String(Math.max(1, Math.floor(model.priceFloorJpy))),
   });
-  if (VC_SID && VC_PID) {
-    params.set('affiliate_type', 'vc');
-    // 公式仕様: referralプレフィックスURLを丸ごとaffiliate_idに渡す(URLSearchParamsがエンコードする)
-    params.set('affiliate_id', `http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=${VC_SID}&pid=${VC_PID}&vc_url=`);
-  }
+  // 成果は「どこでもリンク」で出品URLを包む方式にした（もしも経由・1.54%）。
+  // Yahoo!のAPIに渡すアフィリエイト指定（バリューコマース）は使わない。
+  // バリューコマースには未加入で、もしもの方が料率も高い。
   const url = `https://shopping.yahooapis.jp/ShoppingWebService/V3/itemSearch?${params}`;
   const data = await fetchJson(url);
   return (data.hits ?? []).map((h) => ({
     source: 'yahoo',
     title: h.name ?? '',
     price: Number(h.price) || 0,
-    url: h.url ?? '',
+    url: wrapYahoo(h.url ?? ''),
     shop: h.seller?.name ?? '',
     // Yahoo!のパス1文字がサイズ。g=146px / j=300px / l=600px。最大の l で保存する
     image: h.image?.medium ? h.image.medium.replace(/\/i\/[a-z]\//, '/i/l/') : null,

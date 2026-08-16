@@ -22,6 +22,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { readJson } from './lib/json.mjs';
+import { wrapYahoo } from './lib/affiliate.mjs';
 
 const ROOT = process.cwd();
 
@@ -42,8 +43,6 @@ const RAKUTEN_ORIGIN =
 const RAKUTEN_GENRE_ID = (process.env.RAKUTEN_GENRE_ID ?? '').trim() || '558929';
 const RAKUTEN_AFFILIATE_ID = process.env.RAKUTEN_AFFILIATE_ID || '';
 const YAHOO_APP_ID = process.env.YAHOO_APP_ID || '';
-const VC_SID = process.env.VC_SID || '';
-const VC_PID = process.env.VC_PID || '';
 
 const args = process.argv.slice(2);
 const argValue = (n) => (args.indexOf(n) >= 0 ? args[args.indexOf(n) + 1] : null);
@@ -449,10 +448,8 @@ async function sweepYahoo(brand, out, keyword = brand.name_ja, bands = YAHOO_BAN
         price_from: String(min),
         price_to: String(max),
       });
-      if (VC_SID && VC_PID) {
-        params.set('affiliate_type', 'vc');
-        params.set('affiliate_id', `http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=${VC_SID}&pid=${VC_PID}&vc_url=`);
-      }
+      // 成果は「どこでもリンク」で出品URLを包む方式（もしも経由・1.54%）。
+      // Yahoo!のAPIに渡すアフィリエイト指定（バリューコマース）は使わない。
       let data;
       try {
         data = await fetchJson(`https://shopping.yahooapis.jp/ShoppingWebService/V3/itemSearch?${params}`);
@@ -466,7 +463,7 @@ async function sweepYahoo(brand, out, keyword = brand.name_ja, bands = YAHOO_BAN
           source: 'yahoo',
           title,
           price: Number(h.price) || 0,
-          url: h.url ?? '',
+          url: wrapYahoo(h.url ?? ''),
           shop: h.seller?.name ?? '',
           // Yahoo!のパス1文字がサイズ。g=146px / j=300px / l=600px。最大の l で保存する
           image: h.image?.medium ? h.image.medium.replace(/\/i\/[a-z]\//, '/i/l/') : null,
