@@ -101,6 +101,29 @@ export default async function ModelPage({
   // 「型番で検索したらページに辿り着ける」ことを優先し、中身を削って全件に用意する。
   const compact = offers.length < 2;
 
+  /**
+   * 写真を出品をまたいで集める。
+   *
+   * 楽天は1商品につき最大3枚返すが、長らく1枚目しか使っていなかった。
+   * 店ごとに撮り方が違うので、複数の出品から集めると
+   * 文字盤・裏蓋・側面・留め金と角度が揃うことがある。
+   *
+   * 同じ写真を二度出さないよう URL で重複を除く。
+   * 8枚を超えると縦に伸びて価格表が押し下げられるので、そこで打ち切る。
+   * 規約上、写真のリンク先はその写真が載っていた出品ページでなければならない。
+   */
+  const gallery: { src: string; url: string; shop: string }[] = [];
+  {
+    const seen = new Set<string>();
+    for (const o of offers) {
+      for (const src of o.images?.length ? o.images : o.image ? [o.image] : []) {
+        if (seen.has(src) || gallery.length >= 8) continue;
+        seen.add(src);
+        gallery.push({ src, url: o.url, shop: o.shop });
+      }
+    }
+  }
+
   const related = compact
     ? []
     : cat.models
@@ -155,11 +178,26 @@ export default async function ModelPage({
       </div>
 
       <section className="model-hero">
-        <div className="mh-image">
-          {lowest?.image ? (
-            <img src={imageUrl(lowest.image, 'hero') ?? ''} alt={`${bName} ${mName}`} />
-          ) : (
-            <div className="pc-noimg">{brand.name_en}</div>
+        {/* 楽天ウェブサービス規約 第8条4項により、この写真を出す領域からは
+            その写真の出品ページ以外へリンクできない。写真＝出品ページ、で統一する。 */}
+        <div className="mh-gallery">
+          <div className="mh-image">
+            {gallery.length > 0 ? (
+              <a href={gallery[0].url} target="_blank" rel="sponsored nofollow noopener" title={gallery[0].shop}>
+                <img src={imageUrl(gallery[0].src, 'hero') ?? ''} alt={`${bName} ${mName}`} />
+              </a>
+            ) : (
+              <div className="pc-noimg">{brand.name_en}</div>
+            )}
+          </div>
+          {gallery.length > 1 && (
+            <div className="mh-thumbs">
+              {gallery.slice(1).map((g) => (
+                <a key={g.src} href={g.url} target="_blank" rel="sponsored nofollow noopener" title={g.shop}>
+                  <img src={imageUrl(g.src, 'thumb') ?? ''} alt={`${bName} ${mName}`} loading="lazy" />
+                </a>
+              ))}
+            </div>
           )}
         </div>
 

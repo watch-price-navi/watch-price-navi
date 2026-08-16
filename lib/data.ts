@@ -53,6 +53,14 @@ export interface Offer {
   url: string;
   shop: string;
   image: string | null;
+  /**
+   * その出品の写真すべて。楽天は1商品につき最大3枚返す。
+   * 店ごとに撮り方が違うので、出品をまたいで集めると
+   * 文字盤・裏蓋・side・留め金と角度が揃うことがある。
+   * 楽天ウェブサービス規約 第8条4項があるので、この写真を出す領域からは
+   * その写真の出品ページ以外へリンクしてはならない。
+   */
+  images?: string[];
   condition: 'new' | 'used' | 'unknown';
 }
 

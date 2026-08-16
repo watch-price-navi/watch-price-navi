@@ -143,15 +143,27 @@ async function fetchRakuten(model, brand) {
   }
   const url = `${endpoint}?${params}`;
   const data = await fetchJson(url, 0, headers);
-  return (data.Items ?? []).map(({ Item: it }) => ({
-    source: 'rakuten',
-    title: it.itemName ?? '',
-    price: Number(it.itemPrice) || 0,
-    url: it.affiliateUrl || it.itemUrl || '',
-    shop: it.shopName ?? '',
-    image: it.mediumImageUrls?.[0]?.imageUrl?.replace(/\?_ex=\d+x\d+$/, '') ?? null,
-    condition: detectCondition(it.itemName ?? ''),
-  }));
+  return (data.Items ?? []).map(({ Item: it }) => {
+    // 楽天は1商品につき最大3枚返す。長らく1枚目しか使っていなかったが、
+    // 実測で5件14枚（1枚目だけなら5枚）と、2.8倍の写真が捨てられていた。
+    // 店によっては裏蓋や留め金を撮っており、角度違いとして使える。
+    const images = [...new Set(
+      (it.mediumImageUrls ?? [])
+        .map((x) => (typeof x === 'string' ? x : x?.imageUrl))
+        .filter(Boolean)
+        .map((u) => String(u).replace(/\?_ex=\d+x\d+$/, '')),
+    )];
+    return {
+      source: 'rakuten',
+      title: it.itemName ?? '',
+      price: Number(it.itemPrice) || 0,
+      url: it.affiliateUrl || it.itemUrl || '',
+      shop: it.shopName ?? '',
+      image: images[0] ?? null,
+      ...(images.length > 1 ? { images } : {}),
+      condition: detectCondition(it.itemName ?? ''),
+    };
+  });
 }
 
 async function fetchYahoo(model, brand) {

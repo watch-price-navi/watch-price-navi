@@ -411,13 +411,22 @@ async function sweepRakuten(brand, out, keyword = brand.name_ja, bands = RAKUTEN
       const items = data.Items ?? [];
       for (const { Item } of items) {
         const title = Item.itemName ?? '';
+        // 楽天は1商品につき最大3枚返す。1枚目だけ使うと写真が3分の1になる。
+        // 店によっては裏蓋や留め金を撮っており、角度違いとして使える。
+        const images = [...new Set(
+          (Item.mediumImageUrls ?? [])
+            .map((x) => (typeof x === 'string' ? x : x?.imageUrl))
+            .filter(Boolean)
+            .map((u) => String(u).replace(/\?_ex=\d+x\d+$/, '')),
+        )];
         out.push({
           source: 'rakuten',
           title,
           price: Number(Item.itemPrice) || 0,
           url: Item.affiliateUrl || Item.itemUrl || '',
           shop: Item.shopName ?? '',
-          image: Item.mediumImageUrls?.[0]?.imageUrl?.replace(/\?_ex=\d+x\d+$/, '') ?? null,
+          image: images[0] ?? null,
+          ...(images.length > 1 ? { images } : {}),
           condition: detectCondition(title),
         });
       }
