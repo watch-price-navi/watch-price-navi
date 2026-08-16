@@ -206,7 +206,16 @@ export default async function ModelPage({
             <div className="pp-empty">
               <b>{t(lang, 'no_prices_title')}</b>
               <p>{t(lang, 'no_prices_body')}</p>
+              {/*
+                国内に出品が無いページに来る人は、買える相手がいない。
+                だがこの型番を「持っている人」にとっては、市場に出回っていないこと自体が
+                高く売れる理由になる。買取査定を主、取扱店を従にする。
+                収益面でも、買取1件は楽天の販売10件分にあたる。
+              */}
               <div className="pp-actions" style={{ justifyContent: 'center', marginTop: 16 }}>
+                <a className="btn" href="#kaitori">
+                  {t(lang, 'kaitori_cta')}
+                </a>
                 <a className="btn btn-outline" href="#dealers">
                   {t(lang, 'dealers_title')}
                 </a>
@@ -215,6 +224,11 @@ export default async function ModelPage({
           )}
         </div>
       </section>
+
+      {/* 出品が無いページに来た人は、買う相手がいない。
+          だがこの型番を持っている人にとっては、市場に出回っていないこと自体が
+          高く売れる理由になる。唯一の「次の一手」なので上に出す。 */}
+      {offers.length === 0 && <KaitoriPanel lang={lang} modelName={`${bName} ${mName}`} />}
 
       <section className="section" style={{ paddingTop: 34 }}>
         <h2 className="section-title">{t(lang, 'spec_title')}</h2>
@@ -295,7 +309,10 @@ export default async function ModelPage({
         )}
       </section>
 
-      <KaitoriPanel lang={lang} modelName={`${bName} ${mName}`} />
+      {/* 出品があるページでは、まず価格を見せてから買取を出す。
+          買いに来た人の邪魔をしない順番。
+          出品が無いページでは上に出している（下のほうまで読ませても意味がない）。 */}
+      {offers.length > 0 && <KaitoriPanel lang={lang} modelName={`${bName} ${mName}`} />}
 
       {!compact && <AdSlot />}
 
