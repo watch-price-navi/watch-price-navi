@@ -158,9 +158,122 @@ async function findPhotos(brandEn, modelEn, reference, want) {
   return [...found.values()].sort((a, b) => Number(b.exact) - Number(a.exact)).slice(0, want);
 }
 
+/* ─────────────────────────────────────────────────────────────
+ * Openverse（Flickr・Wikimedia などを横断する CC 画像の検索）
+ *
+ * Commons だけでは足りなかった。高級時計の写真が少なく、60モデル中4件しか
+ * 取れていない。Openverse は Flickr を含むので、時計愛好家が撮った
+ * 裏蓋・留め金・ムーブメントといった角度違いに手が届く。
+ * 実測（オメガ スピードマスター）で、裏蓋・クラスプ・真横・Cal.1861 が揃った。
+ *
+ * 型番では引けない（`126610LN` は0件）。CC画像に型番は付いていないので、
+ * モデル名で引いて「同シリーズの別個体」として扱う。exact=false を必ず立てる。
+ *
+ * 改変を許すライセンスに限る。カルーセルに載せるには縦横比を揃える必要があり、
+ * 余白を足す時点で改変にあたりうるため。ND（改変禁止）は除く。
+ *
+ * 鍵は要らないが回数制限がある。1モデル1回に留め、間隔を空けて叩く。
+ * ───────────────────────────────────────────────────────────── */
+const OPENVERSE = 'https://api.openverse.org/v1/images/';
+/** 改変を許すものだけ。nd は含めない */
+const OV_LICENSE = /^(cc0|pdm|by|by-sa)$/i;
+/**
+ * 時計の写真であることを示す語。
+ * Commons のような分類が無いので語で見る。上の WATCH_WORD より広く、
+ * 角度違い（文字盤・ムーブメント・ベゼル）も拾えるようにする。
+ */
+const OV_WATCH_WORD =
+  /watch|wristwatch|chronograph|chronometer|horolog|timepiece|\bdial\b|movement|cali[bv]er|bezel|時計|腕時計/i;
+/** ブランド名を含んでも時計ではないもの。店舗の建物やコンセプトカーで実際に混ざった */
+const NOT_A_WATCH =
+  /\bstore\b|\bshop\b|boutique|building|museum|factory|\bcar\b|automobile|poster|advert|billboard|magazine|packaging|\bbox\b|\blogo\b|signage|storefront|portrait of/i;
+
+/**
+ * 鍵があれば使う。無くても動くが、続けて叩くと Cloudflare のボット判定に当たる。
+ * 鍵は https://api.openverse.org/v1/auth_tokens/register/ に
+ * 名前・説明・メールを送るだけで取れる（無料）。
+ * 取れたら OPENVERSE_CLIENT_ID / OPENVERSE_CLIENT_SECRET に入れる。
+ */
+let ovToken = null;
+async function openverseAuth() {
+  const id = process.env.OPENVERSE_CLIENT_ID;
+  const secret = process.env.OPENVERSE_CLIENT_SECRET;
+  if (!id || !secret || ovToken !== null) return ovToken;
+  try {
+    const res = await fetch('https://api.openverse.org/v1/auth_tokens/token/', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded', 'User-Agent': UA },
+      body: new URLSearchParams({ client_id: id, client_secret: secret, grant_type: 'client_credentials' }),
+    });
+    const j = await res.json();
+    ovToken = j.access_token ?? '';
+    if (ovToken) console.log('Openverse: 鍵で認証しました');
+  } catch {
+    ovToken = '';
+  }
+  return ovToken;
+}
+
+async function findOnOpenverse(brandEn, modelEn, reference, want) {
+  const q = `${brandEn} ${modelEn}`.replace(/\s+/g, ' ').trim();
+  let j;
+  try {
+    const url = `${OPENVERSE}?${new URLSearchParams({
+      q,
+      license_type: 'commercial',
+      page_size: '30',
+    })}`;
+    const token = await openverseAuth();
+    const headers = { 'User-Agent': UA, ...(token ? { Authorization: `Bearer ${token}` } : {}) };
+    const res = await fetch(url, { headers });
+    if (!res.ok) throw new Error(`HTTP ${res.status}${res.status === 401 || res.status === 429 ? '（回数制限。しばらく空けるか鍵を設定する）' : ''}`);
+    j = await res.json();
+  } catch (e) {
+    throw new Error(`Openverse: ${e.message}`);
+  }
+
+  const brandWord = new RegExp(escRe(distinctiveWord(brandEn)), 'i');
+  const refRe = reference ? new RegExp(escRe(reference).replace(/[.\-/]/g, '[.\\-/]?'), 'i') : null;
+  const out = [];
+  for (const r of j.results ?? []) {
+    const license = String(r.license ?? '');
+    if (!OV_LICENSE.test(license)) continue;
+    const title = strip(r.title);
+    const tags = (r.tags ?? []).map((t) => strip(t.name)).join(' ');
+    const hay = `${title} ${tags}`;
+    // 分類が無いぶん、ブランド名と時計の語の両方を要求して取り違えを防ぐ
+    if (!brandWord.test(hay)) continue;
+    if (!OV_WATCH_WORD.test(hay)) continue;
+    if (NOT_A_WATCH.test(hay)) continue;
+    if (COUNTERFEIT.test(hay)) continue;
+    if (NOT_A_PHOTO.test(title)) continue;
+    // 小さすぎるものは拡大に耐えない
+    if (Number(r.width) && Number(r.width) < 600) continue;
+    const src = r.url || r.thumbnail;
+    if (!src) continue;
+
+    out.push({
+      title: title || q,
+      src,
+      license: `CC ${license.toUpperCase()}${r.license_version ? ' ' + r.license_version : ''}`,
+      licenseUrl: r.license_url ?? null,
+      author: cleanAuthor(r.creator),
+      source: r.foreign_landing_url ?? r.url,
+      provider: r.source ?? 'openverse',
+      // 型番で引けないので基本 false。題名に型番があれば拾う
+      exact: refRe ? refRe.test(hay) : false,
+    });
+    if (out.length >= want * 2) break;
+  }
+  return out.sort((a, b) => Number(b.exact) - Number(a.exact)).slice(0, want);
+}
+
 async function download(url, dest) {
   const res = await fetch(url, { headers: { 'User-Agent': UA } });
   if (!res.ok) throw new Error(`download ${res.status}`);
+  const type = res.headers.get('content-type') ?? '';
+  // Openverse の url は拡張子が無いことがある。中身で確かめる
+  if (!/^image\//.test(type)) throw new Error(`画像ではない (${type})`);
   fs.writeFileSync(dest, Buffer.from(await res.arrayBuffer()));
 }
 
@@ -180,10 +293,13 @@ console.log(`対象 ${targets.length} モデルを調べます\n`);
 fs.mkdirSync(OUT_DIR, { recursive: true });
 const manifest = fs.existsSync(MANIFEST) ? readJson(MANIFEST) : { note: '', models: {} };
 manifest.note =
-  'Instagram に載せる時計の実写。Wikimedia Commons の CC / PD 画像のみ。' +
+  'Instagram に載せる時計の実写。Wikimedia Commons と Openverse(Flickr等) の CC / PD 画像のみ。' +
+  '改変を許すライセンスに限る（カルーセルは縦横比を揃える必要があり、余白を足す時点で改変にあたりうるため）。' +
   '表示義務があるので author・license・source を投稿の本文に必ず出すこと。' +
-  'exact=false は同じ型番の写真とは限らない（同シリーズの別個体）。その旨を明記して使う。';
+  'exact=false は同じ型番の写真とは限らない（同シリーズの別個体）。その旨を明記して使う。' +
+  'checked は調べた日。何も無くても記録し、30日は調べ直さない（相手の回数制限に当たらないため）。';
 manifest.models ??= {};
+manifest.checked ??= {};
 
 let withPhotos = 0;
 let files = 0;
@@ -193,13 +309,31 @@ for (const t of targets) {
     withPhotos++;
     continue;
   }
+  // 一度調べて何も無かったモデルを毎回調べ直さない。
+  // 相手の回数制限に当たると、写真のあるモデルまで取り逃す。
+  // 30日たてば新しい写真が投稿されている可能性があるので調べ直す。
+  const last = manifest.checked?.[key];
+  if (last && Date.now() - Date.parse(last) < 30 * 86400_000) continue;
+
   let photos = [];
   try {
-    photos = await findPhotos(t.brandEn, t.model.name_en, t.model.reference, 3);
+    photos = await findPhotos(t.brandEn, t.model.name_en, t.model.reference, 4);
   } catch (e) {
-    console.log(`  ! ${key}: ${e.message}`);
-    continue;
+    console.log(`  ! ${key} (Commons): ${e.message}`);
   }
+  // Commons だけでは足りない。カルーセルには最低3枚ほしいので Openverse でも探す
+  if (photos.length < 3) {
+    try {
+      const more = await findOnOpenverse(t.brandEn, t.model.name_en, t.model.reference, 6);
+      const seen = new Set(photos.map((p) => p.src));
+      for (const p of more) if (!seen.has(p.src)) photos.push(p);
+      await sleep(1200); // 鍵なしなので控えめに
+    } catch (e) {
+      console.log(`  ! ${key} (Openverse): ${e.message}`);
+    }
+  }
+  manifest.checked ??= {};
+  manifest.checked[key] = new Date().toISOString().slice(0, 10);
   if (photos.length === 0) continue;
 
   const saved = [];
@@ -219,6 +353,7 @@ for (const t of targets) {
       license: p.license,
       licenseUrl: p.licenseUrl,
       source: p.source,
+      provider: p.provider ?? 'wikimedia',
       exact: p.exact,
     });
     files++;

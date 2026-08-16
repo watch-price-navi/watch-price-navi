@@ -142,9 +142,16 @@ async function refreshToken() {
   }
 }
 
+// 複数枚あればカルーセルにする。1枚しか無い日は従来どおり1枚で出す。
+// Instagram のカルーセルは最大10枚。
+const images = (Array.isArray(meta.images) && meta.images.length ? meta.images : [meta.image])
+  .filter(Boolean)
+  .slice(0, 10);
+
 console.log(`投稿対象: ${today}`);
 console.log(`  経路: ${VIA_INSTAGRAM_LOGIN ? 'Instagramログイン (graph.instagram.com)' : 'Facebookページ (graph.facebook.com)'}`);
-console.log(`  画像: ${meta.image}`);
+console.log(`  形式: ${images.length > 1 ? `カルーセル ${images.length}枚` : '1枚'}`);
+for (const [i, s] of images.entries()) console.log(`  画像${i + 1}: ${s}`);
 console.log(`  記事: ${meta.articleUrl}`);
 
 if (DRY) {
@@ -152,7 +159,7 @@ if (DRY) {
   process.exit(0);
 }
 
-await assertImageReachable(meta.image);
+await assertImageReachable(images[0]);
 
 /**
  * 投稿先のIDを確かめる。
@@ -179,20 +186,45 @@ async function resolveTarget() {
 }
 const target = await resolveTarget();
 
+const post = (body) =>
+  call(`${API}/${target}/${body.creation_id ? 'media_publish' : 'media'}`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ ...body, access_token: TOKEN }),
+  });
+
 // 1) コンテナを作る
-const container = await call(`${API}/${target}/media`, {
-  method: 'POST',
-  headers: { 'Content-Type': 'application/json' },
-  body: JSON.stringify({ image_url: meta.image, caption: meta.caption, access_token: TOKEN }),
-});
-console.log(`  コンテナ作成: ${container.id}`);
+let containerId;
+if (images.length > 1) {
+  /*
+   * カルーセル（複数枚）は3段階になる。
+   *   1. 1枚ずつ is_carousel_item を立てて子を作る
+   *   2. media_type=CAROUSEL に子のIDを並べて親を作る
+   *   3. 親を公開する
+   * 1枚のときの2段階と混同すると、子だけ作って公開されない状態になる。
+   *
+   * 1本の時計を裏蓋・側面・留め金と見せられるのがカルーセルの値打ちなので、
+   * 途中で1枚でも落ちたら、揃っている分だけで出すのではなく作り直す
+   * （抜けた角度に読者は気づかないが、こちらは知っていて出すことになる）。
+   */
+  const children = [];
+  for (const [i, src] of images.entries()) {
+    await assertImageReachable(src);
+    const child = await post({ image_url: src, is_carousel_item: true });
+    children.push(child.id);
+    console.log(`  ${i + 1}枚目: ${child.id}`);
+  }
+  const parent = await post({ media_type: 'CAROUSEL', children: children.join(','), caption: meta.caption });
+  containerId = parent.id;
+  console.log(`  カルーセル作成: ${containerId}（${children.length}枚）`);
+} else {
+  const container = await post({ image_url: images[0], caption: meta.caption });
+  containerId = container.id;
+  console.log(`  コンテナ作成: ${containerId}`);
+}
 
 // 2) 公開する
-const published = await call(`${API}/${target}/media_publish`, {
-  method: 'POST',
-  headers: { 'Content-Type': 'application/json' },
-  body: JSON.stringify({ creation_id: container.id, access_token: TOKEN }),
-});
+const published = await post({ creation_id: containerId });
 console.log(`  公開しました: ${published.id}`);
 
 await refreshToken();

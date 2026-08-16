@@ -1,5 +1,5 @@
 {
-  "note": "Instagram に載せる時計の実写。Wikimedia Commons の CC / PD 画像のみ。表示義務があるので author・license・source を投稿の本文に必ず出すこと。exact=false は同じ型番の写真とは限らない（同シリーズの別個体）。その旨を明記して使う。",
+  "note": "Instagram に載せる時計の実写。Wikimedia Commons と Openverse(Flickr等) の CC / PD 画像のみ。改変を許すライセンスに限る（カルーセルは縦横比を揃える必要があり、余白を足す時点で改変にあたりうるため）。表示義務があるので author・license・source を投稿の本文に必ず出すこと。exact=false は同じ型番の写真とは限らない（同シリーズの別個体）。その旨を明記して使う。checked は調べた日。何も無くても記録し、30日は調べ直さない（相手の回数制限に当たらないため）。",
   "models": {
     "casio/g-shock-dw-5600e-1": {
       "brandId": "casio",
@@ -83,5 +83,19 @@
         }
       ]
     }
+  },
+  "checked": {
+    "a-lange-soehne/lange-1-191-032": "2026-08-16",
+    "a-lange-soehne/odysseus-363-179": "2026-08-16",
+    "a-lange-soehne/saxonia-thin-211-032": "2026-08-16",
+    "a-lange-soehne/1815-235-032": "2026-08-16",
+    "a-lange-soehne/datograph-up-down-405-035": "2026-08-16",
+    "a-lange-soehne/lange-1-time-zone-136-032": "2026-08-16",
+    "a-lange-soehne/1815-chronograph-414-028": "2026-08-16",
+    "audemars-piguet/royal-oak-jumbo-extra-thin-16202st": "2026-08-16",
+    "audemars-piguet/royal-oak-selfwinding-41-15510st": "2026-08-16",
+    "audemars-piguet/royal-oak-chronograph-26240st": "2026-08-16",
+    "audemars-piguet/royal-oak-selfwinding-15500st": "2026-08-16",
+    "audemars-piguet/royal-oak-selfwinding-15400st": "2026-08-16"
   }
 }

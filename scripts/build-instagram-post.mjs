@@ -231,6 +231,42 @@ fs.mkdirSync(path.dirname(outMeta), { recursive: true });
 const base = await sharp(bg.file).resize(SIZE, SIZE, { fit: 'cover', position: 'attention' }).toBuffer();
 await sharp(base).composite([{ input: overlay }]).jpeg({ quality: 88, mozjpeg: true }).toFile(outImg);
 
+/* ─── 2枚目以降：その時計の実写を角度違いで並べる ───────────────
+ *
+ * 1本の時計を、文字盤・裏蓋・側面・留め金と見せられるのがカルーセルの値打ち。
+ * 使えるのは CC / PD の写真だけである。楽天・Yahoo! の商品写真は
+ * 規約 第10条により Instagram には載せられない。
+ *
+ * 切り抜かず、余白を足して正方形にする。切り抜きは構図を変える改変にあたるが、
+ * 余白を足すのは技術的な調整に留まるため。撮った人の意図を損なわない。
+ *
+ * 作者・ライセンス・出典は本文に必ず書く（後段の caption で組む）。
+ * 型番一致でない写真は「同型の別個体」と明記する。読者が自分の買う個体の
+ * 写真だと誤解したまま買いに行くのを防ぐ。
+ */
+const extraImages = [];
+const photoCredits = [];
+try {
+  const manifest = readJson(path.join(ROOT, 'data/watch-photos.json'));
+  const entry = manifest.models?.[String(post.heroModel ?? '')];
+  for (const [i, p] of (entry?.photos ?? []).slice(0, 9).entries()) {
+    const src = path.join(ROOT, 'public', p.file.replace(/^\//, ''));
+    if (!fs.existsSync(src)) continue;
+    const name = `${today}-${i + 2}.jpg`;
+    await sharp(src)
+      .resize(SIZE, SIZE, { fit: 'contain', background: { r: 20, g: 16, b: 12 } })
+      .jpeg({ quality: 88, mozjpeg: true })
+      .toFile(path.join(ROOT, 'public/social', name));
+    extraImages.push(`${SITE}${BASE}/social/${name}`);
+    photoCredits.push(
+      [cleanAuthor(p.author) || 'Unknown', p.license, p.exact ? null : '（同型の別個体）'].filter(Boolean).join(' / '),
+    );
+  }
+} catch {
+  // 写真が無くても投稿は成立する。1枚で出す
+}
+if (extraImages.length) console.log(`実写 ${extraImages.length}枚を追加（カルーセル）`);
+
 // ---- 本文 ----
 const url = `${SITE}${BASE}/ja/blog/${post.slug}/`;
 const tags = [
@@ -288,6 +324,10 @@ const caption = [
       ]
     : []),
   creditText ? `\n${creditText} via Wikimedia Commons` : '',
+  // 写真の表示義務。何枚目が誰の写真かが分かる形で並べる
+  ...(photoCredits.length
+    ? ['', '写真 / Photos:', ...photoCredits.map((c, i) => `${i + 2}. ${c}`)]
+    : []),
   '',
   tags.join(' '),
 ]
@@ -303,6 +343,8 @@ fs.writeFileSync(
       date: today,
       slug: post.slug,
       image: `${SITE}${BASE}/social/${today}.jpg`,
+      // 2枚以上あれば投稿側がカルーセルにする。1枚目は必ず表紙
+      images: [`${SITE}${BASE}/social/${today}.jpg`, ...extraImages],
       articleUrl: url,
       background: bg.kind,
       credit: bg.credit ? { author: bg.credit.author, license: bg.credit.license, source: bg.credit.source } : null,
