@@ -239,25 +239,62 @@ const tags = [
   '#腕時計好きな人と繋がりたい',
   '#高級時計',
   '#時計',
-  '#watch',
-  '#watchesofinstagram',
   '#時計好き',
   '#時計選び',
   '#腕時計コーデ',
+  '#watch',
+  '#watchesofinstagram',
+  '#luxurywatches',
+  '#watchcollector',
+  '#horology',
+  '#wristwatch',
 ];
+
+/**
+ * 説明文を切り詰める。
+ * 英語は語の途中で切ると読めなくなるので、直前の空白まで戻す。
+ * 日本語は分かち書きしないのでそのまま切ってよい。
+ */
+function trim(s, n) {
+  const t = String(s ?? '').trim();
+  if (t.length <= n) return t;
+  const cut = t.slice(0, n);
+  const sp = cut.lastIndexOf(' ');
+  return (sp > n * 0.6 ? cut.slice(0, sp) : cut).trimEnd() + '…';
+}
+
+const titleEn = String(post.title_en ?? '').replace(/｜.*$/, '').trim();
+const descEn = trim(post.description_en, 180);
+
+// 日本語のあとに英語を続ける。世界からも読まれるようにするため。
+// 区切りを挟まないと、Instagram の折りたたみ表示で地続きに見えて読みにくい。
 const caption = [
   title,
   '',
-  String(post.description_ja ?? '').slice(0, 160),
+  trim(post.description_ja, 160),
   '',
   '記事はプロフィールのリンクから読めます。',
   '楽天市場・Yahoo!ショッピングの価格を毎日自動で集めて、型番ごとの最安値を載せています。',
+  ...(titleEn || descEn
+    ? [
+        '',
+        '· · ·',
+        '',
+        titleEn,
+        ...(descEn ? ['', descEn] : []),
+        '',
+        'Read the full article via the link in our profile.',
+        'We collect prices from Japan’s largest marketplaces every day and list the lowest price for each reference.',
+      ]
+    : []),
   creditText ? `\n${creditText} via Wikimedia Commons` : '',
   '',
   tags.join(' '),
 ]
   .filter((x) => x !== null)
-  .join('\n');
+  .join('\n')
+  // Instagram の本文は2,200字まで。超えると投稿そのものが弾かれる
+  .slice(0, 2200);
 
 fs.writeFileSync(
   outMeta,
