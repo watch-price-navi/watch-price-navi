@@ -120,12 +120,22 @@ async function refreshToken() {
   }
   try {
     const j = await call(`${API}/refresh_access_token?grant_type=ig_refresh_token&access_token=${encodeURIComponent(TOKEN)}`);
-    if (j.access_token && j.access_token !== TOKEN) {
-      // 新しいトークンは GitHub Secrets に自動反映できないため、ログに出さず期限だけ知らせる
-      console.log(`::warning::アクセストークンが更新されました。有効期限 約${Math.round((j.expires_in ?? 0) / 86400)}日。`);
-      console.log('::warning::この値は Secrets に自動保存できません。期限が近づいたら再発行してください。');
+    const days = Math.round((j.expires_in ?? 0) / 86400);
+    if (!j.access_token || j.access_token === TOKEN) {
+      console.log(`トークンの有効期限を延長しました（残り約${days}日）`);
+      return;
+    }
+    // 延長すると別の値が返る。これを保存しないと、いま登録されている方が
+    // 発行から60日で切れて投稿が止まる。ログには絶対に出さず、
+    // ファイルに書いてワークフロー側が gh コマンドで Secrets に入れる。
+    console.log(`::add-mask::${j.access_token}`);
+    const out = process.env.IG_TOKEN_OUT;
+    if (out) {
+      fs.writeFileSync(out, j.access_token, 'utf8');
+      console.log(`新しいトークンを取得しました（有効期限 約${days}日）。Secretsへ書き戻します。`);
     } else {
-      console.log(`トークンの有効期限を延長しました（残り約${Math.round((j.expires_in ?? 0) / 86400)}日）`);
+      console.log(`::warning::新しいトークンを取得しました（有効期限 約${days}日）が、保存先の指定がありません。`);
+      console.log('::warning::このままでは今のトークンが期限切れになると投稿が止まります。');
     }
   } catch (e) {
     console.log(`::warning::トークンの延長に失敗しました: ${e.message}`);

@@ -82,6 +82,7 @@ jobs:
         env:
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_TOKEN_OUT: ${{ runner.temp }}/ig_token.txt
           DATE: ${{ inputs.date }}
         run: |
           if [ -n "$DATE" ]; then
@@ -89,6 +90,28 @@ jobs:
           else
             node scripts/post-to-instagram.mjs
           fi
+
+      # 本番と同じく、延長されたトークンを Secrets に書き戻す。
+      # ここで確かめられれば、毎日の実行でも同じように動く。
+      - name: Save refreshed Instagram token
+        if: always()
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          f="${{ runner.temp }}/ig_token.txt"
+          if [ ! -s "$f" ]; then
+            echo "更新されたトークンはありません。"
+            exit 0
+          fi
+          if [ -z "$GH_TOKEN" ]; then
+            echo "::warning::GH_PAT が未設定のため、更新されたトークンを保存できません。"
+            rm -f "$f"
+            exit 0
+          fi
+          gh secret set IG_ACCESS_TOKEN --repo "${{ github.repository }}" < "$f"
+          rm -f "$f"
+          echo "IG_ACCESS_TOKEN を更新しました。"
 
       - name: Dry run
         if: ${{ !inputs.publish }}

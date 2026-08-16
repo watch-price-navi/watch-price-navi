@@ -225,6 +225,7 @@ jobs:
         env:
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_TOKEN_OUT: ${{ runner.temp }}/ig_token.txt
         run: |
           # GitHub Pages の反映には少し間がある。画像が取得できるまで待つ
           for i in 1 2 3 4 5 6; do
@@ -236,3 +237,31 @@ jobs:
           done
           echo "::error::Instagram への投稿が6回とも失敗しました。上のログの理由を確認してください。"
           exit 1
+
+      # Instagram のトークンは60日で切れる。延長すると別の値が返るので、
+      # それを Secrets に書き戻さないと、いま登録されている方が期限切れになり
+      # 投稿が止まる。毎日書き戻すことで実質無期限になる。
+      #
+      # 投稿が失敗した回でも、トークンだけ更新できていれば保存する（always）。
+      # gh はランナーに最初から入っているので追加の依存はない。
+      - name: Save refreshed Instagram token
+        if: always()
+        continue-on-error: true
+        env:
+          # secrets は if: では参照できないので、シェルの中で空かどうかを見る
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          f="${{ runner.temp }}/ig_token.txt"
+          if [ ! -s "$f" ]; then
+            echo "更新されたトークンはありません。"
+            exit 0
+          fi
+          if [ -z "$GH_TOKEN" ]; then
+            echo "::warning::GH_PAT が未設定のため、更新されたトークンを保存できません。"
+            echo "::warning::このままでは現在のトークンが期限切れになると投稿が止まります。"
+            rm -f "$f"
+            exit 0
+          fi
+          gh secret set IG_ACCESS_TOKEN --repo "${{ github.repository }}" < "$f"
+          rm -f "$f"
+          echo "IG_ACCESS_TOKEN を更新しました。"
