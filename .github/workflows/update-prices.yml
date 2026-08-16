@@ -152,6 +152,31 @@ jobs:
           YAHOO_APP_ID: ${{ secrets.YAHOO_APP_ID }}
         run: node scripts/fetch-prices.mjs --max-minutes 100
 
+      # カタログの掃除。価格が揃ったあとに行う。
+      # 「その型番の出品が全部ゴミ」かどうかは価格データが無いと判断できないため、
+      # 収集の前にやっても効かない。判定は scripts/lib/junk.mjs に一本化してある。
+      - name: Prune junk from catalog
+        if: env.FULL_RUN == 'true'
+        continue-on-error: true
+        run: |
+          node scripts/test-junk.mjs
+          node scripts/prune-auto-catalog.mjs --apply
+
+      - name: Commit pruned catalog
+        if: env.FULL_RUN == 'true'
+        continue-on-error: true
+        run: |
+          git config user.name "watch-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/brands-auto
+          if git diff --cached --quiet; then
+            echo "掃除するものはありませんでした"
+          else
+            git commit -m "chore: カタログからゴミを除去 [skip ci]"
+            git pull --rebase origin main || true
+            git push
+          fi
+
       # 海外の参考価格。国内の最安値とは別枠で出す。
       # eBayに「利用者のデータを保持しない」と申告して免除を受けているので、
       # 出品者名は取得も保存もしない（scripts/fetch-ebay.mjs の注記を参照）。
