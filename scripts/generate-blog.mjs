@@ -335,7 +335,15 @@ if (API_KEY) {
 const catalogKeys = new Set(allModels.map((x) => x.key));
 post.slug = slug;
 post.date = today;
-post.heroModel = catalogKeys.has(post.heroModel) ? post.heroModel : hero.key;
+/*
+ * 主役は「カタログにある」だけでなく「まだ主役にしていない」ことも要る。
+ * 候補を選ぶ側では既出を外していたが、AIが返した主役はカタログにありさえすれば
+ * そのまま通していた。そのため7/18と7/19が同じスノーフレークを主役にし、
+ * 記事一覧に同じ写真のカードが並んだ。
+ * 記事の顔はその記事の時計なので、主役が重なれば絵も重なる。
+ */
+post.heroModel =
+  catalogKeys.has(post.heroModel) && !usedHeroes.has(post.heroModel) ? post.heroModel : hero.key;
 post.relatedModels = (Array.isArray(post.relatedModels) ? post.relatedModels : []).filter((k) => catalogKeys.has(k));
 if (post.relatedModels.length === 0) post.relatedModels = related.map((r) => r.key);
 if (!post.title_ja || !post.body_ja || (post.body_ja || '').length < 200) {

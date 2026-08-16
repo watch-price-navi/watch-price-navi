@@ -171,26 +171,49 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
             </div>
             <div className="grid grid-posts">
               {posts.map((p) => {
-                // 記事カードは記事ページへのリンク。楽天ウェブサービス規約 第8条4項により
-                // 「ウェブサービスを使用した部分」から楽天以外へリンクできないため、
-                // 商品写真ではなく自前（およびCC/PD）の写真を顔にする
+                // 記事の顔は、その記事が扱う時計そのものにする。
+                // 発祥地の写真だと、同じブランドの記事が全部同じ絵になってしまう。
+                //
+                // ただし出品の写真を使う場合、楽天ウェブサービス規約 第8条4項により
+                // その写真からは出品ページ以外へリンクできない。
+                // そこで写真は出品へ、文字は記事へ、と行き先を分ける
+                // （モデルカード・ブランドカードと同じ組み方）。
                 const hero = postCardImage(p.heroModel);
+                const media = hero ? (
+                  <img src={hero.src} alt="" loading="lazy" />
+                ) : (
+                  // 記事ごとに違う文字を出す。固定文言だと同じ黒板が横に並んでしまう
+                  <div className="pc-noimg">{lang === 'ja' ? p.title_ja : p.title_en}</div>
+                );
+                const body = (
+                  <div className="pc-body">
+                    <time className="post-date">{formatDate(p.date, lang)}</time>
+                    <h3 className="post-title">{lang === 'ja' ? p.title_ja : p.title_en}</h3>
+                    <p className="post-desc">{lang === 'ja' ? p.description_ja : p.description_en}</p>
+                    <span className="post-more">{t(lang, 'blog_read')} →</span>
+                  </div>
+                );
+                if (hero?.offerUrl) {
+                  return (
+                    <div key={p.slug} className="card post-card">
+                      <a
+                        className="pc-media"
+                        href={hero.offerUrl}
+                        target="_blank"
+                        rel="sponsored nofollow noopener"
+                      >
+                        {media}
+                      </a>
+                      <Link href={`/${lang}/blog/${p.slug}/`} className="pc-link">
+                        {body}
+                      </Link>
+                    </div>
+                  );
+                }
                 return (
                   <Link key={p.slug} href={`/${lang}/blog/${p.slug}/`} className="card post-card">
-                    <div className="pc-media">
-                      {hero ? (
-                        <img src={hero.src} alt="" loading="lazy" />
-                      ) : (
-                        // 記事ごとに違う文字を出す。固定文言だと同じ黒板が横に並んでしまう
-                        <div className="pc-noimg">{lang === 'ja' ? p.title_ja : p.title_en}</div>
-                      )}
-                    </div>
-                    <div className="pc-body">
-                      <time className="post-date">{formatDate(p.date, lang)}</time>
-                      <h3 className="post-title">{lang === 'ja' ? p.title_ja : p.title_en}</h3>
-                      <p className="post-desc">{lang === 'ja' ? p.description_ja : p.description_en}</p>
-                      <span className="post-more">{t(lang, 'blog_read')} →</span>
-                    </div>
+                    <div className="pc-media">{media}</div>
+                    {body}
                   </Link>
                 );
               })}

@@ -311,6 +311,33 @@ export function getHeritage(): Record<string, HeritageBrand> {
 }
 
 /** 実写の出典とライセンス。CC BY 系は表示義務があるのでキャプションに必ず出す */
+/** 時計そのものの実写（CC / PD）。リンク先に制約が無いので使い勝手がよい */
+export interface WatchPhoto {
+  file: string;
+  author: string | null;
+  license: string;
+  licenseUrl: string | null;
+  source: string | null;
+  provider?: string;
+  /** false は「同じ型番の写真とは限らない（同型の別個体）」。その旨を出して使う */
+  exact: boolean;
+}
+
+let watchPhotoCache: Record<string, { photos: WatchPhoto[] }> | null = null;
+
+export function getWatchPhotos(): Record<string, { photos: WatchPhoto[] }> {
+  if (watchPhotoCache) return watchPhotoCache;
+  try {
+    const f = path.join(dataDir, 'watch-photos.json');
+    watchPhotoCache = fs.existsSync(f)
+      ? readJson<{ models: Record<string, { photos: WatchPhoto[] }> }>(f).models ?? {}
+      : {};
+  } catch {
+    watchPhotoCache = {};
+  }
+  return watchPhotoCache;
+}
+
 export function getHeritageImages(): Record<string, HeritageImage> {
   if (heritageImgCache) return heritageImgCache;
   try {

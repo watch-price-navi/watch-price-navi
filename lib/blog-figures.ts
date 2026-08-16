@@ -5,6 +5,7 @@ import {
   hasOwnPage,
   getHeritage,
   getHeritageImages,
+  getWatchPhotos,
   type HeritageImage,
 } from '@/lib/data';
 import { imageUrl } from '@/lib/image';
@@ -42,15 +43,42 @@ const esc = (s: string) =>
 export function postCardImage(heroModelKey: string | null | undefined): {
   src: string;
   credit: string | null;
+  /**
+   * 出品ページのURL。値があるときは、この写真は楽天・Yahoo!から取得したもので、
+   * 規約 第8条4項により**この出品ページ以外へリンクできない**。
+   * カードは写真だけを出品へ、文字を記事へ向けて組むこと。
+   * null なら自前・CC/PDの写真なので、カード全体を記事へ向けてよい。
+   */
+  offerUrl: string | null;
 } | null {
-  const brandId = String(heroModelKey ?? '').split('/')[0];
+  const key = String(heroModelKey ?? '');
+  const brandId = key.split('/')[0];
   if (!brandId) return null;
-  const images = getHeritageImages();
-  const img = images[`${brandId}-town`] ?? images[`${brandId}-founder`];
+
+  // 1. その時計そのもののCC/PD写真。リンク先に制約が無いので最も扱いやすい
+  const own = getWatchPhotos()[key]?.photos?.[0];
+  if (own?.file) {
+    return {
+      src: `${basePath()}${own.file}`,
+      credit: [own.author?.replace(/Unknown author/gi, 'Unknown'), own.license].filter(Boolean).join(' / ') || null,
+      offerUrl: null,
+    };
+  }
+
+  // 2. 出品の写真。記事ごとに違う「その時計」が出せるのはここまで。
+  //    規約により写真の行き先は出品ページに限られる
+  const s = getSummary()[key];
+  if (s?.image && s.url) {
+    return { src: imageUrl(s.image, 'card') ?? s.image, credit: null, offerUrl: s.url };
+  }
+
+  // 3. どちらも無ければ発祥の地。同じブランドの記事では同じ絵になるので最後の手段
+  const img = getHeritageImages()[`${brandId}-town`] ?? getHeritageImages()[`${brandId}-founder`];
   if (!img) return null;
   return {
     src: `${basePath()}${img.src}`,
     credit: [img.author?.replace(/Unknown author/gi, 'Unknown'), img.license].filter(Boolean).join(' / ') || null,
+    offerUrl: null,
   };
 }
 
