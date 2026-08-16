@@ -29,10 +29,34 @@ jobs:
   check:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
         with:
           node-version: 20
+
+      # トークンの自動更新に使う鍵を先に確かめる。
+      # 実際に書き戻しが起きるのは投稿した回だけなので、放っておくと
+      # 鍵の不備は「60日後に投稿が止まって初めて分かる」ことになる。
+      # 値は読まず、Secretsの一覧が引けるかどうかだけを見る。
+      - name: Check GH_PAT
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          if [ -z "$GH_TOKEN" ]; then
+            echo "::warning::GH_PAT が未設定です。トークンの自動更新は働きません。"
+            echo "  投稿自体は動きますが、約60日後に手作業での再発行が必要になります。"
+            exit 0
+          fi
+          if gh secret list --repo "${{ github.repository }}" > /tmp/secrets.txt 2>/tmp/err.txt; then
+            echo "GH_PAT は有効です。登録されている Secrets:"
+            cut -f1 /tmp/secrets.txt | sed 's/^/  - /'
+          else
+            echo "::error::GH_PAT では Secrets を操作できません。"
+            cat /tmp/err.txt
+            echo "  権限が Secrets: Read and write になっているか、"
+            echo "  対象リポジトリが watch-price-navi/watch-price-navi になっているか確認してください。"
+            exit 1
+          fi
 
       # トークン自体が生きているかを先に見る。
       # ここで失敗するなら投稿以前の問題で、Metaアプリ側の設定を直す必要がある。
