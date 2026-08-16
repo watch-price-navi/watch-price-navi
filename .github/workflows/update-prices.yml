@@ -101,9 +101,14 @@ jobs:
           YAHOO_APP_ID: ${{ secrets.YAHOO_APP_ID }}
           VC_SID: ${{ secrets.VC_SID }}
           VC_PID: ${{ secrets.VC_PID }}
-        # 毎日の実行はGitHub Actionsの6時間制限に収まるよう控えめな深さにする。
-        # より深く掘りたいときは手元で引数なし（既定の最大深度）で実行する。
-        run: node scripts/build-auto-catalog.mjs --pages 3 --yahoo-pages 2 --max-keywords 12
+        # GitHub Actions の1回の実行は6時間で強制終了される。
+        # 実測(2026-08-16)は 走査89分 + 価格100分 + 生成9分 + その他4分 = 202分で、
+        # 158分の余裕があった。掲載網羅を上げるため、その余裕を走査に回す。
+        #
+        # 深さを上げると上限に当たる危険が出るので、走査自身にも時間の上限を持たせた。
+        # 当たった場合は走査できなかったブランドを警告で知らせる（常態化させないため）。
+        # 見積り: 走査150分 + 価格100分 + 生成9分 + その他4分 = 263分（余裕97分）
+        run: node scripts/build-auto-catalog.mjs --pages 4 --yahoo-pages 3 --max-keywords 20 --max-minutes 150
 
       - name: Commit auto catalog
         if: env.FULL_RUN == 'true'

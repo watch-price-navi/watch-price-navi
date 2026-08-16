@@ -61,6 +61,20 @@ const USE_COLLECTIONS = !args.includes('--no-collections');
 const MAX_KEYWORDS = Number(argValue('--max-keywords')) || 30;
 // キーワード検索を何頁辿るか（楽天）
 const KEYWORD_PAGES = Number(argValue('--keyword-pages')) || 4;
+/**
+ * 時間の上限。0 なら無制限。
+ *
+ * GitHub Actions の1回の実行は6時間で強制終了される。走査を深くすると
+ * そこに当たりかねず、当たれば公開まで到達せずサイトが一日古いままになる。
+ * 深さは「上限に当たらない範囲で」上げるものなので、上限そのものを持たせる。
+ *
+ * 打ち切ると目録の後ろのブランドがその日だけ走査されない。ページが日替わりで
+ * 現れたり消えたりするのは検索評価に悪いので、これは非常口であって
+ * 常用するものではない。当たったら警告を出し、深さを見直すこと。
+ */
+const MAX_MINUTES = Number(argValue('--max-minutes')) || 0;
+const stopAt = MAX_MINUTES ? Date.now() + MAX_MINUTES * 60_000 : Infinity;
+const outOfTime = () => Date.now() > stopAt;
 
 if (!RAKUTEN_APP_ID && !YAHOO_APP_ID) {
   console.log('APIキーが未設定のため自動カタログ生成をスキップしました。');
@@ -571,9 +585,15 @@ function buildKeywords(cat) {
 let grandTotal = 0;
 let curatedPriced = 0;
 
+let skippedForTime = 0;
+
 for (const cat of catalogs) {
   const brand = cat.brand;
   if (onlyBrand && brand.id !== onlyBrand) continue;
+  if (outOfTime()) {
+    skippedForTime++;
+    continue;
+  }
 
   // 人手カタログの型番 → モデル の対応表（走査結果から価格を割り当てるのに使う）
   const curatedByRef = new Map();
@@ -592,6 +612,12 @@ for (const cat of catalogs) {
     if (list.length) {
       process.stdout.write(`出品${afterBrand}件 → ${list.length}語で追加走査… `);
       for (const kw of list) {
+        // 打ち切りはブランドの切れ目だけでなくここでも見る。
+        // 1ブランドのキーワード走査だけで数分かかるため、粒度が粗いと大きく超過する。
+        if (outOfTime()) {
+          process.stdout.write('(時間切れ) ');
+          break;
+        }
         // キーワード検索は母数が絞れているので楽天を深く辿る（実測で2頁目に目的の型番があった）。
         // Yahoo!は同じ検索での件数が少なく、かつ1件2秒かかるので1頁に留める。
         await sweepRakuten(brand, listings, kw, NO_BANDS, KEYWORD_PAGES);
@@ -781,3 +807,10 @@ if (WRITE_PRICES) {
 console.log(`\n自動カタログ: ${grandTotal}モデル（data/brands-auto/）`);
 console.log(`人手カタログのうち価格が付いたモデル: ${curatedPriced}件`);
 console.log(`価格データ合計: ${Object.keys(summary).length}モデル`);
+if (skippedForTime > 0) {
+  // 常態化させない。当たったら深さを下げるか上限を上げるかを判断する必要がある
+  console.log(`::warning::時間の上限(${MAX_MINUTES}分)に達し、${skippedForTime}ブランドを走査できませんでした。`);
+  console.log('::warning::そのブランドのページは今日だけ価格が出ません。走査の深さを見直してください。');
+} else if (MAX_MINUTES) {
+  console.log(`時間の上限(${MAX_MINUTES}分)には達していません。全ブランドを走査しました。`);
+}
