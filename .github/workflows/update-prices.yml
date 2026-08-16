@@ -156,6 +156,19 @@ jobs:
           VC_PID: ${{ secrets.VC_PID }}
         run: node scripts/fetch-prices.mjs --max-minutes 100
 
+      # 海外の参考価格。国内の最安値とは別枠で出す。
+      # eBayに「利用者のデータを保持しない」と申告して免除を受けているので、
+      # 出品者名は取得も保存もしない（scripts/fetch-ebay.mjs の注記を参照）。
+      # 1日5,000回まで。朝夕で600件ずつなら十分に収まる。
+      - name: Fetch eBay reference prices
+        if: env.FULL_RUN == 'true'
+        continue-on-error: true
+        env:
+          EBAY_APP_ID: ${{ secrets.EBAY_APP_ID }}
+          EBAY_CERT_ID: ${{ secrets.EBAY_CERT_ID }}
+          EBAY_CAMPAIGN_ID: ${{ vars.EBAY_CAMPAIGN_ID }}
+        run: node scripts/fetch-ebay.mjs --limit 600 --max-minutes 25
+
       # 未収録の新作型番を検出して data/pending-models.json に記録（朝の回のみ）
       - name: Discover new models
         if: env.FULL_RUN == 'true' && (github.event.schedule != '20 9 * * *')

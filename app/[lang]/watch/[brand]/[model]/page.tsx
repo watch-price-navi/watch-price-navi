@@ -7,7 +7,7 @@ import KaitoriPanel from '@/components/KaitoriPanel';
 import ModelCard from '@/components/ModelCard';
 import PriceTable from '@/components/PriceTable';
 import { absUrl } from '@/lib/config';
-import { getAllBrands, getBrand, getDealers, getModel, getPriceData, getSummary, hasOwnPage } from '@/lib/data';
+import { getAllBrands, getBrand, getDealers, getEbaySummary, getModel, getPriceData, getSummary, hasOwnPage } from '@/lib/data';
 import { formatDate, formatJpy } from '@/lib/format';
 import { imageUrl } from '@/lib/image';
 import { LANGS, t, type Lang } from '@/lib/i18n';
@@ -90,6 +90,8 @@ export default async function ModelPage({
   const summary = getSummary();
   const lowest = summary[`${brandId}/${modelId}`] ?? null;
   const dealers = getDealers();
+  // 海外の参考価格。無ければ節ごと出さない
+  const ebay = getEbaySummary()[`${brandId}/${model.id}`] ?? null;
   const bName = lang === 'ja' ? brand.name_ja : brand.name_en;
   const mName = lang === 'ja' ? model.name_ja : model.name_en;
   const offers = prices?.offers ?? [];
@@ -351,6 +353,36 @@ export default async function ModelPage({
           買いに来た人の邪魔をしない順番。
           出品が無いページでは上に出している（下のほうまで読ませても意味がない）。 */}
       {offers.length > 0 && <KaitoriPanel lang={lang} modelName={`${bName} ${mName}`} />}
+
+      {/* 海外の参考価格。
+          国内の最安値と同じ表に混ぜない。海外から取り寄せれば国際送料・関税・
+          輸入消費税が乗り、実際の支払いは1〜2割増える。同じ土俵に並べると
+          「こちらの方が安い」と読者を誤らせる。別枠にして、その旨も添える。
+
+          この節には楽天のデータを一切出さないので、eBayへリンクしてよい
+          （楽天ウェブサービス規約 第8条4項に触れない）。 */}
+      {ebay && (
+        <section className="section" style={{ paddingTop: 8 }}>
+          <h2 className="section-title">{t(lang, 'ebay_title')}</h2>
+          <div className="ebay-panel">
+            <div className="eb-main">
+              <span className="eb-price">
+                {ebay.currency} {ebay.price.toLocaleString(lang === 'ja' ? 'ja-JP' : 'en-US')}
+              </span>
+              <span className="eb-meta">
+                {ebay.offerCount}
+                {t(lang, 'ebay_offers')}
+                {ebay.country ? ` ・ ${ebay.country}` : ''}
+                {ebay.condition === 'new' ? ' ・ New' : ' ・ Used'}
+              </span>
+            </div>
+            <a className="btn" href={ebay.url} target="_blank" rel="sponsored nofollow noopener">
+              {t(lang, 'ebay_view')} →
+            </a>
+          </div>
+          <p className="eb-note">{t(lang, 'ebay_note')}</p>
+        </section>
+      )}
 
       {!compact && <AdSlot />}
 

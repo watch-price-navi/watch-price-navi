@@ -887,6 +887,23 @@ table.price-table, table.model-table {
    楽天は1商品につき最大3枚返し、店ごとに撮り方が違うので、
    出品をまたいで集めると文字盤・裏蓋・側面・留め金が揃うことがある。
    規約上リンク先はその写真が載っていた出品ページに限られる。 */
+/* 海外の参考価格。
+   国内の価格表と見た目を変えて「別のもの」と分かるようにする。
+   同じ体裁で並べると、読者は同じ土俵の比較だと受け取ってしまう。 */
+.ebay-panel {
+  display: flex; align-items: center; justify-content: space-between; gap: 20px; flex-wrap: wrap;
+  background: var(--surface); border: 1px dashed var(--line-soft); border-radius: var(--radius);
+  padding: 20px 24px;
+}
+.eb-main { display: flex; flex-direction: column; gap: 4px; }
+.eb-price { font-size: 24px; font-weight: 500; letter-spacing: 0.02em; font-variant-numeric: tabular-nums; }
+.eb-meta { font-size: 12.5px; color: var(--ink-faint); letter-spacing: 0.03em; }
+.eb-note { margin: 12px 2px 0; font-size: 12.5px; color: var(--ink-faint); line-height: 1.85; }
+@media (max-width: 560px) {
+  .ebay-panel { align-items: stretch; }
+  .ebay-panel .btn { width: 100%; text-align: center; }
+}
+
 .mh-gallery { display: flex; flex-direction: column; gap: 10px; }
 .mh-thumbs {
   display: grid; grid-template-columns: repeat(auto-fill, minmax(62px, 1fr)); gap: 8px;

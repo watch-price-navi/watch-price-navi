@@ -117,6 +117,14 @@ const dict: Dict = {
   lowest_used: { ja: '中古の最安値', en: 'Lowest pre-owned' },
   offer_count: { ja: '件の出品', en: 'listings' },
   cta_check_price: { ja: '最安値の店舗で見る', en: 'View at the cheapest store' },
+  // 海外相場。国内の最安値とは別枠にする（送料・関税・輸入消費税が乗るため）
+  ebay_title: { ja: '海外の参考価格（eBay）', en: 'Overseas reference price (eBay)' },
+  ebay_note: {
+    ja: '海外からの取り寄せには国際送料・関税・輸入消費税がかかり、支払総額は表示価格より1〜2割ほど高くなります。国内の最安値と直接は比べられません。',
+    en: 'Importing adds international shipping, customs duty and import tax; the total paid is typically 10–20% above the listed price. It is not directly comparable with the domestic lowest price.',
+  },
+  ebay_view: { ja: 'eBayで見る', en: 'View on eBay' },
+  ebay_offers: { ja: '件の海外出品', en: ' overseas listings' },
   price_range: { ja: '価格帯', en: 'Price range' },
   spec_material: { ja: 'ケース素材', en: 'Case material' },
   spec_wr: { ja: '防水性能', en: 'Water resistance' },

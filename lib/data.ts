@@ -311,6 +311,40 @@ export function getHeritage(): Record<string, HeritageBrand> {
 }
 
 /** 実写の出典とライセンス。CC BY 系は表示義務があるのでキャプションに必ず出す */
+/**
+ * eBay の海外出品から拾った参考価格。
+ *
+ * 国内の最安値と同じ表に混ぜてはいけない。海外から取り寄せれば
+ * 国際送料・関税・輸入消費税が乗り、実際の支払いは1〜2割増える。
+ * 「最安値」として並べると嘘になるので、別枠の参考値として扱う。
+ *
+ * 出品者名は持たない。eBayに「利用者のデータを保持しない」と申告して
+ * アカウント削除通知の免除を受けているため、申告と実装を一致させる。
+ */
+export interface EbayRef {
+  price: number;
+  currency: string;
+  url: string;
+  image: string | null;
+  condition: 'new' | 'used';
+  country: string | null;
+  offerCount: number;
+  updatedAt: string;
+}
+
+let ebayCache: Record<string, EbayRef> | null = null;
+
+export function getEbaySummary(): Record<string, EbayRef> {
+  if (ebayCache) return ebayCache;
+  try {
+    const f = path.join(dataDir, 'prices', 'ebay-summary.json');
+    ebayCache = fs.existsSync(f) ? readJson<Record<string, EbayRef>>(f) : {};
+  } catch {
+    ebayCache = {};
+  }
+  return ebayCache;
+}
+
 /** 時計そのものの実写（CC / PD）。リンク先に制約が無いので使い勝手がよい */
 export interface WatchPhoto {
   file: string;
