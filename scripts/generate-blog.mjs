@@ -323,11 +323,20 @@ if (API_KEY) {
     post = await writeWithApi();
     console.log(`Claude API (${MODEL}) で執筆しました`);
   } catch (e) {
-    console.warn(`API執筆に失敗したためテンプレートで生成します: ${e.message}`);
+    console.log(`::warning::API執筆に失敗したためテンプレートで生成します: ${e.message}`);
     post = writeWithTemplate();
   }
 } else {
-  console.log('ANTHROPIC_API_KEY 未設定のためテンプレートで生成します');
+  /*
+   * ここに落ちると、型にはめただけの記事が毎日積み上がる。
+   * 「ケース径38mm、ケース素材はtitanium」のような羅列で、読み物にならない。
+   *
+   * 実際、自動運用が始まってから今日まで（2026-08-14〜16）の記事はすべてこれだった。
+   * 静かに console.log していたため、緑の実行の中に紛れて誰も気づかなかった。
+   * 失敗ではないが、望んだ状態でもない。目に入るようにする。
+   */
+  console.log('::warning::ANTHROPIC_API_KEY が未設定です。型にはめただけの記事になります。');
+  console.log('::warning::Secrets に ANTHROPIC_API_KEY を入れると、翌朝から本文が書かれます。');
   post = writeWithTemplate();
 }
 
@@ -347,7 +356,7 @@ post.heroModel =
 post.relatedModels = (Array.isArray(post.relatedModels) ? post.relatedModels : []).filter((k) => catalogKeys.has(k));
 if (post.relatedModels.length === 0) post.relatedModels = related.map((r) => r.key);
 if (!post.title_ja || !post.body_ja || (post.body_ja || '').length < 200) {
-  console.warn('生成結果が不十分なためテンプレート版に差し替えます');
+  console.log('::warning::生成結果が不十分なためテンプレート版に差し替えます');
   post = writeWithTemplate();
 }
 
