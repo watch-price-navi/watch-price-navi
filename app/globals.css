@@ -96,6 +96,13 @@ body {
   font-feature-settings: 'palt' 0; /* 詰めない。等間隔のままの方が読みやすい */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* 横にはみ出したものがあっても、ページごと左右に動かさない。
+     一度これで事故を2回起こしている（ヘッダーが幅に収まらず、
+     全ページで横スクロールして端の文字が読めなくなった）。
+     hidden ではなく clip にするのは、hidden だと position: sticky の
+     ヘッダーが効かなくなるため。clip はスクロール枠を作らない。
+     ただしこれは最後の砦で、はみ出す原因そのものは必ず直すこと。 */
+  overflow-x: clip;
 }
 
 a { color: inherit; text-decoration: none; }
@@ -164,12 +171,16 @@ table.price-table td, table.model-table td, .post-date, .breadcrumb {
   text-transform: uppercase; font-family: var(--sans); font-weight: 500; margin-top: 4px;
 }
 .header-nav {
-  display: flex; align-items: center; gap: 28px; margin-left: auto; font-size: 13.5px;
+  display: flex; align-items: center; gap: 32px; margin-left: auto; font-size: 13.5px;
 }
 .header-nav a {
   position: relative; padding: 6px 0; white-space: nowrap;
+  /* 字を詰めて並べると安っぽく見える。什器の間隔と同じで、少し空けるほど品が出る */
+  letter-spacing: 0.04em;
   color: #e4dccd; transition: color var(--dur) var(--ease);
 }
+/* 項目名は画面幅で長短を切り替える。既定は長いほう */
+.nav-short { display: none; }
 .header-nav a:hover { color: var(--brass-lit); }
 .header-nav a::after {
   content: ''; position: absolute; left: 0; bottom: 0; width: 0; height: 1px;
@@ -472,7 +483,7 @@ a.card-price:hover .cp-go { color: var(--signal); }
   font-size: 17px; font-weight: 600; color: var(--ink);
 }
 @media (max-width: 640px) {
-  .header-nav .nav-sell { padding: 11px 12px; font-size: 12.5px; }
+  .header-nav .nav-sell { padding: 11px 10px; font-size: 12.5px; }
   .sp-item { padding: 16px 18px; }
   .st-price { font-size: 15px; }
 }
@@ -1142,11 +1153,21 @@ table.price-table, table.model-table {
   .logo { font-size: 18px; letter-spacing: 0.08em; }
   .logo .logo-sub { letter-spacing: 0.26em; font-size: 8.5px; }
   .header-nav {
-    width: 100%; margin-left: 0; gap: 0; justify-content: space-between; font-size: 13px;
+    width: 100%; margin-left: 0; font-size: 13px;
+    /* gap を 0 にして space-between だけに任せると、項目が幅を使い切ったときに
+       間隔が0まで潰れて字が隣とくっつく。実際そうなっていて、
+       さらに約55pxはみ出してページごと左右に動く状態だった。
+       最低幅を gap で保証し、余った分だけ space-between に配らせる。
+       それでも入りきらない端末（320px幅など）では2段に折り返して逃がす。 */
+    gap: 2px 10px; justify-content: space-between; flex-wrap: wrap;
   }
+  .nav-long { display: none; }
+  .nav-short { display: inline; }
   /* 指で押せる高さ（約44px）を確保する */
   .header-nav a { padding: 13px 0; }          /* 13*2 + 行高19.5 ≒ 45px */
-  .header-nav .lang-switch { padding: 13px 14px; font-size: 11px; }  /* 26 + 16.5 + 罫2 ≒ 45px */
+  /* 左右の余白は削っても押しやすさは変わらない（高さで確保している）。
+     ここを詰めた分が、項目どうしの間隔になる */
+  .header-nav .lang-switch { padding: 13px 11px; font-size: 11px; }  /* 26 + 16.5 + 罫2 ≒ 45px */
   .pr-bar { font-size: 11px; letter-spacing: 0.08em; padding: 7px 12px; }
 
   /* --- 価格表: 横並びのままだと価格と購入ボタンが画面外になるのでカード化する --- */

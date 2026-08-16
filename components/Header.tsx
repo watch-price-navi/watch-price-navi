@@ -18,9 +18,21 @@ export default function Header({ lang }: { lang: Lang }) {
             <span className="logo-sub">Watch Price Navi</span>
           </Link>
           <nav className="header-nav">
-            <Link href={`/${lang}/search/`}>{t(lang, 'nav_search')}</Link>
-            <Link href={`/${lang}/brands/`}>{t(lang, 'nav_brands')}</Link>
-            <Link href={`/${lang}/blog/`}>{t(lang, 'nav_blog')}</Link>
+            {/* 画面が狭いときは短い呼び方に差し替える。
+                日本語の項目名をそのまま並べるとiPhoneの幅に収まらず、
+                項目どうしの間隔が0まで潰れて読みづらくなる。 */}
+            <Link href={`/${lang}/search/`}>
+              <span className="nav-long">{t(lang, 'nav_search')}</span>
+              <span className="nav-short">{t(lang, 'nav_search_short')}</span>
+            </Link>
+            <Link href={`/${lang}/brands/`}>
+              <span className="nav-long">{t(lang, 'nav_brands')}</span>
+              <span className="nav-short">{t(lang, 'nav_brands_short')}</span>
+            </Link>
+            <Link href={`/${lang}/blog/`}>
+              <span className="nav-long">{t(lang, 'nav_blog')}</span>
+              <span className="nav-short">{t(lang, 'nav_blog_short')}</span>
+            </Link>
             {/* 買取査定は1件で数千〜1万円。楽天の「1商品1,000円上限」に対して10倍近く、
                 しかも購入という重い決断が要らずフォーム入力だけで成立する。
                 型番で検索して来る人には「買いたい人」と同じくらい「持っている人」がいるので、

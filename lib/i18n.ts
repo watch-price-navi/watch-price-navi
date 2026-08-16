@@ -11,6 +11,12 @@ const dict: Dict = {
   nav_brands: { ja: 'ブランド一覧', en: 'Brands' },
   nav_search: { ja: '条件から探す', en: 'Search' },
   nav_blog: { ja: '時計ブログ', en: 'Journal' },
+  // スマホ用の短い呼び方。日本語の項目名をそのまま並べると
+  // iPhoneの幅で約55pxはみ出し、項目の間隔が0まで潰れる。
+  // 英語はもともと短いので同じ語でよい。
+  nav_brands_short: { ja: 'ブランド', en: 'Brands' },
+  nav_search_short: { ja: '探す', en: 'Search' },
+  nav_blog_short: { ja: 'ブログ', en: 'Journal' },
   nav_about: { ja: 'このサイトについて', en: 'About' },
 
   // --- ファセット検索 ---
