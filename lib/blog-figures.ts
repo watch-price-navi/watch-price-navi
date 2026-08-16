@@ -171,6 +171,28 @@ export function fixDeadLinks(html: string, lang: Lang): string {
   });
 }
 
+/**
+ * 本文の内部リンクに basePath を付ける。
+ *
+ * サイトは `/watch-price-navi` の下に置かれている。Next.js の <Link> は
+ * これを自動で付けるが、本文は Markdown から起こした HTML をそのまま
+ * 書き出しているので付かない。結果、本文中のリンクがすべて404になっていた
+ * （1記事あたり5〜8本）。カードは <Link> なので正常で、本文だけが壊れる。
+ *
+ * **必ず図版の挿入がすべて終わった後に呼ぶこと。**
+ * 先に付けると insertFigures / fixDeadLinks の照合（`/ja/watch/...` で始まる想定）が
+ * 外れて、写真もリンク修正も効かなくなる。
+ */
+export function withBasePath(html: string): string {
+  const bp = basePath();
+  if (!bp) return html;
+  // 既に付いているものは触らない
+  return html.replace(
+    new RegExp(`href="(?!${bp}/)/(ja|en)/`, 'g'),
+    (_m, l: string) => `href="${bp}/${l}/`,
+  );
+}
+
 export function insertFigures(html: string, lang: Lang, max = 6): string {
   const summary = getSummary();
   const brands = getAllBrands();

@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { marked } from 'marked';
-import { fixDeadLinks, insertFigures, insertHeritageFigures } from '@/lib/blog-figures';
+import { fixDeadLinks, insertFigures, insertHeritageFigures, withBasePath } from '@/lib/blog-figures';
 import AdSlot from '@/components/AdSlot';
 import ModelCard from '@/components/ModelCard';
 import StylingSection from '@/components/StylingSection';
@@ -108,14 +108,20 @@ export default async function BlogPostPage({
   // 1. ページの無いモデルへのリンクを向け直す（404を残さない）
   // 2. 創業者の肖像・発祥地の風景を、その語に触れている段落の直後に置く
   // 3. モデルリンクを目印に商品写真を差し込む
+  // 4. 最後に basePath を付ける
   // いずれも記事データ自体は書き換えない
-  const html = insertFigures(
-    insertHeritageFigures(
-      fixDeadLinks(marked.parse(body || '', { async: false }) as string, lang),
+  //
+  // 4 を最後にするのは、1〜3 が `/ja/watch/...` で始まる形を目印にしているため。
+  // 先に basePath を付けると照合が外れ、写真もリンク修正も効かなくなる。
+  const html = withBasePath(
+    insertFigures(
+      insertHeritageFigures(
+        fixDeadLinks(marked.parse(body || '', { async: false }) as string, lang),
+        lang,
+        articleBrands,
+      ),
       lang,
-      articleBrands,
     ),
-    lang,
   );
   const related = relatedWithPhotos(post, summary);
   const hero = post.heroModel ? resolveModels([post.heroModel])[0] ?? null : null;
