@@ -241,8 +241,25 @@ console.log(`記事が参照するモデル: ${blogReferenced.size}件（最優�
 let failures = 0;
 let skippedForTime = 0;
 
-for (const catalog of catalogs) {
-  const { brand, models } = catalog;
+/**
+ * 記事が参照するモデルだけを集めた「1周目」を目録の先頭に足す。
+ *
+ * ブランドは目録の順に処理されるので、モデルの優先順位を上げるだけでは足りない。
+ * 順番が後ろのブランドは時間切れで丸ごと飛ばされ、そこに記事の参照があっても
+ * 手が届かなかった（実際、未収集19件のうち8件がIWCだった）。
+ * ブランドをまたいで先に押さえる。
+ */
+const done = new Set();
+const blogFirst = catalogs
+  .map((c) => ({
+    brand: c.brand,
+    models: c.models.filter((m) => blogReferenced.has(`${c.brand.id}/${m.id}`)),
+    blogPass: true,
+  }))
+  .filter((c) => c.models.length > 0);
+
+for (const catalog of [...blogFirst, ...catalogs]) {
+  const { brand, models, blogPass } = catalog;
   if (onlyBrand && brand.id !== onlyBrand) continue;
 
   // 記事が参照するモデル → 人気モデル → 価格未取得 → その他 の順に処理し、
@@ -254,6 +271,7 @@ for (const catalog of catalogs) {
   // 実際に7/22の記事で、参照先4件の価格が取れず図版が全部消えていた。
   // 人気印は付いていなくても、記事に出る以上は必ず押さえる。
   const queue = models
+    .filter((m) => !done.has(`${brand.id}/${m.id}`)) // 1周目で済んだものは2周目で飛ばす
     .filter((m) => !missingOnly || !summary[`${brand.id}/${m.id}`])
     .map((m) => ({
       m,
@@ -268,7 +286,7 @@ for (const catalog of catalogs) {
     .slice(0, limit);
 
   if (queue.length === 0) continue;
-  console.log(`\n=== ${brand.name_en} (${queue.length} models) ===`);
+  console.log(`\n=== ${brand.name_en} (${queue.length} models)${blogPass ? ' ※記事の参照' : ''} ===`);
   const brandDir = path.join(pricesDir, brand.id);
   fs.mkdirSync(brandDir, { recursive: true });
 
@@ -280,6 +298,7 @@ for (const catalog of catalogs) {
     }
     processed++;
     brandProcessed++;
+    done.add(`${brand.id}/${model.id}`);
     // 片方のAPIが落ちてももう片方の結果は使う（楽天旧API廃止後にYahoo!まで道連れにしない）
     let rakuten = [];
     let yahoo = [];
