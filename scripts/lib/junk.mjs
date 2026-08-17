@@ -195,6 +195,51 @@ const DEDICATED_PART_RE = /専用[^\s　]{0,8}(?:ベルト|バンド|ブレス�
 const ENGLISH_PART_RE =
   /\b(?:hands?|screws?|clamps?|crystal|glass|gasket|stem|crown|wheel|bridge|plate|parts?|dial|bezel|case)\s+for\b|\bfor\s+(?:tudor|rolex|omega|breitling|panerai|zenith|longines|seiko|cartier|iwc|hamilton|tissot|rado|oris)\b/i;
 
+/* ─── 海外の部品商の出品 ─────────────────────────────────
+ *
+ * 「【送料無料】腕時計　」に続けてローマ字が並ぶ、決まった形の出品が798件ある。
+ * ラドー236・ティソ198・ロンジン156と、特定のブランドに偏る。
+ *
+ * この出品者は**時計も部品も両方売っている**。まとめて落とすことはできない。
+ *   「rado womens quartz watch r20785152」        ¥294,980 ← 本体
+ *   「tissot part no 401 for calibre 7091 winding stem」¥16,980 ← 部品
+ *
+ * そこで語を二段に分ける。
+ *   HARD … 本体の説明には出ない語（part / stem / end link / mainspring）
+ *   SOFT … 文脈しだいの語（movement / caliber）。本体を指す語が同居していれば残す
+ *
+ * 「winding」単独は入れてはいけない。手巻き（manual winding）に当たり、
+ * 「rare 1950s vintage breitling ... manual winding」¥144,980 を消しかけた。
+ * 「caliber」も単独では危ない。本物が仕様として書く
+ * （「longines sei tacche 33mm caliber 10L stainless steel」¥164,980）。
+ */
+const IMPORT_SELLER_RE = /^【送料無料】\s*腕時計|^【送料無料】\s*[a-z]/i;
+const IMPORT_PART_HARD_RE =
+  /\b(?:parts?|stem|mainspring|main spring|cannon pinion|cent(?:er|re) wheel|balance staff|click spring|ratchet|setting lever|end link|winding stem|repair|restor|spare|for parts)\b/i;
+const IMPORT_PART_SOFT_RE = /\b(?:movement|calib(?:er|re)|kaliber)\b/i;
+/** 本体であることを示す語。寸法＋素材の組み合わせも本体の書き方である */
+const WHOLE_WATCH_RE =
+  /\b(?:watch|montre|orologio|uhr|reloj|wristwatch)\b|[0-9]{2}\s?mm[^]{0,24}\b(?:stainless|steel|gold|platinum|titanium|acier|acciaio)\b/i;
+
+/*
+ * 欧語の部品名。イタリア語・フランス語・ドイツ語の出品が混ざっている。
+ *   cassa（伊：ケース）／ cadran（仏：文字盤）／ lunette（仏：ベゼル）
+ *   vetro（伊：風防）／ boîtier（仏：ケース）／ zifferblatt（独：文字盤）
+ *
+ * これらは本体の説明にも出る（「cadran blanc」＝白文字盤）。
+ * そこで**語順**で判定する。部品の出品は売り物を先に書く。
+ *   「cassa orologio longines」        → cassa が先。ケースの出品
+ *   「montre tissot prc200 cadran blanc」→ montre が先。時計の出品
+ * ブランドの先出し判定と同じ考え方である。実測29件中27件が部品で、
+ * 残る2件（orologio da polso… / montre tissot…）は本物だった。
+ */
+const FOREIGN_PART_RE =
+  /\b(?:cassa|cadran|quadrante|lunette|boitier|boîtier|aiguilles?|gehause|gehäuse|zifferblatt|zeiger|corona|vetro|fondello|maglia|maglie)\b/i;
+const firstIndex = (re, s) => {
+  const m = re.exec(s);
+  return m ? m.index : Infinity;
+};
+
 /**
  * 型番を「／」で3つ以上並べる出品は、対応機種を列挙した部品である。
  * 「ハミルトン純正 H77616133／H77626153／H77756131／H77636143 ステンレススチール ベルト」
@@ -229,6 +274,12 @@ export function isJunkTitle(title) {
   if (STRONG_RE.test(t) || PART_RE.test(t)) return true;
   if (DEDICATED_PART_RE.test(t)) return true;
   if (ENGLISH_PART_RE.test(t)) return true;
+  if (IMPORT_SELLER_RE.test(t)) {
+    if (IMPORT_PART_HARD_RE.test(t)) return true;
+    if (IMPORT_PART_SOFT_RE.test(t) && !WHOLE_WATCH_RE.test(t)) return true;
+  }
+  // 欧語の部品名が、時計そのものを指す語より先に出ていれば部品の出品
+  if (FOREIGN_PART_RE.test(t) && firstIndex(FOREIGN_PART_RE, t) < firstIndex(WHOLE_WATCH_RE, t)) return true;
   return SLASH_REF_LIST_RE.test(t) && PART_WORD_RE.test(t);
 }
 

@@ -97,6 +97,23 @@ const PARTS = [
   ['H605.705.107　カーキフィールドオート40mm専用ステンレスベルト /ハミルトン純正', true],
   ['ロンジン ドルチェヴィータ レディース 13mm 専用ステンレスベルト L600145152', true],
   ['ダレスバッグ メンズ 豊岡 製 鞄 日本製 国産 ジェーシーハミルトン 22301 42cm B4', true],
+  // 海外の部品商。同じ出品者が時計も部品も売るので、語で分けるしかない
+  ['【送料無料】腕時計　ティソ tissot part no 401 pl49202 for calibre 7091 winding stem', true],
+  ['【送料無料】original tissot prc200 prc 200 end link for model t014410a', true],
+  ['【送料無料】腕時計　ニューロンジンムーブメント longines 8882 movement', true],
+  ['【送料無料】腕時計　ウォッチ　チューダーオイスターリンクブレスレットクラスプエンドリンクtudor oyster end link', true],
+  // 欧語の部品名。語順で判定する（部品の出品は売り物を先に書く）
+  ['【送料無料】cassa zenith gold plated rif169a180 vintage', true],
+  ['【送料無料】腕時計　カドランモントルティソナビゲーター cadran montre tissot navigator', true],
+  ['【送料無料】腕時計　cassa cinturino longines 4897 l 111 case watch', true],
+  ['【送料無料】腕時計　ヴェトロロンジンビンテージ vetro longines ref 3715 vintage', true],
+  // 同じ出品者の本物。消してはいけない
+  ['【送料無料】rado womens quartz watch r20785152', false],
+  ['【送料無料】腕時計　ティソナビビンテージクロノグラフ tissot navigator vintage chronograph watch', false],
+  ['【送料無料】longines sei tacche 33mm caliber 10l stainless steel', false],
+  ['【送料無料】腕時計　rare 1950s vintage breitling gold plated ladies manual winding', false],
+  ['【送料無料】orologio da polso tissot pr50 vetro zaffiro eta 2512', false],
+  ['【送料無料】montre tissot prc 200 quartz cadran blanc bracelet cuir', false],
   // 消してはいけないもの。「ブレス」「バックル」は本物が素材として書く
   ['シチズン CITIZEN キー Kii: エコドライブ スクエア メタルブレス EG7040-58A', false],
   ['デッドストック級 保付 カルティエ ディアボロLM トップバックル 18K/750/YG QZ 白文字盤', false],
