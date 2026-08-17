@@ -126,8 +126,14 @@ jobs:
         #
         # 深さを上げると上限に当たる危険が出るので、走査自身にも時間の上限を持たせた。
         # 当たった場合は走査できなかったブランドを警告で知らせる（常態化させないため）。
-        # 見積り: 走査150分 + 価格100分 + 生成9分 + その他4分 = 263分（余裕97分）
-        run: node scripts/build-auto-catalog.mjs --pages 4 --yahoo-pages 3 --max-keywords 20 --max-minutes 150
+        #
+        # 2026-08-17: ブランドを39→67社に増やした。
+        # 1社あたり2.3分（実測89分/39社）なので、67社では153分かかる計算になり、
+        # 150分の上限に当たって後ろのブランドが走査されないことになる。
+        # ブランドはアルファベット順なので、当たると毎日同じ社（tissot〜zenith）が
+        # 落ち続ける。上限を185分に引き上げた。
+        # 見積り: 走査185分 + 価格100分 + 生成9分 + その他4分 = 298分（6時間に対し余裕62分）
+        run: node scripts/build-auto-catalog.mjs --pages 4 --yahoo-pages 3 --max-keywords 20 --max-minutes 185
 
       - name: Commit auto catalog
         if: env.FULL_RUN == 'true'
