@@ -34,7 +34,9 @@ const MANIFEST = path.join(ROOT, 'data/watch-photos.json');
 const UA = 'watch-price-navi/1.0 (https://watch-price-navi.github.io/watch-price-navi/)';
 const args = process.argv.slice(2);
 const ALL = args.includes('--all');
-const LIMIT = Number(args[args.indexOf('--limit') + 1]) || (ALL ? 9999 : 120);
+// --limit 0（モデルは調べずブランド写真だけ集める）を効かせるため、
+// 「値が無いとき」と「0のとき」を区別する
+const LIMIT = args.includes('--limit') ? Number(args[args.indexOf('--limit') + 1]) : ALL ? 9999 : 120;
 /** 1回に調べるブランド数。39社しかないので、数回の実行で一巡する */
 const BRAND_LIMIT = Number(args[args.indexOf('--brand-limit') + 1]) || 6;
 
@@ -42,6 +44,19 @@ const BRAND_LIMIT = Number(args[args.indexOf('--brand-limit') + 1]) || 6;
 const ALLOWED = [/public domain/i, /^cc0/i, /^cc[ -]by([ -]sa)?[ -]?\d/i, /^cc[ -]by([ -]sa)?$/i];
 /** ロゴやアイコンは時計の写真ではない */
 const NOT_A_PHOTO = /logo|icon|symbol|diagram|chart|\bmap\b|signature|coat of arms/i;
+
+/*
+ * 店舗・看板・広告の写真。
+ *
+ * Commons では、香港やマカオのモールにあるブティックの外観が
+ * 「Richard Mille watches」のような時計の分類に入っている。
+ * 分類だけでは弾けないので、ファイル名でも見る。
+ * 実測（2026-08-17）で、高級ブランドの写真93枚のうち17枚がこれだった。
+ * リシャール・ミルは1枚しか無く、それが店の外観だったため投稿の背景が
+ * 「RICHARD MILLE と書かれたガラス張りの店」になっていた。
+ */
+const NOT_THE_PRODUCT =
+  /boutique|storefront|\bstore\b|\bshop\b|shopping|mall|building|facade|signage|\bsign\b|advertis|advert\b|billboard|booth|showroom|factory|museum|headquarters|entrance|\bstreet\b|station|plaza|avenue|exterior|window display/i;
 /**
  * 写真のファイルだけを対象にする。
  * これが無かったため、19世紀の医学書や地誌のPDFスキャンが大量に混ざっていた。
@@ -139,6 +154,8 @@ async function findPhotos(brandEn, modelEn, reference, want) {
       if (!ii) continue;
       const title = String(page.title ?? '').replace(/^File:/, '');
       if (NOT_A_PHOTO.test(title)) continue;
+      // 店舗や看板は時計そのものではない
+      if (NOT_THE_PRODUCT.test(title)) continue;
       if (!IS_IMAGE_FILE.test(title)) continue;
       if (ii.mime && !/^image\//.test(ii.mime)) continue;
       // ブランド名を含まないものは別物の可能性が高い
