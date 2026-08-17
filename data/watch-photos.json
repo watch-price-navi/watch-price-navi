@@ -636,6 +636,40 @@
           "exact": false
         }
       ]
+    },
+    "corum/golden-bridge": {
+      "brandId": "corum",
+      "modelId": "golden-bridge",
+      "reference": "B113/03744",
+      "photos": [
+        {
+          "file": "/img/watches/corum-golden-bridge-1.jpg",
+          "commonsTitle": "Corum GoldenBridgeClassic Side BlackBackground.jpg",
+          "author": "Chcrm",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Corum_GoldenBridgeClassic_Side_BlackBackground.jpg",
+          "provider": "wikimedia",
+          "exact": false
+        }
+      ]
+    },
+    "ebel/beluga": {
+      "brandId": "ebel",
+      "modelId": "beluga",
+      "reference": "1216462",
+      "photos": [
+        {
+          "file": "/img/watches/ebel-beluga-1.jpg",
+          "commonsTitle": "Ebel Beluga con calendario perpetuo, fine anni Ottanta.jpg",
+          "author": "Clyde94",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Ebel_Beluga_con_calendario_perpetuo,_fine_anni_Ottanta.jpg",
+          "provider": "wikimedia",
+          "exact": false
+        }
+      ]
     }
   },
   "checked": {
@@ -726,7 +760,19 @@
     "citizen/promaster-diver-bn0156-05e": "2026-08-17",
     "citizen/series-8-830-na1000-88e": "2026-08-17",
     "citizen/promaster-fugu-ny0040-09e": "2026-08-17",
-    "citizen/promaster-aqualand-jp2000-08e": "2026-08-17"
+    "citizen/promaster-aqualand-jp2000-08e": "2026-08-17",
+    "citizen/promaster-nighthawk-bj7000-52e": "2026-08-17",
+    "citizen/tsuyosa-nj0151-88m": "2026-08-17",
+    "citizen/citizen-collection-nh8350-59a": "2026-08-17",
+    "corum/golden-bridge": "2026-08-17",
+    "corum/admirals-cup-ac-one-45": "2026-08-17",
+    "corum/bubble-47": "2026-08-17",
+    "czapek/antarctique-passage-de-drake": "2026-08-17",
+    "czapek/quai-des-bergues": "2026-08-17",
+    "czapek/antarctique-terre-adelie": "2026-08-17",
+    "ebel/sport-classic": "2026-08-17",
+    "ebel/1911-discovery": "2026-08-17",
+    "ebel/beluga": "2026-08-17"
   },
   "brands": {
     "a-lange-soehne": {
