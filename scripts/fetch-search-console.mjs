@@ -120,8 +120,44 @@ const ymd = (d) => new Date(d).toISOString().slice(0, 10);
 const endDate = ymd(Date.now() - 3 * 86400_000);
 const startDate = ymd(Date.now() - (DAYS + 3) * 86400_000);
 
-async function query(token, dimensions, rowLimit = 25000) {
-  const url = `https://searchconsole.googleapis.com/webmasters/v3/sites/${encodeURIComponent(SITE + '/')}/searchAnalytics/query`;
+/**
+ * どのサイトを見るかを、登録済みの一覧から決める。
+ *
+ * URLを決め打ちにしてはいけない。GitHub Pages のプロジェクトサイトは
+ *   公開URL          https://watch-price-navi.github.io/watch-price-navi/
+ *   ドメインの根      https://watch-price-navi.github.io/
+ * の2通りがあり、Search Console にどちらで登録したかで指定が変わる。
+ * 決め打ちにすると、片方では必ず 403 になって理由も分からない。
+ *
+ * サービスアカウントから見えるサイトを問い合わせ、
+ * 公開URLに最も近いものを選ぶ。見つからなければ一覧をそのまま出す
+ * （権限の付け忘れが最も多い失敗なので、その場で気づけるようにする）。
+ */
+async function pickSite(token) {
+  const res = await fetch('https://searchconsole.googleapis.com/webmasters/v3/sites', {
+    headers: { Authorization: `Bearer ${token}` },
+  });
+  const j = await res.json();
+  if (j.error) throw new Error(`${j.error.code} ${j.error.message}`);
+  const list = (j.siteEntry ?? []).map((s) => s.siteUrl);
+  if (!list.length) {
+    throw new Error(
+      'このサービスアカウントから見えるサイトがありません。' +
+        'Search Console の「設定 → ユーザーと権限」に、鍵の client_email を追加してください。',
+    );
+  }
+  const want = [`${SITE}${BASE}/`, `${SITE}/`, `sc-domain:${new URL(SITE).hostname}`];
+  for (const w of want) {
+    const hit = list.find((s) => s === w);
+    if (hit) return { siteUrl: hit, list };
+  }
+  // 完全一致が無ければ、公開URLを含むものを選ぶ
+  const partial = list.find((s) => `${SITE}${BASE}/`.startsWith(s.replace(/^sc-domain:/, 'https://')));
+  return { siteUrl: partial ?? list[0], list };
+}
+
+async function query(token, siteUrl, dimensions, rowLimit = 25000) {
+  const url = `https://searchconsole.googleapis.com/webmasters/v3/sites/${encodeURIComponent(siteUrl)}/searchAnalytics/query`;
   const res = await fetch(url, {
     method: 'POST',
     headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json' },
@@ -143,13 +179,21 @@ console.log(`Search Console: ${startDate} 〜 ${endDate}（${DAYS}日間）\n`);
 
 let pageRows = [];
 let queryRows = [];
+let siteUrl = null;
 try {
-  pageRows = await query(token, ['page']);
-  queryRows = await query(token, ['query'], 5000);
+  const picked = await pickSite(token);
+  siteUrl = picked.siteUrl;
+  console.log(`見えるサイト: ${picked.list.join(' / ')}`);
+  console.log(`使うサイト  : ${siteUrl}\n`);
+  pageRows = await query(token, siteUrl, ['page']);
+  queryRows = await query(token, siteUrl, ['query'], 5000);
 } catch (e) {
   console.log(`::warning::検索データを取れませんでした: ${e.message}`);
-  console.log('  サービスアカウントのメールアドレスが Search Console のユーザーに');
-  console.log('  追加されているか確認してください（権限は「制限付き」で足ります）。');
+  console.log('  よくある原因:');
+  console.log('   1. 鍵の client_email が Search Console のユーザーに追加されていない');
+  console.log('      （設定 → ユーザーと権限 → ユーザーを追加。権限は「制限付き」で足ります）');
+  console.log('   2. Google Cloud で Search Console API を有効にしていない');
+  console.log('   3. 公開して日が浅く、まだ検索データが溜まっていない');
   process.exit(0);
 }
 
