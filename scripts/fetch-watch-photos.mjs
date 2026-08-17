@@ -327,6 +327,26 @@ for (const f of fs.readdirSync(brandsDir).filter((x) => x.endsWith('.json'))) {
   }
 }
 /*
+ * 見られているモデルから先に集める。
+ *
+ * これまではカタログのファイル順（アルファベット順）で調べていたので、
+ * 誰も見ていないモデルの写真を集め、よく見られているモデルの写真が
+ * いつまでも無い、ということが起きていた。
+ *
+ * data/page-stats.json は Search Console から取り込んだ実際の表示回数。
+ * 無ければ（鍵が未設定・公開して日が浅い）従来どおりの順で進む。
+ */
+const viewRank = (() => {
+  try {
+    const s = readJson(path.join(ROOT, 'data', 'page-stats.json'));
+    return (key) => s.models?.[key]?.impressions ?? 0;
+  } catch {
+    return () => 0;
+  }
+})();
+targets.sort((a, b) => viewRank(`${b.brandId}/${b.model.id}`) - viewRank(`${a.brandId}/${a.model.id}`));
+
+/*
  * 切り詰める前に「もう調べたもの」を外す。
  *
  * 順序を逆にしていたため、毎日ファイル順の先頭12件を選んでは全部スキップし、

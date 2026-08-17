@@ -65,6 +65,19 @@ jobs:
         if: github.event.schedule != '20 9 * * *'
         run: sudo apt-get update -qq && sudo apt-get install -y -qq fonts-noto-cjk
 
+      # 実際に検索で見られているモデルを取り込む。
+      # これが無いと「誰も見ていないモデルの写真を集め、よく見られているモデルの
+      # 写真がいつまでも無い」ということが起きる。写真収集より先に走らせる。
+      # 鍵が未設定でも止まらない（既定の順で進む）。
+      - name: Fetch Search Console stats
+        if: github.event.schedule != '20 9 * * *'
+        continue-on-error: true
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          NEXT_PUBLIC_SITE_URL: ${{ vars.NEXT_PUBLIC_SITE_URL }}
+          NEXT_PUBLIC_BASE_PATH: ${{ vars.NEXT_PUBLIC_BASE_PATH }}
+        run: node scripts/fetch-search-console.mjs --days 28
+
       # 時計の実写を少しずつ集める。1本の時計を裏蓋・側面・留め金と見せる
       # カルーセル投稿の材料になる。相手（Wikimedia / Openverse）に負担をかけない
       # よう1回12モデルに留め、一度調べたモデルは30日空ける。
@@ -98,7 +111,7 @@ jobs:
         run: |
           git config user.name "watch-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/blog data/social public/social data/watch-photos.json public/img/watches
+          git add data/blog data/social public/social data/watch-photos.json public/img/watches data/page-stats.json
           if git diff --cached --quiet; then
             echo "No new post"
           else

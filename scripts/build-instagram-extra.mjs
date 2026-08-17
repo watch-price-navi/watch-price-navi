@@ -95,6 +95,43 @@ function firstSentences(text, n = 2) {
   return s.slice(0, n).join('').trim();
 }
 
+/**
+ * 投稿の一行目に置く「引き」。
+ *
+ * 読み手は高級時計を知っている。辞書的な要約を並べても手は止まらない。
+ * 数字か、業界の人しか言わない事実を最初に置く。
+ * 一覧は data/brand-hooks.json（すべて事実で、誇張しない）。
+ */
+const hooks = (() => {
+  try {
+    return readJson(path.join(ROOT, 'data/brand-hooks.json')).hooks ?? {};
+  } catch {
+    return {};
+  }
+})();
+const hookOf = (id) => hooks[id] ?? null;
+
+/**
+ * ハッシュタグ。
+ * 「#腕時計」のような広い語は競合が数百万件あり、埋もれて誰にも届かない。
+ * ブランド名と、収集家が実際に追っている語を混ぜる。
+ */
+function hashtags(b) {
+  const brandTag = String(b.name_ja).replace(/[^\p{L}\p{N}]/gu, '');
+  const brandEnTag = String(b.name_en).replace(/[^A-Za-z0-9]/g, '');
+  return [
+    `#${brandTag}`,
+    `#${brandEnTag}`,
+    '#高級時計',
+    '#機械式時計',
+    '#時計好きと繋がりたい',
+    '#watchcollector',
+    '#hautehorlogerie',
+    '#watchesofinstagram',
+    '#luxurywatches',
+  ].join(' ');
+}
+
 // ---------- 素材 ----------
 const heritageImgs = (() => {
   try {
@@ -162,13 +199,34 @@ function brandWatchPhoto(brandId) {
 }
 
 /**
+ * Search Console から取り込んだ実際の表示回数。
+ * 見られているブランドを先に投稿する。無ければ 0 として扱う。
+ */
+const viewRank = (() => {
+  try {
+    const s = readJson(path.join(ROOT, 'data/page-stats.json'));
+    return (id) => s.brands?.[id]?.impressions ?? 0;
+  } catch {
+    return () => 0;
+  }
+})();
+
+/**
  * 時計の写真があるブランドを優先する。
  * 時計のアカウントなのに時計が写っていない、という状態を避けるため。
  * 次点が発祥の地・創業者の写真、最後がサイトの世界観画像。
+ *
+ * 写真がある中では、**よく見られているブランドを先に**回す。
+ * ただし毎日同じブランドになると飽きられるので、
+ * 上位8社の中から日替わりで選ぶ。
  */
 function pickBrand() {
   const withWatch = brands.filter((b) => (watchPhotos.brands?.[b.id]?.photos ?? []).length);
-  if (withWatch.length) return withWatch[seed % withWatch.length];
+  if (withWatch.length) {
+    const ranked = [...withWatch].sort((a, b) => viewRank(b.id) - viewRank(a.id));
+    const pool = ranked.slice(0, Math.min(8, ranked.length));
+    return pool[seed % pool.length];
+  }
   const withImg = brands.filter((b) => heritageImgs[`${b.id}-town`] || heritageImgs[`${b.id}-founder`]);
   const pool = withImg.length ? withImg : brands;
   return pool[seed % pool.length];
@@ -281,8 +339,8 @@ const creditLine = (c) => (c ? [c.author, c.license].filter(Boolean).join(' / ')
 async function buildBrandStory() {
   const b = pickBrand();
   const img = brandImage(b.id);
-  const lead = firstSentences(b.description_ja, 1);
-  const body = firstSentences(b.description_ja.slice(lead.length), 2);
+  // 画像に載せる一文も「引き」を使う。創業年と所在地の要約では手が止まらない
+  const lead = hookOf(b.id)?.ja ?? firstSentences(b.description_ja, 1);
 
   const out = path.join(ROOT, 'public/social', `${today}-s2.jpg`);
   await compose({
@@ -298,22 +356,34 @@ async function buildBrandStory() {
   });
 
   const url = `${SITE}${BASE}/brands/${b.id}/`;
+  const hook = hookOf(b.id);
+  /*
+   * 読み手は高級時計を知っている前提で書く。
+   * 辞書的な要約を並べても手は止まらない。最初の一文に、数字か意外な事実を置く。
+   * 本文は3文まで。長く書くほど読まれなくなる。
+   *
+   * 英文で「founded in 1875, スイス.」のように国名が日本語のまま出ていた。
+   * b.country は日本語表記なので、英文には使わない。
+   */
   const caption = [
-    `${b.name_ja}｜${b.name_en}`,
+    b.name_ja,
+    '',
+    hook?.ja ?? firstSentences(b.description_ja, 1),
     '',
     firstSentences(b.description_ja, 3),
     '',
-    `プロフィールのリンクから、${b.name_ja}の価格を毎日更新しています。`,
+    `価格はプロフィールのリンクから。毎日更新しています。`,
     '',
     '· · ·',
     '',
-    `${b.name_en}${b.founded ? ` — founded in ${b.founded}` : ''}${b.country ? `, ${b.country}` : ''}.`,
+    hook?.en ?? firstSentences(b.description_en ?? '', 1),
+    '',
     firstSentences(b.description_en ?? '', 2),
     '',
-    'Daily updated prices via the link in bio.',
+    'Live prices via the link in bio.',
     img.credit ? `\nPhoto: ${creditLine(img.credit)}` : '',
     '',
-    ['#腕時計', '#高級時計', `#${b.name_ja.replace(/[^\p{L}\p{N}]/gu, '')}`, '#時計好きと繋がりたい', '#watchesofinstagram', '#luxurywatch'].join(' '),
+    hashtags(b),
   ]
     .filter((x) => x !== null)
     .join('\n');

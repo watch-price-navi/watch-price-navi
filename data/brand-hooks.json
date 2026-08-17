@@ -1,0 +1,178 @@
+{
+  "note": "Instagram の投稿で最初に置く一文。読み手は高級時計を知っている前提なので、辞書的な要約では手が止まらない。数字か、意外な事実か、業界の人しか言わないことを置く。すべて事実で、誇張しない。ここに無いブランドは解説文の先頭を使う（従来どおり）。",
+  "policy": "①具体的な数字を入れる ②他社と比べない（品位を下げる） ③形容詞を重ねない ④一文で終える",
+  "hooks": {
+    "patek-philippe": {
+      "ja": "自社が作ったすべての時計を、いまも修理できる体制を保っている。1839年の一本まで遡って。",
+      "en": "Every watch it has ever made can still be serviced. All the way back to 1839."
+    },
+    "audemars-piguet": {
+      "ja": "1875年の創業から一度も他資本の傘下に入っていない。創業家がいまも経営している。",
+      "en": "Never once owned by outside capital since 1875. The founding families still run it."
+    },
+    "vacheron-constantin": {
+      "ja": "1755年から一日も操業を止めていない。現存する時計メーカーで最も古い。",
+      "en": "Uninterrupted since 1755 — the oldest watch manufacture still running."
+    },
+    "a-lange-soehne": {
+      "ja": "ムーブメントを二度組む。一度完成させ、すべて分解し、洗って組み直す。",
+      "en": "Every movement is assembled twice — built, taken apart, cleaned, and built again."
+    },
+    "breguet": {
+      "ja": "トゥールビヨン、耐震装置、自動巻き。いま当たり前になっている機構の多くを、この一人が考えた。",
+      "en": "The tourbillon, the shock protection, the self-winding rotor. One man thought of most of them."
+    },
+    "richard-mille": {
+      "ja": "ケースの加工に5日かかる。削り出しではなく、五軸で削っては測り、また削る。",
+      "en": "Five days to machine one case — cut, measured, and cut again on five axes."
+    },
+    "rolex": {
+      "ja": "自社に鋳造所を持ち、金の合金を自分たちで作っている。時計メーカーでこれをやる会社はほとんどない。",
+      "en": "It runs its own foundry and mixes its own gold. Almost no watch company does."
+    },
+    "fp-journe": {
+      "ja": "ムーブメントの地板とブリッジが18金でできている。装飾ではなく、熱と経年のための選択である。",
+      "en": "The plates and bridges are 18-carat gold — not for show, but for how they behave over time."
+    },
+    "laurent-ferrier": {
+      "ja": "ブレゲが構想しながら実用に至らなかった自然脱進機を、現代の素材で成立させた。年産200本ほど。",
+      "en": "The natural escapement Breguet conceived but never made practical, realised in modern materials. Around 200 pieces a year."
+    },
+    "urban-jurgensen": {
+      "ja": "クロノメーター用のディテント脱進機を腕時計に載せている。衝撃に弱く、普通は腕時計に使わない機構である。",
+      "en": "A detent escapement — the chronometer mechanism normally too shock-sensitive to wear — in a wristwatch."
+    },
+    "moritz-grossmann": {
+      "ja": "リューズを引いて時刻を合わせ、押しボタンを離した瞬間に秒針が動き出す。ずれない合わせ方のための設計。",
+      "en": "Set the time, then release a pusher — the seconds start at that instant. Designed so nothing drifts."
+    },
+    "h-moser": {
+      "ja": "ヒゲゼンマイまで自社で作っている。これができる会社は世界に数社しかない。",
+      "en": "It makes its own hairsprings. Only a handful of houses in the world can."
+    },
+    "czapek": {
+      "ja": "若き日のパテックと組んでいた相棒の名。1869年に途絶え、2015年に有志が資料を集めて戻した。",
+      "en": "Patek's first partner. The line died in 1869; enthusiasts gathered the archives and brought it back in 2015."
+    },
+    "armin-strom": {
+      "ja": "二つのテンプを金属のバネで直接つなぎ、振動を共鳴させて精度を安定させる。世界で数社しか扱えない。",
+      "en": "Two balances linked by a clutch spring, falling into resonance. Only a few houses handle it."
+    },
+    "parmigiani": {
+      "ja": "創業者はブレゲやルロワの傑作を分解し、失われた部品を作り直してきた修復家である。",
+      "en": "The founder is a restorer who took apart Breguet and Le Roy masterpieces and remade the missing parts."
+    },
+    "glashutte-original": {
+      "ja": "文字盤まで自社の工房で作る。ここまで垂直統合している会社はごく少ない。",
+      "en": "Even the dials are made in-house. Very few houses are integrated this far."
+    },
+    "roger-dubuis": {
+      "ja": "全製品にジュネーブ・シールの刻印を持つ。全数で満たしているのはこの会社だけである。",
+      "en": "Every single piece carries the Poinçon de Genève. No other manufacture certifies its entire output."
+    },
+    "jaquet-droz": {
+      "ja": "1774年に作った自動人形は、6,000点の部品で文字を書く。いまも美術館で動いている。",
+      "en": "The automaton it built in 1774 writes with six thousand parts. It still runs in the museum."
+    },
+    "blancpain": {
+      "ja": "1735年の創業以来、クオーツを一本も作っていない。",
+      "en": "Founded in 1735, and has never made a quartz watch."
+    },
+    "piaget": {
+      "ja": "厚さ2mmを切るムーブメントを作る。薄さの記録をこの会社が更新し続けてきた。",
+      "en": "Movements under two millimetres thick. The record for thinness has been theirs, again and again."
+    },
+    "jaeger-lecoultre": {
+      "ja": "1,200種類以上のムーブメントを自社で設計してきた。他社の名門も、ここの機械を使ってきた。",
+      "en": "Over 1,200 calibres designed in-house. The other great names have run on its movements too."
+    },
+    "panerai": {
+      "ja": "イタリア海軍の潜水部隊のために作られた。1930年代の設計が、いまも同じ顔で残っている。",
+      "en": "Built for the Italian navy's frogmen. The 1930s design still wears the same face."
+    },
+    "hublot": {
+      "ja": "1980年、金のケースにゴムのベルトを合わせた。当時は誰もやらなかった組み合わせである。",
+      "en": "Gold on rubber, in 1980. Nobody else was pairing those two."
+    },
+    "harry-winston": {
+      "ja": "オーパスという企画で、毎年ひとりの独立時計師に一作を任せた。ウルベルクもここから世に出た。",
+      "en": "The Opus series handed one independent watchmaker a year. Urwerk reached the world through it."
+    },
+    "van-cleef-arpels": {
+      "ja": "橋の両端から男女が歩み寄り、正午と真夜中に口づけをして離れていく。時針が女、分針が男である。",
+      "en": "Two figures cross a bridge, meet at noon and midnight, and part. She is the hour hand; he is the minutes."
+    },
+    "chopard": {
+      "ja": "使う金は、すべて出所の分かるものに切り替えた。高級時計でこれを全数でやった最初の会社である。",
+      "en": "All of its gold is now traceable to source — the first in luxury watchmaking to do it across the whole output."
+    },
+    "zenith": {
+      "ja": "1969年のエル・プリメロは、いまも毎時36,000振動で動いている。1/10秒を刻める最初の自動巻きだった。",
+      "en": "El Primero has beaten at 36,000 vph since 1969 — the first automatic that could measure a tenth of a second."
+    },
+    "omega": {
+      "ja": "月面に持っていかれた唯一の時計。NASAの試験を通ったのは、この一本だけだった。",
+      "en": "The only watch taken to the moon. It was the only one that passed NASA's tests."
+    },
+    "iwc": {
+      "ja": "アメリカ人時計師が、スイスの水力とスイスの職人を使うために1868年に建てた工場から始まっている。",
+      "en": "Started by an American watchmaker in 1868, who wanted Swiss water power and Swiss hands."
+    },
+    "cartier": {
+      "ja": "1904年、飛行家のために作られた。腕に着ける時計が、男の持ち物として認められた最初の一本である。",
+      "en": "Made for an aviator in 1904 — the watch that made wearing one on the wrist acceptable for a man."
+    },
+    "hyt": {
+      "ja": "針を持たない。色のついた液体が管を進み、その先端が時刻を示す。動力はぜんまいで、電気は使わない。",
+      "en": "No hands. A coloured fluid advances through a capillary and its meniscus marks the hour. Mechanical throughout."
+    },
+    "ressence": {
+      "ja": "文字盤室を油で満たし、ガラスとの屈折を消している。目盛りが表面に浮かんで見える。",
+      "en": "The dial chamber is filled with oil so refraction disappears. The markings seem to float at the surface."
+    },
+    "bovet": {
+      "ja": "清朝の中国で、この社名が懐中時計そのものを指す言葉になったと伝わる。",
+      "en": "In Qing-dynasty China the name is said to have become the word for a pocket watch."
+    },
+    "chronoswiss": {
+      "ja": "クオーツが勝ち、機械式が捨て値で売られていた1983年に、機械式だけを作ると決めた。",
+      "en": "Founded in 1983 — when quartz had won and mechanical movements were being sold for scrap — to build nothing but mechanical watches."
+    },
+    "corum": {
+      "ja": "20ドル金貨を二枚に割り、その間にムーブメントを収めた時計を作っている。",
+      "en": "It splits a twenty-dollar gold piece in two and hides a movement between the halves."
+    },
+    "franck-muller": {
+      "ja": "1980年代、複雑機構を一人で組める時計師として名を成した。工房を持つ前から注文が来ていた。",
+      "en": "In the 1980s he became known as the watchmaker who could build complications alone. The orders came before the workshop did."
+    },
+    "girard-perregaux": {
+      "ja": "三本の金の橋でテンプと香箱を支える。1867年の意匠が、いまも主力として残っている。",
+      "en": "Three gold bridges carrying the barrel and balance — an 1867 design still at the centre of the line."
+    },
+    "ulysse-nardin": {
+      "ja": "各国の海軍が航海用のクロノメーターを買った。天文台の精度試験で4,300以上の賞を得ている。",
+      "en": "Navies bought its marine chronometers. Over 4,300 prizes from observatory trials."
+    },
+    "carl-f-bucherer": {
+      "ja": "自動巻きの錘を外周に置き、三点のローラーで支えている。機構が何も隠れない。",
+      "en": "The winding weight runs around the outside on three rollers. Nothing about the movement is hidden."
+    },
+    "jacob-co": {
+      "ja": "四本の腕が回り、トゥールビヨンと地球儀とダイヤが同時に公転する。20分で一周する。",
+      "en": "Four arms turn, carrying a tourbillon, a globe and a diamond in orbit. One revolution every twenty minutes."
+    },
+    "boucheron": {
+      "ja": "1893年、ヴァンドーム広場に最初に店を構えた宝飾店。日光が最も入る角地を選んだ。",
+      "en": "The first jeweller on the Place Vendôme, in 1893. It chose the corner that caught the most daylight."
+    },
+    "porsche-design": {
+      "ja": "1973年、世界で初めてケース全体を黒くした腕時計を出した。計器が黒いのは反射を避けるためである。",
+      "en": "The first all-black wristwatch, in 1973. Instrument panels are black to kill reflections."
+    },
+    "graham": {
+      "ja": "左側面のトリガーは、厚い手袋のまま計測を始めるために作られた。戦時の要求がそのまま形になっている。",
+      "en": "The trigger on the left exists so a pilot could start timing through thick gloves. A wartime requirement, made visible."
+    }
+  }
+}
