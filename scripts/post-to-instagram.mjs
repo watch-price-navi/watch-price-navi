@@ -51,9 +51,20 @@ const API = VIA_INSTAGRAM_LOGIN ? 'https://graph.instagram.com/v21.0' : 'https:/
 // 投稿できなかったときは必ず異常終了する。
 // 以前はどの失敗でも exit 0 にしていたため、実際には1件も投稿されていないのに
 // ワークフローは緑のままで、気づくまで日数がかかった。
-const metaFile = path.join(ROOT, 'data/social', `${today}.json`);
+/*
+ * どの枠を投稿するか。
+ *   （指定なし）… 朝。その日の記事（build-instagram-post.mjs が作る <日付>.json）
+ *   --slot 2    … 昼。ブランドの物語
+ *   --slot 3    … 夜。時計用語の解説
+ *   --story     … ストーリー（24時間で消える縦型。本文は付かない）
+ * 昼・夜・ストーリーは build-instagram-extra.mjs が作る。
+ */
+const STORY = args.includes('--story');
+const slot = args.includes('--slot') ? String(args[args.indexOf('--slot') + 1]) : null;
+const suffix = STORY ? '-story' : slot && slot !== '1' ? `-s${slot}` : '';
+const metaFile = path.join(ROOT, 'data/social', `${today}${suffix}.json`);
 if (!fs.existsSync(metaFile)) {
-  console.log(`::error::${today} の投稿データがありません。build-instagram-post.mjs が動いたか確認してください。`);
+  console.log(`::error::${today}${suffix} の投稿データがありません。画像を作る処理が動いたか確認してください。`);
   process.exit(1);
 }
 const meta = readJson(metaFile);

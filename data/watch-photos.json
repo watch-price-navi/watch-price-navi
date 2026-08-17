@@ -82,6 +82,40 @@
           "exact": false
         }
       ]
+    },
+    "blancpain/fifty-fathoms-automatique-42mm-5010-12b30-b52a": {
+      "brandId": "blancpain",
+      "modelId": "fifty-fathoms-automatique-42mm-5010-12b30-b52a",
+      "reference": "5010-12B30-B52A",
+      "photos": [
+        {
+          "file": "/img/watches/blancpain-fifty-fathoms-automatique-42mm-5010-12b30-b52a-1.jpg",
+          "commonsTitle": "Blancpain.jpg",
+          "author": "Johnson Watch",
+          "license": "Public domain",
+          "licenseUrl": null,
+          "source": "https://commons.wikimedia.org/wiki/File:Blancpain.jpg",
+          "provider": "wikimedia",
+          "exact": false
+        }
+      ]
+    },
+    "blancpain/fifty-fathoms-bathyscaphe-5000-1110-b52a": {
+      "brandId": "blancpain",
+      "modelId": "fifty-fathoms-bathyscaphe-5000-1110-b52a",
+      "reference": "5000-1110-B52A",
+      "photos": [
+        {
+          "file": "/img/watches/blancpain-fifty-fathoms-bathyscaphe-5000-1110-b52a-1.jpg",
+          "commonsTitle": "Blancpain.jpg",
+          "author": "Johnson Watch",
+          "license": "Public domain",
+          "licenseUrl": null,
+          "source": "https://commons.wikimedia.org/wiki/File:Blancpain.jpg",
+          "provider": "wikimedia",
+          "exact": false
+        }
+      ]
     }
   },
   "checked": {
@@ -96,6 +130,354 @@
     "audemars-piguet/royal-oak-selfwinding-41-15510st": "2026-08-16",
     "audemars-piguet/royal-oak-chronograph-26240st": "2026-08-16",
     "audemars-piguet/royal-oak-selfwinding-15500st": "2026-08-16",
-    "audemars-piguet/royal-oak-selfwinding-15400st": "2026-08-16"
+    "audemars-piguet/royal-oak-selfwinding-15400st": "2026-08-16",
+    "audemars-piguet/royal-oak-jumbo-15202st": "2026-08-17",
+    "audemars-piguet/royal-oak-chronograph-26331st": "2026-08-17",
+    "bell-ross/br-03-auto-black-matte-br03a-bl-ce": "2026-08-17",
+    "bell-ross/br-03-92-black-matte-br0392-bl-ce": "2026-08-17",
+    "bell-ross/br-05-black-steel-br05a-bl-st-sst": "2026-08-17",
+    "bell-ross/br-03-94-chronograph-br0394-bl-si-sca": "2026-08-17",
+    "bell-ross/br-01-92-black-46mm": "2026-08-17",
+    "blancpain/fifty-fathoms-automatique-5015-1130-52a": "2026-08-17",
+    "blancpain/fifty-fathoms-automatique-42mm-5010-12b30-b52a": "2026-08-17",
+    "blancpain/fifty-fathoms-bathyscaphe-5000-1110-b52a": "2026-08-17",
+    "blancpain/villeret-quantieme-complet-6654-1127-55b": "2026-08-17",
+    "blancpain/villeret-ultraplate-6651-1127-55b": "2026-08-17",
+    "breguet/classique-5177bb-29-9v6": "2026-08-17",
+    "breguet/marine-5517ti-g2-tz0": "2026-08-17",
+    "breguet/type-20-chronographe-2057": "2026-08-17",
+    "breguet/tradition-7057bb-11-9w6": "2026-08-17"
+  },
+  "brands": {
+    "a-lange-soehne": {
+      "brandId": "a-lange-soehne",
+      "photos": [
+        {
+          "file": "/img/watches/brand-a-lange-soehne-1.jpg",
+          "commonsTitle": "Lange Bogen normal.jpg",
+          "author": "competizione dell´ opera e.V.",
+          "license": "Public domain",
+          "licenseUrl": null,
+          "source": "https://commons.wikimedia.org/wiki/File:Lange_Bogen_normal.jpg",
+          "provider": "wikimedia",
+          "exact": false
+        }
+      ]
+    },
+    "audemars-piguet": {
+      "brandId": "audemars-piguet",
+      "photos": [
+        {
+          "file": "/img/watches/brand-audemars-piguet-1.jpg",
+          "commonsTitle": "Audemars Piguet dress watch in oro carica manuale, fine anni '70.jpg",
+          "author": "EMore98",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Audemars_Piguet_dress_watch_in_oro_carica_manuale,_fine_anni_%2770.jpg",
+          "provider": "wikimedia",
+          "exact": false
+        },
+        {
+          "file": "/img/watches/brand-audemars-piguet-2.jpg",
+          "commonsTitle": "Royal Oak Offshore watch by Audemars Piguet.JPG",
+          "author": null,
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Royal_Oak_Offshore_watch_by_Audemars_Piguet.JPG",
+          "provider": "wikimedia",
+          "exact": false
+        }
+      ]
+    },
+    "bell-ross": {
+      "brandId": "bell-ross",
+      "photos": [
+        {
+          "file": "/img/watches/brand-bell-ross-1.jpg",
+          "commonsTitle": "BellandRoss Watch.jpg",
+          "author": "Shinji",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+          "source": "https://commons.wikimedia.org/wiki/File:BellandRoss_Watch.jpg",
+          "provider": "wikimedia",
+          "exact": false
+        }
+      ]
+    },
+    "blancpain": {
+      "brandId": "blancpain",
+      "photos": [
+        {
+          "file": "/img/watches/brand-blancpain-1.jpg",
+          "commonsTitle": "Blancpain-p1000781.jpg",
+          "author": "Rama",
+          "license": "CC BY-SA 2.0 fr",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/fr/deed.en",
+          "source": "https://commons.wikimedia.org/wiki/File:Blancpain-p1000781.jpg",
+          "provider": "wikimedia",
+          "exact": false
+        },
+        {
+          "file": "/img/watches/brand-blancpain-2.jpg",
+          "commonsTitle": "Blancpain MG 2607.jpg",
+          "author": "Rama",
+          "license": "CC BY-SA 2.0 fr",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/fr/deed.en",
+          "source": "https://commons.wikimedia.org/wiki/File:Blancpain_MG_2607.jpg",
+          "provider": "wikimedia",
+          "exact": false
+        },
+        {
+          "file": "/img/watches/brand-blancpain-3.jpg",
+          "commonsTitle": "HK Central IFC Mall shop 1005B Blancpain Boutique flowers Elegant Watch and Jewellery Mar-2013.JPG",
+          "author": "ObenleckawyB",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "https://commons.wikimedia.org/wiki/File:HK_Central_IFC_Mall_shop_1005B_Blancpain_Boutique_flowers_Elegant_Watch_and_Jewellery_Mar-2013.JPG",
+          "provider": "wikimedia",
+          "exact": false
+        },
+        {
+          "file": "/img/watches/brand-blancpain-4.jpg",
+          "commonsTitle": "HK Central IFC Mall shop 1005B Blancpain Boutique red flowers roses Prince Jewellery and Watch Company Mar-2013.JPG",
+          "author": "ObenleckawyB",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "https://commons.wikimedia.org/wiki/File:HK_Central_IFC_Mall_shop_1005B_Blancpain_Boutique_red_flowers_roses_Prince_Jewellery_and_Watch_Company_Mar-2013.JPG",
+          "provider": "wikimedia",
+          "exact": false
+        },
+        {
+          "file": "/img/watches/brand-blancpain-5.jpg",
+          "commonsTitle": "Blancpain.jpg",
+          "author": "Johnson Watch",
+          "license": "Public domain",
+          "licenseUrl": null,
+          "source": "https://commons.wikimedia.org/wiki/File:Blancpain.jpg",
+          "provider": "wikimedia",
+          "exact": false
+        },
+        {
+          "file": "/img/watches/brand-blancpain-6.jpg",
+          "commonsTitle": "Blancpain Tourbillon con otto giorni di riserva di carica, fine anni Ottanta.jpg",
+          "author": "EMore98",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Blancpain_Tourbillon_con_otto_giorni_di_riserva_di_carica,_fine_anni_Ottanta.jpg",
+          "provider": "wikimedia",
+          "exact": false
+        }
+      ]
+    },
+    "breguet": {
+      "brandId": "breguet",
+      "photos": [
+        {
+          "file": "/img/watches/brand-breguet-1.jpg",
+          "commonsTitle": "1785 Breguet watch.jpg",
+          "author": "PHGCOM",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "https://commons.wikimedia.org/wiki/File:1785_Breguet_watch.jpg",
+          "provider": "wikimedia",
+          "exact": false
+        },
+        {
+          "file": "/img/watches/brand-breguet-2.jpg",
+          "commonsTitle": "Breguet - Luxus Holz- Uhrenschatulle - Mahagoni - Ebenholz - Bild 003.jpg",
+          "author": "Lupus in Saxonia",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Breguet_-_Luxus_Holz-_Uhrenschatulle_-_Mahagoni_-_Ebenholz_-_Bild_003.jpg",
+          "provider": "wikimedia",
+          "exact": false
+        },
+        {
+          "file": "/img/watches/brand-breguet-3.jpg",
+          "commonsTitle": "Breguet - Luxus Holz- Uhrenschatulle - Mahagoni - Ebenholz - Bild 004.jpg",
+          "author": "Lupus in Saxonia",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Breguet_-_Luxus_Holz-_Uhrenschatulle_-_Mahagoni_-_Ebenholz_-_Bild_004.jpg",
+          "provider": "wikimedia",
+          "exact": false
+        },
+        {
+          "file": "/img/watches/brand-breguet-4.jpg",
+          "commonsTitle": "Breguet - Luxus Holz- Uhrenschatulle - Mahagoni - Ebenholz - Bild 007.jpg",
+          "author": "Lupus in Saxonia",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Breguet_-_Luxus_Holz-_Uhrenschatulle_-_Mahagoni_-_Ebenholz_-_Bild_007.jpg",
+          "provider": "wikimedia",
+          "exact": false
+        },
+        {
+          "file": "/img/watches/brand-breguet-5.jpg",
+          "commonsTitle": "Breguet - Luxus Holz- Uhrenschatulle - Mahagoni - Ebenholz - Bild 006.jpg",
+          "author": "Lupus in Saxonia",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Breguet_-_Luxus_Holz-_Uhrenschatulle_-_Mahagoni_-_Ebenholz_-_Bild_006.jpg",
+          "provider": "wikimedia",
+          "exact": false
+        },
+        {
+          "file": "/img/watches/brand-breguet-6.jpg",
+          "commonsTitle": "Breguet - Luxus Holz- Uhrenschatulle - Mahagoni - Ebenholz - Bild 008.jpg",
+          "author": "Lupus in Saxonia",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Breguet_-_Luxus_Holz-_Uhrenschatulle_-_Mahagoni_-_Ebenholz_-_Bild_008.jpg",
+          "provider": "wikimedia",
+          "exact": false
+        }
+      ]
+    },
+    "breitling": {
+      "brandId": "breitling",
+      "photos": [
+        {
+          "file": "/img/watches/brand-breitling-1.jpg",
+          "commonsTitle": "Breitling Emergency II (8677959632).jpg",
+          "author": "S STEEL from Finland",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Breitling_Emergency_II_(8677959632).jpg",
+          "provider": "wikimedia",
+          "exact": false
+        },
+        {
+          "file": "/img/watches/brand-breitling-2.jpg",
+          "commonsTitle": "Breitling Emergency MG 2705 (cropped).jpg",
+          "author": "Rama",
+          "license": "CC BY-SA 2.0 fr",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/fr/deed.en",
+          "source": "https://commons.wikimedia.org/wiki/File:Breitling_Emergency_MG_2705_(cropped).jpg",
+          "provider": "wikimedia",
+          "exact": false
+        },
+        {
+          "file": "/img/watches/brand-breitling-3.jpg",
+          "commonsTitle": "Breitling Navitimer chronograph watch (detail).jpg",
+          "author": "Torsten Bolten",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Breitling_Navitimer_chronograph_watch_(detail).jpg",
+          "provider": "wikimedia",
+          "exact": false
+        },
+        {
+          "file": "/img/watches/brand-breitling-4.jpg",
+          "commonsTitle": "Breitling Emergency MG 2705 (detail).jpg",
+          "author": "Rama",
+          "license": "CC BY-SA 2.0 fr",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/fr/deed.en",
+          "source": "https://commons.wikimedia.org/wiki/File:Breitling_Emergency_MG_2705_(detail).jpg",
+          "provider": "wikimedia",
+          "exact": false
+        },
+        {
+          "file": "/img/watches/brand-breitling-5.jpg",
+          "commonsTitle": "Breitling Navitimer Cosmonaute chronograph watch (detail).jpg",
+          "author": "Ralf Roletschek",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Breitling_Navitimer_Cosmonaute_chronograph_watch_(detail).jpg",
+          "provider": "wikimedia",
+          "exact": false
+        },
+        {
+          "file": "/img/watches/brand-breitling-6.jpg",
+          "commonsTitle": "Detailed view on Breitling chronograph watch with golden watch case.jpg",
+          "author": "Ralf Roletschek",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Detailed_view_on_Breitling_chronograph_watch_with_golden_watch_case.jpg",
+          "provider": "wikimedia",
+          "exact": false
+        }
+      ]
+    },
+    "bvlgari": {
+      "brandId": "bvlgari",
+      "photos": [
+        {
+          "file": "/img/watches/brand-bvlgari-1.jpg",
+          "commonsTitle": "Bvlgari Watch.jpg",
+          "author": "Nilda Barales",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Bvlgari_Watch.jpg",
+          "provider": "wikimedia",
+          "exact": false
+        },
+        {
+          "file": "/img/watches/brand-bvlgari-2.jpg",
+          "commonsTitle": "BVLGARI watch.jpg",
+          "author": "Antonio Barella",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:BVLGARI_watch.jpg",
+          "provider": "wikimedia",
+          "exact": false
+        }
+      ]
+    },
+    "cartier": {
+      "brandId": "cartier",
+      "photos": [
+        {
+          "file": "/img/watches/brand-cartier-1.jpg",
+          "commonsTitle": "Cartier Panthere lady's 2 tone watch.jpg",
+          "author": "Gisling",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+          "source": "https://commons.wikimedia.org/wiki/File:Cartier_Panthere_lady%27s_2_tone_watch.jpg",
+          "provider": "wikimedia",
+          "exact": false
+        },
+        {
+          "file": "/img/watches/brand-cartier-2.jpg",
+          "commonsTitle": "Pocket watch and stand owned by Edward H. Everett, Cartier, early 1900s - Bennington Museum - Bennington, VT - DSC08668.JPG",
+          "author": "Daderot",
+          "license": "Public domain",
+          "licenseUrl": null,
+          "source": "https://commons.wikimedia.org/wiki/File:Pocket_watch_and_stand_owned_by_Edward_H._Everett,_Cartier,_early_1900s_-_Bennington_Museum_-_Bennington,_VT_-_DSC08668.JPG",
+          "provider": "wikimedia",
+          "exact": false
+        },
+        {
+          "file": "/img/watches/brand-cartier-3.jpg",
+          "commonsTitle": "Cartier Santos wristwatch.jpg",
+          "author": "Pittigrilli",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Cartier_Santos_wristwatch.jpg",
+          "provider": "wikimedia",
+          "exact": false
+        },
+        {
+          "file": "/img/watches/brand-cartier-4.jpg",
+          "commonsTitle": "HK YTM 九龍西 Kowloon West 圓方 Elements shopping mall shop Cartier watch and jewellery July 2022 Px3 01.jpg",
+          "author": "MEIGUWC Roppmeira U",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:HK_YTM_%E4%B9%9D%E9%BE%8D%E8%A5%BF_Kowloon_West_%E5%9C%93%E6%96%B9_Elements_shopping_mall_shop_Cartier_watch_and_jewellery_July_2022_Px3_01.jpg",
+          "provider": "wikimedia",
+          "exact": false
+        }
+      ]
+    }
+  },
+  "brandsChecked": {
+    "a-lange-soehne": "2026-08-17",
+    "audemars-piguet": "2026-08-17",
+    "bell-ross": "2026-08-17",
+    "blancpain": "2026-08-17",
+    "breguet": "2026-08-17",
+    "breitling": "2026-08-17",
+    "bvlgari": "2026-08-17",
+    "cartier": "2026-08-17"
   }
 }

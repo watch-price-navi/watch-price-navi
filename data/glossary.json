@@ -1,0 +1,197 @@
+{
+  "note": "腕時計の用語解説。Instagram の夜の投稿とサイトの用語集で使う。1件ずつ日替わりで回す。価格には触れない（楽天ウェブサービス規約 第10条により、楽天から取得した価格は当サイト以外に出せない）。事実だけを書き、誇張しない。",
+  "terms": [
+    {
+      "id": "chronograph",
+      "termJa": "クロノグラフ",
+      "termEn": "Chronograph",
+      "leadJa": "時計の中に、独立したストップウォッチを持つということ。",
+      "bodyJa": "普段は針を止めたまま眠っている。押しボタンを押した瞬間だけ、秒針が動き出す。時刻を刻む輪列とは別の歯車が噛み合い、また離れる。この「途中から動かす」ためだけに部品が百点以上増える。1969年、自動巻きクロノグラフが実用化されるまで、この機構は手巻きでしか成立しなかった。",
+      "enLead": "A stopwatch living inside a watch."
+    },
+    {
+      "id": "perpetual-calendar",
+      "termJa": "パーペチュアルカレンダー",
+      "termEn": "Perpetual Calendar",
+      "leadJa": "2100年まで、日付を直さなくてよい。",
+      "bodyJa": "小の月も、4年に一度の閏年も、歯車の形そのものに彫り込んである。48か月で一周するカムが、月ごとの日数を機械に教える。電気も電池も使わない。ただし2100年は例外の年（400で割り切れない100の倍数は閏年ではない）で、そこだけは人の手が要る。",
+      "enLead": "A calendar that needs no correction until 2100."
+    },
+    {
+      "id": "tourbillon",
+      "termJa": "トゥールビヨン",
+      "termEn": "Tourbillon",
+      "leadJa": "重力の影響を、回すことで打ち消す。",
+      "bodyJa": "1801年、アブラアン=ルイ・ブレゲの特許。懐中時計はポケットの中でいつも同じ向きに立っている。そのため重力が常に同じ方向にかかり、精度が偏る。ならば脱進機ごと籠に入れて回してしまえばよい——という発想である。腕時計は向きが変わるので理屈のうえでの必要は薄いが、作れること自体が技術の証明になっている。",
+      "enLead": "Cancelling gravity by turning the escapement."
+    },
+    {
+      "id": "automatic",
+      "termJa": "自動巻き",
+      "termEn": "Automatic",
+      "leadJa": "腕の動きが、そのままぜんまいを巻く。",
+      "bodyJa": "半円形の錘（ローター）が手首の動きで回り、その回転が減速されてぜんまいに伝わる。1770年代に懐中時計で試みられ、腕時計として実用になったのは1920年代。巻き上げ効率と薄さは相反するため、錘を外周に置くマイクロローターなど、各社が別々の答えを出している。",
+      "enLead": "Your wrist winds the mainspring."
+    },
+    {
+      "id": "power-reserve",
+      "termJa": "パワーリザーブ",
+      "termEn": "Power Reserve",
+      "leadJa": "ぜんまいを巻き切ってから、止まるまでの時間。",
+      "bodyJa": "40時間前後が長らく標準だった。金曜の夜に外して月曜の朝に着けると止まっている、という不便がここから来る。近年は香箱を増やすか大型化して70時間を超えるものが増えた。週末をまたいでも動いている——それだけのことが、使ううえでは大きい。",
+      "enLead": "How long it runs on a full wind."
+    },
+    {
+      "id": "cosc",
+      "termJa": "クロノメーター（COSC）",
+      "termEn": "Chronometer",
+      "leadJa": "第三者が15日間かけて測り、合格した個体だけが名乗れる。",
+      "bodyJa": "スイス公認クロノメーター検定協会（COSC）が、5姿勢・3温度で15日間試験する。日差マイナス4秒からプラス6秒に収まることが条件。ムーブメント単体での検定なので、ケースに収めた後の性能を保証するものではない。自社基準をさらに上に置くメーカーもある。",
+      "enLead": "Certified by 15 days of independent testing."
+    },
+    {
+      "id": "water-resistance",
+      "termJa": "防水表示の読み方",
+      "termEn": "Water Resistance",
+      "leadJa": "「30m防水」で泳いではいけない。",
+      "bodyJa": "静水圧での試験値であって、潜れる深さではない。腕を振れば瞬間的にその何倍もの圧力がかかる。おおよその目安は、30m＝日常生活の水しぶき、50m＝手洗い程度、100m＝水泳、200m以上＝スキューバ。ねじ込み式リューズかどうかも併せて見るとよい。",
+      "enLead": "\"30m\" does not mean you can swim."
+    },
+    {
+      "id": "sapphire",
+      "termJa": "サファイアガラス",
+      "termEn": "Sapphire Crystal",
+      "leadJa": "モース硬度9。傷がつくのはダイヤモンドが相手のときだけ。",
+      "bodyJa": "人工的に育てた単結晶コランダム。硬い代わりに脆く、点で強く当てると割れる。反射を抑える無反射コーティングは片面か両面かで見え方が変わり、両面のほうが文字盤は澄んで見えるが、コーティング自体は傷つく。ヴィンテージに使われるプラスチック風防（アクリル）は、割れずに曇り、磨けば戻る。",
+      "enLead": "Mohs 9 — only diamond scratches it."
+    },
+    {
+      "id": "gmt",
+      "termJa": "GMT",
+      "termEn": "GMT",
+      "leadJa": "24時間で一周する針が、もうひとつの土地の時刻を指す。",
+      "bodyJa": "1950年代、大西洋を越える路線の乗員のために作られた。針が24時間で一周するので、昼か夜かも同時に読める。時差の変更を短針だけで行える「トゥルーGMT」と、24時間針だけを動かす方式があり、旅で使うなら前者が便利である。",
+      "enLead": "A 24-hour hand for a second time zone."
+    },
+    {
+      "id": "moonphase",
+      "termJa": "ムーンフェイズ",
+      "termEn": "Moon Phase",
+      "leadJa": "月の満ち欠けを、歯車の数で近似する。",
+      "bodyJa": "朔望月は約29.53日。一般的な59枚歯の方式では2年半ほどで1日ずれる。歯数を135枚に増やした高精度型は、ずれが1日に達するまで122年かかる。実用の必要はまったくない。それでも作られ続けているのは、機械で天体を追うという行為そのものに意味があるからだろう。",
+      "enLead": "Gear teeth approximating the lunar cycle."
+    },
+    {
+      "id": "hairspring",
+      "termJa": "ヒゲゼンマイ",
+      "termEn": "Hairspring",
+      "leadJa": "髪一本ほどの渦巻きが、時計の精度そのものを決める。",
+      "bodyJa": "テンプの往復を一定に保つ、直径1cmにも満たない渦巻き。温度で伸び縮みすれば精度が狂い、磁気を帯びれば固まる。ニヴァロックス、シリコン、ニヴァクロンといった素材の名前が語られるのは、この一枚がすべてを左右するからである。",
+      "enLead": "A spring thinner than hair sets the accuracy."
+    },
+    {
+      "id": "escapement",
+      "termJa": "脱進機",
+      "termEn": "Escapement",
+      "leadJa": "ぜんまいの力を、一定の間隔で少しずつ逃がす仕組み。",
+      "bodyJa": "そのまま解けば一瞬で終わる力を、秒針が刻める速さまで抑える。チクタクという音は、この機構が力を「逃がして」いる音である。主流はスイスレバー式で、300年近く基本形が変わっていない。それだけ完成されているということでもある。",
+      "enLead": "Releasing the mainspring, tick by tick."
+    },
+    {
+      "id": "beat-rate",
+      "termJa": "振動数",
+      "termEn": "Beat Rate",
+      "leadJa": "1時間に何回テンプが往復するか。",
+      "bodyJa": "21,600振動（6振動/秒）、28,800（8振動）が一般的。36,000振動の「ハイビート」は秒針の動きが滑らかで、外乱に強く精度も出しやすい。ただし摩耗も進むため、潤滑と素材の設計が難しくなる。ゼンマイの持ちとも相反する。",
+      "enLead": "How many times the balance swings per hour."
+    },
+    {
+      "id": "see-through",
+      "termJa": "シースルーバック",
+      "termEn": "Exhibition Caseback",
+      "leadJa": "裏蓋を透明にして、動いているところを見せる。",
+      "bodyJa": "面取り（アングラージュ）、筋目、ペルラージュ（真珠模様）といった仕上げは、本来は見えない場所にも施されてきた。それを見せるための窓である。一方で、裏蓋が金属である方が耐磁性・防水性では有利。実用機があえて閉じているのには理由がある。",
+      "enLead": "A window onto the movement."
+    },
+    {
+      "id": "guilloche",
+      "termJa": "ギヨシェ",
+      "termEn": "Guilloché",
+      "leadJa": "手回しの旋盤で、文字盤に直接彫り込む幾何学模様。",
+      "bodyJa": "18世紀から続く装飾技法。ローズエンジンという機械を人が回し、刃を当てて溝を刻む。プレスで型押ししたものとは、光の返り方が違う。彫れる職人が世界に数十人しかいないため、本物のギヨシェ文字盤は今も限られた本数しか作られない。",
+      "enLead": "Patterns cut on a hand-turned rose engine."
+    },
+    {
+      "id": "anti-magnetic",
+      "termJa": "耐磁",
+      "termEn": "Anti-Magnetic",
+      "leadJa": "現代の生活で、時計にとって最大の敵は磁気である。",
+      "bodyJa": "スマートフォンのスピーカー、バッグの留め具、ノートPC。日常に磁石があふれている。ヒゲゼンマイが磁気を帯びると巻きが密着し、時計は極端に進む。軟鉄の内箱で覆う方式と、シリコンなど磁気を帯びない素材を使う方式がある。1,000ガウス、15,000ガウスといった数字はこの耐性を指す。",
+      "enLead": "Magnetism is the modern watch's worst enemy."
+    },
+    {
+      "id": "lug-to-lug",
+      "termJa": "ラグ幅とラグ間",
+      "termEn": "Lug Width & Lug-to-Lug",
+      "leadJa": "ケース径よりも、着け心地を決めるのはこちら。",
+      "bodyJa": "ラグ間（上下の角から角までの長さ）が手首の幅を超えると、ラグが浮いて落ち着かない。手首16cmなら46mm前後までが目安になる。ケース径40mmでもラグが長ければ大きく感じ、42mmでも短ければ収まる。数字を見るならまずここである。",
+      "enLead": "Lug-to-lug matters more than case diameter."
+    },
+    {
+      "id": "reference",
+      "termJa": "リファレンス（型番）",
+      "termEn": "Reference Number",
+      "leadJa": "同じモデル名でも、型番が違えば別の時計。",
+      "bodyJa": "文字盤の色、ケースの素材、ムーブメントの世代が型番で分かれる。中古で探すときは、モデル名ではなく型番で追うのが確実である。ブランドによって桁数も体系も違い、途中で改められることもある。",
+      "enLead": "Same model name, different reference, different watch."
+    },
+    {
+      "id": "overhaul",
+      "termJa": "オーバーホール",
+      "termEn": "Overhaul / Service",
+      "leadJa": "分解し、洗い、油を差し直して、組み直す。",
+      "bodyJa": "潤滑油は年数とともに乾き、金属同士が擦れて摩耗が始まる。目安は3〜5年だが、動かしていない時計ほど油が固まる。止まっている時計を「壊れていない」と判断してはいけない。中古を買うなら、いつ整備されたかは価格と同じくらい重要である。",
+      "enLead": "Disassemble, clean, re-oil, reassemble."
+    },
+    {
+      "id": "dead-stock",
+      "termJa": "デッドストック",
+      "termEn": "New Old Stock",
+      "leadJa": "売られないまま、倉庫で時間だけが過ぎた個体。",
+      "bodyJa": "未使用ではあるが、新品ではない。ゴムのパッキンは硬化し、油は固まっている。外観が完璧でも、動かす前に整備が要ることが多い。「未使用」という言葉と「すぐ使える」は別のことである。",
+      "enLead": "Unworn, but not new."
+    },
+    {
+      "id": "redial",
+      "termJa": "リダン",
+      "termEn": "Redial",
+      "leadJa": "文字盤を塗り直した個体のこと。",
+      "bodyJa": "傷んだ文字盤を再塗装したもの。見た目は綺麗になるが、資産としての価値は大きく下がる。印字の書体、目盛りの太さ、ロゴの位置がわずかに違うことで見分ける。中古の説明文に「リダン」とあれば、価格が安い理由はそこにある。",
+      "enLead": "A dial that has been repainted."
+    },
+    {
+      "id": "box-papers",
+      "termJa": "箱・保証書（フルセット）",
+      "termEn": "Box & Papers",
+      "leadJa": "紙一枚で、価格が一割変わることがある。",
+      "bodyJa": "純正の箱、保証書、余りコマ、タグが揃った状態を指す。真贋の裏づけと、次に売るときの条件になる。特に保証書は購入日と正規店の記録が残るため重視される。逆に言えば、自分で使い切るつもりなら、揃っていない個体は狙い目でもある。",
+      "enLead": "Paperwork can move the price by ten percent."
+    },
+    {
+      "id": "tegimented",
+      "termJa": "テギメント加工",
+      "termEn": "Tegiment",
+      "leadJa": "表面だけを、極端に硬くする。",
+      "bodyJa": "ジンが持つ表面硬化技術。ステンレスの表層に処理を施し、硬度を数倍に上げる。塗装や膜ではなく素材そのものが硬くなるので、剥がれない。工具としての時計を作るという思想が、こうした技術に表れている。",
+      "enLead": "Hardening the surface itself, not coating it."
+    },
+    {
+      "id": "spring-drive",
+      "termJa": "スプリングドライブ",
+      "termEn": "Spring Drive",
+      "leadJa": "ぜんまいで動き、水晶で精度を出す。",
+      "bodyJa": "セイコーが28年かけて実用化した方式。動力はぜんまい、脱進機の代わりに水晶振動子と電磁ブレーキで回転を制御する。電池は使わない。秒針が刻まずに滑るのは、止めて進める脱進機を持たないからである。",
+      "enLead": "Mainspring for power, quartz for precision."
+    }
+  ]
+}

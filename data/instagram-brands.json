@@ -1,0 +1,226 @@
+{
+  "note": "Instagram に出すブランド。サイトは39社すべてを扱うが、アカウントは高級路線に絞る（運営方針・2026-08-17）。カシオやシチズンの投稿は流さない。値段そのものは投稿できない（楽天ウェブサービス規約 第10条により、楽天から取得した価格は当サイト以外に出せない）ので、ここでの選別が実質的な価格帯の管理になる。medianJpy は掲載中の出品から実測した中央値（2026-08-17）。",
+  "policy": {
+    "targetJa": "100万円以上の高級時計を中心に、オートオルロジュリーと名門スポーツウォッチ",
+    "excludeReason": "実売の中心が数万円〜20万円台のブランドは、アカウントの世界観と合わないため出さない"
+  },
+  "include": [
+    {
+      "id": "richard-mille",
+      "medianJpy": 55800000
+    },
+    {
+      "id": "audemars-piguet",
+      "medianJpy": 6798000
+    },
+    {
+      "id": "a-lange-soehne",
+      "medianJpy": 6080000
+    },
+    {
+      "id": "laurent-ferrier",
+      "medianJpy": 5983400,
+      "note": "独立系。2026-08-17に追加。Yahoo!に10本"
+    },
+    {
+      "id": "patek-philippe",
+      "medianJpy": 5089650
+    },
+    {
+      "id": "fp-journe",
+      "medianJpy": 4280000,
+      "note": "2026-08-17に追加。Yahoo!に9本、¥298万〜¥1,680万"
+    },
+    {
+      "id": "czapek",
+      "medianJpy": 2980000,
+      "note": "独立系。同15本"
+    },
+    {
+      "id": "h-moser",
+      "medianJpy": 2202000,
+      "note": "独立系。同19本"
+    },
+    {
+      "id": "rolex",
+      "medianJpy": 2119800
+    },
+    {
+      "id": "breguet",
+      "medianJpy": 2040600
+    },
+    {
+      "id": "parmigiani",
+      "medianJpy": 1940000,
+      "note": "同20本"
+    },
+    {
+      "id": "armin-strom",
+      "medianJpy": 1840000,
+      "note": "独立系。同9本"
+    },
+    {
+      "id": "piaget",
+      "medianJpy": 1650000
+    },
+    {
+      "id": "vacheron-constantin",
+      "medianJpy": 1562000
+    },
+    {
+      "id": "glashutte-original",
+      "medianJpy": 1353000,
+      "note": "同28本"
+    },
+    {
+      "id": "roger-dubuis",
+      "medianJpy": 1320000,
+      "note": "同29本"
+    },
+    {
+      "id": "blancpain",
+      "medianJpy": 1045000
+    },
+    {
+      "id": "hublot",
+      "medianJpy": 898000
+    },
+    {
+      "id": "bovet",
+      "medianJpy": 821550,
+      "note": "同8本"
+    },
+    {
+      "id": "panerai",
+      "medianJpy": 819400
+    },
+    {
+      "id": "chopard",
+      "medianJpy": 798000
+    },
+    {
+      "id": "jaeger-lecoultre",
+      "medianJpy": 788000
+    },
+    {
+      "id": "zenith",
+      "medianJpy": 620000
+    },
+    {
+      "id": "omega",
+      "medianJpy": 600000
+    },
+    {
+      "id": "iwc",
+      "medianJpy": 588000
+    },
+    {
+      "id": "franck-muller",
+      "medianJpy": 571800
+    },
+    {
+      "id": "ulysse-nardin",
+      "medianJpy": 569800
+    },
+    {
+      "id": "ressence",
+      "medianJpy": 550000,
+      "note": "独立系。同11本"
+    },
+    {
+      "id": "girard-perregaux",
+      "medianJpy": 505890
+    },
+    {
+      "id": "cartier",
+      "medianJpy": 368000,
+      "note": "中央値は低いが、タンク／サントスは高級時計として扱う"
+    }
+  ],
+  "exclude": [
+    {
+      "id": "grand-seiko",
+      "why": "国産最高峰だが、アカウントの軸をスイス・独の高級機に置くため今は出さない"
+    },
+    {
+      "id": "bvlgari",
+      "why": "宝飾寄りの出品が多く、時計として見せにくい"
+    },
+    {
+      "id": "breitling",
+      "why": "実売の中心が40万円台"
+    },
+    {
+      "id": "tudor",
+      "why": "同上"
+    },
+    {
+      "id": "bell-ross",
+      "why": "同上"
+    },
+    {
+      "id": "sinn",
+      "why": "同上"
+    },
+    {
+      "id": "tag-heuer",
+      "why": "同上"
+    },
+    {
+      "id": "nomos-glashuette",
+      "why": "実売20万円台"
+    },
+    {
+      "id": "montblanc",
+      "why": "同上"
+    },
+    {
+      "id": "oris",
+      "why": "同上"
+    },
+    {
+      "id": "seiko",
+      "why": "普及帯が中心"
+    },
+    {
+      "id": "frederique-constant",
+      "why": "同上"
+    },
+    {
+      "id": "orient",
+      "why": "同上"
+    },
+    {
+      "id": "hamilton",
+      "why": "同上"
+    },
+    {
+      "id": "longines",
+      "why": "同上"
+    },
+    {
+      "id": "citizen",
+      "why": "同上"
+    },
+    {
+      "id": "tissot",
+      "why": "同上"
+    },
+    {
+      "id": "rado",
+      "why": "同上"
+    },
+    {
+      "id": "casio",
+      "why": "同上"
+    },
+    {
+      "id": "tutima",
+      "why": "ドイツの実用機。中央値28万円で高級路線に合わない"
+    },
+    {
+      "id": "maurice-lacroix",
+      "why": "Yahoo!の出品はピンバッジのみ。時計としての在庫が無い"
+    }
+  ]
+}

@@ -35,6 +35,8 @@ const UA = 'watch-price-navi/1.0 (https://watch-price-navi.github.io/watch-price
 const args = process.argv.slice(2);
 const ALL = args.includes('--all');
 const LIMIT = Number(args[args.indexOf('--limit') + 1]) || (ALL ? 9999 : 120);
+/** 1回に調べるブランド数。39社しかないので、数回の実行で一巡する */
+const BRAND_LIMIT = Number(args[args.indexOf('--brand-limit') + 1]) || 6;
 
 /** 表示義務を果たせるライセンスだけを通す */
 const ALLOWED = [/public domain/i, /^cc0/i, /^cc[ -]by([ -]sa)?[ -]?\d/i, /^cc[ -]by([ -]sa)?$/i];
@@ -86,10 +88,30 @@ function cleanAuthor(raw) {
  * 1モデル分の写真を探す。ブランド名がファイル名に入っているものだけ採用し、
  * 型番が入っているものを先頭に寄せる（同じ時計である確度が高い）。
  */
+/**
+ * モデル名を検索できる形まで削る。
+ *
+ * 正式名称は具体的すぎて当たらない。実測（2026-08-17）:
+ *   「Audemars Piguet 15202ST.OO.1240ST.01」         0件
+ *   「Audemars Piguet Royal Oak "Jumbo" Extra-Thin」 0件
+ *   「Audemars Piguet Royal Oak」                   13件
+ * 引用符や括弧を落とし、先頭2語だけにすると届く。
+ */
+function coreName(modelEn) {
+  const s = String(modelEn ?? '')
+    .replace(/["'“”()（）]/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+  return s.split(' ').filter(Boolean).slice(0, 2).join(' ');
+}
+
 async function findPhotos(brandEn, modelEn, reference, want) {
+  const core = coreName(modelEn);
   const queries = [
     reference ? `${brandEn} ${reference}` : null,
     `${brandEn} ${modelEn}`,
+    // 正式名称で当たらないときのために、短くした名前でも引く
+    core && core !== modelEn ? `${brandEn} ${core}` : null,
   ].filter(Boolean);
 
   const found = new Map();
@@ -287,8 +309,23 @@ for (const f of fs.readdirSync(brandsDir).filter((x) => x.endsWith('.json'))) {
     targets.push({ brandId: cat.brand.id, brandEn: cat.brand.name_en, brandJa: cat.brand.name_ja, model: m });
   }
 }
-targets.length = Math.min(targets.length, LIMIT);
-console.log(`対象 ${targets.length} モデルを調べます\n`);
+/*
+ * 切り詰める前に「もう調べたもの」を外す。
+ *
+ * 順序を逆にしていたため、毎日ファイル順の先頭12件を選んでは全部スキップし、
+ * 1件も新しく調べていなかった。写真のあるモデルが4件から増えなかったのはこれが理由。
+ * その4件はこの仕組みを入れる前に取れたものだった。
+ */
+const manifestPre = fs.existsSync(MANIFEST) ? readJson(MANIFEST) : { models: {}, checked: {} };
+const recentlyChecked = (key) => {
+  if (manifestPre.models?.[key]?.photos?.length) return true;
+  const last = manifestPre.checked?.[key];
+  return Boolean(last && Date.now() - Date.parse(last) < 30 * 86400_000);
+};
+const fresh = targets.filter((t) => !recentlyChecked(`${t.brandId}/${t.model.id}`));
+targets.length = 0;
+targets.push(...fresh.slice(0, LIMIT));
+console.log(`未調査 ${fresh.length} モデルのうち ${targets.length} 件を調べます\n`);
 
 fs.mkdirSync(OUT_DIR, { recursive: true });
 const manifest = fs.existsSync(MANIFEST) ? readJson(MANIFEST) : { note: '', models: {} };
@@ -367,5 +404,90 @@ for (const t of targets) {
   await sleep(200);
 }
 
+/* ─── ブランド単位の写真も貯める ─────────────────────────────
+ *
+ * Instagram に時計が1本も写っていないのでは、時計のアカウントとして意味がない。
+ * ブランドの物語を語る投稿の背景には、その会社の時計そのものが要る。
+ *
+ * 型番までは一致しないので「同ブランドの別のモデル」として扱う。
+ * ブランドの物語を語る投稿ではそれで筋が通る（特定の1本の話をしていないため）。
+ * 型番の話をする投稿には使わない。
+ */
+manifest.brands ??= {};
+manifest.brandsChecked ??= {};
+/*
+ * Instagram は高級路線に絞っている（data/instagram-brands.json）。
+ * 写真を貯める順番もそれに合わせる。カシオの写真から埋めても投稿には使えない。
+ * 一覧に載っていないブランドも後回しで集める（サイト側では使うため）。
+ */
+const igOrder = (() => {
+  try {
+    return (readJson(path.join(ROOT, 'data/instagram-brands.json')).include ?? []).map((x) => x.id);
+  } catch {
+    return [];
+  }
+})();
+const brandList = [];
+for (const f of fs.readdirSync(brandsDir).filter((x) => x.endsWith('.json'))) {
+  const cat = readJson(path.join(brandsDir, f));
+  if (cat.brand?.id) brandList.push(cat.brand);
+}
+brandList.sort((a, b) => {
+  const ia = igOrder.indexOf(a.id);
+  const ib = igOrder.indexOf(b.id);
+  return (ia < 0 ? 999 : ia) - (ib < 0 ? 999 : ib);
+});
+let brandShots = 0;
+for (const b of brandList) {
+  if ((manifest.brands[b.id]?.photos ?? []).length >= 4) continue;
+  const last = manifest.brandsChecked[b.id];
+  if (last && Date.now() - Date.parse(last) < 14 * 86400_000) continue;
+  if (brandShots >= BRAND_LIMIT) break;
+
+  let photos = [];
+  try {
+    // 「<ブランド> watch」で引く。分類に時計が入っているものだけ通るので、
+    // 建物や創業者の肖像は findPhotos 側の判定で落ちる
+    photos = await findPhotos(b.name_en, 'watch', null, 6);
+  } catch (e) {
+    console.log(`  ! ${b.id} (ブランド写真): ${e.message}`);
+  }
+  manifest.brandsChecked[b.id] = new Date().toISOString().slice(0, 10);
+  brandShots++;
+  if (!photos.length) continue;
+
+  const saved = manifest.brands[b.id]?.photos ?? [];
+  const have = new Set(saved.map((p) => p.commonsTitle));
+  for (const p of photos) {
+    if (have.has(p.title) || saved.length >= 6) continue;
+    const ext = (p.src.match(/\.(jpe?g|png|webp)(?:$|\?)/i)?.[1] ?? 'jpg').toLowerCase();
+    const name = `brand-${b.id}-${saved.length + 1}.${ext}`;
+    try {
+      await download(p.src, path.join(OUT_DIR, name));
+    } catch {
+      continue;
+    }
+    saved.push({
+      file: `/img/watches/${name}`,
+      commonsTitle: p.title,
+      author: p.author || null,
+      license: p.license,
+      licenseUrl: p.licenseUrl,
+      source: p.source,
+      provider: p.provider ?? 'wikimedia',
+      // ブランド単位なので、特定の型番の写真ではない
+      exact: false,
+    });
+    files++;
+    await sleep(150);
+  }
+  if (saved.length) {
+    manifest.brands[b.id] = { brandId: b.id, photos: saved };
+    console.log(`  ◎ ${b.id} ブランド写真 ${saved.length}枚`);
+  }
+  await sleep(300);
+}
+
 fs.writeFileSync(MANIFEST, JSON.stringify(manifest, null, 2) + '\n', 'utf8');
 console.log(`\n写真のあるモデル ${withPhotos} 件 / 画像 ${files} 枚 → ${path.relative(ROOT, MANIFEST)}`);
+console.log(`写真のあるブランド ${Object.keys(manifest.brands).length} 社`);
