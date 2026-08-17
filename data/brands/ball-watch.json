@@ -1,0 +1,90 @@
+{
+  "brand": {
+    "id": "ball-watch",
+    "name_en": "Ball Watch",
+    "name_ja": "ボール ウォッチ",
+    "country": "スイス",
+    "founded": 1891,
+    "officialUrl": "https://www.ballwatch.ch/",
+    "description_ja": "ボール ウォッチは1891年、アメリカの時計商ウェブスター・クレイ・ボールが創業した。同年オハイオで起きた列車衝突事故——二人の機関士の時計が4分ずれていたことが原因だった——を受けて、鉄道各社の時計を検査する制度を作った人物である。彼が定めた「鉄道時計規格」は、19石以上・日差30秒以内・耐磁といった条件を課し、以後半世紀にわたって米国鉄道の標準になった。現在の特徴は、文字盤の夜光にトリチウムガスを封じた微細な管（マイクロガスライト）を使うこと。電池も充電も要らず、25年間光り続ける。耐磁80,000A/mや7,500Gsの耐衝撃といった、数字で示せる堅牢性を軸にしている。",
+    "description_en": "Webster Clay Ball founded the company in 1891, the year a collision in Ohio was traced to two engineers whose watches were four minutes apart. He wrote the railroad standard that followed — seventeen jewels or more, thirty seconds a day, magnetic resistance — and it governed American railroad watches for half a century. Today the signature is self-powered luminance: tiny tubes of tritium gas that glow for twenty-five years with no battery and no charging. The rest of the argument is numbers — 80,000 A/m of magnetic resistance, 7,500 Gs of shock."
+  },
+  "models": [
+    {
+      "id": "engineer-hydrocarbon-spacemaster",
+      "name_en": "Engineer Hydrocarbon Spacemaster",
+      "name_ja": "エンジニア ハイドロカーボン スペースマスター",
+      "reference": "DM2036A",
+      "collection_en": "Engineer Hydrocarbon Spacemaster",
+      "collection_ja": "エンジニア ハイドロカーボン スペースマスター",
+      "caseSizeMm": 42,
+      "movementType": "automatic",
+      "caliber": "BALL RR1103-C",
+      "listPriceJpy": null,
+      "priceFloorJpy": 350000,
+      "searchKeywordJa": "ボール ウォッチ エンジニア ハイドロカーボン スペースマスター",
+      "searchKeywordEn": "Ball Watch Engineer Hydrocarbon Spacemaster",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": 100,
+      "gender": "mens",
+      "releaseYear": 2010,
+      "tags": [
+        "sport",
+        "gmt"
+      ],
+      "popular": true,
+      "summary_ja": "NASAの認定を受けた耐衝撃・耐磁の実用機。文字盤の夜光は電池を使わず25年光る。",
+      "summary_en": "A shock- and magnetism-resistant tool watch qualified by NASA. The luminance needs no battery and lasts 25 years."
+    },
+    {
+      "id": "engineer-master-ii-diver",
+      "name_en": "Engineer Master II Diver",
+      "name_ja": "エンジニア マスター II ダイバー",
+      "reference": "DM2020A",
+      "collection_en": "Engineer Master II Diver",
+      "collection_ja": "エンジニア マスター II ダイバー",
+      "caseSizeMm": 42,
+      "movementType": "automatic",
+      "caliber": "BALL RR1102",
+      "listPriceJpy": null,
+      "priceFloorJpy": 300000,
+      "searchKeywordJa": "ボール ウォッチ エンジニア マスター II ダイバー",
+      "searchKeywordEn": "Ball Watch Engineer Master II Diver",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": 300,
+      "gender": "mens",
+      "releaseYear": 2008,
+      "tags": [
+        "diver"
+      ],
+      "popular": true,
+      "summary_ja": "300m防水のダイバー。暗所での視認性は、蓄光ではなく自発光なので時間が経っても落ちない。",
+      "summary_en": "A 300m diver. Because the glow is self-powered rather than charged, it does not fade through the night."
+    },
+    {
+      "id": "trainmaster-standard-time",
+      "name_en": "Trainmaster Standard Time",
+      "name_ja": "トレインマスター スタンダードタイム",
+      "reference": "NT1050D",
+      "collection_en": "Trainmaster Standard Time",
+      "collection_ja": "トレインマスター スタンダードタイム",
+      "caseSizeMm": 39.5,
+      "movementType": "automatic",
+      "caliber": "BALL RR1102",
+      "listPriceJpy": null,
+      "priceFloorJpy": 250000,
+      "searchKeywordJa": "ボール ウォッチ トレインマスター スタンダードタイム",
+      "searchKeywordEn": "Ball Watch Trainmaster Standard Time",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": 50,
+      "gender": "mens",
+      "releaseYear": 2015,
+      "tags": [
+        "dress"
+      ],
+      "popular": true,
+      "summary_ja": "鉄道時計の系譜を継ぐドレス線。創業者が作った規格の名残が、文字盤の作法に残っている。",
+      "summary_en": "The dress line descended from the railroad watches; the standard he wrote still shows in how the dial is laid out."
+    }
+  ]
+}

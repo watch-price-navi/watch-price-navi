@@ -1,0 +1,89 @@
+{
+  "brand": {
+    "id": "boucheron",
+    "name_en": "Boucheron",
+    "name_ja": "ブシュロン",
+    "country": "フランス",
+    "founded": 1858,
+    "officialUrl": "https://www.boucheron.com/",
+    "description_ja": "ブシュロンは1858年、フレデリック・ブシュロンがパリのパレ・ロワイヤルに開いた。1893年にヴァンドーム広場へ移った最初の宝飾店であり、いまも広場の角に本店を構える。日光が最もよく入る角地を選んだ、という逸話が残っている。時計では「レフレ」が代名詞。1947年に発表された長方形のケースで、四隅にゴドロン（うねり）と呼ばれる装飾が入り、ベルトを工具なしで替えられる。宝飾の会社が作る時計にありがちな過剰さがなく、線が非常に細い。現在はケリング傘下。",
+    "description_en": "Frédéric Boucheron opened in the Palais-Royal in 1858 and in 1893 became the first jeweller to move to the Place Vendôme, choosing the corner that caught the most daylight. The house still occupies it. In watches the Reflet is the signature: a rectangular case from 1947 with godron fluting at the corners and a strap that changes without tools. It avoids the excess that jewellers watches often carry — the lines are unusually fine. Part of Kering."
+  },
+  "models": [
+    {
+      "id": "reflet-medium",
+      "name_en": "Reflet Medium",
+      "name_ja": "レフレ ミディアム",
+      "reference": "WA009502",
+      "collection_en": "Reflet Medium",
+      "collection_ja": "レフレ ミディアム",
+      "caseSizeMm": 34,
+      "movementType": "quartz",
+      "caliber": "Boucheron quartz",
+      "listPriceJpy": null,
+      "priceFloorJpy": 500000,
+      "searchKeywordJa": "ブシュロン レフレ ミディアム",
+      "searchKeywordEn": "Boucheron Reflet Medium",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": 30,
+      "gender": "ladies",
+      "releaseYear": 1947,
+      "tags": [
+        "dress"
+      ],
+      "popular": true,
+      "summary_ja": "1947年から続く長方形のケース。四隅のゴドロンと、工具なしで替えられるベルトが特徴。",
+      "summary_en": "A rectangular case in production since 1947, with fluted corners and a strap that swaps without tools."
+    },
+    {
+      "id": "epure",
+      "name_en": "Epure",
+      "name_ja": "エプゥール",
+      "reference": "WA021204",
+      "collection_en": "Epure",
+      "collection_ja": "エプゥール",
+      "caseSizeMm": 42,
+      "movementType": "automatic",
+      "caliber": "Boucheron auto",
+      "listPriceJpy": null,
+      "priceFloorJpy": 700000,
+      "searchKeywordJa": "ブシュロン エプゥール",
+      "searchKeywordEn": "Boucheron Epure",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": 30,
+      "gender": "mens",
+      "releaseYear": 2015,
+      "tags": [
+        "dress"
+      ],
+      "popular": true,
+      "summary_ja": "メンズの主力。宝飾の意匠を抑え、面と線だけで構成した薄型。",
+      "summary_en": "The mens mainstay: the jewellery turned all the way down, left with planes and lines."
+    },
+    {
+      "id": "serpent-boheme",
+      "name_en": "Serpent Bohème",
+      "name_ja": "セルパン ボエム",
+      "reference": "WA015504",
+      "collection_en": "Serpent Bohème",
+      "collection_ja": "セルパン ボエム",
+      "caseSizeMm": 26,
+      "movementType": "quartz",
+      "caliber": "Boucheron quartz",
+      "listPriceJpy": null,
+      "priceFloorJpy": 600000,
+      "searchKeywordJa": "ブシュロン セルパン ボエム",
+      "searchKeywordEn": "Boucheron Serpent Bohème",
+      "caseMaterial": "yellow-gold",
+      "waterResistanceM": 30,
+      "gender": "ladies",
+      "releaseYear": 2019,
+      "tags": [
+        "dress"
+      ],
+      "popular": true,
+      "summary_ja": "蛇の頭を象った雫形のモチーフ。時計というより、時刻の読める装身具である。",
+      "summary_en": "A teardrop drawn from a serpents head. An ornament that happens to tell the time."
+    }
+  ]
+}

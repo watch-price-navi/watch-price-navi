@@ -1,0 +1,93 @@
+{
+  "brand": {
+    "id": "porsche-design",
+    "name_en": "Porsche Design",
+    "name_ja": "ポルシェ・デザイン",
+    "country": "ドイツ",
+    "founded": 1972,
+    "officialUrl": "https://www.porsche-design.com/",
+    "description_ja": "ポルシェ・デザインは1972年、911を設計したフェルディナント・アレクサンダー・ポルシェがシュトゥットガルトで設立した。翌1973年に出した「クロノグラフ1」は、世界で初めてケース全体を黒くした腕時計である。ダッシュボードの計器が黒いのは反射を避けるためで、その理屈をそのまま腕に持ち込んだ。装飾を目的とした要素を持たず、素材はチタンとカーボンが中心。「形は機能に従う」という言葉を、時計の分野で最も愚直に実行してきたブランドと言える。",
+    "description_en": "Ferdinand Alexander Porsche, who drew the 911, founded Porsche Design in Stuttgart in 1972. The Chronograph 1 of 1973 was the first wristwatch with an all-black case: instrument panels are black to kill reflections, and the reasoning was carried straight to the wrist. Nothing on these watches exists to decorate. Titanium and carbon dominate. Few brands have followed form-follows-function quite so literally in watchmaking."
+  },
+  "models": [
+    {
+      "id": "chronograph-1-1972",
+      "name_en": "Chronograph 1 – 1972 Limited Edition",
+      "name_ja": "クロノグラフ1 1972 限定",
+      "reference": "4046901997878",
+      "collection_en": "Chronograph 1 – 1972 Limited Edition",
+      "collection_ja": "クロノグラフ1 1972 限定",
+      "caseSizeMm": 40.8,
+      "movementType": "automatic",
+      "caliber": "Werk 01.140",
+      "listPriceJpy": null,
+      "priceFloorJpy": 900000,
+      "searchKeywordJa": "ポルシェ・デザイン クロノグラフ1 1972 限定",
+      "searchKeywordEn": "Porsche Design Chronograph 1 – 1972 Limited Edition",
+      "caseMaterial": "titanium",
+      "waterResistanceM": 100,
+      "gender": "mens",
+      "releaseYear": 2022,
+      "tags": [
+        "racing",
+        "chronograph",
+        "limited-edition"
+      ],
+      "popular": true,
+      "summary_ja": "世界初の全面黒ケースを復刻した限定機。1973年の原型と同じ寸法で作られている。",
+      "summary_en": "A limited revival of the first all-black case, built to the same dimensions as the 1973 original."
+    },
+    {
+      "id": "1919-globetimer-utc",
+      "name_en": "1919 Globetimer UTC",
+      "name_ja": "1919 グローブタイマー UTC",
+      "reference": "4046901418205",
+      "collection_en": "1919 Globetimer UTC",
+      "collection_ja": "1919 グローブタイマー UTC",
+      "caseSizeMm": 42,
+      "movementType": "automatic",
+      "caliber": "Werk 04.110",
+      "listPriceJpy": null,
+      "priceFloorJpy": 700000,
+      "searchKeywordJa": "ポルシェ・デザイン 1919 グローブタイマー UTC",
+      "searchKeywordEn": "Porsche Design 1919 Globetimer UTC",
+      "caseMaterial": "titanium",
+      "waterResistanceM": 100,
+      "gender": "mens",
+      "releaseYear": 2018,
+      "tags": [
+        "gmt",
+        "sport"
+      ],
+      "popular": true,
+      "summary_ja": "リューズを回すと現地時刻と日付が同時に送られる。旅先で使うことだけを考えた設計。",
+      "summary_en": "Turning the crown moves local time and the date together. Designed for nothing but travel."
+    },
+    {
+      "id": "monobloc-actuator",
+      "name_en": "Monobloc Actuator",
+      "name_ja": "モノブロック アクチュエーター",
+      "reference": "4046901821142",
+      "collection_en": "Monobloc Actuator",
+      "collection_ja": "モノブロック アクチュエーター",
+      "caseSizeMm": 45.5,
+      "movementType": "automatic",
+      "caliber": "Werk 01.240",
+      "listPriceJpy": null,
+      "priceFloorJpy": 1200000,
+      "searchKeywordJa": "ポルシェ・デザイン モノブロック アクチュエーター",
+      "searchKeywordEn": "Porsche Design Monobloc Actuator",
+      "caseMaterial": "titanium",
+      "waterResistanceM": 100,
+      "gender": "mens",
+      "releaseYear": 2020,
+      "tags": [
+        "racing",
+        "chronograph"
+      ],
+      "popular": true,
+      "summary_ja": "サスペンションのダンパーを模した押しボタンで計測を始める。自動車の部品を機構としてそのまま持ち込んだ。",
+      "summary_en": "The chronograph is started by a pusher built like a suspension damper — a car part used as a mechanism, not a motif."
+    }
+  ]
+}

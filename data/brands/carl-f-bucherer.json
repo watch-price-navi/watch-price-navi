@@ -1,0 +1,91 @@
+{
+  "brand": {
+    "id": "carl-f-bucherer",
+    "name_en": "Carl F. Bucherer",
+    "name_ja": "カール F. ブヘラ",
+    "country": "スイス",
+    "founded": 1888,
+    "officialUrl": "https://www.carl-f-bucherer.com/",
+    "description_ja": "カール F. ブヘラは1888年、カール・フリードリヒ・ブヘラがルツェルンに開いた店に始まる。スイスの高級時計としては珍しく、いまも創業家が所有している。技術の柱は「ペリフェラルローター」——自動巻きの錘を中心ではなく外周に置き、三点のローラーで支える構造である。錘が機構を隠さないので、裏蓋から地板の仕上げがそのまま見える。薄さでも有利になる。この方式を量産で成立させている会社は数えるほどしかない。マネロ、パトラビ、ヘリテージの三系統を持つ。",
+    "description_en": "Carl Friedrich Bucherer opened a shop in Lucerne in 1888, and the company is still owned by the founding family — rare at this level in Switzerland. The technical pillar is the peripheral rotor: the winding weight runs around the outside of the movement on three rollers rather than over the top of it. Nothing is hidden, so the finishing shows through the back, and the movement can be thinner. Very few houses have made this work in series production."
+  },
+  "models": [
+    {
+      "id": "manero-peripheral",
+      "name_en": "Manero Peripheral",
+      "name_ja": "マネロ ペリフェラル",
+      "reference": "00.10917.03.13.01",
+      "collection_en": "Manero Peripheral",
+      "collection_ja": "マネロ ペリフェラル",
+      "caseSizeMm": 40.6,
+      "movementType": "automatic",
+      "caliber": "CFB A2050",
+      "listPriceJpy": null,
+      "priceFloorJpy": 700000,
+      "searchKeywordJa": "カール F. ブヘラ マネロ ペリフェラル",
+      "searchKeywordEn": "Carl F. Bucherer Manero Peripheral",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": 30,
+      "gender": "mens",
+      "releaseYear": 2016,
+      "tags": [
+        "dress",
+        "small-seconds"
+      ],
+      "popular": true,
+      "summary_ja": "錘を外周に置いたので、裏から地板の仕上げが遮られずに見える。厚さも抑えられる。",
+      "summary_en": "The rotor runs around the outside, so nothing blocks the view of the movement — and it can be thinner."
+    },
+    {
+      "id": "patravi-scubatec",
+      "name_en": "Patravi ScubaTec",
+      "name_ja": "パトラビ スキューバテック",
+      "reference": "00.10632.23.33.01",
+      "collection_en": "Patravi ScubaTec",
+      "collection_ja": "パトラビ スキューバテック",
+      "caseSizeMm": 44.6,
+      "movementType": "automatic",
+      "caliber": "CFB 1950",
+      "listPriceJpy": null,
+      "priceFloorJpy": 600000,
+      "searchKeywordJa": "カール F. ブヘラ パトラビ スキューバテック",
+      "searchKeywordEn": "Carl F. Bucherer Patravi ScubaTec",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": 500,
+      "gender": "mens",
+      "releaseYear": 2014,
+      "tags": [
+        "diver"
+      ],
+      "popular": true,
+      "summary_ja": "500m防水のダイバー。セラミックのベゼルと、ヘリウムを逃がす排出弁を備える。",
+      "summary_en": "A 500m diver with a ceramic bezel and a helium escape valve."
+    },
+    {
+      "id": "heritage-bicompax-annual",
+      "name_en": "Heritage BiCompax Annual",
+      "name_ja": "ヘリテージ バイコンパックス アニュアル",
+      "reference": "00.10803.08.12.21",
+      "collection_en": "Heritage BiCompax Annual",
+      "collection_ja": "ヘリテージ バイコンパックス アニュアル",
+      "caseSizeMm": 41,
+      "movementType": "automatic",
+      "caliber": "CFB 1972",
+      "listPriceJpy": null,
+      "priceFloorJpy": 900000,
+      "searchKeywordJa": "カール F. ブヘラ ヘリテージ バイコンパックス アニュアル",
+      "searchKeywordEn": "Carl F. Bucherer Heritage BiCompax Annual",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": 30,
+      "gender": "mens",
+      "releaseYear": 2019,
+      "tags": [
+        "chronograph",
+        "annual-calendar"
+      ],
+      "popular": true,
+      "summary_ja": "1956年の自社製クロノグラフを下敷きにした復刻。年次カレンダーを重ねている。",
+      "summary_en": "A revival of the houses own 1956 chronograph, with an annual calendar laid over it."
+    }
+  ]
+}

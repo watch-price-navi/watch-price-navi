@@ -1,0 +1,92 @@
+{
+  "brand": {
+    "id": "jacob-co",
+    "name_en": "Jacob & Co.",
+    "name_ja": "ジェイコブ",
+    "country": "アメリカ",
+    "founded": 1986,
+    "officialUrl": "https://www.jacobandco.com/",
+    "description_ja": "ジェイコブは1986年、ヤコブ・アラボがニューヨークで宝飾店として始めた。2002年の「ファイブタイムゾーン」——中央に地元時刻、周囲に四つの都市の時刻を並べた——が音楽業界で広まり、名が知られるようになる。以後、複雑機構の方向に急速に舵を切った。「アストロノミア」は文字盤の上で四本の腕が回り、トゥールビヨンと地球儀と1カラットのダイヤが同時に公転する。宝飾と機構の両方を最大まで振り切る姿勢は他社に例がない。ジュネーブに製造拠点を持ち、ムーブメントは自社設計である。",
+    "description_en": "Jacob Arabo opened as a jeweller in New York in 1986. The Five Time Zone of 2002 — local time at the centre, four cities around it — spread through the music industry and made the name. The house then turned hard toward complications. In the Astronomia four arms rotate across the dial, carrying a tourbillon, a globe and a one-carat diamond in orbit together. Nobody else pushes both jewellery and mechanism this far at once. Movements are designed in-house in Geneva."
+  },
+  "models": [
+    {
+      "id": "five-time-zone",
+      "name_en": "Five Time Zone",
+      "name_ja": "ファイブタイムゾーン",
+      "reference": "JC-47DA",
+      "collection_en": "Five Time Zone",
+      "collection_ja": "ファイブタイムゾーン",
+      "caseSizeMm": 47,
+      "movementType": "quartz",
+      "caliber": "JCAA05",
+      "listPriceJpy": null,
+      "priceFloorJpy": 600000,
+      "searchKeywordJa": "ジェイコブ ファイブタイムゾーン",
+      "searchKeywordEn": "Jacob & Co. Five Time Zone",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": 30,
+      "gender": "mens",
+      "releaseYear": 2002,
+      "tags": [
+        "world-timer"
+      ],
+      "popular": true,
+      "summary_ja": "中央に地元時刻、周囲に四つの都市。ブランドの名を広めた最初の一本。",
+      "summary_en": "Local time at the centre, four cities around it. The watch that made the name."
+    },
+    {
+      "id": "epic-x",
+      "name_en": "Epic X",
+      "name_ja": "エピック X",
+      "reference": "EX100.20.AA",
+      "collection_en": "Epic X",
+      "collection_ja": "エピック X",
+      "caseSizeMm": 44,
+      "movementType": "manual",
+      "caliber": "JCAM05",
+      "listPriceJpy": null,
+      "priceFloorJpy": 1800000,
+      "searchKeywordJa": "ジェイコブ エピック X",
+      "searchKeywordEn": "Jacob & Co. Epic X",
+      "caseMaterial": "titanium",
+      "waterResistanceM": 30,
+      "gender": "mens",
+      "releaseYear": 2015,
+      "tags": [
+        "luxury-sport",
+        "skeleton"
+      ],
+      "popular": true,
+      "summary_ja": "文字盤を持たず、X字のブリッジだけで機構を支える。骨格がそのまま意匠になっている。",
+      "summary_en": "No dial at all — an X-shaped bridge holds the movement. The skeleton is the design."
+    },
+    {
+      "id": "astronomia-sky",
+      "name_en": "Astronomia Sky",
+      "name_ja": "アストロノミア スカイ",
+      "reference": "AT110.40.AA",
+      "collection_en": "Astronomia Sky",
+      "collection_ja": "アストロノミア スカイ",
+      "caseSizeMm": 47,
+      "movementType": "manual",
+      "caliber": "JCAM11",
+      "listPriceJpy": null,
+      "priceFloorJpy": 30000000,
+      "searchKeywordJa": "ジェイコブ アストロノミア スカイ",
+      "searchKeywordEn": "Jacob & Co. Astronomia Sky",
+      "caseMaterial": "rose-gold",
+      "waterResistanceM": 30,
+      "gender": "mens",
+      "releaseYear": 2016,
+      "tags": [
+        "tourbillon",
+        "skeleton",
+        "limited-edition"
+      ],
+      "popular": true,
+      "summary_ja": "四本の腕が回り、トゥールビヨンと地球儀とダイヤが同時に公転する。20分で一周する。",
+      "summary_en": "Four arms turn, carrying a tourbillon, a globe and a diamond in orbit. One revolution every twenty minutes."
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "brand": {
+    "id": "ebel",
+    "name_en": "Ebel",
+    "name_ja": "エベル",
+    "country": "スイス",
+    "founded": 1911,
+    "officialUrl": "https://www.ebel.com/",
+    "description_ja": "エベルは1911年、ウジェーヌ・ブルム夫妻がラ・ショー・ド・フォンで創業した。社名は二人の頭文字から採られている。長く他社にムーブメントを供給する立場だったが、1977年の「スポーツクラシック」で表舞台に出た。波形のリンクを連ねた一体型ブレスレットと、ベゼルに並ぶ5本のビス。設計したのはピエール=アラン・ブルムで、当時流行しはじめていた高級スポーツウォッチの流れに、独自の柔らかい曲線を持ち込んだ。1980年代にはF1のマクラーレンと組み、クロノグラフでも知られた。現在はモバード・グループ。",
+    "description_en": "Eugène Blum and his wife founded Ebel in La Chaux-de-Fonds in 1911; the name comes from their initials. For decades it supplied movements to other houses, then stepped forward in 1977 with the Sport Classic — a wave-link integrated bracelet and five screws set into the bezel, drawn by Pierre-Alain Blum. It brought a softer curve to the luxury sports watch just as that category was forming. In the 1980s the chronographs were tied to McLaren in Formula One. Now part of the Movado Group."
+  },
+  "models": [
+    {
+      "id": "sport-classic",
+      "name_en": "Sport Classic",
+      "name_ja": "スポーツクラシック",
+      "reference": "1216466",
+      "collection_en": "Sport Classic",
+      "collection_ja": "スポーツクラシック",
+      "caseSizeMm": 40,
+      "movementType": "automatic",
+      "caliber": "Ebel 240",
+      "listPriceJpy": null,
+      "priceFloorJpy": 350000,
+      "searchKeywordJa": "エベル スポーツクラシック",
+      "searchKeywordEn": "Ebel Sport Classic",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": 50,
+      "gender": "mens",
+      "releaseYear": 1977,
+      "tags": [
+        "luxury-sport"
+      ],
+      "popular": true,
+      "summary_ja": "波形のリンクを連ねた一体型ブレスレットと、ベゼルの5本のビス。高級スポーツウォッチの初期を代表する一本。",
+      "summary_en": "Wave links and five screws in the bezel — one of the pieces that defined the early luxury sports watch."
+    },
+    {
+      "id": "1911-discovery",
+      "name_en": "1911 Discovery",
+      "name_ja": "1911 ディスカバリー",
+      "reference": "1215794",
+      "collection_en": "1911 Discovery",
+      "collection_ja": "1911 ディスカバリー",
+      "caseSizeMm": 41,
+      "movementType": "automatic",
+      "caliber": "Ebel 240",
+      "listPriceJpy": null,
+      "priceFloorJpy": 300000,
+      "searchKeywordJa": "エベル 1911 ディスカバリー",
+      "searchKeywordEn": "Ebel 1911 Discovery",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": 200,
+      "gender": "mens",
+      "releaseYear": 2019,
+      "tags": [
+        "sport"
+      ],
+      "popular": true,
+      "summary_ja": "創業年を冠した実用線。200m防水を持ちながら、波形ブレスの意匠は残している。",
+      "summary_en": "The everyday line, named for the founding year. 200m, with the wave bracelet kept intact."
+    },
+    {
+      "id": "beluga",
+      "name_en": "Beluga",
+      "name_ja": "ベルーガ",
+      "reference": "1216462",
+      "collection_en": "Beluga",
+      "collection_ja": "ベルーガ",
+      "caseSizeMm": 30,
+      "movementType": "quartz",
+      "caliber": "Ebel 057",
+      "listPriceJpy": null,
+      "priceFloorJpy": 200000,
+      "searchKeywordJa": "エベル ベルーガ",
+      "searchKeywordEn": "Ebel Beluga",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": 30,
+      "gender": "ladies",
+      "releaseYear": 1985,
+      "tags": [
+        "dress"
+      ],
+      "popular": true,
+      "summary_ja": "楕円のケースと、腕に沿って曲がるブレスレット。レディースの定番として長く続いている。",
+      "summary_en": "An oval case on a bracelet that curves to the wrist. The ladies’ mainstay for decades."
+    }
+  ]
+}

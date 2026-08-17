@@ -27,9 +27,24 @@
       "medianJpy": 5089650
     },
     {
+      "id": "moritz-grossmann",
+      "medianJpy": 4704000,
+      "note": "独立系。gressive経由で追加。Yahoo!に27本"
+    },
+    {
       "id": "fp-journe",
       "medianJpy": 4280000,
       "note": "2026-08-17に追加。Yahoo!に9本、¥298万〜¥1,680万"
+    },
+    {
+      "id": "hyt",
+      "medianJpy": 3850000,
+      "note": "独立系。液体で時を示す。同8本"
+    },
+    {
+      "id": "urban-jurgensen",
+      "medianJpy": 3280000,
+      "note": "独立系。同18本"
     },
     {
       "id": "czapek",
@@ -68,6 +83,11 @@
       "medianJpy": 1562000
     },
     {
+      "id": "harry-winston",
+      "medianJpy": 1430000,
+      "note": "同29本"
+    },
+    {
       "id": "glashutte-original",
       "medianJpy": 1353000,
       "note": "同28本"
@@ -78,8 +98,23 @@
       "note": "同29本"
     },
     {
+      "id": "jaquet-droz",
+      "medianJpy": 1280000,
+      "note": "同30本"
+    },
+    {
+      "id": "chronoswiss",
+      "medianJpy": 1070000,
+      "note": "同13本"
+    },
+    {
       "id": "blancpain",
       "medianJpy": 1045000
+    },
+    {
+      "id": "van-cleef-arpels",
+      "medianJpy": 1023000,
+      "note": "同26本"
     },
     {
       "id": "hublot",
@@ -103,12 +138,27 @@
       "medianJpy": 788000
     },
     {
+      "id": "jacob-co",
+      "medianJpy": 698000,
+      "note": "同16本"
+    },
+    {
+      "id": "carl-f-bucherer",
+      "medianJpy": 660000,
+      "note": "同8本"
+    },
+    {
       "id": "zenith",
       "medianJpy": 620000
     },
     {
       "id": "omega",
       "medianJpy": 600000
+    },
+    {
+      "id": "boucheron",
+      "medianJpy": 598000,
+      "note": "同16本"
     },
     {
       "id": "iwc",
@@ -128,13 +178,53 @@
       "note": "独立系。同11本"
     },
     {
+      "id": "porsche-design",
+      "medianJpy": 508000,
+      "note": "同22本"
+    },
+    {
       "id": "girard-perregaux",
       "medianJpy": 505890
+    },
+    {
+      "id": "corum",
+      "medianJpy": 495000,
+      "note": "同23本"
+    },
+    {
+      "id": "perrelet",
+      "medianJpy": 418000,
+      "note": "同5本"
+    },
+    {
+      "id": "ebel",
+      "medianJpy": 418000,
+      "note": "同19本"
+    },
+    {
+      "id": "meistersinger",
+      "medianJpy": 410300,
+      "note": "同30本"
+    },
+    {
+      "id": "ball-watch",
+      "medianJpy": 396000,
+      "note": "同24本"
     },
     {
       "id": "cartier",
       "medianJpy": 368000,
       "note": "中央値は低いが、タンク／サントスは高級時計として扱う"
+    },
+    {
+      "id": "graham",
+      "medianJpy": 330000,
+      "note": "同21本"
+    },
+    {
+      "id": "muhle-glashutte",
+      "medianJpy": 328000,
+      "note": "同30本"
     }
   ],
   "exclude": [
@@ -221,6 +311,10 @@
     {
       "id": "maurice-lacroix",
       "why": "Yahoo!の出品はピンバッジのみ。時計としての在庫が無い"
+    },
+    {
+      "id": "shanel-note",
+      "why": "シャネルは29件¥318,000で条件を満たすが、時計としてのカタログ整備が未了。次に追加する"
     }
   ]
 }

@@ -1,0 +1,90 @@
+{
+  "brand": {
+    "id": "perrelet",
+    "name_en": "Perrelet",
+    "name_ja": "ペルレ",
+    "country": "スイス",
+    "founded": 1777,
+    "officialUrl": "https://www.perrelet.com/",
+    "description_ja": "ペルレは、1777年に自動巻き機構を発明したアブラアン=ルイ・ペルレの名を継ぐ。歩くたびに錘が振れてぜんまいを巻く——いま世界中の自動巻き時計が使っている原理は、この人が最初に形にした。現在のブランドは1995年に再興され、その出自にちなんで「ダブルローター」を軸に置く。錘を二つ持ち、一方は裏側で通常どおり巻き上げ、もう一方は文字盤側で回って見える。時計が動いていることが、正面から目で確かめられる。ヌーシャテルに工房を構える。",
+    "description_en": "Perrelet carries the name of Abraham-Louis Perrelet, who built the first self-winding mechanism in 1777 — the principle every automatic watch in the world still uses. The modern brand, revived in 1995, builds on that inheritance with the Double Rotor: one weight winds the mainspring from the back as usual, while a second turns on the dial side in plain view. You can see from the front that the watch is running. The workshop is in Neuchâtel."
+  },
+  "models": [
+    {
+      "id": "turbine-40",
+      "name_en": "Turbine 40",
+      "name_ja": "タービン 40",
+      "reference": "A2043/1",
+      "collection_en": "Turbine 40",
+      "collection_ja": "タービン 40",
+      "caseSizeMm": 41,
+      "movementType": "automatic",
+      "caliber": "P-331",
+      "listPriceJpy": null,
+      "priceFloorJpy": 400000,
+      "searchKeywordJa": "ペルレ タービン 40",
+      "searchKeywordEn": "Perrelet Turbine 40",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": 50,
+      "gender": "unisex",
+      "releaseYear": 2009,
+      "tags": [
+        "sport"
+      ],
+      "popular": true,
+      "summary_ja": "12枚の羽根が文字盤の上で回り、下の色が透けて模様が変わる。動きそのものが意匠になっている。",
+      "summary_en": "Twelve blades turn over the dial, the colour beneath showing through and changing. The motion is the design."
+    },
+    {
+      "id": "double-rotor-skeleton",
+      "name_en": "Turbine Double Rotor Skeleton",
+      "name_ja": "ダブルローター スケルトン",
+      "reference": "A1091/1",
+      "collection_en": "Turbine Double Rotor Skeleton",
+      "collection_ja": "ダブルローター スケルトン",
+      "caseSizeMm": 42,
+      "movementType": "automatic",
+      "caliber": "P-481",
+      "listPriceJpy": null,
+      "priceFloorJpy": 500000,
+      "searchKeywordJa": "ペルレ ダブルローター スケルトン",
+      "searchKeywordEn": "Perrelet Turbine Double Rotor Skeleton",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": 50,
+      "gender": "mens",
+      "releaseYear": 2016,
+      "tags": [
+        "sport",
+        "skeleton"
+      ],
+      "popular": true,
+      "summary_ja": "創業者が発明した自動巻きの原理を、文字盤側から見せる構成。錘を二つ持つ。",
+      "summary_en": "The founders self-winding principle, shown from the dial side. Two rotors."
+    },
+    {
+      "id": "first-class-double-rotor",
+      "name_en": "First Class Double Rotor",
+      "name_ja": "ファーストクラス ダブルローター",
+      "reference": "A1090/1",
+      "collection_en": "First Class Double Rotor",
+      "collection_ja": "ファーストクラス ダブルローター",
+      "caseSizeMm": 42.5,
+      "movementType": "automatic",
+      "caliber": "P-181",
+      "listPriceJpy": null,
+      "priceFloorJpy": 350000,
+      "searchKeywordJa": "ペルレ ファーストクラス ダブルローター",
+      "searchKeywordEn": "Perrelet First Class Double Rotor",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": 50,
+      "gender": "mens",
+      "releaseYear": 2012,
+      "tags": [
+        "dress"
+      ],
+      "popular": true,
+      "summary_ja": "ドレス寄りのダブルローター。文字盤にギヨシェを入れ、錘の回転を静かに見せる。",
+      "summary_en": "The dress version of the double rotor: guilloché on the dial and the second weight turning quietly across it."
+    }
+  ]
+}
