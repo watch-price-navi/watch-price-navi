@@ -1,0 +1,34 @@
+{
+  "note": "ブランドの格。検索の既定の並び（おすすめ順）で、どのブランドを先に出すかを決める。数字が大きいほど先に出る。掲載価格の中央値を実測したうえで、時計としての位置づけを加味して手で決めた。中央値だけで並べると、たまたま高額な出品が1本あるだけのブランドが上に来てしまうため。ここに載っていないブランドは 20 として扱う。",
+  "policy": "エグゼクティブ層が見るサイトとして、パテック・ロレックス級を先頭に置く。カシオやシチズンは掲載は続けるが、既定の並びでは後ろにする。価格帯で絞り込めば当然そちらも上位に出る。",
+  "tiers": {
+    "100": {
+      "why": "オートオルロジュリーの最高峰。ここを先頭に置く",
+      "brands": ["patek-philippe", "audemars-piguet", "vacheron-constantin", "a-lange-soehne", "breguet", "richard-mille"]
+    },
+    "95": {
+      "why": "独立時計師の最上位。年産が数十〜数百本",
+      "brands": ["fp-journe", "laurent-ferrier", "urban-jurgensen", "moritz-grossmann", "philippe-dufour", "armin-strom", "czapek", "h-moser"]
+    },
+    "90": {
+      "why": "名門。ロレックスはここに置く（実売と知名度で他を圧倒するため）",
+      "brands": ["rolex", "jaeger-lecoultre", "blancpain", "glashutte-original", "parmigiani", "piaget", "roger-dubuis", "jaquet-droz"]
+    },
+    "80": {
+      "why": "高級スポーツ・宝飾の名門",
+      "brands": ["panerai", "hublot", "chopard", "zenith", "iwc", "omega", "cartier", "girard-perregaux", "ulysse-nardin", "franck-muller", "harry-winston", "van-cleef-arpels", "bovet", "jacob-co", "hyt", "ressence"]
+    },
+    "70": {
+      "why": "確かな作りだが実売50万円前後",
+      "brands": ["breitling", "tudor", "grand-seiko", "bvlgari", "chronoswiss", "carl-f-bucherer", "corum", "boucheron", "graham", "ebel", "porsche-design", "perrelet"]
+    },
+    "55": {
+      "why": "実用の高級機。20〜40万円帯",
+      "brands": ["tag-heuer", "bell-ross", "sinn", "nomos-glashuette", "montblanc", "oris", "muhle-glashutte", "ball-watch", "meistersinger"]
+    },
+    "35": {
+      "why": "普及帯。掲載は続けるが既定の並びでは後ろ",
+      "brands": ["longines", "rado", "tissot", "hamilton", "frederique-constant", "seiko", "citizen", "orient", "casio"]
+    }
+  }
+}

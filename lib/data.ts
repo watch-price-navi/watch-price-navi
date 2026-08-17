@@ -408,3 +408,31 @@ export function getDealers(): Dealer[] {
   }
   return dealersCache;
 }
+
+/* ─── ブランドの格 ────────────────────────────────────────
+ *
+ * トップページの「人気モデル」と検索の「おすすめ順」で、
+ * どのブランドを先に出すかを決める。
+ *
+ * これを入れる前は、条件検索を開くといちばん安いカシオから並んでいた。
+ * 高級時計を見に来た人に最初に見せるものではない。
+ * 一覧と理由は data/brand-tier.json にある。
+ */
+let brandTierCache: Record<string, number> | null = null;
+
+export function getBrandTier(brandId: string): number {
+  if (!brandTierCache) {
+    brandTierCache = {};
+    try {
+      const j = readJson<{ tiers?: Record<string, { brands?: string[] }> }>(
+        path.join(dataDir, 'brand-tier.json'),
+      );
+      for (const [score, group] of Object.entries(j.tiers ?? {})) {
+        for (const id of group.brands ?? []) brandTierCache[id] = Number(score);
+      }
+    } catch {
+      /* 無ければ全ブランド同格として扱う */
+    }
+  }
+  return brandTierCache[brandId] ?? 20;
+}

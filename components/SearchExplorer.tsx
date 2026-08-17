@@ -19,6 +19,8 @@ interface Entry {
   g: string | null;
   ry: number | null;
   pop: boolean;
+  /** ブランドの格。おすすめ順の並びに使う（大きいほど先） */
+  tier?: number;
   price: number | null;
   pn: number | null;
   pu: number | null;
@@ -264,7 +266,24 @@ export default function SearchExplorer({
       case 'case-asc': sorted.sort((a, b) => (a.cs ?? 999) - (b.cs ?? 999)); break;
       case 'case-desc': sorted.sort((a, b) => (b.cs ?? 0) - (a.cs ?? 0)); break;
       default:
-        sorted.sort((a, b) => (Number(b.pop) - Number(a.pop)) || byPrice(a, b, 1));
+        /*
+         * おすすめ順。
+         *
+         * 以前は「人気フラグ → 安い順」だったため、条件検索を開くと
+         * いちばん安いカシオから始まっていた。高級時計を見に来た人に
+         * 最初に見せるものではない。
+         *
+         * 並びは ①ブランドの格 ②人気フラグ ③価格の高い順。
+         * 格は data/brand-tier.json で決めている（掲載価格の中央値を実測し、
+         * 時計としての位置づけを加味して手で決めた）。
+         * 価格帯で絞り込めば普及帯も当然上位に出るので、選択肢は狭めていない。
+         */
+        sorted.sort(
+          (a, b) =>
+            (b.tier ?? 20) - (a.tier ?? 20) ||
+            Number(b.pop) - Number(a.pop) ||
+            byPrice(a, b, -1),
+        );
     }
     return sorted;
   }, [base, matchers, sort]);

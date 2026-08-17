@@ -6,7 +6,7 @@ import SearchBox from '@/components/SearchBox';
 import { getBlogPosts } from '@/lib/blog';
 import { absUrl } from '@/lib/config';
 import { postCardImage } from '@/lib/blog-figures';
-import { getAllBrands, getSummary } from '@/lib/data';
+import { getAllBrands, getBrandTier, getSummary } from '@/lib/data';
 import { formatDate } from '@/lib/format';
 import { t, type Lang } from '@/lib/i18n';
 
@@ -42,10 +42,19 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
 
   const popular = brands
     .flatMap((b) => b.models.filter((m) => m.popular).map((m) => ({ brand: b.brand, model: m })))
+    /*
+     * 並びは ①価格が入っているか ②ブランドの格 ③価格の高い順。
+     * 以前は①だけだったので、あとはカタログのファイル順（アルファベット順）になり、
+     * カシオやシチズンが上位に来ていた。高級時計を見に来た人に最初に見せるものではない。
+     */
     .sort((a, b) => {
-      const pa = summary[`${a.brand.id}/${a.model.id}`] ? 0 : 1;
-      const pb = summary[`${b.brand.id}/${b.model.id}`] ? 0 : 1;
-      return pa - pb;
+      const sa = summary[`${a.brand.id}/${a.model.id}`];
+      const sb = summary[`${b.brand.id}/${b.model.id}`];
+      return (
+        (sa ? 0 : 1) - (sb ? 0 : 1) ||
+        getBrandTier(b.brand.id) - getBrandTier(a.brand.id) ||
+        (sb?.lowestPrice ?? 0) - (sa?.lowestPrice ?? 0)
+      );
     })
     .slice(0, 12);
 

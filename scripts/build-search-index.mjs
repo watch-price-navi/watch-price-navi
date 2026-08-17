@@ -15,6 +15,27 @@ if (fs.existsSync(summaryFile)) {
   try { summary = readJson(summaryFile); } catch { summary = {}; }
 }
 
+/**
+ * ブランドの格。検索の既定の並び（おすすめ順）で使う。
+ *
+ * 以前は「人気フラグ → 安い順」で並べていたため、
+ * 条件検索を開くといちばん安いカシオから始まっていた。
+ * 高級時計を見に来た人に最初に見せるものではない。
+ * data/brand-tier.json の数字が大きいブランドを先に出す。
+ */
+const tierOf = (() => {
+  const map = {};
+  try {
+    const j = readJson(path.join(ROOT, 'data', 'brand-tier.json'));
+    for (const [score, group] of Object.entries(j.tiers ?? {})) {
+      for (const id of group.brands ?? []) map[id] = Number(score);
+    }
+  } catch {
+    /* 無ければ全ブランド同格として扱う */
+  }
+  return (id) => map[id] ?? 20;
+})();
+
 const entries = [];
 {
   for (const { brand, models } of loadCatalogs(ROOT)) {
@@ -42,6 +63,8 @@ const entries = [];
           g: m.gender ?? null,
           ry: m.releaseYear ?? null,
           pop: Boolean(m.popular),
+          /** ブランドの格。おすすめ順の並びに使う（大きいほど先） */
+          tier: tierOf(brand.id),
           price: s ? s.lowestPrice : null,
           pn: s ? (s.lowestNew ?? null) : null,
           pu: s ? (s.lowestUsed ?? null) : null,

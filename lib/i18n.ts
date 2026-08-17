@@ -33,7 +33,7 @@ const dict: Dict = {
   f_condition: { ja: '新品・中古', en: 'Condition' },
   f_gender: { ja: 'サイズ区分', en: 'Gender' },
   sort_by: { ja: '並び替え', en: 'Sort by' },
-  sort_popular: { ja: '人気順', en: 'Most popular' },
+  sort_popular: { ja: 'おすすめ順', en: 'Recommended' },
   sort_price_asc: { ja: '価格が安い順', en: 'Price: low to high' },
   sort_price_desc: { ja: '価格が高い順', en: 'Price: high to low' },
   sort_newest: { ja: '新しいモデル順', en: 'Newest models' },
