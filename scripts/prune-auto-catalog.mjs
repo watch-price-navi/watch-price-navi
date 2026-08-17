@@ -17,14 +17,19 @@ import {
   isJunkName,
   isJunkOffer,
   isJunkRef,
+  isManagementRef,
   junkReason,
+  otherBrandComesFirst,
   stripColorPrefix,
+  stripRefPrefix,
 } from './lib/junk.mjs';
 
 const ROOT = process.cwd();
 
 /** ブランドIDから名前を引く。出品が本当にそのブランドのものか調べるのに使う */
 const brandInfo = {};
+/** 全ブランドの一覧。出品タイトルに他社名が先に出ていないか調べるのに使う */
+const allBrands = [];
 const APPLY = process.argv.includes('--apply');
 const autoDir = path.join(ROOT, 'data', 'brands-auto');
 
@@ -74,7 +79,9 @@ function allOffersAreJunk(brandId, modelId) {
     (o) =>
       isJunkOffer(o.title, o.price, floor) ||
       // ブランド名が別のカタカナ語の一部なだけの出品（ロンジン⊃ジン）
-      (b && !brandNameStandsAlone(brandId, o.title, b.name_ja, b.name_en)),
+      (b && !brandNameStandsAlone(brandId, o.title, b.name_ja, b.name_en)) ||
+      // 他ブランドの名前が自ブランドより先に出ている（出品タイトルは自分の商品を先に書く）
+      (b && otherBrandComesFirst(o.title, b, allBrands)),
   );
 }
 
@@ -83,8 +90,12 @@ if (!fs.existsSync(autoDir)) {
   process.exit(0);
 }
 
-/** キャリバー番号（CAL.2080 / CAL.K2001 / CAL.HUB4100 / CAL.L.633.1 など） */
-const CALIBER_RE = /^(?:CAL|CALIBER|CALIBRE|MOVEMENT|MVT)[.\-_/]/i;
+/**
+ * キャリバー番号（CAL.2080 / CAL.K2001 / CAL.HUB4100 / CAL.L.633.1 など）。
+ * 区切り記号の無い「CAL7740」「CAL1767」も弾く。25件がすり抜けていた。
+ * 「CALATRAVA」（パテックの本物）は数字が続かないので当たらない。
+ */
+const CALIBER_RE = /^(?:CAL|CALIBER|CALIBRE|MOVEMENT|MVT)(?:[.\-_/]|[0-9])/i;
 /** 貴金属の品位表記（750YG = 18金など） */
 const PURITY_RE = /^(?:750|585|375|900|950|925|999)(?:YG|PG|RG|WG|SV|PT|GP)?$/i;
 /** 付属品・革小物の語。モデル名の先頭に来る場合は本体ではない出品と判断する */
@@ -141,6 +152,7 @@ for (const f of fs.readdirSync(path.join(ROOT, 'data/brands')).filter((x) => x.e
     if (c.brand?.id && c.brand?.name_ja) brandNames.push([c.brand.id, c.brand.name_ja]);
     if (c.brand?.id) brandEnOf[c.brand.id] = c.brand.name_en ?? '';
     if (c.brand?.id) brandInfo[c.brand.id] = c.brand;
+    if (c.brand?.id) allBrands.push(c.brand);
   } catch {
     /* 読めないものは飛ばす */
   }
@@ -192,22 +204,24 @@ let renamed = 0;
 let mergedDup = 0;
 
 /**
- * 型番の頭に付いた色名を落として直す。
+ * 型番の頭に付いた余計なものを落として直す。
  *
- * 買取店の出品は「HAMILTON◆クォーツ腕時計/アナログ/WHT/SLV/H374510【服飾雑貨他】」の形で、
- * 型番の前に色を並べる。そのまま拾うと BLU/SLV/H374510 という存在しない型番のページができ、
- * 同じ時計が色ごとに別モデルとして並ぶ。
+ * 色名 …「HAMILTON◆クォーツ腕時計/アナログ/WHT/SLV/H374510【服飾雑貨他】」
+ *        買取店が型番の前に色を並べるため、同じ時計が色ごとに別モデルとして並ぶ。
+ * Ref. …「Ref.」は型番の目印であって型番の一部ではない。796件が該当した。
+ *        そのままだと REF.26393ST.OO というページになり、
+ *        26393ST.OO を探している人に見つけてもらえない。
  *
- * **消さずに直す。** 消すと、正しい型番の側が無い29件はその型番ごと失われる。
+ * **消さずに直す。** 消すと、正しい型番の側が無いものはその型番ごと失われる。
  * 正しい型番が既にあるものは重複なので、こちらを畳む。
  */
-function fixColorRefs(cat, brandId) {
+function fixRefs(cat, brandId) {
   const models = cat.models ?? [];
   let touched = false;
   const byId = new Map(models.map((m) => [m.id, m]));
   const out = [];
   for (const m of models) {
-    const fixed = stripColorPrefix(String(m.reference ?? ''));
+    const fixed = stripColorPrefix(stripRefPrefix(String(m.reference ?? '')));
     if (fixed === String(m.reference ?? '')) {
       out.push(m);
       continue;
@@ -254,7 +268,7 @@ for (const f of fs.readdirSync(autoDir).filter((f) => f.endsWith('.json'))) {
   totalBefore += before;
 
   // 型番の色名を直してから判定する。順番を逆にすると、直った型番が判定を通らない
-  const refsFixed = fixColorRefs(cat, cat.brandId ?? f.replace(/\.json$/, ''));
+  const refsFixed = fixRefs(cat, cat.brandId ?? f.replace(/\.json$/, ''));
 
   const kept = [];
   for (const m of cat.models ?? []) {
@@ -284,6 +298,7 @@ for (const f of fs.readdirSync(autoDir).filter((f) => f.endsWith('.json'))) {
     else if (HAS_UNIT_RE.test(ref)) why = '型番に寸法単位';
     else if (MOVEMENT_RE.test(ref)) why = 'ムーブメント品番';
     else if (isJunkRef(brandId, ref)) why = 'ベルト・部品の品番';
+    else if (isManagementRef(ref)) why = '中古店の管理番号';
     else if (ref.replace(/[^0-9]/g, '').length < 4) why = '数字が3桁以下';
     else if (ACCESSORY_HEAD_RE.test(name)) why = '付属品の出品';
     else if (isJunkName(both)) why = `時計ではない（${junkReason(both)}）`;

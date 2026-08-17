@@ -9,7 +9,16 @@
  *
  *   node scripts/test-junk.mjs
  */
-import { isJunkTitle, isJunkName, isJunkRef, isOtherBrand, stripColorPrefix } from './lib/junk.mjs';
+import {
+  isJunkTitle,
+  isJunkName,
+  isJunkRef,
+  isManagementRef,
+  isOtherBrand,
+  otherBrandComesFirst,
+  stripColorPrefix,
+  stripRefPrefix,
+} from './lib/junk.mjs';
 
 /** 消してはいけない本物。実際の出品タイトル（一部は要約） */
 const REAL = [
@@ -36,6 +45,8 @@ const REAL = [
   ['シチズンエル CITIZEN L レディース腕時計 替えベルトつき エコドライブ EW5593-64D', '同上。これで本物41件を消した'],
   ['シチズンアテッサ ACTライン 世界限定2200本 結晶チタニウム CC4076-65A', '結晶チタニウムは素材'],
   ['シチズン クロスシー レディース 腕時計 ソーラー電波 エコドライブ 太陽と月 ダイチ', '太陽は文字盤の意匠'],
+  ['ハミルトン カーキ フィールド エクスペディション 37mm 自動巻き H-10 NivachronR製ヒゲゼンマイ 10気圧防水', 'ヒゲゼンマイの材質は高級機の仕様'],
+  ['ハミルトン HAMILTON イントラマティック オート 40mm ブルー ニヴァクロン製ヒゲゼンマイ Nivachron', '同上 ¥169,400'],
   ['ブランパン バチスカーフ フィフティファゾムス 5000-1110-70B', 'バチスカーフにスカーフが含まれる'],
   ['ブルガリ セルペンティ トゥボガス 102098', 'セルペンティにペンが含まれる'],
 ];
@@ -46,6 +57,7 @@ const JUNK = [
   ['17mm ハミルトン純正 H24411732 カーフリザード型押しベルト ベンチュラ HAMILTON', '同上'],
   ['HAMILTON ハミルトン ビジネスバッグ ブリーフケース メンズ 平野鞄', '鞄が載っていた'],
   ['ベルジョン 【国内正規品】ロレックス対応オープナー BE5537', '工具'],
+  ['【送料無料】腕時計 オーデマピゲメインスプリング ＃audemars piguet cal 2124', 'ムーブメント部品が最安値に出ていた'],
   ['AUDEMARS PIGUET AP 42mm 26470 15710 15703に適用にVagenari ラバー ストラップ', '社外ベルト'],
   ['22mm メタル時計バンド ステンレススチール RAZOR ブレスレット for TUDOR ヘリテージ', '社外ブレス'],
   ['ランゲ ヒルシュ 18MM/19MM/20MM/21MM/', 'ベルト専業メーカー'],
@@ -160,9 +172,95 @@ for (const [inp, want] of COLOR_CASES) {
   console.log(`  ${got === want ? '✓' : '✗'} ${inp.padEnd(24)} → ${got}`);
 }
 
+
+/*
+ * 中古店の管理番号。店が扱う全ブランドに同じ体系で振られるので、
+ * 同じ形が多数のブランドに散らばる（ABC+5桁は25ブランド331件）。
+ * 人手カタログ968件では1件も一致しないことを確認済み。
+ */
+const MGMT = [
+  ['ABC28613', true],
+  ['JS1983', true],
+  ['BT3195', true],
+  ['HK11498', true],
+  // 先頭が0の数字だけの番号も同じ店の管理番号（ロレックス44・カルティエ40件）
+  ['0565620', true],
+  ['002587', true],
+  ['0011000', true],
+  ['126610LN', false],
+  ['H69529933', false],
+  ['T137907', false],
+  ['5711', false],
+  ['SBGW231', false],
+  ['6694', false],
+  ['1601', false],
+];
+console.log('\n── 中古店の管理番号 ──');
+for (const [r, want] of MGMT) {
+  const got = isManagementRef(r);
+  if (got !== want) ng++;
+  console.log(`  ${got === want ? '✓' : '✗'} ${r.padEnd(12)} ${got ? '管理番号' : '型番'}`);
+}
+
+/*
+ * 「Ref.」は型番の目印であって型番の一部ではない。796件が該当した。
+ * REF.26393ST.OO のままだと 26393ST.OO を探す人に見つけてもらえない。
+ */
+const REF_PREFIX = [
+  ['REF.5369', '5369'],
+  ['REF.26393ST.OO', '26393ST.OO'],
+  ['REF31804', '31804'],
+  ['REFERENCE', 'REFERENCE'],
+  ['126610LN', '126610LN'],
+];
+console.log('\n── Ref. の接頭辞 ──');
+for (const [inp, want] of REF_PREFIX) {
+  const got = stripRefPrefix(inp);
+  if (got !== want) ng++;
+  console.log(`  ${got === want ? '✓' : '✗'} ${inp.padEnd(18)} → ${got}`);
+}
+
+/*
+ * 出品タイトルは自分が売る商品の名前を先に書く。
+ * 後ろに出る他社名は文字盤の様式（ブレゲ数字）や愛称（ベビーパネライ）である。
+ * 逆に先に他社名が出るなら、それがその商品の正体。
+ */
+const BRANDS = [
+  { id: 'rolex', name_ja: 'ロレックス', name_en: 'Rolex' },
+  { id: 'seiko', name_ja: 'セイコー', name_en: 'Seiko' },
+  { id: 'grand-seiko', name_ja: 'グランドセイコー', name_en: 'Grand Seiko' },
+  { id: 'casio', name_ja: 'カシオ', name_en: 'Casio' },
+  { id: 'tissot', name_ja: 'ティソ', name_en: 'Tissot' },
+  { id: 'sinn', name_ja: 'ジン', name_en: 'Sinn' },
+  { id: 'rado', name_ja: 'ラドー', name_en: 'Rado' },
+  { id: 'cartier', name_ja: 'カルティエ', name_en: 'Cartier' },
+  { id: 'orient', name_ja: 'オリエント', name_en: 'Orient' },
+  { id: 'breguet', name_ja: 'ブレゲ', name_en: 'Breguet' },
+  { id: 'longines', name_ja: 'ロンジン', name_en: 'Longines' },
+];
+const FIRST_BRAND = [
+  ['rolex', '【送料無料】 セイコーSEIKO 腕時計 SUR829P1 QUARTZ クオーツ レディース ロレックス', 'seiko'],
+  ['rado', '【保証書付】カルティエ ラドーニャSM W640020H YG シルバー クオーツ レディース', 'cartier'],
+  ['casio', 'ティソ 公式 メンズ 腕時計 TISSOT ティー コンプリカシオン スケレッテ メカニカル', 'tissot'],
+  ['breguet', '【3年保証】 ロンジン マスターコレクション L2.755.4.78.3 ブレゲ数字 ギヨシェ', 'longines'],
+  // 消してはいけないもの
+  ['casio', 'G-SHOCK Gショック オリジン DW-5600BB-1後継機種 カシオ CASIO', null],
+  ['orient', '新品 正規品 SEIKO EPSON セイコーエプソン ORIENT STAR オリエントスター', null],
+  ['grand-seiko', 'セイコー グランドセイコー SBGW231 手巻き メンズ', null],
+  ['rolex', 'ロレックス サブマリーナ 126610LN 新品 未使用', null],
+];
+console.log('\n── 他ブランド名が先に出る出品 ──');
+for (const [bid, title, wantId] of FIRST_BRAND) {
+  const me = BRANDS.find((b) => b.id === bid);
+  const got = otherBrandComesFirst(title, me, BRANDS);
+  const gotId = got ? got.id : null;
+  if (gotId !== wantId) ng++;
+  console.log(`  ${gotId === wantId ? '✓' : '✗'} ${bid.padEnd(12)}${gotId ? `→ ${gotId}` : '自社のまま'}  ${title.slice(0, 38)}`);
+}
+
 console.log(
   ng === 0
-    ? `\n${REAL.length + JUNK.length + PARTS.length + OTHER_BRAND.length + REF_CASES.length + COLOR_CASES.length}件すべて期待どおり`
+    ? `\n${REAL.length + JUNK.length + PARTS.length + OTHER_BRAND.length + REF_CASES.length + COLOR_CASES.length + MGMT.length + REF_PREFIX.length + FIRST_BRAND.length}件すべて期待どおり`
     : `\n${ng}件が期待と違う。判定を直してから送ること`,
 );
 process.exit(ng ? 1 : 0);

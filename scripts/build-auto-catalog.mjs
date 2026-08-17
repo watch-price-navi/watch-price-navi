@@ -23,7 +23,15 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { readJson } from './lib/json.mjs';
 import { wrapYahoo } from './lib/affiliate.mjs';
-import { brandNameStandsAlone, isJunkOffer, isJunkRef, stripColorPrefix } from './lib/junk.mjs';
+import {
+  brandNameStandsAlone,
+  isJunkOffer,
+  isJunkRef,
+  isManagementRef,
+  otherBrandComesFirst,
+  stripColorPrefix,
+  stripRefPrefix,
+} from './lib/junk.mjs';
 
 const ROOT = process.cwd();
 
@@ -144,6 +152,8 @@ function extractRefs(title) {
     // 先頭の色名も落とす。買取店の管理番号は「WHT/SLV/H374510」の形で書かれる
     const s = stripColorPrefix(raw.toUpperCase().replace(/[.,\-/]+$/, ''));
     if (NOISE_EXACT.has(s) || NOISE_RE.test(s)) continue;
+    // 中古店の管理番号（ABC28613 など）。型番ではない
+    if (isManagementRef(s)) continue;
     if (CALIBER_RE.test(s) || PURITY_RE.test(s)) continue;
     if (SIZE_LIST_RE.test(s) || HAS_UNIT_RE.test(s) || MOVEMENT_RE.test(s)) continue;
     if (!/[0-9]/.test(s)) continue;
@@ -526,6 +536,8 @@ const MIN_PRICE_BY_BRAND = (() => {
 const priceFloor = (brandId) => MIN_PRICE_BY_BRAND.brands[brandId] ?? MIN_PRICE_BY_BRAND.def;
 
 const ALL_BRAND_NAMES = catalogs.map((c) => c.brand?.name_ja).filter(Boolean);
+/** 全ブランドの情報。出品タイトルに他社名が先に出ていないか調べるのに使う */
+const allBrandsForCheck = catalogs.map((c) => c.brand).filter(Boolean);
 
 /**
  * data/sweep-keywords/<brandId>.json があれば、その keywords を追加の検索語として使う。
@@ -632,6 +644,9 @@ for (const cat of catalogs) {
     // ブランド名がより長いカタカナ語の一部なだけなら、そのブランドの商品ではない。
     // 「ジン」の棚にロンジンの時計が958件（棚の7割）並んでいた
     if (!brandNameStandsAlone(brand.id, title, brand.name_ja, brand.name_en)) continue;
+    // 他ブランドの名前が先に出ていれば、それがこの商品の正体である
+    // 「セイコーSEIKO 腕時計 SUR829P1」がロレックスの棚に並んでいた
+    if (otherBrandComesFirst(title, brand, allBrandsForCheck)) continue;
 
     for (const ref of dedupeRefs(extractRefs(title), curatedByRef)) {
       const key = normRef(ref);

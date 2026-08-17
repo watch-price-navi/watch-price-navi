@@ -143,7 +143,19 @@ const PART_PHRASES = [
   'バックル単品', '尾錠単品', '美錠',
   'コマ詰め', 'コマ調整', '駒詰め', 'バネ棒', 'ばね棒', '弓カン', '遊環',
   'リューズ単品', 'ベゼル単品', '風防交換', 'パッキン交換', 'ガラス交換',
-  '部品単品', 'パーツ単品', '交換用パーツ'];
+  '部品単品', 'パーツ単品', '交換用パーツ',
+  /*
+   * ムーブメントの部品。時計本体ではない。
+   * 「オーデマピゲ メインスプリング ＃audemars piguet cal 2124」¥21,980 が
+   * オーデマピゲの最安値として先頭に出ていた。
+   *
+   * 「ゼンマイ」を入れてはいけない。本物の売り文句だった。
+   *   「ハミルトン カーキ フィールド エクスペディション … NivachronR製ヒゲゼンマイ」¥182,600
+   *   「ハミルトン イントラマティック オート … ニヴァクロン製ヒゲゼンマイ」      ¥169,400
+   * ヒゲゼンマイ（テンプの部品）の材質は、高級機が誇る仕様である。
+   */
+  'メインスプリング', 'ムーブメントパート', 'ムーブメント単体', '機械のみ',
+  'パーツ用', '部品用', 'ジャンク扱い'];
 
 /** 誤爆しやすい語を守る。ここに当たれば、弱い判定では弾かない */
 const ALLOW = [
@@ -164,6 +176,18 @@ const ALLOW_RE = build(ALLOW);
  * 「カーキフィールドオート40mm専用ステンレスベルト」「ジャズマスター専用メタルバンド」
  */
 const DEDICATED_PART_RE = /専用[^\s　]{0,8}(?:ベルト|バンド|ブレスレット)/;
+
+/**
+ * 英語で「◯◯用の部品」と書く出品。海外の部品商が機械翻訳で出している。
+ *   「lower bridge for …」「watch hand for tudor」「plexi glass for case reference」
+ *   「ベゼル挿入for Omega Seamaster」「STONEWALL for PANERAI キャンバス ストラップ」
+ * これらがチューダー・ブライトリング・パネライの最安値として先頭に出ていた。
+ *
+ * 「NOS」（new old stock）は入れてはいけない。
+ * 「mens rare & vintage longines」¥61,980 のような本物のヴィンテージにも付く。
+ */
+const ENGLISH_PART_RE =
+  /\b(?:hands?|screws?|clamps?|crystal|glass|gasket|stem|crown|wheel|bridge|plate|parts?|dial|bezel|case)\s+for\b|\bfor\s+(?:tudor|rolex|omega|breitling|panerai|zenith|longines|seiko|cartier|iwc|hamilton|tissot|rado|oris)\b/i;
 
 /**
  * 型番を「／」で3つ以上並べる出品は、対応機種を列挙した部品である。
@@ -198,6 +222,7 @@ export function isJunkTitle(title) {
    */
   if (STRONG_RE.test(t) || PART_RE.test(t)) return true;
   if (DEDICATED_PART_RE.test(t)) return true;
+  if (ENGLISH_PART_RE.test(t)) return true;
   return SLASH_REF_LIST_RE.test(t) && PART_WORD_RE.test(t);
 }
 
@@ -361,6 +386,58 @@ export function brandNameStandsAlone(brandId, title, nameJa, nameEn = '') {
   return false;
 }
 
+/**
+ * 資本や系列でつながっていて、名前が並んでも不自然でない組み合わせ。
+ * セイコーエプソンはオリエントの親会社なので
+ * 「SEIKO EPSON セイコーエプソン ORIENT STAR オリエントスター」は本物である。
+ */
+const SAME_FAMILY = [
+  ['grand-seiko', 'seiko'],
+  ['orient', 'seiko'],
+];
+const isSameFamily = (a, b) => a === b || SAME_FAMILY.some((p) => p.includes(a) && p.includes(b));
+
+/**
+ * 出品タイトルの中で、他ブランドの名前が自ブランドより先に出ていないか。
+ *
+ * 出品は自分が売る商品の名前を先に書く。後ろに出る他社名は、
+ * 文字盤の様式（ブレゲ数字）、愛称（ベビーパネライ）、店の扱い品目の羅列である。
+ * 逆に**先に**他社名が出るなら、それがその商品の正体である。
+ *
+ *   「セイコーSEIKO 腕時計 SUR829P1」          ← ロレックスの棚にあった
+ *   「カルティエ ラドーニャSM W640020H」        ← ラドーの棚（ラドーニャ ⊃ ラドー）
+ *   「TISSOT ティー コンプリカシオン スケレッテ」 ← カシオの棚（コンプリカシオン ⊃ カシオ）
+ *   「ロンジン マスターコレクション ブレゲ数字」    ← ブレゲの棚
+ *
+ * ブランド名の一致には brandNameStandsAlone を通す。通さないと
+ * 「オリジン」の中の「ジン」を拾い、本物のG-SHOCKをカシオの棚から消す。
+ *
+ * @param {string} title 出品タイトル
+ * @param {{id:string,name_ja:string,name_en:string}} me その棚のブランド
+ * @param {Array} others 他の全ブランド
+ * @returns {object|null} 先に出ていた他ブランド。無ければ null
+ */
+export function otherBrandComesFirst(title, me, others) {
+  const t = String(title ?? '');
+  const pos = (b) => {
+    if (!brandNameStandsAlone(b.id, t, b.name_ja, b.name_en)) return -1;
+    const ja = b.name_ja ? t.indexOf(b.name_ja) : -1;
+    const en = b.name_en ? t.toUpperCase().indexOf(String(b.name_en).toUpperCase()) : -1;
+    if (ja < 0) return en;
+    if (en < 0) return ja;
+    return Math.min(ja, en);
+  };
+  const mine = pos(me);
+  if (mine < 0) return null;
+  let best = null;
+  for (const b of others) {
+    if (isSameFamily(b.id, me.id)) continue;
+    const p = pos(b);
+    if (p >= 0 && p < mine && (!best || p < best.p)) best = { brand: b, p };
+  }
+  return best ? best.brand : null;
+}
+
 /** その出品が他社ブランドの商品なら true */
 export function isOtherBrand(title) {
   const t = String(title ?? '');
@@ -399,6 +476,54 @@ export function isJunkRef(brandId, reference) {
   const n = String(reference ?? '').toUpperCase().replace(/[^A-Z0-9]/g, '');
   if (!n) return false;
   return rules.some((re) => re.test(n));
+}
+
+/**
+ * 中古店の管理番号。型番ではない。
+ *
+ * 店は自分が扱う全ブランドに同じ体系の番号を振るので、
+ * **同じ形の番号が多数のブランドに散らばる**。本物の型番は1ブランドにしか出ない。
+ * これを手掛かりに、実データで散らばりを数えて洗い出した（2026-08-17）。
+ *
+ *   ABC+5桁 … 25ブランド 331件   HK+5桁 … 19ブランド    DH+5桁 … 19ブランド
+ *   JS+4桁  … 19ブランド          BT+4桁 … 15ブランド    JP+5桁 … 12ブランド
+ *
+ * 出品の787件が該当し、うち700件は同じ出品タイトルに本物の型番も載っていた
+ * （＝そのモデルのページは別に存在するので、消しても時計が消えるわけではない）。
+ *
+ * 人手カタログ968件では1件も一致しないことを確認済み。
+ * 増やすときは必ず data/brands/ で誤爆しないことを確かめること。
+ */
+const MGMT_REF_RE = /^(?:ABC|HK|DH|JS|BT|JP|YI|MW|AC|OW|FT|WA)[0-9]{4,6}$/;
+/**
+ * 先頭が0の数字だけの番号も、同じ中古店の管理番号である。
+ * 「デッドストック級 稼働 ロレックス オイスターデイト 6694 1017326 手巻 … 0565620」
+ * のように、本物の型番（6694）と並べて末尾に振られる。237件が該当し、
+ * ロレックス44・カルティエ40・オメガ30と全ブランドに散っていた。
+ * 人手カタログ968件では1件も一致しない。
+ */
+const ZERO_LEAD_RE = /^0[0-9]{5,7}$/;
+
+/** その型番が中古店の管理番号なら true */
+export function isManagementRef(reference) {
+  const n = String(reference ?? '').toUpperCase().replace(/[^A-Z0-9]/g, '');
+  return MGMT_REF_RE.test(n) || ZERO_LEAD_RE.test(n);
+}
+
+/**
+ * 型番の頭に付いた「Ref.」を落とす。
+ *
+ * 「Ref.」は "reference"（型番）を意味する目印であって、型番の一部ではない。
+ * そのまま拾うと REF.26393ST.OO というモデルができ、
+ * 26393ST.OO を探している人に見つけてもらえない。796件が該当した。
+ */
+export function stripRefPrefix(ref) {
+  const s = String(ref ?? '');
+  const m = s.match(/^(?:REF|Ref|ref)[.\-_\s]*(.+)$/);
+  if (!m) return s;
+  const rest = m[1];
+  // 落とした結果に数字が残らないなら、型番として意味を成さないので触らない
+  return /[0-9]/.test(rest) ? rest : s;
 }
 
 /**

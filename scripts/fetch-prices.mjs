@@ -23,7 +23,7 @@ import path from 'node:path';
 import { loadCatalogs } from './lib/catalog.mjs';
 import { readJson } from './lib/json.mjs';
 import { wrapYahoo } from './lib/affiliate.mjs';
-import { brandNameStandsAlone, isJunkOffer } from './lib/junk.mjs';
+import { brandNameStandsAlone, isJunkOffer, otherBrandComesFirst } from './lib/junk.mjs';
 
 const ROOT = process.cwd();
 
@@ -91,6 +91,10 @@ function looksLikeGenuine(title, brand, price = 0, floor = 0) {
   // ここに独自の一覧を作らないこと。以前は3つのスクリプトが別々の一覧を持ち、
   // 指摘のたびに片方だけ直したため、常にどこかに穴が残っていた。
   if (isJunkOffer(title, price, floor)) return false;
+  // ブランド名が別のカタカナ語の一部として一致していないか（ロンジン⊃ジン）
+  if (!brandNameStandsAlone(brand.id, title, brand.name_ja, brand.name_en)) return false;
+  // 他ブランドの名前が先に出ていれば、それがこの商品の正体である
+  if (allBrandsForCheck.length && otherBrandComesFirst(title, brand, allBrandsForCheck)) return false;
   const t = title.toLowerCase();
   return t.includes(brand.name_en.toLowerCase()) || title.includes(brand.name_ja);
 }
@@ -210,6 +214,11 @@ if (fs.existsSync(summaryFile)) {
 }
 
 const catalogs = loadCatalogs(ROOT);
+/**
+ * 全ブランドの情報。出品タイトルに他社名が先に出ていないか調べるのに使う。
+ * looksLikeGenuine より後に定義されるが、呼ばれるのは走査開始後なので問題ない。
+ */
+const allBrandsForCheck = catalogs.map((c) => c.brand).filter(Boolean);
 
 let processed = 0;
 let withOffers = 0;
