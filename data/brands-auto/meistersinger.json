@@ -1,6 +1,6 @@
 {
   "brandId": "meistersinger",
-  "generatedAt": "2026-08-17T05:39:12.730Z",
+  "generatedAt": "2026-08-17T12:19:43.126Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -25,10 +25,10 @@
         "limited-edition"
       ],
       "popular": false,
-      "summary_ja": "マイスタージンガーの型番10000。市場で63件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "マイスタージンガーの型番10000。市場で62件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "MeisterSinger reference 10000, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 63,
+      "listingCount": 62,
       "lastSeen": "2026-08-17"
     },
     {
@@ -172,34 +172,6 @@
       "lastSeen": "2026-08-17"
     },
     {
-      "id": "ref-pr365911g",
-      "name_en": "PR365911G",
-      "name_ja": "プリマティック サンバースト PR365911G",
-      "reference": "PR365911G",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": 41.5,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 408595,
-      "searchKeywordJa": "マイスタージンガー PR365911G",
-      "searchKeywordEn": "MeisterSinger PR365911G",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "limited-edition"
-      ],
-      "popular": false,
-      "summary_ja": "マイスタージンガーの型番PR365911G。市場で10件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "MeisterSinger reference PR365911G, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 10,
-      "lastSeen": "2026-08-17"
-    },
-    {
       "id": "ref-edksgdas2025",
       "name_en": "ED-KSGD-AS2025",
       "name_ja": "アラン シルベスタイン ED-KSGD-AS2025",
@@ -279,6 +251,34 @@
       "popular": false,
       "summary_ja": "マイスタージンガーの型番S-BM9902B。市場で8件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "MeisterSinger reference S-BM9902B, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 8,
+      "lastSeen": "2026-08-17"
+    },
+    {
+      "id": "ref-pr365911g",
+      "name_en": "PR365911G",
+      "name_ja": "プリマティック サンバースト PR365911G",
+      "reference": "PR365911G",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": 41.5,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 408595,
+      "searchKeywordJa": "マイスタージンガー PR365911G",
+      "searchKeywordEn": "MeisterSinger PR365911G",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "マイスタージンガーの型番PR365911G。市場で8件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "MeisterSinger reference PR365911G, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 8,
       "lastSeen": "2026-08-17"
@@ -396,10 +396,10 @@
       "lastSeen": "2026-08-17"
     },
     {
-      "id": "ref-edksodas2025",
-      "name_en": "ED-KSOD-AS2025",
-      "name_ja": "ED-KSOD-AS2025",
-      "reference": "ED-KSOD-AS2025",
+      "id": "ref-refedksodas2025",
+      "name_en": "REF.ED-KSOD-AS2025",
+      "name_ja": "REF.ED-KSOD-AS2025",
+      "reference": "REF.ED-KSOD-AS2025",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
@@ -477,6 +477,34 @@
       "summary_en": "MeisterSinger reference S-AM1018, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
+      "lastSeen": "2026-08-17"
+    },
+    {
+      "id": "ref-edksodas2025",
+      "name_en": "ED-KSOD-AS2025",
+      "name_ja": "ED-KSOD-AS2025",
+      "reference": "ED-KSOD-AS2025",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 710600,
+      "searchKeywordJa": "マイスタージンガー REF.ED-KSOD-AS2025",
+      "searchKeywordEn": "MeisterSinger REF.ED-KSOD-AS2025",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "マイスタージンガーの型番REF.ED-KSOD-AS2025。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "MeisterSinger reference REF.ED-KSOD-AS2025, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 0,
       "lastSeen": "2026-08-17"
     }
   ]

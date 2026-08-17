@@ -1,6 +1,6 @@
 {
   "brandId": "perrelet",
-  "generatedAt": "2026-08-17T06:06:46.421Z",
+  "generatedAt": "2026-08-17T12:45:42.522Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -109,10 +109,10 @@
         "sport"
       ],
       "popular": false,
-      "summary_ja": "ペルレの型番VCARN32400。市場で4件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "ペルレの型番VCARN32400。市場で5件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Perrelet reference VCARN32400, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 4,
+      "listingCount": 5,
       "lastSeen": "2026-08-17"
     },
     {
@@ -1007,6 +1007,34 @@
       "popular": false,
       "summary_ja": "ペルレの型番VCARP4E356。市場で1件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Perrelet reference VCARP4E356, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-08-17"
+    },
+    {
+      "id": "ref-vcarp3k800",
+      "name_en": "VCARP3K800",
+      "name_ja": "VCARP3K800",
+      "reference": "VCARP3K800",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 798745,
+      "searchKeywordJa": "ペルレ VCARP3K800",
+      "searchKeywordEn": "Perrelet VCARP3K800",
+      "caseMaterial": "white-gold",
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ペルレの型番VCARP3K800。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Perrelet reference VCARP3K800, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
       "lastSeen": "2026-08-17"
