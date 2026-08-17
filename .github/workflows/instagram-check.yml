@@ -19,6 +19,11 @@ on:
         type: boolean
         required: false
         default: false
+      research:
+        description: '投稿せず、いま何が話題かを調べる（読み取りのみ）'
+        type: boolean
+        required: false
+        default: false
 
 # 本番の公開(pages)とは別枠にする。走っている収集を待たされないため。
 concurrency:
@@ -137,8 +142,9 @@ jobs:
           rm -f "$f"
           echo "IG_ACCESS_TOKEN を更新しました。"
 
+      # 調査だけをしたいときに、投稿の確認まで走らせない
       - name: Dry run
-        if: ${{ !inputs.publish }}
+        if: ${{ !inputs.publish && !inputs.research }}
         env:
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
@@ -149,3 +155,25 @@ jobs:
           else
             node scripts/post-to-instagram.mjs --dry-run
           fi
+
+      # いま何が話題かを調べる。投稿はしない。
+      # 個人の富裕層アカウントはAPIの対象外なので追えない。
+      # 追えるのは時計メディア・販売店のビジネスアカウントと、ハッシュタグの人気投稿。
+      #
+      # ハッシュタグ検索は「7日間に30個のユニークな語まで」という上限がある。
+      # 使い切ると7日間まったく引けなくなるので、調べる語は
+      # scripts/research-instagram.mjs に8個で固定してある。増やさないこと。
+      - name: Research
+        if: ${{ inputs.research }}
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+        run: node scripts/research-instagram.mjs
+
+      - name: Upload research
+        if: ${{ inputs.research }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: instagram-research
+          path: data/instagram-research.json
+          retention-days: 30
