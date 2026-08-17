@@ -403,6 +403,8 @@ async function sweepRakuten(brand, out, keyword = brand.name_ja, bands = RAKUTEN
       }
       const items = data.Items ?? [];
       for (const { Item } of items) {
+        // 在庫切れは載せない。リンク先が「売り切れ」だと価格比較として成立しない
+        if (Number(Item.availability) === 0) continue;
         const title = Item.itemName ?? '';
         // 楽天は1商品につき最大3枚返す。1枚目だけ使うと写真が3分の1になる。
         // 店によっては裏蓋や留め金を撮っており、角度違いとして使える。
@@ -452,6 +454,8 @@ async function sweepYahoo(brand, out, keyword = brand.name_ja, bands = YAHOO_BAN
       }
       const hits = data.hits ?? [];
       for (const h of hits) {
+        // 在庫切れは載せない
+        if (h.inStock === false) continue;
         const title = h.name ?? '';
         out.push({
           source: 'yahoo',

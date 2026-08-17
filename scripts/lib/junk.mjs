@@ -69,6 +69,12 @@ const STRONG = [
   'ソーラーパネル', '太陽光発電', '架台',
   '蛇口', '水栓', 'シャワーヘッド',
   'カーテン', '仮眠', 'ラグマット',
+  // IWCの棚にアイリスオーヤマのワインセラー（品番 IWC-C321A-B）と
+  // レノボのノートパソコン（16IWC11）が並んでいた。
+  // カシオの棚には同社の電子ピアノが15件あった。時計の比較サイトなので載せない。
+  'ワインセラー', 'ノートパソコン', 'ノートPC', 'デスクトップパソコン',
+  '冷蔵庫', '冷凍庫', '食洗機', '電気ケトル', '掃除機', '空気清浄', '扇風機',
+  '電子ピアノ', '電子キーボード', 'アイリスオーヤマ', 'Lenovo', 'IdeaPad', 'ThinkPad',
   'ルース', '鑑別書', 'ペンダントヘッド', '宝石研究所',
 
   // 時計だが腕時計ではない
@@ -354,11 +360,22 @@ const KANA_RE = /[ァ-ヶーｦ-ﾟ]/;
  * ブランド名が独立して現れる箇所が1つでもあれば true。
  */
 export function brandNameStandsAlone(brandId, title, nameJa, nameEn = '') {
+  const t = String(title ?? '');
+  const n = String(nameJa ?? '');
+  /*
+   * 英字だけの短いブランド名は、他社の品番の一部として一致する。
+   * これは data/brand-match.json の対象かどうかに関係なく起きるので、先に見る。
+   *   「アイリスオーヤマ ワインセラー 32本 IWC-C321A-B」   ← IWCの棚に入っていた
+   *   「Lenovo IdeaPad Slim 3i Gen 11 83RS0014JP 16IWC11」← 同上（ノートパソコン）
+   * 前後が英数字、または直後がハイフン＋英数字なら品番の一部とみなす。
+   * IWCの出品1,370件のうち、この規則で落ちるのは上の9件だけだった。
+   */
+  if (/^[A-Za-z0-9]{2,4}$/.test(n)) {
+    return new RegExp(`(?:^|[^A-Za-z0-9])${esc(n)}(?![A-Za-z0-9]|-[A-Za-z0-9])`, 'i').test(t);
+  }
   const rule = loadMatchRules()[String(brandId ?? '')];
   if (!rule) return true; // 対象外のブランドは従来どおり
   const allow = rule.allowBefore;
-  const t = String(title ?? '');
-  const n = String(nameJa ?? '');
   /*
    * 英語名で書かれていれば、その時点でそのブランドの商品である。
    * 「ZENITH El Primero 36000 VpH」には「ゼニス」が無いので、

@@ -15,6 +15,7 @@ import {
   isJunkRef,
   isManagementRef,
   isOtherBrand,
+  brandNameStandsAlone,
   otherBrandComesFirst,
   stripColorPrefix,
   stripRefPrefix,
@@ -66,6 +67,8 @@ const JUNK = [
   ['ブルガリ ディーヴァ ドリーム ネックレス 357325 新品 ジュエリー', '同上'],
   ['ロレックス用 コレクションケース 木製 収納ケース', '保管用品'],
   ['オメガ オーバーホール 修理 受付 見積無料', '役務'],
+  ['518994 ワインセラー 32本 ブラック アイリスオーヤマ IWC-C321A-B (54-0542-30)', '品番がIWCで始まる家電'],
+  ['CASIO カシオ 電子ピアノ セルヴィアーノ 88鍵盤 GP-1000 ブラックポリッシュ仕上げ', '同社の楽器'],
 ];
 
 let ng = 0;
@@ -249,6 +252,23 @@ const FIRST_BRAND = [
   ['grand-seiko', 'セイコー グランドセイコー SBGW231 手巻き メンズ', null],
   ['rolex', 'ロレックス サブマリーナ 126610LN 新品 未使用', null],
 ];
+/*
+ * 英字だけの短いブランド名は、他社の品番の一部として一致する。
+ * IWCの棚にワインセラー（IWC-C321A-B）とノートパソコン（16IWC11）が入っていた。
+ */
+const ACRONYM = [
+  ['iwc', 'IWC シャフハウゼン 4113 手巻き ヴィンテージ 腕時計', 'IWC', true],
+  ['iwc', 'IWC ポルトギーゼ クロノグラフ IW371604 自動巻き', 'IWC', true],
+  ['iwc', '518994 ワインセラー 32本 ブラック アイリスオーヤマ IWC-C321A-B', 'IWC', false],
+  ['iwc', 'Lenovo IdeaPad Slim 3i Gen 11 83RS0014JP 16IWC11', 'IWC', false],
+];
+console.log('\n── 英字の略称が品番に埋まる ──');
+for (const [bid, title, ja, want] of ACRONYM) {
+  const got = brandNameStandsAlone(bid, title, ja, 'IWC Schaffhausen');
+  if (got !== want) ng++;
+  console.log(`  ${got === want ? '✓' : '✗'} ${(got ? '本物' : '品番の一部').padEnd(5)} ${title.slice(0, 46)}`);
+}
+
 console.log('\n── 他ブランド名が先に出る出品 ──');
 for (const [bid, title, wantId] of FIRST_BRAND) {
   const me = BRANDS.find((b) => b.id === bid);
@@ -260,7 +280,7 @@ for (const [bid, title, wantId] of FIRST_BRAND) {
 
 console.log(
   ng === 0
-    ? `\n${REAL.length + JUNK.length + PARTS.length + OTHER_BRAND.length + REF_CASES.length + COLOR_CASES.length + MGMT.length + REF_PREFIX.length + FIRST_BRAND.length}件すべて期待どおり`
+    ? `\n${REAL.length + JUNK.length + PARTS.length + OTHER_BRAND.length + REF_CASES.length + COLOR_CASES.length + MGMT.length + REF_PREFIX.length + FIRST_BRAND.length + ACRONYM.length}件すべて期待どおり`
     : `\n${ng}件が期待と違う。判定を直してから送ること`,
 );
 process.exit(ng ? 1 : 0);

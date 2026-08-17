@@ -141,7 +141,8 @@ async function fetchRakuten(model, brand) {
   }
   const url = `${endpoint}?${params}`;
   const data = await fetchJson(url, 0, headers);
-  return (data.Items ?? []).map(({ Item: it }) => {
+  // 在庫切れは載せない。リンク先が「売り切れ」だと価格比較として成立しない
+  return (data.Items ?? []).filter(({ Item: it }) => Number(it.availability) !== 0).map(({ Item: it }) => {
     // 楽天は1商品につき最大3枚返す。長らく1枚目しか使っていなかったが、
     // 実測で5件14枚（1枚目だけなら5枚）と、2.8倍の写真が捨てられていた。
     // 店によっては裏蓋や留め金を撮っており、角度違いとして使える。
@@ -178,7 +179,8 @@ async function fetchYahoo(model, brand) {
   // バリューコマースには未加入で、もしもの方が料率も高い。
   const url = `https://shopping.yahooapis.jp/ShoppingWebService/V3/itemSearch?${params}`;
   const data = await fetchJson(url);
-  return (data.hits ?? []).map((h) => ({
+  // 在庫切れは載せない
+  return (data.hits ?? []).filter((h) => h.inStock !== false).map((h) => ({
     source: 'yahoo',
     title: h.name ?? '',
     price: Number(h.price) || 0,
