@@ -1,44 +1,52 @@
 /* ============================================================================
-   時計価格ナビ — 方向B「サロン」
-   銀座・日本橋の正規店の応接室を画面に翻訳する。
-   ・部屋は暗いが、時計が置かれた盆（カード）は明るい。光は面ではなく物に当たる。
-   ・素材は「胡桃材・和紙・フェルト・古びた真鍮」。黒と金ではない。
-   ・情報は詰めない。行間と余白で「急かされない」感覚をつくる。
-   ・角は丸めない（3〜4px）。丸いピルはアプリの記号、四角は印刷物と什器の記号。
+   時計価格ナビ — 案A「ナイト・ラウンジ」（2026-08-17 全面改装）
+   閉店後の正規店。灯りを落とした部屋に、時計だけが照らされている。
+   ・地は限りなく黒に近い。ただし純黒ではなく、わずかに青みを含んだ石の色。
+   ・カードは地よりほんの少しだけ明るい。境目は面ではなく1pxの罫で示す。
+   ・金は「塗り」に使わない。罫・小さな見出し・最安値だけに許す。
+   ・角は丸めない（3〜4px）。丸いピルはアプリの記号、四角は什器の記号。
+   ・写真は暗い地の上で最もよく映える。商品写真に手を加えず、周りを暗くする。
    既存クラス名は一切変更していない。中身だけを入れ替える。
+
+   ── なぜ暗くしたか ──────────────────────────────
+   扱う中心が100万円以上の高級時計になり、Instagram も同じ世界観で運用する。
+   明るい地は「量販店の価格表」に、暗い地は「閉じた部屋」に見える。
+   ただし価格表だけは読みやすさが命なので、数字は白に近い色で最も明るく置く。
    ========================================================================== */
 
 :root {
-  /* --- 面（Surfaces）: 和紙・象牙・胡桃材 ------------------------------- */
-  --paper: #f2eee7;        /* ページ地 = 和紙。白ではなく、少しだけ沈んだ暖色 */
-  --surface: #fffdf9;      /* カード = 象牙。地より明るいので「照らされた物」に見える */
-  --surface-2: #f8f4ec;    /* 一段沈んだ面（表ヘッダ・写真の下地） */
-  --walnut: #241d17;       /* 胡桃材。黒ではない暖かい焦茶。ヘッダ/フッタ/ヒーロー */
-  --walnut-2: #33291f;     /* 胡桃材の明るい面（グラデーションの受け） */
+  /* --- 面（Surfaces）: 夜の石・照らされた盆 ----------------------------- */
+  --paper: #0d0f11;        /* ページ地。純黒(#000)にしない。黒は安く見える */
+  --surface: #14181b;      /* カード。地よりわずかに明るく、置かれた物に見せる */
+  --surface-2: #1a1f23;    /* 一段持ち上げた面（表ヘッダ・写真の下地） */
+  --walnut: #0a0c0e;       /* ヘッダ/フッタ/ヒーロー。地よりさらに沈める */
+  --walnut-2: #12161a;     /* その明るい面（グラデーションの受け） */
 
   /* --- 文字 ------------------------------------------------------------- */
-  --ink: #1c1815;
-  --ink-soft: #4b443b;     /* 本文の副次テキスト。和紙上で 9.5:1 */
-  /* 出典表記・広告表示・注記にも使う色。白地 6.8:1 / 和紙地 6.0:1 で AA を満たす */
-  --ink-faint: #5f5a51;
+  --ink: #eceae5;          /* 純白にしない。暗い地の上で純白はぎらつく */
+  --ink-soft: #9aa0a4;     /* 本文の副次テキスト。地の上で 7.4:1 */
+  /* 出典表記・広告表示・注記にも使う色。地の上 5.1:1 で AA を満たす */
+  --ink-faint: #7f868a;
 
   /* --- 罫（Hairlines）: 什器の合わせ目 ----------------------------------- */
-  --line: #e1d9c9;
-  --line-soft: #ede7da;
+  --line: #262c31;
+  --line-soft: #1d2226;
 
   /* --- 真鍮（金具の色。塗りではなく金具の面積でしか使わない）-------------- */
-  --brass: #8e6b33;        /* 罫・アイコン・大きめの文字（白地 4.9:1） */
-  --brass-ink: #7a5a2b;    /* 小さい文字用に濃くした真鍮（白地 6.3:1 / 和紙 5.6:1） */
-  --brass-lit: #c9a46a;    /* 胡桃材の上で光る真鍮（walnut 上 7.2:1） */
-  --brass-soft: #f3ead9;   /* 真鍮の淡い面 */
+  --brass: #c2a26a;        /* 罫・アイコン・見出し（地の上 8.6:1） */
+  --brass-ink: #d3b784;    /* 小さい文字用に明るくした真鍮（地の上 10.4:1） */
+  --brass-lit: #c9a46a;    /* 沈んだ面の上で光る真鍮 */
+  --brass-soft: #1f1c15;   /* 真鍮の淡い面（暗い地では「金の影」になる） */
 
-  /* --- 臙脂（えんじ）: 価格と購入だけに許した唯一の強い色 ----------------- */
-  --signal: #9b2c34;       /* 白地 7.5:1。白抜き文字も置ける */
-  --signal-dark: #7f2029;
-  --signal-soft: #f7ecec;
+  /* --- 価格と購入だけに許した強い色 --------------------------------------
+     臙脂は暗い地の上では沈んで読めない。金を最安値の色に、
+     購入ボタンは金地に黒文字（暗い部屋で最も目に入る組み合わせ）にする。 */
+  --signal: #c2a26a;
+  --signal-dark: #a98a55;
+  --signal-soft: #1f1c15;
 
-  --new: #2c6b4f;
-  --used: #4e5c6b;
+  --new: #6fb894;
+  --used: #8fa3b8;
 
   /* --- 互換エイリアス（旧トークン名を参照している箇所を壊さない）---------- */
   --bg: var(--paper);
@@ -46,18 +54,20 @@
   --accent-dark: var(--brass-ink);
   --accent-soft: var(--brass-soft);
   --header-bg: var(--walnut);
-  --header-ink: #f5efe4;
+  --header-ink: #eceae5;
   --deal: var(--signal);
 
   /* --- 形 ---------------------------------------------------------------- */
   --radius: 4px;
   --radius-sm: 2px;
 
-  /* --- 影: 光源はひとつ、上から。青みのない暖かい影 ---------------------- */
-  --shadow-sm: 0 1px 2px rgba(62, 46, 30, 0.07);
-  --shadow-md: 0 1px 2px rgba(62, 46, 30, 0.05), 0 10px 24px -10px rgba(62, 46, 30, 0.18);
-  --shadow-lg: 0 2px 6px rgba(62, 46, 30, 0.06), 0 28px 64px -20px rgba(62, 46, 30, 0.32);
-  --shadow-lift: 0 2px 4px rgba(62, 46, 30, 0.06), 0 18px 40px -14px rgba(62, 46, 30, 0.26);
+  /* --- 影 ----------------------------------------------------------------
+     暗い地の上では「影」で持ち上げても見えない。黒を落とすかわりに、
+     上端に1pxの明るい線を入れて面の縁を立てる（暗い部屋の什器の見え方）。 */
+  --shadow-sm: inset 0 1px 0 rgba(255, 250, 240, 0.04);
+  --shadow-md: inset 0 1px 0 rgba(255, 250, 240, 0.05), 0 12px 28px -14px rgba(0, 0, 0, 0.7);
+  --shadow-lg: inset 0 1px 0 rgba(255, 250, 240, 0.06), 0 30px 66px -22px rgba(0, 0, 0, 0.85);
+  --shadow-lift: inset 0 1px 0 rgba(255, 250, 240, 0.07), 0 20px 44px -16px rgba(0, 0, 0, 0.8);
 
   /* --- 書体 --------------------------------------------------------------
      Webフォントは使えない。OS標準だけで「和紙に活版」の質感を出す。
@@ -109,7 +119,7 @@ a { color: inherit; text-decoration: none; }
 img { max-width: 100%; height: auto; display: block; }
 button { font-family: inherit; cursor: pointer; }
 
-::selection { background: rgba(142, 107, 51, 0.18); color: var(--ink); }
+::selection { background: rgba(194, 162, 106, 0.28); color: var(--ink); }
 
 /* キーボード操作の可視化（マウス操作では出さない） */
 :focus-visible {
@@ -138,8 +148,8 @@ table.price-table td, table.model-table td, .post-date, .breadcrumb {
 
 /* ============ PR bar (景表法・ステマ規制／全ページ最上部に常時表示) ============ */
 .pr-bar {
-  background: #e8e1d2;
-  color: #57503f;          /* 5.9:1。法定の表示なので薄くしない */
+  background: #1a1f23;
+  color: #b0b6ba;          /* 5.9:1。法定の表示なので薄くしない */
   font-size: 11.5px;
   line-height: 1.6;
   text-align: center;
@@ -177,7 +187,7 @@ table.price-table td, table.model-table td, .post-date, .breadcrumb {
   position: relative; padding: 6px 0; white-space: nowrap;
   /* 字を詰めて並べると安っぽく見える。什器の間隔と同じで、少し空けるほど品が出る */
   letter-spacing: 0.04em;
-  color: #e4dccd; transition: color var(--dur) var(--ease);
+  color: #d8d5cd; transition: color var(--dur) var(--ease);
 }
 /* 項目名は画面幅で長短を切り替える。既定は長いほう */
 .nav-short { display: none; }
@@ -226,7 +236,7 @@ table.price-table td, table.model-table td, .post-date, .breadcrumb {
 .searchbox-hint {
   margin: 12px 0 0; font-size: 12px; letter-spacing: 0.04em;
   /* 幕を薄くした結果、この行が灯りの入ったケースの上に来ると沈む。少し明るく置く */
-  color: #c6bdad; font-family: var(--num);
+  color: #a6adb2; font-family: var(--num);
 }
 .search-results {
   position: absolute; top: calc(100% + 10px); left: 0; right: 0; z-index: 60;
@@ -267,7 +277,7 @@ table.price-table td, table.model-table td, .post-date, .breadcrumb {
 /* ============ Hero ============ */
 /* 応接室そのもの。胡桃材の壁に、天井から一灯だけ落ちている */
 .hero {
-  background: linear-gradient(168deg, var(--walnut) 0%, var(--walnut-2) 52%, #1e1812 100%);
+  background: linear-gradient(168deg, #0a0c0e 0%, #12161a 55%, #0d0f11 100%);
   color: var(--header-ink);
   padding: 92px 0 100px;
   text-align: center;
@@ -331,10 +341,10 @@ table.price-table td, table.model-table td, .post-date, .breadcrumb {
 .hero h1 {
   font-family: var(--serif); font-size: clamp(34px, 6.4vw, 82px); font-weight: 500;
   letter-spacing: 0.02em; line-height: 1.38; margin-bottom: 28px;
-  color: #f7f2e8; text-wrap: balance;
+  color: #f2f0eb; text-wrap: balance;
 }
 .hero p.sub {
-  max-width: 620px; margin: 0 auto 44px; color: #cfc6b6; font-size: 15px; line-height: 2;
+  max-width: 620px; margin: 0 auto 44px; color: #a6adb2; font-size: 15px; line-height: 2;
 }
 .hero-stats { display: flex; justify-content: center; gap: 0; margin-top: 52px; flex-wrap: wrap; }
 .hero-stats .stat { text-align: center; padding: 0 38px; position: relative; }
@@ -348,7 +358,7 @@ table.price-table td, table.model-table td, .post-date, .breadcrumb {
   color: var(--brass-lit); line-height: 1.2; letter-spacing: 0.02em;
 }
 .hero-stats .stat span {
-  display: block; font-size: 10.5px; color: #a79d8e; letter-spacing: 0.2em;
+  display: block; font-size: 10.5px; color: #8a9195; letter-spacing: 0.2em;
   text-transform: uppercase; margin-top: 6px;
 }
 .hero-links {
@@ -356,7 +366,7 @@ table.price-table td, table.model-table td, .post-date, .breadcrumb {
 }
 .hero-links a {
   border: 1px solid rgba(245, 239, 228, 0.2); border-radius: var(--radius-sm);
-  padding: 9px 18px; font-size: 13px; color: #ded5c5; letter-spacing: 0.04em;
+  padding: 9px 18px; font-size: 13px; color: #cfd3d6; letter-spacing: 0.04em;
   transition: border-color var(--dur) var(--ease), color var(--dur) var(--ease), background var(--dur) var(--ease);
 }
 .hero-links a:hover {
@@ -407,7 +417,7 @@ table.price-table td, table.model-table td, .post-date, .breadcrumb {
 .card:hover {
   box-shadow: var(--shadow-lift);
   transform: translateY(-2px);        /* 跳ねない。そっと持ち上げる程度 */
-  border-color: #d5c9b1;
+  border-color: #3a434a;
 }
 .card-brand {
   font-size: 10.5px; color: var(--ink-faint); letter-spacing: 0.2em;
@@ -500,10 +510,10 @@ a.card-price:hover .cp-go { color: var(--signal); }
   box-shadow: var(--shadow-md); text-decoration: none; color: inherit;
   transition: box-shadow var(--dur) var(--ease), border-color var(--dur) var(--ease);
 }
-.fw-inner:hover { box-shadow: var(--shadow-lg); border-color: #d5c9b1; }
+.fw-inner:hover { box-shadow: var(--shadow-lg); border-color: #3a434a; }
 .fw-media {
   aspect-ratio: 1 / 1;
-  background: radial-gradient(120% 92% at 50% -8%, #ffffff 0%, #f7f2e9 78%, #f2ece1 100%);
+  background: radial-gradient(120% 92% at 50% -8%, #232a30 0%, #191e22 74%, #14181b 100%);
   display: flex; align-items: center; justify-content: center; overflow: hidden;
   border: 1px solid var(--line-soft);
 }
@@ -541,7 +551,7 @@ a.card-price:hover .cp-go { color: var(--signal); }
   padding: 11px 22px; font-size: 13px; font-weight: 700; letter-spacing: 0.08em;
   transition: background var(--dur) var(--ease), color var(--dur) var(--ease);
 }
-.fw-inner:hover .fw-go { background: var(--brass); color: #fffdf9; }
+.fw-inner:hover .fw-go { background: var(--brass); color: #0d0f11; }
 @media (max-width: 720px) {
   .featured { padding: 26px 0 4px; }
   /* 横並びだと写真が小さくなり、大きく見せる意味が失われる */
@@ -566,7 +576,7 @@ a.card-price:hover .cp-go { color: var(--signal); }
 .pc-media {
   position: relative; aspect-ratio: 1 / 1;
   /* 上から光が落ちる盆。単色より奥行きが出る */
-  background: radial-gradient(120% 92% at 50% -8%, #ffffff 0%, #f7f2e9 78%, #f2ece1 100%);
+  background: radial-gradient(120% 92% at 50% -8%, #232a30 0%, #191e22 74%, #14181b 100%);
   display: flex; align-items: center; justify-content: center; overflow: hidden;
   border-bottom: 1px solid var(--line-soft);
 }
@@ -604,7 +614,7 @@ a.card-price:hover .cp-go { color: var(--signal); }
 .bc-media {
   display: flex; align-items: center; justify-content: center;
   aspect-ratio: 4 / 3; overflow: hidden;
-  background: radial-gradient(120% 92% at 50% -8%, #ffffff 0%, #f7f2e9 78%, #f2ece1 100%);
+  background: radial-gradient(120% 92% at 50% -8%, #232a30 0%, #191e22 74%, #14181b 100%);
   border-bottom: 1px solid var(--line-soft);
 }
 .bc-media img {
@@ -764,7 +774,7 @@ a.card-price:hover .cp-go { color: var(--signal); }
 .sort-select:focus { border-color: var(--brass); }
 .filter-toggle { display: none; align-items: center; gap: 8px; }
 .chip-count {
-  background: var(--signal); color: #fff; border-radius: var(--radius-sm); font-size: 10.5px;
+  background: var(--signal); color: #0d0f11; border-radius: var(--radius-sm); font-size: 10.5px;
   padding: 1px 6px; font-weight: 700; letter-spacing: 0.02em;
 }
 .chips { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; margin-bottom: 18px; }
@@ -774,7 +784,7 @@ a.card-price:hover .cp-go { color: var(--signal); }
   letter-spacing: 0.03em;
   transition: background var(--dur) var(--ease), color var(--dur) var(--ease), border-color var(--dur) var(--ease);
 }
-.chip:hover { background: var(--brass-ink); color: #fff9ef; border-color: var(--brass-ink); }
+.chip:hover { background: var(--brass-ink); color: #0d0f11; border-color: var(--brass-ink); }
 .chip span { opacity: 0.65; margin-left: 5px; }
 .result-count {
   font-size: 12px; color: var(--ink-faint); margin-bottom: 22px; letter-spacing: 0.14em;
@@ -836,10 +846,10 @@ table.price-table, table.model-table {
   white-space: nowrap; font-weight: 700; letter-spacing: 0.14em; line-height: 1.5;
   border: 1px solid transparent;
 }
-.badge-new { background: #e8f3ec; color: #1c5c3c; }
-.badge-used { background: #e9eef4; color: #2d4a68; }
-.badge-unknown { background: #f1efe9; color: var(--ink-faint); border-color: var(--line); }
-.badge-best { background: var(--signal); color: #fff; border-color: var(--signal); font-weight: 700; }
+.badge-new { background: #16281f; color: #7fc9a2; }
+.badge-used { background: #1a222b; color: #9fb6cd; }
+.badge-unknown { background: #1c2024; color: var(--ink-faint); border-color: var(--line); }
+.badge-best { background: var(--signal); color: #0d0f11; border-color: var(--signal); font-weight: 700; }
 
 /* 検索が空振りしたときの逃がし先 */
 .empty-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 20px; justify-content: center; }
@@ -849,13 +859,13 @@ table.price-table, table.model-table {
 .btn {
   display: inline-block; padding: 13px 26px; border-radius: var(--radius-sm);
   font-size: 13px; font-weight: 700; letter-spacing: 0.1em;
-  background: var(--walnut); color: #f7f2e8; white-space: nowrap;
+  background: var(--brass); color: #0d0f11; white-space: nowrap;
   border: 1px solid var(--walnut); text-align: center; line-height: 1.5;
   transition: background var(--dur) var(--ease), border-color var(--dur) var(--ease),
               color var(--dur) var(--ease), box-shadow var(--dur) var(--ease), transform var(--dur) var(--ease);
 }
 .btn:hover {
-  background: #3a2e22; border-color: #3a2e22; transform: translateY(-1px);
+  background: #d3b784; border-color: #d3b784; transform: translateY(-1px);
   box-shadow: var(--shadow-md);
 }
 .btn-outline {
@@ -864,7 +874,7 @@ table.price-table, table.model-table {
 .btn-outline:hover {
   border-color: var(--brass); color: var(--brass-ink); background: var(--brass-soft); box-shadow: none;
 }
-.btn-deal { background: var(--signal); border-color: var(--signal); color: #fff; }
+.btn-deal { background: var(--signal); border-color: var(--signal); color: #0d0f11; }
 .btn-deal:hover { background: var(--signal-dark); border-color: var(--signal-dark); }
 .btn-sm { padding: 10px 18px; font-size: 12px; letter-spacing: 0.08em; }
 
@@ -875,7 +885,7 @@ table.price-table, table.model-table {
 }
 /* 一点だけ、大きく。応接卓に出された現物 */
 .mh-image {
-  background: radial-gradient(120% 92% at 50% -6%, #ffffff 0%, #f8f3ea 76%, #f2ece1 100%);
+  background: radial-gradient(120% 92% at 50% -6%, #232a30 0%, #191e22 72%, #14181b 100%);
   border: 1px solid var(--line); border-radius: var(--radius);
   aspect-ratio: 1 / 1; display: flex; align-items: center; justify-content: center;
   overflow: hidden; box-shadow: var(--shadow-md);
@@ -910,7 +920,7 @@ table.price-table, table.model-table {
 }
 .mh-thumbs a {
   display: block; aspect-ratio: 1 / 1; overflow: hidden;
-  background: #fbf8f2; border: 1px solid var(--line); border-radius: var(--radius-sm);
+  background: #171c20; border: 1px solid var(--line); border-radius: var(--radius-sm);
   transition: border-color var(--dur) var(--ease);
 }
 .mh-thumbs a:hover { border-color: var(--brass); }
@@ -1006,12 +1016,12 @@ table.price-table, table.model-table {
   margin-bottom: 14px; letter-spacing: 0.07em; line-height: 1.5;
 }
 .cta-band p {
-  font-size: 13.5px; color: #c6bcac; max-width: 560px; margin: 0 auto 26px; line-height: 1.95;
+  font-size: 13.5px; color: #a6adb2; max-width: 560px; margin: 0 auto 26px; line-height: 1.95;
 }
 .cta-band .btn {
-  background: var(--brass-lit); border-color: var(--brass-lit); color: #201a13; position: relative; z-index: 1;
+  background: var(--brass-lit); border-color: var(--brass-lit); color: #0d0f11; position: relative; z-index: 1;
 }
-.cta-band .btn:hover { background: #d9b880; border-color: #d9b880; color: #201a13; }
+.cta-band .btn:hover { background: #d9b880; border-color: #d9b880; color: #0d0f11; }
 
 .hero-cta {
   display: flex; gap: 26px; align-items: center; background: var(--surface);
@@ -1090,7 +1100,7 @@ table.price-table, table.model-table {
 
 /* ============ Footer ============ */
 .site-footer {
-  background: var(--walnut); color: #b9afa0; margin-top: 88px; padding: 64px 0 44px;
+  background: var(--walnut); color: #949b9f; margin-top: 88px; padding: 64px 0 44px;
   font-size: 13px; line-height: 1.9;
 }
 .site-footer .footer-brand {

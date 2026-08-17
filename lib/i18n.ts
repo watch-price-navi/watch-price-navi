@@ -77,7 +77,7 @@ const dict: Dict = {
   blog_back: { ja: '記事一覧へ', en: 'All articles' },
   blog_all: { ja: 'すべての記事を見る', en: 'View all articles' },
   blog_cta_title: { ja: '気になるモデルは、いまいくら？', en: 'What does it cost right now?' },
-  blog_cta_body: { ja: '当サイトでは楽天市場・Yahoo!ショッピングの出品価格を毎日自動収集し、型番ごとの最安値を掲載しています。', en: 'We collect listings from Rakuten and Yahoo! Shopping Japan every day and show the lowest price for each reference.' },
+  blog_cta_body: { ja: '型番ごとの実売価格を毎日集計し、最安値を掲載しています。', en: 'Real selling prices are collected daily and the lowest is shown for each reference.' },
   published: { ja: '公開日', en: 'Published' },
   featured_label: { ja: '今日の一本', en: 'Featured today' },
 

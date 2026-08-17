@@ -1,0 +1,104 @@
+# Instagram に1日3回投稿し、ストーリーも出す。
+#
+# なぜ価格更新のワークフローと分けたのか:
+# 価格の収集は1回200分かかる。投稿のたびにそれを走らせるわけにはいかない。
+# 画像は朝の更新（update-prices.yml）で作って公開まで済ませてあるので、
+# こちらは「公開済みの画像を Instagram に渡す」だけでよく、数分で終わる。
+#
+# 時刻について:
+# 朝の更新は 6:20 に始まり、公開まで約200分（10:20頃）かかる。
+# したがって最初の投稿は 11:00 以降でないと、画像がまだ404で必ず失敗する。
+#
+# 何を載せられないか:
+# 楽天ウェブサービス規約 第10条により、楽天から取得した商品写真・価格は
+# 当サイト以外に出せない。Yahoo!（もしも経由）は SNS 掲載そのものが禁止。
+# 使えるのは自前で作った画像と、Wikimedia / Openverse の CC・PD 写真だけ。
+name: Instagram 投稿
+
+on:
+  schedule:
+    - cron: '5 2 * * *'  # UTC 02:05 = JST 11:05（朝の回：その日の記事）
+    - cron: '5 9 * * *'  # UTC 09:05 = JST 18:05（昼の回：ブランドの物語）
+    - cron: '5 12 * * *' # UTC 12:05 = JST 21:05（夜の回：時計用語の解説）
+  workflow_dispatch:
+    inputs:
+      slot:
+        description: 'どの枠を投稿するか'
+        type: choice
+        required: true
+        default: '1'
+        options: ['1', '2', '3', 'story']
+      date:
+        description: '日付（省略するとその日）'
+        required: false
+        default: ''
+
+# 同時に走らせない。トークンの書き戻しが競合する
+concurrency:
+  group: instagram
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 20
+
+      # どの枠を投稿するかを時刻から決める。
+      # workflow_dispatch のときは指定された枠を使う。
+      - name: Decide slot
+        id: slot
+        run: |
+          case "${{ github.event.schedule }}" in
+            "5 2 * * *")  echo "slot=1" >> $GITHUB_OUTPUT; echo "story=true"  >> $GITHUB_OUTPUT ;;
+            "5 9 * * *")  echo "slot=2" >> $GITHUB_OUTPUT; echo "story=false" >> $GITHUB_OUTPUT ;;
+            "5 12 * * *") echo "slot=3" >> $GITHUB_OUTPUT; echo "story=true"  >> $GITHUB_OUTPUT ;;
+            *)            echo "slot=${{ inputs.slot }}" >> $GITHUB_OUTPUT; echo "story=false" >> $GITHUB_OUTPUT ;;
+          esac
+
+      # 投稿は「公開URLの画像」しか受け付けない。
+      # continue-on-error は付けない。以前これを付けたうえに
+      # リトライの終了状態が echo のものになっていたため、6回とも失敗しても
+      # 緑のままで、1件も投稿されていないことに気づくまで日数がかかった。
+      - name: Post
+        if: ${{ steps.slot.outputs.slot != 'story' }}
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          SLOT: ${{ steps.slot.outputs.slot }}
+          DATE: ${{ inputs.date }}
+        run: |
+          d=""
+          [ -n "$DATE" ] && d="--date $DATE"
+          for i in 1 2 3 4; do
+            if node scripts/post-to-instagram.mjs --slot "$SLOT" $d; then exit 0; fi
+            echo "リトライ $i/4"
+            sleep 40
+          done
+          echo "::error::枠${SLOT}の投稿が4回とも失敗しました。上のログの理由を確認してください。"
+          exit 1
+
+      # ストーリーは24時間で消えるので、失敗しても投稿ほどの痛手はない。
+      # ただし黙って失敗させない（気づけないのが最も困る）。
+      - name: Post story
+        if: ${{ steps.slot.outputs.story == 'true' || steps.slot.outputs.slot == 'story' }}
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          DATE: ${{ inputs.date }}
+        run: |
+          d=""
+          [ -n "$DATE" ] && d="--date $DATE"
+          for i in 1 2 3; do
+            if node scripts/post-to-instagram.mjs --story $d; then exit 0; fi
+            echo "リトライ $i/3"
+            sleep 30
+          done
+          echo "::error::ストーリーの投稿が3回とも失敗しました。"
+          exit 1

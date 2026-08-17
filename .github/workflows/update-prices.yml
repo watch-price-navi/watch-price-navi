@@ -78,13 +78,19 @@ jobs:
           OPENVERSE_CLIENT_SECRET: ${{ secrets.OPENVERSE_CLIENT_SECRET }}
         run: node scripts/fetch-watch-photos.mjs --limit 12
 
+      # 朝の回で1日分（朝・昼・夜・ストーリー）の画像をまとめて作る。
+      # Instagram は「公開URLの画像」しか受け付けないので、
+      # 投稿の時刻に作るのでは間に合わない。先に作ってデプロイしておく。
+      # 実際の投稿は .github/workflows/instagram.yml が 11:05 / 18:05 / 21:05 に行う。
       - name: Build Instagram post
         if: github.event.schedule != '20 9 * * *'
         continue-on-error: true
         env:
           NEXT_PUBLIC_SITE_URL: ${{ vars.NEXT_PUBLIC_SITE_URL }}
           NEXT_PUBLIC_BASE_PATH: ${{ vars.NEXT_PUBLIC_BASE_PATH }}
-        run: node scripts/build-instagram-post.mjs
+        run: |
+          node scripts/build-instagram-post.mjs
+          node scripts/build-instagram-extra.mjs
 
       - name: Commit new blog post
         if: github.event.schedule != '20 9 * * *'
@@ -274,23 +280,9 @@ jobs:
       # 以前は付けたうえにループの終了状態が echo のものになっていたため、
       # 6回とも失敗しても「成功」と表示され、1件も投稿されていないことに
       # 気づくまで日数がかかった。投稿できなければ赤くする。
-      - name: Post to Instagram
-        if: steps.pricecheck.outputs.deploy == 'true' && github.event.schedule != '20 9 * * *'
-        env:
-          IG_USER_ID: ${{ secrets.IG_USER_ID }}
-          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
-          IG_TOKEN_OUT: ${{ runner.temp }}/ig_token.txt
-        run: |
-          # GitHub Pages の反映には少し間がある。画像が取得できるまで待つ
-          for i in 1 2 3 4 5 6; do
-            sleep 30
-            if node scripts/post-to-instagram.mjs; then
-              exit 0
-            fi
-            echo "リトライ $i/6"
-          done
-          echo "::error::Instagram への投稿が6回とも失敗しました。上のログの理由を確認してください。"
-          exit 1
+      # 実際の投稿は .github/workflows/instagram.yml が行う。
+      # 1日3回（11:05 / 18:05 / 21:05）＋ストーリー。
+      # ここから投稿していたときは1日1回で、しかも200分の収集を待つ必要があった。
 
       # Instagram のトークンは60日で切れる。延長すると別の値が返るので、
       # それを Secrets に書き戻さないと、いま登録されている方が期限切れになり
