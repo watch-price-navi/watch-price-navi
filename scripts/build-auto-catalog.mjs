@@ -23,7 +23,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { readJson } from './lib/json.mjs';
 import { wrapYahoo } from './lib/affiliate.mjs';
-import { isJunkOffer } from './lib/junk.mjs';
+import { brandNameStandsAlone, isJunkOffer, isJunkRef, stripColorPrefix } from './lib/junk.mjs';
 
 const ROOT = process.cwd();
 
@@ -141,7 +141,8 @@ function extractRefs(title) {
   const out = new Set();
   for (const raw of title.match(REF_RE) ?? []) {
     // 末尾の区切り記号は落とす。「T137.907.97.201.00/」の / が残っていた
-    const s = raw.toUpperCase().replace(/[.,\-/]+$/, '');
+    // 先頭の色名も落とす。買取店の管理番号は「WHT/SLV/H374510」の形で書かれる
+    const s = stripColorPrefix(raw.toUpperCase().replace(/[.,\-/]+$/, ''));
     if (NOISE_EXACT.has(s) || NOISE_RE.test(s)) continue;
     if (CALIBER_RE.test(s) || PURITY_RE.test(s)) continue;
     if (SIZE_LIST_RE.test(s) || HAS_UNIT_RE.test(s) || MOVEMENT_RE.test(s)) continue;
@@ -628,6 +629,9 @@ for (const cat of catalogs) {
     if (isJunkOffer(title, it.price, priceFloor(brand.id))) continue;
     if (mentionsTooManyBrands(title, ALL_BRAND_NAMES)) continue;
     if (!title.includes(brand.name_ja) && !title.toUpperCase().includes(brand.name_en.toUpperCase())) continue;
+    // ブランド名がより長いカタカナ語の一部なだけなら、そのブランドの商品ではない。
+    // 「ジン」の棚にロンジンの時計が958件（棚の7割）並んでいた
+    if (!brandNameStandsAlone(brand.id, title, brand.name_ja, brand.name_en)) continue;
 
     for (const ref of dedupeRefs(extractRefs(title), curatedByRef)) {
       const key = normRef(ref);
@@ -672,6 +676,9 @@ for (const cat of catalogs) {
     if (g.count < MIN_LISTINGS) continue;
     if (models.length >= MAX_PER_BRAND) break;
     if (g.prices.length === 0) continue;
+    // ベルトや部品の品番。商品名では見分けられないので型番の形で弾く
+    // （ハミルトンは 時計=H+8桁 / ベルト=H+9桁 の違いしかない）
+    if (isJunkRef(brand.id, groupKey)) continue;
 
     const sorted = [...g.prices].sort((a, b) => a - b);
     const median = sorted[Math.floor(sorted.length / 2)];

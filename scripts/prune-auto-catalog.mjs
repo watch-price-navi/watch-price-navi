@@ -12,9 +12,19 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { readJson } from './lib/json.mjs';
-import { isJunkName, isJunkOffer, junkReason } from './lib/junk.mjs';
+import {
+  brandNameStandsAlone,
+  isJunkName,
+  isJunkOffer,
+  isJunkRef,
+  junkReason,
+  stripColorPrefix,
+} from './lib/junk.mjs';
 
 const ROOT = process.cwd();
+
+/** ブランドIDから名前を引く。出品が本当にそのブランドのものか調べるのに使う */
+const brandInfo = {};
 const APPLY = process.argv.includes('--apply');
 const autoDir = path.join(ROOT, 'data', 'brands-auto');
 
@@ -42,6 +52,7 @@ const floorOf = (brandId) => Number(MIN_PRICE.brands[brandId] ?? MIN_PRICE.def) 
  * 『モデル』を消す根拠にはしない。消したものは戻らない。
  */
 function allOffersAreJunk(brandId, modelId) {
+  const b = brandInfo[brandId];
   const f = path.join(ROOT, 'data', 'prices', brandId, `${modelId}.json`);
   if (!fs.existsSync(f)) return false;
   let offers;
@@ -50,9 +61,21 @@ function allOffersAreJunk(brandId, modelId) {
   } catch {
     return false;
   }
-  if (offers.length === 0) return false;
+  /*
+   * 出品ゼロの価格ファイルは、収集側が作ることがない。
+   * build-auto-catalog も fetch-prices も offers.length === 0 なら書き込まない
+   * （前者は return false、後者は既存を残すか削除する）。
+   * つまり中身が空なのは、ゴミ判定で全部落とされた結果でしかない。
+   * そのモデルは存在の根拠が無いので消す。
+   */
+  if (offers.length === 0) return true;
   const floor = floorOf(brandId);
-  return offers.every((o) => isJunkOffer(o.title, o.price, floor));
+  return offers.every(
+    (o) =>
+      isJunkOffer(o.title, o.price, floor) ||
+      // ブランド名が別のカタカナ語の一部なだけの出品（ロンジン⊃ジン）
+      (b && !brandNameStandsAlone(brandId, o.title, b.name_ja, b.name_en)),
+  );
 }
 
 if (!fs.existsSync(autoDir)) {
@@ -117,6 +140,7 @@ for (const f of fs.readdirSync(path.join(ROOT, 'data/brands')).filter((x) => x.e
     const c = readJson(path.join(ROOT, 'data/brands', f));
     if (c.brand?.id && c.brand?.name_ja) brandNames.push([c.brand.id, c.brand.name_ja]);
     if (c.brand?.id) brandEnOf[c.brand.id] = c.brand.name_en ?? '';
+    if (c.brand?.id) brandInfo[c.brand.id] = c.brand;
   } catch {
     /* 読めないものは飛ばす */
   }
@@ -164,6 +188,59 @@ const rows = [];
 let totalBefore = 0;
 let totalAfter = 0;
 const reasons = new Map();
+let renamed = 0;
+let mergedDup = 0;
+
+/**
+ * 型番の頭に付いた色名を落として直す。
+ *
+ * 買取店の出品は「HAMILTON◆クォーツ腕時計/アナログ/WHT/SLV/H374510【服飾雑貨他】」の形で、
+ * 型番の前に色を並べる。そのまま拾うと BLU/SLV/H374510 という存在しない型番のページができ、
+ * 同じ時計が色ごとに別モデルとして並ぶ。
+ *
+ * **消さずに直す。** 消すと、正しい型番の側が無い29件はその型番ごと失われる。
+ * 正しい型番が既にあるものは重複なので、こちらを畳む。
+ */
+function fixColorRefs(cat, brandId) {
+  const models = cat.models ?? [];
+  let touched = false;
+  const byId = new Map(models.map((m) => [m.id, m]));
+  const out = [];
+  for (const m of models) {
+    const fixed = stripColorPrefix(String(m.reference ?? ''));
+    if (fixed === String(m.reference ?? '')) {
+      out.push(m);
+      continue;
+    }
+    const newId = `ref-${fixed.toUpperCase().replace(/[^A-Z0-9]/g, '').toLowerCase()}`;
+    if (byId.has(newId) && byId.get(newId) !== m) {
+      // 正しい型番のモデルが既にある。色付きの方は重複なので畳む
+      mergedDup++;
+      touched = true;
+      continue;
+    }
+    // 正しい型番が無いので、名前を直して残す
+    const oldName = String(m.name_ja ?? '');
+    m.name_ja = oldName.includes(m.reference) ? oldName.split(m.reference).join(fixed) : oldName;
+    m.name_en = String(m.name_en ?? '').includes(m.reference)
+      ? String(m.name_en).split(m.reference).join(fixed)
+      : m.name_en;
+    if (APPLY) {
+      // 価格ファイルも一緒に移す。IDが変わるとページのURLも変わるため
+      const from = path.join(ROOT, 'data', 'prices', brandId, `${m.id}.json`);
+      const to = path.join(ROOT, 'data', 'prices', brandId, `${newId}.json`);
+      if (fs.existsSync(from) && !fs.existsSync(to)) fs.renameSync(from, to);
+    }
+    m.reference = fixed;
+    m.id = newId;
+    byId.set(newId, m);
+    renamed++;
+    touched = true;
+    out.push(m);
+  }
+  cat.models = out;
+  return touched;
+}
 
 for (const f of fs.readdirSync(autoDir).filter((f) => f.endsWith('.json'))) {
   let cat;
@@ -175,6 +252,9 @@ for (const f of fs.readdirSync(autoDir).filter((f) => f.endsWith('.json'))) {
   }
   const before = (cat.models ?? []).length;
   totalBefore += before;
+
+  // 型番の色名を直してから判定する。順番を逆にすると、直った型番が判定を通らない
+  const refsFixed = fixColorRefs(cat, cat.brandId ?? f.replace(/\.json$/, ''));
 
   const kept = [];
   for (const m of cat.models ?? []) {
@@ -203,6 +283,7 @@ for (const f of fs.readdirSync(autoDir).filter((f) => f.endsWith('.json'))) {
     else if (SIZE_LIST_RE.test(ref)) why = 'ベルトの取付幅';
     else if (HAS_UNIT_RE.test(ref)) why = '型番に寸法単位';
     else if (MOVEMENT_RE.test(ref)) why = 'ムーブメント品番';
+    else if (isJunkRef(brandId, ref)) why = 'ベルト・部品の品番';
     else if (ref.replace(/[^0-9]/g, '').length < 4) why = '数字が3桁以下';
     else if (ACCESSORY_HEAD_RE.test(name)) why = '付属品の出品';
     else if (isJunkName(both)) why = `時計ではない（${junkReason(both)}）`;
@@ -225,18 +306,24 @@ for (const f of fs.readdirSync(autoDir).filter((f) => f.endsWith('.json'))) {
   }
 
   totalAfter += kept.length;
+  // 件数が変わらなくても、型番を直していれば書き戻す必要がある
+  const changed = kept.length !== before || refsFixed;
   if (kept.length !== before) {
     rows.push({ brand: cat.brandId ?? f.replace(/\.json$/, ''), before, after: kept.length });
-    if (APPLY) {
-      cat.models = kept;
-      fs.writeFileSync(path.join(autoDir, f), JSON.stringify(cat, null, 2), 'utf8');
-    }
+  }
+  if (APPLY && changed) {
+    cat.models = kept;
+    fs.writeFileSync(path.join(autoDir, f), JSON.stringify(cat, null, 2), 'utf8');
   }
 }
 
 console.log(`\n${APPLY ? '除去しました' : '除去プレビュー（--apply で実行）'}\n`);
 for (const r of rows.sort((a, b) => b.before - b.after - (a.before - a.after))) {
   console.log(`  ${r.brand.padEnd(22)} ${String(r.before).padStart(5)} → ${String(r.after).padStart(5)}  (-${r.before - r.after})`);
+}
+if (renamed || mergedDup) {
+  console.log(`\n  色名を落として型番を直したもの: ${renamed}件`);
+  console.log(`  正しい型番が既にあり重複として畳んだもの: ${mergedDup}件`);
 }
 console.log(`\n合計: ${totalBefore} → ${totalAfter} モデル（-${totalBefore - totalAfter}件）`);
 if (reasons.size) {

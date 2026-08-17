@@ -23,7 +23,7 @@ import path from 'node:path';
 import { loadCatalogs } from './lib/catalog.mjs';
 import { readJson } from './lib/json.mjs';
 import { wrapYahoo } from './lib/affiliate.mjs';
-import { isJunkOffer } from './lib/junk.mjs';
+import { brandNameStandsAlone, isJunkOffer } from './lib/junk.mjs';
 
 const ROOT = process.cwd();
 

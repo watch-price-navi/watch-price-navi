@@ -9,7 +9,7 @@
  *
  *   node scripts/test-junk.mjs
  */
-import { isJunkTitle, isJunkName } from './lib/junk.mjs';
+import { isJunkTitle, isJunkName, isJunkRef, isOtherBrand, stripColorPrefix } from './lib/junk.mjs';
 
 /** 消してはいけない本物。実際の出品タイトル（一部は要約） */
 const REAL = [
@@ -32,6 +32,10 @@ const REAL = [
   ['IWC DLCコーティング パイロット トップガン', 'コーティングは表面処理'],
   ['デッドストック級 オメガ 銀文字盤 手巻き ヴィンテージ レディース腕時計', '安いが本物'],
   ['ロレックス サブマリーナ 126610LN ブレスレット 新品', 'ブレスレットは本体の一部'],
+  ['オリエントスター ご購入特典つき メンズ腕時計 M34 F8 デイト 替えベルト付 自動巻 RK-BX0003L', '替えベルト付は付属品'],
+  ['シチズンエル CITIZEN L レディース腕時計 替えベルトつき エコドライブ EW5593-64D', '同上。これで本物41件を消した'],
+  ['シチズンアテッサ ACTライン 世界限定2200本 結晶チタニウム CC4076-65A', '結晶チタニウムは素材'],
+  ['シチズン クロスシー レディース 腕時計 ソーラー電波 エコドライブ 太陽と月 ダイチ', '太陽は文字盤の意匠'],
   ['ブランパン バチスカーフ フィフティファゾムス 5000-1110-70B', 'バチスカーフにスカーフが含まれる'],
   ['ブルガリ セルペンティ トゥボガス 102098', 'セルペンティにペンが含まれる'],
 ];
@@ -67,9 +71,98 @@ for (const [t, why] of JUNK) {
   console.log(`  ${bad ? '✓ 弾く' : '✗ 素通り'}  ${t.slice(0, 46)}`);
   if (!bad) console.log(`         ← ${why}`);
 }
+/*
+ * 部品の出品。ベルトは対応する時計の型番を並べるので、
+ * 本物の型番のモデルが「中身はベルト」で作られてしまっていた。
+ */
+const PARTS = [
+  ['ハミルトン純正 H77616133／H77626153／H77756131／H77636143 ステンレススチール ベルト カーキ X-WIND', true],
+  ['ハミルトン　HAMILTON　カーキフィールドマーフ 38mm用 純正メタルブレスレット一式 20mm ステンレス', true],
+  ['ハミルトン純正 ステンレススチール 22mm ベルトバンド ブレス シンライン クロノ H38612133', true],
+  ['H605.705.107　カーキフィールドオート40mm専用ステンレスベルト /ハミルトン純正', true],
+  ['ロンジン ドルチェヴィータ レディース 13mm 専用ステンレスベルト L600145152', true],
+  ['ダレスバッグ メンズ 豊岡 製 鞄 日本製 国産 ジェーシーハミルトン 22301 42cm B4', true],
+  // 消してはいけないもの。「ブレス」「バックル」は本物が素材として書く
+  ['シチズン CITIZEN キー Kii: エコドライブ スクエア メタルブレス EG7040-58A', false],
+  ['デッドストック級 保付 カルティエ ディアボロLM トップバックル 18K/750/YG QZ 白文字盤', false],
+  ['オーデマピゲ Audemars Piguet 15500ST.OO.1220ST.01 ロイヤルオークSSブルー文字盤腕時計', false],
+  ['ブライトリング ナビタイマー32 アリゲーターレザーストラップ A77320', false],
+];
+console.log('\n── 部品の出品 ──');
+for (const [t, want] of PARTS) {
+  const got = isJunkTitle(t);
+  if (got !== want) ng++;
+  console.log(`  ${got === want ? '✓' : '✗'} ${(got ? '部品' : '時計').padEnd(3)} ${t.slice(0, 46)}`);
+}
+
+/*
+ * 他社ブランドの混入。
+ * 商品名に自社ブランド名が入るため、その棚に並んでしまう。
+ * コラボ（ブランパン×スウォッチ等）は本物なので巻き込んではいけない。
+ */
+const OTHER_BRAND = [
+  ['【ARMANI EXCHANGE】 Lady Hamilton アルマーニエクスチェンジ レディース腕時計', true],
+  ['NIXON ニクソン THE PLAYER プレイヤー メンズ 腕時計 A140-479', true],
+  ['【中古】【輸入品・未使用】Henryロンドンhl39-m-0062 Ladies ホルボーン Burgundy ハミルトンゴールド腕時計', true],
+  ['稼働 エルジン 07.7001.0029.50 手巻き ゴールド文字盤 メンズ腕時計', true],
+  ['新品同様 ブランパン × スウォッチ スクーバ フィフティファゾムス SO35I100 自動巻き', false],
+  ['AUDEMARS PIGUET オーデマ・ピゲ ×スウォッチ ロイヤルポップ バイオセラミック', false],
+  ['オメガ スピードマスター プロフェッショナル 311.30.42.30.01.005', false],
+  ['カシオ G-SHOCK MR-G 鉄鐔 MRG-B5000B-1JR', false],
+];
+console.log('\n── 他社ブランドの混入 ──');
+for (const [t, want] of OTHER_BRAND) {
+  const got = isOtherBrand(t);
+  if (got !== want) ng++;
+  console.log(`  ${got === want ? '✓' : '✗'} ${(got ? '他社' : '自社').padEnd(3)} ${t.slice(0, 44)}`);
+}
+
+/*
+ * ベルト・部品の品番。
+ * ハミルトンは 時計=H+8桁 / ベルト=H+9桁 で、桁数でしか区別できない。
+ * H69529933（カーキ フィールド メカ ¥98,250）を消してはいけない。
+ */
+const REF_CASES = [
+  ['hamilton', 'H695.704.104', true],
+  ['hamilton', 'H690.823.104', true],
+  ['hamilton', 'H695424102', true],
+  ['hamilton', 'H69529933', false],
+  ['hamilton', 'H32515555', false],
+  ['rolex', '126610LN', false],
+  ['omega', '310.30.42.50.01.001', false],
+];
+console.log('\n── ベルト・部品の品番 ──');
+for (const [b, r, want] of REF_CASES) {
+  const got = isJunkRef(b, r);
+  if (got !== want) ng++;
+  console.log(`  ${got === want ? '✓' : '✗'} ${b.padEnd(9)} ${r.padEnd(22)} ${got ? 'ベルト' : '時計'}`);
+}
+
+/*
+ * 型番の頭に付いた色名。
+ * 買取店が「WHT/SLV/H374510」の形で書くため、色ごとに別モデルができていた。
+ * 落とした結果が色名そのものになる場合（GRN/GRN）は、型番が残らないので触らない。
+ */
+const COLOR_CASES = [
+  ['BLU/SLV/H374510', 'H374510'],
+  ['BLK/H776121', 'H776121'],
+  ['BLK/SLV/SS/H433110', 'H433110'],
+  ['WHT/BEG/6359/KHAKI', '6359/KHAKI'],
+  ['GRN/GRN', 'GRN/GRN'],
+  ['126610LN', '126610LN'],
+  ['T137.907.97.201.00', 'T137.907.97.201.00'],
+  ['15350ST.OO.D002CR.01', '15350ST.OO.D002CR.01'],
+];
+console.log('\n── 型番の頭に付いた色名 ──');
+for (const [inp, want] of COLOR_CASES) {
+  const got = stripColorPrefix(inp);
+  if (got !== want) ng++;
+  console.log(`  ${got === want ? '✓' : '✗'} ${inp.padEnd(24)} → ${got}`);
+}
+
 console.log(
   ng === 0
-    ? `\n${REAL.length + JUNK.length}件すべて期待どおり`
+    ? `\n${REAL.length + JUNK.length + PARTS.length + OTHER_BRAND.length + REF_CASES.length + COLOR_CASES.length}件すべて期待どおり`
     : `\n${ng}件が期待と違う。判定を直してから送ること`,
 );
 process.exit(ng ? 1 : 0);

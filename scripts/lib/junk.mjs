@@ -1,3 +1,4 @@
+import fs from 'node:fs';
 /**
  * 「これは腕時計ではない」を判定する、唯一の場所。
  *
@@ -53,7 +54,23 @@ const STRONG = [
   'Tシャツ', 'パーカー', 'スウェット', 'キャップ帽', 'マフラー',
   // 文具・雑貨
   'ボールペン', '万年筆', 'シャープペン', 'ライター', '香水', 'オードトワレ',
-  
+  // 「ジェーシーハミルトン ダレスバッグ 豊岡製鞄」がハミルトンの棚に入っていた。
+  // 時計とは別会社だが、社名にブランド名を含むため検索に掛かる
+  'ダレスバッグ', 'ドクターバッグ', 'ドクターズバッグ', '豊岡製鞄', '製鞄',
+  'ダレス', 'ジェーシーハミルトン', 'ジェイシーハミルトン', 'J.C HAMILTON',
+  /*
+   * ブランド名と同じ名前の、時計と全く関係のない商品。
+   * 「ハミルトンビーチ」は米国の調理家電、「チューダーブリッジ」は水栓金具、
+   * 「アゼニス」はタイヤ、「ジンコ」は太陽光パネル、「モンブランマシン」は厨房機器。
+   * どれも高額なので価格では弾けず、語で落とすしかない。
+   */
+  'ブレンダー', 'ミキサー', 'フードプロセッサー', '炊飯器', '電子レンジ',
+  'サマータイヤ', 'スタッドレス', 'ホイールセット',
+  'ソーラーパネル', '太陽光発電', '架台',
+  '蛇口', '水栓', 'シャワーヘッド',
+  'カーテン', '仮眠', 'ラグマット',
+  'ルース', '鑑別書', 'ペンダントヘッド', '宝石研究所',
+
   // 時計だが腕時計ではない
   '置時計', '置き時計', '掛け時計', '壁掛け時計', '目覚まし時計', '振り子時計',
   // 偽物・非正規
@@ -106,6 +123,20 @@ const PART_PHRASES = [
   //（ブレゲ マリーン2 ¥3,654,000 を消しかけた）。「専用」「対応」なら安全。
   '専用ベルト', '専用バンド', '専用ストラップ', 'に適用', '対応ベルト', '対応バンド',
   'ベルト単品', 'バンド単品', 'ストラップ単品', 'ブレスレット単品', 'メタルブレス単品',
+  /*
+   * 「一式」「ベルトバンド」は、それ自体が売り物であることを示す。
+   * 「カーキフィールドマーフ 38mm用 純正メタルブレスレット一式」¥21,780
+   * 「ステンレススチール 22mm ベルトバンド ブレス シンライン クロノ」¥21,780
+   * 「ブレス」単独は入れてはいけない。本物の時計がブレスレットの素材として書く
+   * （シチズン キー エコドライブ スクエア メタルブレス ¥29,700 を消しかけた）。
+   */
+  'ブレスレット一式', 'ベルトバンド', 'バンドセット',
+  /*
+   * 「替えベルト」「替えバンド」を入れてはいけない。本物の時計の付属品表記だった。
+   *   「オリエントスター M34 F8 デイト 替えベルト付 自動巻 RK-BX0003L」¥363,000
+   *   「シチズンエル レディース腕時計 替えベルトつき エコドライブ EW5593-64D」¥42,900
+   * 実際に入れてしまい、オリエント26件・シチズン15件の本物を消した。
+   */
   'ウォッチバンド', '時計バンド', '時計ベルト', '腕時計ベルト', '腕時計バンド',
   'リザード型押し', '型押しベルト', 'クロコベルト', 'クロコダイルベルト',
   // 留め具・小部品（単体で売られている形だけ）
@@ -129,6 +160,24 @@ const PART_RE = build(PART_PHRASES);
 const ALLOW_RE = build(ALLOW);
 
 /**
+ * 「◯◯専用ベルト」の形。素材名が間に入るので語の一致では拾えない。
+ * 「カーキフィールドオート40mm専用ステンレスベルト」「ジャズマスター専用メタルバンド」
+ */
+const DEDICATED_PART_RE = /専用[^\s　]{0,8}(?:ベルト|バンド|ブレスレット)/;
+
+/**
+ * 型番を「／」で3つ以上並べる出品は、対応機種を列挙した部品である。
+ * 「ハミルトン純正 H77616133／H77626153／H77756131／H77636143 ステンレススチール ベルト」
+ *
+ * 型番の数だけで判定してはいけない。オーデマピゲの型番（15500ST.OO.1220ST.01）は
+ * 区切りを含むため、単純に数えると本物が1,554件も該当した。
+ * 「5桁以上の数字をスラッシュで区切って3つ以上」かつ部品の語がある場合に限る。
+ */
+const SLASH_REF_LIST_RE =
+  /[A-Z]{0,3}[0-9]{5,}[A-Z0-9]*[／/][A-Z]{0,3}[0-9]{5,}[A-Z0-9]*[／/][A-Z]{0,3}[0-9]{5,}/i;
+const PART_WORD_RE = /ベルト|バンド|ブレスレット|ストラップ/;
+
+/**
  * 出品タイトルが腕時計本体のものでないなら true。
  *
  * 出品は落としても他の出品が残るので、広めに弾いてよい。
@@ -147,7 +196,9 @@ export function isJunkTitle(title) {
    * だから語は組み合わせ（PART_PHRASES）だけで見て、
    * 足りない分は価格で判断する（isJunkPrice）。
    */
-  return STRONG_RE.test(t) || PART_RE.test(t);
+  if (STRONG_RE.test(t) || PART_RE.test(t)) return true;
+  if (DEDICATED_PART_RE.test(t)) return true;
+  return SLASH_REF_LIST_RE.test(t) && PART_WORD_RE.test(t);
 }
 
 /**
@@ -195,6 +246,7 @@ export function looksLikeWatch(title) {
  */
 export function isJunkOffer(title, price, floor) {
   if (isJunkTitle(title)) return true;
+  if (isOtherBrand(title)) return true;
   // 安すぎるうえ、時計であることを示す語も無いなら本体ではない
   return isJunkPrice(price, floor) && !looksLikeWatch(title);
 }
@@ -210,6 +262,168 @@ export function isJunkName(name) {
   if (!t) return false;
   if (ALLOW_RE.test(t)) return false;
   return STRONG_RE.test(t) || PART_RE.test(t);
+}
+
+/**
+ * 当サイトが扱わない他社ブランド。
+ *
+ * 「ARMANI EXCHANGE Lady Hamilton」はアルマーニの時計だが、商品名に
+ * ハミルトンが入るためハミルトンの棚に並んでいた。同じ理由で、
+ * オメガの棚にカシオ、ロレックスの棚にニクソン、ジンの棚にエルジンが入っていた。
+ *
+ * **自社の系列名を入れてはいけない。** BABY-G はカシオ、ORIENT STAR はオリエント、
+ * ALBA / WIRED はセイコーの系列。入れた結果 casio 165件・orient 92件を誤検出した。
+ */
+const OUTSIDE_BRANDS = [
+  'ARMANI', 'アルマーニ', 'GUCCI', 'グッチ', 'DIESEL', 'ディーゼル', 'FOSSIL', 'フォッシル',
+  'MICHAEL KORS', 'マイケルコース', 'TIMEX', 'タイメックス',
+  'DANIEL WELLINGTON', 'ダニエルウェリントン', 'ELGIN', 'エルジン', 'WALTHAM', 'ウォルサム',
+  'SKAGEN', 'スカーゲン', 'NIXON', 'ニクソン', 'MARC JACOBS', 'KATE SPADE',
+  'VERSACE', 'ヴェルサーチ', 'BURBERRY', 'バーバリー', 'CHANEL', 'シャネル',
+  'LOUIS VUITTON', 'ルイヴィトン',
+];
+const OUTSIDE_RE = build(OUTSIDE_BRANDS);
+/**
+ * 表記が割れる他社ブランドは正規表現で書く。
+ * 「Henryロンドンhl39-m-0062 ホルボーン Burgundy ハミルトンゴールド腕時計」は
+ * 文字盤の色名が「ハミルトンゴールド」なだけで、ヘンリーロンドンの時計である。
+ */
+const OUTSIDE_RE2 = /Henry\s*(?:ロンドン|LONDON)/i;
+/**
+ * コラボは本物の商品。ブランパン×スウォッチ、オーデマピゲ×スウォッチ、
+ * モンクレール×オーデマピゲなど。他社名が出ても混入ではない。
+ */
+const COLLAB_RE = /[×xX✕]\s*(?:スウォッチ|SWATCH|MONCLER|モンクレール)|コラボ|collaboration/i;
+
+/**
+ * ブランド名が別のカタカナ語の一部として一致していないか調べる。
+ *
+ * 日本語には単語の区切りが無い。「ジン」は「ロンジン」に含まれるので、
+ * ジンの棚にロンジンの時計が958件（棚の7割）並んでいた。
+ * ソーラーパネルの「ジンコ(JinKO)」、タイヤの「アゼニス(AZENIS)」も同じ理由で入っていた。
+ *
+ * **全ブランドに掛けてはいけない。** 掛けると
+ * 「ザシチズン」「オフィチーネパネライ」「グランドセイコー」まで落ちる。
+ * 実測では1,461件が落ち、うち380件が本物だった。
+ * だから data/brand-match.json に載せたブランドだけに適用する。
+ */
+let matchRules = null;
+function loadMatchRules() {
+  if (matchRules) return matchRules;
+  matchRules = {};
+  try {
+    const j = JSON.parse(fs.readFileSync(new URL('../../data/brand-match.json', import.meta.url), 'utf8'));
+    for (const [b, r] of Object.entries(j.brands ?? {})) {
+      matchRules[b] = { allowBefore: r.allowBefore ?? [], alsoAfter: r.alsoAfter === true };
+    }
+  } catch {
+    matchRules = {};
+  }
+  return matchRules;
+}
+/** カタカナと長音符。半角カナも含める */
+const KANA_RE = /[ァ-ヶーｦ-ﾟ]/;
+
+/**
+ * その出品タイトルが、本当にそのブランドの商品か。
+ * ブランド名が独立して現れる箇所が1つでもあれば true。
+ */
+export function brandNameStandsAlone(brandId, title, nameJa, nameEn = '') {
+  const rule = loadMatchRules()[String(brandId ?? '')];
+  if (!rule) return true; // 対象外のブランドは従来どおり
+  const allow = rule.allowBefore;
+  const t = String(title ?? '');
+  const n = String(nameJa ?? '');
+  /*
+   * 英語名で書かれていれば、その時点でそのブランドの商品である。
+   * 「ZENITH El Primero 36000 VpH」には「ゼニス」が無いので、
+   * 日本語名だけを見ると本物を落としてしまう。
+   * 英語名はアルファベットなので語の切れ目があり、埋め込み一致の心配が少ない。
+   */
+  const en = String(nameEn ?? '').trim();
+  if (en && new RegExp(`(?:^|[^A-Za-z])${esc(en)}(?![A-Za-z])`, 'i').test(t)) return true;
+  if (!n) return true;
+  let i = -1;
+  while ((i = t.indexOf(n, i + 1)) !== -1) {
+    const before = t.slice(0, i);
+    /*
+     * 直後のカタカナも見るのは、2文字のブランドだけ。
+     * 「ジンバル」（タジマのレーザー墨出器）「メモリジン」（別ブランド）が残ってしまうため。
+     * 長い名前に掛けると「ブライトリングプレミエ」「オメガスピードマスター」のような
+     * ブランド名に商品名が続く本物まで落ちる。
+     */
+    const afterOk = !rule.alsoAfter || !KANA_RE.test(t[i + n.length] ?? '');
+    if (!afterOk) continue;
+    if (i === 0) return true;
+    if (!KANA_RE.test(before.slice(-1))) return true;
+    if (allow.some((a) => before.endsWith(a))) return true;
+  }
+  return false;
+}
+
+/** その出品が他社ブランドの商品なら true */
+export function isOtherBrand(title) {
+  const t = String(title ?? '');
+  if (COLLAB_RE.test(t)) return false;
+  return OUTSIDE_RE.test(t) || OUTSIDE_RE2.test(t);
+}
+
+
+/**
+ * ブランド別の「時計ではない型番」。data/junk-refs.json から読む。
+ *
+ * ベルトや部品には本体と別の品番体系があり、商品名だけでは見分けられない。
+ * ハミルトンは 時計=H+8桁 / ベルト=H+9桁 で、桁数でしか区別できなかった。
+ * コードに埋めず data に置くのは、増やすのが調査の結果だからである。
+ */
+let junkRefRules = null;
+function loadJunkRefs() {
+  if (junkRefRules) return junkRefRules;
+  junkRefRules = {};
+  try {
+    const url = new URL('../../data/junk-refs.json', import.meta.url);
+    const j = JSON.parse(fs.readFileSync(url, 'utf8'));
+    for (const [b, list] of Object.entries(j.brands ?? {})) {
+      junkRefRules[b] = (list ?? []).map((r) => new RegExp(r.pattern, 'i'));
+    }
+  } catch {
+    junkRefRules = {};
+  }
+  return junkRefRules;
+}
+
+/** その型番がベルトや部品のものなら true */
+export function isJunkRef(brandId, reference) {
+  const rules = loadJunkRefs()[String(brandId ?? '')];
+  if (!rules?.length) return false;
+  const n = String(reference ?? '').toUpperCase().replace(/[^A-Z0-9]/g, '');
+  if (!n) return false;
+  return rules.some((re) => re.test(n));
+}
+
+/**
+ * 型番の先頭に付いた色名を落とす。
+ *
+ * リユース店の出品は「HAMILTON◆クォーツ腕時計/アナログ/WHT/SLV/H374510【服飾雑貨他】」
+ * のように、色や素材をスラッシュで並べてから型番を書く。
+ * これをそのまま型番として拾うと「WHT/SLV/H374510」という存在しない型番のページができ、
+ * 本来の H374510 とは別物として二重に載る。
+ *
+ * 消すのではなく直す。型番自体は本物なので、消せばその時計のページが失われる。
+ */
+const COLOR_TOKEN =
+  /^(?:WHT|BLK|SLV|GRY|GRN|NVY|BRW|BRN|RED|BLU|PNK|YEL|YLW|ORG|BGE|BEG|KHK|GLD|PPL|PUP|CRM|IVR|CAM|MLT|LBL|DBL|WIN|MOK|SS|YG|PG|WG)$/i;
+
+export function stripColorPrefix(ref) {
+  const s = String(ref ?? '');
+  if (!s.includes('/')) return s;
+  const parts = s.split('/');
+  let i = 0;
+  while (i < parts.length - 1 && COLOR_TOKEN.test(parts[i])) i++;
+  if (i === 0) return s;
+  const rest = parts.slice(i).join('/');
+  // 全部が色名なら型番ではない。元のまま返して、他の規則（数字4桁など）に任せる
+  return COLOR_TOKEN.test(rest) ? s : rest;
 }
 
 /** どの語で弾いたかを返す。掃除の結果を人が確かめられるようにする */
