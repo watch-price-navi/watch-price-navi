@@ -1,6 +1,6 @@
 {
   "brandId": "perrelet",
-  "generatedAt": "2026-08-18T00:02:39.835Z",
+  "generatedAt": "2026-08-18T12:14:48.490Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -81,10 +81,10 @@
         "diver"
       ],
       "popular": false,
-      "summary_ja": "ペルレの型番3000。市場で9件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "ペルレの型番3000。市場で8件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Perrelet reference 3000, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 9,
+      "listingCount": 8,
       "lastSeen": "2026-08-18"
     },
     {
@@ -137,10 +137,10 @@
         "sport"
       ],
       "popular": false,
-      "summary_ja": "ペルレの型番2800。市場で4件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "ペルレの型番2800。市場で5件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Perrelet reference 2800, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 4,
+      "listingCount": 5,
       "lastSeen": "2026-08-18"
     },
     {
@@ -312,34 +312,6 @@
       "lastSeen": "2026-08-18"
     },
     {
-      "id": "ref-2390",
-      "name_en": "2390",
-      "name_ja": "ダブルローター 2390",
-      "reference": "2390",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 200000,
-      "searchKeywordJa": "ペルレ 2390",
-      "searchKeywordEn": "Perrelet 2390",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ペルレの型番2390。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Perrelet reference 2390, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-08-18"
-    },
-    {
       "id": "ref-a5007",
       "name_en": "A5007",
       "name_ja": "チタニウム ハンズ A5007",
@@ -363,6 +335,34 @@
       "popular": false,
       "summary_ja": "ペルレの型番A5007。市場で2件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Perrelet reference A5007, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-08-18"
+    },
+    {
+      "id": "ref-2390",
+      "name_en": "2390",
+      "name_ja": "ダブルローター 2390",
+      "reference": "2390",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 200000,
+      "searchKeywordJa": "ペルレ 2390",
+      "searchKeywordEn": "Perrelet 2390",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ペルレの型番2390。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Perrelet reference 2390, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
       "lastSeen": "2026-08-18"
@@ -480,62 +480,6 @@
       "lastSeen": "2026-08-18"
     },
     {
-      "id": "ref-a40231",
-      "name_en": "A4023/1",
-      "name_ja": "タービン トキシック A4023/1",
-      "reference": "A4023/1",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 315044,
-      "searchKeywordJa": "ペルレ A4023/1",
-      "searchKeywordEn": "Perrelet A4023/1",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "chronograph"
-      ],
-      "popular": false,
-      "summary_ja": "ペルレの型番A4023/1。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Perrelet reference A4023/1, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-08-18"
-    },
-    {
-      "id": "ref-704641",
-      "name_en": "70464-1",
-      "name_ja": "タービン トキシック 70464-1",
-      "reference": "70464-1",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 315044,
-      "searchKeywordJa": "ペルレ 70464-1",
-      "searchKeywordEn": "Perrelet 70464-1",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "chronograph"
-      ],
-      "popular": false,
-      "summary_ja": "ペルレの型番70464-1。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Perrelet reference 70464-1, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-08-18"
-    },
-    {
       "id": "ref-a10861",
       "name_en": "A1086/1",
       "name_ja": "タービン パイロット A1086/1",
@@ -564,34 +508,6 @@
       "lastSeen": "2026-08-18"
     },
     {
-      "id": "ref-vcaro3y551",
-      "name_en": "VCARO3Y551",
-      "name_ja": "ヴァンクリーフ アーペル VCARO3Y551",
-      "reference": "VCARO3Y551",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 235705,
-      "searchKeywordJa": "ペルレ VCARO3Y551",
-      "searchKeywordEn": "Perrelet VCARO3Y551",
-      "caseMaterial": "yellow-gold",
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ペルレの型番VCARO3Y551。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Perrelet reference VCARO3Y551, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-08-18"
-    },
-    {
       "id": "ref-vcarn33052",
       "name_en": "VCARN33052",
       "name_ja": "ヴァンクリーフ アーペル VCARN33052",
@@ -615,6 +531,34 @@
       "popular": false,
       "summary_ja": "ペルレの型番VCARN33052。市場で2件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Perrelet reference VCARN33052, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-08-18"
+    },
+    {
+      "id": "ref-vcaro3y551",
+      "name_en": "VCARO3Y551",
+      "name_ja": "ヴァンクリーフ アーペル VCARO3Y551",
+      "reference": "VCARO3Y551",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 235705,
+      "searchKeywordJa": "ペルレ VCARO3Y551",
+      "searchKeywordEn": "Perrelet VCARO3Y551",
+      "caseMaterial": "yellow-gold",
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ペルレの型番VCARO3Y551。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Perrelet reference VCARO3Y551, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
       "lastSeen": "2026-08-18"
@@ -1177,6 +1121,62 @@
       "summary_en": "Perrelet reference VCARP6X500, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
+      "lastSeen": "2026-08-18"
+    },
+    {
+      "id": "ref-a40231",
+      "name_en": "A4023/1",
+      "name_ja": "タービン トキシック A4023/1",
+      "reference": "A4023/1",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 315044,
+      "searchKeywordJa": "ペルレ A4023/1",
+      "searchKeywordEn": "Perrelet A4023/1",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph"
+      ],
+      "popular": false,
+      "summary_ja": "ペルレの型番A4023/1。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Perrelet reference A4023/1, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 0,
+      "lastSeen": "2026-08-18"
+    },
+    {
+      "id": "ref-704641",
+      "name_en": "70464-1",
+      "name_ja": "タービン トキシック 70464-1",
+      "reference": "70464-1",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 315044,
+      "searchKeywordJa": "ペルレ 70464-1",
+      "searchKeywordEn": "Perrelet 70464-1",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph"
+      ],
+      "popular": false,
+      "summary_ja": "ペルレの型番70464-1。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Perrelet reference 70464-1, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 0,
       "lastSeen": "2026-08-18"
     }
   ]
