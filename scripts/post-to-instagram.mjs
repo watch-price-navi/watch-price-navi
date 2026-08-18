@@ -161,7 +161,7 @@ const images = (Array.isArray(meta.images) && meta.images.length ? meta.images :
 
 console.log(`投稿対象: ${today}`);
 console.log(`  経路: ${VIA_INSTAGRAM_LOGIN ? 'Instagramログイン (graph.instagram.com)' : 'Facebookページ (graph.facebook.com)'}`);
-console.log(`  形式: ${images.length > 1 ? `カルーセル ${images.length}枚` : '1枚'}`);
+console.log(`  形式: ${STORY ? 'ストーリー' : images.length > 1 ? `カルーセル ${images.length}枚` : '1枚'}`);
 for (const [i, s] of images.entries()) console.log(`  画像${i + 1}: ${s}`);
 console.log(`  記事: ${meta.articleUrl}`);
 
@@ -206,7 +206,13 @@ const post = (body) =>
 
 // 1) コンテナを作る
 let containerId;
-if (images.length > 1) {
+if (STORY) {
+  // ストーリーは media_type=STORIES を必ず付ける。付け忘れると通常のフィード投稿として
+  // 公開されてしまう（エラーにならないので気づけない）。本文は付けられない仕様。
+  const container = await post({ image_url: images[0], media_type: 'STORIES' });
+  containerId = container.id;
+  console.log(`  ストーリーのコンテナ作成: ${containerId}`);
+} else if (images.length > 1) {
   /*
    * カルーセル（複数枚）は3段階になる。
    *   1. 1枚ずつ is_carousel_item を立てて子を作る

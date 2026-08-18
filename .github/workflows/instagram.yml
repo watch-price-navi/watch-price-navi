@@ -71,6 +71,7 @@ jobs:
         env:
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_TOKEN_OUT: ${{ runner.temp }}/ig_token.txt
           SLOT: ${{ steps.slot.outputs.slot }}
           DATE: ${{ inputs.date }}
         run: |
@@ -91,6 +92,7 @@ jobs:
         env:
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_TOKEN_OUT: ${{ runner.temp }}/ig_token.txt
           DATE: ${{ inputs.date }}
         run: |
           d=""
@@ -102,3 +104,29 @@ jobs:
           done
           echo "::error::ストーリーの投稿が3回とも失敗しました。"
           exit 1
+
+      # Instagramログイン方式のトークンは60日で切れる。投稿のついでに延長し、
+      # 別の値が返ったら Secrets に書き戻す（書き戻さないと60日後に投稿が止まる）。
+      # 投稿を update-prices.yml から移したとき、この書き戻しだけ向こうに残って
+      # 誰もトークンを延長しない状態になっていた。投稿と延長は必ず同じ場所に置くこと。
+      # Facebookページ方式のトークンは期限が無いので、このステップは何もしない。
+      - name: Save refreshed Instagram token
+        if: always()
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          f="${{ runner.temp }}/ig_token.txt"
+          if [ ! -s "$f" ]; then
+            echo "更新されたトークンはありません。"
+            exit 0
+          fi
+          if [ -z "$GH_TOKEN" ]; then
+            echo "::warning::GH_PAT が未設定のため、更新されたトークンを保存できません。"
+            echo "::warning::このままでは現在のトークンが期限切れになると投稿が止まります。"
+            rm -f "$f"
+            exit 0
+          fi
+          gh secret set IG_ACCESS_TOKEN --repo "${{ github.repository }}" < "$f"
+          rm -f "$f"
+          echo "IG_ACCESS_TOKEN を更新しました。"
