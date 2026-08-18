@@ -1,6 +1,6 @@
 {
   "brandId": "muhle-glashutte",
-  "generatedAt": "2026-08-17T12:24:07.239Z",
+  "generatedAt": "2026-08-17T23:39:45.579Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -229,6 +229,34 @@
       "lastSeen": "2026-08-17"
     },
     {
+      "id": "ref-m14443lb",
+      "name_en": "M1-44-43-LB",
+      "name_ja": "ドイツ M1-44-43-LB",
+      "reference": "M1-44-43-LB",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": 41,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 245437,
+      "searchKeywordJa": "ミューレ・グラスヒュッテ M1-44-43-LB",
+      "searchKeywordEn": "Mühle-Glashütte M1-44-43-LB",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "ミューレ・グラスヒュッテの型番M1-44-43-LB。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Mühle-Glashütte reference M1-44-43-LB, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
+      "lastSeen": "2026-08-17"
+    },
+    {
       "id": "ref-m15222ck",
       "name_en": "M1-52-22-CK",
       "name_ja": "M1-52-22-CK",
@@ -252,34 +280,6 @@
       "popular": false,
       "summary_ja": "ミューレ・グラスヒュッテの型番M1-52-22-CK。市場で2件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Mühle-Glashütte reference M1-52-22-CK, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-08-17"
-    },
-    {
-      "id": "ref-m14443lb",
-      "name_en": "M1-44-43-LB",
-      "name_ja": "ドイツ M1-44-43-LB",
-      "reference": "M1-44-43-LB",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": 41,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 247001,
-      "searchKeywordJa": "ミューレ・グラスヒュッテ M1-44-43-LB",
-      "searchKeywordEn": "Mühle-Glashütte M1-44-43-LB",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "limited-edition"
-      ],
-      "popular": false,
-      "summary_ja": "ミューレ・グラスヒュッテの型番M1-44-43-LB。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Mühle-Glashütte reference M1-44-43-LB, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
       "lastSeen": "2026-08-17"

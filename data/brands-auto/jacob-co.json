@@ -1,6 +1,6 @@
 {
   "brandId": "jacob-co",
-  "generatedAt": "2026-08-17T12:10:11.705Z",
+  "generatedAt": "2026-08-17T23:25:03.597Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -195,6 +195,34 @@
       "popular": false,
       "summary_ja": "ジェイコブの型番J2018。市場で2件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Jacob & Co. reference J2018, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-08-17"
+    },
+    {
+      "id": "ref-j2019",
+      "name_en": "J2019",
+      "name_ja": "ジョーロデオ ダイヤモンド J2019",
+      "reference": "J2019",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 686072,
+      "searchKeywordJa": "ジェイコブ J2019",
+      "searchKeywordEn": "Jacob & Co. J2019",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ジェイコブの型番J2019。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Jacob & Co. reference J2019, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
       "lastSeen": "2026-08-17"
@@ -674,34 +702,6 @@
       "popular": false,
       "summary_ja": "ジェイコブの型番J2016。市場で1件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Jacob & Co. reference J2016, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-08-17"
-    },
-    {
-      "id": "ref-j2019",
-      "name_en": "J2019",
-      "name_ja": "ジョーロデオ J2019",
-      "reference": "J2019",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 686072,
-      "searchKeywordJa": "ジェイコブ J2019",
-      "searchKeywordEn": "Jacob & Co. J2019",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ジェイコブの型番J2019。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Jacob & Co. reference J2019, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
       "lastSeen": "2026-08-17"

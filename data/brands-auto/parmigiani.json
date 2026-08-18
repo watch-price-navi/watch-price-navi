@@ -1,6 +1,6 @@
 {
   "brandId": "parmigiani",
-  "generatedAt": "2026-08-17T12:41:49.314Z",
+  "generatedAt": "2026-08-17T23:58:35.214Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -621,6 +621,34 @@
       "lastSeen": "2026-08-17"
     },
     {
+      "id": "ref-refpfc9072020001",
+      "name_en": "REF.PFC907-2020001",
+      "name_ja": "トンダ アニュアルカレンダー REF.PFC907-2020001",
+      "reference": "REF.PFC907-2020001",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 6761690,
+      "searchKeywordJa": "パルミジャーニ・フルリエ REF.PFC907-2020001",
+      "searchKeywordEn": "Parmigiani Fleurier REF.PFC907-2020001",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "パルミジャーニ・フルリエの型番REF.PFC907-2020001。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Parmigiani Fleurier reference REF.PFC907-2020001, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-08-17"
+    },
+    {
       "id": "ref-200182",
       "name_en": "200182",
       "name_ja": "トンダ アニュアルカレンダー 200182",
@@ -763,34 +791,6 @@
       "lastSeen": "2026-08-17"
     },
     {
-      "id": "ref-pf1032702",
-      "name_en": "PF10327.02",
-      "name_ja": "PF10327.02",
-      "reference": "PF10327.02",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "quartz",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 1200000,
-      "searchKeywordJa": "パルミジャーニ・フルリエ PF10327.02",
-      "searchKeywordEn": "Parmigiani Fleurier PF10327.02",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "パルミジャーニ・フルリエの型番PF10327.02。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Parmigiani Fleurier reference PF10327.02, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-08-17"
-    },
-    {
       "id": "ref-pf01027702",
       "name_en": "PF010277-02",
       "name_ja": "PF010277-02",
@@ -814,6 +814,34 @@
       "popular": false,
       "summary_ja": "パルミジャーニ・フルリエの型番PF010277-02。市場で1件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Parmigiani Fleurier reference PF010277-02, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-08-17"
+    },
+    {
+      "id": "ref-pf1032702",
+      "name_en": "PF10327.02",
+      "name_ja": "PF10327.02",
+      "reference": "PF10327.02",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "quartz",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 1200000,
+      "searchKeywordJa": "パルミジャーニ・フルリエ PF10327.02",
+      "searchKeywordEn": "Parmigiani Fleurier PF10327.02",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "パルミジャーニ・フルリエの型番PF10327.02。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Parmigiani Fleurier reference PF10327.02, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
       "lastSeen": "2026-08-17"
