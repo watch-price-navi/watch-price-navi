@@ -42,6 +42,23 @@ const dateArg = args[args.indexOf('--date') + 1];
 // 日本時間で数える（build-instagram-post.mjs と揃える）
 const today = args.includes('--date') && dateArg ? dateArg : new Date(Date.now() + 9 * 3600_000).toISOString().slice(0, 10);
 
+/*
+ * 失敗の理由は必ず ::error:: に出す。
+ *
+ * GitHub のログ本文は管理者権限のトークンでないと読めないが、
+ * `::error::` / `::warning::` で出した内容は check-runs の annotations として
+ * 認証なしの公開APIで読める（docs/進捗と申し送り.md 参照）。
+ * 例外を投げっぱなしにすると、その理由がログの中だけに残り、
+ * 手元からは「4回とも失敗しました」しか分からなくなる。
+ * 実際、2026-08-19の夜の失敗はこれで原因の切り分けに手間取った。
+ */
+for (const ev of ['uncaughtException', 'unhandledRejection']) {
+  process.on(ev, (e) => {
+    console.log(`::error::投稿に失敗しました: ${e?.message ?? e}`);
+    process.exit(1);
+  });
+}
+
 const IG_USER_ID = process.env.IG_USER_ID;
 const TOKEN = process.env.IG_ACCESS_TOKEN;
 // Instagramログイン方式のトークンだけが IGAA で始まる。それ以外はFacebook経由とみなす
