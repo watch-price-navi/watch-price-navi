@@ -321,28 +321,59 @@ export function getHeritage(): Record<string, HeritageBrand> {
  * 出品者名は持たない。eBayに「利用者のデータを保持しない」と申告して
  * アカウント削除通知の免除を受けているため、申告と実装を一致させる。
  */
+export interface EbayOffer {
+  title: string;
+  price: number;
+  currency: string;
+  /** 円換算の概算。レートが取れなかった回は null */
+  priceJpy: number | null;
+  url: string;
+  condition: 'new' | 'used';
+  country: string | null;
+}
+
 export interface EbayRef {
   price: number;
   currency: string;
+  priceJpy?: number | null;
   url: string;
   image: string | null;
   condition: 'new' | 'used';
   country: string | null;
   offerCount: number;
   updatedAt: string;
+  /** 国内の店と同じ表に並べる用。安い順に最大3件（2026-08-19、運営の指示で並列表示に変更） */
+  offers?: EbayOffer[];
 }
 
-let ebayCache: Record<string, EbayRef> | null = null;
+export interface EbayData {
+  rate: { usdJpy: number; at: string } | null;
+  models: Record<string, EbayRef>;
+}
 
-export function getEbaySummary(): Record<string, EbayRef> {
+let ebayCache: EbayData | null = null;
+
+export function getEbayData(): EbayData {
   if (ebayCache) return ebayCache;
   try {
     const f = path.join(dataDir, 'prices', 'ebay-summary.json');
-    ebayCache = fs.existsSync(f) ? readJson<Record<string, EbayRef>>(f) : {};
+    // 旧形式（モデルの連想配列が直に入っている）も読めるようにしておく。
+    // 取得スクリプトと同じコミットで形式を変えたが、手元に古いファイルが残っていることがある
+    const raw = fs.existsSync(f) ? readJson<Record<string, unknown>>(f) : {};
+    if (raw && typeof raw === 'object' && 'models' in raw) {
+      const d = raw as unknown as EbayData;
+      ebayCache = { rate: d.rate ?? null, models: d.models ?? {} };
+    } else {
+      ebayCache = { rate: null, models: (raw as unknown as Record<string, EbayRef>) ?? {} };
+    }
   } catch {
-    ebayCache = {};
+    ebayCache = { rate: null, models: {} };
   }
   return ebayCache;
+}
+
+export function getEbaySummary(): Record<string, EbayRef> {
+  return getEbayData().models;
 }
 
 /** 時計そのものの実写（CC / PD）。リンク先に制約が無いので使い勝手がよい */

@@ -204,10 +204,12 @@ jobs:
             git push
           fi
 
-      # 海外の参考価格。国内の最安値とは別枠で出す。
+      # 海外の出品価格。国内の店と同じ表に「eBay（海外）」の行として並べる
+      # （2026-08-19、運営の指示。円換算は概算と明記し、送料・関税の注記を必ず出す）。
       # eBayに「利用者のデータを保持しない」と申告して免除を受けているので、
       # 出品者名は取得も保存もしない（scripts/fetch-ebay.mjs の注記を参照）。
-      # 1日5,000回まで。朝夕で600件ずつなら十分に収まる。
+      # ランナーは毎回まっさらで前回の結果を持たないため、全型番（約830件）を毎回調べる。
+      # 実測10分前後。1日5,000回の枠には 830×2回 で十分収まる。
       - name: Fetch eBay reference prices
         if: env.FULL_RUN == 'true'
         continue-on-error: true
@@ -215,7 +217,7 @@ jobs:
           EBAY_APP_ID: ${{ secrets.EBAY_APP_ID }}
           EBAY_CERT_ID: ${{ secrets.EBAY_CERT_ID }}
           EBAY_CAMPAIGN_ID: ${{ vars.EBAY_CAMPAIGN_ID }}
-        run: node scripts/fetch-ebay.mjs --limit 600 --max-minutes 25
+        run: node scripts/fetch-ebay.mjs --limit 900 --max-minutes 25
 
       # 未収録の新作型番を検出して data/pending-models.json に記録（朝の回のみ）
       - name: Discover new models

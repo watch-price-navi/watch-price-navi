@@ -117,7 +117,9 @@ const dict: Dict = {
   lowest_used: { ja: '中古の最安値', en: 'Lowest pre-owned' },
   offer_count: { ja: '件の出品', en: 'listings' },
   cta_check_price: { ja: '最安値の店舗で見る', en: 'View at the cheapest store' },
-  // 海外相場。国内の最安値とは別枠にする（送料・関税・輸入消費税が乗るため）
+  // 海外相場。国内の店と同じ表に行として並べる（2026-08-19、運営の指示で別枠から変更。
+  // 円は概算と明記し、送料・関税の注記を必ず出す）
+  source_ebay_tag: { ja: '海外', en: 'overseas' },
   ebay_title: { ja: '海外の参考価格（eBay）', en: 'Overseas reference price (eBay)' },
   ebay_note: {
     ja: '海外からの取り寄せには国際送料・関税・輸入消費税がかかり、支払総額は表示価格より1〜2割ほど高くなります。国内の最安値と直接は比べられません。',

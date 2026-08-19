@@ -110,8 +110,10 @@ async function search(brandEn, reference) {
       limit: '10',
       sort: 'price',
       // 腕時計の分類に限る（31387 = Wristwatches）。腕時計以外の雑貨を弾く
+      // 注意: itemLocationCountry の「!JP」のような否定はeBay側で無効（黙って無視される）。
+      // 実際にJPの出品が混ざったので、取得後にコードで弾く（下のfilter）。
       category_ids: '31387',
-      filter: 'buyingOptions:{FIXED_PRICE},itemLocationCountry:!JP',
+      filter: 'buyingOptions:{FIXED_PRICE}',
     });
 
   const headers = {
@@ -138,9 +140,35 @@ async function search(brandEn, reference) {
       condition: /new/i.test(it.condition ?? '') ? 'new' : 'used',
       // ここで seller は意図的に読まない。免除の申告どおり保持しない
     }))
-    .filter((x) => x.price > 0 && x.url);
+    // 日本国内からの出品は弾く。「海外の出品」の枠なので国内が混ざると意味が濁るし、
+    // 国内で買うなら楽天・Yahoo!の行がすでにある
+    .filter((x) => x.price > 0 && x.url && x.country !== 'JP');
 
   return items.sort((a, b) => a.price - b.price);
+}
+
+/**
+ * 円換算レート。表示は「並列の比較」なので円が要る（2026-08-19、運営の指示で
+ * 国内の店と同じ表に並べることになった。概算である旨と送料・関税の注記は必ず出す）。
+ * ECB系の frankfurter.dev を第一候補、open.er-api.com を控えにする。どちらも鍵不要。
+ * 両方落ちていたら前回のレートを使い続ける。
+ */
+async function fxUsdJpy() {
+  const sources = [
+    ['frankfurter', 'https://api.frankfurter.dev/v1/latest?base=USD&symbols=JPY', (j) => j?.rates?.JPY],
+    ['er-api', 'https://open.er-api.com/v6/latest/USD', (j) => j?.rates?.JPY],
+  ];
+  for (const [name, url, pick] of sources) {
+    try {
+      const res = await fetch(url);
+      const v = Number(pick(await res.json()));
+      // 桁違いの値をそのまま信じない（レート源の事故に備えた粗い関所）
+      if (v > 50 && v < 500) return { usdJpy: Math.round(v * 100) / 100, at: new Date().toISOString(), source: name };
+    } catch {
+      // 次の候補を試す
+    }
+  }
+  return null;
 }
 
 // ---- 対象モデルを決める ----
@@ -177,8 +205,28 @@ for (const c of catalogs) {
   }
 }
 targets.sort((a, b) => a.rank - b.rank);
-const queue = targets.slice(0, LIMIT);
-console.log(`型番のあるモデル ${targets.length}件 のうち ${queue.length}件を調べます`);
+// 朝の回は先頭から、昼過ぎ以降の回は後ろから取る。
+// 1回の上限(600件)では全件を覆えないため、朝夕あわせて毎日全件が更新されるようにする。
+// （記事参照・人気モデルは先頭に並ぶので朝に、残りは夕方に回る）
+const jstHour = Number(new Date(Date.now() + 9 * 3600_000).toISOString().slice(11, 13));
+const queue = jstHour >= 12 && targets.length > LIMIT ? targets.slice(-LIMIT) : targets.slice(0, LIMIT);
+console.log(`型番のあるモデル ${targets.length}件 のうち ${queue.length}件を調べます（${jstHour >= 12 ? '後半' : '前半'}）`);
+
+// ---- 前回の結果と為替レート ----
+const outFile = path.join(ROOT, 'data/prices/ebay-summary.json');
+// 今回調べないモデルは前回の値を残す（7日で捨てる。古いリンクは売り切れて404になるため）
+const prevFile = (() => {
+  try {
+    return readJson(outFile);
+  } catch {
+    return {};
+  }
+})();
+const prevModels = prevFile.models ?? (prevFile.rate === undefined ? prevFile : {});
+const rate = (await fxUsdJpy()) ?? prevFile.rate ?? null;
+if (rate) console.log(`為替: 1 USD = ${rate.usdJpy} 円（${rate.source ?? '前回の値'}）`);
+else console.log('::warning::円換算レートを取得できませんでした。円概算なしで保存します。');
+const toJpy = (price, currency) => (rate && currency === 'USD' ? Math.round(price * rate.usdJpy) : null);
 
 // ---- 取得 ----
 const out = {};
@@ -208,12 +256,24 @@ for (const t of queue) {
   out[t.key] = {
     price: best.price,
     currency: best.currency,
+    priceJpy: toJpy(best.price, best.currency),
     url: best.url,
     image: best.image,
     condition: best.condition,
     country: best.country,
     offerCount: items.length,
     updatedAt: new Date().toISOString(),
+    // 国内の店と同じ表に並べる用。安い順に3件まで。
+    // 商品名は保存してよい（保持しないと申告したのは出品者の情報であって商品の情報ではない）
+    offers: items.slice(0, 3).map((x) => ({
+      title: x.title,
+      price: x.price,
+      currency: x.currency,
+      priceJpy: toJpy(x.price, x.currency),
+      url: x.url,
+      condition: x.condition,
+      country: x.country,
+    })),
   };
   ok++;
   if (DRY) {
@@ -225,10 +285,15 @@ for (const t of queue) {
 
 if (DRY) process.exit(0);
 
-const outFile = path.join(ROOT, 'data/prices/ebay-summary.json');
+// 今回調べなかったモデルの前回値を残し、7日を超えたものは捨てる
+const cutoff = Date.now() - 7 * 86400_000;
+const carried = Object.fromEntries(
+  Object.entries(prevModels).filter(([, v]) => Date.parse(v?.updatedAt ?? 0) > cutoff),
+);
+const models = { ...carried, ...out };
 fs.mkdirSync(path.dirname(outFile), { recursive: true });
-fs.writeFileSync(outFile, JSON.stringify(out, null, 2), 'utf8');
-console.log(`\n海外価格: ${ok}モデル / 見つからず ${queue.length - ok - ng - skipped}件 / エラー ${ng}件`);
+fs.writeFileSync(outFile, JSON.stringify({ rate, models }, null, 2), 'utf8');
+console.log(`\n海外価格: ${ok}モデル（引き継ぎ含め計 ${Object.keys(models).length}件） / 見つからず ${queue.length - ok - ng - skipped}件 / エラー ${ng}件`);
 if (skipped > 0) console.log(`時間の上限(${MAX_MINUTES}分)により ${skipped}件を次回に繰り越しました`);
 console.log(`→ ${path.relative(ROOT, outFile)}`);
 if (!CAMPAIGN) {

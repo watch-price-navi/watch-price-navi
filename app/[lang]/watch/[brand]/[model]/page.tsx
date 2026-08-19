@@ -7,7 +7,7 @@ import KaitoriPanel from '@/components/KaitoriPanel';
 import ModelCard from '@/components/ModelCard';
 import PriceTable from '@/components/PriceTable';
 import { absUrl } from '@/lib/config';
-import { getAllBrands, getBrand, getDealers, getEbaySummary, getModel, getPriceData, getSummary, hasOwnPage } from '@/lib/data';
+import { getAllBrands, getBrand, getDealers, getEbayData, getModel, getPriceData, getSummary, hasOwnPage } from '@/lib/data';
 import { formatDate, formatJpy } from '@/lib/format';
 import { imageUrl } from '@/lib/image';
 import { LANGS, t, type Lang } from '@/lib/i18n';
@@ -90,8 +90,11 @@ export default async function ModelPage({
   const summary = getSummary();
   const lowest = summary[`${brandId}/${modelId}`] ?? null;
   const dealers = getDealers();
-  // 海外の参考価格。無ければ節ごと出さない
-  const ebay = getEbaySummary()[`${brandId}/${model.id}`] ?? null;
+  // 海外の出品。国内の店と同じ表に「eBay（海外）」の行として並べる
+  // （2026-08-19、運営の指示。円は概算と明記し、送料・関税の注記を表の下に出す）
+  const ebayData = getEbayData();
+  const ebay = ebayData.models[`${brandId}/${model.id}`] ?? null;
+  const ebayOffers = (ebay?.offers ?? []).filter((e) => e.priceJpy != null);
   const bName = lang === 'ja' ? brand.name_ja : brand.name_en;
   const mName = lang === 'ja' ? model.name_ja : model.name_en;
   const offers = prices?.offers ?? [];
@@ -339,8 +342,14 @@ export default async function ModelPage({
 
       <section className="section" id="offers" style={{ paddingTop: 8, scrollMarginTop: 80 }}>
         <h2 className="section-title">{t(lang, 'offers_title')}</h2>
-        {offers.length > 0 && prices ? (
-          <PriceTable offers={offers} updatedAt={prices.updatedAt} lang={lang} />
+        {offers.length > 0 || ebayOffers.length > 0 ? (
+          <PriceTable
+            offers={offers}
+            ebayOffers={ebayOffers}
+            ebayRate={ebayData.rate?.usdJpy ?? null}
+            updatedAt={prices?.updatedAt ?? ebay?.updatedAt ?? ''}
+            lang={lang}
+          />
         ) : (
           <div className="notice notice-empty">
             <b>{t(lang, 'no_prices_title')}</b>
@@ -354,35 +363,11 @@ export default async function ModelPage({
           出品が無いページでは上に出している（下のほうまで読ませても意味がない）。 */}
       {offers.length > 0 && <KaitoriPanel lang={lang} modelName={`${bName} ${mName}`} />}
 
-      {/* 海外の参考価格。
-          国内の最安値と同じ表に混ぜない。海外から取り寄せれば国際送料・関税・
-          輸入消費税が乗り、実際の支払いは1〜2割増える。同じ土俵に並べると
-          「こちらの方が安い」と読者を誤らせる。別枠にして、その旨も添える。
-
-          この節には楽天のデータを一切出さないので、eBayへリンクしてよい
-          （楽天ウェブサービス規約 第8条4項に触れない）。 */}
-      {ebay && (
-        <section className="section" style={{ paddingTop: 8 }}>
-          <h2 className="section-title">{t(lang, 'ebay_title')}</h2>
-          <div className="ebay-panel">
-            <div className="eb-main">
-              <span className="eb-price">
-                {ebay.currency} {ebay.price.toLocaleString(lang === 'ja' ? 'ja-JP' : 'en-US')}
-              </span>
-              <span className="eb-meta">
-                {ebay.offerCount}
-                {t(lang, 'ebay_offers')}
-                {ebay.country ? ` ・ ${ebay.country}` : ''}
-                {ebay.condition === 'new' ? ' ・ New' : ' ・ Used'}
-              </span>
-            </div>
-            <a className="btn" href={ebay.url} target="_blank" rel="sponsored nofollow noopener">
-              {t(lang, 'ebay_view')} →
-            </a>
-          </div>
-          <p className="eb-note">{t(lang, 'ebay_note')}</p>
-        </section>
-      )}
+      {/* eBay（海外）は上の価格表の行として並べている（2026-08-19に別枠から変更）。
+          以前ここにあった独立の「海外の参考価格」枠は表に統合した。
+          表は行ごとに完結している（楽天の行は楽天のデータだけを出し楽天へリンクする）ので、
+          eBayの行を混ぜても楽天ウェブサービス規約 第8条4項には触れない。
+          Yahoo!の行を混ぜている従来の解釈と同じ。 */}
 
       {!compact && <AdSlot />}
 
