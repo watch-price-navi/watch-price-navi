@@ -282,7 +282,7 @@ function fallbackImage() {
  * 画像を1枚組む。
  * 縦（ストーリー）も横（投稿）も同じ関数で作れるよう、寸法を引数にした。
  */
-async function compose({ bgFile, w, h, eyebrow, title, body, footer, credit, out, chip }) {
+async function compose({ bgFile, w, h, eyebrow, title, subtitle, body, footer, credit, out, chip }) {
   if (!fs.existsSync(bgFile)) throw new Error(`背景がありません: ${bgFile}`);
 
   const pad = Math.round(w * 0.067);
@@ -290,6 +290,19 @@ async function compose({ bgFile, w, h, eyebrow, title, body, footer, credit, out
   const titleLines = wrap(title, h > w ? 11 : 12);
   const bodySize = Math.round(w * 0.0255);
   const bodyLines = wrap(body ?? '', h > w ? 21 : 23).slice(0, h > w ? 9 : 7);
+
+  // 見出しの下に添える英語（ブランドの欧文表記・記事の英題など）。1行だけ。
+  // 読者の半分は海外で、画像に日本語しか無いと素通りされる。
+  // 長いものは語の途中で切らず「…」で締める
+  const subSize = Math.round(w * 0.0235);
+  const subMax = Math.floor(((w - pad * 2) / subSize) * 1.85);
+  let subLine = String(subtitle ?? '').trim();
+  if (subLine.length > subMax) {
+    const cut = subLine.slice(0, subMax);
+    const sp = cut.lastIndexOf(' ');
+    subLine = (sp > subMax * 0.6 ? cut.slice(0, sp) : cut).trimEnd() + '…';
+  }
+  const subLH = subLine ? Math.round(subSize * 1.7) : 0;
 
   /*
    * 文字は上からではなく、下から積む。
@@ -302,8 +315,10 @@ async function compose({ bgFile, w, h, eyebrow, title, body, footer, credit, out
   const bodyBottom = footerY - Math.round(h * 0.072);
   const bodyTop = bodyBottom - (bodyLines.length - 1) * bodyLH;
   // 見出しと本文の間は、見出しの字の大きさに合わせて空ける。
-  // 固定値にすると、見出しが大きい日に字面がぶつかる
-  const titleTop = bodyTop - Math.round(titleSize * 1.15) - (titleLines.length - 1) * titleLH;
+  // 固定値にすると、見出しが大きい日に字面がぶつかる。
+  // 英語のサブタイトルが入る日は、その1行ぶん見出しを上へずらす
+  const titleTop = bodyTop - Math.round(titleSize * 1.15) - (titleLines.length - 1) * titleLH - subLH;
+  const subY = titleTop + (titleLines.length - 1) * titleLH + Math.round(titleSize * 0.95);
 
   /*
    * ストーリー用のリンク表示（chip）。
@@ -348,6 +363,7 @@ async function compose({ bgFile, w, h, eyebrow, title, body, footer, credit, out
         `<text x="${pad}" y="${titleTop + i * titleLH}" fill="#f7f2e8" font-size="${titleSize}" letter-spacing="2" font-family=${JSON.stringify(MINCHO)}>${esc(l)}</text>`,
     )
     .join('\n  ')}
+  ${subLine ? `<text x="${pad}" y="${subY}" fill="#b9ae9d" font-size="${subSize}" letter-spacing="1.5" font-family=${JSON.stringify(GOTHIC)}>${esc(subLine)}</text>` : ''}
   ${bodyLines
     .map(
       (l, i) =>
@@ -405,8 +421,9 @@ async function buildBrandStory() {
     h: 1080,
     eyebrow: 'BRAND STORY',
     title: b.name_ja,
+    subtitle: b.name_en,
     body: lead,
-    footer: `${b.country ?? ''}　創業${b.founded ?? ''}年`.trim(),
+    footer: [b.country ?? '', b.founded ? `創業${b.founded}年 ─ Since ${b.founded}` : ''].filter(Boolean).join('　'),
     credit: creditLine(img.credit),
     out,
   });
@@ -515,6 +532,7 @@ async function buildStory() {
   // その日の記事があればそれを、無ければ用語解説をストーリーにする
   let eyebrow = 'TODAY';
   let title = '';
+  let subtitle = '';
   let body = '';
   let bgFile = null;
   let credit = null;
@@ -535,6 +553,7 @@ async function buildStory() {
       .find((x) => x.date === today);
     if (!p) throw new Error('その日の記事がありません');
     title = p.title_ja ?? '';
+    subtitle = String(p.title_en ?? '').replace(/｜.*$/, '').trim();
     body = String(p.description_ja ?? '').slice(0, 110);
     const bid = String(p.heroModel ?? '').split('/')[0];
     const img = brandImage(bid, { neutralFallback: true });
@@ -549,6 +568,7 @@ async function buildStory() {
     const t = terms[seed % terms.length];
     eyebrow = 'WATCH GLOSSARY';
     title = t.termJa;
+    subtitle = t.termEn ?? '';
     body = t.leadJa;
     const img = fallbackImage();
     bgFile = img.src;
@@ -562,10 +582,11 @@ async function buildStory() {
     h: 1920,
     eyebrow,
     title,
+    subtitle,
     body,
     footer: '',
     // タップできるリンクはAPIでは付けられないので、リンク風の意匠で誘導する
-    chip: { hint: '記事と最安値は、プロフィールのリンクから', url: 'watch-price-navi.github.io' },
+    chip: { hint: '記事と最安値は、プロフィールのリンクから ─ Link in bio', url: 'watch-price-navi.github.io' },
     credit,
     out,
   });

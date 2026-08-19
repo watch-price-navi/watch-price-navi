@@ -243,6 +243,11 @@ function cleanAuthor(raw) {
   return s.length > 2 && s.length <= 40 ? s : '';
 }
 
+// 英語のタイトルを1行だけ添える（読者の半分は海外。本文は日英併記だが、
+// 手が止まるかどうかは画像で決まる）。長い英題は語の途中で切らず「…」で締める。
+// trim() は関数宣言なので、この位置（定義より上）からでも呼べる
+const titleEnLine = trim(String(post.title_en ?? '').replace(/｜.*$/, '').trim(), 76);
+
 const creditAuthor = bg.credit ? cleanAuthor(bg.credit.author) : '';
 // 断り書き（同型の別個体・同ブランドの別モデル）は出典と一緒に画像の隅にも出す
 const creditText = bg.credit
@@ -269,7 +274,8 @@ const overlay = Buffer.from(`<svg width="${SIZE}" height="${SIZE}" xmlns="http:/
         `<text x="72" y="${startY + i * lineH}" fill="#f7f2e8" font-size="${fit.size}" letter-spacing="2" font-family=${JSON.stringify(MINCHO)}>${esc(l)}</text>`,
     )
     .join('\n  ')}
-  <text x="72" y="${SIZE - 96}" fill="#cfc6b6" font-size="21" letter-spacing="1" font-family=${JSON.stringify(GOTHIC)}>楽天・Yahoo!の価格を毎日自動更新</text>
+  ${titleEnLine ? `<text x="72" y="${SIZE - 138}" fill="#b9ae9d" font-size="23" letter-spacing="1" font-family=${JSON.stringify(GOTHIC)}>${esc(titleEnLine)}</text>` : ''}
+  <text x="72" y="${SIZE - 96}" fill="#cfc6b6" font-size="21" letter-spacing="1" font-family=${JSON.stringify(GOTHIC)}>楽天・Yahoo!の価格を毎日自動更新 ─ Tracking Japan's watch prices daily</text>
   <text x="72" y="${SIZE - 62}" fill="#a79d8e" font-size="17" letter-spacing="2" font-family=${JSON.stringify(GOTHIC)}>watch-price-navi.github.io</text>
   ${creditText ? `<text x="${SIZE - 72}" y="${SIZE - 62}" text-anchor="end" fill="#8a8175" font-size="13" font-family=${JSON.stringify(GOTHIC)}>${esc(creditText)}</text>` : ''}
 </svg>`);
