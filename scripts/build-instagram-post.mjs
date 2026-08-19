@@ -275,7 +275,7 @@ const overlay = Buffer.from(`<svg width="${SIZE}" height="${SIZE}" xmlns="http:/
     )
     .join('\n  ')}
   ${titleEnLine ? `<text x="72" y="${SIZE - 138}" fill="#b9ae9d" font-size="23" letter-spacing="1" font-family=${JSON.stringify(GOTHIC)}>${esc(titleEnLine)}</text>` : ''}
-  <text x="72" y="${SIZE - 96}" fill="#cfc6b6" font-size="21" letter-spacing="1" font-family=${JSON.stringify(GOTHIC)}>楽天・Yahoo!の価格を毎日自動更新 ─ Tracking Japan's watch prices daily</text>
+  <text x="72" y="${SIZE - 96}" fill="#cfc6b6" font-size="21" letter-spacing="1" font-family=${JSON.stringify(GOTHIC)}>日本の腕時計価格を毎日自動更新 ─ Tracking Japan's watch prices daily</text>
   <text x="72" y="${SIZE - 62}" fill="#a79d8e" font-size="17" letter-spacing="2" font-family=${JSON.stringify(GOTHIC)}>watch-price-navi.github.io</text>
   ${creditText ? `<text x="${SIZE - 72}" y="${SIZE - 62}" text-anchor="end" fill="#8a8175" font-size="13" font-family=${JSON.stringify(GOTHIC)}>${esc(creditText)}</text>` : ''}
 </svg>`);
@@ -369,7 +369,8 @@ const caption = [
   trim(post.description_ja, 160),
   '',
   '記事はプロフィールのリンクから読めます。',
-  '楽天市場・Yahoo!ショッピングの価格を毎日自動で集めて、型番ごとの最安値を載せています。',
+  // 具体的なEC名はサイトの外では出さない（2026-08-19、運営の指示）
+  '日本国内の販売価格を毎日自動で集めて、型番ごとの最安値を載せています。',
   ...(titleEn || descEn
     ? [
         '',
