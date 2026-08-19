@@ -282,7 +282,7 @@ function fallbackImage() {
  * 画像を1枚組む。
  * 縦（ストーリー）も横（投稿）も同じ関数で作れるよう、寸法を引数にした。
  */
-async function compose({ bgFile, w, h, eyebrow, title, body, footer, credit, out }) {
+async function compose({ bgFile, w, h, eyebrow, title, body, footer, credit, out, chip }) {
   if (!fs.existsSync(bgFile)) throw new Error(`背景がありません: ${bgFile}`);
 
   const pad = Math.round(w * 0.067);
@@ -304,6 +304,23 @@ async function compose({ bgFile, w, h, eyebrow, title, body, footer, credit, out
   // 見出しと本文の間は、見出しの字の大きさに合わせて空ける。
   // 固定値にすると、見出しが大きい日に字面がぶつかる
   const titleTop = bodyTop - Math.round(titleSize * 1.15) - (titleLines.length - 1) * titleLH;
+
+  /*
+   * ストーリー用のリンク表示（chip）。
+   * API はタップできるリンクスタンプを付けられない（Meta の仕様。手動投稿のみ可）。
+   * せめて「どこを押せば開けるか」とURLを、リンク風の錠剤型の意匠で目立たせる。
+   * 絵文字は使わない（CIのlibrsvgには絵文字フォントが無く豆腐になる）。
+   */
+  let chipSvg = '';
+  if (chip) {
+    const cfs = Math.round(w * 0.026);
+    const ch2 = Math.round(cfs * 2.2);
+    const cw2 = Math.round([...chip.url].length * cfs * 0.6 + cfs * 2.6);
+    const cy2 = footerY - ch2 + Math.round(cfs * 0.4);
+    chipSvg = `<text x="${pad}" y="${cy2 - Math.round(cfs * 0.9)}" fill="#cfc6b6" font-size="${Math.round(w * 0.022)}" letter-spacing="1" font-family=${JSON.stringify(GOTHIC)}>${esc(chip.hint)}</text>
+  <rect x="${pad}" y="${cy2}" width="${cw2}" height="${ch2}" rx="${Math.round(ch2 / 2)}" fill="rgba(201,164,106,0.14)" stroke="#c9a46a" stroke-width="1.5"/>
+  <text x="${pad + Math.round(cw2 / 2)}" y="${cy2 + Math.round(ch2 * 0.66)}" text-anchor="middle" fill="#f7f2e8" font-size="${cfs}" letter-spacing="1" font-family=${JSON.stringify(GOTHIC)}>${esc(chip.url)}</text>`;
+  }
 
   const svg = `<svg width="${w}" height="${h}" xmlns="http://www.w3.org/2000/svg">
   <defs>
@@ -337,8 +354,12 @@ async function compose({ bgFile, w, h, eyebrow, title, body, footer, credit, out
         `<text x="${pad}" y="${bodyTop + i * bodyLH}" fill="#ded6c8" font-size="${bodySize}" letter-spacing="1" font-family=${JSON.stringify(GOTHIC)}>${esc(l)}</text>`,
     )
     .join('\n  ')}
-  <text x="${pad}" y="${footerY}" fill="#cfc6b6" font-size="${Math.round(w * 0.0195)}" letter-spacing="1" font-family=${JSON.stringify(GOTHIC)}>${esc(footer)}</text>
-  <text x="${pad}" y="${h - Math.round(h * 0.057)}" fill="#a79d8e" font-size="${Math.round(w * 0.0157)}" letter-spacing="2" font-family=${JSON.stringify(GOTHIC)}>watch-price-navi.github.io</text>
+  ${
+    chip
+      ? chipSvg
+      : `<text x="${pad}" y="${footerY}" fill="#cfc6b6" font-size="${Math.round(w * 0.0195)}" letter-spacing="1" font-family=${JSON.stringify(GOTHIC)}>${esc(footer)}</text>
+  <text x="${pad}" y="${h - Math.round(h * 0.057)}" fill="#a79d8e" font-size="${Math.round(w * 0.0157)}" letter-spacing="2" font-family=${JSON.stringify(GOTHIC)}>watch-price-navi.github.io</text>`
+  }
   ${credit ? `<text x="${w - pad}" y="${h - Math.round(h * 0.057)}" text-anchor="end" fill="#8a8175" font-size="${Math.round(w * 0.012)}" font-family=${JSON.stringify(GOTHIC)}>${esc(credit)}</text>` : ''}
 </svg>`;
 
@@ -542,7 +563,9 @@ async function buildStory() {
     eyebrow,
     title,
     body,
-    footer: 'プロフィールのリンクから',
+    footer: '',
+    // タップできるリンクはAPIでは付けられないので、リンク風の意匠で誘導する
+    chip: { hint: '記事と最安値は、プロフィールのリンクから', url: 'watch-price-navi.github.io' },
     credit,
     out,
   });
