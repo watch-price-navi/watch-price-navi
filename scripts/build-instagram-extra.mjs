@@ -189,13 +189,18 @@ const watchPhotos = (() => {
   }
 })();
 
-/** そのブランドの時計の写真。無ければ null */
+/** そのブランドの時計の写真。無ければ null。watchPool はブランドプール出身の印 */
 function brandWatchPhoto(brandId) {
   const list = watchPhotos.brands?.[brandId]?.photos ?? [];
-  if (!list.length) return null;
-  const p = list[seed % list.length];
-  const src = path.join(ROOT, 'public', p.file.replace(/^\//, ''));
-  return fs.existsSync(src) ? { src, credit: { author: p.author, license: p.license } } : null;
+  // 日替わりの1枚が消えていても諦めず、次の候補を順に試す
+  for (let i = 0; i < list.length; i++) {
+    const p = list[(seed + i) % list.length];
+    const src = path.join(ROOT, 'public', p.file.replace(/^\//, ''));
+    if (fs.existsSync(src)) {
+      return { src, credit: { author: p.author, license: p.license, source: p.source }, watchPool: true };
+    }
+  }
+  return null;
 }
 
 /**
@@ -232,7 +237,7 @@ function pickBrand() {
   return pool[seed % pool.length];
 }
 
-function brandImage(brandId) {
+function brandImage(brandId, { neutralFallback = false } = {}) {
   // まず時計そのもの。読者が見たいのは時計であって風景ではない
   const watch = brandWatchPhoto(brandId);
   if (watch) return watch;
@@ -240,7 +245,18 @@ function brandImage(brandId) {
   if (town) return { src: path.join(ROOT, 'public', town.src.replace(/^\//, '')), credit: town };
   const founder = heritageImgs[`${brandId}-founder`];
   if (founder) return { src: path.join(ROOT, 'public', founder.src.replace(/^\//, '')), credit: founder };
-  return fallbackImage();
+  // neutralFallback: 型番を名指しする文脈（ストーリー等）では、他ブランドの時計に
+  // 落とさない。断り書きを付けても「別ブランドの時計」は誤解が強すぎるため、
+  // 時計が主役でない世界観画像に落とす
+  return neutralFallback ? neutralImage() : fallbackImage();
+}
+
+function neutralImage() {
+  if (styling.length) {
+    const l = styling[seed % styling.length];
+    return { src: path.join(ROOT, 'public', l.image.replace(/^\//, '')), credit: null };
+  }
+  return { src: path.join(ROOT, 'public/img/hero-a.webp'), credit: null };
 }
 
 function fallbackImage() {
@@ -253,7 +269,7 @@ function fallbackImage() {
     const b = withWatch[seed % withWatch.length];
     const p = b.photos[seed % b.photos.length];
     const src = path.join(ROOT, 'public', p.file.replace(/^\//, ''));
-    if (fs.existsSync(src)) return { src, credit: { author: p.author, license: p.license } };
+    if (fs.existsSync(src)) return { src, credit: { author: p.author, license: p.license, source: p.source } };
   }
   if (styling.length) {
     const l = styling[seed % styling.length];
@@ -332,8 +348,27 @@ async function compose({ bgFile, w, h, eyebrow, title, body, footer, credit, out
   await sharp(base).composite([{ input: Buffer.from(svg) }]).jpeg({ quality: 88, mozjpeg: true }).toFile(out);
 }
 
-/** 写真の出典。CC の条件なので必ず書く */
-const creditLine = (c) => (c ? [c.author, c.license].filter(Boolean).join(' / ') : null);
+/** 写真の出典。CC の条件なので必ず書く。作者名が無い写真は出典サイト名で補う */
+const creditLine = (c) => {
+  if (!c) return null;
+  const author = String(c.author ?? '').trim();
+  if (author) return [author, c.license].filter(Boolean).join(' / ');
+  let host = '';
+  try {
+    host = new URL(c.source).host.replace(/^www\./, '');
+  } catch {
+    // source が無い・URLでないときはライセンス名だけになる
+  }
+  return [c.license, host].filter(Boolean).join(' / ');
+};
+
+/** 本文用の出典行。作者名の無い写真は出典ページのURLまで載せて表示義務を果たす */
+function captionCredit(c) {
+  if (!c) return '';
+  const line = `Photo: ${creditLine(c)}`;
+  const noAuthor = !String(c.author ?? '').trim();
+  return noAuthor && c.source ? `${line}\n${c.source}` : line;
+}
 
 // ---------- 昼：ブランドの物語 ----------
 async function buildBrandStory() {
@@ -381,7 +416,7 @@ async function buildBrandStory() {
     firstSentences(b.description_en ?? '', 2),
     '',
     'Live prices via the link in bio.',
-    img.credit ? `\nPhoto: ${creditLine(img.credit)}` : '',
+    img.credit ? `\n${captionCredit(img.credit)}` : '',
     '',
     hashtags(b),
   ]
@@ -437,6 +472,7 @@ async function buildGlossary() {
     `${t.termEn} — ${t.enLead}`,
     '',
     'Search by movement, case size and material via the link in bio.',
+    img.credit ? `\n${captionCredit(img.credit)}` : '',
     '',
     ['#腕時計', '#時計好きと繋がりたい', '#機械式時計', '#時計知識', '#watchesofinstagram', '#horology'].join(' '),
   ].join('\n');
@@ -480,9 +516,13 @@ async function buildStory() {
     title = p.title_ja ?? '';
     body = String(p.description_ja ?? '').slice(0, 110);
     const bid = String(p.heroModel ?? '').split('/')[0];
-    const img = brandImage(bid);
+    const img = brandImage(bid, { neutralFallback: true });
     bgFile = img.src;
-    credit = creditLine(img.credit);
+    // ブランドプールの写真は記事のモデルとは別物。
+    // 記事の時計の写真だと誤解されないよう断り書きを付ける
+    credit = [creditLine(img.credit), img.watchPool ? '（同ブランドの別モデル）' : null]
+      .filter(Boolean)
+      .join('');
   } catch {
     const terms = readJson(path.join(ROOT, 'data/glossary.json')).terms ?? [];
     const t = terms[seed % terms.length];

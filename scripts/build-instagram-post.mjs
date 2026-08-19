@@ -66,10 +66,59 @@ const heritageImgs = readJson(path.join(ROOT, 'data/heritage-images.json')).imag
 const styling = readJson(path.join(ROOT, 'data/styling.json'));
 
 /**
- * 背景を選ぶ。発祥の地 → 創業者 → スタイリング → ブティック の順に探す。
- * 記事と関係のある画像を優先し、無ければサイトの世界観を担う画像に落とす。
+ * 背景を選ぶ。**まず時計そのもの**。読者が見たいのは時計であって風景ではない
+ * （2026-08-19、ジュネーブの街並みが表紙に出て指摘を受けた）。
+ *
+ *   1. 記事のモデルの実写（型番一致 or 同シリーズ。同シリーズなら「同型の別個体」と明記）
+ *   2. 同ブランドの別モデルの実写（「同ブランドの別モデル」と画像と本文の両方に明記。
+ *      明記するのは、読者が記事の時計の写真だと誤解したまま買いに行くのを防ぐため）
+ *   3. 発祥の地 → 創業者 → スタイリング → ブティック（時計の写真が無い日の従来の順）
+ *
+ * credit.via は出典の書き分けに使う（Wikimedia と Openverse で文言が違う）。
+ * note は写真と記事の関係の断り書き。画像の隅と本文の両方に出す。
  */
 function pickBackground() {
+  // provider は取得元サイトのスラッグ（wikimedia / flickr 等。Openverse 経由の写真は
+  // 'openverse' ではなく供給元の名前が入る）。古い項目は欠けているので source のURLでも見る
+  const via = (p) => {
+    const src = String(p.source ?? '');
+    if (p.provider === 'wikimedia' || src.includes('commons.wikimedia.org')) return 'Wikimedia Commons';
+    if (p.provider === 'flickr' || src.includes('flickr.com')) return 'Flickr';
+    return 'Openverse';
+  };
+  try {
+    const wp = readJson(path.join(ROOT, 'data/watch-photos.json'));
+    const modelPhotos = wp.models?.[String(post.heroModel ?? '')]?.photos ?? [];
+    for (const p of modelPhotos) {
+      const f = path.join(ROOT, 'public', p.file.replace(/^\//, ''));
+      if (!fs.existsSync(f)) continue;
+      return {
+        file: f,
+        credit: { author: p.author, license: p.license, source: p.source, via: via(p) },
+        kind: 'watch-model',
+        note: p.exact ? '' : '（同型の別個体）',
+      };
+    }
+    const pool = wp.brands?.[brandId]?.photos ?? [];
+    if (pool.length) {
+      // 日付で回して、同じブランドの記事が続いても同じ写真にならないようにする
+      const idx = Number(today.replace(/-/g, '')) % pool.length;
+      for (let i = 0; i < pool.length; i++) {
+        const p = pool[(idx + i) % pool.length];
+        const f = path.join(ROOT, 'public', p.file.replace(/^\//, ''));
+        if (!fs.existsSync(f)) continue;
+        return {
+          file: f,
+          credit: { author: p.author, license: p.license, source: p.source, via: via(p) },
+          kind: 'watch-brand',
+          note: '（同ブランドの別モデル）',
+        };
+      }
+    }
+  } catch {
+    // 写真の台帳が読めなくても投稿は止めない。従来の背景に落ちる
+  }
+
   const town = heritageImgs[`${brandId}-town`];
   if (town) return { file: path.join(ROOT, 'public', town.src.replace(/^\//, '')), credit: town, kind: 'town' };
   const founder = heritageImgs[`${brandId}-founder`];
@@ -195,8 +244,9 @@ function cleanAuthor(raw) {
 }
 
 const creditAuthor = bg.credit ? cleanAuthor(bg.credit.author) : '';
+// 断り書き（同型の別個体・同ブランドの別モデル）は出典と一緒に画像の隅にも出す
 const creditText = bg.credit
-  ? `Photo: ${[creditAuthor, bg.credit.license].filter(Boolean).join(' / ')}`
+  ? `Photo: ${[creditAuthor, bg.credit.license].filter(Boolean).join(' / ')}${bg.note ?? ''}`
   : '';
 
 const overlay = Buffer.from(`<svg width="${SIZE}" height="${SIZE}" xmlns="http://www.w3.org/2000/svg">
@@ -258,8 +308,11 @@ try {
       .jpeg({ quality: 88, mozjpeg: true })
       .toFile(path.join(ROOT, 'public/social', name));
     extraImages.push(`${SITE}${BASE}/social/${name}`);
+    // 作者名が取れていない写真は、代わりに出典ページのURLで表示義務を果たす
     photoCredits.push(
-      [cleanAuthor(p.author) || 'Unknown', p.license, p.exact ? null : '（同型の別個体）'].filter(Boolean).join(' / '),
+      [cleanAuthor(p.author) || 'Unknown', p.license, p.exact ? null : '（同型の別個体）', cleanAuthor(p.author) ? null : p.source]
+        .filter(Boolean)
+        .join(' / '),
     );
   }
 } catch {
@@ -323,7 +376,10 @@ const caption = [
         'We collect prices from Japan’s largest marketplaces every day and list the lowest price for each reference.',
       ]
     : []),
-  creditText ? `\n${creditText} via Wikimedia Commons` : '',
+  // 作者名が取れていない写真は、代わりに出典ページのURLを載せて表示義務を果たす
+  creditText
+    ? `\n${creditText} via ${bg.credit?.via ?? 'Wikimedia Commons'}${!creditAuthor && bg.credit?.source ? `\n${bg.credit.source}` : ''}`
+    : '',
   // 写真の表示義務。何枚目が誰の写真かが分かる形で並べる
   ...(photoCredits.length
     ? ['', '写真 / Photos:', ...photoCredits.map((c, i) => `${i + 2}. ${c}`)]
