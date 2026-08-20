@@ -1114,6 +1114,40 @@
           "exact": false
         }
       ]
+    },
+    "longines/conquest-classic-40-automatic": {
+      "brandId": "longines",
+      "modelId": "conquest-classic-40-automatic",
+      "reference": null,
+      "photos": [
+        {
+          "file": "/img/watches/longines-conquest-classic-40-automatic-1.jpg",
+          "commonsTitle": "Longines Conquest Classic Moonphase Chronograph.jpg",
+          "author": "Minzoblate",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Longines_Conquest_Classic_Moonphase_Chronograph.jpg",
+          "provider": "wikimedia",
+          "exact": false
+        }
+      ]
+    },
+    "montblanc/1858-automatic-40mm": {
+      "brandId": "montblanc",
+      "modelId": "1858-automatic-40mm",
+      "reference": null,
+      "photos": [
+        {
+          "file": "/img/watches/montblanc-1858-automatic-40mm-1.jpg",
+          "commonsTitle": "Montblanc 1858 Automatic",
+          "author": "Johnson Watch Co",
+          "license": "CC PDM 1.0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+          "source": "https://www.flickr.com/photos/150219019@N03/29907554428",
+          "provider": "flickr",
+          "exact": false
+        }
+      ]
     }
   },
   "checked": {
@@ -1312,7 +1346,19 @@
     "longines/spirit-40-l3-810-4-53-0": "2026-08-19",
     "longines/master-collection-38-l2-628-4-78-3": "2026-08-19",
     "longines/master-collection-chronograph-moonphase-l2-673-4-78-3": "2026-08-19",
-    "longines/hydroconquest-41-l3-781-4-96-6": "2026-08-19"
+    "longines/hydroconquest-41-l3-781-4-96-6": "2026-08-19",
+    "longines/hydroconquest-43-l3-783-4-56-6": "2026-08-20",
+    "longines/hydroconquest-41-prev-gen-l3-742-4-56-6": "2026-08-20",
+    "longines/conquest-vhp-41": "2026-08-20",
+    "longines/conquest-classic-40-automatic": "2026-08-20",
+    "longines/heritage-avigation-bigeye": "2026-08-20",
+    "longines/vintage-conquest-automatic-1950s": "2026-08-20",
+    "meistersinger/neo": "2026-08-20",
+    "meistersinger/circularis": "2026-08-20",
+    "meistersinger/pangaea": "2026-08-20",
+    "montblanc/1858-geosphere-119286": "2026-08-20",
+    "montblanc/1858-automatic-40mm": "2026-08-20",
+    "montblanc/star-legacy-automatic-date-39mm": "2026-08-20"
   },
   "brands": {
     "a-lange-soehne": {
