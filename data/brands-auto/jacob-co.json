@@ -1,6 +1,6 @@
 {
   "brandId": "jacob-co",
-  "generatedAt": "2026-08-19T12:48:36.678Z",
+  "generatedAt": "2026-08-19T23:26:18.903Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -53,10 +53,10 @@
         "sport"
       ],
       "popular": false,
-      "summary_ja": "ジェイコブの型番17.25。市場で5件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "ジェイコブの型番17.25。市場で4件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Jacob & Co. reference 17.25, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 5,
+      "listingCount": 4,
       "lastSeen": "2026-08-19"
     },
     {
@@ -228,34 +228,6 @@
       "lastSeen": "2026-08-19"
     },
     {
-      "id": "ref-2035",
-      "name_en": "20.35",
-      "name_ja": "ジョーロデオ ダイヤモンド 20.35",
-      "reference": "20.35",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 1118315,
-      "searchKeywordJa": "ジェイコブ 20.35",
-      "searchKeywordEn": "Jacob & Co. 20.35",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "pilot"
-      ],
-      "popular": false,
-      "summary_ja": "ジェイコブの型番20.35。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Jacob & Co. reference 20.35, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-08-19"
-    },
-    {
       "id": "ref-2975",
       "name_en": "29.75",
       "name_ja": "ジョーロデオ ダイヤモンド 29.75",
@@ -279,6 +251,34 @@
       "popular": false,
       "summary_ja": "ジェイコブの型番29.75。市場で2件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Jacob & Co. reference 29.75, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-08-19"
+    },
+    {
+      "id": "ref-2035",
+      "name_en": "20.35",
+      "name_ja": "ジョーロデオ ダイヤモンド 20.35",
+      "reference": "20.35",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 1118315,
+      "searchKeywordJa": "ジェイコブ 20.35",
+      "searchKeywordEn": "Jacob & Co. 20.35",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "pilot"
+      ],
+      "popular": false,
+      "summary_ja": "ジェイコブの型番20.35。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Jacob & Co. reference 20.35, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
       "lastSeen": "2026-08-19"
@@ -623,34 +623,6 @@
       "lastSeen": "2026-08-19"
     },
     {
-      "id": "ref-j2020",
-      "name_en": "J2020",
-      "name_ja": "ジョーロデオ J2020",
-      "reference": "J2020",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 566865,
-      "searchKeywordJa": "ジェイコブ J2020",
-      "searchKeywordEn": "Jacob & Co. J2020",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ジェイコブの型番J2020。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Jacob & Co. reference J2020, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-08-19"
-    },
-    {
       "id": "ref-j2016",
       "name_en": "J2016",
       "name_ja": "ジョーロデオ J2016",
@@ -674,6 +646,34 @@
       "popular": false,
       "summary_ja": "ジェイコブの型番J2016。市場で1件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Jacob & Co. reference J2016, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-08-19"
+    },
+    {
+      "id": "ref-j2020",
+      "name_en": "J2020",
+      "name_ja": "ジョーロデオ J2020",
+      "reference": "J2020",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 566865,
+      "searchKeywordJa": "ジェイコブ J2020",
+      "searchKeywordEn": "Jacob & Co. J2020",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ジェイコブの型番J2020。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Jacob & Co. reference J2020, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
       "lastSeen": "2026-08-19"
@@ -819,34 +819,6 @@
       "lastSeen": "2026-08-19"
     },
     {
-      "id": "ref-at10040acufa",
-      "name_en": "AT.100.40.AC.UF.A",
-      "name_ja": "AT.100.40.AC.UF.A",
-      "reference": "AT.100.40.AC.UF.A",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 28237000,
-      "searchKeywordJa": "ジェイコブ AT.100.40.AC.UF.A",
-      "searchKeywordEn": "Jacob & Co. AT.100.40.AC.UF.A",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "tourbillon"
-      ],
-      "popular": false,
-      "summary_ja": "ジェイコブの型番AT.100.40.AC.UF.A。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Jacob & Co. reference AT.100.40.AC.UF.A, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-08-19"
-    },
-    {
       "id": "ref-at12580aaugb",
       "name_en": "AT125.80.AA.UG.B",
       "name_ja": "AT125.80.AA.UG.B",
@@ -870,6 +842,34 @@
       "popular": false,
       "summary_ja": "ジェイコブの型番AT125.80.AA.UG.B。市場で1件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Jacob & Co. reference AT125.80.AA.UG.B, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-08-19"
+    },
+    {
+      "id": "ref-at10040acufa",
+      "name_en": "AT.100.40.AC.UF.A",
+      "name_ja": "AT.100.40.AC.UF.A",
+      "reference": "AT.100.40.AC.UF.A",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 28237000,
+      "searchKeywordJa": "ジェイコブ AT.100.40.AC.UF.A",
+      "searchKeywordEn": "Jacob & Co. AT.100.40.AC.UF.A",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "tourbillon"
+      ],
+      "popular": false,
+      "summary_ja": "ジェイコブの型番AT.100.40.AC.UF.A。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Jacob & Co. reference AT.100.40.AC.UF.A, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
       "lastSeen": "2026-08-19"

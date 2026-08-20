@@ -1,6 +1,6 @@
 {
   "brandId": "bell-ross",
-  "generatedAt": "2026-08-19T11:38:19.847Z",
+  "generatedAt": "2026-08-19T22:14:40.384Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -28,10 +28,10 @@
         "vintage-reissue"
       ],
       "popular": false,
-      "summary_ja": "ベル&ロスの型番BR03-92。市場で16件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "ベル&ロスの型番BR03-92。市場で15件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Bell & Ross reference BR03-92, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 16,
+      "listingCount": 15,
       "lastSeen": "2026-08-19"
     },
     {
@@ -147,6 +147,62 @@
       "summary_en": "Bell & Ross reference BR0394-A521/SRB, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
+      "lastSeen": "2026-08-19"
+    },
+    {
+      "id": "ref-6wgc0196",
+      "name_en": "6WGC0196",
+      "name_ja": "スケルトン ブラックセラミック 6WGC0196",
+      "reference": "6WGC0196",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 629161,
+      "searchKeywordJa": "ベル&ロス 6WGC0196",
+      "searchKeywordEn": "Bell & Ross 6WGC0196",
+      "caseMaterial": "ceramic",
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "skeleton"
+      ],
+      "popular": false,
+      "summary_ja": "ベル&ロスの型番6WGC0196。市場で4件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Bell & Ross reference 6WGC0196, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 4,
+      "lastSeen": "2026-08-19"
+    },
+    {
+      "id": "ref-br0392s",
+      "name_en": "BR03-92-S",
+      "name_ja": "アヴィエーション デイト BR03-92-S",
+      "reference": "BR03-92-S",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 159800,
+      "searchKeywordJa": "ベル&ロス BR03-92-S",
+      "searchKeywordEn": "Bell & Ross BR03-92-S",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ベル&ロスの型番BR03-92-S。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Bell & Ross reference BR03-92-S, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
       "lastSeen": "2026-08-19"
     },
     {
@@ -515,62 +571,6 @@
       "summary_en": "Bell & Ross reference BR0394-RSD-CE/SRB, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-08-19"
-    },
-    {
-      "id": "ref-6wgc0196",
-      "name_en": "6WGC0196",
-      "name_ja": "スケルトン ブラックセラミック 6WGC0196",
-      "reference": "6WGC0196",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 629161,
-      "searchKeywordJa": "ベル&ロス 6WGC0196",
-      "searchKeywordEn": "Bell & Ross 6WGC0196",
-      "caseMaterial": "ceramic",
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "skeleton"
-      ],
-      "popular": false,
-      "summary_ja": "ベル&ロスの型番6WGC0196。市場で3件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Bell & Ross reference 6WGC0196, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 3,
-      "lastSeen": "2026-08-19"
-    },
-    {
-      "id": "ref-br0392s",
-      "name_en": "BR03-92-S",
-      "name_ja": "アヴィエーション デイト BR03-92-S",
-      "reference": "BR03-92-S",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 159800,
-      "searchKeywordJa": "ベル&ロス BR03-92-S",
-      "searchKeywordEn": "Bell & Ross BR03-92-S",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ベル&ロスの型番BR03-92-S。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Bell & Ross reference BR03-92-S, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
       "lastSeen": "2026-08-19"
     },
     {
