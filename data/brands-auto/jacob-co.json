@@ -1,36 +1,8 @@
 {
   "brandId": "jacob-co",
-  "generatedAt": "2026-08-20T23:26:17.125Z",
+  "generatedAt": "2026-08-21T12:17:26.301Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
-    {
-      "id": "ref-1025",
-      "name_en": "10.25",
-      "name_ja": "ジョーロデオ ダイヤモンド 10.25",
-      "reference": "10.25",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 400000,
-      "searchKeywordJa": "ジェイコブ 10.25",
-      "searchKeywordEn": "Jacob & Co. 10.25",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ジェイコブの型番10.25。市場で5件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Jacob & Co. reference 10.25, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 5,
-      "lastSeen": "2026-08-20"
-    },
     {
       "id": "ref-1725",
       "name_en": "17.25",
@@ -57,7 +29,7 @@
       "summary_en": "Jacob & Co. reference 17.25, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-08-20"
+      "lastSeen": "2026-08-21"
     },
     {
       "id": "ref-24511sj",
@@ -81,11 +53,39 @@
         "limited-edition"
       ],
       "popular": false,
-      "summary_ja": "ジェイコブの型番2451.1SJ。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "ジェイコブの型番2451.1SJ。市場で3件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Jacob & Co. reference 2451.1SJ, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-08-20"
+      "listingCount": 3,
+      "lastSeen": "2026-08-21"
+    },
+    {
+      "id": "ref-1025",
+      "name_en": "10.25",
+      "name_ja": "ジョーロデオ ダイヤモンド 10.25",
+      "reference": "10.25",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 400000,
+      "searchKeywordJa": "ジェイコブ 10.25",
+      "searchKeywordEn": "Jacob & Co. 10.25",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ジェイコブの型番10.25。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Jacob & Co. reference 10.25, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
+      "lastSeen": "2026-08-21"
     },
     {
       "id": "ref-1325",
@@ -113,7 +113,7 @@
       "summary_en": "Jacob & Co. reference 13.25, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-20"
+      "lastSeen": "2026-08-21"
     },
     {
       "id": "ref-3301001",
@@ -141,7 +141,7 @@
       "summary_en": "Jacob & Co. reference 330.100.1, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-20"
+      "lastSeen": "2026-08-21"
     },
     {
       "id": "ref-jcgr522u075",
@@ -169,7 +169,7 @@
       "summary_en": "Jacob & Co. reference JC-GR5-22-U075, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-20"
+      "lastSeen": "2026-08-21"
     },
     {
       "id": "ref-j2018",
@@ -197,7 +197,7 @@
       "summary_en": "Jacob & Co. reference J2018, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-20"
+      "lastSeen": "2026-08-21"
     },
     {
       "id": "ref-1625",
@@ -225,7 +225,7 @@
       "summary_en": "Jacob & Co. reference 16.25, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-20"
+      "lastSeen": "2026-08-21"
     },
     {
       "id": "ref-2035",
@@ -253,7 +253,7 @@
       "summary_en": "Jacob & Co. reference 20.35, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-20"
+      "lastSeen": "2026-08-21"
     },
     {
       "id": "ref-2975",
@@ -281,7 +281,7 @@
       "summary_en": "Jacob & Co. reference 29.75, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-20"
+      "lastSeen": "2026-08-21"
     },
     {
       "id": "ref-210234",
@@ -309,7 +309,7 @@
       "summary_en": "Jacob & Co. reference 210234, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-20"
+      "lastSeen": "2026-08-21"
     },
     {
       "id": "ref-mbm2002",
@@ -337,7 +337,7 @@
       "summary_en": "Jacob & Co. reference MBM2002, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-20"
+      "lastSeen": "2026-08-21"
     },
     {
       "id": "ref-mbm9702",
@@ -366,7 +366,7 @@
       "summary_en": "Jacob & Co. reference MBM9702, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-20"
+      "lastSeen": "2026-08-21"
     },
     {
       "id": "ref-a1532",
@@ -395,7 +395,7 @@
       "summary_en": "Jacob & Co. reference A15-32, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-20"
+      "lastSeen": "2026-08-21"
     },
     {
       "id": "ref-1000",
@@ -424,7 +424,7 @@
       "summary_en": "Jacob & Co. reference 1000, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-20"
+      "lastSeen": "2026-08-21"
     },
     {
       "id": "ref-hkjc0113",
@@ -452,7 +452,7 @@
       "summary_en": "Jacob & Co. reference HKJC0113, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-20"
+      "lastSeen": "2026-08-21"
     },
     {
       "id": "ref-hkjc0110",
@@ -480,7 +480,7 @@
       "summary_en": "Jacob & Co. reference HKJC0110, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-20"
+      "lastSeen": "2026-08-21"
     },
     {
       "id": "ref-hkjc0112",
@@ -508,35 +508,7 @@
       "summary_en": "Jacob & Co. reference HKJC0112, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-20"
-    },
-    {
-      "id": "ref-hkjc0108",
-      "name_en": "HKJC0108",
-      "name_ja": "HKJC0108",
-      "reference": "HKJC0108",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": 40,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 454410,
-      "searchKeywordJa": "ジェイコブ HKJC0108",
-      "searchKeywordEn": "Jacob & Co. HKJC0108",
-      "caseMaterial": "stainless-steel",
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ジェイコブの型番HKJC0108。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Jacob & Co. reference HKJC0108, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-08-20"
+      "lastSeen": "2026-08-21"
     },
     {
       "id": "ref-hkjc0109",
@@ -564,7 +536,35 @@
       "summary_en": "Jacob & Co. reference HKJC0109, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-20"
+      "lastSeen": "2026-08-21"
+    },
+    {
+      "id": "ref-hkjc0108",
+      "name_en": "HKJC0108",
+      "name_ja": "HKJC0108",
+      "reference": "HKJC0108",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": 40,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 454410,
+      "searchKeywordJa": "ジェイコブ HKJC0108",
+      "searchKeywordEn": "Jacob & Co. HKJC0108",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ジェイコブの型番HKJC0108。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Jacob & Co. reference HKJC0108, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-08-21"
     },
     {
       "id": "ref-hkjc0107",
@@ -592,7 +592,7 @@
       "summary_en": "Jacob & Co. reference HKJC0107, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-20"
+      "lastSeen": "2026-08-21"
     },
     {
       "id": "ref-j2017",
@@ -620,7 +620,7 @@
       "summary_en": "Jacob & Co. reference J2017, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-20"
+      "lastSeen": "2026-08-21"
     },
     {
       "id": "ref-j2020",
@@ -648,7 +648,7 @@
       "summary_en": "Jacob & Co. reference J2020, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-20"
+      "lastSeen": "2026-08-21"
     },
     {
       "id": "ref-j2016",
@@ -676,7 +676,7 @@
       "summary_en": "Jacob & Co. reference J2016, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-20"
+      "lastSeen": "2026-08-21"
     },
     {
       "id": "ref-j2019",
@@ -704,7 +704,7 @@
       "summary_en": "Jacob & Co. reference J2019, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-20"
+      "lastSeen": "2026-08-21"
     },
     {
       "id": "ref-j2021",
@@ -732,7 +732,7 @@
       "summary_en": "Jacob & Co. reference J2021, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-20"
+      "lastSeen": "2026-08-21"
     },
     {
       "id": "ref-hkjc0100",
@@ -760,7 +760,7 @@
       "summary_en": "Jacob & Co. reference HKJC0100, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-20"
+      "lastSeen": "2026-08-21"
     },
     {
       "id": "ref-198196",
@@ -788,7 +788,7 @@
       "summary_en": "Jacob & Co. reference 198196, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-20"
+      "lastSeen": "2026-08-21"
     },
     {
       "id": "ref-4a000110",
@@ -816,7 +816,7 @@
       "summary_en": "Jacob & Co. reference 4A000110, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-20"
+      "lastSeen": "2026-08-21"
     },
     {
       "id": "ref-at12580aaugb",
@@ -844,7 +844,7 @@
       "summary_en": "Jacob & Co. reference AT125.80.AA.UG.B, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-20"
+      "lastSeen": "2026-08-21"
     },
     {
       "id": "ref-at10040acufa",
@@ -872,7 +872,7 @@
       "summary_en": "Jacob & Co. reference AT.100.40.AC.UF.A, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-20"
+      "lastSeen": "2026-08-21"
     },
     {
       "id": "ref-am50040acsddbala",
@@ -900,7 +900,7 @@
       "summary_en": "Jacob & Co. reference AM500.40.AC.SD.DBALA, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-20"
+      "lastSeen": "2026-08-21"
     },
     {
       "id": "ref-hk11666d",
@@ -928,7 +928,7 @@
       "summary_en": "Jacob & Co. reference HK11666D, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-20"
+      "lastSeen": "2026-08-21"
     },
     {
       "id": "ref-i203124033",
@@ -957,7 +957,7 @@
       "summary_en": "Jacob & Co. reference I203124033, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-20"
+      "lastSeen": "2026-08-21"
     }
   ]
 }
