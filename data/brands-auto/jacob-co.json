@@ -1,6 +1,6 @@
 {
   "brandId": "jacob-co",
-  "generatedAt": "2026-08-20T12:15:40.968Z",
+  "generatedAt": "2026-08-20T23:26:17.125Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -25,10 +25,10 @@
         "sport"
       ],
       "popular": false,
-      "summary_ja": "ジェイコブの型番10.25。市場で4件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "ジェイコブの型番10.25。市場で5件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Jacob & Co. reference 10.25, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 4,
+      "listingCount": 5,
       "lastSeen": "2026-08-20"
     },
     {
@@ -511,34 +511,6 @@
       "lastSeen": "2026-08-20"
     },
     {
-      "id": "ref-hkjc0109",
-      "name_en": "HKJC0109",
-      "name_ja": "HKJC0109",
-      "reference": "HKJC0109",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": 40,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 454410,
-      "searchKeywordJa": "ジェイコブ HKJC0109",
-      "searchKeywordEn": "Jacob & Co. HKJC0109",
-      "caseMaterial": "stainless-steel",
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ジェイコブの型番HKJC0109。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Jacob & Co. reference HKJC0109, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-08-20"
-    },
-    {
       "id": "ref-hkjc0108",
       "name_en": "HKJC0108",
       "name_ja": "HKJC0108",
@@ -562,6 +534,34 @@
       "popular": false,
       "summary_ja": "ジェイコブの型番HKJC0108。市場で1件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Jacob & Co. reference HKJC0108, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-08-20"
+    },
+    {
+      "id": "ref-hkjc0109",
+      "name_en": "HKJC0109",
+      "name_ja": "HKJC0109",
+      "reference": "HKJC0109",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": 40,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 454410,
+      "searchKeywordJa": "ジェイコブ HKJC0109",
+      "searchKeywordEn": "Jacob & Co. HKJC0109",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ジェイコブの型番HKJC0109。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Jacob & Co. reference HKJC0109, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
       "lastSeen": "2026-08-20"
