@@ -1,6 +1,6 @@
 {
   "brandId": "roger-dubuis",
-  "generatedAt": "2026-08-22T00:12:36.628Z",
+  "generatedAt": "2026-08-22T12:04:28.849Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -652,34 +652,6 @@
       "lastSeen": "2026-08-22"
     },
     {
-      "id": "ref-dbex0567",
-      "name_en": "DBEX0567",
-      "name_ja": "エクスカリバー スモールセコンド DBEX0567",
-      "reference": "DBEX0567",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 808588,
-      "searchKeywordJa": "ロジェ・デュブイ DBEX0567",
-      "searchKeywordEn": "Roger Dubuis DBEX0567",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "small-seconds"
-      ],
-      "popular": false,
-      "summary_ja": "ロジェ・デュブイの型番DBEX0567。市場で3件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Roger Dubuis reference DBEX0567, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 3,
-      "lastSeen": "2026-08-22"
-    },
-    {
       "id": "ref-rddbex0384",
       "name_en": "RDDBEX0384",
       "name_ja": "エクスカリバー スモールセコンド RDDBEX0384",
@@ -815,6 +787,34 @@
       "popular": false,
       "summary_ja": "ロジェ・デュブイの型番RDDBEX0789。市場で3件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Roger Dubuis reference RDDBEX0789, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
+      "lastSeen": "2026-08-22"
+    },
+    {
+      "id": "ref-refdbex0748",
+      "name_en": "REF.DBEX0748",
+      "name_ja": "エクスカリバー スパイダー REF.DBEX0748",
+      "reference": "REF.DBEX0748",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 2659650,
+      "searchKeywordJa": "ロジェ・デュブイ REF.DBEX0748",
+      "searchKeywordEn": "Roger Dubuis REF.DBEX0748",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "skeleton"
+      ],
+      "popular": false,
+      "summary_ja": "ロジェ・デュブイの型番REF.DBEX0748。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Roger Dubuis reference REF.DBEX0748, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
       "lastSeen": "2026-08-22"
@@ -1158,34 +1158,6 @@
       "lastSeen": "2026-08-22"
     },
     {
-      "id": "ref-rddbve0079",
-      "name_en": "RDDBVE0079",
-      "name_ja": "ベルベット RDDBVE0079",
-      "reference": "RDDBVE0079",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 2524500,
-      "searchKeywordJa": "ロジェ・デュブイ RDDBVE0079",
-      "searchKeywordEn": "Roger Dubuis RDDBVE0079",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ロジェ・デュブイの型番RDDBVE0079。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Roger Dubuis reference RDDBVE0079, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-08-22"
-    },
-    {
       "id": "ref-dbex0749",
       "name_en": "DBEX0749",
       "name_ja": "エクスカリバー ウラカン DBEX0749",
@@ -1209,6 +1181,34 @@
       "popular": false,
       "summary_ja": "ロジェ・デュブイの型番DBEX0749。市場で2件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Roger Dubuis reference DBEX0749, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-08-22"
+    },
+    {
+      "id": "ref-rddbve0079",
+      "name_en": "RDDBVE0079",
+      "name_ja": "ベルベット RDDBVE0079",
+      "reference": "RDDBVE0079",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 2524500,
+      "searchKeywordJa": "ロジェ・デュブイ RDDBVE0079",
+      "searchKeywordEn": "Roger Dubuis RDDBVE0079",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ロジェ・デュブイの型番RDDBVE0079。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Roger Dubuis reference RDDBVE0079, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
       "lastSeen": "2026-08-22"
@@ -1865,6 +1865,34 @@
       "summary_en": "Roger Dubuis reference 161.5G, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
+      "lastSeen": "2026-08-22"
+    },
+    {
+      "id": "ref-dbex0567",
+      "name_en": "DBEX0567",
+      "name_ja": "エクスカリバー スモールセコンド DBEX0567",
+      "reference": "DBEX0567",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 808588,
+      "searchKeywordJa": "ロジェ・デュブイ DBEX0567",
+      "searchKeywordEn": "Roger Dubuis DBEX0567",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "small-seconds"
+      ],
+      "popular": false,
+      "summary_ja": "ロジェ・デュブイの型番DBEX0567。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Roger Dubuis reference DBEX0567, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 0,
       "lastSeen": "2026-08-22"
     },
     {
