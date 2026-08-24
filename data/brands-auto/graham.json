@@ -1,6 +1,6 @@
 {
   "brandId": "graham",
-  "generatedAt": "2026-08-23T10:44:54.773Z",
+  "generatedAt": "2026-08-23T22:42:25.554Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -116,34 +116,6 @@
       "lastSeen": "2026-08-23"
     },
     {
-      "id": "ref-20vasb02al30b",
-      "name_en": "20VAS.B02A.L30B",
-      "name_ja": "クロノファイター オーバーサイズ 20VAS.B02A.L30B",
-      "reference": "20VAS.B02A.L30B",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 231880,
-      "searchKeywordJa": "グラハム 20VAS.B02A.L30B",
-      "searchKeywordEn": "Graham 20VAS.B02A.L30B",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "chronograph"
-      ],
-      "popular": false,
-      "summary_ja": "グラハムの型番20VAS.B02A.L30B。市場で3件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Graham reference 20VAS.B02A.L30B, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 3,
-      "lastSeen": "2026-08-23"
-    },
-    {
       "id": "ref-20vass02ak108",
       "name_en": "20VAS.S02A.K108",
       "name_ja": "クロノファイター オーバーサイズ 20VAS.S02A.K108",
@@ -167,6 +139,34 @@
       "popular": false,
       "summary_ja": "グラハムの型番20VAS.S02A.K108。市場で3件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Graham reference 20VAS.S02A.K108, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
+      "lastSeen": "2026-08-23"
+    },
+    {
+      "id": "ref-20vasb02al30b",
+      "name_en": "20VAS.B02A.L30B",
+      "name_ja": "クロノファイター オーバーサイズ 20VAS.B02A.L30B",
+      "reference": "20VAS.B02A.L30B",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 231880,
+      "searchKeywordJa": "グラハム 20VAS.B02A.L30B",
+      "searchKeywordEn": "Graham 20VAS.B02A.L30B",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph"
+      ],
+      "popular": false,
+      "summary_ja": "グラハムの型番20VAS.B02A.L30B。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Graham reference 20VAS.B02A.L30B, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
       "lastSeen": "2026-08-23"
@@ -450,6 +450,34 @@
       "summary_en": "Graham reference 2CVAS.S08A.L155F, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
+      "lastSeen": "2026-08-23"
+    },
+    {
+      "id": "ref-ref20vasb02al30b",
+      "name_en": "REF.20VAS.B02A.L30B",
+      "name_ja": "クロノファイターオーバー フルブラック REF.20VAS.B02A.L30B",
+      "reference": "REF.20VAS.B02A.L30B",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 229075,
+      "searchKeywordJa": "グラハム REF.20VAS.B02A.L30B",
+      "searchKeywordEn": "Graham REF.20VAS.B02A.L30B",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "chronograph"
+      ],
+      "popular": false,
+      "summary_ja": "グラハムの型番REF.20VAS.B02A.L30B。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Graham reference REF.20VAS.B02A.L30B, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
       "lastSeen": "2026-08-23"
     },
     {

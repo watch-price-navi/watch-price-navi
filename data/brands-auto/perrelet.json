@@ -1,6 +1,6 @@
 {
   "brandId": "perrelet",
-  "generatedAt": "2026-08-23T11:42:45.575Z",
+  "generatedAt": "2026-08-23T23:41:01.077Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -81,10 +81,10 @@
         "diver"
       ],
       "popular": false,
-      "summary_ja": "ペルレの型番3000。市場で9件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "ペルレの型番3000。市場で8件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Perrelet reference 3000, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 9,
+      "listingCount": 8,
       "lastSeen": "2026-08-23"
     },
     {
@@ -137,10 +137,10 @@
         "sport"
       ],
       "popular": false,
-      "summary_ja": "ペルレの型番2800。市場で4件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "ペルレの型番2800。市場で5件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Perrelet reference 2800, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 4,
+      "listingCount": 5,
       "lastSeen": "2026-08-23"
     },
     {
@@ -396,34 +396,6 @@
       "lastSeen": "2026-08-23"
     },
     {
-      "id": "ref-a10672",
-      "name_en": "A1067/2",
-      "name_ja": "タービン ダイバー A1067/2",
-      "reference": "A1067/2",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 227800,
-      "searchKeywordJa": "ペルレ A1067/2",
-      "searchKeywordEn": "Perrelet A1067/2",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "diver"
-      ],
-      "popular": false,
-      "summary_ja": "ペルレの型番A1067/2。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Perrelet reference A1067/2, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-08-23"
-    },
-    {
       "id": "ref-a50041",
       "name_en": "A5004-1",
       "name_ja": "チタニウムコレクション A5004-1",
@@ -447,6 +419,34 @@
       "popular": false,
       "summary_ja": "ペルレの型番A5004-1。市場で2件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Perrelet reference A5004-1, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-08-23"
+    },
+    {
+      "id": "ref-a10672",
+      "name_en": "A1067/2",
+      "name_ja": "タービン ダイバー A1067/2",
+      "reference": "A1067/2",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 227800,
+      "searchKeywordJa": "ペルレ A1067/2",
+      "searchKeywordEn": "Perrelet A1067/2",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "diver"
+      ],
+      "popular": false,
+      "summary_ja": "ペルレの型番A1067/2。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Perrelet reference A1067/2, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
       "lastSeen": "2026-08-23"
