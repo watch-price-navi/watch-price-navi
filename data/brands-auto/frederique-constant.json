@@ -1,36 +1,8 @@
 {
   "brandId": "frederique-constant",
-  "generatedAt": "2026-08-23T22:37:12.296Z",
+  "generatedAt": "2026-08-24T11:00:49.378Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
-    {
-      "id": "ref-fc200mpw2ac6b",
-      "name_en": "FC-200MPW2AC6B",
-      "name_ja": "アールデコ クラシック FC-200MPW2AC6B",
-      "reference": "FC-200MPW2AC6B",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": 20.7,
-      "movementType": "quartz",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 166430,
-      "searchKeywordJa": "フレデリック・コンスタント FC-200MPW2AC6B",
-      "searchKeywordEn": "Frederique Constant FC-200MPW2AC6B",
-      "caseMaterial": null,
-      "waterResistanceM": 30,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "diver"
-      ],
-      "popular": false,
-      "summary_ja": "フレデリック・コンスタントの型番FC-200MPW2AC6B。市場で34件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Frederique Constant reference FC-200MPW2AC6B, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 34,
-      "lastSeen": "2026-08-23"
-    },
     {
       "id": "ref-fc200mc16b",
       "name_en": "FC-200MC16B",
@@ -53,26 +25,26 @@
         "diver"
       ],
       "popular": false,
-      "summary_ja": "フレデリック・コンスタントの型番FC-200MC16B。市場で32件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "フレデリック・コンスタントの型番FC-200MC16B。市場で31件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Frederique Constant reference FC-200MC16B, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 32,
-      "lastSeen": "2026-08-23"
+      "listingCount": 31,
+      "lastSeen": "2026-08-24"
     },
     {
-      "id": "ref-fc200mpdc16",
-      "name_en": "FC-200MPDC16",
-      "name_ja": "フレデリックコンスタント クラシック FC-200MPDC16",
-      "reference": "FC-200MPDC16",
+      "id": "ref-fc200mpw2ac6b",
+      "name_en": "FC-200MPW2AC6B",
+      "name_ja": "アールデコ クラシック FC-200MPW2AC6B",
+      "reference": "FC-200MPW2AC6B",
       "collection_en": null,
       "collection_ja": null,
-      "caseSizeMm": 23,
+      "caseSizeMm": 20.7,
       "movementType": "quartz",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 163625,
-      "searchKeywordJa": "フレデリック・コンスタント FC-200MPDC16",
-      "searchKeywordEn": "Frederique Constant FC-200MPDC16",
+      "priceFloorJpy": 166430,
+      "searchKeywordJa": "フレデリック・コンスタント FC-200MPW2AC6B",
+      "searchKeywordEn": "Frederique Constant FC-200MPW2AC6B",
       "caseMaterial": null,
       "waterResistanceM": 30,
       "gender": "ladies",
@@ -82,11 +54,11 @@
         "limited-edition"
       ],
       "popular": false,
-      "summary_ja": "フレデリック・コンスタントの型番FC-200MPDC16。市場で30件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Frederique Constant reference FC-200MPDC16, currently offered by multiple sellers in Japan.",
+      "summary_ja": "フレデリック・コンスタントの型番FC-200MPW2AC6B。市場で30件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Frederique Constant reference FC-200MPW2AC6B, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 30,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc315wn4c26",
@@ -114,7 +86,36 @@
       "summary_en": "Frederique Constant reference FC-315WN4C26, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 30,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
+    },
+    {
+      "id": "ref-fc235s2c6",
+      "name_en": "FC-235S2C6",
+      "name_ja": "クラシック スモールセコンド FC-235S2C6",
+      "reference": "FC-235S2C6",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": 25.2,
+      "movementType": "quartz",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 163625,
+      "searchKeywordJa": "フレデリック・コンスタント FC-235S2C6",
+      "searchKeywordEn": "Frederique Constant FC-235S2C6",
+      "caseMaterial": null,
+      "waterResistanceM": 30,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "limited-edition",
+        "small-seconds"
+      ],
+      "popular": false,
+      "summary_ja": "フレデリック・コンスタントの型番FC-235S2C6。市場で29件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Frederique Constant reference FC-235S2C6, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 29,
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc735s3h6",
@@ -142,7 +143,7 @@
       "summary_en": "Frederique Constant reference FC-735S3H6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 29,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc310wn4c6",
@@ -170,7 +171,7 @@
       "summary_en": "Frederique Constant reference FC-310WN4C6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 28,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc200mc12b",
@@ -198,7 +199,36 @@
       "summary_en": "Frederique Constant reference FC-200MC12B, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 27,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
+    },
+    {
+      "id": "ref-fc200mpdc16",
+      "name_en": "FC-200MPDC16",
+      "name_ja": "フレデリックコンスタント クラシック FC-200MPDC16",
+      "reference": "FC-200MPDC16",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": 23,
+      "movementType": "quartz",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 163625,
+      "searchKeywordJa": "フレデリック・コンスタント FC-200MPDC16",
+      "searchKeywordEn": "Frederique Constant FC-200MPDC16",
+      "caseMaterial": null,
+      "waterResistanceM": 30,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "diver",
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "フレデリック・コンスタントの型番FC-200MPDC16。市場で27件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Frederique Constant reference FC-200MPDC16, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 27,
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc315mwr4c26",
@@ -226,35 +256,7 @@
       "summary_en": "Frederique Constant reference FC-315MWR4C26, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 27,
-      "lastSeen": "2026-08-23"
-    },
-    {
-      "id": "ref-fc235s2c6",
-      "name_en": "FC-235S2C6",
-      "name_ja": "クラシック スモールセコンド FC-235S2C6",
-      "reference": "FC-235S2C6",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": 25.2,
-      "movementType": "quartz",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 163625,
-      "searchKeywordJa": "フレデリック・コンスタント FC-235S2C6",
-      "searchKeywordEn": "Frederique Constant FC-235S2C6",
-      "caseMaterial": null,
-      "waterResistanceM": 30,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "small-seconds"
-      ],
-      "popular": false,
-      "summary_ja": "フレデリック・コンスタントの型番FC-235S2C6。市場で26件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Frederique Constant reference FC-235S2C6, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 26,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc200mpw2acd6",
@@ -278,39 +280,11 @@
         "diver"
       ],
       "popular": false,
-      "summary_ja": "フレデリック・コンスタントの型番FC-200MPW2ACD6。市場で26件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "フレデリック・コンスタントの型番FC-200MPW2ACD6。市場で25件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Frederique Constant reference FC-200MPW2ACD6, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 26,
-      "lastSeen": "2026-08-23"
-    },
-    {
-      "id": "ref-fc200mc14",
-      "name_en": "FC-200MC14",
-      "name_ja": "フレデリックコンスタント フレデリック FC-200MC14",
-      "reference": "FC-200MC14",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": 23,
-      "movementType": "quartz",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 140250,
-      "searchKeywordJa": "フレデリック・コンスタント FC-200MC14",
-      "searchKeywordEn": "Frederique Constant FC-200MC14",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "diver"
-      ],
-      "popular": false,
-      "summary_ja": "フレデリック・コンスタントの型番FC-200MC14。市場で25件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Frederique Constant reference FC-200MC14, currently offered by multiple sellers in Japan.",
-      "source": "auto",
       "listingCount": 25,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc200mpdc16b",
@@ -335,56 +309,27 @@
         "limited-edition"
       ],
       "popular": false,
-      "summary_ja": "フレデリック・コンスタントの型番FC-200MPDC16B。市場で25件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "フレデリック・コンスタントの型番FC-200MPDC16B。市場で24件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Frederique Constant reference FC-200MPDC16B, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 25,
-      "lastSeen": "2026-08-23"
-    },
-    {
-      "id": "ref-fc310skt4s36",
-      "name_en": "FC-310SKT4S36",
-      "name_ja": "フレデリックコンスタント クラシック FC-310SKT4S36",
-      "reference": "FC-310SKT4S36",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": 30,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 266475,
-      "searchKeywordJa": "フレデリック・コンスタント FC-310SKT4S36",
-      "searchKeywordEn": "Frederique Constant FC-310SKT4S36",
-      "caseMaterial": null,
-      "waterResistanceM": 30,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "skeleton",
-        "limited-edition"
-      ],
-      "popular": false,
-      "summary_ja": "フレデリック・コンスタントの型番FC-310SKT4S36。市場で24件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Frederique Constant reference FC-310SKT4S36, currently offered by multiple sellers in Japan.",
-      "source": "auto",
       "listingCount": 24,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
-      "id": "ref-fc200mpdc12b",
-      "name_en": "FC-200MPDC12B",
-      "name_ja": "フレデリックコンスタント クラシック FC-200MPDC12B",
-      "reference": "FC-200MPDC12B",
+      "id": "ref-fc200mpdc14",
+      "name_en": "FC-200MPDC14",
+      "name_ja": "フレデリックコンスタント クラシック FC-200MPDC14",
+      "reference": "FC-200MPDC14",
       "collection_en": null,
       "collection_ja": null,
-      "caseSizeMm": null,
+      "caseSizeMm": 23,
       "movementType": "quartz",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 201025,
-      "searchKeywordJa": "フレデリック・コンスタント FC-200MPDC12B",
-      "searchKeywordEn": "Frederique Constant FC-200MPDC12B",
-      "caseMaterial": null,
+      "priceFloorJpy": 168300,
+      "searchKeywordJa": "フレデリック・コンスタント FC-200MPDC14",
+      "searchKeywordEn": "Frederique Constant FC-200MPDC14",
+      "caseMaterial": "rose-gold",
       "waterResistanceM": null,
       "gender": "ladies",
       "releaseYear": null,
@@ -393,16 +338,16 @@
         "limited-edition"
       ],
       "popular": false,
-      "summary_ja": "フレデリック・コンスタントの型番FC-200MPDC12B。市場で22件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Frederique Constant reference FC-200MPDC12B, currently offered by multiple sellers in Japan.",
+      "summary_ja": "フレデリック・コンスタントの型番FC-200MPDC14。市場で22件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Frederique Constant reference FC-200MPDC14, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 22,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc315mwr4c24",
       "name_en": "FC-315MWR4C24",
-      "name_ja": "ハートビート クラシック FC-315MWR4C24",
+      "name_ja": "ハートビート フレデリックコンスタント FC-315MWR4C24",
       "reference": "FC-315MWR4C24",
       "collection_en": null,
       "collection_ja": null,
@@ -425,13 +370,41 @@
       "summary_en": "Frederique Constant reference FC-315MWR4C24, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 22,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
-      "id": "ref-fc310mc5b6",
-      "name_en": "FC-310MC5B6",
-      "name_ja": "クラシック ハートビート FC-310MC5B6",
-      "reference": "FC-310MC5B6",
+      "id": "ref-fc200mc14",
+      "name_en": "FC-200MC14",
+      "name_ja": "フレデリックコンスタント クラシック FC-200MC14",
+      "reference": "FC-200MC14",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": 23,
+      "movementType": "quartz",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 140250,
+      "searchKeywordJa": "フレデリック・コンスタント FC-200MC14",
+      "searchKeywordEn": "Frederique Constant FC-200MC14",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "diver"
+      ],
+      "popular": false,
+      "summary_ja": "フレデリック・コンスタントの型番FC-200MC14。市場で21件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Frederique Constant reference FC-200MC14, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 21,
+      "lastSeen": "2026-08-24"
+    },
+    {
+      "id": "ref-fc310mck5b6",
+      "name_en": "FC-310MCK5B6",
+      "name_ja": "クラシック ハートビート FC-310MCK5B6",
+      "reference": "FC-310MCK5B6",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
@@ -439,79 +412,21 @@
       "caliber": null,
       "listPriceJpy": null,
       "priceFloorJpy": 231880,
-      "searchKeywordJa": "フレデリック・コンスタント FC-310MC5B6",
-      "searchKeywordEn": "Frederique Constant FC-310MC5B6",
+      "searchKeywordJa": "フレデリック・コンスタント FC-310MCK5B6",
+      "searchKeywordEn": "Frederique Constant FC-310MCK5B6",
       "caseMaterial": null,
       "waterResistanceM": null,
       "gender": "mens",
       "releaseYear": null,
       "tags": [
-        "skeleton",
-        "limited-edition"
+        "skeleton"
       ],
       "popular": false,
-      "summary_ja": "フレデリック・コンスタントの型番FC-310MC5B6。市場で21件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Frederique Constant reference FC-310MC5B6, currently offered by multiple sellers in Japan.",
+      "summary_ja": "フレデリック・コンスタントの型番FC-310MCK5B6。市場で21件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Frederique Constant reference FC-310MCK5B6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 21,
-      "lastSeen": "2026-08-23"
-    },
-    {
-      "id": "ref-fc200mc16",
-      "name_en": "FC-200MC16",
-      "name_ja": "フレデリックコンスタント クラシックカレ FC-200MC16",
-      "reference": "FC-200MC16",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": 23,
-      "movementType": "quartz",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 126225,
-      "searchKeywordJa": "フレデリック・コンスタント FC-200MC16",
-      "searchKeywordEn": "Frederique Constant FC-200MC16",
-      "caseMaterial": null,
-      "waterResistanceM": 30,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "diver"
-      ],
-      "popular": false,
-      "summary_ja": "フレデリック・コンスタントの型番FC-200MC16。市場で20件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Frederique Constant reference FC-200MC16, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 20,
-      "lastSeen": "2026-08-23"
-    },
-    {
-      "id": "ref-fc200mcd1s4",
-      "name_en": "FC-200MCD1S4",
-      "name_ja": "クラシック フレデリックコンスタント FC-200MCD1S4",
-      "reference": "FC-200MCD1S4",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": 30,
-      "movementType": "quartz",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 168300,
-      "searchKeywordJa": "フレデリック・コンスタント FC-200MCD1S4",
-      "searchKeywordEn": "Frederique Constant FC-200MCD1S4",
-      "caseMaterial": null,
-      "waterResistanceM": 30,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "diver",
-        "limited-edition"
-      ],
-      "popular": false,
-      "summary_ja": "フレデリック・コンスタントの型番FC-200MCD1S4。市場で20件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Frederique Constant reference FC-200MCD1S4, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 20,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc310b4nh6b",
@@ -539,7 +454,7 @@
       "summary_en": "Frederique Constant reference FC-310B4NH6B, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 20,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc235s2c6b",
@@ -568,7 +483,236 @@
       "summary_en": "Frederique Constant reference FC-235S2C6B, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 20,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
+    },
+    {
+      "id": "ref-fc235s2c5",
+      "name_en": "FC-235S2C5",
+      "name_ja": "クラシック スモールセコンド FC-235S2C5",
+      "reference": "FC-235S2C5",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": 25.2,
+      "movementType": "quartz",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 177650,
+      "searchKeywordJa": "フレデリック・コンスタント FC-235S2C5",
+      "searchKeywordEn": "Frederique Constant FC-235S2C5",
+      "caseMaterial": null,
+      "waterResistanceM": 30,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "limited-edition",
+        "small-seconds"
+      ],
+      "popular": false,
+      "summary_ja": "フレデリック・コンスタントの型番FC-235S2C5。市場で20件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Frederique Constant reference FC-235S2C5, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 20,
+      "lastSeen": "2026-08-24"
+    },
+    {
+      "id": "ref-fc206n3s6",
+      "name_en": "FC-206N3S6",
+      "name_ja": "モネータ ムーンフェイズ FC-206N3S6",
+      "reference": "FC-206N3S6",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": 37,
+      "movementType": "quartz",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 177650,
+      "searchKeywordJa": "フレデリック・コンスタント FC-206N3S6",
+      "searchKeywordEn": "Frederique Constant FC-206N3S6",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "moonphase",
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "フレデリック・コンスタントの型番FC-206N3S6。市場で20件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Frederique Constant reference FC-206N3S6, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 20,
+      "lastSeen": "2026-08-24"
+    },
+    {
+      "id": "ref-fc200mc16",
+      "name_en": "FC-200MC16",
+      "name_ja": "フレデリックコンスタント クラシックカレ FC-200MC16",
+      "reference": "FC-200MC16",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": 23,
+      "movementType": "quartz",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 126225,
+      "searchKeywordJa": "フレデリック・コンスタント FC-200MC16",
+      "searchKeywordEn": "Frederique Constant FC-200MC16",
+      "caseMaterial": null,
+      "waterResistanceM": 30,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "diver"
+      ],
+      "popular": false,
+      "summary_ja": "フレデリック・コンスタントの型番FC-200MC16。市場で19件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Frederique Constant reference FC-200MC16, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 19,
+      "lastSeen": "2026-08-24"
+    },
+    {
+      "id": "ref-fc200mcd1s4",
+      "name_en": "FC-200MCD1S4",
+      "name_ja": "クラシック フレデリックコンスタント FC-200MCD1S4",
+      "reference": "FC-200MCD1S4",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": 30,
+      "movementType": "quartz",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 168300,
+      "searchKeywordJa": "フレデリック・コンスタント FC-200MCD1S4",
+      "searchKeywordEn": "Frederique Constant FC-200MCD1S4",
+      "caseMaterial": null,
+      "waterResistanceM": 30,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "diver",
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "フレデリック・コンスタントの型番FC-200MCD1S4。市場で19件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Frederique Constant reference FC-200MCD1S4, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 19,
+      "lastSeen": "2026-08-24"
+    },
+    {
+      "id": "ref-fc310mc5b6",
+      "name_en": "FC-310MC5B6",
+      "name_ja": "クラシック ハートビート FC-310MC5B6",
+      "reference": "FC-310MC5B6",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 231880,
+      "searchKeywordJa": "フレデリック・コンスタント FC-310MC5B6",
+      "searchKeywordEn": "Frederique Constant FC-310MC5B6",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "skeleton",
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "フレデリック・コンスタントの型番FC-310MC5B6。市場で19件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Frederique Constant reference FC-310MC5B6, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 19,
+      "lastSeen": "2026-08-24"
+    },
+    {
+      "id": "ref-fc310swr4c6",
+      "name_en": "FC-310SWR4C6",
+      "name_ja": "クラシック ハートビート FC-310SWR4C6",
+      "reference": "FC-310SWR4C6",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 224400,
+      "searchKeywordJa": "フレデリック・コンスタント FC-310SWR4C6",
+      "searchKeywordEn": "Frederique Constant FC-310SWR4C6",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "フレデリック・コンスタントの型番FC-310SWR4C6。市場で19件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Frederique Constant reference FC-310SWR4C6, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 19,
+      "lastSeen": "2026-08-24"
+    },
+    {
+      "id": "ref-fc310skt4s36",
+      "name_en": "FC-310SKT4S36",
+      "name_ja": "フレデリックコンスタント クラシック FC-310SKT4S36",
+      "reference": "FC-310SKT4S36",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": 30,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 280500,
+      "searchKeywordJa": "フレデリック・コンスタント FC-310SKT4S36",
+      "searchKeywordEn": "Frederique Constant FC-310SKT4S36",
+      "caseMaterial": null,
+      "waterResistanceM": 30,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "skeleton",
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "フレデリック・コンスタントの型番FC-310SKT4S36。市場で19件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Frederique Constant reference FC-310SKT4S36, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 19,
+      "lastSeen": "2026-08-24"
+    },
+    {
+      "id": "ref-fc301n3b6",
+      "name_en": "FC-301N3B6",
+      "name_ja": "クラシック プレミア FC-301N3B6",
+      "reference": "FC-301N3B6",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": 38.5,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 299200,
+      "searchKeywordJa": "フレデリック・コンスタント FC-301N3B6",
+      "searchKeywordEn": "Frederique Constant FC-301N3B6",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "フレデリック・コンスタントの型番FC-301N3B6。市場で19件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Frederique Constant reference FC-301N3B6, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 19,
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc310skt4s34",
@@ -594,181 +738,11 @@
         "limited-edition"
       ],
       "popular": false,
-      "summary_ja": "フレデリック・コンスタントの型番FC-310SKT4S34。市場で20件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "フレデリック・コンスタントの型番FC-310SKT4S34。市場で18件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Frederique Constant reference FC-310SKT4S34, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 20,
-      "lastSeen": "2026-08-23"
-    },
-    {
-      "id": "ref-fc310mck5b6",
-      "name_en": "FC-310MCK5B6",
-      "name_ja": "クラシック ハートビート FC-310MCK5B6",
-      "reference": "FC-310MCK5B6",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 231880,
-      "searchKeywordJa": "フレデリック・コンスタント FC-310MCK5B6",
-      "searchKeywordEn": "Frederique Constant FC-310MCK5B6",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "skeleton"
-      ],
-      "popular": false,
-      "summary_ja": "フレデリック・コンスタントの型番FC-310MCK5B6。市場で19件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Frederique Constant reference FC-310MCK5B6, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 19,
-      "lastSeen": "2026-08-23"
-    },
-    {
-      "id": "ref-fc200mpdc14",
-      "name_en": "FC-200MPDC14",
-      "name_ja": "フレデリックコンスタント クラシック FC-200MPDC14",
-      "reference": "FC-200MPDC14",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": 23,
-      "movementType": "quartz",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 168300,
-      "searchKeywordJa": "フレデリック・コンスタント FC-200MPDC14",
-      "searchKeywordEn": "Frederique Constant FC-200MPDC14",
-      "caseMaterial": "rose-gold",
-      "waterResistanceM": null,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "diver",
-        "limited-edition"
-      ],
-      "popular": false,
-      "summary_ja": "フレデリック・コンスタントの型番FC-200MPDC14。市場で18件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Frederique Constant reference FC-200MPDC14, currently offered by multiple sellers in Japan.",
-      "source": "auto",
       "listingCount": 18,
-      "lastSeen": "2026-08-23"
-    },
-    {
-      "id": "ref-fc206n3s6",
-      "name_en": "FC-206N3S6",
-      "name_ja": "モネータ ムーンフェイズ FC-206N3S6",
-      "reference": "FC-206N3S6",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": 37,
-      "movementType": "quartz",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 177650,
-      "searchKeywordJa": "フレデリック・コンスタント FC-206N3S6",
-      "searchKeywordEn": "Frederique Constant FC-206N3S6",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "moonphase",
-        "limited-edition"
-      ],
-      "popular": false,
-      "summary_ja": "フレデリック・コンスタントの型番FC-206N3S6。市場で18件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Frederique Constant reference FC-206N3S6, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 18,
-      "lastSeen": "2026-08-23"
-    },
-    {
-      "id": "ref-fc310swr4c6",
-      "name_en": "FC-310SWR4C6",
-      "name_ja": "クラシック ハートビート FC-310SWR4C6",
-      "reference": "FC-310SWR4C6",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 224400,
-      "searchKeywordJa": "フレデリック・コンスタント FC-310SWR4C6",
-      "searchKeywordEn": "Frederique Constant FC-310SWR4C6",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "limited-edition"
-      ],
-      "popular": false,
-      "summary_ja": "フレデリック・コンスタントの型番FC-310SWR4C6。市場で18件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Frederique Constant reference FC-310SWR4C6, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 18,
-      "lastSeen": "2026-08-23"
-    },
-    {
-      "id": "ref-fc200wn1cd16",
-      "name_en": "FC-200WN1CD16",
-      "name_ja": "フレデリックコンスタント クラシック FC-200WN1CD16",
-      "reference": "FC-200WN1CD16",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": 23,
-      "movementType": "quartz",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 345950,
-      "searchKeywordJa": "フレデリック・コンスタント FC-200WN1CD16",
-      "searchKeywordEn": "Frederique Constant FC-200WN1CD16",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "limited-edition"
-      ],
-      "popular": false,
-      "summary_ja": "フレデリック・コンスタントの型番FC-200WN1CD16。市場で18件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Frederique Constant reference FC-200WN1CD16, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 18,
-      "lastSeen": "2026-08-23"
-    },
-    {
-      "id": "ref-fc200mcd14",
-      "name_en": "FC-200MCD14",
-      "name_ja": "フレデリックコンスタント クラシック FC-200MCD14",
-      "reference": "FC-200MCD14",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": 23,
-      "movementType": "quartz",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 364650,
-      "searchKeywordJa": "フレデリック・コンスタント FC-200MCD14",
-      "searchKeywordEn": "Frederique Constant FC-200MCD14",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "diver"
-      ],
-      "popular": false,
-      "summary_ja": "フレデリック・コンスタントの型番FC-200MCD14。市場で18件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Frederique Constant reference FC-200MCD14, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 18,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc735n3h6",
@@ -796,79 +770,51 @@
       "summary_en": "Frederique Constant reference FC-735N3H6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 18,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
-      "id": "ref-fc235s2c5",
-      "name_en": "FC-235S2C5",
-      "name_ja": "クラシック フレデリックコンスタント FC-235S2C5",
-      "reference": "FC-235S2C5",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": 25.2,
-      "movementType": "quartz",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 177650,
-      "searchKeywordJa": "フレデリック・コンスタント FC-235S2C5",
-      "searchKeywordEn": "Frederique Constant FC-235S2C5",
-      "caseMaterial": null,
-      "waterResistanceM": 30,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "limited-edition",
-        "small-seconds"
-      ],
-      "popular": false,
-      "summary_ja": "フレデリック・コンスタントの型番FC-235S2C5。市場で17件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Frederique Constant reference FC-235S2C5, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 17,
-      "lastSeen": "2026-08-23"
-    },
-    {
-      "id": "ref-fc206s3s6",
-      "name_en": "FC-206S3S6",
-      "name_ja": "モネータ ムーンフェイズ FC-206S3S6",
-      "reference": "FC-206S3S6",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": 37,
-      "movementType": "quartz",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 177650,
-      "searchKeywordJa": "フレデリック・コンスタント FC-206S3S6",
-      "searchKeywordEn": "Frederique Constant FC-206S3S6",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "moonphase"
-      ],
-      "popular": false,
-      "summary_ja": "フレデリック・コンスタントの型番FC-206S3S6。市場で17件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Frederique Constant reference FC-206S3S6, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 17,
-      "lastSeen": "2026-08-23"
-    },
-    {
-      "id": "ref-fc200mpwcd16",
-      "name_en": "FC-200MPWCD16",
-      "name_ja": "フレデリックコンスタント ノベルティ FC-200MPWCD16",
-      "reference": "FC-200MPWCD16",
+      "id": "ref-fc200mpdc12b",
+      "name_en": "FC-200MPDC12B",
+      "name_ja": "フレデリックコンスタント クラシック FC-200MPDC12B",
+      "reference": "FC-200MPDC12B",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
       "movementType": "quartz",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 359975,
-      "searchKeywordJa": "フレデリック・コンスタント FC-200MPWCD16",
-      "searchKeywordEn": "Frederique Constant FC-200MPWCD16",
+      "priceFloorJpy": 201025,
+      "searchKeywordJa": "フレデリック・コンスタント FC-200MPDC12B",
+      "searchKeywordEn": "Frederique Constant FC-200MPDC12B",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "diver",
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "フレデリック・コンスタントの型番FC-200MPDC12B。市場で17件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Frederique Constant reference FC-200MPDC12B, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 17,
+      "lastSeen": "2026-08-24"
+    },
+    {
+      "id": "ref-fc200mcd14",
+      "name_en": "FC-200MCD14",
+      "name_ja": "フレデリックコンスタント クラシック FC-200MCD14",
+      "reference": "FC-200MCD14",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": 23,
+      "movementType": "quartz",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 364650,
+      "searchKeywordJa": "フレデリック・コンスタント FC-200MCD14",
+      "searchKeywordEn": "Frederique Constant FC-200MCD14",
       "caseMaterial": null,
       "waterResistanceM": null,
       "gender": "ladies",
@@ -877,11 +823,39 @@
         "diver"
       ],
       "popular": false,
-      "summary_ja": "フレデリック・コンスタントの型番FC-200MPWCD16。市場で17件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Frederique Constant reference FC-200MPWCD16, currently offered by multiple sellers in Japan.",
+      "summary_ja": "フレデリック・コンスタントの型番FC-200MCD14。市場で17件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Frederique Constant reference FC-200MCD14, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 17,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
+    },
+    {
+      "id": "ref-fc200wn1cd16",
+      "name_en": "FC-200WN1CD16",
+      "name_ja": "フレデリックコンスタント クラシック FC-200WN1CD16",
+      "reference": "FC-200WN1CD16",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": 23,
+      "movementType": "quartz",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 345950,
+      "searchKeywordJa": "フレデリック・コンスタント FC-200WN1CD16",
+      "searchKeywordEn": "Frederique Constant FC-200WN1CD16",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "フレデリック・コンスタントの型番FC-200WN1CD16。市場で17件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Frederique Constant reference FC-200WN1CD16, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 17,
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc945mc4h6",
@@ -902,14 +876,43 @@
       "gender": "mens",
       "releaseYear": null,
       "tags": [
-        "sport"
+        "limited-edition"
       ],
       "popular": false,
       "summary_ja": "フレデリック・コンスタントの型番FC-945MC4H6。市場で17件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Frederique Constant reference FC-945MC4H6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 17,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
+    },
+    {
+      "id": "ref-fc235gr2c6b",
+      "name_en": "FC-235GR2C6B",
+      "name_ja": "クラシック ノベルティ FC-235GR2C6B",
+      "reference": "FC-235GR2C6B",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": 25.2,
+      "movementType": "quartz",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 177650,
+      "searchKeywordJa": "フレデリック・コンスタント FC-235GR2C6B",
+      "searchKeywordEn": "Frederique Constant FC-235GR2C6B",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "limited-edition",
+        "small-seconds"
+      ],
+      "popular": false,
+      "summary_ja": "フレデリック・コンスタントの型番FC-235GR2C6B。市場で16件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Frederique Constant reference FC-235GR2C6B, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 16,
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc200mpw2ac2d6",
@@ -938,7 +941,91 @@
       "summary_en": "Frederique Constant reference FC-200MPW2AC2D6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 16,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
+    },
+    {
+      "id": "ref-fc311s4c4",
+      "name_en": "FC-311S4C4",
+      "name_ja": "クラシック フレデリックコンスタント FC-311S4C4",
+      "reference": "FC-311S4C4",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 247775,
+      "searchKeywordJa": "フレデリック・コンスタント FC-311S4C4",
+      "searchKeywordEn": "Frederique Constant FC-311S4C4",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "フレデリック・コンスタントの型番FC-311S4C4。市場で16件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Frederique Constant reference FC-311S4C4, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 16,
+      "lastSeen": "2026-08-24"
+    },
+    {
+      "id": "ref-fc310swr4c4",
+      "name_en": "FC-310SWR4C4",
+      "name_ja": "クラシック ハートビート FC-310SWR4C4",
+      "reference": "FC-310SWR4C4",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 261800,
+      "searchKeywordJa": "フレデリック・コンスタント FC-310SWR4C4",
+      "searchKeywordEn": "Frederique Constant FC-310SWR4C4",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "フレデリック・コンスタントの型番FC-310SWR4C4。市場で16件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Frederique Constant reference FC-310SWR4C4, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 16,
+      "lastSeen": "2026-08-24"
+    },
+    {
+      "id": "ref-fc200mpwcd16",
+      "name_en": "FC-200MPWCD16",
+      "name_ja": "フレデリックコンスタント ノベルティ FC-200MPWCD16",
+      "reference": "FC-200MPWCD16",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "quartz",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 359975,
+      "searchKeywordJa": "フレデリック・コンスタント FC-200MPWCD16",
+      "searchKeywordEn": "Frederique Constant FC-200MPWCD16",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "diver"
+      ],
+      "popular": false,
+      "summary_ja": "フレデリック・コンスタントの型番FC-200MPWCD16。市場で16件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Frederique Constant reference FC-200MPWCD16, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 16,
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc930em3h6",
@@ -966,120 +1053,7 @@
       "summary_en": "Frederique Constant reference FC-930EM3H6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 16,
-      "lastSeen": "2026-08-23"
-    },
-    {
-      "id": "ref-fc235gr2c6b",
-      "name_en": "FC-235GR2C6B",
-      "name_ja": "クラシック ノベルティ FC-235GR2C6B",
-      "reference": "FC-235GR2C6B",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": 25.2,
-      "movementType": "quartz",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 177650,
-      "searchKeywordJa": "フレデリック・コンスタント FC-235GR2C6B",
-      "searchKeywordEn": "Frederique Constant FC-235GR2C6B",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "limited-edition",
-        "small-seconds"
-      ],
-      "popular": false,
-      "summary_ja": "フレデリック・コンスタントの型番FC-235GR2C6B。市場で15件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Frederique Constant reference FC-235GR2C6B, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 15,
-      "lastSeen": "2026-08-23"
-    },
-    {
-      "id": "ref-fc301n3b6",
-      "name_en": "FC-301N3B6",
-      "name_ja": "クラシック プレミア FC-301N3B6",
-      "reference": "FC-301N3B6",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": 38.5,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 299200,
-      "searchKeywordJa": "フレデリック・コンスタント FC-301N3B6",
-      "searchKeywordEn": "Frederique Constant FC-301N3B6",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "フレデリック・コンスタントの型番FC-301N3B6。市場で15件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Frederique Constant reference FC-301N3B6, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 15,
-      "lastSeen": "2026-08-23"
-    },
-    {
-      "id": "ref-fc310swr4c4",
-      "name_en": "FC-310SWR4C4",
-      "name_ja": "クラシック ハートビート FC-310SWR4C4",
-      "reference": "FC-310SWR4C4",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 261800,
-      "searchKeywordJa": "フレデリック・コンスタント FC-310SWR4C4",
-      "searchKeywordEn": "Frederique Constant FC-310SWR4C4",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "limited-edition"
-      ],
-      "popular": false,
-      "summary_ja": "フレデリック・コンスタントの型番FC-310SWR4C4。市場で15件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Frederique Constant reference FC-310SWR4C4, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 15,
-      "lastSeen": "2026-08-23"
-    },
-    {
-      "id": "ref-fc200wn1cd14",
-      "name_en": "FC-200WN1CD14",
-      "name_ja": "フレデリックコンスタント クラシック FC-200WN1CD14",
-      "reference": "FC-200WN1CD14",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": 23,
-      "movementType": "quartz",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 364650,
-      "searchKeywordJa": "フレデリック・コンスタント FC-200WN1CD14",
-      "searchKeywordEn": "Frederique Constant FC-200WN1CD14",
-      "caseMaterial": "rose-gold",
-      "waterResistanceM": null,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "limited-edition"
-      ],
-      "popular": false,
-      "summary_ja": "フレデリック・コンスタントの型番FC-200WN1CD14。市場で15件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Frederique Constant reference FC-200WN1CD14, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 15,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc723gr3s6",
@@ -1107,7 +1081,7 @@
       "summary_en": "Frederique Constant reference FC-723GR3S6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 15,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc716n3h6",
@@ -1135,7 +1109,63 @@
       "summary_en": "Frederique Constant reference FC-716N3H6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 15,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
+    },
+    {
+      "id": "ref-fc315msb4c26b",
+      "name_en": "FC-315MSB4C26B",
+      "name_ja": "フレデリックコンスタント クラシックカレデイト FC-315MSB4C26B",
+      "reference": "FC-315MSB4C26B",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 152320,
+      "searchKeywordJa": "フレデリック・コンスタント FC-315MSB4C26B",
+      "searchKeywordEn": "Frederique Constant FC-315MSB4C26B",
+      "caseMaterial": null,
+      "waterResistanceM": 30,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "フレデリック・コンスタントの型番FC-315MSB4C26B。市場で14件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Frederique Constant reference FC-315MSB4C26B, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 14,
+      "lastSeen": "2026-08-24"
+    },
+    {
+      "id": "ref-fc303n4c6",
+      "name_en": "FC-303N4C6",
+      "name_ja": "クラシック フレデリックコンスタント FC-303N4C6",
+      "reference": "FC-303N4C6",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 168300,
+      "searchKeywordJa": "フレデリック・コンスタント FC-303N4C6",
+      "searchKeywordEn": "Frederique Constant FC-303N4C6",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "フレデリック・コンスタントの型番FC-303N4C6。市場で14件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Frederique Constant reference FC-303N4C6, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 14,
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc200mpw2v6b",
@@ -1163,7 +1193,63 @@
       "summary_en": "Frederique Constant reference FC-200MPW2V6B, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 14,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
+    },
+    {
+      "id": "ref-fc310mc4s36",
+      "name_en": "FC-310MC4S36",
+      "name_ja": "フレデリックコンスタント クラシックカレ FC-310MC4S36",
+      "reference": "FC-310MC4S36",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": 30,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 160820,
+      "searchKeywordJa": "フレデリック・コンスタント FC-310MC4S36",
+      "searchKeywordEn": "Frederique Constant FC-310MC4S36",
+      "caseMaterial": null,
+      "waterResistanceM": 30,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "フレデリック・コンスタントの型番FC-310MC4S36。市場で14件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Frederique Constant reference FC-310MC4S36, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 14,
+      "lastSeen": "2026-08-24"
+    },
+    {
+      "id": "ref-fc303n4nh6b",
+      "name_en": "FC-303N4NH6B",
+      "name_ja": "ハイライフ フレデリックコンスタント FC-303N4NH6B",
+      "reference": "FC-303N4NH6B",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 188496,
+      "searchKeywordJa": "フレデリック・コンスタント FC-303N4NH6B",
+      "searchKeywordEn": "Frederique Constant FC-303N4NH6B",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "フレデリック・コンスタントの型番FC-303N4NH6B。市場で14件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Frederique Constant reference FC-303N4NH6B, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 14,
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc333n4c6",
@@ -1191,7 +1277,7 @@
       "summary_en": "Frederique Constant reference FC-333N4C6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 14,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc703n3s6b",
@@ -1219,63 +1305,36 @@
       "summary_en": "Frederique Constant reference FC-703N3S6B, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 14,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
-      "id": "ref-fc315msb4c26b",
-      "name_en": "FC-315MSB4C26B",
-      "name_ja": "フレデリックコンスタント クラシックカレデイト FC-315MSB4C26B",
-      "reference": "FC-315MSB4C26B",
+      "id": "ref-fc200mpw16",
+      "name_en": "FC-200MPW16",
+      "name_ja": "フレデリックコンスタント クラシック FC-200MPW16",
+      "reference": "FC-200MPW16",
       "collection_en": null,
       "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
+      "caseSizeMm": 23,
+      "movementType": "quartz",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 152320,
-      "searchKeywordJa": "フレデリック・コンスタント FC-315MSB4C26B",
-      "searchKeywordEn": "Frederique Constant FC-315MSB4C26B",
-      "caseMaterial": null,
-      "waterResistanceM": 30,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "フレデリック・コンスタントの型番FC-315MSB4C26B。市場で13件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Frederique Constant reference FC-315MSB4C26B, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 13,
-      "lastSeen": "2026-08-23"
-    },
-    {
-      "id": "ref-fc303n4c6",
-      "name_en": "FC-303N4C6",
-      "name_ja": "クラシック フレデリックコンスタント FC-303N4C6",
-      "reference": "FC-303N4C6",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 168300,
-      "searchKeywordJa": "フレデリック・コンスタント FC-303N4C6",
-      "searchKeywordEn": "Frederique Constant FC-303N4C6",
+      "priceFloorJpy": 135575,
+      "searchKeywordJa": "フレデリック・コンスタント FC-200MPW16",
+      "searchKeywordEn": "Frederique Constant FC-200MPW16",
       "caseMaterial": null,
       "waterResistanceM": null,
-      "gender": "mens",
+      "gender": "ladies",
       "releaseYear": null,
       "tags": [
+        "diver",
         "limited-edition"
       ],
       "popular": false,
-      "summary_ja": "フレデリック・コンスタントの型番FC-303N4C6。市場で13件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Frederique Constant reference FC-303N4C6, currently offered by multiple sellers in Japan.",
+      "summary_ja": "フレデリック・コンスタントの型番FC-200MPW16。市場で13件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Frederique Constant reference FC-200MPW16, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 13,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc200mpw1c4",
@@ -1304,7 +1363,36 @@
       "summary_en": "Frederique Constant reference FC-200MPW1C4, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 13,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
+    },
+    {
+      "id": "ref-fc206s3s6",
+      "name_en": "FC-206S3S6",
+      "name_ja": "モネータ ムーンフェイズ FC-206S3S6",
+      "reference": "FC-206S3S6",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": 37,
+      "movementType": "quartz",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 177650,
+      "searchKeywordJa": "フレデリック・コンスタント FC-206S3S6",
+      "searchKeywordEn": "Frederique Constant FC-206S3S6",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "moonphase",
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "フレデリック・コンスタントの型番FC-206S3S6。市場で13件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Frederique Constant reference FC-206S3S6, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 13,
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc723wr3s6",
@@ -1332,7 +1420,35 @@
       "summary_en": "Frederique Constant reference FC-723WR3S6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 13,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
+    },
+    {
+      "id": "ref-fc200wn1cd14",
+      "name_en": "FC-200WN1CD14",
+      "name_ja": "フレデリックコンスタント クラシック FC-200WN1CD14",
+      "reference": "FC-200WN1CD14",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": 23,
+      "movementType": "quartz",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 364650,
+      "searchKeywordJa": "フレデリック・コンスタント FC-200WN1CD14",
+      "searchKeywordEn": "Frederique Constant FC-200WN1CD14",
+      "caseMaterial": "rose-gold",
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "フレデリック・コンスタントの型番FC-200WN1CD14。市場で13件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Frederique Constant reference FC-200WN1CD14, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 13,
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc391wn4nh6",
@@ -1361,7 +1477,36 @@
       "summary_en": "Frederique Constant reference FC-391WN4NH6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 13,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
+    },
+    {
+      "id": "ref-fc200mcd1s6",
+      "name_en": "FC-200MCD1S6",
+      "name_ja": "クラシック ノベルティ FC-200MCD1S6",
+      "reference": "FC-200MCD1S6",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "quartz",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 149600,
+      "searchKeywordJa": "フレデリック・コンスタント FC-200MCD1S6",
+      "searchKeywordEn": "Frederique Constant FC-200MCD1S6",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "diver",
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "フレデリック・コンスタントの型番FC-200MCD1S6。市場で12件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Frederique Constant reference FC-200MCD1S6, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 12,
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc200mpw2ar6b",
@@ -1390,13 +1535,13 @@
       "summary_en": "Frederique Constant reference FC-200MPW2AR6B, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 12,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
-      "id": "ref-fc303v4c4",
-      "name_en": "FC-303V4C4",
-      "name_ja": "クラシック フレデリックコンスタント FC-303V4C4",
-      "reference": "FC-303V4C4",
+      "id": "ref-fc311n4c6",
+      "name_en": "FC-311N4C6",
+      "name_ja": "クラシック ハートビート FC-311N4C6",
+      "reference": "FC-311N4C6",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
@@ -1404,8 +1549,8 @@
       "caliber": null,
       "listPriceJpy": null,
       "priceFloorJpy": 215050,
-      "searchKeywordJa": "フレデリック・コンスタント FC-303V4C4",
-      "searchKeywordEn": "Frederique Constant FC-303V4C4",
+      "searchKeywordJa": "フレデリック・コンスタント FC-311N4C6",
+      "searchKeywordEn": "Frederique Constant FC-311N4C6",
       "caseMaterial": null,
       "waterResistanceM": null,
       "gender": "mens",
@@ -1414,95 +1559,11 @@
         "limited-edition"
       ],
       "popular": false,
-      "summary_ja": "フレデリック・コンスタントの型番FC-303V4C4。市場で12件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Frederique Constant reference FC-303V4C4, currently offered by multiple sellers in Japan.",
+      "summary_ja": "フレデリック・コンスタントの型番FC-311N4C6。市場で12件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Frederique Constant reference FC-311N4C6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 12,
-      "lastSeen": "2026-08-23"
-    },
-    {
-      "id": "ref-fc310mc4s36",
-      "name_en": "FC-310MC4S36",
-      "name_ja": "フレデリックコンスタント クラシックカレ FC-310MC4S36",
-      "reference": "FC-310MC4S36",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": 30,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 160820,
-      "searchKeywordJa": "フレデリック・コンスタント FC-310MC4S36",
-      "searchKeywordEn": "Frederique Constant FC-310MC4S36",
-      "caseMaterial": null,
-      "waterResistanceM": 30,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "limited-edition"
-      ],
-      "popular": false,
-      "summary_ja": "フレデリック・コンスタントの型番FC-310MC4S36。市場で12件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Frederique Constant reference FC-310MC4S36, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 12,
-      "lastSeen": "2026-08-23"
-    },
-    {
-      "id": "ref-fc303n4nh6b",
-      "name_en": "FC-303N4NH6B",
-      "name_ja": "ハイライフ フレデリックコンスタント FC-303N4NH6B",
-      "reference": "FC-303N4NH6B",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 188496,
-      "searchKeywordJa": "フレデリック・コンスタント FC-303N4NH6B",
-      "searchKeywordEn": "Frederique Constant FC-303N4NH6B",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "フレデリック・コンスタントの型番FC-303N4NH6B。市場で12件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Frederique Constant reference FC-303N4NH6B, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 12,
-      "lastSeen": "2026-08-23"
-    },
-    {
-      "id": "ref-fc311s4c4",
-      "name_en": "FC-311S4C4",
-      "name_ja": "クラシック フレデリックコンスタント FC-311S4C4",
-      "reference": "FC-311S4C4",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 247775,
-      "searchKeywordJa": "フレデリック・コンスタント FC-311S4C4",
-      "searchKeywordEn": "Frederique Constant FC-311S4C4",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "limited-edition"
-      ],
-      "popular": false,
-      "summary_ja": "フレデリック・コンスタントの型番FC-311S4C4。市場で12件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Frederique Constant reference FC-311S4C4, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 12,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc718nwwm4h9",
@@ -1530,51 +1591,22 @@
       "summary_en": "Frederique Constant reference FC-718NWWM4H9, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 12,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
-      "id": "ref-fc200mcd1s6",
-      "name_en": "FC-200MCD1S6",
-      "name_ja": "クラシック ノベルティ FC-200MCD1S6",
-      "reference": "FC-200MCD1S6",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "quartz",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 149600,
-      "searchKeywordJa": "フレデリック・コンスタント FC-200MCD1S6",
-      "searchKeywordEn": "Frederique Constant FC-200MCD1S6",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "diver",
-        "limited-edition"
-      ],
-      "popular": false,
-      "summary_ja": "フレデリック・コンスタントの型番FC-200MCD1S6。市場で11件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Frederique Constant reference FC-200MCD1S6, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 11,
-      "lastSeen": "2026-08-23"
-    },
-    {
-      "id": "ref-fc315mnw4c24",
-      "name_en": "FC-315MNW4C24",
-      "name_ja": "クラシック ハートビート FC-315MNW4C24",
-      "reference": "FC-315MNW4C24",
+      "id": "ref-fc310mns5b6",
+      "name_en": "FC-310MNS5B6",
+      "name_ja": "クラシック ハートビート FC-310MNS5B6",
+      "reference": "FC-310MNS5B6",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
       "movementType": "automatic",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 180880,
-      "searchKeywordJa": "フレデリック・コンスタント FC-315MNW4C24",
-      "searchKeywordEn": "Frederique Constant FC-315MNW4C24",
+      "priceFloorJpy": 102850,
+      "searchKeywordJa": "フレデリック・コンスタント FC-310MNS5B6",
+      "searchKeywordEn": "Frederique Constant FC-310MNS5B6",
       "caseMaterial": null,
       "waterResistanceM": null,
       "gender": "mens",
@@ -1583,17 +1615,17 @@
         "limited-edition"
       ],
       "popular": false,
-      "summary_ja": "フレデリック・コンスタントの型番FC-315MNW4C24。市場で11件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Frederique Constant reference FC-315MNW4C24, currently offered by multiple sellers in Japan.",
+      "summary_ja": "フレデリック・コンスタントの型番FC-310MNS5B6。市場で11件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Frederique Constant reference FC-310MNS5B6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 11,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
-      "id": "ref-fc311n4c6",
-      "name_en": "FC-311N4C6",
-      "name_ja": "クラシック ハートビート FC-311N4C6",
-      "reference": "FC-311N4C6",
+      "id": "ref-fc303v4c4",
+      "name_en": "FC-303V4C4",
+      "name_ja": "クラシック フレデリックコンスタント FC-303V4C4",
+      "reference": "FC-303V4C4",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
@@ -1601,8 +1633,8 @@
       "caliber": null,
       "listPriceJpy": null,
       "priceFloorJpy": 215050,
-      "searchKeywordJa": "フレデリック・コンスタント FC-311N4C6",
-      "searchKeywordEn": "Frederique Constant FC-311N4C6",
+      "searchKeywordJa": "フレデリック・コンスタント FC-303V4C4",
+      "searchKeywordEn": "Frederique Constant FC-303V4C4",
       "caseMaterial": null,
       "waterResistanceM": null,
       "gender": "mens",
@@ -1611,11 +1643,11 @@
         "limited-edition"
       ],
       "popular": false,
-      "summary_ja": "フレデリック・コンスタントの型番FC-311N4C6。市場で11件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Frederique Constant reference FC-311N4C6, currently offered by multiple sellers in Japan.",
+      "summary_ja": "フレデリック・コンスタントの型番FC-303V4C4。市場で11件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Frederique Constant reference FC-303V4C4, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 11,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc333s4c6",
@@ -1643,35 +1675,7 @@
       "summary_en": "Frederique Constant reference FC-333S4C6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 11,
-      "lastSeen": "2026-08-23"
-    },
-    {
-      "id": "ref-fc301swr3b4",
-      "name_en": "FC-301SWR3B4",
-      "name_ja": "クラシック プレミア FC-301SWR3B4",
-      "reference": "FC-301SWR3B4",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 271150,
-      "searchKeywordJa": "フレデリック・コンスタント FC-301SWR3B4",
-      "searchKeywordEn": "Frederique Constant FC-301SWR3B4",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "limited-edition"
-      ],
-      "popular": false,
-      "summary_ja": "フレデリック・コンスタントの型番FC-301SWR3B4。市場で11件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Frederique Constant reference FC-301SWR3B4, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 11,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc723wr3s4",
@@ -1699,7 +1703,7 @@
       "summary_en": "Frederique Constant reference FC-723WR3S4, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 11,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc706s3h6",
@@ -1727,22 +1731,78 @@
       "summary_en": "Frederique Constant reference FC-706S3H6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 11,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
-      "id": "ref-fc200mpw16",
-      "name_en": "FC-200MPW16",
-      "name_ja": "フレデリックコンスタント クラシック FC-200MPW16",
-      "reference": "FC-200MPW16",
+      "id": "ref-fc315dns4c26",
+      "name_en": "FC-315DNS4C26",
+      "name_ja": "クラシック ハートビート FC-315DNS4C26",
+      "reference": "FC-315DNS4C26",
       "collection_en": null,
       "collection_ja": null,
-      "caseSizeMm": 23,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 119680,
+      "searchKeywordJa": "フレデリック・コンスタント FC-315DNS4C26",
+      "searchKeywordEn": "Frederique Constant FC-315DNS4C26",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "フレデリック・コンスタントの型番FC-315DNS4C26。市場で10件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Frederique Constant reference FC-315DNS4C26, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 10,
+      "lastSeen": "2026-08-24"
+    },
+    {
+      "id": "ref-fc240lnd2nh26b",
+      "name_en": "FC-240LND2NH26B",
+      "name_ja": "ハイライフ フレデリックコンスタント FC-240LND2NH26B",
+      "reference": "FC-240LND2NH26B",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
       "movementType": "quartz",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 135575,
-      "searchKeywordJa": "フレデリック・コンスタント FC-200MPW16",
-      "searchKeywordEn": "Frederique Constant FC-200MPW16",
+      "priceFloorJpy": 168300,
+      "searchKeywordJa": "フレデリック・コンスタント FC-240LND2NH26B",
+      "searchKeywordEn": "Frederique Constant FC-240LND2NH26B",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "フレデリック・コンスタントの型番FC-240LND2NH26B。市場で10件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Frederique Constant reference FC-240LND2NH26B, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 10,
+      "lastSeen": "2026-08-24"
+    },
+    {
+      "id": "ref-fc200mpw2v2b",
+      "name_en": "FC-200MPW2V2B",
+      "name_ja": "アールデコ フレデリックコンスタント FC-200MPW2V2B",
+      "reference": "FC-200MPW2V2B",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "quartz",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 215050,
+      "searchKeywordJa": "フレデリック・コンスタント FC-200MPW2V2B",
+      "searchKeywordEn": "Frederique Constant FC-200MPW2V2B",
       "caseMaterial": null,
       "waterResistanceM": null,
       "gender": "ladies",
@@ -1752,11 +1812,96 @@
         "limited-edition"
       ],
       "popular": false,
-      "summary_ja": "フレデリック・コンスタントの型番FC-200MPW16。市場で10件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Frederique Constant reference FC-200MPW16, currently offered by multiple sellers in Japan.",
+      "summary_ja": "フレデリック・コンスタントの型番FC-200MPW2V2B。市場で10件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Frederique Constant reference FC-200MPW2V2B, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 10,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
+    },
+    {
+      "id": "ref-fc310mc4s34",
+      "name_en": "FC-310MC4S34",
+      "name_ja": "フレデリックコンスタント クラシックカレ FC-310MC4S34",
+      "reference": "FC-310MC4S34",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": 30,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 229075,
+      "searchKeywordJa": "フレデリック・コンスタント FC-310MC4S34",
+      "searchKeywordEn": "Frederique Constant FC-310MC4S34",
+      "caseMaterial": null,
+      "waterResistanceM": 30,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "フレデリック・コンスタントの型番FC-310MC4S34。市場で10件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Frederique Constant reference FC-310MC4S34, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 10,
+      "lastSeen": "2026-08-24"
+    },
+    {
+      "id": "ref-fc310mns5b4",
+      "name_en": "FC-310MNS5B4",
+      "name_ja": "クラシック ハートビート FC-310MNS5B4",
+      "reference": "FC-310MNS5B4",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 229075,
+      "searchKeywordJa": "フレデリック・コンスタント FC-310MNS5B4",
+      "searchKeywordEn": "Frederique Constant FC-310MNS5B4",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "フレデリック・コンスタントの型番FC-310MNS5B4。市場で10件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Frederique Constant reference FC-310MNS5B4, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 10,
+      "lastSeen": "2026-08-24"
+    },
+    {
+      "id": "ref-fc310nskt4nh6b",
+      "name_en": "FC-310NSKT4NH6B",
+      "name_ja": "ハイライフ ローン FC-310NSKT4NH6B",
+      "reference": "FC-310NSKT4NH6B",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 227800,
+      "searchKeywordJa": "フレデリック・コンスタント FC-310NSKT4NH6B",
+      "searchKeywordEn": "Frederique Constant FC-310NSKT4NH6B",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "skeleton",
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "フレデリック・コンスタントの型番FC-310NSKT4NH6B。市場で10件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Frederique Constant reference FC-310NSKT4NH6B, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 10,
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc705n4s6b",
@@ -1784,7 +1929,63 @@
       "summary_en": "Frederique Constant reference FC-705N4S6B, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 10,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
+    },
+    {
+      "id": "ref-fc301swr3b4",
+      "name_en": "FC-301SWR3B4",
+      "name_ja": "クラシック プレミア FC-301SWR3B4",
+      "reference": "FC-301SWR3B4",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 271150,
+      "searchKeywordJa": "フレデリック・コンスタント FC-301SWR3B4",
+      "searchKeywordEn": "Frederique Constant FC-301SWR3B4",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "フレデリック・コンスタントの型番FC-301SWR3B4。市場で10件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Frederique Constant reference FC-301SWR3B4, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 10,
+      "lastSeen": "2026-08-24"
+    },
+    {
+      "id": "ref-fc315mnw4c24",
+      "name_en": "FC-315MNW4C24",
+      "name_ja": "クラシック ハートビート FC-315MNW4C24",
+      "reference": "FC-315MNW4C24",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 180880,
+      "searchKeywordJa": "フレデリック・コンスタント FC-315MNW4C24",
+      "searchKeywordEn": "Frederique Constant FC-315MNW4C24",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "フレデリック・コンスタントの型番FC-315MNW4C24。市場で10件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Frederique Constant reference FC-315MNW4C24, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 10,
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc303fc310x3a53a6",
@@ -1812,204 +2013,64 @@
       "summary_en": "Frederique Constant reference FC303/FC310X3A5/3A6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 9,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
-      "id": "ref-fc315dns4c26",
-      "name_en": "FC-315DNS4C26",
-      "name_ja": "クラシック ハートビート FC-315DNS4C26",
-      "reference": "FC-315DNS4C26",
+      "id": "ref-fc200mpw14",
+      "name_en": "FC-200MPW14",
+      "name_ja": "フレデリックコンスタント クラシック FC-200MPW14",
+      "reference": "FC-200MPW14",
       "collection_en": null,
       "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 119680,
-      "searchKeywordJa": "フレデリック・コンスタント FC-315DNS4C26",
-      "searchKeywordEn": "Frederique Constant FC-315DNS4C26",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "limited-edition"
-      ],
-      "popular": false,
-      "summary_ja": "フレデリック・コンスタントの型番FC-315DNS4C26。市場で9件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Frederique Constant reference FC-315DNS4C26, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 9,
-      "lastSeen": "2026-08-23"
-    },
-    {
-      "id": "ref-fc240lnd2nh26b",
-      "name_en": "FC-240LND2NH26B",
-      "name_ja": "ハイライフ フレデリックコンスタント FC-240LND2NH26B",
-      "reference": "FC-240LND2NH26B",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
+      "caseSizeMm": 23,
       "movementType": "quartz",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 168300,
-      "searchKeywordJa": "フレデリック・コンスタント FC-240LND2NH26B",
-      "searchKeywordEn": "Frederique Constant FC-240LND2NH26B",
+      "priceFloorJpy": 154275,
+      "searchKeywordJa": "フレデリック・コンスタント FC-200MPW14",
+      "searchKeywordEn": "Frederique Constant FC-200MPW14",
       "caseMaterial": null,
       "waterResistanceM": null,
       "gender": "ladies",
       "releaseYear": null,
       "tags": [
+        "diver",
         "limited-edition"
       ],
       "popular": false,
-      "summary_ja": "フレデリック・コンスタントの型番FC-240LND2NH26B。市場で9件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Frederique Constant reference FC-240LND2NH26B, currently offered by multiple sellers in Japan.",
+      "summary_ja": "フレデリック・コンスタントの型番FC-200MPW14。市場で9件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Frederique Constant reference FC-200MPW14, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 9,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
-      "id": "ref-fc303s4c26",
-      "name_en": "FC-303S4C26",
-      "name_ja": "クラシック ノベルティ FC-303S4C26",
-      "reference": "FC-303S4C26",
+      "id": "ref-fc391b4nh6b",
+      "name_en": "FC-391B4NH6B",
+      "name_ja": "ハイライフ クロノグラフ FC-391B4NH6B",
+      "reference": "FC-391B4NH6B",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
       "movementType": "automatic",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 168300,
-      "searchKeywordJa": "フレデリック・コンスタント FC-303S4C26",
-      "searchKeywordEn": "Frederique Constant FC-303S4C26",
+      "priceFloorJpy": 504900,
+      "searchKeywordJa": "フレデリック・コンスタント FC-391B4NH6B",
+      "searchKeywordEn": "Frederique Constant FC-391B4NH6B",
       "caseMaterial": null,
       "waterResistanceM": null,
       "gender": "mens",
       "releaseYear": null,
       "tags": [
-        "sport"
+        "chronograph"
       ],
       "popular": false,
-      "summary_ja": "フレデリック・コンスタントの型番FC-303S4C26。市場で9件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Frederique Constant reference FC-303S4C26, currently offered by multiple sellers in Japan.",
+      "summary_ja": "フレデリック・コンスタントの型番FC-391B4NH6B。市場で9件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Frederique Constant reference FC-391B4NH6B, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 9,
-      "lastSeen": "2026-08-23"
-    },
-    {
-      "id": "ref-fc310mns5b6",
-      "name_en": "FC-310MNS5B6",
-      "name_ja": "クラシック ハートビート FC-310MNS5B6",
-      "reference": "FC-310MNS5B6",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 102850,
-      "searchKeywordJa": "フレデリック・コンスタント FC-310MNS5B6",
-      "searchKeywordEn": "Frederique Constant FC-310MNS5B6",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "limited-edition"
-      ],
-      "popular": false,
-      "summary_ja": "フレデリック・コンスタントの型番FC-310MNS5B6。市場で9件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Frederique Constant reference FC-310MNS5B6, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 9,
-      "lastSeen": "2026-08-23"
-    },
-    {
-      "id": "ref-fc311s4c6",
-      "name_en": "FC-311S4C6",
-      "name_ja": "クラシック ノベルティ FC-311S4C6",
-      "reference": "FC-311S4C6",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 215050,
-      "searchKeywordJa": "フレデリック・コンスタント FC-311S4C6",
-      "searchKeywordEn": "Frederique Constant FC-311S4C6",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "limited-edition"
-      ],
-      "popular": false,
-      "summary_ja": "フレデリック・コンスタントの型番FC-311S4C6。市場で9件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Frederique Constant reference FC-311S4C6, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 9,
-      "lastSeen": "2026-08-23"
-    },
-    {
-      "id": "ref-fc310mns5b4",
-      "name_en": "FC-310MNS5B4",
-      "name_ja": "クラシック ハートビート FC-310MNS5B4",
-      "reference": "FC-310MNS5B4",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 229075,
-      "searchKeywordJa": "フレデリック・コンスタント FC-310MNS5B4",
-      "searchKeywordEn": "Frederique Constant FC-310MNS5B4",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "limited-edition"
-      ],
-      "popular": false,
-      "summary_ja": "フレデリック・コンスタントの型番FC-310MNS5B4。市場で9件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Frederique Constant reference FC-310MNS5B4, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 9,
-      "lastSeen": "2026-08-23"
-    },
-    {
-      "id": "ref-fc310nskt4nh6b",
-      "name_en": "FC-310NSKT4NH6B",
-      "name_ja": "ハイライフ ローン FC-310NSKT4NH6B",
-      "reference": "FC-310NSKT4NH6B",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 227800,
-      "searchKeywordJa": "フレデリック・コンスタント FC-310NSKT4NH6B",
-      "searchKeywordEn": "Frederique Constant FC-310NSKT4NH6B",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "skeleton",
-        "limited-edition"
-      ],
-      "popular": false,
-      "summary_ja": "フレデリック・コンスタントの型番FC-310NSKT4NH6B。市場で9件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Frederique Constant reference FC-310NSKT4NH6B, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 9,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc235s2cd6",
@@ -2037,7 +2098,35 @@
       "summary_en": "Frederique Constant reference FC-235S2CD6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 9,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
+    },
+    {
+      "id": "ref-fc310mpn4s36b",
+      "name_en": "FC-310MPN4S36B",
+      "name_ja": "ハートビート クラシック FC-310MPN4S36B",
+      "reference": "FC-310MPN4S36B",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 121550,
+      "searchKeywordJa": "フレデリック・コンスタント FC-310MPN4S36B",
+      "searchKeywordEn": "Frederique Constant FC-310MPN4S36B",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "フレデリック・コンスタントの型番FC-310MPN4S36B。市場で8件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Frederique Constant reference FC-310MPN4S36B, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 8,
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc310mgrw5b6",
@@ -2065,35 +2154,7 @@
       "summary_en": "Frederique Constant reference FC-310MGRW5B6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 8,
-      "lastSeen": "2026-08-23"
-    },
-    {
-      "id": "ref-fc310v4nh4",
-      "name_en": "FC-310V4NH4",
-      "name_ja": "ハイライフ ハートビート FC-310V4NH4",
-      "reference": "FC-310V4NH4",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 166430,
-      "searchKeywordJa": "フレデリック・コンスタント FC-310V4NH4",
-      "searchKeywordEn": "Frederique Constant FC-310V4NH4",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "フレデリック・コンスタントの型番FC-310V4NH4。市場で8件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Frederique Constant reference FC-310V4NH4, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 8,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc310dgskt4tnh6b",
@@ -2122,92 +2183,63 @@
       "summary_en": "Frederique Constant reference FC-310DGSKT4TNH6B, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 8,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
-      "id": "ref-fc200mpw2v2b",
-      "name_en": "FC-200MPW2V2B",
-      "name_ja": "アールデコ フレデリックコンスタント FC-200MPW2V2B",
-      "reference": "FC-200MPW2V2B",
+      "id": "ref-fc311s4c6",
+      "name_en": "FC-311S4C6",
+      "name_ja": "クラシック ノベルティ FC-311S4C6",
+      "reference": "FC-311S4C6",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 215050,
+      "searchKeywordJa": "フレデリック・コンスタント FC-311S4C6",
+      "searchKeywordEn": "Frederique Constant FC-311S4C6",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "フレデリック・コンスタントの型番FC-311S4C6。市場で8件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Frederique Constant reference FC-311S4C6, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 8,
+      "lastSeen": "2026-08-24"
+    },
+    {
+      "id": "ref-fc240mpwd2nh22b",
+      "name_en": "FC-240MPWD2NH22B",
+      "name_ja": "ハイライフ ノベルティ FC-240MPWD2NH22B",
+      "reference": "FC-240MPWD2NH22B",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
       "movementType": "quartz",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 215050,
-      "searchKeywordJa": "フレデリック・コンスタント FC-200MPW2V2B",
-      "searchKeywordEn": "Frederique Constant FC-200MPW2V2B",
+      "priceFloorJpy": 229075,
+      "searchKeywordJa": "フレデリック・コンスタント FC-240MPWD2NH22B",
+      "searchKeywordEn": "Frederique Constant FC-240MPWD2NH22B",
       "caseMaterial": null,
       "waterResistanceM": null,
       "gender": "ladies",
       "releaseYear": null,
       "tags": [
-        "diver",
-        "limited-edition"
-      ],
-      "popular": false,
-      "summary_ja": "フレデリック・コンスタントの型番FC-200MPW2V2B。市場で8件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Frederique Constant reference FC-200MPW2V2B, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 8,
-      "lastSeen": "2026-08-23"
-    },
-    {
-      "id": "ref-fc310mc4s34",
-      "name_en": "FC-310MC4S34",
-      "name_ja": "フレデリックコンスタント クラシックカレ FC-310MC4S34",
-      "reference": "FC-310MC4S34",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": 30,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 229075,
-      "searchKeywordJa": "フレデリック・コンスタント FC-310MC4S34",
-      "searchKeywordEn": "Frederique Constant FC-310MC4S34",
-      "caseMaterial": null,
-      "waterResistanceM": 30,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
         "sport"
       ],
       "popular": false,
-      "summary_ja": "フレデリック・コンスタントの型番FC-310MC4S34。市場で8件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Frederique Constant reference FC-310MC4S34, currently offered by multiple sellers in Japan.",
+      "summary_ja": "フレデリック・コンスタントの型番FC-240MPWD2NH22B。市場で8件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Frederique Constant reference FC-240MPWD2NH22B, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 8,
-      "lastSeen": "2026-08-23"
-    },
-    {
-      "id": "ref-fc310mbrw5b4",
-      "name_en": "FC-310MBRW5B4",
-      "name_ja": "フレデリックコンスタント クラシック FC-310MBRW5B4",
-      "reference": "FC-310MBRW5B4",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": 40,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 196350,
-      "searchKeywordJa": "フレデリック・コンスタント FC-310MBRW5B4",
-      "searchKeywordEn": "Frederique Constant FC-310MBRW5B4",
-      "caseMaterial": "stainless-steel",
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "フレデリック・コンスタントの型番FC-310MBRW5B4。市場で8件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Frederique Constant reference FC-310MBRW5B4, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 8,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc303lb3nh6b",
@@ -2235,35 +2267,7 @@
       "summary_en": "Frederique Constant reference FC-303LB3NH6B, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 8,
-      "lastSeen": "2026-08-23"
-    },
-    {
-      "id": "ref-fc391b4nh6b",
-      "name_en": "FC-391B4NH6B",
-      "name_ja": "ハイライフ クロノグラフ FC-391B4NH6B",
-      "reference": "FC-391B4NH6B",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 504900,
-      "searchKeywordJa": "フレデリック・コンスタント FC-391B4NH6B",
-      "searchKeywordEn": "Frederique Constant FC-391B4NH6B",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "chronograph"
-      ],
-      "popular": false,
-      "summary_ja": "フレデリック・コンスタントの型番FC-391B4NH6B。市場で8件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Frederique Constant reference FC-391B4NH6B, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 8,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc716s3h6",
@@ -2291,35 +2295,63 @@
       "summary_en": "Frederique Constant reference FC-716S3H6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 8,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
-      "id": "ref-fc310mpn4s36b",
-      "name_en": "FC-310MPN4S36B",
-      "name_ja": "ハートビート クラシック FC-310MPN4S36B",
-      "reference": "FC-310MPN4S36B",
+      "id": "ref-fc315bs3p6b",
+      "name_en": "FC-315BS3P6B",
+      "name_ja": "クラシック ハートビート FC-315BS3P6B",
+      "reference": "FC-315BS3P6B",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
       "movementType": "automatic",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 121550,
-      "searchKeywordJa": "フレデリック・コンスタント FC-310MPN4S36B",
-      "searchKeywordEn": "Frederique Constant FC-310MPN4S36B",
+      "priceFloorJpy": 74613,
+      "searchKeywordJa": "フレデリック・コンスタント FC-315BS3P6B",
+      "searchKeywordEn": "Frederique Constant FC-315BS3P6B",
       "caseMaterial": null,
       "waterResistanceM": null,
       "gender": "mens",
       "releaseYear": null,
       "tags": [
-        "limited-edition"
+        "sport"
       ],
       "popular": false,
-      "summary_ja": "フレデリック・コンスタントの型番FC-310MPN4S36B。市場で7件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Frederique Constant reference FC-310MPN4S36B, currently offered by multiple sellers in Japan.",
+      "summary_ja": "フレデリック・コンスタントの型番FC-315BS3P6B。市場で7件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Frederique Constant reference FC-315BS3P6B, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 7,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
+    },
+    {
+      "id": "ref-fc303s4c26",
+      "name_en": "FC-303S4C26",
+      "name_ja": "クラシック ノベルティ FC-303S4C26",
+      "reference": "FC-303S4C26",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 168300,
+      "searchKeywordJa": "フレデリック・コンスタント FC-303S4C26",
+      "searchKeywordEn": "Frederique Constant FC-303S4C26",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "フレデリック・コンスタントの型番FC-303S4C26。市場で7件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Frederique Constant reference FC-303S4C26, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 7,
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc200mpw1c6",
@@ -2348,91 +2380,7 @@
       "summary_en": "Frederique Constant reference FC-200MPW1C6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 7,
-      "lastSeen": "2026-08-23"
-    },
-    {
-      "id": "ref-fc310mbs5b6",
-      "name_en": "FC-310MBS5B6",
-      "name_ja": "フレデリックコンスタント クラシック FC-310MBS5B6",
-      "reference": "FC-310MBS5B6",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 201025,
-      "searchKeywordJa": "フレデリック・コンスタント FC-310MBS5B6",
-      "searchKeywordEn": "Frederique Constant FC-310MBS5B6",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "フレデリック・コンスタントの型番FC-310MBS5B6。市場で7件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Frederique Constant reference FC-310MBS5B6, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 7,
-      "lastSeen": "2026-08-23"
-    },
-    {
-      "id": "ref-fc240mpwd2nh22b",
-      "name_en": "FC-240MPWD2NH22B",
-      "name_ja": "ハイライフ ノベルティ FC-240MPWD2NH22B",
-      "reference": "FC-240MPWD2NH22B",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "quartz",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 229075,
-      "searchKeywordJa": "フレデリック・コンスタント FC-240MPWD2NH22B",
-      "searchKeywordEn": "Frederique Constant FC-240MPWD2NH22B",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "フレデリック・コンスタントの型番FC-240MPWD2NH22B。市場で7件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Frederique Constant reference FC-240MPWD2NH22B, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 7,
-      "lastSeen": "2026-08-23"
-    },
-    {
-      "id": "ref-fc702g3s4",
-      "name_en": "FC-702G3S4",
-      "name_ja": "スリムラインムーンフェイ ズマニファクチュール FC-702G3S4",
-      "reference": "FC-702G3S4",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 189720,
-      "searchKeywordJa": "フレデリック・コンスタント FC-702G3S4",
-      "searchKeywordEn": "Frederique Constant FC-702G3S4",
-      "caseMaterial": "stainless-steel",
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "moonphase"
-      ],
-      "popular": false,
-      "summary_ja": "フレデリック・コンスタントの型番FC-702G3S4。市場で7件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Frederique Constant reference FC-702G3S4, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 7,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc200mpsal2ac6b",
@@ -2460,7 +2408,35 @@
       "summary_en": "Frederique Constant reference FC-200MPSAL2AC6B, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 7,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
+    },
+    {
+      "id": "ref-fc702g3s4",
+      "name_en": "FC-702G3S4",
+      "name_ja": "スリムラインムーンフェイ ズマニファクチュール FC-702G3S4",
+      "reference": "FC-702G3S4",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 189720,
+      "searchKeywordJa": "フレデリック・コンスタント FC-702G3S4",
+      "searchKeywordEn": "Frederique Constant FC-702G3S4",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "moonphase"
+      ],
+      "popular": false,
+      "summary_ja": "フレデリック・コンスタントの型番FC-702G3S4。市場で7件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Frederique Constant reference FC-702G3S4, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 7,
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-2888",
@@ -2490,7 +2466,7 @@
       "summary_en": "Frederique Constant reference 2888, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 7,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc206b3s6",
@@ -2518,63 +2494,7 @@
       "summary_en": "Frederique Constant reference FC-206B3S6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 7,
-      "lastSeen": "2026-08-23"
-    },
-    {
-      "id": "ref-fc301s3b6",
-      "name_en": "FC-301S3B6",
-      "name_ja": "クラシック プレミア FC-301S3B6",
-      "reference": "FC-301S3B6",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 299200,
-      "searchKeywordJa": "フレデリック・コンスタント FC-301S3B6",
-      "searchKeywordEn": "Frederique Constant FC-301S3B6",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "limited-edition"
-      ],
-      "popular": false,
-      "summary_ja": "フレデリック・コンスタントの型番FC-301S3B6。市場で7件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Frederique Constant reference FC-301S3B6, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 7,
-      "lastSeen": "2026-08-23"
-    },
-    {
-      "id": "ref-fc303b3nh6b",
-      "name_en": "FC-303B3NH6B",
-      "name_ja": "ハイライフ ノベルティ FC-303B3NH6B",
-      "reference": "FC-303B3NH6B",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 227800,
-      "searchKeywordJa": "フレデリック・コンスタント FC-303B3NH6B",
-      "searchKeywordEn": "Frederique Constant FC-303B3NH6B",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "フレデリック・コンスタントの型番FC-303B3NH6B。市場で7件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Frederique Constant reference FC-303B3NH6B, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 7,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc301sal3b6b",
@@ -2602,7 +2522,7 @@
       "summary_en": "Frederique Constant reference FC-301SAL3B6B, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 7,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc303bbg3nh6b",
@@ -2630,7 +2550,7 @@
       "summary_en": "Frederique Constant reference FC-303BBG3NH6B, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 7,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc303grs3nh6b",
@@ -2658,7 +2578,7 @@
       "summary_en": "Frederique Constant reference FC-303GRS3NH6B, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 7,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc310mpwd2nh4b",
@@ -2686,7 +2606,7 @@
       "summary_en": "Frederique Constant reference FC-310MPWD2NH4B, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 7,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc391sb4nh6b",
@@ -2715,36 +2635,7 @@
       "summary_en": "Frederique Constant reference FC-391SB4NH6B, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 7,
-      "lastSeen": "2026-08-23"
-    },
-    {
-      "id": "ref-fc200mpw14",
-      "name_en": "FC-200MPW14",
-      "name_ja": "クラシック フレデリックコンスタント FC-200MPW14",
-      "reference": "FC-200MPW14",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": 23,
-      "movementType": "quartz",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 154275,
-      "searchKeywordJa": "フレデリック・コンスタント FC-200MPW14",
-      "searchKeywordEn": "Frederique Constant FC-200MPW14",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "diver",
-        "limited-edition"
-      ],
-      "popular": false,
-      "summary_ja": "フレデリック・コンスタントの型番FC-200MPW14。市場で6件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Frederique Constant reference FC-200MPW14, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 6,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc680x3h56",
@@ -2772,7 +2663,35 @@
       "summary_en": "Frederique Constant reference FC680X3H5/6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
+    },
+    {
+      "id": "ref-fc310mc4s36b",
+      "name_en": "FC-310MC4S36B",
+      "name_ja": "フレデリックコンスタント クラシック FC-310MC4S36B",
+      "reference": "FC-310MC4S36B",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 219725,
+      "searchKeywordJa": "フレデリック・コンスタント FC-310MC4S36B",
+      "searchKeywordEn": "Frederique Constant FC-310MC4S36B",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "フレデリック・コンスタントの型番FC-310MC4S36B。市場で6件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Frederique Constant reference FC-310MC4S36B, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 6,
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc206n3s6b",
@@ -2800,7 +2719,92 @@
       "summary_en": "Frederique Constant reference FC-206N3S6B, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
+    },
+    {
+      "id": "ref-fc200mpw2ac2b",
+      "name_en": "FC-200MPW2AC2B",
+      "name_ja": "フレデリックコンスタント クラシック FC-200MPW2AC2B",
+      "reference": "FC-200MPW2AC2B",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": 20.7,
+      "movementType": "quartz",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 187000,
+      "searchKeywordJa": "フレデリック・コンスタント FC-200MPW2AC2B",
+      "searchKeywordEn": "Frederique Constant FC-200MPW2AC2B",
+      "caseMaterial": null,
+      "waterResistanceM": 30,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "diver",
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "フレデリック・コンスタントの型番FC-200MPW2AC2B。市場で6件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Frederique Constant reference FC-200MPW2AC2B, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 6,
+      "lastSeen": "2026-08-24"
+    },
+    {
+      "id": "ref-fc301s3b6",
+      "name_en": "FC-301S3B6",
+      "name_ja": "クラシック プレミア FC-301S3B6",
+      "reference": "FC-301S3B6",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 299200,
+      "searchKeywordJa": "フレデリック・コンスタント FC-301S3B6",
+      "searchKeywordEn": "Frederique Constant FC-301S3B6",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "フレデリック・コンスタントの型番FC-301S3B6。市場で6件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Frederique Constant reference FC-301S3B6, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 6,
+      "lastSeen": "2026-08-24"
+    },
+    {
+      "id": "ref-fc303b3nh6b",
+      "name_en": "FC-303B3NH6B",
+      "name_ja": "ハイライフ ノベルティ FC-303B3NH6B",
+      "reference": "FC-303B3NH6B",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 227800,
+      "searchKeywordJa": "フレデリック・コンスタント FC-303B3NH6B",
+      "searchKeywordEn": "Frederique Constant FC-303B3NH6B",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "フレデリック・コンスタントの型番FC-303B3NH6B。市場で6件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Frederique Constant reference FC-303B3NH6B, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 6,
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc303bls3nh6b",
@@ -2828,7 +2832,7 @@
       "summary_en": "Frederique Constant reference FC-303BLS3NH6B, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc303mpw4c4",
@@ -2856,7 +2860,7 @@
       "summary_en": "Frederique Constant reference FC-303MPW4C4, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc301bl3b6b",
@@ -2884,7 +2888,7 @@
       "summary_en": "Frederique Constant reference FC-301BL3B6B, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc723nr3s6",
@@ -2912,7 +2916,7 @@
       "summary_en": "Frederique Constant reference FC-723NR3S6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc391ns4nh4",
@@ -2940,7 +2944,35 @@
       "summary_en": "Frederique Constant reference FC-391NS4NH4, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
+    },
+    {
+      "id": "ref-fc303310x3p456",
+      "name_en": "FC-303/310X3P4/5/6",
+      "name_ja": "クラシック ハートビート FC-303/310X3P4/5/6",
+      "reference": "FC-303/310X3P4/5/6",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 83776,
+      "searchKeywordJa": "フレデリック・コンスタント FC-303/310X3P4/5/6",
+      "searchKeywordEn": "Frederique Constant FC-303/310X3P4/5/6",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "フレデリック・コンスタントの型番FC-303/310X3P4/5/6。市場で5件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Frederique Constant reference FC-303/310X3P4/5/6, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 5,
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc303310x3p56",
@@ -2968,35 +3000,7 @@
       "summary_en": "Frederique Constant reference FC-303/310X3P5/6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-08-23"
-    },
-    {
-      "id": "ref-fc315bs3p6b",
-      "name_en": "FC-315BS3P6B",
-      "name_ja": "クラシック ハートビート FC-315BS3P6B",
-      "reference": "FC-315BS3P6B",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 74613,
-      "searchKeywordJa": "フレデリック・コンスタント FC-315BS3P6B",
-      "searchKeywordEn": "Frederique Constant FC-315BS3P6B",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "フレデリック・コンスタントの型番FC-315BS3P6B。市場で5件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Frederique Constant reference FC-315BS3P6B, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 5,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc303315x3p6",
@@ -3024,13 +3028,13 @@
       "summary_en": "Frederique Constant reference FC-303/315X3P6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
-      "id": "ref-fc315bs3p6",
-      "name_en": "FC-315BS3P6",
-      "name_ja": "クラシック ハートビート FC-315BS3P6",
-      "reference": "FC-315BS3P6",
+      "id": "ref-315bs3p6",
+      "name_en": "315BS3P6",
+      "name_ja": "クラシック ハートビート 315BS3P6",
+      "reference": "315BS3P6",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
@@ -3038,8 +3042,8 @@
       "caliber": null,
       "listPriceJpy": null,
       "priceFloorJpy": 127670,
-      "searchKeywordJa": "フレデリック・コンスタント FC-315BS3P6",
-      "searchKeywordEn": "Frederique Constant FC-315BS3P6",
+      "searchKeywordJa": "フレデリック・コンスタント 315BS3P6",
+      "searchKeywordEn": "Frederique Constant 315BS3P6",
       "caseMaterial": null,
       "waterResistanceM": null,
       "gender": "mens",
@@ -3048,11 +3052,39 @@
         "sport"
       ],
       "popular": false,
-      "summary_ja": "フレデリック・コンスタントの型番FC-315BS3P6。市場で5件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Frederique Constant reference FC-315BS3P6, currently offered by multiple sellers in Japan.",
+      "summary_ja": "フレデリック・コンスタントの型番315BS3P6。市場で5件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Frederique Constant reference 315BS3P6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
+    },
+    {
+      "id": "ref-fc310v4nh4",
+      "name_en": "FC-310V4NH4",
+      "name_ja": "ハイライフ ハートビート FC-310V4NH4",
+      "reference": "FC-310V4NH4",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 166430,
+      "searchKeywordJa": "フレデリック・コンスタント FC-310V4NH4",
+      "searchKeywordEn": "Frederique Constant FC-310V4NH4",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "フレデリック・コンスタントの型番FC-310V4NH4。市場で5件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Frederique Constant reference FC-310V4NH4, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 5,
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc330335x6b46",
@@ -3080,35 +3112,7 @@
       "summary_en": "Frederique Constant reference FC-330/335X6B4/6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-08-23"
-    },
-    {
-      "id": "ref-fc310mc4s36b",
-      "name_en": "FC-310MC4S36B",
-      "name_ja": "フレデリックコンスタント クラシック FC-310MC4S36B",
-      "reference": "FC-310MC4S36B",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 219725,
-      "searchKeywordJa": "フレデリック・コンスタント FC-310MC4S36B",
-      "searchKeywordEn": "Frederique Constant FC-310MC4S36B",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "フレデリック・コンスタントの型番FC-310MC4S36B。市場で5件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Frederique Constant reference FC-310MC4S36B, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 5,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc303s4c6",
@@ -3136,7 +3140,35 @@
       "summary_en": "Frederique Constant reference FC-303S4C6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
+    },
+    {
+      "id": "ref-fc310mbs5b6",
+      "name_en": "FC-310MBS5B6",
+      "name_ja": "フレデリックコンスタント クラシック FC-310MBS5B6",
+      "reference": "FC-310MBS5B6",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 201025,
+      "searchKeywordJa": "フレデリック・コンスタント FC-310MBS5B6",
+      "searchKeywordEn": "Frederique Constant FC-310MBS5B6",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "フレデリック・コンスタントの型番FC-310MBS5B6。市場で5件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Frederique Constant reference FC-310MBS5B6, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 5,
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc303sal4c6",
@@ -3164,7 +3196,7 @@
       "summary_en": "Frederique Constant reference FC-303SAL4C6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc200mpw2ar2b",
@@ -3193,64 +3225,35 @@
       "summary_en": "Frederique Constant reference FC-200MPW2AR2B, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
-      "id": "ref-fc200mpw2ac2b",
-      "name_en": "FC-200MPW2AC2B",
-      "name_ja": "フレデリックコンスタント クラシック FC-200MPW2AC2B",
-      "reference": "FC-200MPW2AC2B",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": 20.7,
-      "movementType": "quartz",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 187000,
-      "searchKeywordJa": "フレデリック・コンスタント FC-200MPW2AC2B",
-      "searchKeywordEn": "Frederique Constant FC-200MPW2AC2B",
-      "caseMaterial": null,
-      "waterResistanceM": 30,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "diver",
-        "limited-edition"
-      ],
-      "popular": false,
-      "summary_ja": "フレデリック・コンスタントの型番FC-200MPW2AC2B。市場で5件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Frederique Constant reference FC-200MPW2AC2B, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 5,
-      "lastSeen": "2026-08-23"
-    },
-    {
-      "id": "ref-fc200mpsal2v6b",
-      "name_en": "FC-200MPSAL2V6B",
-      "name_ja": "クラシック アールデコ FC-200MPSAL2V6B",
-      "reference": "FC-200MPSAL2V6B",
+      "id": "ref-fc310ns4nh6b",
+      "name_en": "FC-310NS4NH6B",
+      "name_ja": "フレデリックコンスタント ハイライフ FC-310NS4NH6B",
+      "reference": "FC-310NS4NH6B",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
-      "movementType": "quartz",
+      "movementType": "automatic",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 200090,
-      "searchKeywordJa": "フレデリック・コンスタント FC-200MPSAL2V6B",
-      "searchKeywordEn": "Frederique Constant FC-200MPSAL2V6B",
+      "priceFloorJpy": 231880,
+      "searchKeywordJa": "フレデリック・コンスタント FC-310NS4NH6B",
+      "searchKeywordEn": "Frederique Constant FC-310NS4NH6B",
       "caseMaterial": null,
       "waterResistanceM": null,
-      "gender": "ladies",
+      "gender": "mens",
       "releaseYear": null,
       "tags": [
-        "diver"
+        "limited-edition"
       ],
       "popular": false,
-      "summary_ja": "フレデリック・コンスタントの型番FC-200MPSAL2V6B。市場で5件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Frederique Constant reference FC-200MPSAL2V6B, currently offered by multiple sellers in Japan.",
+      "summary_ja": "フレデリック・コンスタントの型番FC-310NS4NH6B。市場で5件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Frederique Constant reference FC-310NS4NH6B, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc303s3nh6b",
@@ -3278,7 +3281,7 @@
       "summary_en": "Frederique Constant reference FC-303S3NH6B, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc310n4nh6b",
@@ -3306,7 +3309,7 @@
       "summary_en": "Frederique Constant reference FC-310N4NH6B, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc718bawm4th6",
@@ -3334,7 +3337,7 @@
       "summary_en": "Frederique Constant reference FC-718BAWM4TH6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc718c4nh6",
@@ -3362,7 +3365,7 @@
       "summary_en": "Frederique Constant reference FC-718C4NH6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc718n4nh6b",
@@ -3390,7 +3393,7 @@
       "summary_en": "Frederique Constant reference FC-718N4NH6B, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc775n4nh6b",
@@ -3418,7 +3421,7 @@
       "summary_en": "Frederique Constant reference FC-775N4NH6B, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc775s4nh6",
@@ -3446,7 +3449,7 @@
       "summary_en": "Frederique Constant reference FC-775S4NH6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc775ps4s6",
@@ -3474,7 +3477,7 @@
       "summary_en": "Frederique Constant reference FC-775PS4S6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc391sgr4nh6",
@@ -3503,7 +3506,7 @@
       "summary_en": "Frederique Constant reference FC-391SGR4NH6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc303310x4c456",
@@ -3531,35 +3534,7 @@
       "summary_en": "Frederique Constant reference FC-303/310/X4C4/5/6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-08-23"
-    },
-    {
-      "id": "ref-fc303310x3p456",
-      "name_en": "FC-303/310X3P4/5/6",
-      "name_ja": "クラシック ハートビート FC-303/310X3P4/5/6",
-      "reference": "FC-303/310X3P4/5/6",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 83776,
-      "searchKeywordJa": "フレデリック・コンスタント FC-303/310X3P4/5/6",
-      "searchKeywordEn": "Frederique Constant FC-303/310X3P4/5/6",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "フレデリック・コンスタントの型番FC-303/310X3P4/5/6。市場で4件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Frederique Constant reference FC-303/310X3P4/5/6, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 4,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc206x1s56",
@@ -3587,35 +3562,35 @@
       "summary_en": "Frederique Constant reference FC-206X1S5/6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
-      "id": "ref-fc310mppd1p6b",
-      "name_en": "FC-310MPPD1P6B",
-      "name_ja": "クラシック ハートビート FC-310MPPD1P6B",
-      "reference": "FC-310MPPD1P6B",
+      "id": "ref-fc303310315x3p45",
+      "name_en": "FC-303/310/315X3P4/5",
+      "name_ja": "クラシック ハートビート FC-303/310/315X3P4/5",
+      "reference": "FC-303/310/315X3P4/5",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
       "movementType": null,
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 93296,
-      "searchKeywordJa": "フレデリック・コンスタント FC-310MPPD1P6B",
-      "searchKeywordEn": "Frederique Constant FC-310MPPD1P6B",
+      "priceFloorJpy": 142800,
+      "searchKeywordJa": "フレデリック・コンスタント FC-303/310/315X3P4/5",
+      "searchKeywordEn": "Frederique Constant FC-303/310/315X3P4/5",
       "caseMaterial": null,
       "waterResistanceM": null,
-      "gender": "ladies",
+      "gender": "unisex",
       "releaseYear": null,
       "tags": [
         "sport"
       ],
       "popular": false,
-      "summary_ja": "フレデリック・コンスタントの型番FC-310MPPD1P6B。市場で4件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Frederique Constant reference FC-310MPPD1P6B, currently offered by multiple sellers in Japan.",
+      "summary_ja": "フレデリック・コンスタントの型番FC-303/310/315X3P4/5。市場で4件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Frederique Constant reference FC-303/310/315X3P4/5, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc345hgrs5b6",
@@ -3643,35 +3618,7 @@
       "summary_en": "Frederique Constant reference FC-345HGRS5B6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-08-23"
-    },
-    {
-      "id": "ref-315bs3p6",
-      "name_en": "315BS3P6",
-      "name_ja": "クラシック ハートビート 315BS3P6",
-      "reference": "315BS3P6",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 127670,
-      "searchKeywordJa": "フレデリック・コンスタント 315BS3P6",
-      "searchKeywordEn": "Frederique Constant 315BS3P6",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "フレデリック・コンスタントの型番315BS3P6。市場で4件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Frederique Constant reference 315BS3P6, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 4,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc235s2c5b",
@@ -3699,35 +3646,35 @@
       "summary_en": "Frederique Constant reference FC-235S2C5B, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
-      "id": "ref-fc310mn4s36b",
-      "name_en": "FC-310MN4S36B",
-      "name_ja": "ローン クラシック FC-310MN4S36B",
-      "reference": "FC-310MN4S36B",
+      "id": "ref-fc310mbrw5b4",
+      "name_en": "FC-310MBRW5B4",
+      "name_ja": "フレデリックコンスタント クラシック FC-310MBRW5B4",
+      "reference": "FC-310MBRW5B4",
       "collection_en": null,
       "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
+      "caseSizeMm": 40,
+      "movementType": null,
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 219725,
-      "searchKeywordJa": "フレデリック・コンスタント FC-310MN4S36B",
-      "searchKeywordEn": "Frederique Constant FC-310MN4S36B",
-      "caseMaterial": null,
+      "priceFloorJpy": 196350,
+      "searchKeywordJa": "フレデリック・コンスタント FC-310MBRW5B4",
+      "searchKeywordEn": "Frederique Constant FC-310MBRW5B4",
+      "caseMaterial": "stainless-steel",
       "waterResistanceM": null,
-      "gender": "mens",
+      "gender": "unisex",
       "releaseYear": null,
       "tags": [
-        "limited-edition"
+        "sport"
       ],
       "popular": false,
-      "summary_ja": "フレデリック・コンスタントの型番FC-310MN4S36B。市場で4件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Frederique Constant reference FC-310MN4S36B, currently offered by multiple sellers in Japan.",
+      "summary_ja": "フレデリック・コンスタントの型番FC-310MBRW5B4。市場で4件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Frederique Constant reference FC-310MBRW5B4, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc350hs5b6",
@@ -3756,7 +3703,35 @@
       "summary_en": "Frederique Constant reference FC-350HS5B6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
+    },
+    {
+      "id": "ref-fc200wr1mc6b",
+      "name_en": "FC-200WR1MC6B",
+      "name_ja": "クラシック マンシェット FC-200WR1MC6B",
+      "reference": "FC-200WR1MC6B",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 215050,
+      "searchKeywordJa": "フレデリック・コンスタント FC-200WR1MC6B",
+      "searchKeywordEn": "Frederique Constant FC-200WR1MC6B",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "フレデリック・コンスタントの型番FC-200WR1MC6B。市場で4件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Frederique Constant reference FC-200WR1MC6B, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 4,
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc303mpw4c6",
@@ -3784,7 +3759,7 @@
       "summary_en": "Frederique Constant reference FC-303MPW4C6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc718wm4h6",
@@ -3812,7 +3787,35 @@
       "summary_en": "Frederique Constant reference FC-718WM4H6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
+    },
+    {
+      "id": "ref-fc718wm4h4",
+      "name_en": "FC-718WM4H4",
+      "name_ja": "ワールドタイマー マニュファクチュール FC-718WM4H4",
+      "reference": "FC-718WM4H4",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 203830,
+      "searchKeywordJa": "フレデリック・コンスタント FC-718WM4H4",
+      "searchKeywordEn": "Frederique Constant FC-718WM4H4",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "フレデリック・コンスタントの型番FC-718WM4H4。市場で4件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Frederique Constant reference FC-718WM4H4, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 4,
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc706b3h6",
@@ -3840,7 +3843,7 @@
       "summary_en": "Frederique Constant reference FC-706B3H6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc705nr4s6",
@@ -3868,35 +3871,7 @@
       "summary_en": "Frederique Constant reference FC-705NR4S6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-08-23"
-    },
-    {
-      "id": "ref-fc310ns4nh6b",
-      "name_en": "FC-310NS4NH6B",
-      "name_ja": "フレデリックコンスタント ハイライフ FC-310NS4NH6B",
-      "reference": "FC-310NS4NH6B",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 231880,
-      "searchKeywordJa": "フレデリック・コンスタント FC-310NS4NH6B",
-      "searchKeywordEn": "Frederique Constant FC-310NS4NH6B",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "limited-edition"
-      ],
-      "popular": false,
-      "summary_ja": "フレデリック・コンスタントの型番FC-310NS4NH6B。市場で4件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Frederique Constant reference FC-310NS4NH6B, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 4,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc306x4s6",
@@ -3924,7 +3899,7 @@
       "summary_en": "Frederique Constant reference FC-306X4S6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc206rs1s6",
@@ -3952,7 +3927,7 @@
       "summary_en": "Frederique Constant reference FC-206RS1S6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc310m4t5",
@@ -3980,7 +3955,35 @@
       "summary_en": "Frederique Constant reference FC-310M4T5, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
+    },
+    {
+      "id": "ref-fc310mppd1p6b",
+      "name_en": "FC-310MPPD1P6B",
+      "name_ja": "クラシック ハートビート FC-310MPPD1P6B",
+      "reference": "FC-310MPPD1P6B",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 93296,
+      "searchKeywordJa": "フレデリック・コンスタント FC-310MPPD1P6B",
+      "searchKeywordEn": "Frederique Constant FC-310MPPD1P6B",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "フレデリック・コンスタントの型番FC-310MPPD1P6B。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Frederique Constant reference FC-310MPPD1P6B, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc315ms4c24",
@@ -4008,7 +4011,7 @@
       "summary_en": "Frederique Constant reference FC-315MS4C24, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc315ns3p6",
@@ -4036,7 +4039,7 @@
       "summary_en": "Frederique Constant reference FC-315NS3P6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc303310315x4c34",
@@ -4064,7 +4067,7 @@
       "summary_en": "Frederique Constant reference FC-303/310/315X4C34, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc220ng4s6",
@@ -4092,7 +4095,7 @@
       "summary_en": "Frederique Constant reference FC220NG4S6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc240nd2nh26b",
@@ -4120,35 +4123,7 @@
       "summary_en": "Frederique Constant reference FC-240ND2NH26B, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-08-23"
-    },
-    {
-      "id": "ref-fc303310315x3p45",
-      "name_en": "FC-303/310/315X3P4/5",
-      "name_ja": "クラシック ハートビート FC-303/310/315X3P4/5",
-      "reference": "FC-303/310/315X3P4/5",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 142800,
-      "searchKeywordJa": "フレデリック・コンスタント FC-303/310/315X3P4/5",
-      "searchKeywordEn": "Frederique Constant FC-303/310/315X3P4/5",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "フレデリック・コンスタントの型番FC-303/310/315X3P4/5。市場で3件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Frederique Constant reference FC-303/310/315X3P4/5, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 3,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc310mb4s36b",
@@ -4176,35 +4151,7 @@
       "summary_en": "Frederique Constant reference FC-310MB4S36B, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-08-23"
-    },
-    {
-      "id": "ref-fc610x3h56",
-      "name_en": "FC610X3H5/6",
-      "name_ja": "ハイライフ ハートビート FC610X3H5/6",
-      "reference": "FC610X3H5/6",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 140896,
-      "searchKeywordJa": "フレデリック・コンスタント FC610X3H5/6",
-      "searchKeywordEn": "Frederique Constant FC610X3H5/6",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "フレデリック・コンスタントの型番FC610X3H5/6。市場で3件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Frederique Constant reference FC610X3H5/6, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 3,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc240bgd2nh6b",
@@ -4232,7 +4179,35 @@
       "summary_en": "Frederique Constant reference FC-240BGD2NH6B, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
+    },
+    {
+      "id": "ref-fc610x3h56",
+      "name_en": "FC610X3H5/6",
+      "name_ja": "ハイライフ ハートビート FC610X3H5/6",
+      "reference": "FC610X3H5/6",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 140896,
+      "searchKeywordJa": "フレデリック・コンスタント FC610X3H5/6",
+      "searchKeywordEn": "Frederique Constant FC610X3H5/6",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "フレデリック・コンスタントの型番FC610X3H5/6。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Frederique Constant reference FC610X3H5/6, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc315mpb3p6",
@@ -4260,7 +4235,35 @@
       "summary_en": "Frederique Constant reference FC-315MPB3P6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
+    },
+    {
+      "id": "ref-fc315bs3p6",
+      "name_en": "FC-315BS3P6",
+      "name_ja": "クラシック ハートビート FC-315BS3P6",
+      "reference": "FC-315BS3P6",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 127670,
+      "searchKeywordJa": "フレデリック・コンスタント FC-315BS3P6",
+      "searchKeywordEn": "Frederique Constant FC-315BS3P6",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "フレデリック・コンスタントの型番FC-315BS3P6。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Frederique Constant reference FC-315BS3P6, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc303hlbn3b6",
@@ -4288,7 +4291,7 @@
       "summary_en": "Frederique Constant reference FC-303HLBN3B6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc303s4nh6",
@@ -4316,35 +4319,7 @@
       "summary_en": "Frederique Constant reference FC-303S4NH6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-08-23"
-    },
-    {
-      "id": "ref-fc320dgs5b6",
-      "name_en": "FC-320DGS5B6",
-      "name_ja": "クラシック ハートビート FC-320DGS5B6",
-      "reference": "FC-320DGS5B6",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 125800,
-      "searchKeywordJa": "フレデリック・コンスタント FC-320DGS5B6",
-      "searchKeywordEn": "Frederique Constant FC-320DGS5B6",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "moonphase"
-      ],
-      "popular": false,
-      "summary_ja": "フレデリック・コンスタントの型番FC-320DGS5B6。市場で3件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Frederique Constant reference FC-320DGS5B6, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 3,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc710x4s456",
@@ -4372,7 +4347,35 @@
       "summary_en": "Frederique Constant reference FC-710X4S4/5/6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
+    },
+    {
+      "id": "ref-fc320dgs5b6",
+      "name_en": "FC-320DGS5B6",
+      "name_ja": "クラシック ハートビート FC-320DGS5B6",
+      "reference": "FC-320DGS5B6",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 125800,
+      "searchKeywordJa": "フレデリック・コンスタント FC-320DGS5B6",
+      "searchKeywordEn": "Frederique Constant FC-320DGS5B6",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "moonphase"
+      ],
+      "popular": false,
+      "summary_ja": "フレデリック・コンスタントの型番FC-320DGS5B6。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Frederique Constant reference FC-320DGS5B6, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc303310x4nh246",
@@ -4400,7 +4403,35 @@
       "summary_en": "Frederique Constant reference FC303/310X4NH2/4/6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
+    },
+    {
+      "id": "ref-fc310mn4s36b",
+      "name_en": "FC-310MN4S36B",
+      "name_ja": "ローン クラシック FC-310MN4S36B",
+      "reference": "FC-310MN4S36B",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 219725,
+      "searchKeywordJa": "フレデリック・コンスタント FC-310MN4S36B",
+      "searchKeywordEn": "Frederique Constant FC-310MN4S36B",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "フレデリック・コンスタントの型番FC-310MN4S36B。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Frederique Constant reference FC-310MN4S36B, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc303mpw2nh6b",
@@ -4428,35 +4459,35 @@
       "summary_en": "Frederique Constant reference FC-303MPW2NH6B, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
-      "id": "ref-fc200wr1mc6b",
-      "name_en": "FC-200WR1MC6B",
-      "name_ja": "クラシック マンシェット FC-200WR1MC6B",
-      "reference": "FC-200WR1MC6B",
+      "id": "ref-fc200mpsal2v6b",
+      "name_en": "FC-200MPSAL2V6B",
+      "name_ja": "クラシック アールデコ FC-200MPSAL2V6B",
+      "reference": "FC-200MPSAL2V6B",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
-      "movementType": null,
+      "movementType": "quartz",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 215050,
-      "searchKeywordJa": "フレデリック・コンスタント FC-200WR1MC6B",
-      "searchKeywordEn": "Frederique Constant FC-200WR1MC6B",
+      "priceFloorJpy": 200090,
+      "searchKeywordJa": "フレデリック・コンスタント FC-200MPSAL2V6B",
+      "searchKeywordEn": "Frederique Constant FC-200MPSAL2V6B",
       "caseMaterial": null,
       "waterResistanceM": null,
-      "gender": "unisex",
+      "gender": "ladies",
       "releaseYear": null,
       "tags": [
-        "sport"
+        "diver"
       ],
       "popular": false,
-      "summary_ja": "フレデリック・コンスタントの型番FC-200WR1MC6B。市場で3件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Frederique Constant reference FC-200WR1MC6B, currently offered by multiple sellers in Japan.",
+      "summary_ja": "フレデリック・コンスタントの型番FC-200MPSAL2V6B。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Frederique Constant reference FC-200MPSAL2V6B, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc310skts5b4",
@@ -4485,7 +4516,7 @@
       "summary_en": "Frederique Constant reference FC-310SKTS5B4, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc303g3nh6b",
@@ -4513,7 +4544,7 @@
       "summary_en": "Frederique Constant reference FC-303G3NH6B, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc393rm5b4",
@@ -4542,7 +4573,7 @@
       "summary_en": "Frederique Constant reference FC-393RM5B4, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc200s1s33b3",
@@ -4570,7 +4601,7 @@
       "summary_en": "Frederique Constant reference FC-200S1S33B3, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc303lbsd2nhd6b",
@@ -4598,7 +4629,35 @@
       "summary_en": "Frederique Constant reference FC-303LBSD2NHD6B, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
+    },
+    {
+      "id": "ref-fc206s3s5",
+      "name_en": "FC-206S3S5",
+      "name_ja": "クラシック モネータ FC-206S3S5",
+      "reference": "FC-206S3S5",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "quartz",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 196350,
+      "searchKeywordJa": "フレデリック・コンスタント FC-206S3S5",
+      "searchKeywordEn": "Frederique Constant FC-206S3S5",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "moonphase"
+      ],
+      "popular": false,
+      "summary_ja": "フレデリック・コンスタントの型番FC-206S3S5。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Frederique Constant reference FC-206S3S5, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc706sal3h6",
@@ -4626,7 +4685,7 @@
       "summary_en": "Frederique Constant reference FC-706SAL3H6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc760x4h46",
@@ -4654,7 +4713,7 @@
       "summary_en": "Frederique Constant reference FC-760X4H4/6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc200x2vvd2526",
@@ -4682,91 +4741,7 @@
       "summary_en": "Frederique Constant reference FC-200X2V/VD25/26, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-23"
-    },
-    {
-      "id": "ref-fc282x5b46",
-      "name_en": "FC-282X5B4/6",
-      "name_ja": "オロロジカル スマートウォッチ FC-282X5B4/6",
-      "reference": "FC-282X5B4/6",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "quartz",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 46563,
-      "searchKeywordJa": "フレデリック・コンスタント FC-282X5B4/6",
-      "searchKeywordEn": "Frederique Constant FC-282X5B4/6",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "フレデリック・コンスタントの型番FC-282X5B4/6。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Frederique Constant reference FC-282X5B4/6, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-08-23"
-    },
-    {
-      "id": "ref-fc200x1c1246",
-      "name_en": "FC-200X1C12/4/6",
-      "name_ja": "クラシックカレ FC-200X1C12/4/6",
-      "reference": "FC-200X1C12/4/6",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "quartz",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 42500,
-      "searchKeywordJa": "フレデリック・コンスタント FC-200X1C12/4/6",
-      "searchKeywordEn": "Frederique Constant FC-200X1C12/4/6",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "フレデリック・コンスタントの型番FC-200X1C12/4/6。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Frederique Constant reference FC-200X1C12/4/6, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-08-23"
-    },
-    {
-      "id": "ref-c1050",
-      "name_en": "C1050",
-      "name_ja": "クラシックカレ C1050",
-      "reference": "C1050",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "quartz",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 42500,
-      "searchKeywordJa": "フレデリック・コンスタント C1050",
-      "searchKeywordEn": "Frederique Constant C1050",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "フレデリック・コンスタントの型番C1050。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Frederique Constant reference C1050, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc200whds6b",
@@ -4794,7 +4769,7 @@
       "summary_en": "Frederique Constant reference FC-200WHDS6B, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc200xs56",
@@ -4822,7 +4797,91 @@
       "summary_en": "Frederique Constant reference FC-200XS5/6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
+    },
+    {
+      "id": "ref-fc282x5b46",
+      "name_en": "FC-282X5B4/6",
+      "name_ja": "オロロジカル スマートウォッチ FC-282X5B4/6",
+      "reference": "FC-282X5B4/6",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "quartz",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 46563,
+      "searchKeywordJa": "フレデリック・コンスタント FC-282X5B4/6",
+      "searchKeywordEn": "Frederique Constant FC-282X5B4/6",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "フレデリック・コンスタントの型番FC-282X5B4/6。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Frederique Constant reference FC-282X5B4/6, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-08-24"
+    },
+    {
+      "id": "ref-fc200x1c1246",
+      "name_en": "FC-200X1C12/4/6",
+      "name_ja": "クラシックカレ FC-200X1C12/4/6",
+      "reference": "FC-200X1C12/4/6",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "quartz",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 42500,
+      "searchKeywordJa": "フレデリック・コンスタント FC-200X1C12/4/6",
+      "searchKeywordEn": "Frederique Constant FC-200X1C12/4/6",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "フレデリック・コンスタントの型番FC-200X1C12/4/6。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Frederique Constant reference FC-200X1C12/4/6, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-08-24"
+    },
+    {
+      "id": "ref-c1050",
+      "name_en": "C1050",
+      "name_ja": "クラシックカレ C1050",
+      "reference": "C1050",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "quartz",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 42500,
+      "searchKeywordJa": "フレデリック・コンスタント C1050",
+      "searchKeywordEn": "Frederique Constant C1050",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "フレデリック・コンスタントの型番C1050。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Frederique Constant reference C1050, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc255s6b6",
@@ -4850,7 +4909,7 @@
       "summary_en": "Frederique Constant reference FC255S6B6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-245n4s6",
@@ -4878,7 +4937,7 @@
       "summary_en": "Frederique Constant reference 245N4S6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc310x3t56",
@@ -4906,7 +4965,7 @@
       "summary_en": "Frederique Constant reference FC310X3T5/6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc345x5s56",
@@ -4934,35 +4993,7 @@
       "summary_en": "Frederique Constant reference FC-345X5S5/6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-23"
-    },
-    {
-      "id": "ref-fc245x4c246",
-      "name_en": "FC-245X4C2/4/6",
-      "name_ja": "クラシック レザー FC-245X4C2/4/6",
-      "reference": "FC-245X4C2/4/6",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "quartz",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 78343,
-      "searchKeywordJa": "フレデリック・コンスタント FC-245X4C2/4/6",
-      "searchKeywordEn": "Frederique Constant FC-245X4C2/4/6",
-      "caseMaterial": "stainless-steel",
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "フレデリック・コンスタントの型番FC-245X4C2/4/6。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Frederique Constant reference FC-245X4C2/4/6, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc200x2arrd2234",
@@ -4990,7 +5021,35 @@
       "summary_en": "Frederique Constant reference FC-200X2AR/RD22/3/4, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
+    },
+    {
+      "id": "ref-fc245x4c246",
+      "name_en": "FC-245X4C2/4/6",
+      "name_ja": "クラシック レザー FC-245X4C2/4/6",
+      "reference": "FC-245X4C2/4/6",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "quartz",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 78343,
+      "searchKeywordJa": "フレデリック・コンスタント FC-245X4C2/4/6",
+      "searchKeywordEn": "Frederique Constant FC-245X4C2/4/6",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "フレデリック・コンスタントの型番FC-245X4C2/4/6。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Frederique Constant reference FC-245X4C2/4/6, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc303x5b23456",
@@ -5018,7 +5077,7 @@
       "summary_en": "Frederique Constant reference FC-303X5B2/3/4/5/6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc303310315x4c45",
@@ -5047,7 +5106,7 @@
       "summary_en": "Frederique Constant reference FC-303/310/315X4C4/5, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc310m4t6",
@@ -5075,7 +5134,7 @@
       "summary_en": "Frederique Constant reference FC-310M4T6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc303310315x4c4",
@@ -5103,7 +5162,7 @@
       "summary_en": "Frederique Constant reference FC-303/310/315/X4C4, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc245mc4c6b",
@@ -5131,7 +5190,7 @@
       "summary_en": "Frederique Constant reference FC-245MC4C6B, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc235apw1t24",
@@ -5159,7 +5218,7 @@
       "summary_en": "Frederique Constant reference FC-235APW1T24, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc310mpn4s",
@@ -5187,7 +5246,7 @@
       "summary_en": "Frederique Constant reference FC-310MPN4S, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc315mpb3p6b",
@@ -5215,7 +5274,7 @@
       "summary_en": "Frederique Constant reference FC-315MPB3P6B, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc235m1s6",
@@ -5243,7 +5302,7 @@
       "summary_en": "Frederique Constant reference FC-235M1S6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc200mpsal2ar6b",
@@ -5271,35 +5330,7 @@
       "summary_en": "Frederique Constant reference FC-200MPSAL2AR6B, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-23"
-    },
-    {
-      "id": "ref-fc235apw1t2d26",
-      "name_en": "FC-235APW1T2D26",
-      "name_ja": "ノベルティ クラシック FC-235APW1T2D26",
-      "reference": "FC-235APW1T2D26",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "quartz",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 194480,
-      "searchKeywordJa": "フレデリック・コンスタント FC-235APW1T2D26",
-      "searchKeywordEn": "Frederique Constant FC-235APW1T2D26",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "limited-edition"
-      ],
-      "popular": false,
-      "summary_ja": "フレデリック・コンスタントの型番FC-235APW1T2D26。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Frederique Constant reference FC-235APW1T2D26, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc200ma1mc6b",
@@ -5327,7 +5358,7 @@
       "summary_en": "Frederique Constant reference FC-200MA1MC6B, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc310skts5b6",
@@ -5356,7 +5387,7 @@
       "summary_en": "Frederique Constant reference FC-310SKTS5B6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc610x356",
@@ -5384,7 +5415,7 @@
       "summary_en": "Frederique Constant reference FC-610X35/6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc200onb1mc6b",
@@ -5412,7 +5443,7 @@
       "summary_en": "Frederique Constant reference FC-200ONB1MC6B, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc292mc4p6",
@@ -5440,7 +5471,7 @@
       "summary_en": "Frederique Constant reference FC292MC4P6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc310sd2nh6b",
@@ -5468,7 +5499,7 @@
       "summary_en": "Frederique Constant reference FC-310SD2NH6B, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc303b4nh4",
@@ -5496,7 +5527,7 @@
       "summary_en": "Frederique Constant reference FC-303B4NH4, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc200whd1er36b",
@@ -5524,7 +5555,7 @@
       "summary_en": "Frederique Constant reference FC-200WHD1ER36B, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc245m5s6",
@@ -5552,7 +5583,7 @@
       "summary_en": "Frederique Constant reference FC-245M5S6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc310vd2nh2b",
@@ -5580,7 +5611,7 @@
       "summary_en": "Frederique Constant reference FC-310VD2NH2B, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc303m4p6",
@@ -5608,7 +5639,7 @@
       "summary_en": "Frederique Constant reference FC-303M4P6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc270em4p5",
@@ -5636,7 +5667,7 @@
       "summary_en": "Frederique Constant reference FC-270EM4P5, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc312s4s6",
@@ -5664,7 +5695,7 @@
       "summary_en": "Frederique Constant reference FC-312S4S6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc306s4s6",
@@ -5692,7 +5723,7 @@
       "summary_en": "Frederique Constant reference FC306S4S6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc975mc4h6",
@@ -5721,7 +5752,7 @@
       "summary_en": "Frederique Constant reference FC-975MC4H6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc530cr3b6b",
@@ -5749,63 +5780,7 @@
       "summary_en": "Frederique Constant reference FC-530CR3B6B, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-23"
-    },
-    {
-      "id": "ref-fc206s3s5",
-      "name_en": "FC-206S3S5",
-      "name_ja": "クラシック モネータ FC-206S3S5",
-      "reference": "FC-206S3S5",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "quartz",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 196350,
-      "searchKeywordJa": "フレデリック・コンスタント FC-206S3S5",
-      "searchKeywordEn": "Frederique Constant FC-206S3S5",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "moonphase"
-      ],
-      "popular": false,
-      "summary_ja": "フレデリック・コンスタントの型番FC-206S3S5。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Frederique Constant reference FC-206S3S5, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-08-23"
-    },
-    {
-      "id": "ref-fc240lbd2nhd6b",
-      "name_en": "FC-240LBD2NHD6B",
-      "name_ja": "フレデリック コンスタント FC-240LBD2NHD6B",
-      "reference": "FC-240LBD2NHD6B",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "quartz",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 383350,
-      "searchKeywordJa": "フレデリック・コンスタント FC-240LBD2NHD6B",
-      "searchKeywordEn": "Frederique Constant FC-240LBD2NHD6B",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "フレデリック・コンスタントの型番FC-240LBD2NHD6B。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Frederique Constant reference FC-240LBD2NHD6B, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc710x4h456",
@@ -5833,7 +5808,35 @@
       "summary_en": "Frederique Constant reference FC-710X4H4/5/6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
+    },
+    {
+      "id": "ref-fc301dgr3b6",
+      "name_en": "FC-301DGR3B6",
+      "name_ja": "ポイントバック ノベルティー FC-301DGR3B6",
+      "reference": "FC-301DGR3B6",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 233750,
+      "searchKeywordJa": "フレデリック・コンスタント FC-301DGR3B6",
+      "searchKeywordEn": "Frederique Constant FC-301DGR3B6",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "フレデリック・コンスタントの型番FC-301DGR3B6。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Frederique Constant reference FC-301DGR3B6, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc397hgr5b6",
@@ -5861,7 +5864,7 @@
       "summary_en": "Frederique Constant reference FC-397HGR5B6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc303310320x3b56",
@@ -5889,7 +5892,7 @@
       "summary_en": "Frederique Constant reference FC303/310/320X3B5/6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc235apw1t26",
@@ -5917,7 +5920,7 @@
       "summary_en": "Frederique Constant reference FC-235APW1T26, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc315dns4c26b",
@@ -5946,7 +5949,7 @@
       "summary_en": "Frederique Constant reference FC-315DNS4C26B, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc310mpn4s36",
@@ -5975,7 +5978,7 @@
       "summary_en": "Frederique Constant reference FC-310MPN4S36, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc303310315",
@@ -6003,7 +6006,35 @@
       "summary_en": "Frederique Constant reference FC-303/310/315, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
+    },
+    {
+      "id": "ref-fc235apw1t2d26",
+      "name_en": "FC-235APW1T2D26",
+      "name_ja": "FC-235APW1T2D26",
+      "reference": "FC-235APW1T2D26",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "quartz",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 194480,
+      "searchKeywordJa": "フレデリック・コンスタント FC-235APW1T2D26",
+      "searchKeywordEn": "Frederique Constant FC-235APW1T2D26",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "フレデリック・コンスタントの型番FC-235APW1T2D26。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Frederique Constant reference FC-235APW1T2D26, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc281wh3er2b",
@@ -6031,7 +6062,7 @@
       "summary_en": "Frederique Constant reference FC-281WH3ER2B, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc292ms5b6",
@@ -6059,7 +6090,7 @@
       "summary_en": "Frederique Constant reference FC-292MS5B6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc306s4s6b",
@@ -6087,7 +6118,7 @@
       "summary_en": "Frederique Constant reference FC-306S4S6B, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc285s5b6",
@@ -6115,7 +6146,7 @@
       "summary_en": "Frederique Constant reference FC-285S5B6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc303mc4p6",
@@ -6143,7 +6174,7 @@
       "summary_en": "Frederique Constant reference FC-303MC4P6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc335mc4p5",
@@ -6171,7 +6202,7 @@
       "summary_en": "Frederique Constant reference FC-335MC4P5, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-x3a513a6",
@@ -6199,7 +6230,7 @@
       "summary_en": "Frederique Constant reference X3A513A6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-h23716",
@@ -6227,7 +6258,7 @@
       "summary_en": "Frederique Constant reference H23716, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-310mbs5b6",
@@ -6255,7 +6286,7 @@
       "summary_en": "Frederique Constant reference 310MBS5B6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc315ms3p6",
@@ -6283,7 +6314,7 @@
       "summary_en": "Frederique Constant reference FC-315MS3P6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc245x4c2",
@@ -6311,7 +6342,7 @@
       "summary_en": "Frederique Constant reference FC-245X4C2, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-148756",
@@ -6339,7 +6370,7 @@
       "summary_en": "Frederique Constant reference 148756, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc200mpp2v6b",
@@ -6367,7 +6398,7 @@
       "summary_en": "Frederique Constant reference FC-200MPP2V6B, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc120w3s6",
@@ -6395,7 +6426,7 @@
       "summary_en": "Frederique Constant reference FC-120W3S6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc120brg3s6",
@@ -6423,7 +6454,7 @@
       "summary_en": "Frederique Constant reference FC-120BRG3S6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc200gr1mc6b",
@@ -6451,7 +6482,35 @@
       "summary_en": "Frederique Constant reference FC-200GR1MC6B, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
+    },
+    {
+      "id": "ref-fc240lbd2nhd6b",
+      "name_en": "FC-240LBD2NHD6B",
+      "name_ja": "FC-240LBD2NHD6B",
+      "reference": "FC-240LBD2NHD6B",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "quartz",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 383350,
+      "searchKeywordJa": "フレデリック・コンスタント FC-240LBD2NHD6B",
+      "searchKeywordEn": "Frederique Constant FC-240LBD2NHD6B",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "フレデリック・コンスタントの型番FC-240LBD2NHD6B。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Frederique Constant reference FC-240LBD2NHD6B, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc206rs3s5",
@@ -6479,7 +6538,7 @@
       "summary_en": "Frederique Constant reference FC-206RS3S5, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc200mptan2ac6b",
@@ -6508,7 +6567,7 @@
       "summary_en": "Frederique Constant reference FC-200MPTAN2AC6B, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc235m1s5",
@@ -6536,7 +6595,7 @@
       "summary_en": "Frederique Constant reference FC-235M1S5, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc220s5s6b",
@@ -6564,7 +6623,7 @@
       "summary_en": "Frederique Constant reference FC220S5S6B, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-220s5s6b",
@@ -6592,7 +6651,7 @@
       "summary_en": "Frederique Constant reference 220S5S6B, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc310bs4nh6b",
@@ -6620,7 +6679,7 @@
       "summary_en": "Frederique Constant reference FC-310BS4NH6B, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc303nsd2nhd6b",
@@ -6648,35 +6707,7 @@
       "summary_en": "Frederique Constant reference FC-303NSD2NHD6B, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-23"
-    },
-    {
-      "id": "ref-fc301dgr3b6",
-      "name_en": "FC-301DGR3B6",
-      "name_ja": "FC-301DGR3B6",
-      "reference": "FC-301DGR3B6",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 233750,
-      "searchKeywordJa": "フレデリック・コンスタント FC-301DGR3B6",
-      "searchKeywordEn": "Frederique Constant FC-301DGR3B6",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "limited-edition"
-      ],
-      "popular": false,
-      "summary_ja": "フレデリック・コンスタントの型番FC-301DGR3B6。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Frederique Constant reference FC-301DGR3B6, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 0,
-      "lastSeen": "2026-08-23"
+      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-fc315brg4c26",
