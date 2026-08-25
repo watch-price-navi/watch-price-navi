@@ -1,6 +1,6 @@
 {
   "brandId": "ulysse-nardin",
-  "generatedAt": "2026-08-25T00:19:08.221Z",
+  "generatedAt": "2026-08-25T12:30:17.463Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -884,29 +884,30 @@
       "lastSeen": "2026-08-25"
     },
     {
-      "id": "ref-01688",
-      "name_en": "016-88",
-      "name_ja": "フリーク トゥールビヨン 016-88",
-      "reference": "016-88",
+      "id": "ref-ref37231702b",
+      "name_en": "REF.3723-170-2B",
+      "name_ja": "スケルトン ダイバー REF.3723-170-2B",
+      "reference": "REF.3723-170-2B",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
-      "movementType": "manual",
+      "movementType": null,
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 3534300,
-      "searchKeywordJa": "ユリス・ナルダン 016-88",
-      "searchKeywordEn": "Ulysse Nardin 016-88",
-      "caseMaterial": "rose-gold",
+      "priceFloorJpy": 2186625,
+      "searchKeywordJa": "ユリス・ナルダン REF.3723-170-2B",
+      "searchKeywordEn": "Ulysse Nardin REF.3723-170-2B",
+      "caseMaterial": null,
       "waterResistanceM": null,
       "gender": "mens",
       "releaseYear": null,
       "tags": [
-        "tourbillon"
+        "diver",
+        "skeleton"
       ],
       "popular": false,
-      "summary_ja": "ユリス・ナルダンの型番016-88。市場で3件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Ulysse Nardin reference 016-88, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ユリス・ナルダンの型番REF.3723-170-2B。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ulysse Nardin reference REF.3723-170-2B, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
       "lastSeen": "2026-08-25"
@@ -1301,6 +1302,34 @@
       "summary_en": "Ulysse Nardin reference 223-88, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
+      "lastSeen": "2026-08-25"
+    },
+    {
+      "id": "ref-133779",
+      "name_en": "133-77-9",
+      "name_ja": "133-77-9",
+      "reference": "133-77-9",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 638605,
+      "searchKeywordJa": "ユリス・ナルダン 133-77-9",
+      "searchKeywordEn": "Ulysse Nardin 133-77-9",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ユリス・ナルダンの型番133-77-9。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ulysse Nardin reference 133-77-9, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
       "lastSeen": "2026-08-25"
     },
     {
@@ -1863,6 +1892,34 @@
       "summary_en": "Ulysse Nardin reference 243-10-3/391, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
+      "lastSeen": "2026-08-25"
+    },
+    {
+      "id": "ref-01688",
+      "name_en": "016-88",
+      "name_ja": "フリーク トゥールビヨン 016-88",
+      "reference": "016-88",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "manual",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 3534300,
+      "searchKeywordJa": "ユリス・ナルダン 016-88",
+      "searchKeywordEn": "Ulysse Nardin 016-88",
+      "caseMaterial": "rose-gold",
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "tourbillon"
+      ],
+      "popular": false,
+      "summary_ja": "ユリス・ナルダンの型番016-88。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ulysse Nardin reference 016-88, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 0,
       "lastSeen": "2026-08-25"
     },
     {
@@ -3183,34 +3240,6 @@
       "popular": false,
       "summary_ja": "ユリス・ナルダンの型番133-88。市場で1件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Ulysse Nardin reference 133-88, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 0,
-      "lastSeen": "2026-08-16"
-    },
-    {
-      "id": "ref-133779",
-      "name_en": "133-77-9",
-      "name_ja": "133-77-9",
-      "reference": "133-77-9",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 278630,
-      "searchKeywordJa": "ユリス・ナルダン 133-77-9",
-      "searchKeywordEn": "Ulysse Nardin 133-77-9",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "chronograph"
-      ],
-      "popular": false,
-      "summary_ja": "ユリス・ナルダンの型番133-77-9。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Ulysse Nardin reference 133-77-9, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 0,
       "lastSeen": "2026-08-16"
