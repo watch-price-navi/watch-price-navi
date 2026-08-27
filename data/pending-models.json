@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T02:17:59.672Z",
+  "generatedAt": "2026-08-27T05:23:03.618Z",
   "note": "カタログ未収録の型番候補。data/brands/<brand>.json に追記すると翌回の更新から価格収集・ページ生成の対象になります。不要な型番は dismissed 配列に追加すると次回から無視されます。",
   "dismissed": [],
   "candidates": [
@@ -18,18 +18,18 @@
       "approxPriceJpy": 9000
     },
     {
+      "brandId": "casio",
+      "brandName": "カシオ",
+      "reference": "40.5",
+      "listingCount": 6,
+      "approxPriceJpy": 20000
+    },
+    {
       "brandId": "meistersinger",
       "brandName": "マイスタージンガー",
       "reference": "KSOD902",
-      "listingCount": 7,
+      "listingCount": 6,
       "approxPriceJpy": 550000
-    },
-    {
-      "brandId": "citizen",
-      "brandName": "シチズン",
-      "reference": "53.5",
-      "listingCount": 5,
-      "approxPriceJpy": 48000
     },
     {
       "brandId": "franck-muller",
@@ -60,6 +60,20 @@
       "approxPriceJpy": 636000
     },
     {
+      "brandId": "citizen",
+      "brandName": "シチズン",
+      "reference": "40.5",
+      "listingCount": 4,
+      "approxPriceJpy": 19000
+    },
+    {
+      "brandId": "graham",
+      "brandName": "グラハム",
+      "reference": "1/144",
+      "listingCount": 4,
+      "approxPriceJpy": 1000
+    },
+    {
       "brandId": "hamilton",
       "brandName": "ハミルトン",
       "reference": "38.00MM",
@@ -88,11 +102,18 @@
       "approxPriceJpy": 49800000
     },
     {
+      "brandId": "cartier",
+      "brandName": "カルティエ",
+      "reference": "12.5",
+      "listingCount": 3,
+      "approxPriceJpy": 198000
+    },
+    {
       "brandId": "casio",
       "brandName": "カシオ",
-      "reference": "A158WA-1JH",
+      "reference": "F-91W-1JH",
       "listingCount": 3,
-      "approxPriceJpy": 2000
+      "approxPriceJpy": 1000
     },
     {
       "brandId": "graham",
@@ -160,6 +181,13 @@
     {
       "brandId": "meistersinger",
       "brandName": "マイスタージンガー",
+      "reference": "NES908",
+      "listingCount": 3,
+      "approxPriceJpy": 358000
+    },
+    {
+      "brandId": "meistersinger",
+      "brandName": "マイスタージンガー",
       "reference": "KSOD914",
       "listingCount": 3,
       "approxPriceJpy": 550000
@@ -193,18 +221,11 @@
       "approxPriceJpy": 5000
     },
     {
-      "brandId": "richard-mille",
-      "brandName": "リシャール・ミル",
-      "reference": "RM029",
+      "brandId": "porsche-design",
+      "brandName": "ポルシェ・デザイン",
+      "reference": "P8256-D",
       "listingCount": 3,
-      "approxPriceJpy": 36300000
-    },
-    {
-      "brandId": "richard-mille",
-      "brandName": "リシャール・ミル",
-      "reference": "RM030RG",
-      "listingCount": 3,
-      "approxPriceJpy": 38800000
+      "approxPriceJpy": 20000
     },
     {
       "brandId": "richard-mille",
@@ -225,21 +246,7 @@
       "brandName": "ジン",
       "reference": "556.A.RS",
       "listingCount": 3,
-      "approxPriceJpy": 368000
-    },
-    {
-      "brandId": "sinn",
-      "brandName": "ジン",
-      "reference": "556.I.RS",
-      "listingCount": 3,
-      "approxPriceJpy": 368000
-    },
-    {
-      "brandId": "tissot",
-      "brandName": "ティソ",
-      "reference": "39.3MM",
-      "listingCount": 3,
-      "approxPriceJpy": 118000
+      "approxPriceJpy": 278000
     },
     {
       "brandId": "tudor",
@@ -361,20 +368,6 @@
       "approxPriceJpy": 12000
     },
     {
-      "brandId": "cartier",
-      "brandName": "カルティエ",
-      "reference": "12.5",
-      "listingCount": 2,
-      "approxPriceJpy": 198000
-    },
-    {
-      "brandId": "cartier",
-      "brandName": "カルティエ",
-      "reference": "750YG",
-      "listingCount": 2,
-      "approxPriceJpy": 189000
-    },
-    {
       "brandId": "casio",
       "brandName": "カシオ",
       "reference": "LTP-V007D",
@@ -391,16 +384,23 @@
     {
       "brandId": "casio",
       "brandName": "カシオ",
-      "reference": "MTP-M305D",
+      "reference": "W-800H",
       "listingCount": 2,
-      "approxPriceJpy": 13000
+      "approxPriceJpy": 4000
     },
     {
       "brandId": "casio",
       "brandName": "カシオ",
-      "reference": "W-800H",
+      "reference": "A158WA-1JH",
       "listingCount": 2,
-      "approxPriceJpy": 4000
+      "approxPriceJpy": 2000
+    },
+    {
+      "brandId": "casio",
+      "brandName": "カシオ",
+      "reference": "WVA-M630D",
+      "listingCount": 2,
+      "approxPriceJpy": 14000
     },
     {
       "brandId": "chopard",
@@ -408,13 +408,6 @@
       "reference": "4284/6191/6160",
       "listingCount": 2,
       "approxPriceJpy": 8000
-    },
-    {
-      "brandId": "chronoswiss",
-      "brandName": "クロノスイス",
-      "reference": "CH2882-85",
-      "listingCount": 2,
-      "approxPriceJpy": 245000
     },
     {
       "brandId": "corum",
@@ -454,16 +447,16 @@
     {
       "brandId": "glashutte-original",
       "brandName": "グラスヒュッテ・オリジナル",
-      "reference": "1-36-01-05-02-01",
+      "reference": "39-41-04-12-14",
       "listingCount": 2,
-      "approxPriceJpy": 1020000
+      "approxPriceJpy": 1028000
     },
     {
       "brandId": "glashutte-original",
       "brandName": "グラスヒュッテ・オリジナル",
-      "reference": "65-01-03-03-04",
+      "reference": "1-36-01-05-02-01",
       "listingCount": 2,
-      "approxPriceJpy": 1910000
+      "approxPriceJpy": 1020000
     },
     {
       "brandId": "glashutte-original",
@@ -510,16 +503,16 @@
     {
       "brandId": "glashutte-original",
       "brandName": "グラスヒュッテ・オリジナル",
-      "reference": "39-21-01-02-04",
+      "reference": "1-37-23-03-80-33",
       "listingCount": 2,
-      "approxPriceJpy": 438000
+      "approxPriceJpy": 1720000
     },
     {
       "brandId": "glashutte-original",
       "brandName": "グラスヒュッテ・オリジナル",
-      "reference": "1-37-23-03-80-33",
+      "reference": "39-21-01-02-04",
       "listingCount": 2,
-      "approxPriceJpy": 1720000
+      "approxPriceJpy": 438000
     },
     {
       "brandId": "graham",
@@ -529,18 +522,11 @@
       "approxPriceJpy": 330000
     },
     {
-      "brandId": "graham",
-      "brandName": "グラハム",
-      "reference": "2CCAS.B32A",
+      "brandId": "grand-seiko",
+      "brandName": "グランドセイコー",
+      "reference": "SBGF021",
       "listingCount": 2,
-      "approxPriceJpy": 308000
-    },
-    {
-      "brandId": "graham",
-      "brandName": "グラハム",
-      "reference": "1/144",
-      "listingCount": 2,
-      "approxPriceJpy": 1000
+      "approxPriceJpy": 138000
     },
     {
       "brandId": "grand-seiko",
@@ -557,13 +543,6 @@
       "approxPriceJpy": 85000
     },
     {
-      "brandId": "grand-seiko",
-      "brandName": "グランドセイコー",
-      "reference": "STGF047",
-      "listingCount": 2,
-      "approxPriceJpy": 85000
-    },
-    {
       "brandId": "h-moser",
       "brandName": "H.モーザー",
       "reference": "REF.3201-1202",
@@ -576,13 +555,6 @@
       "reference": "REF.1200-0201",
       "listingCount": 2,
       "approxPriceJpy": 2426000
-    },
-    {
-      "brandId": "hamilton",
-      "brandName": "ハミルトン",
-      "reference": "H695000028",
-      "listingCount": 2,
-      "approxPriceJpy": 22000
     },
     {
       "brandId": "harry-winston",
@@ -627,11 +599,18 @@
       "approxPriceJpy": 42000
     },
     {
-      "brandId": "meistersinger",
-      "brandName": "マイスタージンガー",
-      "reference": "YA914G",
+      "brandId": "jacob-co",
+      "brandName": "ジェイコブ",
+      "reference": "8790471",
       "listingCount": 2,
-      "approxPriceJpy": 443000
+      "approxPriceJpy": 12000
+    },
+    {
+      "brandId": "longines",
+      "brandName": "ロンジン",
+      "reference": "38.5MM",
+      "listingCount": 2,
+      "approxPriceJpy": 274000
     },
     {
       "brandId": "meistersinger",
@@ -639,6 +618,13 @@
       "reference": "KS939",
       "listingCount": 2,
       "approxPriceJpy": 495000
+    },
+    {
+      "brandId": "meistersinger",
+      "brandName": "マイスタージンガー",
+      "reference": "NES901G",
+      "listingCount": 2,
+      "approxPriceJpy": 358000
     },
     {
       "brandId": "montblanc",
@@ -664,6 +650,13 @@
     {
       "brandId": "omega",
       "brandName": "オメガ",
+      "reference": "40.5",
+      "listingCount": 2,
+      "approxPriceJpy": 811000
+    },
+    {
+      "brandId": "omega",
+      "brandName": "オメガ",
       "reference": "27.5MM",
       "listingCount": 2,
       "approxPriceJpy": 340000
@@ -674,6 +667,13 @@
       "reference": "RN-AP0104S",
       "listingCount": 2,
       "approxPriceJpy": 32000
+    },
+    {
+      "brandId": "orient",
+      "brandName": "オリエント",
+      "reference": "RN-AC0F02S",
+      "listingCount": 2,
+      "approxPriceJpy": 20000
     },
     {
       "brandId": "oris",
@@ -690,6 +690,13 @@
       "approxPriceJpy": 7000
     },
     {
+      "brandId": "panerai",
+      "brandName": "パネライ",
+      "reference": "B1008S02",
+      "listingCount": 2,
+      "approxPriceJpy": 2000
+    },
+    {
       "brandId": "patek-philippe",
       "brandName": "パテック フィリップ",
       "reference": "22MM-18MM",
@@ -704,13 +711,6 @@
       "approxPriceJpy": 177000
     },
     {
-      "brandId": "porsche-design",
-      "brandName": "ポルシェ・デザイン",
-      "reference": "P8256-D",
-      "listingCount": 2,
-      "approxPriceJpy": 20000
-    },
-    {
       "brandId": "rado",
       "brandName": "ラドー",
       "reference": "38.0MM",
@@ -720,9 +720,9 @@
     {
       "brandId": "richard-mille",
       "brandName": "リシャール・ミル",
-      "reference": "RM033",
+      "reference": "RM029",
       "listingCount": 2,
-      "approxPriceJpy": 29800000
+      "approxPriceJpy": 36300000
     },
     {
       "brandId": "richard-mille",
@@ -730,6 +730,20 @@
       "reference": "RM023",
       "listingCount": 2,
       "approxPriceJpy": 25850000
+    },
+    {
+      "brandId": "richard-mille",
+      "brandName": "リシャール・ミル",
+      "reference": "RM010",
+      "listingCount": 2,
+      "approxPriceJpy": 24800000
+    },
+    {
+      "brandId": "richard-mille",
+      "brandName": "リシャール・ミル",
+      "reference": "RM030RG",
+      "listingCount": 2,
+      "approxPriceJpy": 38800000
     },
     {
       "brandId": "roger-dubuis",
@@ -748,13 +762,6 @@
     {
       "brandId": "seiko",
       "brandName": "セイコー",
-      "reference": "53.5",
-      "listingCount": 2,
-      "approxPriceJpy": 20000
-    },
-    {
-      "brandId": "seiko",
-      "brandName": "セイコー",
       "reference": "SNKE03K1",
       "listingCount": 2,
       "approxPriceJpy": 24000
@@ -765,6 +772,20 @@
       "reference": "SSVV081",
       "listingCount": 2,
       "approxPriceJpy": 57000
+    },
+    {
+      "brandId": "seiko",
+      "brandName": "セイコー",
+      "reference": "SBTH007",
+      "listingCount": 2,
+      "approxPriceJpy": 25000
+    },
+    {
+      "brandId": "seiko",
+      "brandName": "セイコー",
+      "reference": "SBTR027",
+      "listingCount": 2,
+      "approxPriceJpy": 20000
     },
     {
       "brandId": "seiko",
@@ -786,6 +807,20 @@
       "reference": "SBTQ071",
       "listingCount": 2,
       "approxPriceJpy": 13000
+    },
+    {
+      "brandId": "sinn",
+      "brandName": "ジン",
+      "reference": "556.I.RS",
+      "listingCount": 2,
+      "approxPriceJpy": 368000
+    },
+    {
+      "brandId": "tissot",
+      "brandName": "ティソ",
+      "reference": "39.3MM",
+      "listingCount": 2,
+      "approxPriceJpy": 118000
     },
     {
       "brandId": "ulysse-nardin",
