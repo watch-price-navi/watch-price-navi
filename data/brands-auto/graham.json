@@ -1,6 +1,6 @@
 {
   "brandId": "graham",
-  "generatedAt": "2026-08-28T06:28:50.713Z",
+  "generatedAt": "2026-08-28T21:53:11.398Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -25,10 +25,10 @@
         "chronograph"
       ],
       "popular": false,
-      "summary_ja": "グラハムの型番1695。市場で5件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "グラハムの型番1695。市場で6件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Graham reference 1695, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 5,
+      "listingCount": 6,
       "lastSeen": "2026-08-28"
     },
     {
@@ -57,34 +57,6 @@
       "summary_en": "Graham reference 2CCAU.G01A.T15N, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-08-28"
-    },
-    {
-      "id": "ref-2cvasb03al128f",
-      "name_en": "2CVAS.B03A.L128F",
-      "name_ja": "クロノファイター ヴィンテージ 2CVAS.B03A.L128F",
-      "reference": "2CVAS.B03A.L128F",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 472175,
-      "searchKeywordJa": "グラハム 2CVAS.B03A.L128F",
-      "searchKeywordEn": "Graham 2CVAS.B03A.L128F",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "chronograph"
-      ],
-      "popular": false,
-      "summary_ja": "グラハムの型番2CVAS.B03A.L128F。市場で4件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Graham reference 2CVAS.B03A.L128F, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 4,
       "lastSeen": "2026-08-28"
     },
     {
@@ -284,34 +256,6 @@
       "lastSeen": "2026-08-28"
     },
     {
-      "id": "ref-2cxass01al17s",
-      "name_en": "2CXAS.S01A.L17S",
-      "name_ja": "クロノファイター デイト 2CXAS.S01A.L17S",
-      "reference": "2CXAS.S01A.L17S",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 278630,
-      "searchKeywordJa": "グラハム 2CXAS.S01A.L17S",
-      "searchKeywordEn": "Graham 2CXAS.S01A.L17S",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "chronograph"
-      ],
-      "popular": false,
-      "summary_ja": "グラハムの型番2CXAS.S01A.L17S。市場で3件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Graham reference 2CXAS.S01A.L17S, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 3,
-      "lastSeen": "2026-08-28"
-    },
-    {
       "id": "ref-022ccasb32a",
       "name_en": "02/2CCAS.B32A",
       "name_ja": "クロノファイター オーバーサイズ 02/2CCAS.B32A",
@@ -335,6 +279,34 @@
       "popular": false,
       "summary_ja": "グラハムの型番02/2CCAS.B32A。市場で3件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Graham reference 02/2CCAS.B32A, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
+      "lastSeen": "2026-08-28"
+    },
+    {
+      "id": "ref-2cxass01al17s",
+      "name_en": "2CXAS.S01A.L17S",
+      "name_ja": "クロノファイター デイト 2CXAS.S01A.L17S",
+      "reference": "2CXAS.S01A.L17S",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 278630,
+      "searchKeywordJa": "グラハム 2CXAS.S01A.L17S",
+      "searchKeywordEn": "Graham 2CXAS.S01A.L17S",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph"
+      ],
+      "popular": false,
+      "summary_ja": "グラハムの型番2CXAS.S01A.L17S。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Graham reference 2CXAS.S01A.L17S, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
       "lastSeen": "2026-08-28"
@@ -425,6 +397,34 @@
       "lastSeen": "2026-08-28"
     },
     {
+      "id": "ref-2cvasb03al128f",
+      "name_en": "2CVAS.B03A.L128F",
+      "name_ja": "クロノファイター ヴィンテージ 2CVAS.B03A.L128F",
+      "reference": "2CVAS.B03A.L128F",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 472175,
+      "searchKeywordJa": "グラハム 2CVAS.B03A.L128F",
+      "searchKeywordEn": "Graham 2CVAS.B03A.L128F",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "chronograph"
+      ],
+      "popular": false,
+      "summary_ja": "グラハムの型番2CVAS.B03A.L128F。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Graham reference 2CVAS.B03A.L128F, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
+      "lastSeen": "2026-08-28"
+    },
+    {
       "id": "ref-2cvass08al155f",
       "name_en": "2CVAS.S08A.L155F",
       "name_ja": "クロノファイター ヴィンテージ 2CVAS.S08A.L155F",
@@ -453,33 +453,31 @@
       "lastSeen": "2026-08-28"
     },
     {
-      "id": "ref-2ccbkb35ak102k",
-      "name_en": "2CCBK.B35A.K102K",
-      "name_ja": "クロノファイター スーパーライトカーボン 2CCBK.B35A.K102K",
-      "reference": "2CCBK.B35A.K102K",
+      "id": "ref-ref20vasb02al30b",
+      "name_en": "REF.20VAS.B02A.L30B",
+      "name_ja": "クロノファイターオーバー フルブラック REF.20VAS.B02A.L30B",
+      "reference": "REF.20VAS.B02A.L30B",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
       "movementType": null,
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 1374450,
-      "searchKeywordJa": "グラハム 2CCBK.B35A.K102K",
-      "searchKeywordEn": "Graham 2CCBK.B35A.K102K",
-      "caseMaterial": "carbon",
+      "priceFloorJpy": 229075,
+      "searchKeywordJa": "グラハム REF.20VAS.B02A.L30B",
+      "searchKeywordEn": "Graham REF.20VAS.B02A.L30B",
+      "caseMaterial": null,
       "waterResistanceM": null,
-      "gender": "mens",
+      "gender": "unisex",
       "releaseYear": null,
       "tags": [
-        "chronograph",
-        "tourbillon",
-        "lightweight"
+        "chronograph"
       ],
       "popular": false,
-      "summary_ja": "グラハムの型番2CCBK.B35A.K102K。市場で3件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Graham reference 2CCBK.B35A.K102K, currently offered by multiple sellers in Japan.",
+      "summary_ja": "グラハムの型番REF.20VAS.B02A.L30B。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Graham reference REF.20VAS.B02A.L30B, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 3,
+      "listingCount": 2,
       "lastSeen": "2026-08-28"
     },
     {
@@ -900,6 +898,36 @@
       "popular": false,
       "summary_ja": "グラハムの型番2CCAU.G02A.K94N。市場で2件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Graham reference 2CCAU.G02A.K94N, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-08-28"
+    },
+    {
+      "id": "ref-2ccbkb35ak102k",
+      "name_en": "2CCBK.B35A.K102K",
+      "name_ja": "クロノファイター スーパーライトカーボン 2CCBK.B35A.K102K",
+      "reference": "2CCBK.B35A.K102K",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 1374450,
+      "searchKeywordJa": "グラハム 2CCBK.B35A.K102K",
+      "searchKeywordEn": "Graham 2CCBK.B35A.K102K",
+      "caseMaterial": "carbon",
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph",
+        "tourbillon",
+        "lightweight"
+      ],
+      "popular": false,
+      "summary_ja": "グラハムの型番2CCBK.B35A.K102K。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Graham reference 2CCBK.B35A.K102K, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
       "lastSeen": "2026-08-28"

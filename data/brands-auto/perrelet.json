@@ -1,6 +1,6 @@
 {
   "brandId": "perrelet",
-  "generatedAt": "2026-08-28T07:25:20.710Z",
+  "generatedAt": "2026-08-28T22:52:11.604Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -335,34 +335,6 @@
       "popular": false,
       "summary_ja": "ペルレの型番A1047。市場で2件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Perrelet reference A1047, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-08-28"
-    },
-    {
-      "id": "ref-a50041",
-      "name_en": "A5004-1",
-      "name_ja": "チタニウムコレクション A5004-1",
-      "reference": "A5004-1",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 200000,
-      "searchKeywordJa": "ペルレ A5004-1",
-      "searchKeywordEn": "Perrelet A5004-1",
-      "caseMaterial": "carbon",
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "lightweight"
-      ],
-      "popular": false,
-      "summary_ja": "ペルレの型番A5004-1。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Perrelet reference A5004-1, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
       "lastSeen": "2026-08-28"
@@ -1065,6 +1037,34 @@
       "summary_en": "Perrelet reference VCARP27F00, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
+      "lastSeen": "2026-08-28"
+    },
+    {
+      "id": "ref-a50041",
+      "name_en": "A5004-1",
+      "name_ja": "チタニウムコレクション A5004-1",
+      "reference": "A5004-1",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 200000,
+      "searchKeywordJa": "ペルレ A5004-1",
+      "searchKeywordEn": "Perrelet A5004-1",
+      "caseMaterial": "carbon",
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "lightweight"
+      ],
+      "popular": false,
+      "summary_ja": "ペルレの型番A5004-1。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Perrelet reference A5004-1, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 0,
       "lastSeen": "2026-08-28"
     },
     {
