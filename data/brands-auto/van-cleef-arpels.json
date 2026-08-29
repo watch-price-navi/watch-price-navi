@@ -1,6 +1,6 @@
 {
   "brandId": "van-cleef-arpels",
-  "generatedAt": "2026-08-29T05:49:41.185Z",
+  "generatedAt": "2026-08-29T17:09:10.216Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -676,6 +676,34 @@
       "lastSeen": "2026-08-29"
     },
     {
+      "id": "ref-522671",
+      "name_en": "522671",
+      "name_ja": "522671",
+      "reference": "522671",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "quartz",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 400000,
+      "searchKeywordJa": "ヴァン クリーフ&アーペル 522671",
+      "searchKeywordEn": "Van Cleef & Arpels 522671",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ヴァン クリーフ&アーペルの型番522671。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Van Cleef & Arpels reference 522671, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-08-29"
+    },
+    {
       "id": "ref-2610014",
       "name_en": "2610014",
       "name_ja": "2610014",
@@ -732,34 +760,6 @@
       "lastSeen": "2026-08-29"
     },
     {
-      "id": "ref-522671",
-      "name_en": "522671",
-      "name_ja": "522671",
-      "reference": "522671",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "quartz",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 400000,
-      "searchKeywordJa": "ヴァン クリーフ&アーペル 522671",
-      "searchKeywordEn": "Van Cleef & Arpels 522671",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ヴァン クリーフ&アーペルの型番522671。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Van Cleef & Arpels reference 522671, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-08-29"
-    },
-    {
       "id": "ref-522363",
       "name_en": "522363",
       "name_ja": "522363",
@@ -778,7 +778,7 @@
       "gender": "unisex",
       "releaseYear": null,
       "tags": [
-        "sport"
+        "limited-edition"
       ],
       "popular": false,
       "summary_ja": "ヴァン クリーフ&アーペルの型番522363。市場で1件の出品が確認された、実際に流通しているモデルです。",
@@ -918,7 +918,7 @@
       "gender": "unisex",
       "releaseYear": null,
       "tags": [
-        "sport"
+        "limited-edition"
       ],
       "popular": false,
       "summary_ja": "ヴァン クリーフ&アーペルの型番115101。市場で1件の出品が確認された、実際に流通しているモデルです。",
@@ -946,7 +946,7 @@
       "gender": "unisex",
       "releaseYear": null,
       "tags": [
-        "sport"
+        "limited-edition"
       ],
       "popular": false,
       "summary_ja": "ヴァン クリーフ&アーペルの型番322945B2。市場で1件の出品が確認された、実際に流通しているモデルです。",
