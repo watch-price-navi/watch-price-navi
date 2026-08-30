@@ -1,6 +1,6 @@
 {
   "brandId": "girard-perregaux",
-  "generatedAt": "2026-08-29T15:27:51.883Z",
+  "generatedAt": "2026-08-30T00:23:39.507Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -25,11 +25,11 @@
         "chronograph"
       ],
       "popular": false,
-      "summary_ja": "ジラール・ペルゴの型番8020。市場で24件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "ジラール・ペルゴの型番8020。市場で16件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Girard-Perregaux reference 8020, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 24,
-      "lastSeen": "2026-08-29"
+      "listingCount": 16,
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-810155332401gm",
@@ -57,7 +57,7 @@
       "summary_en": "Girard-Perregaux reference 81015-53-3240-1GM, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 16,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-25932",
@@ -85,35 +85,7 @@
       "summary_en": "Girard-Perregaux reference 25932, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 15,
-      "lastSeen": "2026-08-29"
-    },
-    {
-      "id": "ref-810101123111a",
-      "name_en": "81010-11-231-11A",
-      "name_ja": "ロレアート グレー 81010-11-231-11A",
-      "reference": "81010-11-231-11A",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": 42,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 1264800,
-      "searchKeywordJa": "ジラール・ペルゴ 81010-11-231-11A",
-      "searchKeywordEn": "Girard-Perregaux 81010-11-231-11A",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ジラール・ペルゴの型番81010-11-231-11A。市場で15件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Girard-Perregaux reference 81010-11-231-11A, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 15,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-2590",
@@ -141,7 +113,7 @@
       "summary_en": "Girard-Perregaux reference 2590, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 14,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-25835111320sbbcc",
@@ -169,7 +141,35 @@
       "summary_en": "Girard-Perregaux reference 25835-11-1320SBBCC, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 14,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
+    },
+    {
+      "id": "ref-810101123111a",
+      "name_en": "81010-11-231-11A",
+      "name_ja": "ロレアート グレー 81010-11-231-11A",
+      "reference": "81010-11-231-11A",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": 42,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 1264800,
+      "searchKeywordJa": "ジラール・ペルゴ 81010-11-231-11A",
+      "searchKeywordEn": "Girard-Perregaux 81010-11-231-11A",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ジラール・ペルゴの型番81010-11-231-11A。市場で14件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Girard-Perregaux reference 81010-11-231-11A, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 14,
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-gp7000",
@@ -197,35 +197,35 @@
       "summary_en": "Girard-Perregaux reference GP7000, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 13,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
-      "id": "ref-2710",
-      "name_en": "2710",
-      "name_ja": "リシュビル クロノグラフ 2710",
-      "reference": "2710",
+      "id": "ref-2574",
+      "name_en": "2574",
+      "name_ja": "ヴィンテージ グレー 2574",
+      "reference": "2574",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
-      "movementType": "automatic",
+      "movementType": "quartz",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 325380,
-      "searchKeywordJa": "ジラール・ペルゴ 2710",
-      "searchKeywordEn": "Girard-Perregaux 2710",
-      "caseMaterial": "stainless-steel",
+      "priceFloorJpy": 168113,
+      "searchKeywordJa": "ジラール・ペルゴ 2574",
+      "searchKeywordEn": "Girard-Perregaux 2574",
+      "caseMaterial": null,
       "waterResistanceM": null,
       "gender": "mens",
       "releaseYear": null,
       "tags": [
-        "chronograph"
+        "sport"
       ],
       "popular": false,
-      "summary_ja": "ジラール・ペルゴの型番2710。市場で12件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Girard-Perregaux reference 2710, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ジラール・ペルゴの型番2574。市場で12件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Girard-Perregaux reference 2574, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 12,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-25810111510",
@@ -253,36 +253,7 @@
       "summary_en": "Girard-Perregaux reference 25810-11-151-0, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 12,
-      "lastSeen": "2026-08-29"
-    },
-    {
-      "id": "ref-2588056111bbba",
-      "name_en": "25880-56-111-BBBA",
-      "name_ja": "ヴィンテージ スモールセコンド 25880-56-111-BBBA",
-      "reference": "25880-56-111-BBBA",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 658750,
-      "searchKeywordJa": "ジラール・ペルゴ 25880-56-111-BBBA",
-      "searchKeywordEn": "Girard-Perregaux 25880-56-111-BBBA",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "limited-edition",
-        "small-seconds"
-      ],
-      "popular": false,
-      "summary_ja": "ジラール・ペルゴの型番25880-56-111-BBBA。市場で12件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Girard-Perregaux reference 25880-56-111-BBBA, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 12,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-810103230811cx",
@@ -310,119 +281,35 @@
       "summary_en": "Girard-Perregaux reference 81010-32-3081-1CX, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 12,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
-      "id": "ref-25900",
-      "name_en": "25900",
-      "name_ja": "ヴィンテージ 25900",
-      "reference": "25900",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "manual",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 100000,
-      "searchKeywordJa": "ジラール・ペルゴ 25900",
-      "searchKeywordEn": "Girard-Perregaux 25900",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ジラール・ペルゴの型番25900。市場で11件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Girard-Perregaux reference 25900, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 11,
-      "lastSeen": "2026-08-29"
-    },
-    {
-      "id": "ref-2574",
-      "name_en": "2574",
-      "name_ja": "ヴィンテージ グレー 2574",
-      "reference": "2574",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "quartz",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 168113,
-      "searchKeywordJa": "ジラール・ペルゴ 2574",
-      "searchKeywordEn": "Girard-Perregaux 2574",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ジラール・ペルゴの型番2574。市場で11件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Girard-Perregaux reference 2574, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 11,
-      "lastSeen": "2026-08-29"
-    },
-    {
-      "id": "ref-2588211121bb6b",
-      "name_en": "25882-11-121-BB6B",
-      "name_ja": "ヴィンテージ ラージ 25882-11-121-BB6B",
-      "reference": "25882-11-121-BB6B",
+      "id": "ref-2710",
+      "name_en": "2710",
+      "name_ja": "リシュビル クロノグラフ 2710",
+      "reference": "2710",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
       "movementType": "automatic",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 495363,
-      "searchKeywordJa": "ジラール・ペルゴ 25882-11-121-BB6B",
-      "searchKeywordEn": "Girard-Perregaux 25882-11-121-BB6B",
-      "caseMaterial": null,
+      "priceFloorJpy": 325380,
+      "searchKeywordJa": "ジラール・ペルゴ 2710",
+      "searchKeywordEn": "Girard-Perregaux 2710",
+      "caseMaterial": "stainless-steel",
       "waterResistanceM": null,
       "gender": "mens",
       "releaseYear": null,
       "tags": [
-        "moonphase"
+        "chronograph"
       ],
       "popular": false,
-      "summary_ja": "ジラール・ペルゴの型番25882-11-121-BB6B。市場で11件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Girard-Perregaux reference 25882-11-121-BB6B, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ジラール・ペルゴの型番2710。市場で11件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Girard-Perregaux reference 2710, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 11,
-      "lastSeen": "2026-08-29"
-    },
-    {
-      "id": "ref-2588211221bb6b",
-      "name_en": "25882-11-221-BB-6B",
-      "name_ja": "ヴィンテージ ムーンフェイズ 25882-11-221-BB-6B",
-      "reference": "25882-11-221-BB-6B",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 698700,
-      "searchKeywordJa": "ジラール・ペルゴ 25882-11-221-BB-6B",
-      "searchKeywordEn": "Girard-Perregaux 25882-11-221-BB-6B",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "moonphase"
-      ],
-      "popular": false,
-      "summary_ja": "ジラール・ペルゴの型番25882-11-221-BB-6B。市場で11件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Girard-Perregaux reference 25882-11-221-BB-6B, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 11,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-810001113111a",
@@ -450,7 +337,35 @@
       "summary_en": "Girard-Perregaux reference 81000-11-131-11A, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 11,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
+    },
+    {
+      "id": "ref-25900",
+      "name_en": "25900",
+      "name_ja": "ヴィンテージ 25900",
+      "reference": "25900",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "manual",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 100000,
+      "searchKeywordJa": "ジラール・ペルゴ 25900",
+      "searchKeywordEn": "Girard-Perregaux 25900",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ジラール・ペルゴの型番25900。市場で10件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Girard-Perregaux reference 25900, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 10,
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-25835111222sbb4a",
@@ -478,7 +393,7 @@
       "summary_en": "Girard-Perregaux reference 25835-11-1222SBB4A, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 10,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-259900118186",
@@ -506,7 +421,7 @@
       "summary_en": "Girard-Perregaux reference 25990.0.11.8186, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 10,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-25883",
@@ -534,35 +449,63 @@
       "summary_en": "Girard-Perregaux reference 25883, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 10,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
-      "id": "ref-1000",
-      "name_en": "1000",
-      "name_ja": "シーホーク オラクル 1000",
-      "reference": "1000",
+      "id": "ref-2588211121bb6b",
+      "name_en": "25882-11-121-BB6B",
+      "name_ja": "ヴィンテージ ラージ 25882-11-121-BB6B",
+      "reference": "25882-11-121-BB6B",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
       "movementType": "automatic",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 381480,
-      "searchKeywordJa": "ジラール・ペルゴ 1000",
-      "searchKeywordEn": "Girard-Perregaux 1000",
+      "priceFloorJpy": 495363,
+      "searchKeywordJa": "ジラール・ペルゴ 25882-11-121-BB6B",
+      "searchKeywordEn": "Girard-Perregaux 25882-11-121-BB6B",
       "caseMaterial": null,
       "waterResistanceM": null,
       "gender": "mens",
       "releaseYear": null,
       "tags": [
-        "limited-edition"
+        "moonphase"
       ],
       "popular": false,
-      "summary_ja": "ジラール・ペルゴの型番1000。市場で10件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Girard-Perregaux reference 1000, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ジラール・ペルゴの型番25882-11-121-BB6B。市場で10件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Girard-Perregaux reference 25882-11-121-BB6B, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 10,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
+    },
+    {
+      "id": "ref-2588211221bb6b",
+      "name_en": "25882-11-221-BB-6B",
+      "name_ja": "ヴィンテージ ムーンフェイズ 25882-11-221-BB-6B",
+      "reference": "25882-11-221-BB-6B",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 698700,
+      "searchKeywordJa": "ジラール・ペルゴ 25882-11-221-BB-6B",
+      "searchKeywordEn": "Girard-Perregaux 25882-11-221-BB-6B",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "moonphase"
+      ],
+      "popular": false,
+      "summary_ja": "ジラール・ペルゴの型番25882-11-221-BB-6B。市場で10件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Girard-Perregaux reference 25882-11-221-BB-6B, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 10,
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-8106021492fh3a",
@@ -590,7 +533,35 @@
       "summary_en": "Girard-Perregaux reference 81060-21-492-FH3A, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 10,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
+    },
+    {
+      "id": "ref-2590011111",
+      "name_en": "25900.11.111",
+      "name_ja": "ヴィンテージ 25900.11.111",
+      "reference": "25900.11.111",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 158865,
+      "searchKeywordJa": "ジラール・ペルゴ 25900.11.111",
+      "searchKeywordEn": "Girard-Perregaux 25900.11.111",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ジラール・ペルゴの型番25900.11.111。市場で9件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Girard-Perregaux reference 25900.11.111, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 9,
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-25900111117",
@@ -618,63 +589,64 @@
       "summary_en": "Girard-Perregaux reference 25900.1.11.117, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 9,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
-      "id": "ref-8025",
-      "name_en": "8025",
-      "name_ja": "フェラーリ デイト 8025",
-      "reference": "8025",
+      "id": "ref-1000",
+      "name_en": "1000",
+      "name_ja": "シーホーク オラクル 1000",
+      "reference": "1000",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
       "movementType": "automatic",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 158763,
-      "searchKeywordJa": "ジラール・ペルゴ 8025",
-      "searchKeywordEn": "Girard-Perregaux 8025",
-      "caseMaterial": "stainless-steel",
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ジラール・ペルゴの型番8025。市場で9件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Girard-Perregaux reference 8025, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 9,
-      "lastSeen": "2026-08-29"
-    },
-    {
-      "id": "ref-49551",
-      "name_en": "49551",
-      "name_ja": "デイト 49551",
-      "reference": "49551",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 521730,
-      "searchKeywordJa": "ジラール・ペルゴ 49551",
-      "searchKeywordEn": "Girard-Perregaux 49551",
+      "priceFloorJpy": 381480,
+      "searchKeywordJa": "ジラール・ペルゴ 1000",
+      "searchKeywordEn": "Girard-Perregaux 1000",
       "caseMaterial": null,
       "waterResistanceM": null,
       "gender": "mens",
       "releaseYear": null,
       "tags": [
-        "sport"
+        "limited-edition"
       ],
       "popular": false,
-      "summary_ja": "ジラール・ペルゴの型番49551。市場で9件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Girard-Perregaux reference 49551, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ジラール・ペルゴの型番1000。市場で9件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Girard-Perregaux reference 1000, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 9,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
+    },
+    {
+      "id": "ref-2588056111bbba",
+      "name_en": "25880-56-111-BBBA",
+      "name_ja": "ヴィンテージ スモールセコンド 25880-56-111-BBBA",
+      "reference": "25880-56-111-BBBA",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 658750,
+      "searchKeywordJa": "ジラール・ペルゴ 25880-56-111-BBBA",
+      "searchKeywordEn": "Girard-Perregaux 25880-56-111-BBBA",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "limited-edition",
+        "small-seconds"
+      ],
+      "popular": false,
+      "summary_ja": "ジラール・ペルゴの型番25880-56-111-BBBA。市場で9件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Girard-Perregaux reference 25880-56-111-BBBA, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 9,
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-8107021002fb6a",
@@ -703,7 +675,7 @@
       "summary_en": "Girard-Perregaux reference 81070-21-002-FB6A, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 9,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-2589",
@@ -731,35 +703,7 @@
       "summary_en": "Girard-Perregaux reference 2589, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 8,
-      "lastSeen": "2026-08-29"
-    },
-    {
-      "id": "ref-2590011111",
-      "name_en": "25900.11.111",
-      "name_ja": "ヴィンテージ 25900.11.111",
-      "reference": "25900.11.111",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 158865,
-      "searchKeywordJa": "ジラール・ペルゴ 25900.11.111",
-      "searchKeywordEn": "Girard-Perregaux 25900.11.111",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ジラール・ペルゴの型番25900.11.111。市場で8件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Girard-Perregaux reference 25900.11.111, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 8,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-2750",
@@ -788,37 +732,63 @@
       "summary_en": "Girard-Perregaux reference 2750, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 8,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
-      "id": "ref-49805",
-      "name_en": "49805",
-      "name_ja": "フィナンシャル ワールドタイム 49805",
-      "reference": "49805",
+      "id": "ref-49551",
+      "name_en": "49551",
+      "name_ja": "デイト 49551",
+      "reference": "49551",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
       "movementType": "automatic",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 933130,
-      "searchKeywordJa": "ジラール・ペルゴ 49805",
-      "searchKeywordEn": "Girard-Perregaux 49805",
+      "priceFloorJpy": 521730,
+      "searchKeywordJa": "ジラール・ペルゴ 49551",
+      "searchKeywordEn": "Girard-Perregaux 49551",
       "caseMaterial": null,
       "waterResistanceM": null,
       "gender": "mens",
       "releaseYear": null,
       "tags": [
-        "chronograph",
-        "gmt",
-        "world-timer"
+        "sport"
       ],
       "popular": false,
-      "summary_ja": "ジラール・ペルゴの型番49805。市場で8件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Girard-Perregaux reference 49805, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ジラール・ペルゴの型番49551。市場で8件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Girard-Perregaux reference 49551, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 8,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
+    },
+    {
+      "id": "ref-8025",
+      "name_en": "8025",
+      "name_ja": "フェラーリ デイト 8025",
+      "reference": "8025",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 158763,
+      "searchKeywordJa": "ジラール・ペルゴ 8025",
+      "searchKeywordEn": "Girard-Perregaux 8025",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ジラール・ペルゴの型番8025。市場で7件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Girard-Perregaux reference 8025, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 7,
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-7000",
@@ -846,119 +816,7 @@
       "summary_en": "Girard-Perregaux reference 7000, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 7,
-      "lastSeen": "2026-08-29"
-    },
-    {
-      "id": "ref-8046",
-      "name_en": "8046",
-      "name_ja": "スモールクロノグラフ ダイヤ 8046",
-      "reference": "8046",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 233563,
-      "searchKeywordJa": "ジラール・ペルゴ 8046",
-      "searchKeywordEn": "Girard-Perregaux 8046",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "chronograph"
-      ],
-      "popular": false,
-      "summary_ja": "ジラール・ペルゴの型番8046。市場で7件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Girard-Perregaux reference 8046, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 7,
-      "lastSeen": "2026-08-29"
-    },
-    {
-      "id": "ref-9050",
-      "name_en": "9050",
-      "name_ja": "ジラールペルゴ フラットウォッチ 9050",
-      "reference": "9050",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": 34,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 202300,
-      "searchKeywordJa": "ジラール・ペルゴ 9050",
-      "searchKeywordEn": "Girard-Perregaux 9050",
-      "caseMaterial": "rose-gold",
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "small-seconds"
-      ],
-      "popular": false,
-      "summary_ja": "ジラール・ペルゴの型番9050。市場で7件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Girard-Perregaux reference 9050, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 7,
-      "lastSeen": "2026-08-29"
-    },
-    {
-      "id": "ref-2561",
-      "name_en": "2561",
-      "name_ja": "ヴィンテージ 2561",
-      "reference": "2561",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 444465,
-      "searchKeywordJa": "ジラール・ペルゴ 2561",
-      "searchKeywordEn": "Girard-Perregaux 2561",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ジラール・ペルゴの型番2561。市場で7件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Girard-Perregaux reference 2561, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 7,
-      "lastSeen": "2026-08-29"
-    },
-    {
-      "id": "ref-49950",
-      "name_en": "49950",
-      "name_ja": "シーホーク 49950",
-      "reference": "49950",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 381480,
-      "searchKeywordJa": "ジラール・ペルゴ 49950",
-      "searchKeywordEn": "Girard-Perregaux 49950",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ジラール・ペルゴの型番49950。市場で7件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Girard-Perregaux reference 49950, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 7,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-4955511435bb4a",
@@ -986,7 +844,7 @@
       "summary_en": "Girard-Perregaux reference 49555-11-435-BB4A, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 7,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-4954352b31bk6a",
@@ -1014,7 +872,7 @@
       "summary_en": "Girard-Perregaux reference 49543-52-B31-BK6A, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 7,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-810101113111a",
@@ -1042,7 +900,36 @@
       "summary_en": "Girard-Perregaux reference 81010-11-131-11A, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 7,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
+    },
+    {
+      "id": "ref-ref81020213311",
+      "name_en": "REF.81020-21-3311",
+      "name_ja": "ロレアート クロノグラフ REF.81020-21-3311",
+      "reference": "REF.81020-21-3311",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 1410150,
+      "searchKeywordJa": "ジラール・ペルゴ REF.81020-21-3311",
+      "searchKeywordEn": "Girard-Perregaux REF.81020-21-3311",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph",
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "ジラール・ペルゴの型番REF.81020-21-3311。市場で7件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Girard-Perregaux reference REF.81020-21-3311, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 7,
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-2655",
@@ -1070,7 +957,7 @@
       "summary_en": "Girard-Perregaux reference 2655, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-gp4900",
@@ -1098,7 +985,35 @@
       "summary_en": "Girard-Perregaux reference GP4900, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
+    },
+    {
+      "id": "ref-9050",
+      "name_en": "9050",
+      "name_ja": "ジラールペルゴ フラットウォッチ 9050",
+      "reference": "9050",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": 34,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 202300,
+      "searchKeywordJa": "ジラール・ペルゴ 9050",
+      "searchKeywordEn": "Girard-Perregaux 9050",
+      "caseMaterial": "rose-gold",
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "small-seconds"
+      ],
+      "popular": false,
+      "summary_ja": "ジラール・ペルゴの型番9050。市場で6件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Girard-Perregaux reference 9050, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 6,
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-2594",
@@ -1126,35 +1041,7 @@
       "summary_en": "Girard-Perregaux reference 2594, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-08-29"
-    },
-    {
-      "id": "ref-398003200132a",
-      "name_en": "39800-32-001-32A",
-      "name_ja": "キャスケット ディスプレイ 39800-32-001-32A",
-      "reference": "39800-32-001-32A",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "quartz",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 439263,
-      "searchKeywordJa": "ジラール・ペルゴ 39800-32-001-32A",
-      "searchKeywordEn": "Girard-Perregaux 39800-32-001-32A",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "limited-edition"
-      ],
-      "popular": false,
-      "summary_ja": "ジラール・ペルゴの型番39800-32-001-32A。市場で6件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Girard-Perregaux reference 39800-32-001-32A, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 6,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-4995011651fk6a",
@@ -1182,147 +1069,65 @@
       "summary_en": "Girard-Perregaux reference 49950-11-651-FK6A, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
-      "id": "ref-25805",
-      "name_en": "25805",
-      "name_ja": "ヴィンテージ デイト 25805",
-      "reference": "25805",
+      "id": "ref-49950",
+      "name_en": "49950",
+      "name_ja": "シーホーク 49950",
+      "reference": "49950",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
       "movementType": "automatic",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 372130,
-      "searchKeywordJa": "ジラール・ペルゴ 25805",
-      "searchKeywordEn": "Girard-Perregaux 25805",
+      "priceFloorJpy": 381480,
+      "searchKeywordJa": "ジラール・ペルゴ 49950",
+      "searchKeywordEn": "Girard-Perregaux 49950",
       "caseMaterial": null,
       "waterResistanceM": null,
       "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "small-seconds"
-      ],
-      "popular": false,
-      "summary_ja": "ジラール・ペルゴの型番25805。市場で6件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Girard-Perregaux reference 25805, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 6,
-      "lastSeen": "2026-08-29"
-    },
-    {
-      "id": "ref-25880",
-      "name_en": "25880",
-      "name_ja": "ヴィンテージ スモールセコンド 25880",
-      "reference": "25880",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 446930,
-      "searchKeywordJa": "ジラール・ペルゴ 25880",
-      "searchKeywordEn": "Girard-Perregaux 25880",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "small-seconds"
-      ],
-      "popular": false,
-      "summary_ja": "ジラール・ペルゴの型番25880。市場で6件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Girard-Perregaux reference 25880, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 6,
-      "lastSeen": "2026-08-29"
-    },
-    {
-      "id": "ref-258051162111a",
-      "name_en": "25805-11-621-11A",
-      "name_ja": "ヴィンテージ ビッグデイト 25805-11-621-11A",
-      "reference": "25805-11-621-11A",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 506600,
-      "searchKeywordJa": "ジラール・ペルゴ 25805-11-621-11A",
-      "searchKeywordEn": "Girard-Perregaux 25805-11-621-11A",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "limited-edition"
-      ],
-      "popular": false,
-      "summary_ja": "ジラール・ペルゴの型番25805-11-621-11A。市場で6件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Girard-Perregaux reference 25805-11-621-11A, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 6,
-      "lastSeen": "2026-08-29"
-    },
-    {
-      "id": "ref-25805118210",
-      "name_en": "25805-11-821-0",
-      "name_ja": "ヴィンテージ キング 25805-11-821-0",
-      "reference": "25805-11-821-0",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 477360,
-      "searchKeywordJa": "ジラール・ペルゴ 25805-11-821-0",
-      "searchKeywordEn": "Girard-Perregaux 25805-11-821-0",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "limited-edition"
-      ],
-      "popular": false,
-      "summary_ja": "ジラール・ペルゴの型番25805-11-821-0。市場で6件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Girard-Perregaux reference 25805-11-821-0, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 6,
-      "lastSeen": "2026-08-29"
-    },
-    {
-      "id": "ref-80486",
-      "name_en": "80486",
-      "name_ja": "キャッツアイ ベゼルダイヤ 80486",
-      "reference": "80486",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 615230,
-      "searchKeywordJa": "ジラール・ペルゴ 80486",
-      "searchKeywordEn": "Girard-Perregaux 80486",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "ladies",
       "releaseYear": null,
       "tags": [
         "sport"
       ],
       "popular": false,
-      "summary_ja": "ジラール・ペルゴの型番80486。市場で6件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Girard-Perregaux reference 80486, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ジラール・ペルゴの型番49950。市場で6件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Girard-Perregaux reference 49950, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
+    },
+    {
+      "id": "ref-49805",
+      "name_en": "49805",
+      "name_ja": "フィナンシャル ワールドタイム 49805",
+      "reference": "49805",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 933130,
+      "searchKeywordJa": "ジラール・ペルゴ 49805",
+      "searchKeywordEn": "Girard-Perregaux 49805",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph",
+        "gmt",
+        "world-timer"
+      ],
+      "popular": false,
+      "summary_ja": "ジラール・ペルゴの型番49805。市場で6件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Girard-Perregaux reference 49805, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 6,
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-810101163411a",
@@ -1350,7 +1155,7 @@
       "summary_en": "Girard-Perregaux reference 81010-11-634-11A, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-8101011175011a",
@@ -1378,7 +1183,7 @@
       "summary_en": "Girard-Perregaux reference 81010-11-1750-11A, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-810101133101gm",
@@ -1406,7 +1211,7 @@
       "summary_en": "Girard-Perregaux reference 81010-11-3310-1GM, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-259002",
@@ -1434,7 +1239,7 @@
       "summary_en": "Girard-Perregaux reference 25900-2, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-25900111105",
@@ -1462,7 +1267,7 @@
       "summary_en": "Girard-Perregaux reference 25900.1.11.105, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-4797",
@@ -1490,35 +1295,7 @@
       "summary_en": "Girard-Perregaux reference 4797, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-08-29"
-    },
-    {
-      "id": "ref-330p4",
-      "name_en": "330/P4",
-      "name_ja": "フェラーリ クロノ 330/P4",
-      "reference": "330/P4",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 308550,
-      "searchKeywordJa": "ジラール・ペルゴ 330/P4",
-      "searchKeywordEn": "Girard-Perregaux 330/P4",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "chronograph"
-      ],
-      "popular": false,
-      "summary_ja": "ジラール・ペルゴの型番330/P4。市場で5件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Girard-Perregaux reference 330/P4, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 5,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-25932111620",
@@ -1546,7 +1323,7 @@
       "summary_en": "Girard-Perregaux reference 25932-11-162-0, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-25930011815",
@@ -1574,7 +1351,35 @@
       "summary_en": "Girard-Perregaux reference 25930.0.11.815, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
+    },
+    {
+      "id": "ref-ref25835",
+      "name_en": "REF.25835",
+      "name_ja": "ギャラ ヴィンテージ REF.25835",
+      "reference": "REF.25835",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 336600,
+      "searchKeywordJa": "ジラール・ペルゴ REF.25835",
+      "searchKeywordEn": "Girard-Perregaux REF.25835",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "small-seconds"
+      ],
+      "popular": false,
+      "summary_ja": "ジラール・ペルゴの型番REF.25835。市場で5件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Girard-Perregaux reference REF.25835, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 5,
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-4956",
@@ -1602,7 +1407,7 @@
       "summary_en": "Girard-Perregaux reference 4956, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-25835111901bb4a",
@@ -1631,7 +1436,7 @@
       "summary_en": "Girard-Perregaux reference 25835-11-1901-BB4A, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-2583",
@@ -1659,35 +1464,7 @@
       "summary_en": "Girard-Perregaux reference 2583, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-08-29"
-    },
-    {
-      "id": "ref-25932111111",
-      "name_en": "25932-11-111-1",
-      "name_ja": "ヴィンテージ スモールセコンド 25932-11-111-1",
-      "reference": "25932-11-111-1",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 344080,
-      "searchKeywordJa": "ジラール・ペルゴ 25932-11-111-1",
-      "searchKeywordEn": "Girard-Perregaux 25932-11-111-1",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "small-seconds"
-      ],
-      "popular": false,
-      "summary_ja": "ジラール・ペルゴの型番25932-11-111-1。市場で5件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Girard-Perregaux reference 25932-11-111-1, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 5,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-25860d11a1a1",
@@ -1715,7 +1492,35 @@
       "summary_en": "Girard-Perregaux reference 25860D11A1A1, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
+    },
+    {
+      "id": "ref-25932111111",
+      "name_en": "25932-11-111-1",
+      "name_ja": "ヴィンテージ スモールセコンド 25932-11-111-1",
+      "reference": "25932-11-111-1",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 344080,
+      "searchKeywordJa": "ジラール・ペルゴ 25932-11-111-1",
+      "searchKeywordEn": "Girard-Perregaux 25932-11-111-1",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "small-seconds"
+      ],
+      "popular": false,
+      "summary_ja": "ジラール・ペルゴの型番25932-11-111-1。市場で5件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Girard-Perregaux reference 25932-11-111-1, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 5,
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-2583511",
@@ -1743,63 +1548,35 @@
       "summary_en": "Girard-Perregaux reference 25835-11, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
-      "id": "ref-4992",
-      "name_en": "4992",
-      "name_ja": "シーホーク ステンレススチール 4992",
-      "reference": "4992",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 467500,
-      "searchKeywordJa": "ジラール・ペルゴ 4992",
-      "searchKeywordEn": "Girard-Perregaux 4992",
-      "caseMaterial": "stainless-steel",
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ジラール・ペルゴの型番4992。市場で5件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Girard-Perregaux reference 4992, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 5,
-      "lastSeen": "2026-08-29"
-    },
-    {
-      "id": "ref-8046011111m7",
-      "name_en": "80460.1.11.11M7",
-      "name_ja": "スモール クロノグラフ 80460.1.11.11M7",
-      "reference": "80460.1.11.11M7",
+      "id": "ref-2561",
+      "name_en": "2561",
+      "name_ja": "ヴィンテージ 2561",
+      "reference": "2561",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
       "movementType": null,
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 381990,
-      "searchKeywordJa": "ジラール・ペルゴ 80460.1.11.11M7",
-      "searchKeywordEn": "Girard-Perregaux 80460.1.11.11M7",
+      "priceFloorJpy": 444465,
+      "searchKeywordJa": "ジラール・ペルゴ 2561",
+      "searchKeywordEn": "Girard-Perregaux 2561",
       "caseMaterial": null,
       "waterResistanceM": null,
       "gender": "ladies",
       "releaseYear": null,
       "tags": [
-        "chronograph"
+        "sport"
       ],
       "popular": false,
-      "summary_ja": "ジラール・ペルゴの型番80460.1.11.11M7。市場で5件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Girard-Perregaux reference 80460.1.11.11M7, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ジラール・ペルゴの型番2561。市場で5件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Girard-Perregaux reference 2561, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-2599",
@@ -1827,7 +1604,63 @@
       "summary_en": "Girard-Perregaux reference 2599, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
+    },
+    {
+      "id": "ref-25805",
+      "name_en": "25805",
+      "name_ja": "ヴィンテージ デイト 25805",
+      "reference": "25805",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 372130,
+      "searchKeywordJa": "ジラール・ペルゴ 25805",
+      "searchKeywordEn": "Girard-Perregaux 25805",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "small-seconds"
+      ],
+      "popular": false,
+      "summary_ja": "ジラール・ペルゴの型番25805。市場で5件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Girard-Perregaux reference 25805, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 5,
+      "lastSeen": "2026-08-30"
+    },
+    {
+      "id": "ref-25880",
+      "name_en": "25880",
+      "name_ja": "ヴィンテージ スモールセコンド 25880",
+      "reference": "25880",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 446930,
+      "searchKeywordJa": "ジラール・ペルゴ 25880",
+      "searchKeywordEn": "Girard-Perregaux 25880",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "small-seconds"
+      ],
+      "popular": false,
+      "summary_ja": "ジラール・ペルゴの型番25880。市場で5件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Girard-Perregaux reference 25880, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 5,
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-8107021491fh6a",
@@ -1855,7 +1688,35 @@
       "summary_en": "Girard-Perregaux reference 81070-21-491-FH6A, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
+    },
+    {
+      "id": "ref-258051162111a",
+      "name_en": "25805-11-621-11A",
+      "name_ja": "ヴィンテージ ビッグデイト 25805-11-621-11A",
+      "reference": "25805-11-621-11A",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 506600,
+      "searchKeywordJa": "ジラール・ペルゴ 25805-11-621-11A",
+      "searchKeywordEn": "Girard-Perregaux 25805-11-621-11A",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "ジラール・ペルゴの型番25805-11-621-11A。市場で5件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Girard-Perregaux reference 25805-11-621-11A, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 5,
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-25835111501sbbba",
@@ -1883,7 +1744,7 @@
       "summary_en": "Girard-Perregaux reference 25835-11-1501SBBBA, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-2592",
@@ -1911,35 +1772,35 @@
       "summary_en": "Girard-Perregaux reference 2592, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
-      "id": "ref-25880111210",
-      "name_en": "25880-11-121-0",
-      "name_ja": "ジラール ペルゴ 25880-11-121-0",
-      "reference": "25880-11-121-0",
+      "id": "ref-25805118210",
+      "name_en": "25805-11-821-0",
+      "name_ja": "ヴィンテージ キング 25805-11-821-0",
+      "reference": "25805-11-821-0",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
-      "movementType": null,
+      "movementType": "automatic",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 564230,
-      "searchKeywordJa": "ジラール・ペルゴ 25880-11-121-0",
-      "searchKeywordEn": "Girard-Perregaux 25880-11-121-0",
+      "priceFloorJpy": 477360,
+      "searchKeywordJa": "ジラール・ペルゴ 25805-11-821-0",
+      "searchKeywordEn": "Girard-Perregaux 25805-11-821-0",
       "caseMaterial": null,
       "waterResistanceM": null,
-      "gender": "mens",
+      "gender": "unisex",
       "releaseYear": null,
       "tags": [
-        "sport"
+        "limited-edition"
       ],
       "popular": false,
-      "summary_ja": "ジラール・ペルゴの型番25880-11-121-0。市場で5件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Girard-Perregaux reference 25880-11-121-0, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ジラール・ペルゴの型番25805-11-821-0。市場で5件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Girard-Perregaux reference 25805-11-821-0, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-2588211121bb6a",
@@ -1967,7 +1828,7 @@
       "summary_en": "Girard-Perregaux reference 25882-11-121-BB6A, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-4955511434bh6a",
@@ -1995,7 +1856,7 @@
       "summary_en": "Girard-Perregaux reference 49555-11-434-BH6A, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-4954511131bb60",
@@ -2023,36 +1884,35 @@
       "summary_en": "Girard-Perregaux reference 49545-11-131-BB60, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
-      "id": "ref-8017",
-      "name_en": "8017",
-      "name_ja": "ロレアート オリンピコ 8017",
-      "reference": "8017",
+      "id": "ref-ref2588211121",
+      "name_en": "REF.25882-11-121",
+      "name_ja": "ヴィンテージ ラージデイト REF.25882-11-121",
+      "reference": "REF.25882-11-121",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
-      "movementType": "automatic",
+      "movementType": null,
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 981750,
-      "searchKeywordJa": "ジラール・ペルゴ 8017",
-      "searchKeywordEn": "Girard-Perregaux 8017",
+      "priceFloorJpy": 622965,
+      "searchKeywordJa": "ジラール・ペルゴ REF.25882-11-121",
+      "searchKeywordEn": "Girard-Perregaux REF.25882-11-121",
       "caseMaterial": null,
       "waterResistanceM": null,
       "gender": "mens",
       "releaseYear": null,
       "tags": [
-        "chronograph",
-        "limited-edition"
+        "moonphase"
       ],
       "popular": false,
-      "summary_ja": "ジラール・ペルゴの型番8017。市場で5件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Girard-Perregaux reference 8017, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ジラール・ペルゴの型番REF.25882-11-121。市場で5件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Girard-Perregaux reference REF.25882-11-121, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-8107021001fb6a",
@@ -2081,7 +1941,7 @@
       "summary_en": "Girard-Perregaux reference 81070-21-001-FB6A, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-8106521491fh6a",
@@ -2109,7 +1969,7 @@
       "summary_en": "Girard-Perregaux reference 81065-21-491-FH6A, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-2588252222bb6b",
@@ -2137,7 +1997,7 @@
       "summary_en": "Girard-Perregaux reference 25882-52-222-BB6B, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-8106036693fh6a",
@@ -2167,35 +2027,7 @@
       "summary_en": "Girard-Perregaux reference 81060-36-693-FH6A, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-08-29"
-    },
-    {
-      "id": "ref-80496d52a451ck4a",
-      "name_en": "80496D52A451-CK4A",
-      "name_ja": "キャッツアイ セレスティアル 80496D52A451-CK4A",
-      "reference": "80496D52A451-CK4A",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 2471460,
-      "searchKeywordJa": "ジラール・ペルゴ 80496D52A451-CK4A",
-      "searchKeywordEn": "Girard-Perregaux 80496D52A451-CK4A",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ジラール・ペルゴの型番80496D52A451-CK4A。市場で5件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Girard-Perregaux reference 80496D52A451-CK4A, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 5,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-810105231181cc",
@@ -2223,7 +2055,7 @@
       "summary_en": "Girard-Perregaux reference 81010-52-3118-1CC, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-25911",
@@ -2251,7 +2083,7 @@
       "summary_en": "Girard-Perregaux reference 25911, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-2591",
@@ -2279,63 +2111,35 @@
       "summary_en": "Girard-Perregaux reference 2591, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
-      "id": "ref-8025001161525",
-      "name_en": "80250.0.11.615.25",
-      "name_ja": "フェラーリ クラシック 80250.0.11.615.25",
-      "reference": "80250.0.11.615.25",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 219300,
-      "searchKeywordJa": "ジラール・ペルゴ 80250.0.11.615.25",
-      "searchKeywordEn": "Girard-Perregaux 80250.0.11.615.25",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ジラール・ペルゴの型番80250.0.11.615.25。市場で4件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Girard-Perregaux reference 80250.0.11.615.25, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 4,
-      "lastSeen": "2026-08-29"
-    },
-    {
-      "id": "ref-9043",
-      "name_en": "9043",
-      "name_ja": "デイト 9043",
-      "reference": "9043",
+      "id": "ref-8046",
+      "name_en": "8046",
+      "name_ja": "スモールクロノグラフ ダイヤ 8046",
+      "reference": "8046",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
       "movementType": "automatic",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 203830,
-      "searchKeywordJa": "ジラール・ペルゴ 9043",
-      "searchKeywordEn": "Girard-Perregaux 9043",
+      "priceFloorJpy": 233563,
+      "searchKeywordJa": "ジラール・ペルゴ 8046",
+      "searchKeywordEn": "Girard-Perregaux 8046",
       "caseMaterial": null,
       "waterResistanceM": null,
-      "gender": "mens",
+      "gender": "ladies",
       "releaseYear": null,
       "tags": [
-        "sport"
+        "chronograph"
       ],
       "popular": false,
-      "summary_ja": "ジラール・ペルゴの型番9043。市場で4件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Girard-Perregaux reference 9043, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ジラール・ペルゴの型番8046。市場で4件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Girard-Perregaux reference 8046, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-25891",
@@ -2363,7 +2167,7 @@
       "summary_en": "Girard-Perregaux reference 25891, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-6whd0294",
@@ -2391,7 +2195,7 @@
       "summary_en": "Girard-Perregaux reference 6WHD0294, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-2593",
@@ -2419,7 +2223,63 @@
       "summary_en": "Girard-Perregaux reference 2593, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
+    },
+    {
+      "id": "ref-330p4",
+      "name_en": "330/P4",
+      "name_ja": "フェラーリ クロノグラフ 330/P4",
+      "reference": "330/P4",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 308550,
+      "searchKeywordJa": "ジラール・ペルゴ 330/P4",
+      "searchKeywordEn": "Girard-Perregaux 330/P4",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph"
+      ],
+      "popular": false,
+      "summary_ja": "ジラール・ペルゴの型番330/P4。市場で4件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Girard-Perregaux reference 330/P4, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 4,
+      "lastSeen": "2026-08-30"
+    },
+    {
+      "id": "ref-ref2593",
+      "name_en": "REF.2593",
+      "name_ja": "ヴィンテージ デイト REF.2593",
+      "reference": "REF.2593",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 280500,
+      "searchKeywordJa": "ジラール・ペルゴ REF.2593",
+      "searchKeywordEn": "Girard-Perregaux REF.2593",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "small-seconds"
+      ],
+      "popular": false,
+      "summary_ja": "ジラール・ペルゴの型番REF.2593。市場で4件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Girard-Perregaux reference REF.2593, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 4,
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-49523",
@@ -2447,64 +2307,63 @@
       "summary_en": "Girard-Perregaux reference 49523, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
-      "id": "ref-49800",
-      "name_en": "49800",
-      "name_ja": "ジャンク ワールドタイム 49800",
-      "reference": "49800",
+      "id": "ref-4992",
+      "name_en": "4992",
+      "name_ja": "シーホーク ステンレススチール 4992",
+      "reference": "4992",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
       "movementType": "automatic",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 446930,
-      "searchKeywordJa": "ジラール・ペルゴ 49800",
-      "searchKeywordEn": "Girard-Perregaux 49800",
-      "caseMaterial": null,
+      "priceFloorJpy": 467500,
+      "searchKeywordJa": "ジラール・ペルゴ 4992",
+      "searchKeywordEn": "Girard-Perregaux 4992",
+      "caseMaterial": "stainless-steel",
       "waterResistanceM": null,
       "gender": "mens",
       "releaseYear": null,
       "tags": [
-        "chronograph",
-        "world-timer"
+        "sport"
       ],
       "popular": false,
-      "summary_ja": "ジラール・ペルゴの型番49800。市場で4件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Girard-Perregaux reference 49800, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ジラール・ペルゴの型番4992。市場で4件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Girard-Perregaux reference 4992, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
-      "id": "ref-4946",
-      "name_en": "4946",
-      "name_ja": "クロノグラフ 4946",
-      "reference": "4946",
+      "id": "ref-398003200132a",
+      "name_en": "39800-32-001-32A",
+      "name_ja": "キャスケット ディスプレイ 39800-32-001-32A",
+      "reference": "39800-32-001-32A",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
-      "movementType": "automatic",
+      "movementType": "quartz",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 355113,
-      "searchKeywordJa": "ジラール・ペルゴ 4946",
-      "searchKeywordEn": "Girard-Perregaux 4946",
+      "priceFloorJpy": 439263,
+      "searchKeywordJa": "ジラール・ペルゴ 39800-32-001-32A",
+      "searchKeywordEn": "Girard-Perregaux 39800-32-001-32A",
       "caseMaterial": null,
       "waterResistanceM": null,
       "gender": "mens",
       "releaseYear": null,
       "tags": [
-        "chronograph"
+        "limited-edition"
       ],
       "popular": false,
-      "summary_ja": "ジラール・ペルゴの型番4946。市場で4件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Girard-Perregaux reference 4946, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ジラール・ペルゴの型番39800-32-001-32A。市場で4件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Girard-Perregaux reference 39800-32-001-32A, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-2584011612fk6a",
@@ -2533,7 +2392,7 @@
       "summary_en": "Girard-Perregaux reference 25840-11-612-FK6A, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-4955111132bb60",
@@ -2561,7 +2420,7 @@
       "summary_en": "Girard-Perregaux reference 49551-11-132-BB60, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-495551113111a",
@@ -2589,36 +2448,63 @@
       "summary_en": "Girard-Perregaux reference 49555-11-131-11A, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
-      "id": "ref-80175256520",
-      "name_en": "80175-25-652-0",
-      "name_ja": "ロレアート オラクル 80175-25-652-0",
-      "reference": "80175-25-652-0",
+      "id": "ref-25880111210",
+      "name_en": "25880-11-121-0",
+      "name_ja": "ジラール ペルゴ 25880-11-121-0",
+      "reference": "25880-11-121-0",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 564230,
+      "searchKeywordJa": "ジラール・ペルゴ 25880-11-121-0",
+      "searchKeywordEn": "Girard-Perregaux 25880-11-121-0",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ジラール・ペルゴの型番25880-11-121-0。市場で4件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Girard-Perregaux reference 25880-11-121-0, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 4,
+      "lastSeen": "2026-08-30"
+    },
+    {
+      "id": "ref-80486",
+      "name_en": "80486",
+      "name_ja": "キャッツアイ ベゼルダイヤ 80486",
+      "reference": "80486",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
       "movementType": "automatic",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 652630,
-      "searchKeywordJa": "ジラール・ペルゴ 80175-25-652-0",
-      "searchKeywordEn": "Girard-Perregaux 80175-25-652-0",
+      "priceFloorJpy": 615230,
+      "searchKeywordJa": "ジラール・ペルゴ 80486",
+      "searchKeywordEn": "Girard-Perregaux 80486",
       "caseMaterial": null,
       "waterResistanceM": null,
-      "gender": "mens",
+      "gender": "ladies",
       "releaseYear": null,
       "tags": [
-        "racing",
-        "limited-edition"
+        "sport"
       ],
       "popular": false,
-      "summary_ja": "ジラール・ペルゴの型番80175-25-652-0。市場で4件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Girard-Perregaux reference 80175-25-652-0, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ジラール・ペルゴの型番80486。市場で4件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Girard-Perregaux reference 80486, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-49535d11a131bb60",
@@ -2646,63 +2532,36 @@
       "summary_en": "Girard-Perregaux reference 49535D11A131-BB60, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
-      "id": "ref-4980022611fk6a",
-      "name_en": "49800.22.611.FK6A",
-      "name_ja": "クロノ 49800.22.611.FK6A",
-      "reference": "49800.22.611.FK6A",
+      "id": "ref-8017",
+      "name_en": "8017",
+      "name_ja": "ロレアート オリンピコ 8017",
+      "reference": "8017",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
-      "movementType": null,
+      "movementType": "automatic",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 612000,
-      "searchKeywordJa": "ジラール・ペルゴ 49800.22.611.FK6A",
-      "searchKeywordEn": "Girard-Perregaux 49800.22.611.FK6A",
+      "priceFloorJpy": 981750,
+      "searchKeywordJa": "ジラール・ペルゴ 8017",
+      "searchKeywordEn": "Girard-Perregaux 8017",
       "caseMaterial": null,
       "waterResistanceM": null,
       "gender": "mens",
       "releaseYear": null,
       "tags": [
-        "chronograph"
+        "chronograph",
+        "limited-edition"
       ],
       "popular": false,
-      "summary_ja": "ジラール・ペルゴの型番49800.22.611.FK6A。市場で4件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Girard-Perregaux reference 49800.22.611.FK6A, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ジラール・ペルゴの型番8017。市場で4件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Girard-Perregaux reference 8017, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-08-29"
-    },
-    {
-      "id": "ref-499601943111a",
-      "name_en": "49960-19-431-11A",
-      "name_ja": "シーホーク 49960-19-431-11A",
-      "reference": "49960-19-431-11A",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 786250,
-      "searchKeywordJa": "ジラール・ペルゴ 49960-19-431-11A",
-      "searchKeywordEn": "Girard-Perregaux 49960-19-431-11A",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ジラール・ペルゴの型番49960-19-431-11A。市場で4件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Girard-Perregaux reference 49960-19-431-11A, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 4,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-4955511435",
@@ -2730,7 +2589,7 @@
       "summary_en": "Girard-Perregaux reference 49555-11-435, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-4952553131bk6a",
@@ -2758,35 +2617,35 @@
       "summary_en": "Girard-Perregaux reference 49525-53-131-BK6A, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
-      "id": "ref-8200011631fa6a",
-      "name_en": "82000-11-631-FA6A",
-      "name_ja": "フリー ブリッジ 82000-11-631-FA6A",
-      "reference": "82000-11-631-FA6A",
+      "id": "ref-2588211631bb6b",
+      "name_en": "25882-11-631-BB6B",
+      "name_ja": "ヴィンテージ インフィニティ 25882-11-631-BB6B",
+      "reference": "25882-11-631-BB6B",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
       "movementType": null,
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 1300500,
-      "searchKeywordJa": "ジラール・ペルゴ 82000-11-631-FA6A",
-      "searchKeywordEn": "Girard-Perregaux 82000-11-631-FA6A",
+      "priceFloorJpy": 1273300,
+      "searchKeywordJa": "ジラール・ペルゴ 25882-11-631-BB6B",
+      "searchKeywordEn": "Girard-Perregaux 25882-11-631-BB6B",
       "caseMaterial": null,
       "waterResistanceM": null,
-      "gender": "mens",
+      "gender": "unisex",
       "releaseYear": null,
       "tags": [
-        "sport"
+        "limited-edition"
       ],
       "popular": false,
-      "summary_ja": "ジラール・ペルゴの型番82000-11-631-FA6A。市場で4件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Girard-Perregaux reference 82000-11-631-FA6A, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ジラール・ペルゴの型番25882-11-631-BB6B。市場で4件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Girard-Perregaux reference 25882-11-631-BB6B, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-810604132221cx",
@@ -2814,7 +2673,7 @@
       "summary_en": "Girard-Perregaux reference 81060-41-3222-1CX, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-8106036694fh6a",
@@ -2843,7 +2702,35 @@
       "summary_en": "Girard-Perregaux reference 81060-36-694-FH6A, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
+    },
+    {
+      "id": "ref-80496d52a451ck4a",
+      "name_en": "80496D52A451-CK4A",
+      "name_ja": "キャッツアイ セレスティアル 80496D52A451-CK4A",
+      "reference": "80496D52A451-CK4A",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 2471460,
+      "searchKeywordJa": "ジラール・ペルゴ 80496D52A451-CK4A",
+      "searchKeywordEn": "Girard-Perregaux 80496D52A451-CK4A",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ジラール・ペルゴの型番80496D52A451-CK4A。市場で4件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Girard-Perregaux reference 80496D52A451-CK4A, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 4,
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-810151100111a",
@@ -2871,35 +2758,35 @@
       "summary_en": "Girard-Perregaux reference 81015-11-001-11A, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
-      "id": "ref-803980390111604",
-      "name_en": "8039/80390.1.11.604",
-      "name_ja": "デイト 8039/80390.1.11.604",
-      "reference": "8039/80390.1.11.604",
+      "id": "ref-ref7700",
+      "name_en": "REF.7700",
+      "name_ja": "デイト クロノグラフ REF.7700",
+      "reference": "REF.7700",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
-      "movementType": "automatic",
+      "movementType": "quartz",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 100000,
-      "searchKeywordJa": "ジラール・ペルゴ 8039/80390.1.11.604",
-      "searchKeywordEn": "Girard-Perregaux 8039/80390.1.11.604",
+      "priceFloorJpy": 154088,
+      "searchKeywordJa": "ジラール・ペルゴ REF.7700",
+      "searchKeywordEn": "Girard-Perregaux REF.7700",
       "caseMaterial": null,
       "waterResistanceM": null,
-      "gender": "ladies",
+      "gender": "mens",
       "releaseYear": null,
       "tags": [
-        "sport"
+        "chronograph"
       ],
       "popular": false,
-      "summary_ja": "ジラール・ペルゴの型番8039/80390.1.11.604。市場で3件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Girard-Perregaux reference 8039/80390.1.11.604, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ジラール・ペルゴの型番REF.7700。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Girard-Perregaux reference REF.7700, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-7001",
@@ -2927,7 +2814,35 @@
       "summary_en": "Girard-Perregaux reference 7001, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
+    },
+    {
+      "id": "ref-8025001161525",
+      "name_en": "80250.0.11.615.25",
+      "name_ja": "フェラーリ クラシック 80250.0.11.615.25",
+      "reference": "80250.0.11.615.25",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 219300,
+      "searchKeywordJa": "ジラール・ペルゴ 80250.0.11.615.25",
+      "searchKeywordEn": "Girard-Perregaux 80250.0.11.615.25",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ジラール・ペルゴの型番80250.0.11.615.25。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Girard-Perregaux reference 80250.0.11.615.25, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-4900",
@@ -2955,78 +2870,22 @@
       "summary_en": "Girard-Perregaux reference 4900, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
-      "id": "ref-8028",
-      "name_en": "8028",
-      "name_ja": "フェラーリ クロノグラフ 8028",
-      "reference": "8028",
+      "id": "ref-9043",
+      "name_en": "9043",
+      "name_ja": "デイト 9043",
+      "reference": "9043",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
       "movementType": "automatic",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 336413,
-      "searchKeywordJa": "ジラール・ペルゴ 8028",
-      "searchKeywordEn": "Girard-Perregaux 8028",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "chronograph"
-      ],
-      "popular": false,
-      "summary_ja": "ジラール・ペルゴの型番8028。市場で3件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Girard-Perregaux reference 8028, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 3,
-      "lastSeen": "2026-08-29"
-    },
-    {
-      "id": "ref-80440",
-      "name_en": "80440",
-      "name_ja": "オラクル レーシング 80440",
-      "reference": "80440",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 308363,
-      "searchKeywordJa": "ジラール・ペルゴ 80440",
-      "searchKeywordEn": "Girard-Perregaux 80440",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "racing"
-      ],
-      "popular": false,
-      "summary_ja": "ジラール・ペルゴの型番80440。市場で3件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Girard-Perregaux reference 80440, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 3,
-      "lastSeen": "2026-08-29"
-    },
-    {
-      "id": "ref-80280",
-      "name_en": "80280",
-      "name_ja": "フェラーリ デイト 80280",
-      "reference": "80280",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 278630,
-      "searchKeywordJa": "ジラール・ペルゴ 80280",
-      "searchKeywordEn": "Girard-Perregaux 80280",
+      "priceFloorJpy": 203830,
+      "searchKeywordJa": "ジラール・ペルゴ 9043",
+      "searchKeywordEn": "Girard-Perregaux 9043",
       "caseMaterial": null,
       "waterResistanceM": null,
       "gender": "mens",
@@ -3035,11 +2894,11 @@
         "sport"
       ],
       "popular": false,
-      "summary_ja": "ジラール・ペルゴの型番80280。市場で3件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Girard-Perregaux reference 80280, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ジラール・ペルゴの型番9043。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Girard-Perregaux reference 9043, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-f12000",
@@ -3067,35 +2926,7 @@
       "summary_en": "Girard-Perregaux reference F1-2000, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-08-29"
-    },
-    {
-      "id": "ref-80440d11ab",
-      "name_en": "80440D-11AB",
-      "name_ja": "スモールクロノグラフ ダイヤベゼル 80440D-11AB",
-      "reference": "80440D-11AB",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 465630,
-      "searchKeywordJa": "ジラール・ペルゴ 80440D-11AB",
-      "searchKeywordEn": "Girard-Perregaux 80440D-11AB",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "chronograph"
-      ],
-      "popular": false,
-      "summary_ja": "ジラール・ペルゴの型番80440D-11AB。市場で3件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Girard-Perregaux reference 80440D-11AB, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 3,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-8005",
@@ -3123,35 +2954,64 @@
       "summary_en": "Girard-Perregaux reference 8005, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
-      "id": "ref-802801111142",
-      "name_en": "80280.1.11.1142",
-      "name_ja": "フェラーリ クロノ 80280.1.11.1142",
-      "reference": "80280.1.11.1142",
+      "id": "ref-49800",
+      "name_en": "49800",
+      "name_ja": "ジャンク ワールドタイム 49800",
+      "reference": "49800",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
       "movementType": "automatic",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 372130,
-      "searchKeywordJa": "ジラール・ペルゴ 80280.1.11.1142",
-      "searchKeywordEn": "Girard-Perregaux 80280.1.11.1142",
+      "priceFloorJpy": 446930,
+      "searchKeywordJa": "ジラール・ペルゴ 49800",
+      "searchKeywordEn": "Girard-Perregaux 49800",
       "caseMaterial": null,
       "waterResistanceM": null,
       "gender": "mens",
       "releaseYear": null,
       "tags": [
+        "chronograph",
+        "world-timer"
+      ],
+      "popular": false,
+      "summary_ja": "ジラール・ペルゴの型番49800。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Girard-Perregaux reference 49800, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
+      "lastSeen": "2026-08-30"
+    },
+    {
+      "id": "ref-8046011111m7",
+      "name_en": "80460.1.11.11M7",
+      "name_ja": "スモール クロノグラフ 80460.1.11.11M7",
+      "reference": "80460.1.11.11M7",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 381990,
+      "searchKeywordJa": "ジラール・ペルゴ 80460.1.11.11M7",
+      "searchKeywordEn": "Girard-Perregaux 80460.1.11.11M7",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
         "chronograph"
       ],
       "popular": false,
-      "summary_ja": "ジラール・ペルゴの型番80280.1.11.1142。市場で3件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Girard-Perregaux reference 80280.1.11.1142, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ジラール・ペルゴの型番80460.1.11.11M7。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Girard-Perregaux reference 80460.1.11.11M7, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-1000bmw",
@@ -3179,7 +3039,35 @@
       "summary_en": "Girard-Perregaux reference 1000BMW, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
+    },
+    {
+      "id": "ref-4946",
+      "name_en": "4946",
+      "name_ja": "クロノグラフ 4946",
+      "reference": "4946",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 355113,
+      "searchKeywordJa": "ジラール・ペルゴ 4946",
+      "searchKeywordEn": "Girard-Perregaux 4946",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph"
+      ],
+      "popular": false,
+      "summary_ja": "ジラール・ペルゴの型番4946。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Girard-Perregaux reference 4946, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-a2500612",
@@ -3207,7 +3095,7 @@
       "summary_en": "Girard-Perregaux reference A2500612, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-4955",
@@ -3235,7 +3123,7 @@
       "summary_en": "Girard-Perregaux reference 4955, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-499201112042",
@@ -3263,7 +3151,7 @@
       "summary_en": "Girard-Perregaux reference 49920.1.11.2042, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-49941216311",
@@ -3291,7 +3179,7 @@
       "summary_en": "Girard-Perregaux reference 49941-21-631-1, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-49524",
@@ -3319,7 +3207,7 @@
       "summary_en": "Girard-Perregaux reference 49524, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-4953511131bb60",
@@ -3347,7 +3235,7 @@
       "summary_en": "Girard-Perregaux reference 49535-11-131-BB60, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-4996011131fk6a",
@@ -3375,35 +3263,36 @@
       "summary_en": "Girard-Perregaux reference 49960-11-131-FK6A, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
-      "id": "ref-80486d11a161ck6a",
-      "name_en": "80486D11A161-CK6A",
-      "name_ja": "キャッツアイ ダイヤベゼル 80486D11A161-CK6A",
-      "reference": "80486D11A161-CK6A",
+      "id": "ref-80175256520",
+      "name_en": "80175-25-652-0",
+      "name_ja": "ロレアート オラクル 80175-25-652-0",
+      "reference": "80175-25-652-0",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
       "movementType": "automatic",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 691713,
-      "searchKeywordJa": "ジラール・ペルゴ 80486D11A161-CK6A",
-      "searchKeywordEn": "Girard-Perregaux 80486D11A161-CK6A",
+      "priceFloorJpy": 652630,
+      "searchKeywordJa": "ジラール・ペルゴ 80175-25-652-0",
+      "searchKeywordEn": "Girard-Perregaux 80175-25-652-0",
       "caseMaterial": null,
       "waterResistanceM": null,
-      "gender": "ladies",
+      "gender": "mens",
       "releaseYear": null,
       "tags": [
-        "sport"
+        "racing",
+        "limited-edition"
       ],
       "popular": false,
-      "summary_ja": "ジラール・ペルゴの型番80486D11A161-CK6A。市場で3件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Girard-Perregaux reference 80486D11A161-CK6A, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ジラール・ペルゴの型番80175-25-652-0。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Girard-Perregaux reference 80175-25-652-0, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-4953511131",
@@ -3431,7 +3320,7 @@
       "summary_en": "Girard-Perregaux reference 49535-11-131, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-4965511231bb6a",
@@ -3460,7 +3349,35 @@
       "summary_en": "Girard-Perregaux reference 49655-11-231-BB6A, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
+    },
+    {
+      "id": "ref-4980022611fk6a",
+      "name_en": "49800.22.611.FK6A",
+      "name_ja": "クロノ 49800.22.611.FK6A",
+      "reference": "49800.22.611.FK6A",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 612000,
+      "searchKeywordJa": "ジラール・ペルゴ 49800.22.611.FK6A",
+      "searchKeywordEn": "Girard-Perregaux 49800.22.611.FK6A",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph"
+      ],
+      "popular": false,
+      "summary_ja": "ジラール・ペルゴの型番49800.22.611.FK6A。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Girard-Perregaux reference 49800.22.611.FK6A, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-4955541601bb6x",
@@ -3488,7 +3405,35 @@
       "summary_en": "Girard-Perregaux reference 49555-41-601-BB6X, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
+    },
+    {
+      "id": "ref-499601943111a",
+      "name_en": "49960-19-431-11A",
+      "name_ja": "シーホーク 49960-19-431-11A",
+      "reference": "49960-19-431-11A",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 786250,
+      "searchKeywordJa": "ジラール・ペルゴ 49960-19-431-11A",
+      "searchKeywordEn": "Girard-Perregaux 49960-19-431-11A",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ジラール・ペルゴの型番49960-19-431-11A。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Girard-Perregaux reference 49960-19-431-11A, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-4997032635fk6a",
@@ -3516,91 +3461,35 @@
       "summary_en": "Girard-Perregaux reference 49970-32-635-FK6A, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
-      "id": "ref-80189d56a13256a",
-      "name_en": "80189D56A132-56A",
-      "name_ja": "ロレアート 80189D56A132-56A",
-      "reference": "80189D56A132-56A",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": 34,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 991100,
-      "searchKeywordJa": "ジラール・ペルゴ 80189D56A132-56A",
-      "searchKeywordEn": "Girard-Perregaux 80189D56A132-56A",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ジラール・ペルゴの型番80189D56A132-56A。市場で3件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Girard-Perregaux reference 80189D56A132-56A, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 3,
-      "lastSeen": "2026-08-29"
-    },
-    {
-      "id": "ref-80484d11a161bk6b",
-      "name_en": "80484D11A161-BK6B",
-      "name_ja": "キャッツアイ ダイヤベゼル 80484D11A161-BK6B",
-      "reference": "80484D11A161-BK6B",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 839630,
-      "searchKeywordJa": "ジラール・ペルゴ 80484D11A161-BK6B",
-      "searchKeywordEn": "Girard-Perregaux 80484D11A161-BK6B",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ジラール・ペルゴの型番80484D11A161-BK6B。市場で3件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Girard-Perregaux reference 80484D11A161-BK6B, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 3,
-      "lastSeen": "2026-08-29"
-    },
-    {
-      "id": "ref-2588211631bb6b",
-      "name_en": "25882-11-631-BB6B",
-      "name_ja": "ヴィンテージ インフィニティ 25882-11-631-BB6B",
-      "reference": "25882-11-631-BB6B",
+      "id": "ref-8200011631fa6a",
+      "name_en": "82000-11-631-FA6A",
+      "name_ja": "フリー ブリッジ 82000-11-631-FA6A",
+      "reference": "82000-11-631-FA6A",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
       "movementType": null,
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 1273300,
-      "searchKeywordJa": "ジラール・ペルゴ 25882-11-631-BB6B",
-      "searchKeywordEn": "Girard-Perregaux 25882-11-631-BB6B",
+      "priceFloorJpy": 1300500,
+      "searchKeywordJa": "ジラール・ペルゴ 82000-11-631-FA6A",
+      "searchKeywordEn": "Girard-Perregaux 82000-11-631-FA6A",
       "caseMaterial": null,
       "waterResistanceM": null,
-      "gender": "unisex",
+      "gender": "mens",
       "releaseYear": null,
       "tags": [
-        "limited-edition"
+        "sport"
       ],
       "popular": false,
-      "summary_ja": "ジラール・ペルゴの型番25882-11-631-BB6B。市場で3件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Girard-Perregaux reference 25882-11-631-BB6B, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ジラール・ペルゴの型番82000-11-631-FA6A。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Girard-Perregaux reference 82000-11-631-FA6A, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-80189",
@@ -3628,7 +3517,7 @@
       "summary_en": "Girard-Perregaux reference 80189, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-4910",
@@ -3656,35 +3545,35 @@
       "summary_en": "Girard-Perregaux reference 4910, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
-      "id": "ref-2588052721bb6a",
-      "name_en": "25880-52-721-BB6A",
-      "name_ja": "25880-52-721-BB6A",
-      "reference": "25880-52-721-BB6A",
+      "id": "ref-803980390111604",
+      "name_en": "8039/80390.1.11.604",
+      "name_ja": "デイト 8039/80390.1.11.604",
+      "reference": "8039/80390.1.11.604",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
-      "movementType": null,
+      "movementType": "automatic",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 1464210,
-      "searchKeywordJa": "ジラール・ペルゴ 25880-52-721-BB6A",
-      "searchKeywordEn": "Girard-Perregaux 25880-52-721-BB6A",
+      "priceFloorJpy": 100000,
+      "searchKeywordJa": "ジラール・ペルゴ 8039/80390.1.11.604",
+      "searchKeywordEn": "Girard-Perregaux 8039/80390.1.11.604",
       "caseMaterial": null,
       "waterResistanceM": null,
-      "gender": "unisex",
+      "gender": "ladies",
       "releaseYear": null,
       "tags": [
         "sport"
       ],
       "popular": false,
-      "summary_ja": "ジラール・ペルゴの型番25880-52-721-BB6A。市場で3件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Girard-Perregaux reference 25880-52-721-BB6A, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ジラール・ペルゴの型番8039/80390.1.11.604。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Girard-Perregaux reference 8039/80390.1.11.604, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 3,
-      "lastSeen": "2026-08-29"
+      "listingCount": 2,
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-7200",
@@ -3712,7 +3601,7 @@
       "summary_en": "Girard-Perregaux reference 7200, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-7500",
@@ -3740,35 +3629,7 @@
       "summary_en": "Girard-Perregaux reference 7500, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-29"
-    },
-    {
-      "id": "ref-101902",
-      "name_en": "101-902",
-      "name_ja": "101-902",
-      "reference": "101-902",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 176800,
-      "searchKeywordJa": "ジラール・ペルゴ 101-902",
-      "searchKeywordEn": "Girard-Perregaux 101-902",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ジラール・ペルゴの型番101-902。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Girard-Perregaux reference 101-902, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-f251142",
@@ -3796,22 +3657,22 @@
       "summary_en": "Girard-Perregaux reference F25-1142, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
-      "id": "ref-802000113413a",
-      "name_en": "80200.0.11.3413A",
-      "name_ja": "ジラールペルゴ フェラーリ 80200.0.11.3413A",
-      "reference": "80200.0.11.3413A",
+      "id": "ref-8028",
+      "name_en": "8028",
+      "name_ja": "フェラーリ クロノグラフ 8028",
+      "reference": "8028",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
       "movementType": "automatic",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 244800,
-      "searchKeywordJa": "ジラール・ペルゴ 80200.0.11.3413A",
-      "searchKeywordEn": "Girard-Perregaux 80200.0.11.3413A",
+      "priceFloorJpy": 336413,
+      "searchKeywordJa": "ジラール・ペルゴ 8028",
+      "searchKeywordEn": "Girard-Perregaux 8028",
       "caseMaterial": null,
       "waterResistanceM": null,
       "gender": "mens",
@@ -3820,39 +3681,67 @@
         "chronograph"
       ],
       "popular": false,
-      "summary_ja": "ジラール・ペルゴの型番80200.0.11.3413A。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Girard-Perregaux reference 80200.0.11.3413A, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ジラール・ペルゴの型番8028。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Girard-Perregaux reference 8028, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
-      "id": "ref-802001119419",
-      "name_en": "80200.1.11.9419",
-      "name_ja": "フェラーリ クロノグラフ 80200.1.11.9419",
-      "reference": "80200.1.11.9419",
+      "id": "ref-80440",
+      "name_en": "80440",
+      "name_ja": "オラクル レーシング 80440",
+      "reference": "80440",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
-      "movementType": null,
+      "movementType": "automatic",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 278800,
-      "searchKeywordJa": "ジラール・ペルゴ 80200.1.11.9419",
-      "searchKeywordEn": "Girard-Perregaux 80200.1.11.9419",
+      "priceFloorJpy": 308363,
+      "searchKeywordJa": "ジラール・ペルゴ 80440",
+      "searchKeywordEn": "Girard-Perregaux 80440",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "racing"
+      ],
+      "popular": false,
+      "summary_ja": "ジラール・ペルゴの型番80440。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Girard-Perregaux reference 80440, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-08-30"
+    },
+    {
+      "id": "ref-80280",
+      "name_en": "80280",
+      "name_ja": "フェラーリ デイト 80280",
+      "reference": "80280",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 278630,
+      "searchKeywordJa": "ジラール・ペルゴ 80280",
+      "searchKeywordEn": "Girard-Perregaux 80280",
       "caseMaterial": null,
       "waterResistanceM": null,
       "gender": "mens",
       "releaseYear": null,
       "tags": [
-        "chronograph"
+        "sport"
       ],
       "popular": false,
-      "summary_ja": "ジラール・ペルゴの型番80200.1.11.9419。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Girard-Perregaux reference 80200.1.11.9419, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ジラール・ペルゴの型番80280。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Girard-Perregaux reference 80280, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-1020",
@@ -3880,7 +3769,63 @@
       "summary_en": "Girard-Perregaux reference 1020, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
+    },
+    {
+      "id": "ref-80440d11ab",
+      "name_en": "80440D-11AB",
+      "name_ja": "スモールクロノグラフ ダイヤベゼル 80440D-11AB",
+      "reference": "80440D-11AB",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 465630,
+      "searchKeywordJa": "ジラール・ペルゴ 80440D-11AB",
+      "searchKeywordEn": "Girard-Perregaux 80440D-11AB",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "chronograph"
+      ],
+      "popular": false,
+      "summary_ja": "ジラール・ペルゴの型番80440D-11AB。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Girard-Perregaux reference 80440D-11AB, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-08-30"
+    },
+    {
+      "id": "ref-802801111142",
+      "name_en": "80280.1.11.1142",
+      "name_ja": "フェラーリ クロノ 80280.1.11.1142",
+      "reference": "80280.1.11.1142",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 372130,
+      "searchKeywordJa": "ジラール・ペルゴ 80280.1.11.1142",
+      "searchKeywordEn": "Girard-Perregaux 80280.1.11.1142",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph"
+      ],
+      "popular": false,
+      "summary_ja": "ジラール・ペルゴの型番80280.1.11.1142。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Girard-Perregaux reference 80280.1.11.1142, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-25860d11a1a211a",
@@ -3908,7 +3853,35 @@
       "summary_en": "Girard-Perregaux reference 25860D11A1A2-11A, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
+    },
+    {
+      "id": "ref-80486d11a161ck6a",
+      "name_en": "80486D11A161-CK6A",
+      "name_ja": "キャッツアイ ダイヤベゼル 80486D11A161-CK6A",
+      "reference": "80486D11A161-CK6A",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 691713,
+      "searchKeywordJa": "ジラール・ペルゴ 80486D11A161-CK6A",
+      "searchKeywordEn": "Girard-Perregaux 80486D11A161-CK6A",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ジラール・ペルゴの型番80486D11A161-CK6A。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Girard-Perregaux reference 80486D11A161-CK6A, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-2595",
@@ -3936,7 +3909,7 @@
       "summary_en": "Girard-Perregaux reference 2595, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-2765",
@@ -3964,35 +3937,7 @@
       "summary_en": "Girard-Perregaux reference 2765, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-29"
-    },
-    {
-      "id": "ref-80486d11a1546ck6a",
-      "name_en": "80486D11A1546-CK6A",
-      "name_ja": "ジラール ペルゴ 80486D11A1546-CK6A",
-      "reference": "80486D11A1546-CK6A",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 678980,
-      "searchKeywordJa": "ジラール・ペルゴ 80486D11A1546-CK6A",
-      "searchKeywordEn": "Girard-Perregaux 80486D11A1546-CK6A",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ジラール・ペルゴの型番80486D11A1546-CK6A。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Girard-Perregaux reference 80486D11A1546-CK6A, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-9040",
@@ -4020,22 +3965,78 @@
       "summary_en": "Girard-Perregaux reference 9040, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
-      "id": "ref-80484d52a761bk7b",
-      "name_en": "80484D52A761-BK7B",
-      "name_ja": "80484D52A761-BK7B",
-      "reference": "80484D52A761-BK7B",
+      "id": "ref-80189d56a13256a",
+      "name_en": "80189D56A132-56A",
+      "name_ja": "ロレアート 80189D56A132-56A",
+      "reference": "80189D56A132-56A",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": 34,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 991100,
+      "searchKeywordJa": "ジラール・ペルゴ 80189D56A132-56A",
+      "searchKeywordEn": "Girard-Perregaux 80189D56A132-56A",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ジラール・ペルゴの型番80189D56A132-56A。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Girard-Perregaux reference 80189D56A132-56A, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-08-30"
+    },
+    {
+      "id": "ref-80484d11a161bk6b",
+      "name_en": "80484D11A161-BK6B",
+      "name_ja": "キャッツアイ ダイヤベゼル 80484D11A161-BK6B",
+      "reference": "80484D11A161-BK6B",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 839630,
+      "searchKeywordJa": "ジラール・ペルゴ 80484D11A161-BK6B",
+      "searchKeywordEn": "Girard-Perregaux 80484D11A161-BK6B",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ジラール・ペルゴの型番80484D11A161-BK6B。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Girard-Perregaux reference 80484D11A161-BK6B, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-08-30"
+    },
+    {
+      "id": "ref-2588052721bb6a",
+      "name_en": "25880-52-721-BB6A",
+      "name_ja": "25880-52-721-BB6A",
+      "reference": "25880-52-721-BB6A",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
       "movementType": null,
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 1649340,
-      "searchKeywordJa": "ジラール・ペルゴ 80484D52A761-BK7B",
-      "searchKeywordEn": "Girard-Perregaux 80484D52A761-BK7B",
+      "priceFloorJpy": 1464210,
+      "searchKeywordJa": "ジラール・ペルゴ 25880-52-721-BB6A",
+      "searchKeywordEn": "Girard-Perregaux 25880-52-721-BB6A",
       "caseMaterial": null,
       "waterResistanceM": null,
       "gender": "unisex",
@@ -4044,39 +4045,11 @@
         "sport"
       ],
       "popular": false,
-      "summary_ja": "ジラール・ペルゴの型番80484D52A761-BK7B。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Girard-Perregaux reference 80484D52A761-BK7B, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ジラール・ペルゴの型番25880-52-721-BB6A。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Girard-Perregaux reference 25880-52-721-BB6A, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-29"
-    },
-    {
-      "id": "ref-80484d52a761bk7a",
-      "name_en": "80484D52A761-BK7A",
-      "name_ja": "80484D52A761-BK7A",
-      "reference": "80484D52A761-BK7A",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 1649340,
-      "searchKeywordJa": "ジラール・ペルゴ 80484D52A761-BK7A",
-      "searchKeywordEn": "Girard-Perregaux 80484D52A761-BK7A",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ジラール・ペルゴの型番80484D52A761-BK7A。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Girard-Perregaux reference 80484D52A761-BK7A, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-901500511111",
@@ -4104,7 +4077,35 @@
       "summary_en": "Girard-Perregaux reference 90150.0.51.1111, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
+    },
+    {
+      "id": "ref-ref7000",
+      "name_en": "REF.7000",
+      "name_ja": "ジラールペルゴ クロノグラフ REF.7000",
+      "reference": "REF.7000",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 243100,
+      "searchKeywordJa": "ジラール・ペルゴ REF.7000",
+      "searchKeywordEn": "Girard-Perregaux REF.7000",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph"
+      ],
+      "popular": false,
+      "summary_ja": "ジラール・ペルゴの型番REF.7000。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Girard-Perregaux reference REF.7000, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-6005",
@@ -4132,7 +4133,7 @@
       "summary_en": "Girard-Perregaux reference 6005, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-2657",
@@ -4160,7 +4161,7 @@
       "summary_en": "Girard-Perregaux reference 2657, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-26570111915",
@@ -4188,7 +4189,91 @@
       "summary_en": "Girard-Perregaux reference 26570.1.11.915, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
+    },
+    {
+      "id": "ref-ref7050",
+      "name_en": "REF7050",
+      "name_ja": "REF7050",
+      "reference": "REF7050",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 219300,
+      "searchKeywordJa": "ジラール・ペルゴ REF7050",
+      "searchKeywordEn": "Girard-Perregaux REF7050",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph"
+      ],
+      "popular": false,
+      "summary_ja": "ジラール・ペルゴの型番REF7050。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Girard-Perregaux reference REF7050, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-08-30"
+    },
+    {
+      "id": "ref-ref4139sa",
+      "name_en": "REF.4139SA",
+      "name_ja": "REF.4139SA",
+      "reference": "REF.4139SA",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 176800,
+      "searchKeywordJa": "ジラール・ペルゴ REF.4139SA",
+      "searchKeywordEn": "Girard-Perregaux REF.4139SA",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ジラール・ペルゴの型番REF.4139SA。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Girard-Perregaux reference REF.4139SA, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-08-30"
+    },
+    {
+      "id": "ref-101902",
+      "name_en": "101-902",
+      "name_ja": "101-902",
+      "reference": "101-902",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 176800,
+      "searchKeywordJa": "ジラール・ペルゴ 101-902",
+      "searchKeywordEn": "Girard-Perregaux 101-902",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ジラール・ペルゴの型番101-902。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Girard-Perregaux reference 101-902, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-5426",
@@ -4216,7 +4301,7 @@
       "summary_en": "Girard-Perregaux reference 5426, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-gp7001",
@@ -4244,7 +4329,7 @@
       "summary_en": "Girard-Perregaux reference GP7001, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-7700",
@@ -4272,7 +4357,7 @@
       "summary_en": "Girard-Perregaux reference 7700, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-26570111415",
@@ -4300,7 +4385,63 @@
       "summary_en": "Girard-Perregaux reference 26570.1.11.415, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
+    },
+    {
+      "id": "ref-802000113413a",
+      "name_en": "80200.0.11.3413A",
+      "name_ja": "80200.0.11.3413A",
+      "reference": "80200.0.11.3413A",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 244800,
+      "searchKeywordJa": "ジラール・ペルゴ 80200.0.11.3413A",
+      "searchKeywordEn": "Girard-Perregaux 80200.0.11.3413A",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph"
+      ],
+      "popular": false,
+      "summary_ja": "ジラール・ペルゴの型番80200.0.11.3413A。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Girard-Perregaux reference 80200.0.11.3413A, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-08-30"
+    },
+    {
+      "id": "ref-802001119419",
+      "name_en": "80200.1.11.9419",
+      "name_ja": "80200.1.11.9419",
+      "reference": "80200.1.11.9419",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 278800,
+      "searchKeywordJa": "ジラール・ペルゴ 80200.1.11.9419",
+      "searchKeywordEn": "Girard-Perregaux 80200.1.11.9419",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph"
+      ],
+      "popular": false,
+      "summary_ja": "ジラール・ペルゴの型番80200.1.11.9419。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Girard-Perregaux reference 80200.1.11.9419, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-35815",
@@ -4328,7 +4469,7 @@
       "summary_en": "Girard-Perregaux reference 35815, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-4762",
@@ -4356,7 +4497,91 @@
       "summary_en": "Girard-Perregaux reference 4762, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
+    },
+    {
+      "id": "ref-80486d11a1546ck6a",
+      "name_en": "80486D11A1546-CK6A",
+      "name_ja": "ジラール ペルゴ 80486D11A1546-CK6A",
+      "reference": "80486D11A1546-CK6A",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 678980,
+      "searchKeywordJa": "ジラール・ペルゴ 80486D11A1546-CK6A",
+      "searchKeywordEn": "Girard-Perregaux 80486D11A1546-CK6A",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ジラール・ペルゴの型番80486D11A1546-CK6A。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Girard-Perregaux reference 80486D11A1546-CK6A, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-08-30"
+    },
+    {
+      "id": "ref-80484d52a761bk7b",
+      "name_en": "80484D52A761-BK7B",
+      "name_ja": "80484D52A761-BK7B",
+      "reference": "80484D52A761-BK7B",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 1649340,
+      "searchKeywordJa": "ジラール・ペルゴ 80484D52A761-BK7B",
+      "searchKeywordEn": "Girard-Perregaux 80484D52A761-BK7B",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ジラール・ペルゴの型番80484D52A761-BK7B。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Girard-Perregaux reference 80484D52A761-BK7B, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-08-30"
+    },
+    {
+      "id": "ref-80484d52a761bk7a",
+      "name_en": "80484D52A761-BK7A",
+      "name_ja": "80484D52A761-BK7A",
+      "reference": "80484D52A761-BK7A",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 1649340,
+      "searchKeywordJa": "ジラール・ペルゴ 80484D52A761-BK7A",
+      "searchKeywordEn": "Girard-Perregaux 80484D52A761-BK7A",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ジラール・ペルゴの型番80484D52A761-BK7A。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Girard-Perregaux reference 80484D52A761-BK7A, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-4455",
@@ -4384,7 +4609,7 @@
       "summary_en": "Girard-Perregaux reference 4455, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-1100",
@@ -4412,7 +4637,7 @@
       "summary_en": "Girard-Perregaux reference 1100, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-149066",
@@ -4440,7 +4665,7 @@
       "summary_en": "Girard-Perregaux reference 149066, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-8039",
@@ -4468,7 +4693,7 @@
       "summary_en": "Girard-Perregaux reference 8039, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-7000gbm",
@@ -4496,7 +4721,7 @@
       "summary_en": "Girard-Perregaux reference 7000GBM, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-149304",
@@ -4524,7 +4749,7 @@
       "summary_en": "Girard-Perregaux reference 149304, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-1791",
@@ -4552,7 +4777,7 @@
       "summary_en": "Girard-Perregaux reference 1791, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-2410177",
@@ -4580,7 +4805,7 @@
       "summary_en": "Girard-Perregaux reference 2410177, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-2410147",
@@ -4608,7 +4833,7 @@
       "summary_en": "Girard-Perregaux reference 2410147, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-146962",
@@ -4636,7 +4861,7 @@
       "summary_en": "Girard-Perregaux reference 146962, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-149903",
@@ -4664,7 +4889,7 @@
       "summary_en": "Girard-Perregaux reference 149903, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-258351122111a",
@@ -4692,7 +4917,7 @@
       "summary_en": "Girard-Perregaux reference 25835-11-221-11A, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-147348",
@@ -4720,7 +4945,7 @@
       "summary_en": "Girard-Perregaux reference 147348, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-4990",
@@ -4748,7 +4973,7 @@
       "summary_en": "Girard-Perregaux reference 4990, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-146481",
@@ -4776,35 +5001,7 @@
       "summary_en": "Girard-Perregaux reference 146481, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-29"
-    },
-    {
-      "id": "ref-49400011615",
-      "name_en": "49400.0.11.615",
-      "name_ja": "49400.0.11.615",
-      "reference": "49400.0.11.615",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 457028,
-      "searchKeywordJa": "ジラール・ペルゴ 49400.0.11.615",
-      "searchKeywordEn": "Girard-Perregaux 49400.0.11.615",
-      "caseMaterial": "stainless-steel",
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ジラール・ペルゴの型番49400.0.11.615。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Girard-Perregaux reference 49400.0.11.615, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-147249",
@@ -4832,7 +5029,7 @@
       "summary_en": "Girard-Perregaux reference 147249, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-25860",
@@ -4860,7 +5057,35 @@
       "summary_en": "Girard-Perregaux reference 25860, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
+    },
+    {
+      "id": "ref-49400011615",
+      "name_en": "49400.0.11.615",
+      "name_ja": "49400.0.11.615",
+      "reference": "49400.0.11.615",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 457028,
+      "searchKeywordJa": "ジラール・ペルゴ 49400.0.11.615",
+      "searchKeywordEn": "Girard-Perregaux 49400.0.11.615",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ジラール・ペルゴの型番49400.0.11.615。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Girard-Perregaux reference 49400.0.11.615, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-147067",
@@ -4888,7 +5113,7 @@
       "summary_en": "Girard-Perregaux reference 147067, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-47620052713",
@@ -4916,7 +5141,7 @@
       "summary_en": "Girard-Perregaux reference 47620.0.52.713, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-2410320",
@@ -4944,7 +5169,7 @@
       "summary_en": "Girard-Perregaux reference 2410320, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-258500536456",
@@ -4972,7 +5197,7 @@
       "summary_en": "Girard-Perregaux reference 25850.0.53.6456, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-2310400",
@@ -5000,7 +5225,7 @@
       "summary_en": "Girard-Perregaux reference 2310400, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-2510144",
@@ -5028,7 +5253,7 @@
       "summary_en": "Girard-Perregaux reference 2510144, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-4940",
@@ -5056,7 +5281,7 @@
       "summary_en": "Girard-Perregaux reference 4940, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-81020",
@@ -5084,7 +5309,7 @@
       "summary_en": "Girard-Perregaux reference 81020, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-29"
+      "lastSeen": "2026-08-30"
     },
     {
       "id": "ref-259600521121a",
