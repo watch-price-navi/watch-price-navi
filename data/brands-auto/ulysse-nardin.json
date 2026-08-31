@@ -1,6 +1,6 @@
 {
   "brandId": "ulysse-nardin",
-  "generatedAt": "2026-08-31T02:10:52.895Z",
+  "generatedAt": "2026-08-31T19:42:18.776Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -940,6 +940,35 @@
       "lastSeen": "2026-08-31"
     },
     {
+      "id": "ref-ref37231702b",
+      "name_en": "REF.3723-170-2B",
+      "name_ja": "スケルトン ダイバー REF.3723-170-2B",
+      "reference": "REF.3723-170-2B",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 2186625,
+      "searchKeywordJa": "ユリス・ナルダン REF.3723-170-2B",
+      "searchKeywordEn": "Ulysse Nardin REF.3723-170-2B",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "diver",
+        "skeleton"
+      ],
+      "popular": false,
+      "summary_ja": "ユリス・ナルダンの型番REF.3723-170-2B。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ulysse Nardin reference REF.3723-170-2B, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
+      "lastSeen": "2026-08-31"
+    },
+    {
       "id": "ref-2053132black",
       "name_en": "2053-132/BLACK",
       "name_ja": "ユリス ナルダン 2053-132/BLACK",
@@ -1820,7 +1849,7 @@
       "movementType": "automatic",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 561000,
+      "priceFloorJpy": 504900,
       "searchKeywordJa": "ユリス・ナルダン 243-10-3/391",
       "searchKeywordEn": "Ulysse Nardin 243-10-3/391",
       "caseMaterial": "ceramic",

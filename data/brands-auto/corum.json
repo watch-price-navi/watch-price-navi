@@ -1,6 +1,6 @@
 {
   "brandId": "corum",
-  "generatedAt": "2026-08-31T00:22:47.445Z",
+  "generatedAt": "2026-08-31T17:52:05.061Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -303,6 +303,7 @@
       "gender": "mens",
       "releaseYear": null,
       "tags": [
+        "limited-edition",
         "lightweight"
       ],
       "popular": false,
@@ -310,34 +311,6 @@
       "summary_en": "Corum reference L390/03337, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 8,
-      "lastSeen": "2026-08-31"
-    },
-    {
-      "id": "ref-3961030v050",
-      "name_en": "39.610.30V050",
-      "name_ja": "アドミラルズカップ デイト 39.610.30V050",
-      "reference": "39.610.30V050",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "quartz",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 250000,
-      "searchKeywordJa": "コルム 39.610.30V050",
-      "searchKeywordEn": "Corum 39.610.30V050",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "コルムの型番39.610.30V050。市場で7件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Corum reference 39.610.30V050, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 7,
       "lastSeen": "2026-08-31"
     },
     {
@@ -369,29 +342,29 @@
       "lastSeen": "2026-08-31"
     },
     {
-      "id": "ref-8215020",
-      "name_en": "82.150.20",
-      "name_ja": "バブル オートマティック 82.150.20",
-      "reference": "82.150.20",
+      "id": "ref-3961030v050",
+      "name_en": "39.610.30V050",
+      "name_ja": "アドミラルズカップ デイト 39.610.30V050",
+      "reference": "39.610.30V050",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
-      "movementType": "automatic",
+      "movementType": "quartz",
       "caliber": null,
       "listPriceJpy": null,
       "priceFloorJpy": 250000,
-      "searchKeywordJa": "コルム 82.150.20",
-      "searchKeywordEn": "Corum 82.150.20",
+      "searchKeywordJa": "コルム 39.610.30V050",
+      "searchKeywordEn": "Corum 39.610.30V050",
       "caseMaterial": null,
       "waterResistanceM": null,
-      "gender": "mens",
+      "gender": "ladies",
       "releaseYear": null,
       "tags": [
-        "limited-edition"
+        "sport"
       ],
       "popular": false,
-      "summary_ja": "コルムの型番82.150.20。市場で6件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Corum reference 82.150.20, currently offered by multiple sellers in Japan.",
+      "summary_ja": "コルムの型番39.610.30V050。市場で6件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Corum reference 39.610.30V050, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
       "lastSeen": "2026-08-31"
@@ -420,6 +393,34 @@
       "popular": false,
       "summary_ja": "コルムの型番983.201.20。市場で6件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Corum reference 983.201.20, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 6,
+      "lastSeen": "2026-08-31"
+    },
+    {
+      "id": "ref-8215020",
+      "name_en": "82.150.20",
+      "name_ja": "バブル オートマティック 82.150.20",
+      "reference": "82.150.20",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 250000,
+      "searchKeywordJa": "コルム 82.150.20",
+      "searchKeywordEn": "Corum 82.150.20",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "コルムの型番82.150.20。市場で6件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Corum reference 82.150.20, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
       "lastSeen": "2026-08-31"
@@ -874,6 +875,34 @@
       "lastSeen": "2026-08-31"
     },
     {
+      "id": "ref-3981020",
+      "name_en": "39.810.20",
+      "name_ja": "アドミラルズカップ アナログ 39.810.20",
+      "reference": "39.810.20",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "quartz",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 250000,
+      "searchKeywordJa": "コルム 39.810.20",
+      "searchKeywordEn": "Corum 39.810.20",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "コルムの型番39.810.20。市場で5件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Corum reference 39.810.20, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 5,
+      "lastSeen": "2026-08-31"
+    },
+    {
       "id": "ref-9981020",
       "name_en": "99.810.20",
       "name_ja": "アドミラルズカップ アナログ 99.810.20",
@@ -981,6 +1010,34 @@
       "popular": false,
       "summary_ja": "コルムの型番277.830.21。市場で5件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Corum reference 277.830.21, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 5,
+      "lastSeen": "2026-08-31"
+    },
+    {
+      "id": "ref-3913034",
+      "name_en": "39.130.34",
+      "name_ja": "アドミラルズカップ デイト 39.130.34",
+      "reference": "39.130.34",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "quartz",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 250000,
+      "searchKeywordJa": "コルム 39.130.34",
+      "searchKeywordEn": "Corum 39.130.34",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "コルムの型番39.130.34。市場で5件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Corum reference 39.130.34, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
       "lastSeen": "2026-08-31"
@@ -1154,34 +1211,6 @@
       "lastSeen": "2026-08-31"
     },
     {
-      "id": "ref-3981020",
-      "name_en": "39.810.20",
-      "name_ja": "アドミラルズカップ アナログ 39.810.20",
-      "reference": "39.810.20",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "quartz",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 250000,
-      "searchKeywordJa": "コルム 39.810.20",
-      "searchKeywordEn": "Corum 39.810.20",
-      "caseMaterial": "stainless-steel",
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "コルムの型番39.810.20。市場で4件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Corum reference 39.810.20, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 4,
-      "lastSeen": "2026-08-31"
-    },
-    {
       "id": "ref-9981021v52",
       "name_en": "99.810.21.V-52",
       "name_ja": "アドミラルズカップ デイト 99.810.21.V-52",
@@ -1233,34 +1262,6 @@
       "popular": false,
       "summary_ja": "コルムの型番138.341.47。市場で4件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Corum reference 138.341.47, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 4,
-      "lastSeen": "2026-08-31"
-    },
-    {
-      "id": "ref-3913034",
-      "name_en": "39.130.34",
-      "name_ja": "アドミラズカップ アドミラルズカップ 39.130.34",
-      "reference": "39.130.34",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "quartz",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 250000,
-      "searchKeywordJa": "コルム 39.130.34",
-      "searchKeywordEn": "Corum 39.130.34",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "コルムの型番39.130.34。市場で4件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Corum reference 39.130.34, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
       "lastSeen": "2026-08-31"
@@ -1322,34 +1323,6 @@
       "lastSeen": "2026-08-31"
     },
     {
-      "id": "ref-0062",
-      "name_en": "0062",
-      "name_ja": "バブル オプティカルアート 0062",
-      "reference": "0062",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 411026,
-      "searchKeywordJa": "コルム 0062",
-      "searchKeywordEn": "Corum 0062",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "コルムの型番0062。市場で4件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Corum reference 0062, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 4,
-      "lastSeen": "2026-08-31"
-    },
-    {
       "id": "ref-a39501521",
       "name_en": "A395/01521",
       "name_ja": "A395/01521",
@@ -1373,6 +1346,34 @@
       "popular": false,
       "summary_ja": "コルムの型番A395/01521。市場で4件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Corum reference A395/01521, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 4,
+      "lastSeen": "2026-08-31"
+    },
+    {
+      "id": "ref-0062",
+      "name_en": "0062",
+      "name_ja": "バブル オプティカルアート 0062",
+      "reference": "0062",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 411026,
+      "searchKeywordJa": "コルム 0062",
+      "searchKeywordEn": "Corum 0062",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "コルムの型番0062。市場で4件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Corum reference 0062, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
       "lastSeen": "2026-08-31"
@@ -1630,6 +1631,34 @@
       "lastSeen": "2026-08-31"
     },
     {
+      "id": "ref-1473",
+      "name_en": "1473",
+      "name_ja": "アドミラルズカップ アイボリー 1473",
+      "reference": "1473",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "quartz",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 250000,
+      "searchKeywordJa": "コルム 1473",
+      "searchKeywordEn": "Corum 1473",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "コルムの型番1473。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Corum reference 1473, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
+      "lastSeen": "2026-08-31"
+    },
+    {
       "id": "ref-3913020v585",
       "name_en": "39.130.20.V585",
       "name_ja": "アドミラルズカップ アナログ 39.130.20.V585",
@@ -1658,10 +1687,10 @@
       "lastSeen": "2026-08-31"
     },
     {
-      "id": "ref-1473",
-      "name_en": "1473",
-      "name_ja": "アドミラルズカップ アイボリー 1473",
-      "reference": "1473",
+      "id": "ref-9933030v585",
+      "name_en": "99.330.30.V585",
+      "name_ja": "アドミラルズカップ ステンレススチール 99.330.30.V585",
+      "reference": "99.330.30.V585",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
@@ -1669,18 +1698,18 @@
       "caliber": null,
       "listPriceJpy": null,
       "priceFloorJpy": 250000,
-      "searchKeywordJa": "コルム 1473",
-      "searchKeywordEn": "Corum 1473",
-      "caseMaterial": null,
+      "searchKeywordJa": "コルム 99.330.30.V585",
+      "searchKeywordEn": "Corum 99.330.30.V585",
+      "caseMaterial": "stainless-steel",
       "waterResistanceM": null,
-      "gender": "ladies",
+      "gender": "mens",
       "releaseYear": null,
       "tags": [
         "sport"
       ],
       "popular": false,
-      "summary_ja": "コルムの型番1473。市場で3件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Corum reference 1473, currently offered by multiple sellers in Japan.",
+      "summary_ja": "コルムの型番99.330.30.V585。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Corum reference 99.330.30.V585, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
       "lastSeen": "2026-08-31"
@@ -2274,6 +2303,34 @@
       "lastSeen": "2026-08-31"
     },
     {
+      "id": "ref-08220020v700",
+      "name_en": "082.200.20/V700",
+      "name_ja": "アドミラルズカップ ローン 082.200.20/V700",
+      "reference": "082.200.20/V700",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 250000,
+      "searchKeywordJa": "コルム 082.200.20/V700",
+      "searchKeywordEn": "Corum 082.200.20/V700",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "コルムの型番082.200.20/V700。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Corum reference 082.200.20/V700, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
+      "lastSeen": "2026-08-31"
+    },
+    {
       "id": "ref-a98403797",
       "name_en": "A984/03797",
       "name_ja": "アドミラル クロノグラフ A984/03797",
@@ -2386,6 +2443,34 @@
       "lastSeen": "2026-08-31"
     },
     {
+      "id": "ref-08000108217020",
+      "name_en": "08.0001/082.170.20",
+      "name_ja": "バブル ギャングスター 08.0001/082.170.20",
+      "reference": "08.0001/082.170.20",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 278630,
+      "searchKeywordJa": "コルム 08.0001/082.170.20",
+      "searchKeywordEn": "Corum 08.0001/082.170.20",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "コルムの型番08.0001/082.170.20。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Corum reference 08.0001/082.170.20, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
+      "lastSeen": "2026-08-31"
+    },
+    {
       "id": "ref-2610088",
       "name_en": "2610088",
       "name_ja": "アドミラル レジェンド 2610088",
@@ -2437,34 +2522,6 @@
       "popular": false,
       "summary_ja": "コルムの型番753.671.20/F371。市場で3件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Corum reference 753.671.20/F371, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 3,
-      "lastSeen": "2026-08-31"
-    },
-    {
-      "id": "ref-08000108217020",
-      "name_en": "08.0001/082.170.20",
-      "name_ja": "バブル ギャングスター 08.0001/082.170.20",
-      "reference": "08.0001/082.170.20",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 278630,
-      "searchKeywordJa": "コルム 08.0001/082.170.20",
-      "searchKeywordEn": "Corum 08.0001/082.170.20",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "limited-edition"
-      ],
-      "popular": false,
-      "summary_ja": "コルムの型番08.0001/082.170.20。市場で3件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Corum reference 08.0001/082.170.20, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
       "lastSeen": "2026-08-31"
@@ -2929,7 +2986,7 @@
       "movementType": "automatic",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 3113550,
+      "priceFloorJpy": 2957872,
       "searchKeywordJa": "コルム 298.100.04/F249",
       "searchKeywordEn": "Corum 298.100.04/F249",
       "caseMaterial": null,
@@ -3060,10 +3117,10 @@
       "lastSeen": "2026-08-31"
     },
     {
-      "id": "ref-9933030v585",
-      "name_en": "99.330.30.V585",
-      "name_ja": "アドミラルズカップ ステンレススチール 99.330.30.V585",
-      "reference": "99.330.30.V585",
+      "id": "ref-13741547",
+      "name_en": "137.415.47",
+      "name_ja": "トラピーズ 137.415.47",
+      "reference": "137.415.47",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
@@ -3071,18 +3128,18 @@
       "caliber": null,
       "listPriceJpy": null,
       "priceFloorJpy": 250000,
-      "searchKeywordJa": "コルム 99.330.30.V585",
-      "searchKeywordEn": "Corum 99.330.30.V585",
-      "caseMaterial": "stainless-steel",
+      "searchKeywordJa": "コルム 137.415.47",
+      "searchKeywordEn": "Corum 137.415.47",
+      "caseMaterial": null,
       "waterResistanceM": null,
-      "gender": "mens",
+      "gender": "ladies",
       "releaseYear": null,
       "tags": [
         "sport"
       ],
       "popular": false,
-      "summary_ja": "コルムの型番99.330.30.V585。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Corum reference 99.330.30.V585, currently offered by multiple sellers in Japan.",
+      "summary_ja": "コルムの型番137.415.47。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Corum reference 137.415.47, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
       "lastSeen": "2026-08-31"
@@ -3228,34 +3285,6 @@
       "lastSeen": "2026-08-31"
     },
     {
-      "id": "ref-13741547",
-      "name_en": "137.415.47",
-      "name_ja": "トラピーズ 137.415.47",
-      "reference": "137.415.47",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "quartz",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 250000,
-      "searchKeywordJa": "コルム 137.415.47",
-      "searchKeywordEn": "Corum 137.415.47",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "コルムの型番137.415.47。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Corum reference 137.415.47, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-08-31"
-    },
-    {
       "id": "ref-020100240049pn12",
       "name_en": "020.100.24/0049PN12",
       "name_ja": "アドミラルズカップ レジェンド 020.100.24/0049PN12",
@@ -3279,6 +3308,34 @@
       "popular": false,
       "summary_ja": "コルムの型番020.100.24/0049PN12。市場で2件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Corum reference 020.100.24/0049PN12, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-08-31"
+    },
+    {
+      "id": "ref-8921120",
+      "name_en": "89.211.20",
+      "name_ja": "テンプ メカニック 89.211.20",
+      "reference": "89.211.20",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 250000,
+      "searchKeywordJa": "コルム 89.211.20",
+      "searchKeywordEn": "Corum 89.211.20",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "コルムの型番89.211.20。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Corum reference 89.211.20, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
       "lastSeen": "2026-08-31"
@@ -3480,29 +3537,29 @@
       "lastSeen": "2026-08-31"
     },
     {
-      "id": "ref-8921120",
-      "name_en": "89.211.20",
-      "name_ja": "テンプ メカニック 89.211.20",
-      "reference": "89.211.20",
+      "id": "ref-19615147",
+      "name_en": "196.151.47",
+      "name_ja": "ギャラ バブル 196.151.47",
+      "reference": "196.151.47",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
-      "movementType": "automatic",
+      "movementType": "quartz",
       "caliber": null,
       "listPriceJpy": null,
       "priceFloorJpy": 250000,
-      "searchKeywordJa": "コルム 89.211.20",
-      "searchKeywordEn": "Corum 89.211.20",
+      "searchKeywordJa": "コルム 196.151.47",
+      "searchKeywordEn": "Corum 196.151.47",
       "caseMaterial": null,
       "waterResistanceM": null,
-      "gender": "mens",
+      "gender": "ladies",
       "releaseYear": null,
       "tags": [
-        "sport"
+        "chronograph"
       ],
       "popular": false,
-      "summary_ja": "コルムの型番89.211.20。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Corum reference 89.211.20, currently offered by multiple sellers in Japan.",
+      "summary_ja": "コルムの型番196.151.47。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Corum reference 196.151.47, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
       "lastSeen": "2026-08-31"
@@ -3733,34 +3790,6 @@
       "lastSeen": "2026-08-31"
     },
     {
-      "id": "ref-14515120",
-      "name_en": "145.151.20",
-      "name_ja": "ダボガン デイト 145.151.20",
-      "reference": "145.151.20",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 252263,
-      "searchKeywordJa": "コルム 145.151.20",
-      "searchKeywordEn": "Corum 145.151.20",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "コルムの型番145.151.20。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Corum reference 145.151.20, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-08-31"
-    },
-    {
       "id": "ref-z08203590",
       "name_en": "Z082/03590",
       "name_ja": "グラン デイト Z082/03590",
@@ -3784,6 +3813,34 @@
       "popular": false,
       "summary_ja": "コルムの型番Z082/03590。市場で2件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Corum reference Z082/03590, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-08-31"
+    },
+    {
+      "id": "ref-14515120",
+      "name_en": "145.151.20",
+      "name_ja": "ダボガン デイト 145.151.20",
+      "reference": "145.151.20",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 252263,
+      "searchKeywordJa": "コルム 145.151.20",
+      "searchKeywordEn": "Corum 145.151.20",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "コルムの型番145.151.20。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Corum reference 145.151.20, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
       "lastSeen": "2026-08-31"
@@ -3845,29 +3902,29 @@
       "lastSeen": "2026-08-31"
     },
     {
-      "id": "ref-08220020v700",
-      "name_en": "082.200.20/V700",
-      "name_ja": "アドミラルズカップ ローン 082.200.20/V700",
-      "reference": "082.200.20/V700",
+      "id": "ref-98497047f379aa12",
+      "name_en": "984.970.47/F379AA12",
+      "name_ja": "アドミラルズカップ クロノグラフ 984.970.47/F379AA12",
+      "reference": "984.970.47/F379AA12",
       "collection_en": null,
       "collection_ja": null,
-      "caseSizeMm": null,
+      "caseSizeMm": 40,
       "movementType": null,
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 250000,
-      "searchKeywordJa": "コルム 082.200.20/V700",
-      "searchKeywordEn": "Corum 082.200.20/V700",
-      "caseMaterial": null,
+      "priceFloorJpy": 327250,
+      "searchKeywordJa": "コルム 984.970.47/F379AA12",
+      "searchKeywordEn": "Corum 984.970.47/F379AA12",
+      "caseMaterial": "stainless-steel",
       "waterResistanceM": null,
-      "gender": "ladies",
+      "gender": "mens",
       "releaseYear": null,
       "tags": [
-        "sport"
+        "chronograph"
       ],
       "popular": false,
-      "summary_ja": "コルムの型番082.200.20/V700。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Corum reference 082.200.20/V700, currently offered by multiple sellers in Japan.",
+      "summary_ja": "コルムの型番984.970.47/F379AA12。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Corum reference 984.970.47/F379AA12, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
       "lastSeen": "2026-08-31"
@@ -4127,7 +4184,7 @@
     {
       "id": "ref-a39503595",
       "name_en": "A395/03595",
-      "name_ja": "アドミラル レジェンド A395/03595",
+      "name_ja": "ワンダフルデー アドミラル A395/03595",
       "reference": "A395/03595",
       "collection_en": null,
       "collection_ja": null,
@@ -4143,39 +4200,11 @@
       "gender": "mens",
       "releaseYear": null,
       "tags": [
-        "sport"
+        "limited-edition"
       ],
       "popular": false,
       "summary_ja": "コルムの型番A395/03595。市場で2件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Corum reference A395/03595, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-08-31"
-    },
-    {
-      "id": "ref-98497047f379aa12",
-      "name_en": "984.970.47/F379AA12",
-      "name_ja": "アドミラルズカップ クロノグラフ 984.970.47/F379AA12",
-      "reference": "984.970.47/F379AA12",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": 40,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 364650,
-      "searchKeywordJa": "コルム 984.970.47/F379AA12",
-      "searchKeywordEn": "Corum 984.970.47/F379AA12",
-      "caseMaterial": "stainless-steel",
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "chronograph"
-      ],
-      "popular": false,
-      "summary_ja": "コルムの型番984.970.47/F379AA12。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Corum reference 984.970.47/F379AA12, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
       "lastSeen": "2026-08-31"
@@ -4323,7 +4352,7 @@
     {
       "id": "ref-l08203166",
       "name_en": "L082/03166",
-      "name_ja": "バブル スケルトン L082/03166",
+      "name_ja": "ワンダフルデー バブル L082/03166",
       "reference": "L082/03166",
       "collection_en": null,
       "collection_ja": null,
@@ -4339,7 +4368,8 @@
       "gender": "mens",
       "releaseYear": null,
       "tags": [
-        "skeleton"
+        "skeleton",
+        "limited-edition"
       ],
       "popular": false,
       "summary_ja": "コルムの型番L082/03166。市場で2件の出品が確認された、実際に流通しているモデルです。",
@@ -4407,7 +4437,7 @@
     {
       "id": "ref-l39003667",
       "name_en": "L390/03667",
-      "name_ja": "ビッグバブルマジカル エリザベッタファントン L390/03667",
+      "name_ja": "ワンダフルデー ビッグバブルマジカル L390/03667",
       "reference": "L390/03667",
       "collection_en": null,
       "collection_ja": null,
@@ -4423,6 +4453,7 @@
       "gender": "mens",
       "releaseYear": null,
       "tags": [
+        "limited-edition",
         "lightweight"
       ],
       "popular": false,
@@ -4435,7 +4466,7 @@
     {
       "id": "ref-a02003663",
       "name_en": "A020/03663",
-      "name_ja": "アドミラル ホワイトシェル A020/03663",
+      "name_ja": "ワンダフルデー アドミラル A020/03663",
       "reference": "A020/03663",
       "collection_en": null,
       "collection_ja": null,
@@ -4451,7 +4482,7 @@
       "gender": "ladies",
       "releaseYear": null,
       "tags": [
-        "sport"
+        "limited-edition"
       ],
       "popular": false,
       "summary_ja": "コルムの型番A020/03663。市場で2件の出品が確認された、実際に流通しているモデルです。",
@@ -4463,7 +4494,7 @@
     {
       "id": "ref-l08203165",
       "name_en": "L082/03165",
-      "name_ja": "バブル スケルトン L082/03165",
+      "name_ja": "ワンダフルデー バブル L082/03165",
       "reference": "L082/03165",
       "collection_en": null,
       "collection_ja": null,
@@ -4479,7 +4510,8 @@
       "gender": "mens",
       "releaseYear": null,
       "tags": [
-        "skeleton"
+        "skeleton",
+        "limited-edition"
       ],
       "popular": false,
       "summary_ja": "コルムの型番L082/03165。市場で2件の出品が確認された、実際に流通しているモデルです。",
@@ -4519,7 +4551,7 @@
     {
       "id": "ref-a98403178",
       "name_en": "A984/03178",
-      "name_ja": "アドミラル レジェンド A984/03178",
+      "name_ja": "ワンダフルデー アドミラル A984/03178",
       "reference": "A984/03178",
       "collection_en": null,
       "collection_ja": null,
@@ -4535,7 +4567,8 @@
       "gender": "mens",
       "releaseYear": null,
       "tags": [
-        "chronograph"
+        "chronograph",
+        "limited-edition"
       ],
       "popular": false,
       "summary_ja": "コルムの型番A984/03178。市場で2件の出品が確認された、実際に流通しているモデルです。",
@@ -4547,7 +4580,7 @@
     {
       "id": "ref-l08203162",
       "name_en": "L082/03162",
-      "name_ja": "バブル スケルトン L082/03162",
+      "name_ja": "ワンダフルデー バブル L082/03162",
       "reference": "L082/03162",
       "collection_en": null,
       "collection_ja": null,
@@ -4563,7 +4596,8 @@
       "gender": "mens",
       "releaseYear": null,
       "tags": [
-        "skeleton"
+        "skeleton",
+        "limited-edition"
       ],
       "popular": false,
       "summary_ja": "コルムの型番L082/03162。市場で2件の出品が確認された、実際に流通しているモデルです。",
@@ -5273,6 +5307,34 @@
       "lastSeen": "2026-08-31"
     },
     {
+      "id": "ref-2892",
+      "name_en": "2892",
+      "name_ja": "2892",
+      "reference": "2892",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 250000,
+      "searchKeywordJa": "コルム 2892",
+      "searchKeywordEn": "Corum 2892",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "コルムの型番2892。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Corum reference 2892, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-08-31"
+    },
+    {
       "id": "ref-2410121",
       "name_en": "2410121",
       "name_ja": "2410121",
@@ -5656,12 +5718,41 @@
       "gender": "mens",
       "releaseYear": null,
       "tags": [
+        "limited-edition",
         "vintage-reissue",
         "lightweight"
       ],
       "popular": false,
       "summary_ja": "コルムの型番Z410/03861。市場で1件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Corum reference Z410/03861, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-08-31"
+    },
+    {
+      "id": "ref-5012179v58",
+      "name_en": "50.121.79/V58",
+      "name_ja": "50.121.79/V58",
+      "reference": "50.121.79/V58",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 1050560,
+      "searchKeywordJa": "コルム 50.121.79/V58",
+      "searchKeywordEn": "Corum 50.121.79/V58",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "コルムの型番50.121.79/V58。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Corum reference 50.121.79/V58, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
       "lastSeen": "2026-08-31"
@@ -5891,34 +5982,6 @@
       "lastSeen": "2026-08-31"
     },
     {
-      "id": "ref-i170126020",
-      "name_en": "I170126020",
-      "name_ja": "I170126020",
-      "reference": "I170126020",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "quartz",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 250000,
-      "searchKeywordJa": "コルム I170126020",
-      "searchKeywordEn": "Corum I170126020",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "コルムの型番I170126020。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Corum reference I170126020, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-08-31"
-    },
-    {
       "id": "ref-i120126017",
       "name_en": "I120126017",
       "name_ja": "I120126017",
@@ -5970,6 +6033,34 @@
       "popular": false,
       "summary_ja": "コルムの型番G113124009。市場で1件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Corum reference G113124009, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-08-31"
+    },
+    {
+      "id": "ref-i170126020",
+      "name_en": "I170126020",
+      "name_ja": "I170126020",
+      "reference": "I170126020",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "quartz",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 250000,
+      "searchKeywordJa": "コルム I170126020",
+      "searchKeywordEn": "Corum I170126020",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "コルムの型番I170126020。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Corum reference I170126020, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
       "lastSeen": "2026-08-31"
@@ -6339,6 +6430,34 @@
       "lastSeen": "2026-08-31"
     },
     {
+      "id": "ref-ref8859",
+      "name_en": "REF.8859",
+      "name_ja": "REF.8859",
+      "reference": "REF.8859",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "manual",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 848980,
+      "searchKeywordJa": "コルム REF.8859",
+      "searchKeywordEn": "Corum REF.8859",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "コルムの型番REF.8859。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Corum reference REF.8859, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-08-31"
+    },
+    {
       "id": "ref-146331",
       "name_en": "146331",
       "name_ja": "146331",
@@ -6642,34 +6761,6 @@
       "popular": false,
       "summary_ja": "コルムの型番082.101.29-V200PK10。市場で1件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Corum reference 082.101.29-V200PK10, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-08-31"
-    },
-    {
-      "id": "ref-19615147",
-      "name_en": "196.151.47",
-      "name_ja": "196.151.47",
-      "reference": "196.151.47",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "quartz",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 250000,
-      "searchKeywordJa": "コルム 196.151.47",
-      "searchKeywordEn": "Corum 196.151.47",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "chronograph"
-      ],
-      "popular": false,
-      "summary_ja": "コルムの型番196.151.47。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Corum reference 196.151.47, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
       "lastSeen": "2026-08-31"
