@@ -1,6 +1,6 @@
 {
   "brandId": "sinn",
-  "generatedAt": "2026-08-30T16:44:24.014Z",
+  "generatedAt": "2026-08-31T01:58:49.696Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -29,7 +29,7 @@
       "summary_en": "Sinn reference 6000, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 40,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-603ezm3",
@@ -53,11 +53,11 @@
         "diver"
       ],
       "popular": false,
-      "summary_ja": "ジンの型番603.EZM-3。市場で25件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "ジンの型番603.EZM-3。市場で28件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Sinn reference 603.EZM-3, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 25,
-      "lastSeen": "2026-08-30"
+      "listingCount": 28,
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-503ezm1",
@@ -81,16 +81,16 @@
         "chronograph"
       ],
       "popular": false,
-      "summary_ja": "ジンの型番503.EZM-1。市場で25件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "ジンの型番503.EZM-1。市場で24件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Sinn reference 503.EZM-1, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 25,
-      "lastSeen": "2026-08-30"
+      "listingCount": 24,
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-1000",
       "name_en": "1000",
-      "name_ja": "クロノグラフ ドイツ 1000",
+      "name_ja": "クロノグラフ ノベルティプレゼント 1000",
       "reference": "1000",
       "collection_en": null,
       "collection_ja": null,
@@ -112,11 +112,11 @@
         "limited-edition"
       ],
       "popular": false,
-      "summary_ja": "ジンの型番1000。市場で15件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "ジンの型番1000。市場で16件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Sinn reference 1000, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 15,
-      "lastSeen": "2026-08-30"
+      "listingCount": 16,
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-3006",
@@ -140,11 +140,11 @@
         "chronograph"
       ],
       "popular": false,
-      "summary_ja": "ジンの型番3006。市場で10件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "ジンの型番3006。市場で9件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Sinn reference 3006, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 10,
-      "lastSeen": "2026-08-30"
+      "listingCount": 9,
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-556f4",
@@ -172,35 +172,7 @@
       "summary_en": "Sinn reference 556.F-4, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 8,
-      "lastSeen": "2026-08-30"
-    },
-    {
-      "id": "ref-6000series",
-      "name_en": "6000SERIES",
-      "name_ja": "6000SERIES",
-      "reference": "6000SERIES",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 589050,
-      "searchKeywordJa": "ジン 6000SERIES",
-      "searchKeywordEn": "Sinn 6000SERIES",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ジンの型番6000SERIES。市場で8件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Sinn reference 6000SERIES, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 8,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-356saflieger3",
@@ -230,7 +202,7 @@
       "summary_en": "Sinn reference 356.SA.FLIEGER.3, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 8,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-157ezm4",
@@ -258,7 +230,35 @@
       "summary_en": "Sinn reference 157.EZM-4, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 8,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
+    },
+    {
+      "id": "ref-6000series",
+      "name_en": "6000SERIES",
+      "name_ja": "6000SERIES",
+      "reference": "6000SERIES",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 589050,
+      "searchKeywordJa": "ジン 6000SERIES",
+      "searchKeywordEn": "Sinn 6000SERIES",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ジンの型番6000SERIES。市場で7件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Sinn reference 6000SERIES, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 7,
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-6060",
@@ -286,7 +286,7 @@
       "summary_en": "Sinn reference 6060, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-6052",
@@ -314,7 +314,7 @@
       "summary_en": "Sinn reference 6052, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-6012",
@@ -342,7 +342,7 @@
       "summary_en": "Sinn reference 6012, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-6033b",
@@ -370,7 +370,7 @@
       "summary_en": "Sinn reference 6033.B, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-613ezm13",
@@ -399,7 +399,7 @@
       "summary_en": "Sinn reference 613.EZM-13, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-556f42",
@@ -429,7 +429,7 @@
       "summary_en": "Sinn reference 556.F-4.2, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-1010u1",
@@ -457,7 +457,7 @@
       "summary_en": "Sinn reference 1010.U1, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-703ezm3f",
@@ -485,7 +485,7 @@
       "summary_en": "Sinn reference 703.EZM3.F, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-1561e",
@@ -516,7 +516,7 @@
       "summary_en": "Sinn reference 156.1.E, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-1561",
@@ -544,7 +544,7 @@
       "summary_en": "Sinn reference 156.1, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-5100",
@@ -573,7 +573,7 @@
       "summary_en": "Sinn reference 5100, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-603ezm3j",
@@ -601,7 +601,7 @@
       "summary_en": "Sinn reference 603.EZM-3.J, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-556f4ii",
@@ -630,7 +630,7 @@
       "summary_en": "Sinn reference 556.F-4.II, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-506ezm11",
@@ -659,7 +659,7 @@
       "summary_en": "Sinn reference 506.EZM1.1, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-556014",
@@ -687,7 +687,7 @@
       "summary_en": "Sinn reference 556.014, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-4472710",
@@ -715,35 +715,7 @@
       "summary_en": "Sinn reference 4472710, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-08-30"
-    },
-    {
-      "id": "ref-6068",
-      "name_en": "6068",
-      "name_ja": "6068",
-      "reference": "6068",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 589050,
-      "searchKeywordJa": "ジン 6068",
-      "searchKeywordEn": "Sinn 6068",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ジンの型番6068。市場で3件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Sinn reference 6068, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 3,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-6099",
@@ -771,7 +743,7 @@
       "summary_en": "Sinn reference 6099, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-6000jubiii",
@@ -799,7 +771,7 @@
       "summary_en": "Sinn reference 6000.JUB.III, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-10100351",
@@ -828,7 +800,7 @@
       "summary_en": "Sinn reference 1010.0351, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-u1000s",
@@ -858,7 +830,7 @@
       "summary_en": "Sinn reference U1000.S, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-6068b",
@@ -886,7 +858,7 @@
       "summary_en": "Sinn reference 6068.B, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-903plgl24h",
@@ -914,7 +886,7 @@
       "summary_en": "Sinn reference 903.PL.GL.24H, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-1052020",
@@ -942,7 +914,7 @@
       "summary_en": "Sinn reference 1052.020, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-2610103",
@@ -970,7 +942,7 @@
       "summary_en": "Sinn reference 2610103, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-10315741",
@@ -998,7 +970,7 @@
       "summary_en": "Sinn reference 103.15741, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-2000000",
@@ -1026,7 +998,7 @@
       "summary_en": "Sinn reference 2000000, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-303rx08",
@@ -1055,7 +1027,65 @@
       "summary_en": "Sinn reference 303.RX-08, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
+    },
+    {
+      "id": "ref-3566109",
+      "name_en": "356.6109",
+      "name_ja": "フリーガー クロノグラフ 356.6109",
+      "reference": "356.6109",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 233750,
+      "searchKeywordJa": "ジン 356.6109",
+      "searchKeywordEn": "Sinn 356.6109",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "chronograph",
+        "pilot"
+      ],
+      "popular": false,
+      "summary_ja": "ジンの型番356.6109。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Sinn reference 356.6109, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-08-31"
+    },
+    {
+      "id": "ref-a158693",
+      "name_en": "A-158693",
+      "name_ja": "フリーガー クロノグラフ A-158693",
+      "reference": "A-158693",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 233750,
+      "searchKeywordJa": "ジン A-158693",
+      "searchKeywordEn": "Sinn A-158693",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "chronograph",
+        "pilot"
+      ],
+      "popular": false,
+      "summary_ja": "ジンの型番A-158693。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Sinn reference A-158693, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-nsy12583abc",
@@ -1083,7 +1113,7 @@
       "summary_en": "Sinn reference NSY12583ABC, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-90312919",
@@ -1111,7 +1141,7 @@
       "summary_en": "Sinn reference 903.12919, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-8828820",
@@ -1139,7 +1169,7 @@
       "summary_en": "Sinn reference 8828820, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-9932abc3930520",
@@ -1167,7 +1197,7 @@
       "summary_en": "Sinn reference 9932ABC3930520, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-1032277",
@@ -1195,7 +1225,7 @@
       "summary_en": "Sinn reference 103.2277, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-240010",
@@ -1223,7 +1253,7 @@
       "summary_en": "Sinn reference 240.010, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-1739stis",
@@ -1251,7 +1281,7 @@
       "summary_en": "Sinn reference 1739.ST.I.S, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-104stsaiw5m",
@@ -1279,7 +1309,7 @@
       "summary_en": "Sinn reference 104.ST.SA.IW.5M, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-203st18kt",
@@ -1307,7 +1337,7 @@
       "summary_en": "Sinn reference 203.ST.18KT, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-05p06jul10",
@@ -1335,7 +1365,35 @@
       "summary_en": "Sinn reference 05P06JUL10, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
+    },
+    {
+      "id": "ref-1739sti4n",
+      "name_en": "1739.ST.I.4N",
+      "name_ja": "1739.ST.I.4N",
+      "reference": "1739.ST.I.4N",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 467500,
+      "searchKeywordJa": "ジン 1739.ST.I.4N",
+      "searchKeywordEn": "Sinn 1739.ST.I.4N",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ジンの型番1739.ST.I.4N。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Sinn reference 1739.ST.I.4N, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-sinn703ezm3f",
@@ -1363,7 +1421,7 @@
       "summary_en": "Sinn reference SINN703.EZM3F, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-u212ezm16",
@@ -1391,7 +1449,7 @@
       "summary_en": "Sinn reference U212.EZM16, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-903st2",
@@ -1420,7 +1478,7 @@
       "summary_en": "Sinn reference 903.ST.2, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-3356fliegerklassik",
@@ -1449,7 +1507,7 @@
       "summary_en": "Sinn reference 3356.FLIEGER.KLASSIK, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-613ezm131m",
@@ -1477,7 +1535,7 @@
       "summary_en": "Sinn reference 613.EZM13.1M, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-1800damaszener",
@@ -1505,7 +1563,35 @@
       "summary_en": "Sinn reference 1800.DAMASZENER, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
+    },
+    {
+      "id": "ref-55601",
+      "name_en": "556.01",
+      "name_ja": "556.01",
+      "reference": "556.01",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 259250,
+      "searchKeywordJa": "ジン 556.01",
+      "searchKeywordEn": "Sinn 556.01",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ジンの型番556.01。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Sinn reference 556.01, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-2510282",
@@ -1533,7 +1619,7 @@
       "summary_en": "Sinn reference 2510282, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-6068012",
@@ -1561,7 +1647,7 @@
       "summary_en": "Sinn reference 6068.012, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-144747cargo",
@@ -1589,7 +1675,7 @@
       "summary_en": "Sinn reference 144-747.CARGO, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-206015",
@@ -1617,7 +1703,7 @@
       "summary_en": "Sinn reference 206.015, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-103klassik12",
@@ -1647,7 +1733,7 @@
       "summary_en": "Sinn reference 103.KLASSIK12, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-10100102",
@@ -1675,35 +1761,7 @@
       "summary_en": "Sinn reference 1010.0102, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-30"
-    },
-    {
-      "id": "ref-149782",
-      "name_en": "149782",
-      "name_ja": "パイロット ブラックダイヤル 149782",
-      "reference": "149782",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 208369,
-      "searchKeywordJa": "ジン 149782",
-      "searchKeywordEn": "Sinn 149782",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "pilot"
-      ],
-      "popular": false,
-      "summary_ja": "ジンの型番149782。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Sinn reference 149782, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-761633",
@@ -1731,7 +1789,35 @@
       "summary_en": "Sinn reference 76163-3, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
+    },
+    {
+      "id": "ref-6068",
+      "name_en": "6068",
+      "name_ja": "6068",
+      "reference": "6068",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 589050,
+      "searchKeywordJa": "ジン 6068",
+      "searchKeywordEn": "Sinn 6068",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ジンの型番6068。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Sinn reference 6068, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-6096",
@@ -1759,7 +1845,7 @@
       "summary_en": "Sinn reference 6096, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-u1000",
@@ -1787,7 +1873,7 @@
       "summary_en": "Sinn reference U1000, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-89047",
@@ -1816,7 +1902,7 @@
       "summary_en": "Sinn reference 89047, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-7436abc4963310",
@@ -1844,7 +1930,7 @@
       "summary_en": "Sinn reference 7436ABC4963310, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-22042",
@@ -1872,7 +1958,7 @@
       "summary_en": "Sinn reference 22042, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-7418abc2844710",
@@ -1900,7 +1986,7 @@
       "summary_en": "Sinn reference 7418ABC2844710, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-2560179",
@@ -1928,7 +2014,7 @@
       "summary_en": "Sinn reference 2560179, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-0000220smd",
@@ -1956,7 +2042,7 @@
       "summary_en": "Sinn reference 0000220SMD, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-1562722",
@@ -1984,7 +2070,7 @@
       "summary_en": "Sinn reference 156.2722, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-7077abc",
@@ -2012,7 +2098,7 @@
       "summary_en": "Sinn reference 7077ABC, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-7486abc0034320",
@@ -2041,7 +2127,7 @@
       "summary_en": "Sinn reference 7486ABC0034320, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-1562388",
@@ -2070,7 +2156,7 @@
       "summary_en": "Sinn reference 156.2388, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-7587410",
@@ -2098,7 +2184,7 @@
       "summary_en": "Sinn reference 7587410, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-15610",
@@ -2126,7 +2212,7 @@
       "summary_en": "Sinn reference 15610, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-7489abc6733320",
@@ -2154,7 +2240,7 @@
       "summary_en": "Sinn reference 7489ABC6733320, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-nsy14245abc",
@@ -2182,7 +2268,7 @@
       "summary_en": "Sinn reference NSY14245ABC, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-4238520",
@@ -2210,7 +2296,7 @@
       "summary_en": "Sinn reference 4238520, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-7402abc4463030",
@@ -2239,7 +2325,7 @@
       "summary_en": "Sinn reference 7402ABC4463030, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-15626",
@@ -2268,7 +2354,7 @@
       "summary_en": "Sinn reference 156.26, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-2965abc5420030",
@@ -2297,7 +2383,7 @@
       "summary_en": "Sinn reference 2965ABC5420030, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-a90361",
@@ -2326,7 +2412,7 @@
       "summary_en": "Sinn reference A-90361, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-77990",
@@ -2355,7 +2441,7 @@
       "summary_en": "Sinn reference 77990, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-1739agb",
@@ -2383,35 +2469,7 @@
       "summary_en": "Sinn reference 1739.AG.B, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-30"
-    },
-    {
-      "id": "ref-1739sti4n",
-      "name_en": "1739.ST.I.4N",
-      "name_ja": "1739.ST.I.4N",
-      "reference": "1739.ST.I.4N",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 467500,
-      "searchKeywordJa": "ジン 1739.ST.I.4N",
-      "searchKeywordEn": "Sinn 1739.ST.I.4N",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ジンの型番1739.ST.I.4N。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Sinn reference 1739.ST.I.4N, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-142st2gz",
@@ -2439,7 +2497,7 @@
       "summary_en": "Sinn reference 142.ST.2.GZ, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-eta955652",
@@ -2467,7 +2525,7 @@
       "summary_en": "Sinn reference ETA955.652, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-6060b",
@@ -2495,7 +2553,7 @@
       "summary_en": "Sinn reference 6060.B, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-206arktis2",
@@ -2524,7 +2582,7 @@
       "summary_en": "Sinn reference 206.ARKTIS.2, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-1561m",
@@ -2552,7 +2610,7 @@
       "summary_en": "Sinn reference 156.1.M, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-2892a2",
@@ -2580,7 +2638,7 @@
       "summary_en": "Sinn reference 2892-A2, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-1800titandamaszener",
@@ -2608,7 +2666,7 @@
       "summary_en": "Sinn reference 1800.TITANDAMASZENER, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-1040886",
@@ -2636,7 +2694,7 @@
       "summary_en": "Sinn reference 104.0886, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-146551",
@@ -2664,7 +2722,7 @@
       "summary_en": "Sinn reference 146551, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-147470",
@@ -2693,7 +2751,7 @@
       "summary_en": "Sinn reference 147470, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-8820",
@@ -2721,35 +2779,7 @@
       "summary_en": "Sinn reference 8820, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-30"
-    },
-    {
-      "id": "ref-55601",
-      "name_en": "556.01",
-      "name_ja": "556.01",
-      "reference": "556.01",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 259250,
-      "searchKeywordJa": "ジン 556.01",
-      "searchKeywordEn": "Sinn 556.01",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ジンの型番556.01。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Sinn reference 556.01, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-149467",
@@ -2778,7 +2808,7 @@
       "summary_en": "Sinn reference 149467, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-valjoux7750",
@@ -2806,7 +2836,7 @@
       "summary_en": "Sinn reference VALJOUX7750, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-2510263",
@@ -2835,7 +2865,7 @@
       "summary_en": "Sinn reference 2510263, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-6090",
@@ -2863,7 +2893,7 @@
       "summary_en": "Sinn reference 6090, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-13a3siau0005",
@@ -2891,7 +2921,7 @@
       "summary_en": "Sinn reference 13A3SIAU0005, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-0050siau0001",
@@ -2919,7 +2949,7 @@
       "summary_en": "Sinn reference 0050SIAU0001, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-145hsiau0002",
@@ -2948,7 +2978,7 @@
       "summary_en": "Sinn reference 145HSIAU0002, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-132ksiau0001",
@@ -2976,7 +3006,7 @@
       "summary_en": "Sinn reference 132KSIAU0001, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-1052010",
@@ -3004,7 +3034,7 @@
       "summary_en": "Sinn reference 1052.010, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-8827ti",
@@ -3032,7 +3062,7 @@
       "summary_en": "Sinn reference 8827.TI, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-9910",
@@ -3061,7 +3091,7 @@
       "summary_en": "Sinn reference 9910, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-sw3001",
@@ -3089,7 +3119,7 @@
       "summary_en": "Sinn reference SW300-1, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-36133",
@@ -3117,7 +3147,7 @@
       "summary_en": "Sinn reference 361-33, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-42ajag001",
@@ -3145,7 +3175,7 @@
       "summary_en": "Sinn reference 42AJAG001, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-10323961",
@@ -3173,7 +3203,7 @@
       "summary_en": "Sinn reference 103.23961, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-9304900",
@@ -3201,7 +3231,7 @@
       "summary_en": "Sinn reference 9304900, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-2410051",
@@ -3229,7 +3259,7 @@
       "summary_en": "Sinn reference 2410051, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-1040131",
@@ -3257,7 +3287,7 @@
       "summary_en": "Sinn reference 104.0131, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-144747",
@@ -3285,65 +3315,7 @@
       "summary_en": "Sinn reference 144-747, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-30"
-    },
-    {
-      "id": "ref-3566109",
-      "name_en": "356.6109",
-      "name_ja": "356.6109",
-      "reference": "356.6109",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 233750,
-      "searchKeywordJa": "ジン 356.6109",
-      "searchKeywordEn": "Sinn 356.6109",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "chronograph",
-        "pilot"
-      ],
-      "popular": false,
-      "summary_ja": "ジンの型番356.6109。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Sinn reference 356.6109, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-08-30"
-    },
-    {
-      "id": "ref-a158693",
-      "name_en": "A-158693",
-      "name_ja": "A-158693",
-      "reference": "A-158693",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 233750,
-      "searchKeywordJa": "ジン A-158693",
-      "searchKeywordEn": "Sinn A-158693",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "chronograph",
-        "pilot"
-      ],
-      "popular": false,
-      "summary_ja": "ジンの型番A-158693。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Sinn reference A-158693, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-3580641",
@@ -3371,7 +3343,7 @@
       "summary_en": "Sinn reference 358.0641, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-a6245",
@@ -3399,7 +3371,35 @@
       "summary_en": "Sinn reference A6245, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
+    },
+    {
+      "id": "ref-149782",
+      "name_en": "149782",
+      "name_ja": "149782",
+      "reference": "149782",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 208369,
+      "searchKeywordJa": "ジン 149782",
+      "searchKeywordEn": "Sinn 149782",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "pilot"
+      ],
+      "popular": false,
+      "summary_ja": "ジンの型番149782。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Sinn reference 149782, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-556f4ll",
@@ -3427,7 +3427,7 @@
       "summary_en": "Sinn reference 556.F-4.LL, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-1736sti4n",
@@ -3455,7 +3455,7 @@
       "summary_en": "Sinn reference 1736.ST.I.4N, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-1736",
@@ -3483,7 +3483,7 @@
       "summary_en": "Sinn reference 1736, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-66228",
@@ -3511,7 +3511,7 @@
       "summary_en": "Sinn reference 66-228, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-857ezm7m",
@@ -3539,7 +3539,7 @@
       "summary_en": "Sinn reference 857.EZM-7M, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "id": "ref-1050",
