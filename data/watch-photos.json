@@ -3141,6 +3141,87 @@
           "exact": false
         }
       ]
+    },
+    "zenith/chronomaster-original-03-3200-3600-21-m3200": {
+      "brandId": "zenith",
+      "modelId": "chronomaster-original-03-3200-3600-21-m3200",
+      "reference": "03.3200.3600/21.M3200",
+      "photos": [
+        {
+          "file": "/img/watches/zenith-chronomaster-original-03-3200-3600-21-m3200-1.jpg",
+          "commonsTitle": "Zenith El Primero Chronomaster Open.jpg",
+          "author": "Clyde94",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Zenith_El_Primero_Chronomaster_Open.jpg",
+          "provider": "wikimedia",
+          "exact": false
+        }
+      ]
+    },
+    "zenith/el-primero-chronomaster-42-03-2040-400": {
+      "brandId": "zenith",
+      "modelId": "el-primero-chronomaster-42-03-2040-400",
+      "reference": "03.2040.400/69.C494",
+      "photos": [
+        {
+          "file": "/img/watches/zenith-el-primero-chronomaster-42-03-2040-400-1.jpg",
+          "commonsTitle": "Zenith El Primero 36000 VpH Tribute to Charles Vermot 01.jpg",
+          "author": "Zenith El Primero",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Zenith_El_Primero_36000_VpH_Tribute_to_Charles_Vermot_01.jpg",
+          "provider": "wikimedia",
+          "exact": false
+        },
+        {
+          "file": "/img/watches/zenith-el-primero-chronomaster-42-03-2040-400-2.jpg",
+          "commonsTitle": "Zenith El Primero 36000 VpH Tribute to Charles Vermot 04.jpg",
+          "author": "Zenith El Primero",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Zenith_El_Primero_36000_VpH_Tribute_to_Charles_Vermot_04.jpg",
+          "provider": "wikimedia",
+          "exact": false
+        },
+        {
+          "file": "/img/watches/zenith-el-primero-chronomaster-42-03-2040-400-3.jpg",
+          "commonsTitle": "Zenith El Primero Automatic Chronograph Movement (18659840408).jpg",
+          "author": "Eric Kilby from Somerville, MA, USA",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Zenith_El_Primero_Automatic_Chronograph_Movement_(18659840408).jpg",
+          "provider": "wikimedia",
+          "exact": false
+        },
+        {
+          "file": "/img/watches/zenith-el-primero-chronomaster-42-03-2040-400-4.jpg",
+          "commonsTitle": "Zenith El Primero 36000.jpg",
+          "author": "Enerexex",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Zenith_El_Primero_36000.jpg",
+          "provider": "wikimedia",
+          "exact": false
+        }
+      ]
+    },
+    "zenith/chronomaster-open": {
+      "brandId": "zenith",
+      "modelId": "chronomaster-open",
+      "reference": null,
+      "photos": [
+        {
+          "file": "/img/watches/zenith-chronomaster-open-1.jpg",
+          "commonsTitle": "Zenith El Primero Chronomaster Open.jpg",
+          "author": "Clyde94",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Zenith_El_Primero_Chronomaster_Open.jpg",
+          "provider": "wikimedia",
+          "exact": false
+        }
+      ]
     }
   },
   "checked": {
@@ -3495,7 +3576,14 @@
     "vacheron-constantin/overseas-chronograph-49150-b01a-9097": "2026-09-01",
     "vacheron-constantin/historiques-222-4200h-222j-b935": "2026-09-01",
     "van-cleef-arpels/alhambra-watch": "2026-09-01",
-    "van-cleef-arpels/lady-arpels-pont-des-amoureux": "2026-09-01"
+    "van-cleef-arpels/lady-arpels-pont-des-amoureux": "2026-09-01",
+    "van-cleef-arpels/pierre-arpels": "2026-09-01",
+    "zenith/chronomaster-sport-03-3100-3600-21-m3100": "2026-09-01",
+    "zenith/chronomaster-original-03-3200-3600-21-m3200": "2026-09-01",
+    "zenith/el-primero-chronomaster-42-03-2040-400": "2026-09-01",
+    "zenith/defy-skyline-03-9300-3620": "2026-09-01",
+    "zenith/chronomaster-open": "2026-09-01",
+    "zenith/defy-skyline-skeleton-03-9300-3620-78": "2026-09-01"
   },
   "brands": {
     "a-lange-soehne": {
@@ -5579,11 +5667,11 @@
     "laurent-ferrier": "2026-08-17",
     "patek-philippe": "2026-08-17",
     "fp-journe": "2026-09-01",
-    "czapek": "2026-08-17",
-    "h-moser": "2026-08-17",
+    "czapek": "2026-09-01",
+    "h-moser": "2026-09-01",
     "rolex": "2026-08-17",
-    "parmigiani": "2026-08-17",
-    "armin-strom": "2026-08-17",
+    "parmigiani": "2026-09-01",
+    "armin-strom": "2026-09-01",
     "vacheron-constantin": "2026-08-17",
     "glashutte-original": "2026-08-17",
     "roger-dubuis": "2026-08-17",
@@ -5605,7 +5693,7 @@
     "tag-heuer": "2026-08-17",
     "tissot": "2026-08-17",
     "richard-mille": "2026-09-01",
-    "piaget": "2026-08-17",
+    "piaget": "2026-09-01",
     "hublot": "2026-08-17",
     "iwc": "2026-08-17",
     "franck-muller": "2026-08-17",
@@ -5615,7 +5703,7 @@
     "tudor": "2026-08-17",
     "moritz-grossmann": "2026-09-01",
     "hyt": "2026-09-01",
-    "urban-jurgensen": "2026-08-17",
+    "urban-jurgensen": "2026-09-01",
     "harry-winston": "2026-08-17",
     "jaquet-droz": "2026-08-17",
     "chronoswiss": "2026-08-17",
