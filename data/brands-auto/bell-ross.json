@@ -1,6 +1,6 @@
 {
   "brandId": "bell-ross",
-  "generatedAt": "2026-09-01T00:53:00.798Z",
+  "generatedAt": "2026-09-01T14:20:32.754Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -28,10 +28,10 @@
         "vintage-reissue"
       ],
       "popular": false,
-      "summary_ja": "ベル&ロスの型番BR03-92。市場で15件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "ベル&ロスの型番BR03-92。市場で14件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Bell & Ross reference BR03-92, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 15,
+      "listingCount": 14,
       "lastSeen": "2026-09-01"
     },
     {
@@ -57,10 +57,10 @@
         "limited-edition"
       ],
       "popular": false,
-      "summary_ja": "ベル&ロスの型番BR0392-D-TR-CE/SRB。市場で11件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "ベル&ロスの型番BR0392-D-TR-CE/SRB。市場で12件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Bell & Ross reference BR0392-D-TR-CE/SRB, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 11,
+      "listingCount": 12,
       "lastSeen": "2026-09-01"
     },
     {
@@ -116,6 +116,34 @@
       "popular": false,
       "summary_ja": "ベル&ロスの型番BR0392-D-WH-BR/SCA。市場で4件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Bell & Ross reference BR0392-D-WH-BR/SCA, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 4,
+      "lastSeen": "2026-09-01"
+    },
+    {
+      "id": "ref-br0394swcesrb",
+      "name_en": "BR0394-SW-CE/SRB",
+      "name_ja": "インストゥルメント マルチメーター BR0394-SW-CE/SRB",
+      "reference": "BR0394-SW-CE/SRB",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 429250,
+      "searchKeywordJa": "ベル&ロス BR0394-SW-CE/SRB",
+      "searchKeywordEn": "Bell & Ross BR0394-SW-CE/SRB",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ベル&ロスの型番BR0394-SW-CE/SRB。市場で4件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Bell & Ross reference BR0394-SW-CE/SRB, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
       "lastSeen": "2026-09-01"
@@ -262,6 +290,34 @@
       "lastSeen": "2026-09-01"
     },
     {
+      "id": "ref-br0392camocesrb",
+      "name_en": "BR0392-CAMO-CE/SRB",
+      "name_ja": "ブラックカモ BR0392-CAMO-CE/SRB",
+      "reference": "BR0392-CAMO-CE/SRB",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 280500,
+      "searchKeywordJa": "ベル&ロス BR0392-CAMO-CE/SRB",
+      "searchKeywordEn": "Bell & Ross BR0392-CAMO-CE/SRB",
+      "caseMaterial": "ceramic",
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ベル&ロスの型番BR0392-CAMO-CE/SRB。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Bell & Ross reference BR0392-CAMO-CE/SRB, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
+      "lastSeen": "2026-09-01"
+    },
+    {
       "id": "ref-br0392a522cesrb",
       "name_en": "BR0392-A522-CE/SRB",
       "name_ja": "BR0392-A522-CE/SRB",
@@ -272,7 +328,7 @@
       "movementType": null,
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 355300,
+      "priceFloorJpy": 344250,
       "searchKeywordJa": "ベル&ロス BR0392-A522-CE/SRB",
       "searchKeywordEn": "Bell & Ross BR0392-A522-CE/SRB",
       "caseMaterial": null,
@@ -285,34 +341,6 @@
       "popular": false,
       "summary_ja": "ベル&ロスの型番BR0392-A522-CE/SRB。市場で3件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Bell & Ross reference BR0392-A522-CE/SRB, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 3,
-      "lastSeen": "2026-09-01"
-    },
-    {
-      "id": "ref-br0394swcesrb",
-      "name_en": "BR0394-SW-CE/SRB",
-      "name_ja": "インストゥルメント マルチメーター BR0394-SW-CE/SRB",
-      "reference": "BR0394-SW-CE/SRB",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 448800,
-      "searchKeywordJa": "ベル&ロス BR0394-SW-CE/SRB",
-      "searchKeywordEn": "Bell & Ross BR0394-SW-CE/SRB",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ベル&ロスの型番BR0394-SW-CE/SRB。市場で3件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Bell & Ross reference BR0394-SW-CE/SRB, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
       "lastSeen": "2026-09-01"
@@ -463,34 +491,6 @@
       "lastSeen": "2026-09-01"
     },
     {
-      "id": "ref-br0392dc",
-      "name_en": "BR03-92-D-C",
-      "name_ja": "ダイバータラ BR03-92-D-C",
-      "reference": "BR03-92-D-C",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 477360,
-      "searchKeywordJa": "ベル&ロス BR03-92-D-C",
-      "searchKeywordEn": "Bell & Ross BR03-92-D-C",
-      "caseMaterial": "ceramic",
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "diver"
-      ],
-      "popular": false,
-      "summary_ja": "ベル&ロスの型番BR03-92-D-C。市場で3件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Bell & Ross reference BR03-92-D-C, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 3,
-      "lastSeen": "2026-09-01"
-    },
-    {
       "id": "ref-br0394rsdcesrb",
       "name_en": "BR0394-RSD-CE/SRB",
       "name_ja": "クロノ ラファール BR0394-RSD-CE/SRB",
@@ -514,34 +514,6 @@
       "popular": false,
       "summary_ja": "ベル&ロスの型番BR0394-RSD-CE/SRB。市場で3件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Bell & Ross reference BR0394-RSD-CE/SRB, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 3,
-      "lastSeen": "2026-09-01"
-    },
-    {
-      "id": "ref-br0394btrcesca",
-      "name_en": "BR03-94-BTR-CE/SCA",
-      "name_ja": "ブラックトラック BR03-94-BTR-CE/SCA",
-      "reference": "BR03-94-BTR-CE/SCA",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 607410,
-      "searchKeywordJa": "ベル&ロス BR03-94-BTR-CE/SCA",
-      "searchKeywordEn": "Bell & Ross BR03-94-BTR-CE/SCA",
-      "caseMaterial": "ceramic",
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "limited-edition"
-      ],
-      "popular": false,
-      "summary_ja": "ベル&ロスの型番BR03-94-BTR-CE/SCA。市場で3件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Bell & Ross reference BR03-94-BTR-CE/SCA, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
       "lastSeen": "2026-09-01"
@@ -605,7 +577,7 @@
     {
       "id": "ref-br12694sp",
       "name_en": "BR126-94-SP",
-      "name_ja": "ヴィンテージ スポーツ BR126-94-SP",
+      "name_ja": "ヴィンテージ クロノグラフ BR126-94-SP",
       "reference": "BR126-94-SP",
       "collection_en": null,
       "collection_ja": null,
@@ -613,7 +585,7 @@
       "movementType": "automatic",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 253300,
+      "priceFloorJpy": 227800,
       "searchKeywordJa": "ベル&ロス BR126-94-SP",
       "searchKeywordEn": "Bell & Ross BR126-94-SP",
       "caseMaterial": null,
@@ -751,6 +723,34 @@
       "lastSeen": "2026-09-01"
     },
     {
+      "id": "ref-br0392dc",
+      "name_en": "BR03-92-D-C",
+      "name_ja": "ダイバータラ BR03-92-D-C",
+      "reference": "BR03-92-D-C",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 477360,
+      "searchKeywordJa": "ベル&ロス BR03-92-D-C",
+      "searchKeywordEn": "Bell & Ross BR03-92-D-C",
+      "caseMaterial": "ceramic",
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "diver"
+      ],
+      "popular": false,
+      "summary_ja": "ベル&ロスの型番BR03-92-D-C。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Bell & Ross reference BR03-92-D-C, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-09-01"
+    },
+    {
       "id": "ref-br0393gnstsrb",
       "name_en": "BR0393-GN-ST/SRB",
       "name_ja": "BR0393-GN-ST/SRB",
@@ -832,6 +832,34 @@
       "popular": false,
       "summary_ja": "ベル&ロスの型番BR-05C-A523-ST/SCA。市場で2件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Bell & Ross reference BR-05C-A523-ST/SCA, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-09-01"
+    },
+    {
+      "id": "ref-br0394btrcesca",
+      "name_en": "BR03-94-BTR-CE/SCA",
+      "name_ja": "ブラックトラック BR03-94-BTR-CE/SCA",
+      "reference": "BR03-94-BTR-CE/SCA",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 607410,
+      "searchKeywordJa": "ベル&ロス BR03-94-BTR-CE/SCA",
+      "searchKeywordEn": "Bell & Ross BR03-94-BTR-CE/SCA",
+      "caseMaterial": "ceramic",
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "ベル&ロスの型番BR03-94-BTR-CE/SCA。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Bell & Ross reference BR03-94-BTR-CE/SCA, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
       "lastSeen": "2026-09-01"

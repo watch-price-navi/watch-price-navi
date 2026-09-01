@@ -1,36 +1,8 @@
 {
   "brandId": "perrelet",
-  "generatedAt": "2026-09-01T02:43:15.012Z",
+  "generatedAt": "2026-09-01T16:06:48.763Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
-    {
-      "id": "ref-3000",
-      "name_en": "3000",
-      "name_ja": "プリーツスクリーン タチカワブラインド 3000",
-      "reference": "3000",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 200000,
-      "searchKeywordJa": "ペルレ 3000",
-      "searchKeywordEn": "Perrelet 3000",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "diver"
-      ],
-      "popular": false,
-      "summary_ja": "ペルレの型番3000。市場で10件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Perrelet reference 3000, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 10,
-      "lastSeen": "2026-09-01"
-    },
     {
       "id": "ref-ps5341",
       "name_en": "PS-5341",
@@ -83,6 +55,34 @@
       "popular": false,
       "summary_ja": "ペルレの型番5343。市場で10件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Perrelet reference 5343, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 10,
+      "lastSeen": "2026-09-01"
+    },
+    {
+      "id": "ref-3000",
+      "name_en": "3000",
+      "name_ja": "プリーツスクリーン タチカワブラインド 3000",
+      "reference": "3000",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 200000,
+      "searchKeywordJa": "ペルレ 3000",
+      "searchKeywordEn": "Perrelet 3000",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "diver"
+      ],
+      "popular": false,
+      "summary_ja": "ペルレの型番3000。市場で10件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Perrelet reference 3000, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 10,
       "lastSeen": "2026-09-01"
@@ -788,34 +788,6 @@
       "lastSeen": "2026-09-01"
     },
     {
-      "id": "ref-vcarn32453",
-      "name_en": "VCARN32453",
-      "name_ja": "VCARN32453",
-      "reference": "VCARN32453",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 346698,
-      "searchKeywordJa": "ペルレ VCARN32453",
-      "searchKeywordEn": "Perrelet VCARN32453",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ペルレの型番VCARN32453。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Perrelet reference VCARN32453, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-09-01"
-    },
-    {
       "id": "ref-vcarp4e356",
       "name_en": "VCARP4E356",
       "name_ja": "ダイヤモンド VCARP4E356",
@@ -1065,6 +1037,34 @@
       "summary_en": "Perrelet reference VCARP27F00, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
+      "lastSeen": "2026-09-01"
+    },
+    {
+      "id": "ref-vcarn32453",
+      "name_en": "VCARN32453",
+      "name_ja": "VCARN32453",
+      "reference": "VCARN32453",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 346698,
+      "searchKeywordJa": "ペルレ VCARN32453",
+      "searchKeywordEn": "Perrelet VCARN32453",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ペルレの型番VCARN32453。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Perrelet reference VCARN32453, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 0,
       "lastSeen": "2026-09-01"
     },
     {

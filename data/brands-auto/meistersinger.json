@@ -1,6 +1,6 @@
 {
   "brandId": "meistersinger",
-  "generatedAt": "2026-09-01T02:15:17.244Z",
+  "generatedAt": "2026-09-01T15:40:09.163Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -81,10 +81,38 @@
         "limited-edition"
       ],
       "popular": false,
-      "summary_ja": "マイスタージンガーの型番PDD365901。市場で14件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "マイスタージンガーの型番PDD365901。市場で15件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "MeisterSinger reference PDD365901, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 14,
+      "listingCount": 15,
+      "lastSeen": "2026-09-01"
+    },
+    {
+      "id": "ref-bm9901g",
+      "name_en": "BM9901G",
+      "name_ja": "ナンバースリー BM9901G",
+      "reference": "BM9901G",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": 38,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 316965,
+      "searchKeywordJa": "マイスタージンガー BM9901G",
+      "searchKeywordEn": "MeisterSinger BM9901G",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "マイスタージンガーの型番BM9901G。市場で13件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "MeisterSinger reference BM9901G, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 13,
       "lastSeen": "2026-09-01"
     },
     {
@@ -139,34 +167,6 @@
       "popular": false,
       "summary_ja": "マイスタージンガーの型番BM9908。市場で12件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "MeisterSinger reference BM9908, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 12,
-      "lastSeen": "2026-09-01"
-    },
-    {
-      "id": "ref-bm9901g",
-      "name_en": "BM9901G",
-      "name_ja": "ナンバースリー BM9901G",
-      "reference": "BM9901G",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": 38,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 316965,
-      "searchKeywordJa": "マイスタージンガー BM9901G",
-      "searchKeywordEn": "MeisterSinger BM9901G",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "limited-edition"
-      ],
-      "popular": false,
-      "summary_ja": "マイスタージンガーの型番BM9901G。市場で12件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "MeisterSinger reference BM9901G, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 12,
       "lastSeen": "2026-09-01"
@@ -391,6 +391,34 @@
       "popular": false,
       "summary_ja": "マイスタージンガーの型番25-M-86。市場で1件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "MeisterSinger reference 25-M-86, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-09-01"
+    },
+    {
+      "id": "ref-refedksodas2025",
+      "name_en": "REF.ED-KSOD-AS2025",
+      "name_ja": "REF.ED-KSOD-AS2025",
+      "reference": "REF.ED-KSOD-AS2025",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 710600,
+      "searchKeywordJa": "マイスタージンガー REF.ED-KSOD-AS2025",
+      "searchKeywordEn": "MeisterSinger REF.ED-KSOD-AS2025",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "マイスタージンガーの型番REF.ED-KSOD-AS2025。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "MeisterSinger reference REF.ED-KSOD-AS2025, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
       "lastSeen": "2026-09-01"
