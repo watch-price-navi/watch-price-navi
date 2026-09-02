@@ -1,6 +1,6 @@
 {
   "brandId": "chronoswiss",
-  "generatedAt": "2026-09-02T00:03:03.479Z",
+  "generatedAt": "2026-09-02T14:22:29.915Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -80,7 +80,8 @@
       "gender": "ladies",
       "releaseYear": null,
       "tags": [
-        "chronograph"
+        "chronograph",
+        "limited-edition"
       ],
       "popular": false,
       "summary_ja": "クロノスイスの型番CH2023K。市場で5件の出品が確認された、実際に流通しているモデルです。",
@@ -457,34 +458,6 @@
       "lastSeen": "2026-09-02"
     },
     {
-      "id": "ref-ch12431",
-      "name_en": "CH1243.1",
-      "name_ja": "シリウス レギュレーター CH1243.1",
-      "reference": "CH1243.1",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 418880,
-      "searchKeywordJa": "クロノスイス CH1243.1",
-      "searchKeywordEn": "Chronoswiss CH1243.1",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "chronograph"
-      ],
-      "popular": false,
-      "summary_ja": "クロノスイスの型番CH1243.1。市場で3件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Chronoswiss reference CH1243.1, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 3,
-      "lastSeen": "2026-09-02"
-    },
-    {
       "id": "ref-ch6322",
       "name_en": "CH6322",
       "name_ja": "レギュレーター CH6322",
@@ -508,6 +481,34 @@
       "popular": false,
       "summary_ja": "クロノスイスの型番CH6322。市場で3件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Chronoswiss reference CH6322, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
+      "lastSeen": "2026-09-02"
+    },
+    {
+      "id": "ref-ch12431",
+      "name_en": "CH1243.1",
+      "name_ja": "シリウス レギュレーター CH1243.1",
+      "reference": "CH1243.1",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 418880,
+      "searchKeywordJa": "クロノスイス CH1243.1",
+      "searchKeywordEn": "Chronoswiss CH1243.1",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph"
+      ],
+      "popular": false,
+      "summary_ja": "クロノスイスの型番CH1243.1。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Chronoswiss reference CH1243.1, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
       "lastSeen": "2026-09-02"
@@ -1193,6 +1194,35 @@
       "lastSeen": "2026-09-02"
     },
     {
+      "id": "ref-refch6725bkbk",
+      "name_en": "REF.CH-6725-BKBK",
+      "name_ja": "フラインググランドレギュ レーター REF.CH-6725-BKBK",
+      "reference": "REF.CH-6725-BKBK",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 567800,
+      "searchKeywordJa": "クロノスイス REF.CH-6725-BKBK",
+      "searchKeywordEn": "Chronoswiss REF.CH-6725-BKBK",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph",
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "クロノスイスの型番REF.CH-6725-BKBK。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Chronoswiss reference REF.CH-6725-BKBK, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-09-02"
+    },
+    {
       "id": "ref-ch12433blbl",
       "name_en": "CH-1243.3-BLBL",
       "name_ja": "シリウス フライングレギュレター CH-1243.3-BLBL",
@@ -1249,35 +1279,6 @@
       "lastSeen": "2026-09-02"
     },
     {
-      "id": "ref-ch7541lr",
-      "name_en": "CH-7541LR",
-      "name_ja": "クロノグラフ ポインターデイト CH-7541LR",
-      "reference": "CH-7541LR",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 1474495,
-      "searchKeywordJa": "クロノスイス CH-7541LR",
-      "searchKeywordEn": "Chronoswiss CH-7541LR",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "chronograph",
-        "moonphase"
-      ],
-      "popular": false,
-      "summary_ja": "クロノスイスの型番CH-7541LR。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Chronoswiss reference CH-7541LR, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-09-02"
-    },
-    {
       "id": "ref-ch93431",
       "name_en": "CH-9343.1",
       "name_ja": "CH-9343.1",
@@ -1296,8 +1297,7 @@
       "gender": "mens",
       "releaseYear": null,
       "tags": [
-        "chronograph",
-        "limited-edition"
+        "chronograph"
       ],
       "popular": false,
       "summary_ja": "クロノスイスの型番CH-9343.1。市場で1件の出品が確認された、実際に流通しているモデルです。",
@@ -1417,6 +1417,35 @@
       "summary_en": "Chronoswiss reference CH2703, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
+      "lastSeen": "2026-09-02"
+    },
+    {
+      "id": "ref-ch7541lr",
+      "name_en": "CH-7541LR",
+      "name_ja": "クロノグラフ ポインターデイト CH-7541LR",
+      "reference": "CH-7541LR",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 1474495,
+      "searchKeywordJa": "クロノスイス CH-7541LR",
+      "searchKeywordEn": "Chronoswiss CH-7541LR",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph",
+        "moonphase"
+      ],
+      "popular": false,
+      "summary_ja": "クロノスイスの型番CH-7541LR。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Chronoswiss reference CH-7541LR, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 0,
       "lastSeen": "2026-09-02"
     },
     {

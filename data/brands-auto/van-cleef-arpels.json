@@ -1,6 +1,6 @@
 {
   "brandId": "van-cleef-arpels",
-  "generatedAt": "2026-09-02T01:59:07.872Z",
+  "generatedAt": "2026-09-02T16:23:30.385Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -50,7 +50,7 @@
       "gender": "ladies",
       "releaseYear": null,
       "tags": [
-        "sport"
+        "limited-edition"
       ],
       "popular": false,
       "summary_ja": "ヴァン クリーフ&アーペルの型番VCARO29900。市場で6件の出品が確認された、実際に流通しているモデルです。",
@@ -340,34 +340,6 @@
       "lastSeen": "2026-09-02"
     },
     {
-      "id": "ref-vcard67400",
-      "name_en": "VCARD67400",
-      "name_ja": "ヴァンクリーフ アーペル VCARD67400",
-      "reference": "VCARD67400",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "quartz",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 771842,
-      "searchKeywordJa": "ヴァン クリーフ&アーペル VCARD67400",
-      "searchKeywordEn": "Van Cleef & Arpels VCARD67400",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ヴァン クリーフ&アーペルの型番VCARD67400。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Van Cleef & Arpels reference VCARD67400, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-09-02"
-    },
-    {
       "id": "ref-vcaro8sf00hh1",
       "name_en": "VCARO8SF00/HH1",
       "name_ja": "ヴァンクリーフ アーペルズ VCARO8SF00/HH1",
@@ -447,6 +419,34 @@
       "popular": false,
       "summary_ja": "ヴァン クリーフ&アーペルの型番122974/511BN。市場で2件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Van Cleef & Arpels reference 122974/511BN, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-09-02"
+    },
+    {
+      "id": "ref-vcard67400",
+      "name_en": "VCARD67400",
+      "name_ja": "ヴァンクリーフ アーペル VCARD67400",
+      "reference": "VCARD67400",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "quartz",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 771842,
+      "searchKeywordJa": "ヴァン クリーフ&アーペル VCARD67400",
+      "searchKeywordEn": "Van Cleef & Arpels VCARD67400",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ヴァン クリーフ&アーペルの型番VCARD67400。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Van Cleef & Arpels reference VCARD67400, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
       "lastSeen": "2026-09-02"
@@ -900,34 +900,6 @@
       "lastSeen": "2026-09-02"
     },
     {
-      "id": "ref-322945b2",
-      "name_en": "322945B2",
-      "name_ja": "322945B2",
-      "reference": "322945B2",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "quartz",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 423300,
-      "searchKeywordJa": "ヴァン クリーフ&アーペル 322945B2",
-      "searchKeywordEn": "Van Cleef & Arpels 322945B2",
-      "caseMaterial": "white-gold",
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ヴァン クリーフ&アーペルの型番322945B2。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Van Cleef & Arpels reference 322945B2, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-09-02"
-    },
-    {
       "id": "ref-115101",
       "name_en": "115101",
       "name_ja": "115101",
@@ -951,6 +923,34 @@
       "popular": false,
       "summary_ja": "ヴァン クリーフ&アーペルの型番115101。市場で1件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Van Cleef & Arpels reference 115101, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-09-02"
+    },
+    {
+      "id": "ref-322945b2",
+      "name_en": "322945B2",
+      "name_ja": "322945B2",
+      "reference": "322945B2",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "quartz",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 423300,
+      "searchKeywordJa": "ヴァン クリーフ&アーペル 322945B2",
+      "searchKeywordEn": "Van Cleef & Arpels 322945B2",
+      "caseMaterial": "white-gold",
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ヴァン クリーフ&アーペルの型番322945B2。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Van Cleef & Arpels reference 322945B2, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
       "lastSeen": "2026-09-02"
@@ -984,34 +984,6 @@
       "lastSeen": "2026-09-02"
     },
     {
-      "id": "ref-357164",
-      "name_en": "357164",
-      "name_ja": "357164",
-      "reference": "357164",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 884000,
-      "searchKeywordJa": "ヴァン クリーフ&アーペル 357164",
-      "searchKeywordEn": "Van Cleef & Arpels 357164",
-      "caseMaterial": "white-gold",
-      "waterResistanceM": null,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ヴァン クリーフ&アーペルの型番357164。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Van Cleef & Arpels reference 357164, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-09-02"
-    },
-    {
       "id": "ref-hh70765",
       "name_en": "HH70765",
       "name_ja": "ヴァンクリーフ アーペル HH70765",
@@ -1035,6 +1007,34 @@
       "popular": false,
       "summary_ja": "ヴァン クリーフ&アーペルの型番HH70765。市場で1件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Van Cleef & Arpels reference HH70765, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-09-02"
+    },
+    {
+      "id": "ref-357164",
+      "name_en": "357164",
+      "name_ja": "357164",
+      "reference": "357164",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 884000,
+      "searchKeywordJa": "ヴァン クリーフ&アーペル 357164",
+      "searchKeywordEn": "Van Cleef & Arpels 357164",
+      "caseMaterial": "white-gold",
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ヴァン クリーフ&アーペルの型番357164。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Van Cleef & Arpels reference 357164, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
       "lastSeen": "2026-09-02"
