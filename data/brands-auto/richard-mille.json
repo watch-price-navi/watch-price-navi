@@ -1,6 +1,6 @@
 {
   "brandId": "richard-mille",
-  "generatedAt": "2026-09-03T01:26:48.099Z",
+  "generatedAt": "2026-09-03T15:43:34.853Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -26,10 +26,10 @@
         "skeleton"
       ],
       "popular": false,
-      "summary_ja": "リシャール・ミルの型番RM65-01。市場で43件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "リシャール・ミルの型番RM65-01。市場で41件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Richard Mille reference RM65-01, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 43,
+      "listingCount": 41,
       "lastSeen": "2026-09-03"
     },
     {
@@ -54,10 +54,10 @@
         "chronograph"
       ],
       "popular": false,
-      "summary_ja": "リシャール・ミルの型番RM11-03FQ。市場で32件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "リシャール・ミルの型番RM11-03FQ。市場で36件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Richard Mille reference RM11-03FQ, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 32,
+      "listingCount": 36,
       "lastSeen": "2026-09-03"
     },
     {
@@ -82,10 +82,10 @@
         "sport"
       ],
       "popular": false,
-      "summary_ja": "リシャール・ミルの型番RM011-03。市場で20件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "リシャール・ミルの型番RM011-03。市場で21件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Richard Mille reference RM011-03, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 20,
+      "listingCount": 21,
       "lastSeen": "2026-09-03"
     },
     {
@@ -145,34 +145,6 @@
       "lastSeen": "2026-09-03"
     },
     {
-      "id": "ref-rm1103ca",
-      "name_en": "RM11-03CA",
-      "name_ja": "グレー RM11-03CA",
-      "reference": "RM11-03CA",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 54230000,
-      "searchKeywordJa": "リシャール・ミル RM11-03CA",
-      "searchKeywordEn": "Richard Mille RM11-03CA",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "リシャール・ミルの型番RM11-03CA。市場で17件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Richard Mille reference RM11-03CA, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 17,
-      "lastSeen": "2026-09-03"
-    },
-    {
       "id": "ref-rm1103mclcafq",
       "name_en": "RM11-03MCLCA-FQ",
       "name_ja": "マクラーレン グレー RM11-03MCLCA-FQ",
@@ -196,6 +168,34 @@
       "popular": false,
       "summary_ja": "リシャール・ミルの型番RM11-03MCLCA-FQ。市場で16件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Richard Mille reference RM11-03MCLCA-FQ, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 16,
+      "lastSeen": "2026-09-03"
+    },
+    {
+      "id": "ref-rm1103ca",
+      "name_en": "RM11-03CA",
+      "name_ja": "グレー RM11-03CA",
+      "reference": "RM11-03CA",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 54230000,
+      "searchKeywordJa": "リシャール・ミル RM11-03CA",
+      "searchKeywordEn": "Richard Mille RM11-03CA",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "リシャール・ミルの型番RM11-03CA。市場で16件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Richard Mille reference RM11-03CA, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 16,
       "lastSeen": "2026-09-03"
@@ -398,6 +398,35 @@
       "lastSeen": "2026-09-03"
     },
     {
+      "id": "ref-mon00477",
+      "name_en": "MON-00477",
+      "name_ja": "リシャールミル オートマティック MON-00477",
+      "reference": "MON-00477",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 8260164,
+      "searchKeywordJa": "リシャール・ミル MON-00477",
+      "searchKeywordEn": "Richard Mille MON-00477",
+      "caseMaterial": "titanium",
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "diver",
+        "lightweight"
+      ],
+      "popular": false,
+      "summary_ja": "リシャール・ミルの型番MON-00477。市場で4件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Richard Mille reference MON-00477, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 4,
+      "lastSeen": "2026-09-03"
+    },
+    {
       "id": "ref-37246",
       "name_en": "37246",
       "name_ja": "リシャールミル カスタム 37246",
@@ -449,35 +478,6 @@
       "popular": false,
       "summary_ja": "リシャール・ミルの型番MON-01908。市場で3件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Richard Mille reference MON-01908, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 3,
-      "lastSeen": "2026-09-03"
-    },
-    {
-      "id": "ref-mon00477",
-      "name_en": "MON-00477",
-      "name_ja": "リシャールミル オートマティック MON-00477",
-      "reference": "MON-00477",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 8260164,
-      "searchKeywordJa": "リシャール・ミル MON-00477",
-      "searchKeywordEn": "Richard Mille MON-00477",
-      "caseMaterial": "titanium",
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "diver",
-        "lightweight"
-      ],
-      "popular": false,
-      "summary_ja": "リシャール・ミルの型番MON-00477。市場で3件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Richard Mille reference MON-00477, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
       "lastSeen": "2026-09-03"
