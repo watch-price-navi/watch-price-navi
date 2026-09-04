@@ -1,6 +1,6 @@
 {
   "brandId": "van-cleef-arpels",
-  "generatedAt": "2026-09-04T02:02:18.522Z",
+  "generatedAt": "2026-09-04T16:14:44.268Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -27,6 +27,34 @@
       "popular": false,
       "summary_ja": "ヴァン クリーフ&アーペルの型番136574。市場で6件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Van Cleef & Arpels reference 136574, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 6,
+      "lastSeen": "2026-09-04"
+    },
+    {
+      "id": "ref-vcard22000",
+      "name_en": "VCARD22000",
+      "name_ja": "アルハンブラ スモールモデル VCARD22000",
+      "reference": "VCARD22000",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": 26,
+      "movementType": "quartz",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 710600,
+      "searchKeywordJa": "ヴァン クリーフ&アーペル VCARD22000",
+      "searchKeywordEn": "Van Cleef & Arpels VCARD22000",
+      "caseMaterial": "yellow-gold",
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ヴァン クリーフ&アーペルの型番VCARD22000。市場で6件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Van Cleef & Arpels reference VCARD22000, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
       "lastSeen": "2026-09-04"
@@ -88,34 +116,6 @@
       "lastSeen": "2026-09-04"
     },
     {
-      "id": "ref-vcard22000",
-      "name_en": "VCARD22000",
-      "name_ja": "アルハンブラ スモールモデル VCARD22000",
-      "reference": "VCARD22000",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 740239,
-      "searchKeywordJa": "ヴァン クリーフ&アーペル VCARD22000",
-      "searchKeywordEn": "Van Cleef & Arpels VCARD22000",
-      "caseMaterial": "yellow-gold",
-      "waterResistanceM": null,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ヴァン クリーフ&アーペルの型番VCARD22000。市場で4件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Van Cleef & Arpels reference VCARD22000, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 4,
-      "lastSeen": "2026-09-04"
-    },
-    {
       "id": "ref-122974",
       "name_en": "122974",
       "name_ja": "ヴァンクリーフ アーペル 122974",
@@ -139,34 +139,6 @@
       "popular": false,
       "summary_ja": "ヴァン クリーフ&アーペルの型番122974。市場で4件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Van Cleef & Arpels reference 122974, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 4,
-      "lastSeen": "2026-09-04"
-    },
-    {
-      "id": "ref-vcard21900",
-      "name_en": "VCARD21900",
-      "name_ja": "アルハンブラ スモール VCARD21900",
-      "reference": "VCARD21900",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "quartz",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 820930,
-      "searchKeywordJa": "ヴァン クリーフ&アーペル VCARD21900",
-      "searchKeywordEn": "Van Cleef & Arpels VCARD21900",
-      "caseMaterial": "yellow-gold",
-      "waterResistanceM": null,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ヴァン クリーフ&アーペルの型番VCARD21900。市場で4件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Van Cleef & Arpels reference VCARD21900, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
       "lastSeen": "2026-09-04"
@@ -213,7 +185,7 @@
       "priceFloorJpy": 401863,
       "searchKeywordJa": "ヴァン クリーフ&アーペル 423.003",
       "searchKeywordEn": "Van Cleef & Arpels 423.003",
-      "caseMaterial": "two-tone",
+      "caseMaterial": "stainless-steel",
       "waterResistanceM": null,
       "gender": "mens",
       "releaseYear": null,
@@ -452,6 +424,34 @@
       "lastSeen": "2026-09-04"
     },
     {
+      "id": "ref-vcard21900",
+      "name_en": "VCARD21900",
+      "name_ja": "ヴァンクリーフ アーペル VCARD21900",
+      "reference": "VCARD21900",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "quartz",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 1047388,
+      "searchKeywordJa": "ヴァン クリーフ&アーペル VCARD21900",
+      "searchKeywordEn": "Van Cleef & Arpels VCARD21900",
+      "caseMaterial": "yellow-gold",
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ヴァン クリーフ&アーペルの型番VCARD21900。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Van Cleef & Arpels reference VCARD21900, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-09-04"
+    },
+    {
       "id": "ref-a2500825",
       "name_en": "A2500825",
       "name_ja": "ヴァンクリーフ アーペル A2500825",
@@ -531,34 +531,6 @@
       "popular": false,
       "summary_ja": "ヴァン クリーフ&アーペルの型番VCAR029800。市場で2件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Van Cleef & Arpels reference VCAR029800, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-09-04"
-    },
-    {
-      "id": "ref-vcarm95800",
-      "name_en": "VCARM95800",
-      "name_ja": "ヴァンクリーフ アーペル VCARM95800",
-      "reference": "VCARM95800",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 1335180,
-      "searchKeywordJa": "ヴァン クリーフ&アーペル VCARM95800",
-      "searchKeywordEn": "Van Cleef & Arpels VCARM95800",
-      "caseMaterial": "white-gold",
-      "waterResistanceM": null,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ヴァン クリーフ&アーペルの型番VCARM95800。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Van Cleef & Arpels reference VCARM95800, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
       "lastSeen": "2026-09-04"
@@ -778,7 +750,7 @@
       "gender": "unisex",
       "releaseYear": null,
       "tags": [
-        "sport"
+        "limited-edition"
       ],
       "popular": false,
       "summary_ja": "ヴァン クリーフ&アーペルの型番522363。市場で1件の出品が確認された、実際に流通しているモデルです。",
@@ -918,7 +890,7 @@
       "gender": "unisex",
       "releaseYear": null,
       "tags": [
-        "sport"
+        "limited-edition"
       ],
       "popular": false,
       "summary_ja": "ヴァン クリーフ&アーペルの型番115101。市場で1件の出品が確認された、実際に流通しているモデルです。",
@@ -1124,20 +1096,20 @@
       "lastSeen": "2026-09-04"
     },
     {
-      "id": "ref-vcar029700",
-      "name_en": "VCAR029700",
-      "name_ja": "ヴァンクリーフ アーペル VCAR029700",
-      "reference": "VCAR029700",
+      "id": "ref-vcarm95800",
+      "name_en": "VCARM95800",
+      "name_ja": "VCARM95800",
+      "reference": "VCARM95800",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
-      "movementType": "quartz",
+      "movementType": null,
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 1168750,
-      "searchKeywordJa": "ヴァン クリーフ&アーペル VCAR029700",
-      "searchKeywordEn": "Van Cleef & Arpels VCAR029700",
-      "caseMaterial": "rose-gold",
+      "priceFloorJpy": 1335180,
+      "searchKeywordJa": "ヴァン クリーフ&アーペル VCARM95800",
+      "searchKeywordEn": "Van Cleef & Arpels VCARM95800",
+      "caseMaterial": "white-gold",
       "waterResistanceM": null,
       "gender": "ladies",
       "releaseYear": null,
@@ -1145,8 +1117,8 @@
         "sport"
       ],
       "popular": false,
-      "summary_ja": "ヴァン クリーフ&アーペルの型番VCAR029700。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Van Cleef & Arpels reference VCAR029700, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ヴァン クリーフ&アーペルの型番VCARM95800。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Van Cleef & Arpels reference VCARM95800, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
       "lastSeen": "2026-09-04"
@@ -1317,6 +1289,34 @@
       "summary_en": "Van Cleef & Arpels reference VCARO8T500, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
+      "lastSeen": "2026-09-04"
+    },
+    {
+      "id": "ref-vcar029700",
+      "name_en": "VCAR029700",
+      "name_ja": "ヴァンクリーフ アーペル VCAR029700",
+      "reference": "VCAR029700",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "quartz",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 1168750,
+      "searchKeywordJa": "ヴァン クリーフ&アーペル VCAR029700",
+      "searchKeywordEn": "Van Cleef & Arpels VCAR029700",
+      "caseMaterial": "rose-gold",
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ヴァン クリーフ&アーペルの型番VCAR029700。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Van Cleef & Arpels reference VCAR029700, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 0,
       "lastSeen": "2026-09-04"
     },
     {

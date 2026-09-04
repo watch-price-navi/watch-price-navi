@@ -1,6 +1,6 @@
 {
   "brandId": "ball-watch",
-  "generatedAt": "2026-09-03T23:29:17.110Z",
+  "generatedAt": "2026-09-04T13:42:07.774Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -34,7 +34,7 @@
       "summary_en": "Ball Watch reference 1000, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 19,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-dm2280as1cjbk",
@@ -47,7 +47,7 @@
       "movementType": "automatic",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 222530,
+      "priceFloorJpy": 150000,
       "searchKeywordJa": "ボール ウォッチ DM2280A-S1CJ-BK",
       "searchKeywordEn": "Ball Watch DM2280A-S1CJ-BK",
       "caseMaterial": null,
@@ -60,11 +60,41 @@
         "limited-edition"
       ],
       "popular": false,
-      "summary_ja": "ボール ウォッチの型番DM2280A-S1CJ-BK。市場で9件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "ボール ウォッチの型番DM2280A-S1CJ-BK。市場で10件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Ball Watch reference DM2280A-S1CJ-BK, currently offered by multiple sellers in Japan.",
       "source": "auto",
+      "listingCount": 10,
+      "lastSeen": "2026-09-04"
+    },
+    {
+      "id": "ref-dm2118bs1cjbk",
+      "name_en": "DM2118B-S1CJ-BK",
+      "name_ja": "ボールウォッチ エンジニア DM2118B-S1CJ-BK",
+      "reference": "DM2118B-S1CJ-BK",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": 42.8,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 158400,
+      "searchKeywordJa": "ボール ウォッチ DM2118B-S1CJ-BK",
+      "searchKeywordEn": "Ball Watch DM2118B-S1CJ-BK",
+      "caseMaterial": "carbon",
+      "waterResistanceM": 200,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "diver",
+        "chronograph",
+        "lightweight"
+      ],
+      "popular": false,
+      "summary_ja": "ボール ウォッチの型番DM2118B-S1CJ-BK。市場で9件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ball Watch reference DM2118B-S1CJ-BK, currently offered by multiple sellers in Japan.",
+      "source": "auto",
       "listingCount": 9,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-nm9026cs6cjgr",
@@ -92,65 +122,7 @@
       "summary_en": "Ball Watch reference NM9026C-S6CJ-GR, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 9,
-      "lastSeen": "2026-09-03"
-    },
-    {
-      "id": "ref-nm2098cs3jbk",
-      "name_en": "NM2098C-S3J-BK",
-      "name_ja": "ストークマン ヴィクトリー NM2098C-S3J-BK",
-      "reference": "NM2098C-S3J-BK",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": 40,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 150000,
-      "searchKeywordJa": "ボール ウォッチ NM2098C-S3J-BK",
-      "searchKeywordEn": "Ball Watch NM2098C-S3J-BK",
-      "caseMaterial": "stainless-steel",
-      "waterResistanceM": 100,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ボール ウォッチの型番NM2098C-S3J-BK。市場で8件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Ball Watch reference NM2098C-S3J-BK, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 8,
-      "lastSeen": "2026-09-03"
-    },
-    {
-      "id": "ref-dm2118bs1cjbk",
-      "name_en": "DM2118B-S1CJ-BK",
-      "name_ja": "ボールウォッチ エンジニア DM2118B-S1CJ-BK",
-      "reference": "DM2118B-S1CJ-BK",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": 42.8,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 158400,
-      "searchKeywordJa": "ボール ウォッチ DM2118B-S1CJ-BK",
-      "searchKeywordEn": "Ball Watch DM2118B-S1CJ-BK",
-      "caseMaterial": "carbon",
-      "waterResistanceM": 200,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "diver",
-        "chronograph",
-        "lightweight"
-      ],
-      "popular": false,
-      "summary_ja": "ボール ウォッチの型番DM2118B-S1CJ-BK。市場で8件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Ball Watch reference DM2118B-S1CJ-BK, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 8,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-dc3226as3cjbe",
@@ -180,35 +152,35 @@
       "summary_en": "Ball Watch reference DC3226A-S3CJ-BE, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 8,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
-      "id": "ref-nl2098cs6jwh",
-      "name_en": "NL2098C-S6J-WH",
-      "name_ja": "ボールウォッチ ヴィクトリー NL2098C-S6J-WH",
-      "reference": "NL2098C-S6J-WH",
+      "id": "ref-nm2098cs3jbk",
+      "name_en": "NM2098C-S3J-BK",
+      "name_ja": "ストークマン ヴィクトリー NM2098C-S3J-BK",
+      "reference": "NM2098C-S3J-BK",
       "collection_en": null,
       "collection_ja": null,
-      "caseSizeMm": null,
+      "caseSizeMm": 40,
       "movementType": "automatic",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 252450,
-      "searchKeywordJa": "ボール ウォッチ NL2098C-S6J-WH",
-      "searchKeywordEn": "Ball Watch NL2098C-S6J-WH",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
+      "priceFloorJpy": 150000,
+      "searchKeywordJa": "ボール ウォッチ NM2098C-S3J-BK",
+      "searchKeywordEn": "Ball Watch NM2098C-S3J-BK",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": 100,
+      "gender": "mens",
       "releaseYear": null,
       "tags": [
         "sport"
       ],
       "popular": false,
-      "summary_ja": "ボール ウォッチの型番NL2098C-S6J-WH。市場で7件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Ball Watch reference NL2098C-S6J-WH, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ボール ウォッチの型番NM2098C-S3J-BK。市場で7件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ball Watch reference NM2098C-S3J-BK, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 7,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-dg9000bs1cjbk",
@@ -237,7 +209,7 @@
       "summary_en": "Ball Watch reference DG9000B-S1CJ-BK, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 7,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-dm2280as1cjbe",
@@ -267,7 +239,38 @@
       "summary_en": "Ball Watch reference DM2280A-S1CJ-BE, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 7,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
+    },
+    {
+      "id": "ref-dg3038as1cjbk",
+      "name_en": "DG3038A-S1CJ-BK",
+      "name_ja": "ボールウォッチ ローン DG3038A-S1CJ-BK",
+      "reference": "DG3038A-S1CJ-BK",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": 40,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 476850,
+      "searchKeywordJa": "ボール ウォッチ DG3038A-S1CJ-BK",
+      "searchKeywordEn": "Ball Watch DG3038A-S1CJ-BK",
+      "caseMaterial": "ceramic",
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph",
+        "gmt",
+        "pilot",
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "ボール ウォッチの型番DG3038A-S1CJ-BK。市場で7件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ball Watch reference DG3038A-S1CJ-BK, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 7,
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-dg3038as2cjbk",
@@ -300,7 +303,7 @@
       "summary_en": "Ball Watch reference DG3038A-S2CJ-BK, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 7,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-nm9026cs6cjibe",
@@ -309,7 +312,7 @@
       "reference": "NM9026C-S6CJ-IBE",
       "collection_en": null,
       "collection_ja": null,
-      "caseSizeMm": null,
+      "caseSizeMm": 40,
       "movementType": "automatic",
       "caliber": null,
       "listPriceJpy": null,
@@ -329,22 +332,50 @@
       "summary_en": "Ball Watch reference NM9026C-S6CJ-IBE, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
-      "id": "ref-nm2098cs5jbe",
-      "name_en": "NM2098C-S5J-BE",
-      "name_ja": "ボールウォッチ ストークマン NM2098C-S5J-BE",
-      "reference": "NM2098C-S5J-BE",
+      "id": "ref-nm2098cs5jbk",
+      "name_en": "NM2098C-S5J-BK",
+      "name_ja": "ボールウォッチ ヴィクトリー NM2098C-S5J-BK",
+      "reference": "NM2098C-S5J-BK",
       "collection_en": null,
       "collection_ja": null,
-      "caseSizeMm": null,
+      "caseSizeMm": 40,
       "movementType": "automatic",
       "caliber": null,
       "listPriceJpy": null,
       "priceFloorJpy": 233750,
-      "searchKeywordJa": "ボール ウォッチ NM2098C-S5J-BE",
-      "searchKeywordEn": "Ball Watch NM2098C-S5J-BE",
+      "searchKeywordJa": "ボール ウォッチ NM2098C-S5J-BK",
+      "searchKeywordEn": "Ball Watch NM2098C-S5J-BK",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": 50,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ボール ウォッチの型番NM2098C-S5J-BK。市場で6件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ball Watch reference NM2098C-S5J-BK, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 6,
+      "lastSeen": "2026-09-04"
+    },
+    {
+      "id": "ref-nm2098cs26jwh",
+      "name_en": "NM2098C-S26J-WH",
+      "name_ja": "ボールウォッチ ストークマン NM2098C-S26J-WH",
+      "reference": "NM2098C-S26J-WH",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": 40,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 252450,
+      "searchKeywordJa": "ボール ウォッチ NM2098C-S26J-WH",
+      "searchKeywordEn": "Ball Watch NM2098C-S26J-WH",
       "caseMaterial": "stainless-steel",
       "waterResistanceM": 100,
       "gender": "mens",
@@ -353,42 +384,11 @@
         "sport"
       ],
       "popular": false,
-      "summary_ja": "ボール ウォッチの型番NM2098C-S5J-BE。市場で6件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Ball Watch reference NM2098C-S5J-BE, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ボール ウォッチの型番NM2098C-S26J-WH。市場で6件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ball Watch reference NM2098C-S26J-WH, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-09-03"
-    },
-    {
-      "id": "ref-dg3038as1cjbk",
-      "name_en": "DG3038A-S1CJ-BK",
-      "name_ja": "ボールウォッチ ローン DG3038A-S1CJ-BK",
-      "reference": "DG3038A-S1CJ-BK",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": 40,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 476850,
-      "searchKeywordJa": "ボール ウォッチ DG3038A-S1CJ-BK",
-      "searchKeywordEn": "Ball Watch DG3038A-S1CJ-BK",
-      "caseMaterial": "ceramic",
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "chronograph",
-        "gmt",
-        "pilot",
-        "limited-edition"
-      ],
-      "popular": false,
-      "summary_ja": "ボール ウォッチの型番DG3038A-S1CJ-BK。市場で6件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Ball Watch reference DG3038A-S1CJ-BK, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 6,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-dc3030csjwhbk",
@@ -418,7 +418,35 @@
       "summary_en": "Ball Watch reference DC3030C-SJ-WHBK, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
+    },
+    {
+      "id": "ref-nm2098cs5jbe",
+      "name_en": "NM2098C-S5J-BE",
+      "name_ja": "ボールウォッチ ストークマン NM2098C-S5J-BE",
+      "reference": "NM2098C-S5J-BE",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 233750,
+      "searchKeywordJa": "ボール ウォッチ NM2098C-S5J-BE",
+      "searchKeywordEn": "Ball Watch NM2098C-S5J-BE",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": 100,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ボール ウォッチの型番NM2098C-S5J-BE。市場で5件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ball Watch reference NM2098C-S5J-BE, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 5,
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-dm2118bs2cjbk",
@@ -447,13 +475,13 @@
       "summary_en": "Ball Watch reference DM2118B-S2CJ-BK, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
-      "id": "ref-nm2098cs26jwh",
-      "name_en": "NM2098C-S26J-WH",
-      "name_ja": "ボールウォッチ ストークマン NM2098C-S26J-WH",
-      "reference": "NM2098C-S26J-WH",
+      "id": "ref-nm2098cs26jwhr",
+      "name_en": "NM2098C-S26J-WHR",
+      "name_ja": "ボールウォッチ ストークマン NM2098C-S26J-WHR",
+      "reference": "NM2098C-S26J-WHR",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": 40,
@@ -461,138 +489,49 @@
       "caliber": null,
       "listPriceJpy": null,
       "priceFloorJpy": 252450,
-      "searchKeywordJa": "ボール ウォッチ NM2098C-S26J-WH",
-      "searchKeywordEn": "Ball Watch NM2098C-S26J-WH",
+      "searchKeywordJa": "ボール ウォッチ NM2098C-S26J-WHR",
+      "searchKeywordEn": "Ball Watch NM2098C-S26J-WHR",
       "caseMaterial": "stainless-steel",
-      "waterResistanceM": 100,
+      "waterResistanceM": 50,
       "gender": "mens",
       "releaseYear": null,
       "tags": [
         "sport"
       ],
       "popular": false,
-      "summary_ja": "ボール ウォッチの型番NM2098C-S26J-WH。市場で5件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Ball Watch reference NM2098C-S26J-WH, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ボール ウォッチの型番NM2098C-S26J-WHR。市場で5件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ball Watch reference NM2098C-S26J-WHR, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
-      "id": "ref-nm9026cs5cjsl",
-      "name_en": "NM9026C-S5CJ-SL",
-      "name_ja": "ボールウォッチ オハイオ NM9026C-S5CJ-SL",
-      "reference": "NM9026C-S5CJ-SL",
+      "id": "ref-nl2098cs6jwh",
+      "name_en": "NL2098C-S6J-WH",
+      "name_ja": "ボールウォッチ ヴィクトリー NL2098C-S6J-WH",
+      "reference": "NL2098C-S6J-WH",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
       "movementType": "automatic",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 317900,
-      "searchKeywordJa": "ボール ウォッチ NM9026C-S5CJ-SL",
-      "searchKeywordEn": "Ball Watch NM9026C-S5CJ-SL",
+      "priceFloorJpy": 252450,
+      "searchKeywordJa": "ボール ウォッチ NL2098C-S6J-WH",
+      "searchKeywordEn": "Ball Watch NL2098C-S6J-WH",
       "caseMaterial": null,
       "waterResistanceM": null,
-      "gender": "mens",
+      "gender": "unisex",
       "releaseYear": null,
       "tags": [
-        "chronograph"
+        "sport"
       ],
       "popular": false,
-      "summary_ja": "ボール ウォッチの型番NM9026C-S5CJ-SL。市場で5件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Ball Watch reference NM9026C-S5CJ-SL, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ボール ウォッチの型番NL2098C-S6J-WH。市場で5件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ball Watch reference NL2098C-S6J-WH, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-09-03"
-    },
-    {
-      "id": "ref-nm9026cs6cjbk",
-      "name_en": "NM9026C-S6CJ-BK",
-      "name_ja": "ボールウォッチ エンジニア NM9026C-S6CJ-BK",
-      "reference": "NM9026C-S6CJ-BK",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": 40,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 355300,
-      "searchKeywordJa": "ボール ウォッチ NM9026C-S6CJ-BK",
-      "searchKeywordEn": "Ball Watch NM9026C-S6CJ-BK",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "chronograph"
-      ],
-      "popular": false,
-      "summary_ja": "ボール ウォッチの型番NM9026C-S6CJ-BK。市場で5件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Ball Watch reference NM9026C-S6CJ-BK, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 5,
-      "lastSeen": "2026-09-03"
-    },
-    {
-      "id": "ref-dg3038as6cjbk",
-      "name_en": "DG3038A-S6CJ-BK",
-      "name_ja": "ボールウォッチ パイロット DG3038A-S6CJ-BK",
-      "reference": "DG3038A-S6CJ-BK",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": 40,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 383350,
-      "searchKeywordJa": "ボール ウォッチ DG3038A-S6CJ-BK",
-      "searchKeywordEn": "Ball Watch DG3038A-S6CJ-BK",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "chronograph",
-        "gmt",
-        "pilot",
-        "limited-edition"
-      ],
-      "popular": false,
-      "summary_ja": "ボール ウォッチの型番DG3038A-S6CJ-BK。市場で5件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Ball Watch reference DG3038A-S6CJ-BK, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 5,
-      "lastSeen": "2026-09-03"
-    },
-    {
-      "id": "ref-dc3030csjbk",
-      "name_en": "DC3030C-SJ-BK",
-      "name_ja": "ボールウォッチ ロードマスター DC3030C-SJ-BK",
-      "reference": "DC3030C-SJ-BK",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 542300,
-      "searchKeywordJa": "ボール ウォッチ DC3030C-SJ-BK",
-      "searchKeywordEn": "Ball Watch DC3030C-SJ-BK",
-      "caseMaterial": "titanium",
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "chronograph",
-        "limited-edition",
-        "lightweight"
-      ],
-      "popular": false,
-      "summary_ja": "ボール ウォッチの型番DC3030C-SJ-BK。市場で5件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Ball Watch reference DC3030C-SJ-BK, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 5,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-dc3226as4cjbk",
@@ -622,7 +561,7 @@
       "summary_en": "Ball Watch reference DC3226A-S4CJ-BK, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-nm2098cs3jwh",
@@ -650,36 +589,7 @@
       "summary_en": "Ball Watch reference NM2098C-S3J-WH, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-09-03"
-    },
-    {
-      "id": "ref-nm3280ds1cjbk",
-      "name_en": "NM3280D-S1CJ-BK",
-      "name_ja": "マニュファクチュア ボールウォッチ NM3280D-S1CJ-BK",
-      "reference": "NM3280D-S1CJ-BK",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 168300,
-      "searchKeywordJa": "ボール ウォッチ NM3280D-S1CJ-BK",
-      "searchKeywordEn": "Ball Watch NM3280D-S1CJ-BK",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "chronograph",
-        "power-reserve"
-      ],
-      "popular": false,
-      "summary_ja": "ボール ウォッチの型番NM3280D-S1CJ-BK。市場で4件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Ball Watch reference NM3280D-S1CJ-BK, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 4,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-cm3090cs1jbk",
@@ -707,35 +617,7 @@
       "summary_en": "Ball Watch reference CM3090C-S1J-BK, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-09-03"
-    },
-    {
-      "id": "ref-nm2098cs5jbk",
-      "name_en": "NM2098C-S5J-BK",
-      "name_ja": "ボールウォッチ ストークマン NM2098C-S5J-BK",
-      "reference": "NM2098C-S5J-BK",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": 40,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 233750,
-      "searchKeywordJa": "ボール ウォッチ NM2098C-S5J-BK",
-      "searchKeywordEn": "Ball Watch NM2098C-S5J-BK",
-      "caseMaterial": "stainless-steel",
-      "waterResistanceM": 50,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ボール ウォッチの型番NM2098C-S5J-BK。市場で4件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Ball Watch reference NM2098C-S5J-BK, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 4,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-dm2276as3cjbk",
@@ -765,7 +647,7 @@
       "summary_en": "Ball Watch reference DM2276A-S3CJ-BK, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-nm2098cs5jsl",
@@ -793,63 +675,93 @@
       "summary_en": "Ball Watch reference NM2098C-S5J-SL, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
-      "id": "ref-nm9052cs1cjbk",
-      "name_en": "NM9052C-S1CJ-BK",
-      "name_ja": "ボールウォッチ ロードマスター NM9052C-S1CJ-BK",
-      "reference": "NM9052C-S1CJ-BK",
+      "id": "ref-nm9026cs5cjbk",
+      "name_en": "NM9026C-S5CJ-BK",
+      "name_ja": "ボールウォッチ ローン NM9026C-S5CJ-BK",
+      "reference": "NM9026C-S5CJ-BK",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
       "movementType": "automatic",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 218790,
-      "searchKeywordJa": "ボール ウォッチ NM9052C-S1CJ-BK",
-      "searchKeywordEn": "Ball Watch NM9052C-S1CJ-BK",
+      "priceFloorJpy": 317900,
+      "searchKeywordJa": "ボール ウォッチ NM9026C-S5CJ-BK",
+      "searchKeywordEn": "Ball Watch NM9026C-S5CJ-BK",
       "caseMaterial": null,
       "waterResistanceM": null,
       "gender": "mens",
       "releaseYear": null,
       "tags": [
-        "limited-edition"
+        "diver",
+        "chronograph"
       ],
       "popular": false,
-      "summary_ja": "ボール ウォッチの型番NM9052C-S1CJ-BK。市場で4件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Ball Watch reference NM9052C-S1CJ-BK, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ボール ウォッチの型番NM9026C-S5CJ-BK。市場で4件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ball Watch reference NM9026C-S5CJ-BK, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
-      "id": "ref-nm2098cs26jwhr",
-      "name_en": "NM2098C-S26J-WHR",
-      "name_ja": "ボールウォッチ ストークマン NM2098C-S26J-WHR",
-      "reference": "NM2098C-S26J-WHR",
+      "id": "ref-nm9026cs5cjsl",
+      "name_en": "NM9026C-S5CJ-SL",
+      "name_ja": "ボールウォッチ オハイオ NM9026C-S5CJ-SL",
+      "reference": "NM9026C-S5CJ-SL",
       "collection_en": null,
       "collection_ja": null,
-      "caseSizeMm": 40,
+      "caseSizeMm": null,
       "movementType": "automatic",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 252450,
-      "searchKeywordJa": "ボール ウォッチ NM2098C-S26J-WHR",
-      "searchKeywordEn": "Ball Watch NM2098C-S26J-WHR",
-      "caseMaterial": "stainless-steel",
-      "waterResistanceM": 50,
+      "priceFloorJpy": 317900,
+      "searchKeywordJa": "ボール ウォッチ NM9026C-S5CJ-SL",
+      "searchKeywordEn": "Ball Watch NM9026C-S5CJ-SL",
+      "caseMaterial": null,
+      "waterResistanceM": null,
       "gender": "mens",
       "releaseYear": null,
       "tags": [
-        "sport"
+        "diver",
+        "chronograph"
       ],
       "popular": false,
-      "summary_ja": "ボール ウォッチの型番NM2098C-S26J-WHR。市場で4件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Ball Watch reference NM2098C-S26J-WHR, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ボール ウォッチの型番NM9026C-S5CJ-SL。市場で4件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ball Watch reference NM9026C-S5CJ-SL, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
+    },
+    {
+      "id": "ref-nm9026cs6cjbk",
+      "name_en": "NM9026C-S6CJ-BK",
+      "name_ja": "ボールウォッチ エンジニア NM9026C-S6CJ-BK",
+      "reference": "NM9026C-S6CJ-BK",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 355300,
+      "searchKeywordJa": "ボール ウォッチ NM9026C-S6CJ-BK",
+      "searchKeywordEn": "Ball Watch NM9026C-S6CJ-BK",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph"
+      ],
+      "popular": false,
+      "summary_ja": "ボール ウォッチの型番NM9026C-S6CJ-BK。市場で4件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ball Watch reference NM9026C-S6CJ-BK, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 4,
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-nm9026cs33cjbk",
@@ -877,36 +789,38 @@
       "summary_en": "Ball Watch reference NM9026C-S33CJ-BK, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
-      "id": "ref-nm9026cs6cjbe",
-      "name_en": "NM9026C-S6CJ-BE",
-      "name_ja": "ボールウォッチ エンジニア NM9026C-S6CJ-BE",
-      "reference": "NM9026C-S6CJ-BE",
+      "id": "ref-dg3038as6cjbk",
+      "name_en": "DG3038A-S6CJ-BK",
+      "name_ja": "ボールウォッチ ロードマスター DG3038A-S6CJ-BK",
+      "reference": "DG3038A-S6CJ-BK",
       "collection_en": null,
       "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
+      "caseSizeMm": 40,
+      "movementType": "automatic",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 355300,
-      "searchKeywordJa": "ボール ウォッチ NM9026C-S6CJ-BE",
-      "searchKeywordEn": "Ball Watch NM9026C-S6CJ-BE",
+      "priceFloorJpy": 383350,
+      "searchKeywordJa": "ボール ウォッチ DG3038A-S6CJ-BK",
+      "searchKeywordEn": "Ball Watch DG3038A-S6CJ-BK",
       "caseMaterial": null,
       "waterResistanceM": null,
       "gender": "mens",
       "releaseYear": null,
       "tags": [
-        "diver",
-        "chronograph"
+        "chronograph",
+        "gmt",
+        "pilot",
+        "limited-edition"
       ],
       "popular": false,
-      "summary_ja": "ボール ウォッチの型番NM9026C-S6CJ-BE。市場で4件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Ball Watch reference NM9026C-S6CJ-BE, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ボール ウォッチの型番DG3038A-S6CJ-BK。市場で4件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ball Watch reference DG3038A-S6CJ-BK, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-dg2018cs3cjbk",
@@ -935,7 +849,35 @@
       "summary_en": "Ball Watch reference DG2018C-S3CJ-BK, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
+    },
+    {
+      "id": "ref-nm9032cs2cjbk1",
+      "name_en": "NM9032C-S2CJ-BK1",
+      "name_ja": "ボールウォッチ エンジニア NM9032C-S2CJ-BK1",
+      "reference": "NM9032C-S2CJ-BK1",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 542300,
+      "searchKeywordJa": "ボール ウォッチ NM9032C-S2CJ-BK1",
+      "searchKeywordEn": "Ball Watch NM9032C-S2CJ-BK1",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ボール ウォッチの型番NM9032C-S2CJ-BK1。市場で4件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ball Watch reference NM9032C-S2CJ-BK1, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 4,
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-dm3200as2cjbk",
@@ -964,7 +906,7 @@
       "summary_en": "Ball Watch reference DM3200A-S2CJ-BK, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-nl2098c",
@@ -992,7 +934,36 @@
       "summary_en": "Ball Watch reference NL2098C, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
+    },
+    {
+      "id": "ref-nm3280ds1cjbk",
+      "name_en": "NM3280D-S1CJ-BK",
+      "name_ja": "トレインマスター マニュファクチュア NM3280D-S1CJ-BK",
+      "reference": "NM3280D-S1CJ-BK",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 150000,
+      "searchKeywordJa": "ボール ウォッチ NM3280D-S1CJ-BK",
+      "searchKeywordEn": "Ball Watch NM3280D-S1CJ-BK",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph",
+        "power-reserve"
+      ],
+      "popular": false,
+      "summary_ja": "ボール ウォッチの型番NM3280D-S1CJ-BK。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ball Watch reference NM3280D-S1CJ-BK, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-dm2076c",
@@ -1020,7 +991,7 @@
       "summary_en": "Ball Watch reference DM2076C, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-nm9026cs5cjbe",
@@ -1049,7 +1020,7 @@
       "summary_en": "Ball Watch reference NM9026C-S5CJ-BE, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-dm2036ascajwh",
@@ -1078,7 +1049,7 @@
       "summary_en": "Ball Watch reference DM2036A-SCAJ-WH, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-nm2098cs3jbe",
@@ -1106,36 +1077,35 @@
       "summary_en": "Ball Watch reference NM2098C-S3J-BE, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
-      "id": "ref-nm9026cs5cjbk",
-      "name_en": "NM9026C-S5CJ-BK",
-      "name_ja": "ボールウォッチ ローン NM9026C-S5CJ-BK",
-      "reference": "NM9026C-S5CJ-BK",
+      "id": "ref-nm9052cs1cjbk",
+      "name_en": "NM9052C-S1CJ-BK",
+      "name_ja": "ボールウォッチ ロードマスター NM9052C-S1CJ-BK",
+      "reference": "NM9052C-S1CJ-BK",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
       "movementType": "automatic",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 317900,
-      "searchKeywordJa": "ボール ウォッチ NM9026C-S5CJ-BK",
-      "searchKeywordEn": "Ball Watch NM9026C-S5CJ-BK",
+      "priceFloorJpy": 218790,
+      "searchKeywordJa": "ボール ウォッチ NM9052C-S1CJ-BK",
+      "searchKeywordEn": "Ball Watch NM9052C-S1CJ-BK",
       "caseMaterial": null,
       "waterResistanceM": null,
       "gender": "mens",
       "releaseYear": null,
       "tags": [
-        "diver",
-        "chronograph"
+        "limited-edition"
       ],
       "popular": false,
-      "summary_ja": "ボール ウォッチの型番NM9026C-S5CJ-BK。市場で3件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Ball Watch reference NM9026C-S5CJ-BK, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ボール ウォッチの型番NM9052C-S1CJ-BK。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ball Watch reference NM9052C-S1CJ-BK, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-dc3030cs2jgr",
@@ -1165,35 +1135,7 @@
       "summary_en": "Ball Watch reference DC3030C-S2J-GR, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-09-03"
-    },
-    {
-      "id": "ref-nm3026cl2cjbk",
-      "name_en": "NM3026C-L2CJ-BK",
-      "name_ja": "ボールウォッチ NM3026C-L2CJ-BK",
-      "reference": "NM3026C-L2CJ-BK",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 402050,
-      "searchKeywordJa": "ボール ウォッチ NM3026C-L2CJ-BK",
-      "searchKeywordEn": "Ball Watch NM3026C-L2CJ-BK",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ボール ウォッチの型番NM3026C-L2CJ-BK。市場で3件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Ball Watch reference NM3026C-L2CJ-BK, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 3,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-nm9026cs6cjrd",
@@ -1221,7 +1163,64 @@
       "summary_en": "Ball Watch reference NM9026C-S6CJ-RD, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
+    },
+    {
+      "id": "ref-dm2118bs4cjgr",
+      "name_en": "DM2118B-S4CJ-GR",
+      "name_ja": "ボールウォッチ ローン DM2118B-S4CJ-GR",
+      "reference": "DM2118B-S4CJ-GR",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 448800,
+      "searchKeywordJa": "ボール ウォッチ DM2118B-S4CJ-GR",
+      "searchKeywordEn": "Ball Watch DM2118B-S4CJ-GR",
+      "caseMaterial": "carbon",
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "diver",
+        "lightweight"
+      ],
+      "popular": false,
+      "summary_ja": "ボール ウォッチの型番DM2118B-S4CJ-GR。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ball Watch reference DM2118B-S4CJ-GR, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
+      "lastSeen": "2026-09-04"
+    },
+    {
+      "id": "ref-nl9616cs3cjbkr",
+      "name_en": "NL9616C-S3CJ-BKR",
+      "name_ja": "ボールウォッチ マーベライト NL9616C-S3CJ-BKR",
+      "reference": "NL9616C-S3CJ-BKR",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": 36,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 345950,
+      "searchKeywordJa": "ボール ウォッチ NL9616C-S3CJ-BKR",
+      "searchKeywordEn": "Ball Watch NL9616C-S3CJ-BKR",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph"
+      ],
+      "popular": false,
+      "summary_ja": "ボール ウォッチの型番NL9616C-S3CJ-BKR。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ball Watch reference NL9616C-S3CJ-BKR, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-nl9616cs2cjpkr",
@@ -1249,65 +1248,7 @@
       "summary_en": "Ball Watch reference NL9616C-S2CJ-PKR, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-09-03"
-    },
-    {
-      "id": "ref-dg2232ascjbe",
-      "name_en": "DG2232A-SCJ-BE",
-      "name_ja": "ローン ボールウォッチ DG2232A-SCJ-BE",
-      "reference": "DG2232A-SCJ-BE",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 467500,
-      "searchKeywordJa": "ボール ウォッチ DG2232A-SCJ-BE",
-      "searchKeywordEn": "Ball Watch DG2232A-SCJ-BE",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "diver",
-        "world-timer"
-      ],
-      "popular": false,
-      "summary_ja": "ボール ウォッチの型番DG2232A-SCJ-BE。市場で3件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Ball Watch reference DG2232A-SCJ-BE, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 3,
-      "lastSeen": "2026-09-03"
-    },
-    {
-      "id": "ref-dm2118bs3cjbe",
-      "name_en": "DM2118B-S3CJ-BE",
-      "name_ja": "ローン ボールウォッチ DM2118B-S3CJ-BE",
-      "reference": "DM2118B-S3CJ-BE",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 448800,
-      "searchKeywordJa": "ボール ウォッチ DM2118B-S3CJ-BE",
-      "searchKeywordEn": "Ball Watch DM2118B-S3CJ-BE",
-      "caseMaterial": "carbon",
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "diver",
-        "lightweight"
-      ],
-      "popular": false,
-      "summary_ja": "ボール ウォッチの型番DM2118B-S3CJ-BE。市場で3件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Ball Watch reference DM2118B-S3CJ-BE, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 3,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-nm9026cs50cjyte",
@@ -1336,7 +1277,7 @@
       "summary_en": "Ball Watch reference NM9026C-S50CJ-YTE, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-dm3002as1cjbk",
@@ -1365,13 +1306,13 @@
       "summary_en": "Ball Watch reference DM-3002A-S1CJ-BK, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
-      "id": "ref-dc3030csjbe",
-      "name_en": "DC3030C-SJ-BE",
-      "name_ja": "ボールウォッチ ローン DC3030C-SJ-BE",
-      "reference": "DC3030C-SJ-BE",
+      "id": "ref-dc3030csjbk",
+      "name_en": "DC3030C-SJ-BK",
+      "name_ja": "ボールウォッチ ロードマスター DC3030C-SJ-BK",
+      "reference": "DC3030C-SJ-BK",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
@@ -1379,8 +1320,8 @@
       "caliber": null,
       "listPriceJpy": null,
       "priceFloorJpy": 542300,
-      "searchKeywordJa": "ボール ウォッチ DC3030C-SJ-BE",
-      "searchKeywordEn": "Ball Watch DC3030C-SJ-BE",
+      "searchKeywordJa": "ボール ウォッチ DC3030C-SJ-BK",
+      "searchKeywordEn": "Ball Watch DC3030C-SJ-BK",
       "caseMaterial": "titanium",
       "waterResistanceM": null,
       "gender": "mens",
@@ -1391,11 +1332,11 @@
         "lightweight"
       ],
       "popular": false,
-      "summary_ja": "ボール ウォッチの型番DC3030C-SJ-BE。市場で3件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Ball Watch reference DC3030C-SJ-BE, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ボール ウォッチの型番DC3030C-SJ-BK。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ball Watch reference DC3030C-SJ-BK, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-nm9032cs3cjbe",
@@ -1423,35 +1364,7 @@
       "summary_en": "Ball Watch reference NM9032C-S3CJ-BE, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-09-03"
-    },
-    {
-      "id": "ref-nm9032cs2cjbk1",
-      "name_en": "NM9032C-S2CJ-BK1",
-      "name_ja": "ボールウォッチ エンジニア NM9032C-S2CJ-BK1",
-      "reference": "NM9032C-S2CJ-BK1",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 542300,
-      "searchKeywordJa": "ボール ウォッチ NM9032C-S2CJ-BK1",
-      "searchKeywordEn": "Ball Watch NM9032C-S2CJ-BK1",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ボール ウォッチの型番NM9032C-S2CJ-BK1。市場で3件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Ball Watch reference NM9032C-S2CJ-BK1, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 3,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-dm3120cs1cjbk",
@@ -1479,7 +1392,7 @@
       "summary_en": "Ball Watch reference DM3120C-S1CJ-BK, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-nm2098c",
@@ -1507,7 +1420,7 @@
       "summary_en": "Ball Watch reference NM2098C, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-dm2136a",
@@ -1535,7 +1448,35 @@
       "summary_en": "Ball Watch reference DM2136A, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
+    },
+    {
+      "id": "ref-nm1020cs4bk",
+      "name_en": "NM1020C-S4-BK",
+      "name_ja": "ボール エンジニア NM1020C-S4-BK",
+      "reference": "NM1020C-S4-BK",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 150000,
+      "searchKeywordJa": "ボール ウォッチ NM1020C-S4-BK",
+      "searchKeywordEn": "Ball Watch NM1020C-S4-BK",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ボール ウォッチの型番NM1020C-S4-BK。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ball Watch reference NM1020C-S4-BK, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-gm3090csajbk",
@@ -1564,7 +1505,7 @@
       "summary_en": "Ball Watch reference GM3090C-SAJ-BK, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-cm3888ds1jbk",
@@ -1592,7 +1533,7 @@
       "summary_en": "Ball Watch reference CM3888D-S1J-BK, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-nm9026c",
@@ -1620,7 +1561,7 @@
       "summary_en": "Ball Watch reference NM9026C, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-h18328",
@@ -1648,7 +1589,7 @@
       "summary_en": "Ball Watch reference H18328, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-dm3000",
@@ -1676,63 +1617,7 @@
       "summary_en": "Ball Watch reference DM3000, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-09-03"
-    },
-    {
-      "id": "ref-nm1020cs4bk",
-      "name_en": "NM1020C-S4-BK",
-      "name_ja": "ボール エンジニア NM1020C-S4-BK",
-      "reference": "NM1020C-S4-BK",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 150000,
-      "searchKeywordJa": "ボール ウォッチ NM1020C-S4-BK",
-      "searchKeywordEn": "Ball Watch NM1020C-S4-BK",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ボール ウォッチの型番NM1020C-S4-BK。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Ball Watch reference NM1020C-S4-BK, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-09-03"
-    },
-    {
-      "id": "ref-dm1020ap1ajbkor",
-      "name_en": "DM1020A-P1AJ-BKOR",
-      "name_ja": "ボール エンジニアマスター DM1020A-P1AJ-BKOR",
-      "reference": "DM1020A-P1AJ-BKOR",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 150000,
-      "searchKeywordJa": "ボール ウォッチ DM1020A-P1AJ-BKOR",
-      "searchKeywordEn": "Ball Watch DM1020A-P1AJ-BKOR",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "diver"
-      ],
-      "popular": false,
-      "summary_ja": "ボール ウォッチの型番DM1020A-P1AJ-BKOR。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Ball Watch reference DM1020A-P1AJ-BKOR, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-dm3090ap4jbk",
@@ -1760,13 +1645,13 @@
       "summary_en": "Ball Watch reference DM3090A-P4J-BK, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
-      "id": "ref-dm1022ap1fcabksl",
-      "name_en": "DM1022A-P1FCA-BKSL",
-      "name_ja": "ボール エンジニアマスター DM1022A-P1FCA-BKSL",
-      "reference": "DM1022A-P1FCA-BKSL",
+      "id": "ref-dm1020ap1ajbkor",
+      "name_en": "DM1020A-P1AJ-BKOR",
+      "name_ja": "ボール エンジニアマスター DM1020A-P1AJ-BKOR",
+      "reference": "DM1020A-P1AJ-BKOR",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
@@ -1774,8 +1659,8 @@
       "caliber": null,
       "listPriceJpy": null,
       "priceFloorJpy": 150000,
-      "searchKeywordJa": "ボール ウォッチ DM1022A-P1FCA-BKSL",
-      "searchKeywordEn": "Ball Watch DM1022A-P1FCA-BKSL",
+      "searchKeywordJa": "ボール ウォッチ DM1020A-P1AJ-BKOR",
+      "searchKeywordEn": "Ball Watch DM1020A-P1AJ-BKOR",
       "caseMaterial": null,
       "waterResistanceM": null,
       "gender": "mens",
@@ -1784,11 +1669,11 @@
         "diver"
       ],
       "popular": false,
-      "summary_ja": "ボール ウォッチの型番DM1022A-P1FCA-BKSL。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Ball Watch reference DM1022A-P1FCA-BKSL, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ボール ウォッチの型番DM1020A-P1AJ-BKOR。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ball Watch reference DM1020A-P1AJ-BKOR, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-dm1020asajbkor",
@@ -1816,7 +1701,35 @@
       "summary_en": "Ball Watch reference DM1020A-SAJ-BKOR, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
+    },
+    {
+      "id": "ref-dm1022ap1fcabksl",
+      "name_en": "DM1022A-P1FCA-BKSL",
+      "name_ja": "ボール エンジニアマスター DM1022A-P1FCA-BKSL",
+      "reference": "DM1022A-P1FCA-BKSL",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 150000,
+      "searchKeywordJa": "ボール ウォッチ DM1022A-P1FCA-BKSL",
+      "searchKeywordEn": "Ball Watch DM1022A-P1FCA-BKSL",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "diver"
+      ],
+      "popular": false,
+      "summary_ja": "ボール ウォッチの型番DM1022A-P1FCA-BKSL。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ball Watch reference DM1022A-P1FCA-BKSL, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-cm2192cl5jbk",
@@ -1844,7 +1757,7 @@
       "summary_en": "Ball Watch reference CM2192C-L5J-BK, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-dg3030b",
@@ -1873,7 +1786,7 @@
       "summary_en": "Ball Watch reference DG3030B, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-nm9026cs5cjgr",
@@ -1901,7 +1814,35 @@
       "summary_en": "Ball Watch reference NM9026C-S5CJ-GR, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
+    },
+    {
+      "id": "ref-dm3108ascjbk",
+      "name_en": "DM3108A-SCJ-BK",
+      "name_ja": "ボールウォッチ エンジニアマスター DM3108A-SCJ-BK",
+      "reference": "DM3108A-SCJ-BK",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 257125,
+      "searchKeywordJa": "ボール ウォッチ DM3108A-SCJ-BK",
+      "searchKeywordEn": "Ball Watch DM3108A-SCJ-BK",
+      "caseMaterial": null,
+      "waterResistanceM": 500,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "diver"
+      ],
+      "popular": false,
+      "summary_ja": "ボール ウォッチの型番DM3108A-SCJ-BK。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ball Watch reference DM3108A-SCJ-BK, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-cm1052ds6jwh",
@@ -1930,35 +1871,7 @@
       "summary_en": "Ball Watch reference CM1052D-S6J-WH, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-09-03"
-    },
-    {
-      "id": "ref-dm3108ascjbk",
-      "name_en": "DM3108A-SCJ-BK",
-      "name_ja": "ボールウォッチ エンジニアマスター DM3108A-SCJ-BK",
-      "reference": "DM3108A-SCJ-BK",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 257125,
-      "searchKeywordJa": "ボール ウォッチ DM3108A-SCJ-BK",
-      "searchKeywordEn": "Ball Watch DM3108A-SCJ-BK",
-      "caseMaterial": null,
-      "waterResistanceM": 500,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "diver"
-      ],
-      "popular": false,
-      "summary_ja": "ボール ウォッチの型番DM3108A-SCJ-BK。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Ball Watch reference DM3108A-SCJ-BK, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-cm2198cs1cjbe",
@@ -1987,7 +1900,92 @@
       "summary_en": "Ball Watch reference CM2198C-S1CJ-BE, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
+    },
+    {
+      "id": "ref-dg3032asjbkbe",
+      "name_en": "DG3032A-SJ-BKBE",
+      "name_ja": "ローン ボールウォッチ DG3032A-SJ-BKBE",
+      "reference": "DG3032A-SJ-BKBE",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 317900,
+      "searchKeywordJa": "ボール ウォッチ DG3032A-SJ-BKBE",
+      "searchKeywordEn": "Ball Watch DG3032A-SJ-BKBE",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "world-timer",
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "ボール ウォッチの型番DG3032A-SJ-BKBE。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ball Watch reference DG3032A-SJ-BKBE, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-09-04"
+    },
+    {
+      "id": "ref-nm2638cl2jbk",
+      "name_en": "NM2638C-L2J-BK",
+      "name_ja": "ボールウォッチ エンジニアマスター NM2638C-L2J-BK",
+      "reference": "NM2638C-L2J-BK",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 336600,
+      "searchKeywordJa": "ボール ウォッチ NM2638C-L2J-BK",
+      "searchKeywordEn": "Ball Watch NM2638C-L2J-BK",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "ボール ウォッチの型番NM2638C-L2J-BK。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ball Watch reference NM2638C-L2J-BK, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-09-04"
+    },
+    {
+      "id": "ref-nm3026cl2cjbk",
+      "name_en": "NM3026C-L2CJ-BK",
+      "name_ja": "ボールウォッチ NM3026C-L2CJ-BK",
+      "reference": "NM3026C-L2CJ-BK",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 402050,
+      "searchKeywordJa": "ボール ウォッチ NM3026C-L2CJ-BK",
+      "searchKeywordEn": "Ball Watch NM3026C-L2CJ-BK",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ボール ウォッチの型番NM3026C-L2CJ-BK。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ball Watch reference NM3026C-L2CJ-BK, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-dc2278acs1jbk",
@@ -2015,35 +2013,7 @@
       "summary_en": "Ball Watch reference DC2278A-C-S1J-BK, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-09-03"
-    },
-    {
-      "id": "ref-dm2118bs4cjgr",
-      "name_en": "DM2118B-S4CJ-GR",
-      "name_ja": "ボールウォッチ DM2118B-S4CJ-GR",
-      "reference": "DM2118B-S4CJ-GR",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 448800,
-      "searchKeywordJa": "ボール ウォッチ DM2118B-S4CJ-GR",
-      "searchKeywordEn": "Ball Watch DM2118B-S4CJ-GR",
-      "caseMaterial": "carbon",
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "lightweight"
-      ],
-      "popular": false,
-      "summary_ja": "ボール ウォッチの型番DM2118B-S4CJ-GR。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Ball Watch reference DM2118B-S4CJ-GR, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-dc2278ass1jbk",
@@ -2071,7 +2041,91 @@
       "summary_en": "Ball Watch reference DC2278A-S-S1J-BK, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
+    },
+    {
+      "id": "ref-nm9032cs1cjbe",
+      "name_en": "NM9032C-S1CJ-BE",
+      "name_ja": "ボールウォッチ NM9032C-S1CJ-BE",
+      "reference": "NM9032C-S1CJ-BE",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 420750,
+      "searchKeywordJa": "ボール ウォッチ NM9032C-S1CJ-BE",
+      "searchKeywordEn": "Ball Watch NM9032C-S1CJ-BE",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ボール ウォッチの型番NM9032C-S1CJ-BE。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ball Watch reference NM9032C-S1CJ-BE, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-09-04"
+    },
+    {
+      "id": "ref-nm3888ds1cjwh",
+      "name_en": "NM3888D-S1CJ-WH",
+      "name_ja": "スーパーセール ボールウォッチ NM3888D-S1CJ-WH",
+      "reference": "NM3888D-S1CJ-WH",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 392700,
+      "searchKeywordJa": "ボール ウォッチ NM3888D-S1CJ-WH",
+      "searchKeywordEn": "Ball Watch NM3888D-S1CJ-WH",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ボール ウォッチの型番NM3888D-S1CJ-WH。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ball Watch reference NM3888D-S1CJ-WH, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-09-04"
+    },
+    {
+      "id": "ref-nm9026cs6cjbe",
+      "name_en": "NM9026C-S6CJ-BE",
+      "name_ja": "ボールウォッチ NM9026C-S6CJ-BE",
+      "reference": "NM9026C-S6CJ-BE",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 355300,
+      "searchKeywordJa": "ボール ウォッチ NM9026C-S6CJ-BE",
+      "searchKeywordEn": "Ball Watch NM9026C-S6CJ-BE",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph"
+      ],
+      "popular": false,
+      "summary_ja": "ボール ウォッチの型番NM9026C-S6CJ-BE。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ball Watch reference NM9026C-S6CJ-BE, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-nm9026cs6cjsl",
@@ -2099,7 +2153,64 @@
       "summary_en": "Ball Watch reference NM9026C-S6CJ-SL, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
+    },
+    {
+      "id": "ref-dm2118bs3cjbe",
+      "name_en": "DM2118B-S3CJ-BE",
+      "name_ja": "ローン ボールウォッチ DM2118B-S3CJ-BE",
+      "reference": "DM2118B-S3CJ-BE",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 448800,
+      "searchKeywordJa": "ボール ウォッチ DM2118B-S3CJ-BE",
+      "searchKeywordEn": "Ball Watch DM2118B-S3CJ-BE",
+      "caseMaterial": "carbon",
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "diver",
+        "lightweight"
+      ],
+      "popular": false,
+      "summary_ja": "ボール ウォッチの型番DM2118B-S3CJ-BE。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ball Watch reference DM2118B-S3CJ-BE, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-09-04"
+    },
+    {
+      "id": "ref-nl9616cs2cjibe",
+      "name_en": "NL9616C-S2CJ-IBE",
+      "name_ja": "ボールウォッチ マーベライト NL9616C-S2CJ-IBE",
+      "reference": "NL9616C-S2CJ-IBE",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 355300,
+      "searchKeywordJa": "ボール ウォッチ NL9616C-S2CJ-IBE",
+      "searchKeywordEn": "Ball Watch NL9616C-S2CJ-IBE",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "chronograph"
+      ],
+      "popular": false,
+      "summary_ja": "ボール ウォッチの型番NL9616C-S2CJ-IBE。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ball Watch reference NL9616C-S2CJ-IBE, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-nm3888dl1cjwh",
@@ -2127,35 +2238,64 @@
       "summary_en": "Ball Watch reference NM3888D-L1CJ-WH, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
-      "id": "ref-nl9616cs3cjbkr",
-      "name_en": "NL9616C-S3CJ-BKR",
-      "name_ja": "ボールウォッチ マーベライト NL9616C-S3CJ-BKR",
-      "reference": "NL9616C-S3CJ-BKR",
+      "id": "ref-nm9032cs1cjbk",
+      "name_en": "NM9032C-S1CJ-BK",
+      "name_ja": "ローン ボールウォッチ NM9032C-S1CJ-BK",
+      "reference": "NM9032C-S1CJ-BK",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
       "movementType": "automatic",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 374000,
-      "searchKeywordJa": "ボール ウォッチ NL9616C-S3CJ-BKR",
-      "searchKeywordEn": "Ball Watch NL9616C-S3CJ-BKR",
+      "priceFloorJpy": 420750,
+      "searchKeywordJa": "ボール ウォッチ NM9032C-S1CJ-BK",
+      "searchKeywordEn": "Ball Watch NM9032C-S1CJ-BK",
       "caseMaterial": null,
       "waterResistanceM": null,
       "gender": "mens",
       "releaseYear": null,
       "tags": [
-        "chronograph"
+        "sport"
       ],
       "popular": false,
-      "summary_ja": "ボール ウォッチの型番NL9616C-S3CJ-BKR。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Ball Watch reference NL9616C-S3CJ-BKR, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ボール ウォッチの型番NM9032C-S1CJ-BK。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ball Watch reference NM9032C-S1CJ-BK, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
+    },
+    {
+      "id": "ref-dg2232ascjbe",
+      "name_en": "DG2232A-SCJ-BE",
+      "name_ja": "ローン ボールウォッチ DG2232A-SCJ-BE",
+      "reference": "DG2232A-SCJ-BE",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 467500,
+      "searchKeywordJa": "ボール ウォッチ DG2232A-SCJ-BE",
+      "searchKeywordEn": "Ball Watch DG2232A-SCJ-BE",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "diver",
+        "world-timer"
+      ],
+      "popular": false,
+      "summary_ja": "ボール ウォッチの型番DG2232A-SCJ-BE。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ball Watch reference DG2232A-SCJ-BE, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-nl9616cs6cjmslr",
@@ -2183,7 +2323,7 @@
       "summary_en": "Ball Watch reference NL9616C-S6CJ-MSLR, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-dg3000as2cjbk",
@@ -2215,37 +2355,7 @@
       "summary_en": "Ball Watch reference DG3000A-S2CJ-BK, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-09-03"
-    },
-    {
-      "id": "ref-dg3030bs1cjbk",
-      "name_en": "DG3030B-S1CJ-BK",
-      "name_ja": "ボールウォッチ ロードマスター DG3030B-S1CJ-BK",
-      "reference": "DG3030B-S1CJ-BK",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 476850,
-      "searchKeywordJa": "ボール ウォッチ DG3030B-S1CJ-BK",
-      "searchKeywordEn": "Ball Watch DG3030B-S1CJ-BK",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "diver",
-        "gmt",
-        "limited-edition"
-      ],
-      "popular": false,
-      "summary_ja": "ボール ウォッチの型番DG3030B-S1CJ-BK。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Ball Watch reference DG3030B-S1CJ-BK, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-dg3030bs2cjbk",
@@ -2277,7 +2387,37 @@
       "summary_en": "Ball Watch reference DG3030B-S2CJ-BK, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
+    },
+    {
+      "id": "ref-dg3030bs1cjbk",
+      "name_en": "DG3030B-S1CJ-BK",
+      "name_ja": "ボールウォッチ ロードマスター DG3030B-S1CJ-BK",
+      "reference": "DG3030B-S1CJ-BK",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 476850,
+      "searchKeywordJa": "ボール ウォッチ DG3030B-S1CJ-BK",
+      "searchKeywordEn": "Ball Watch DG3030B-S1CJ-BK",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "diver",
+        "gmt",
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "ボール ウォッチの型番DG3030B-S1CJ-BK。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ball Watch reference DG3030B-S1CJ-BK, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-dg2018cs17cjbk",
@@ -2308,7 +2448,149 @@
       "summary_en": "Ball Watch reference DG2018C-S17CJ-BK, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
+    },
+    {
+      "id": "ref-dc3030csjbe",
+      "name_en": "DC3030C-SJ-BE",
+      "name_ja": "ローン ボールウォッチ DC3030C-SJ-BE",
+      "reference": "DC3030C-SJ-BE",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 542300,
+      "searchKeywordJa": "ボール ウォッチ DC3030C-SJ-BE",
+      "searchKeywordEn": "Ball Watch DC3030C-SJ-BE",
+      "caseMaterial": "titanium",
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph",
+        "limited-edition",
+        "lightweight"
+      ],
+      "popular": false,
+      "summary_ja": "ボール ウォッチの型番DC3030C-SJ-BE。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ball Watch reference DC3030C-SJ-BE, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-09-04"
+    },
+    {
+      "id": "ref-dm3002as4cjgr",
+      "name_en": "DM3002A-S4CJ-GR",
+      "name_ja": "ボールウォッチ ディープクエスト DM3002A-S4CJ-GR",
+      "reference": "DM3002A-S4CJ-GR",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 532950,
+      "searchKeywordJa": "ボール ウォッチ DM3002A-S4CJ-GR",
+      "searchKeywordEn": "Ball Watch DM3002A-S4CJ-GR",
+      "caseMaterial": "ceramic",
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ボール ウォッチの型番DM3002A-S4CJ-GR。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ball Watch reference DM3002A-S4CJ-GR, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-09-04"
+    },
+    {
+      "id": "ref-nm9032cs3cjbk",
+      "name_en": "NM9032C-S3CJ-BK",
+      "name_ja": "ボールウォッチ エンジニア NM9032C-S3CJ-BK",
+      "reference": "NM9032C-S3CJ-BK",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 542300,
+      "searchKeywordJa": "ボール ウォッチ NM9032C-S3CJ-BK",
+      "searchKeywordEn": "Ball Watch NM9032C-S3CJ-BK",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ボール ウォッチの型番NM9032C-S3CJ-BK。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ball Watch reference NM9032C-S3CJ-BK, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-09-04"
+    },
+    {
+      "id": "ref-nm9032cs3cjgr",
+      "name_en": "NM9032C-S3CJ-GR",
+      "name_ja": "ボールウォッチ エンジニア NM9032C-S3CJ-GR",
+      "reference": "NM9032C-S3CJ-GR",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 542300,
+      "searchKeywordJa": "ボール ウォッチ NM9032C-S3CJ-GR",
+      "searchKeywordEn": "Ball Watch NM9032C-S3CJ-GR",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ボール ウォッチの型番NM9032C-S3CJ-GR。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ball Watch reference NM9032C-S3CJ-GR, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-09-04"
+    },
+    {
+      "id": "ref-cm1052ds3jwh",
+      "name_en": "CM1052D-S3J-WH",
+      "name_ja": "ローン ボールウォッチ CM1052D-S3J-WH",
+      "reference": "CM1052D-S3J-WH",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 504900,
+      "searchKeywordJa": "ボール ウォッチ CM1052D-S3J-WH",
+      "searchKeywordEn": "Ball Watch CM1052D-S3J-WH",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph"
+      ],
+      "popular": false,
+      "summary_ja": "ボール ウォッチの型番CM1052D-S3J-WH。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ball Watch reference CM1052D-S3J-WH, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-dc2276asjbk",
@@ -2337,121 +2619,7 @@
       "summary_en": "Ball Watch reference DC2276A-SJ-BK, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-09-03"
-    },
-    {
-      "id": "ref-dm3002as4cjgr",
-      "name_en": "DM3002A-S4CJ-GR",
-      "name_ja": "ボールウォッチ ディープクエスト DM3002A-S4CJ-GR",
-      "reference": "DM3002A-S4CJ-GR",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 532950,
-      "searchKeywordJa": "ボール ウォッチ DM3002A-S4CJ-GR",
-      "searchKeywordEn": "Ball Watch DM3002A-S4CJ-GR",
-      "caseMaterial": "ceramic",
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ボール ウォッチの型番DM3002A-S4CJ-GR。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Ball Watch reference DM3002A-S4CJ-GR, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-09-03"
-    },
-    {
-      "id": "ref-nm9032cs3cjgr",
-      "name_en": "NM9032C-S3CJ-GR",
-      "name_ja": "ボールウォッチ エンジニア NM9032C-S3CJ-GR",
-      "reference": "NM9032C-S3CJ-GR",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 542300,
-      "searchKeywordJa": "ボール ウォッチ NM9032C-S3CJ-GR",
-      "searchKeywordEn": "Ball Watch NM9032C-S3CJ-GR",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ボール ウォッチの型番NM9032C-S3CJ-GR。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Ball Watch reference NM9032C-S3CJ-GR, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-09-03"
-    },
-    {
-      "id": "ref-nm9032cs3cjbk",
-      "name_en": "NM9032C-S3CJ-BK",
-      "name_ja": "ボールウォッチ エンジニア NM9032C-S3CJ-BK",
-      "reference": "NM9032C-S3CJ-BK",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 542300,
-      "searchKeywordJa": "ボール ウォッチ NM9032C-S3CJ-BK",
-      "searchKeywordEn": "Ball Watch NM9032C-S3CJ-BK",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ボール ウォッチの型番NM9032C-S3CJ-BK。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Ball Watch reference NM9032C-S3CJ-BK, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-09-03"
-    },
-    {
-      "id": "ref-dc3026as3cjbe",
-      "name_en": "DC3026A-S3CJ-BE",
-      "name_ja": "ローン ボールウォッチ DC3026A-S3CJ-BE",
-      "reference": "DC3026A-S3CJ-BE",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": 44,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 486200,
-      "searchKeywordJa": "ボール ウォッチ DC3026A-S3CJ-BE",
-      "searchKeywordEn": "Ball Watch DC3026A-S3CJ-BE",
-      "caseMaterial": "carbon",
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "diver",
-        "chronograph",
-        "lightweight"
-      ],
-      "popular": false,
-      "summary_ja": "ボール ウォッチの型番DC3026A-S3CJ-BE。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Ball Watch reference DC3026A-S3CJ-BE, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-dm3120cscjbe",
@@ -2479,7 +2647,7 @@
       "summary_en": "Ball Watch reference DM3120C-SCJ-BE, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-1930s",
@@ -2507,7 +2675,7 @@
       "summary_en": "Ball Watch reference 1930S, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-nm1016cs1ajbk",
@@ -2535,7 +2703,7 @@
       "summary_en": "Ball Watch reference NM1016C-S1AJ-BK, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-nm2026cs14jbk",
@@ -2563,7 +2731,7 @@
       "summary_en": "Ball Watch reference NM2026C-S14J-BK, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-nm2026cs5jbk",
@@ -2591,7 +2759,7 @@
       "summary_en": "Ball Watch reference NM2026C-S5J-BK, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-100m330ft",
@@ -2619,7 +2787,7 @@
       "summary_en": "Ball Watch reference 100M/330FT, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-dm3090a",
@@ -2647,119 +2815,7 @@
       "summary_en": "Ball Watch reference DM3090A, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-03"
-    },
-    {
-      "id": "ref-m261200296925801607",
-      "name_en": "M26-1200296925801607",
-      "name_ja": "M26-1200296925801607",
-      "reference": "M26-1200296925801607",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 150000,
-      "searchKeywordJa": "ボール ウォッチ M26-1200296925801607",
-      "searchKeywordEn": "Ball Watch M26-1200296925801607",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ボール ウォッチの型番M26-1200296925801607。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Ball Watch reference M26-1200296925801607, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-09-03"
-    },
-    {
-      "id": "ref-nm2026cs6jsl",
-      "name_en": "NM2026C-S6J-SL",
-      "name_ja": "NM2026C-S6J-SL",
-      "reference": "NM2026C-S6J-SL",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 150000,
-      "searchKeywordJa": "ボール ウォッチ NM2026C-S6J-SL",
-      "searchKeywordEn": "Ball Watch NM2026C-S6J-SL",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ボール ウォッチの型番NM2026C-S6J-SL。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Ball Watch reference NM2026C-S6J-SL, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-09-03"
-    },
-    {
-      "id": "ref-m261200296925801227",
-      "name_en": "M26-1200296925801227",
-      "name_ja": "M26-1200296925801227",
-      "reference": "M26-1200296925801227",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 150000,
-      "searchKeywordJa": "ボール ウォッチ M26-1200296925801227",
-      "searchKeywordEn": "Ball Watch M26-1200296925801227",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ボール ウォッチの型番M26-1200296925801227。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Ball Watch reference M26-1200296925801227, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-09-03"
-    },
-    {
-      "id": "ref-nm2026cs6jgy",
-      "name_en": "NM2026C-S6J-GY",
-      "name_ja": "NM2026C-S6J-GY",
-      "reference": "NM2026C-S6J-GY",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 150000,
-      "searchKeywordJa": "ボール ウォッチ NM2026C-S6J-GY",
-      "searchKeywordEn": "Ball Watch NM2026C-S6J-GY",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ボール ウォッチの型番NM2026C-S6J-GY。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Ball Watch reference NM2026C-S6J-GY, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-gm1032c",
@@ -2787,13 +2843,13 @@
       "summary_en": "Ball Watch reference GM1032C, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
-      "id": "ref-nm9126cs14jbk",
-      "name_en": "NM9126C-S14J-BK",
-      "name_ja": "NM9126C-S14J-BK",
-      "reference": "NM9126C-S14J-BK",
+      "id": "ref-m261200296925801607",
+      "name_en": "M26-1200296925801607",
+      "name_ja": "M26-1200296925801607",
+      "reference": "M26-1200296925801607",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
@@ -2801,8 +2857,64 @@
       "caliber": null,
       "listPriceJpy": null,
       "priceFloorJpy": 150000,
-      "searchKeywordJa": "ボール ウォッチ NM9126C-S14J-BK",
-      "searchKeywordEn": "Ball Watch NM9126C-S14J-BK",
+      "searchKeywordJa": "ボール ウォッチ M26-1200296925801607",
+      "searchKeywordEn": "Ball Watch M26-1200296925801607",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ボール ウォッチの型番M26-1200296925801607。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ball Watch reference M26-1200296925801607, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-09-04"
+    },
+    {
+      "id": "ref-nm2026cs6jsl",
+      "name_en": "NM2026C-S6J-SL",
+      "name_ja": "NM2026C-S6J-SL",
+      "reference": "NM2026C-S6J-SL",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 150000,
+      "searchKeywordJa": "ボール ウォッチ NM2026C-S6J-SL",
+      "searchKeywordEn": "Ball Watch NM2026C-S6J-SL",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ボール ウォッチの型番NM2026C-S6J-SL。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ball Watch reference NM2026C-S6J-SL, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-09-04"
+    },
+    {
+      "id": "ref-gm2086cs6jbk",
+      "name_en": "GM2086C-S6J-BK",
+      "name_ja": "GM2086C-S6J-BK",
+      "reference": "GM2086C-S6J-BK",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 150000,
+      "searchKeywordJa": "ボール ウォッチ GM2086C-S6J-BK",
+      "searchKeywordEn": "Ball Watch GM2086C-S6J-BK",
       "caseMaterial": null,
       "waterResistanceM": null,
       "gender": "mens",
@@ -2811,11 +2923,67 @@
         "sport"
       ],
       "popular": false,
-      "summary_ja": "ボール ウォッチの型番NM9126C-S14J-BK。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Ball Watch reference NM9126C-S14J-BK, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ボール ウォッチの型番GM2086C-S6J-BK。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ball Watch reference GM2086C-S6J-BK, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
+    },
+    {
+      "id": "ref-m261200296925801227",
+      "name_en": "M26-1200296925801227",
+      "name_ja": "M26-1200296925801227",
+      "reference": "M26-1200296925801227",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 150000,
+      "searchKeywordJa": "ボール ウォッチ M26-1200296925801227",
+      "searchKeywordEn": "Ball Watch M26-1200296925801227",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ボール ウォッチの型番M26-1200296925801227。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ball Watch reference M26-1200296925801227, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-09-04"
+    },
+    {
+      "id": "ref-nm2026cs6jgy",
+      "name_en": "NM2026C-S6J-GY",
+      "name_ja": "NM2026C-S6J-GY",
+      "reference": "NM2026C-S6J-GY",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 150000,
+      "searchKeywordJa": "ボール ウォッチ NM2026C-S6J-GY",
+      "searchKeywordEn": "Ball Watch NM2026C-S6J-GY",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ボール ウォッチの型番NM2026C-S6J-GY。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ball Watch reference NM2026C-S6J-GY, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-dlccm2192cl5jbe",
@@ -2843,7 +3011,7 @@
       "summary_en": "Ball Watch reference DLCCM2192C-L5J-BE, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-cm2192cl6jbk",
@@ -2871,7 +3039,7 @@
       "summary_en": "Ball Watch reference CM2192C-L6J-BK, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-nm2098cs4jbk",
@@ -2899,7 +3067,35 @@
       "summary_en": "Ball Watch reference NM2098C-S4J-BK, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
+    },
+    {
+      "id": "ref-nm9126cs14jbk",
+      "name_en": "NM9126C-S14J-BK",
+      "name_ja": "NM9126C-S14J-BK",
+      "reference": "NM9126C-S14J-BK",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 150000,
+      "searchKeywordJa": "ボール ウォッチ NM9126C-S14J-BK",
+      "searchKeywordEn": "Ball Watch NM9126C-S14J-BK",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ボール ウォッチの型番NM9126C-S14J-BK。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ball Watch reference NM9126C-S14J-BK, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-dm2136ascjbk",
@@ -2928,7 +3124,7 @@
       "summary_en": "Ball Watch reference DM2136A-SCJ-BK, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-gm2098c",
@@ -2957,7 +3153,7 @@
       "summary_en": "Ball Watch reference GM2098C, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-nm2186cl4jgr",
@@ -2985,7 +3181,7 @@
       "summary_en": "Ball Watch reference NM2186C-L4J-GR, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-nm2188c",
@@ -3013,92 +3209,7 @@
       "summary_en": "Ball Watch reference NM2188C, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-03"
-    },
-    {
-      "id": "ref-cm3090c",
-      "name_en": "CM3090C",
-      "name_ja": "CM3090C",
-      "reference": "CM3090C",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 150000,
-      "searchKeywordJa": "ボール ウォッチ CM3090C",
-      "searchKeywordEn": "Ball Watch CM3090C",
-      "caseMaterial": "stainless-steel",
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ボール ウォッチの型番CM3090C。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Ball Watch reference CM3090C, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-09-03"
-    },
-    {
-      "id": "ref-nm9026cs38cjbk",
-      "name_en": "NM9026C-S38CJ-BK",
-      "name_ja": "NM9026C-S38CJ-BK",
-      "reference": "NM9026C-S38CJ-BK",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 150000,
-      "searchKeywordJa": "ボール ウォッチ NM9026C-S38CJ-BK",
-      "searchKeywordEn": "Ball Watch NM9026C-S38CJ-BK",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "chronograph",
-        "limited-edition"
-      ],
-      "popular": false,
-      "summary_ja": "ボール ウォッチの型番NM9026C-S38CJ-BK。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Ball Watch reference NM9026C-S38CJ-BK, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-09-03"
-    },
-    {
-      "id": "ref-gm2086cs6jbk",
-      "name_en": "GM2086C-S6J-BK",
-      "name_ja": "GM2086C-S6J-BK",
-      "reference": "GM2086C-S6J-BK",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 150000,
-      "searchKeywordJa": "ボール ウォッチ GM2086C-S6J-BK",
-      "searchKeywordEn": "Ball Watch GM2086C-S6J-BK",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ボール ウォッチの型番GM2086C-S6J-BK。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Ball Watch reference GM2086C-S6J-BK, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-nm3022cn1cjbk",
@@ -3126,7 +3237,7 @@
       "summary_en": "Ball Watch reference NM3022C-N1CJ-BK, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-1709g",
@@ -3155,7 +3266,7 @@
       "summary_en": "Ball Watch reference 170.9G, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-nl2098cs3jsl",
@@ -3183,7 +3294,7 @@
       "summary_en": "Ball Watch reference NL2098C-S3J-SL, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-nm1058dscjbe",
@@ -3211,35 +3322,7 @@
       "summary_en": "Ball Watch reference NM1058D-SCJ-BE, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-03"
-    },
-    {
-      "id": "ref-nm2098cs3jsl",
-      "name_en": "NM2098C-S3J-SL",
-      "name_ja": "NM2098C-S3J-SL",
-      "reference": "NM2098C-S3J-SL",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 233750,
-      "searchKeywordJa": "ボール ウォッチ NM2098C-S3J-SL",
-      "searchKeywordEn": "Ball Watch NM2098C-S3J-SL",
-      "caseMaterial": "stainless-steel",
-      "waterResistanceM": 100,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ボール ウォッチの型番NM2098C-S3J-SL。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Ball Watch reference NM2098C-S3J-SL, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-nm3060cpcjgy",
@@ -3267,7 +3350,7 @@
       "summary_en": "Ball Watch reference NM3060C-PCJ-GY, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-e1869",
@@ -3295,7 +3378,35 @@
       "summary_en": "Ball Watch reference E1869, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
+    },
+    {
+      "id": "ref-nm2098cs3jsl",
+      "name_en": "NM2098C-S3J-SL",
+      "name_ja": "NM2098C-S3J-SL",
+      "reference": "NM2098C-S3J-SL",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 233750,
+      "searchKeywordJa": "ボール ウォッチ NM2098C-S3J-SL",
+      "searchKeywordEn": "Ball Watch NM2098C-S3J-SL",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": 100,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ボール ウォッチの型番NM2098C-S3J-SL。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ball Watch reference NM2098C-S3J-SL, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-nm2026cs10jbe",
@@ -3323,7 +3434,7 @@
       "summary_en": "Ball Watch reference NM2026C-S10J-BE, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-nm2098cs4jbe",
@@ -3351,7 +3462,7 @@
       "summary_en": "Ball Watch reference NM2098C-S4J-BE, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-dg2018cs3cbk",
@@ -3380,7 +3491,7 @@
       "summary_en": "Ball Watch reference DG2018C-S3C-BK, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-iigm2020ds3cjbk",
@@ -3408,7 +3519,7 @@
       "summary_en": "Ball Watch reference IIGM2020D-S3CJ-BK, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-iinm3022cl3cjgyye",
@@ -3436,7 +3547,7 @@
       "summary_en": "Ball Watch reference IINM3022C-L3CJ-GYYE, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-nm2032cs1cjbk",
@@ -3464,7 +3575,35 @@
       "summary_en": "Ball Watch reference NM2032C-S1CJ-BK, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
+    },
+    {
+      "id": "ref-dc3026a",
+      "name_en": "DC3026A",
+      "name_ja": "DC3026A",
+      "reference": "DC3026A",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 189720,
+      "searchKeywordJa": "ボール ウォッチ DC3026A",
+      "searchKeywordEn": "Ball Watch DC3026A",
+      "caseMaterial": "carbon",
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "lightweight"
+      ],
+      "popular": false,
+      "summary_ja": "ボール ウォッチの型番DC3026A。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ball Watch reference DC3026A, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-dg3000as1cjbk",
@@ -3493,7 +3632,7 @@
       "summary_en": "Ball Watch reference DG3000A-S1CJ-BK, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-nm9126cs14jbe",
@@ -3521,35 +3660,7 @@
       "summary_en": "Ball Watch reference NM9126C-S14J-BE, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-03"
-    },
-    {
-      "id": "ref-dc3026a",
-      "name_en": "DC3026A",
-      "name_ja": "DC3026A",
-      "reference": "DC3026A",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 189720,
-      "searchKeywordJa": "ボール ウォッチ DC3026A",
-      "searchKeywordEn": "Ball Watch DC3026A",
-      "caseMaterial": "carbon",
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "lightweight"
-      ],
-      "popular": false,
-      "summary_ja": "ボール ウォッチの型番DC3026A。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Ball Watch reference DC3026A, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-dt3030bp1cjbec",
@@ -3577,7 +3688,7 @@
       "summary_en": "Ball Watch reference DT3030B-P1CJ-BEC, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-139500",
@@ -3605,7 +3716,7 @@
       "summary_en": "Ball Watch reference 139500, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-4042",
@@ -3633,7 +3744,7 @@
       "summary_en": "Ball Watch reference 4042, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-nm2282csjbk",
@@ -3661,7 +3772,7 @@
       "summary_en": "Ball Watch reference NM2282C-SJ-BK, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-nl2098cs6jwhr",
@@ -3689,7 +3800,7 @@
       "summary_en": "Ball Watch reference NL2098C-S6J-WHR, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-nl3082dsjwhr",
@@ -3717,7 +3828,7 @@
       "summary_en": "Ball Watch reference NL3082D-SJ-WHR, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-nl2098cs26jwh",
@@ -3745,7 +3856,7 @@
       "summary_en": "Ball Watch reference NL2098C-S26J-WH, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-nm2282clljgy",
@@ -3773,35 +3884,7 @@
       "summary_en": "Ball Watch reference NM2282C-LLJ-GY, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-03"
-    },
-    {
-      "id": "ref-nm2080ds2jibe",
-      "name_en": "NM2080D-S2J-IBE",
-      "name_ja": "NM2080D-S2J-IBE",
-      "reference": "NM2080D-S2J-IBE",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 252450,
-      "searchKeywordJa": "ボール ウォッチ NM2080D-S2J-IBE",
-      "searchKeywordEn": "Ball Watch NM2080D-S2J-IBE",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "limited-edition"
-      ],
-      "popular": false,
-      "summary_ja": "ボール ウォッチの型番NM2080D-S2J-IBE。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Ball Watch reference NM2080D-S2J-IBE, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-dg3032asjbkbk",
@@ -3830,64 +3913,35 @@
       "summary_en": "Ball Watch reference DG3032A-SJ-BKBK, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
-      "id": "ref-dg3032asjbkbe",
-      "name_en": "DG3032A-SJ-BKBE",
-      "name_ja": "DG3032A-SJ-BKBE",
-      "reference": "DG3032A-SJ-BKBE",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 317900,
-      "searchKeywordJa": "ボール ウォッチ DG3032A-SJ-BKBE",
-      "searchKeywordEn": "Ball Watch DG3032A-SJ-BKBE",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "world-timer",
-        "limited-edition"
-      ],
-      "popular": false,
-      "summary_ja": "ボール ウォッチの型番DG3032A-SJ-BKBE。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Ball Watch reference DG3032A-SJ-BKBE, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-09-03"
-    },
-    {
-      "id": "ref-snm3022cn1cjbk",
-      "name_en": "SNM3022C-N1CJ-BK",
-      "name_ja": "SNM3022C-N1CJ-BK",
-      "reference": "SNM3022C-N1CJ-BK",
+      "id": "ref-nm2080ds2jibe",
+      "name_en": "NM2080D-S2J-IBE",
+      "name_ja": "NM2080D-S2J-IBE",
+      "reference": "NM2080D-S2J-IBE",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
       "movementType": null,
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 276250,
-      "searchKeywordJa": "ボール ウォッチ SNM3022C-N1CJ-BK",
-      "searchKeywordEn": "Ball Watch SNM3022C-N1CJ-BK",
+      "priceFloorJpy": 252450,
+      "searchKeywordJa": "ボール ウォッチ NM2080D-S2J-IBE",
+      "searchKeywordEn": "Ball Watch NM2080D-S2J-IBE",
       "caseMaterial": null,
       "waterResistanceM": null,
-      "gender": "unisex",
+      "gender": "mens",
       "releaseYear": null,
       "tags": [
-        "sport"
+        "limited-edition"
       ],
       "popular": false,
-      "summary_ja": "ボール ウォッチの型番SNM3022C-N1CJ-BK。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Ball Watch reference SNM3022C-N1CJ-BK, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ボール ウォッチの型番NM2080D-S2J-IBE。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ball Watch reference NM2080D-S2J-IBE, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-dm2236ascjbk",
@@ -3915,7 +3969,35 @@
       "summary_en": "Ball Watch reference DM2236A-SCJ-BK, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
+    },
+    {
+      "id": "ref-snm3022cn1cjbk",
+      "name_en": "SNM3022C-N1CJ-BK",
+      "name_ja": "SNM3022C-N1CJ-BK",
+      "reference": "SNM3022C-N1CJ-BK",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 276250,
+      "searchKeywordJa": "ボール ウォッチ SNM3022C-N1CJ-BK",
+      "searchKeywordEn": "Ball Watch SNM3022C-N1CJ-BK",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ボール ウォッチの型番SNM3022C-N1CJ-BK。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ball Watch reference SNM3022C-N1CJ-BK, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-nm3016cs1jwh",
@@ -3943,7 +4025,7 @@
       "summary_en": "Ball Watch reference NM3016C-S1J-WH, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-nm9050cs1jbk",
@@ -3971,7 +4053,7 @@
       "summary_en": "Ball Watch reference NM9050C-S1J-BK, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-nm9026cs46cjmslr",
@@ -3999,7 +4081,7 @@
       "summary_en": "Ball Watch reference NM9026C-S46CJ-MSLR, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-nm9026cs44cjtqr",
@@ -4027,63 +4109,7 @@
       "summary_en": "Ball Watch reference NM9026C-S44CJ-TQR, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-03"
-    },
-    {
-      "id": "ref-nm2638cl2jbk",
-      "name_en": "NM2638C-L2J-BK",
-      "name_ja": "NM2638C-L2J-BK",
-      "reference": "NM2638C-L2J-BK",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 411400,
-      "searchKeywordJa": "ボール ウォッチ NM2638C-L2J-BK",
-      "searchKeywordEn": "Ball Watch NM2638C-L2J-BK",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "limited-edition"
-      ],
-      "popular": false,
-      "summary_ja": "ボール ウォッチの型番NM2638C-L2J-BK。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Ball Watch reference NM2638C-L2J-BK, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-09-03"
-    },
-    {
-      "id": "ref-nl9616cs2cjrd",
-      "name_en": "NL9616C-S2CJ-RD",
-      "name_ja": "NL9616C-S2CJ-RD",
-      "reference": "NL9616C-S2CJ-RD",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 374000,
-      "searchKeywordJa": "ボール ウォッチ NL9616C-S2CJ-RD",
-      "searchKeywordEn": "Ball Watch NL9616C-S2CJ-RD",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "chronograph"
-      ],
-      "popular": false,
-      "summary_ja": "ボール ウォッチの型番NL9616C-S2CJ-RD。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Ball Watch reference NL9616C-S2CJ-RD, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-nl9616cs2cjgr",
@@ -4111,35 +4137,7 @@
       "summary_en": "Ball Watch reference NL9616C-S2CJ-GR, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-03"
-    },
-    {
-      "id": "ref-nm9052cs1cjibe",
-      "name_en": "NM9052C-S1CJ-IBE",
-      "name_ja": "NM9052C-S1CJ-IBE",
-      "reference": "NM9052C-S1CJ-IBE",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 402050,
-      "searchKeywordJa": "ボール ウォッチ NM9052C-S1CJ-IBE",
-      "searchKeywordEn": "Ball Watch NM9052C-S1CJ-IBE",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ボール ウォッチの型番NM9052C-S1CJ-IBE。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Ball Watch reference NM9052C-S1CJ-IBE, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-dm3070bp1cjbe",
@@ -4167,7 +4165,63 @@
       "summary_en": "Ball Watch reference DM3070B-P1CJ-BE, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
+    },
+    {
+      "id": "ref-nm9052cs1cjibe",
+      "name_en": "NM9052C-S1CJ-IBE",
+      "name_ja": "NM9052C-S1CJ-IBE",
+      "reference": "NM9052C-S1CJ-IBE",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 402050,
+      "searchKeywordJa": "ボール ウォッチ NM9052C-S1CJ-IBE",
+      "searchKeywordEn": "Ball Watch NM9052C-S1CJ-IBE",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ボール ウォッチの型番NM9052C-S1CJ-IBE。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ball Watch reference NM9052C-S1CJ-IBE, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-09-04"
+    },
+    {
+      "id": "ref-nl9616cs2cjrd",
+      "name_en": "NL9616C-S2CJ-RD",
+      "name_ja": "NL9616C-S2CJ-RD",
+      "reference": "NL9616C-S2CJ-RD",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 374000,
+      "searchKeywordJa": "ボール ウォッチ NL9616C-S2CJ-RD",
+      "searchKeywordEn": "Ball Watch NL9616C-S2CJ-RD",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "chronograph"
+      ],
+      "popular": false,
+      "summary_ja": "ボール ウォッチの型番NL9616C-S2CJ-RD。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ball Watch reference NL9616C-S2CJ-RD, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-dm3070bp1cjbk",
@@ -4195,120 +4249,7 @@
       "summary_en": "Ball Watch reference DM3070B-P1CJ-BK, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-03"
-    },
-    {
-      "id": "ref-dc2236asjbk",
-      "name_en": "DC2236A-SJ-BK",
-      "name_ja": "DC2236A-SJ-BK",
-      "reference": "DC2236A-SJ-BK",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 383350,
-      "searchKeywordJa": "ボール ウォッチ DC2236A-SJ-BK",
-      "searchKeywordEn": "Ball Watch DC2236A-SJ-BK",
-      "caseMaterial": "carbon",
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "chronograph",
-        "lightweight"
-      ],
-      "popular": false,
-      "summary_ja": "ボール ウォッチの型番DC2236A-SJ-BK。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Ball Watch reference DC2236A-SJ-BK, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-09-03"
-    },
-    {
-      "id": "ref-dm2118bs21cjbk",
-      "name_en": "DM2118B-S21CJ-BK",
-      "name_ja": "DM2118B-S21CJ-BK",
-      "reference": "DM2118B-S21CJ-BK",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 420750,
-      "searchKeywordJa": "ボール ウォッチ DM2118B-S21CJ-BK",
-      "searchKeywordEn": "Ball Watch DM2118B-S21CJ-BK",
-      "caseMaterial": "carbon",
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "lightweight"
-      ],
-      "popular": false,
-      "summary_ja": "ボール ウォッチの型番DM2118B-S21CJ-BK。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Ball Watch reference DM2118B-S21CJ-BK, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-09-03"
-    },
-    {
-      "id": "ref-nm9032cs1cjbk",
-      "name_en": "NM9032C-S1CJ-BK",
-      "name_ja": "NM9032C-S1CJ-BK",
-      "reference": "NM9032C-S1CJ-BK",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 420750,
-      "searchKeywordJa": "ボール ウォッチ NM9032C-S1CJ-BK",
-      "searchKeywordEn": "Ball Watch NM9032C-S1CJ-BK",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ボール ウォッチの型番NM9032C-S1CJ-BK。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Ball Watch reference NM9032C-S1CJ-BK, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-09-03"
-    },
-    {
-      "id": "ref-nl9616cs2cjibe",
-      "name_en": "NL9616C-S2CJ-IBE",
-      "name_ja": "NL9616C-S2CJ-IBE",
-      "reference": "NL9616C-S2CJ-IBE",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 355300,
-      "searchKeywordJa": "ボール ウォッチ NL9616C-S2CJ-IBE",
-      "searchKeywordEn": "Ball Watch NL9616C-S2CJ-IBE",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "chronograph"
-      ],
-      "popular": false,
-      "summary_ja": "ボール ウォッチの型番NL9616C-S2CJ-IBE。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Ball Watch reference NL9616C-S2CJ-IBE, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-cm2198cs1cjsl",
@@ -4337,13 +4278,42 @@
       "summary_en": "Ball Watch reference CM2198C-S1CJ-SL, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
-      "id": "ref-nm9032cs1cjbe",
-      "name_en": "NM9032C-S1CJ-BE",
-      "name_ja": "NM9032C-S1CJ-BE",
-      "reference": "NM9032C-S1CJ-BE",
+      "id": "ref-dc2236asjbk",
+      "name_en": "DC2236A-SJ-BK",
+      "name_ja": "DC2236A-SJ-BK",
+      "reference": "DC2236A-SJ-BK",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 383350,
+      "searchKeywordJa": "ボール ウォッチ DC2236A-SJ-BK",
+      "searchKeywordEn": "Ball Watch DC2236A-SJ-BK",
+      "caseMaterial": "carbon",
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph",
+        "lightweight"
+      ],
+      "popular": false,
+      "summary_ja": "ボール ウォッチの型番DC2236A-SJ-BK。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ball Watch reference DC2236A-SJ-BK, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-09-04"
+    },
+    {
+      "id": "ref-dm2118bs21cjbk",
+      "name_en": "DM2118B-S21CJ-BK",
+      "name_ja": "DM2118B-S21CJ-BK",
+      "reference": "DM2118B-S21CJ-BK",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
@@ -4351,21 +4321,21 @@
       "caliber": null,
       "listPriceJpy": null,
       "priceFloorJpy": 420750,
-      "searchKeywordJa": "ボール ウォッチ NM9032C-S1CJ-BE",
-      "searchKeywordEn": "Ball Watch NM9032C-S1CJ-BE",
-      "caseMaterial": null,
+      "searchKeywordJa": "ボール ウォッチ DM2118B-S21CJ-BK",
+      "searchKeywordEn": "Ball Watch DM2118B-S21CJ-BK",
+      "caseMaterial": "carbon",
       "waterResistanceM": null,
-      "gender": "mens",
+      "gender": "unisex",
       "releaseYear": null,
       "tags": [
-        "sport"
+        "lightweight"
       ],
       "popular": false,
-      "summary_ja": "ボール ウォッチの型番NM9032C-S1CJ-BE。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Ball Watch reference NM9032C-S1CJ-BE, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ボール ウォッチの型番DM2118B-S21CJ-BK。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ball Watch reference DM2118B-S21CJ-BK, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-nm9026cs46cjmsl",
@@ -4393,35 +4363,7 @@
       "summary_en": "Ball Watch reference NM9026C-S46CJ-MSL, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-03"
-    },
-    {
-      "id": "ref-nm9026cs6cjgo",
-      "name_en": "NM9026C-S6CJ-GO",
-      "name_ja": "NM9026C-S6CJ-GO",
-      "reference": "NM9026C-S6CJ-GO",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": 40,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 355300,
-      "searchKeywordJa": "ボール ウォッチ NM9026C-S6CJ-GO",
-      "searchKeywordEn": "Ball Watch NM9026C-S6CJ-GO",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "chronograph"
-      ],
-      "popular": false,
-      "summary_ja": "ボール ウォッチの型番NM9026C-S6CJ-GO。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Ball Watch reference NM9026C-S6CJ-GO, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-dc3030cs2jwh",
@@ -4451,7 +4393,7 @@
       "summary_en": "Ball Watch reference DC3030C-S2J-WH, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-dc3030cs3jibebe",
@@ -4480,7 +4422,7 @@
       "summary_en": "Ball Watch reference DC3030C-S3J-IBEBE, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-dg3030bs3cjbk",
@@ -4509,7 +4451,7 @@
       "summary_en": "Ball Watch reference DG3030B-S3CJ-BK, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-dm3002as1cjwh",
@@ -4538,7 +4480,7 @@
       "summary_en": "Ball Watch reference DM-3002A-S1CJ-WH, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-dm3120cscjb",
@@ -4566,7 +4508,7 @@
       "summary_en": "Ball Watch reference DM3120C-SCJ-B, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-ndg9000bs1cjbk",
@@ -4597,7 +4539,7 @@
       "summary_en": "Ball Watch reference NDG9000B-S1CJ-BK, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-dm3000ascjbk",
@@ -4626,63 +4568,7 @@
       "summary_en": "Ball Watch reference DM3000A-SCJ-BK, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-03"
-    },
-    {
-      "id": "ref-cm1052dl3fjwh",
-      "name_en": "CM1052D-L3FJ-WH",
-      "name_ja": "CM1052D-L3FJ-WH",
-      "reference": "CM1052D-L3FJ-WH",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 504900,
-      "searchKeywordJa": "ボール ウォッチ CM1052D-L3FJ-WH",
-      "searchKeywordEn": "Ball Watch CM1052D-L3FJ-WH",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "chronograph"
-      ],
-      "popular": false,
-      "summary_ja": "ボール ウォッチの型番CM1052D-L3FJ-WH。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Ball Watch reference CM1052D-L3FJ-WH, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-09-03"
-    },
-    {
-      "id": "ref-cm1052ds3jwh",
-      "name_en": "CM1052D-S3J-WH",
-      "name_ja": "CM1052D-S3J-WH",
-      "reference": "CM1052D-S3J-WH",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 504900,
-      "searchKeywordJa": "ボール ウォッチ CM1052D-S3J-WH",
-      "searchKeywordEn": "Ball Watch CM1052D-S3J-WH",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "chronograph"
-      ],
-      "popular": false,
-      "summary_ja": "ボール ウォッチの型番CM1052D-S3J-WH。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Ball Watch reference CM1052D-S3J-WH, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-dm3200as1cjbk",
@@ -4710,7 +4596,35 @@
       "summary_en": "Ball Watch reference DM3200A-S1CJ-BK, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
+    },
+    {
+      "id": "ref-cm1052dl3fjbk",
+      "name_en": "CM1052D-L3FJ-BK",
+      "name_ja": "CM1052D-L3FJ-BK",
+      "reference": "CM1052D-L3FJ-BK",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 504900,
+      "searchKeywordJa": "ボール ウォッチ CM1052D-L3FJ-BK",
+      "searchKeywordEn": "Ball Watch CM1052D-L3FJ-BK",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph"
+      ],
+      "popular": false,
+      "summary_ja": "ボール ウォッチの型番CM1052D-L3FJ-BK。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ball Watch reference CM1052D-L3FJ-BK, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-dg9002bs1cjbk",
@@ -4738,7 +4652,35 @@
       "summary_en": "Ball Watch reference DG9002B-S1CJ-BK, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
+    },
+    {
+      "id": "ref-dm3002as3cjbk",
+      "name_en": "DM3002A-S3CJ-BK",
+      "name_ja": "DM3002A-S3CJ-BK",
+      "reference": "DM3002A-S3CJ-BK",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 532950,
+      "searchKeywordJa": "ボール ウォッチ DM3002A-S3CJ-BK",
+      "searchKeywordEn": "Ball Watch DM3002A-S3CJ-BK",
+      "caseMaterial": "ceramic",
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ボール ウォッチの型番DM3002A-S3CJ-BK。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ball Watch reference DM3002A-S3CJ-BK, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-dm3120cs1cjgr",
@@ -4766,7 +4708,7 @@
       "summary_en": "Ball Watch reference DM3120C-S1CJ-GR, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-dg9000bs4cjwh",
@@ -4794,7 +4736,7 @@
       "summary_en": "Ball Watch reference DG9000B-S4CJ-WH, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-dg9000bs4cjbk",
@@ -4822,35 +4764,7 @@
       "summary_en": "Ball Watch reference DG9000B-S4CJ-BK, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-03"
-    },
-    {
-      "id": "ref-dg9000bs4cjtq",
-      "name_en": "DG9000B-S4CJ-TQ",
-      "name_ja": "DG9000B-S4CJ-TQ",
-      "reference": "DG9000B-S4CJ-TQ",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": 40,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 504900,
-      "searchKeywordJa": "ボール ウォッチ DG9000B-S4CJ-TQ",
-      "searchKeywordEn": "Ball Watch DG9000B-S4CJ-TQ",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "limited-edition"
-      ],
-      "popular": false,
-      "summary_ja": "ボール ウォッチの型番DG9000B-S4CJ-TQ。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Ball Watch reference DG9000B-S4CJ-TQ, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-dg9002bs4cjbk",
@@ -4878,63 +4792,7 @@
       "summary_en": "Ball Watch reference DG9002B-S4CJ-BK, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-03"
-    },
-    {
-      "id": "ref-dg9002bs4cjwh",
-      "name_en": "DG9002B-S4CJ-WH",
-      "name_ja": "DG9002B-S4CJ-WH",
-      "reference": "DG9002B-S4CJ-WH",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": 40,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 542300,
-      "searchKeywordJa": "ボール ウォッチ DG9002B-S4CJ-WH",
-      "searchKeywordEn": "Ball Watch DG9002B-S4CJ-WH",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "limited-edition"
-      ],
-      "popular": false,
-      "summary_ja": "ボール ウォッチの型番DG9002B-S4CJ-WH。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Ball Watch reference DG9002B-S4CJ-WH, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-09-03"
-    },
-    {
-      "id": "ref-dc3226as9cjbe",
-      "name_en": "DC3226A-S9CJ-BE",
-      "name_ja": "DC3226A-S9CJ-BE",
-      "reference": "DC3226A-S9CJ-BE",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 589050,
-      "searchKeywordJa": "ボール ウォッチ DC3226A-S9CJ-BE",
-      "searchKeywordEn": "Ball Watch DC3226A-S9CJ-BE",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "limited-edition"
-      ],
-      "popular": false,
-      "summary_ja": "ボール ウォッチの型番DC3226A-S9CJ-BE。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Ball Watch reference DC3226A-S9CJ-BE, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-dg2018cs10cjbk",
@@ -4963,7 +4821,119 @@
       "summary_en": "Ball Watch reference DG2018C-S10CJ-BK, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
+    },
+    {
+      "id": "ref-dc3226as9cjbe",
+      "name_en": "DC3226A-S9CJ-BE",
+      "name_ja": "DC3226A-S9CJ-BE",
+      "reference": "DC3226A-S9CJ-BE",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 589050,
+      "searchKeywordJa": "ボール ウォッチ DC3226A-S9CJ-BE",
+      "searchKeywordEn": "Ball Watch DC3226A-S9CJ-BE",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "ボール ウォッチの型番DC3226A-S9CJ-BE。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ball Watch reference DC3226A-S9CJ-BE, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-09-04"
+    },
+    {
+      "id": "ref-dg9002bs4cjwh",
+      "name_en": "DG9002B-S4CJ-WH",
+      "name_ja": "DG9002B-S4CJ-WH",
+      "reference": "DG9002B-S4CJ-WH",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": 40,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 542300,
+      "searchKeywordJa": "ボール ウォッチ DG9002B-S4CJ-WH",
+      "searchKeywordEn": "Ball Watch DG9002B-S4CJ-WH",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "ボール ウォッチの型番DG9002B-S4CJ-WH。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ball Watch reference DG9002B-S4CJ-WH, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-09-04"
+    },
+    {
+      "id": "ref-dg9000bs4cjtq",
+      "name_en": "DG9000B-S4CJ-TQ",
+      "name_ja": "DG9000B-S4CJ-TQ",
+      "reference": "DG9000B-S4CJ-TQ",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": 40,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 504900,
+      "searchKeywordJa": "ボール ウォッチ DG9000B-S4CJ-TQ",
+      "searchKeywordEn": "Ball Watch DG9000B-S4CJ-TQ",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "ボール ウォッチの型番DG9000B-S4CJ-TQ。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ball Watch reference DG9000B-S4CJ-TQ, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-09-04"
+    },
+    {
+      "id": "ref-dc3026as3cjbe",
+      "name_en": "DC3026A-S3CJ-BE",
+      "name_ja": "DC3026A-S3CJ-BE",
+      "reference": "DC3026A-S3CJ-BE",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": 44,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 635800,
+      "searchKeywordJa": "ボール ウォッチ DC3026A-S3CJ-BE",
+      "searchKeywordEn": "Ball Watch DC3026A-S3CJ-BE",
+      "caseMaterial": "carbon",
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "lightweight"
+      ],
+      "popular": false,
+      "summary_ja": "ボール ウォッチの型番DC3026A-S3CJ-BE。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ball Watch reference DC3026A-S3CJ-BE, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-dm3010bscjbe",
@@ -4991,7 +4961,7 @@
       "summary_en": "Ball Watch reference DM3010B-SCJ-BE, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-03"
+      "lastSeen": "2026-09-04"
     },
     {
       "id": "ref-nm9050cs1jibe",
@@ -5019,6 +4989,119 @@
       "summary_en": "Ball Watch reference NM9050C-S1J-IBE, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
+      "lastSeen": "2026-09-04"
+    },
+    {
+      "id": "ref-cm3090c",
+      "name_en": "CM3090C",
+      "name_ja": "CM3090C",
+      "reference": "CM3090C",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 150000,
+      "searchKeywordJa": "ボール ウォッチ CM3090C",
+      "searchKeywordEn": "Ball Watch CM3090C",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ボール ウォッチの型番CM3090C。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ball Watch reference CM3090C, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 0,
+      "lastSeen": "2026-09-03"
+    },
+    {
+      "id": "ref-nm9026cs38cjbk",
+      "name_en": "NM9026C-S38CJ-BK",
+      "name_ja": "NM9026C-S38CJ-BK",
+      "reference": "NM9026C-S38CJ-BK",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 150000,
+      "searchKeywordJa": "ボール ウォッチ NM9026C-S38CJ-BK",
+      "searchKeywordEn": "Ball Watch NM9026C-S38CJ-BK",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph",
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "ボール ウォッチの型番NM9026C-S38CJ-BK。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ball Watch reference NM9026C-S38CJ-BK, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 0,
+      "lastSeen": "2026-09-03"
+    },
+    {
+      "id": "ref-nm9026cs6cjgo",
+      "name_en": "NM9026C-S6CJ-GO",
+      "name_ja": "NM9026C-S6CJ-GO",
+      "reference": "NM9026C-S6CJ-GO",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": 40,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 355300,
+      "searchKeywordJa": "ボール ウォッチ NM9026C-S6CJ-GO",
+      "searchKeywordEn": "Ball Watch NM9026C-S6CJ-GO",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph"
+      ],
+      "popular": false,
+      "summary_ja": "ボール ウォッチの型番NM9026C-S6CJ-GO。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ball Watch reference NM9026C-S6CJ-GO, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 0,
+      "lastSeen": "2026-09-03"
+    },
+    {
+      "id": "ref-cm1052dl3fjwh",
+      "name_en": "CM1052D-L3FJ-WH",
+      "name_ja": "CM1052D-L3FJ-WH",
+      "reference": "CM1052D-L3FJ-WH",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 504900,
+      "searchKeywordJa": "ボール ウォッチ CM1052D-L3FJ-WH",
+      "searchKeywordEn": "Ball Watch CM1052D-L3FJ-WH",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph"
+      ],
+      "popular": false,
+      "summary_ja": "ボール ウォッチの型番CM1052D-L3FJ-WH。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ball Watch reference CM1052D-L3FJ-WH, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 0,
       "lastSeen": "2026-09-03"
     },
     {
@@ -5045,90 +5128,6 @@
       "popular": false,
       "summary_ja": "ボール ウォッチの型番DG9000B-S1CJ-WH。市場で1件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Ball Watch reference DG9000B-S1CJ-WH, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-09-03"
-    },
-    {
-      "id": "ref-nm3888ds1cjwh",
-      "name_en": "NM3888D-S1CJ-WH",
-      "name_ja": "NM3888D-S1CJ-WH",
-      "reference": "NM3888D-S1CJ-WH",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 392700,
-      "searchKeywordJa": "ボール ウォッチ NM3888D-S1CJ-WH",
-      "searchKeywordEn": "Ball Watch NM3888D-S1CJ-WH",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ボール ウォッチの型番NM3888D-S1CJ-WH。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Ball Watch reference NM3888D-S1CJ-WH, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-09-03"
-    },
-    {
-      "id": "ref-dm3002as3cjbk",
-      "name_en": "DM3002A-S3CJ-BK",
-      "name_ja": "DM3002A-S3CJ-BK",
-      "reference": "DM3002A-S3CJ-BK",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 532950,
-      "searchKeywordJa": "ボール ウォッチ DM3002A-S3CJ-BK",
-      "searchKeywordEn": "Ball Watch DM3002A-S3CJ-BK",
-      "caseMaterial": "ceramic",
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ボール ウォッチの型番DM3002A-S3CJ-BK。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Ball Watch reference DM3002A-S3CJ-BK, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 0,
-      "lastSeen": "2026-09-03"
-    },
-    {
-      "id": "ref-cm1052dl3fjbk",
-      "name_en": "CM1052D-L3FJ-BK",
-      "name_ja": "CM1052D-L3FJ-BK",
-      "reference": "CM1052D-L3FJ-BK",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 504900,
-      "searchKeywordJa": "ボール ウォッチ CM1052D-L3FJ-BK",
-      "searchKeywordEn": "Ball Watch CM1052D-L3FJ-BK",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "chronograph"
-      ],
-      "popular": false,
-      "summary_ja": "ボール ウォッチの型番CM1052D-L3FJ-BK。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Ball Watch reference CM1052D-L3FJ-BK, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 0,
       "lastSeen": "2026-09-03"
