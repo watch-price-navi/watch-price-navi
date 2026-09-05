@@ -1,6 +1,6 @@
 {
   "brandId": "jacob-co",
-  "generatedAt": "2026-09-04T14:56:02.314Z",
+  "generatedAt": "2026-09-05T00:26:02.546Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -29,7 +29,7 @@
       "summary_en": "Jacob & Co. reference 330.100.1, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-09-04"
+      "lastSeen": "2026-09-05"
     },
     {
       "id": "ref-1025",
@@ -57,7 +57,7 @@
       "summary_en": "Jacob & Co. reference 10.25, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-09-04"
+      "lastSeen": "2026-09-05"
     },
     {
       "id": "ref-1725",
@@ -81,11 +81,11 @@
         "sport"
       ],
       "popular": false,
-      "summary_ja": "ジェイコブの型番17.25。市場で4件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "ジェイコブの型番17.25。市場で3件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Jacob & Co. reference 17.25, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 4,
-      "lastSeen": "2026-09-04"
+      "listingCount": 3,
+      "lastSeen": "2026-09-05"
     },
     {
       "id": "ref-24511sj",
@@ -113,7 +113,7 @@
       "summary_en": "Jacob & Co. reference 2451.1SJ, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-09-04"
+      "lastSeen": "2026-09-05"
     },
     {
       "id": "ref-1325",
@@ -141,7 +141,7 @@
       "summary_en": "Jacob & Co. reference 13.25, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-09-04"
+      "lastSeen": "2026-09-05"
     },
     {
       "id": "ref-jcgr522u075",
@@ -170,7 +170,7 @@
       "summary_en": "Jacob & Co. reference JC-GR5-22-U075, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-09-04"
+      "lastSeen": "2026-09-05"
     },
     {
       "id": "ref-j2018",
@@ -198,7 +198,7 @@
       "summary_en": "Jacob & Co. reference J2018, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-09-04"
+      "lastSeen": "2026-09-05"
     },
     {
       "id": "ref-1625",
@@ -226,7 +226,7 @@
       "summary_en": "Jacob & Co. reference 16.25, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-09-04"
+      "lastSeen": "2026-09-05"
     },
     {
       "id": "ref-2035",
@@ -254,7 +254,7 @@
       "summary_en": "Jacob & Co. reference 20.35, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-09-04"
+      "lastSeen": "2026-09-05"
     },
     {
       "id": "ref-2975",
@@ -282,7 +282,7 @@
       "summary_en": "Jacob & Co. reference 29.75, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-09-04"
+      "lastSeen": "2026-09-05"
     },
     {
       "id": "ref-210234",
@@ -310,7 +310,35 @@
       "summary_en": "Jacob & Co. reference 210234, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-09-04"
+      "lastSeen": "2026-09-05"
+    },
+    {
+      "id": "ref-mbm2002",
+      "name_en": "MBM2002",
+      "name_ja": "MBM2002",
+      "reference": "MBM2002",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 400000,
+      "searchKeywordJa": "ジェイコブ MBM2002",
+      "searchKeywordEn": "Jacob & Co. MBM2002",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ジェイコブの型番MBM2002。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Jacob & Co. reference MBM2002, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-09-05"
     },
     {
       "id": "ref-mbm9702",
@@ -339,7 +367,7 @@
       "summary_en": "Jacob & Co. reference MBM9702, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-04"
+      "lastSeen": "2026-09-05"
     },
     {
       "id": "ref-a1532",
@@ -368,7 +396,7 @@
       "summary_en": "Jacob & Co. reference A15-32, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-04"
+      "lastSeen": "2026-09-05"
     },
     {
       "id": "ref-1000",
@@ -397,7 +425,7 @@
       "summary_en": "Jacob & Co. reference 1000, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-04"
+      "lastSeen": "2026-09-05"
     },
     {
       "id": "ref-hkjc0113",
@@ -425,7 +453,7 @@
       "summary_en": "Jacob & Co. reference HKJC0113, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-04"
+      "lastSeen": "2026-09-05"
     },
     {
       "id": "ref-hkjc0110",
@@ -453,7 +481,7 @@
       "summary_en": "Jacob & Co. reference HKJC0110, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-04"
+      "lastSeen": "2026-09-05"
     },
     {
       "id": "ref-hkjc0112",
@@ -481,7 +509,7 @@
       "summary_en": "Jacob & Co. reference HKJC0112, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-04"
+      "lastSeen": "2026-09-05"
     },
     {
       "id": "ref-hkjc0109",
@@ -509,7 +537,7 @@
       "summary_en": "Jacob & Co. reference HKJC0109, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-04"
+      "lastSeen": "2026-09-05"
     },
     {
       "id": "ref-hkjc0108",
@@ -537,7 +565,7 @@
       "summary_en": "Jacob & Co. reference HKJC0108, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-04"
+      "lastSeen": "2026-09-05"
     },
     {
       "id": "ref-hkjc0107",
@@ -565,7 +593,7 @@
       "summary_en": "Jacob & Co. reference HKJC0107, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-04"
+      "lastSeen": "2026-09-05"
     },
     {
       "id": "ref-j2017",
@@ -593,7 +621,7 @@
       "summary_en": "Jacob & Co. reference J2017, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-04"
+      "lastSeen": "2026-09-05"
     },
     {
       "id": "ref-j2020",
@@ -621,7 +649,7 @@
       "summary_en": "Jacob & Co. reference J2020, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-04"
+      "lastSeen": "2026-09-05"
     },
     {
       "id": "ref-j2016",
@@ -649,7 +677,7 @@
       "summary_en": "Jacob & Co. reference J2016, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-04"
+      "lastSeen": "2026-09-05"
     },
     {
       "id": "ref-j2019",
@@ -677,7 +705,7 @@
       "summary_en": "Jacob & Co. reference J2019, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-04"
+      "lastSeen": "2026-09-05"
     },
     {
       "id": "ref-j2021",
@@ -705,7 +733,7 @@
       "summary_en": "Jacob & Co. reference J2021, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-04"
+      "lastSeen": "2026-09-05"
     },
     {
       "id": "ref-hkjc0100",
@@ -733,7 +761,7 @@
       "summary_en": "Jacob & Co. reference HKJC0100, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-04"
+      "lastSeen": "2026-09-05"
     },
     {
       "id": "ref-198196",
@@ -761,7 +789,7 @@
       "summary_en": "Jacob & Co. reference 198196, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-04"
+      "lastSeen": "2026-09-05"
     },
     {
       "id": "ref-4a000110",
@@ -789,35 +817,7 @@
       "summary_en": "Jacob & Co. reference 4A000110, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-04"
-    },
-    {
-      "id": "ref-at12580aaugb",
-      "name_en": "AT125.80.AA.UG.B",
-      "name_ja": "AT125.80.AA.UG.B",
-      "reference": "AT125.80.AA.UG.B",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "manual",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 79866000,
-      "searchKeywordJa": "ジェイコブ AT125.80.AA.UG.B",
-      "searchKeywordEn": "Jacob & Co. AT125.80.AA.UG.B",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "tourbillon"
-      ],
-      "popular": false,
-      "summary_ja": "ジェイコブの型番AT125.80.AA.UG.B。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Jacob & Co. reference AT125.80.AA.UG.B, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-09-04"
+      "lastSeen": "2026-09-05"
     },
     {
       "id": "ref-at10040acufa",
@@ -845,7 +845,35 @@
       "summary_en": "Jacob & Co. reference AT.100.40.AC.UF.A, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-04"
+      "lastSeen": "2026-09-05"
+    },
+    {
+      "id": "ref-at12580aaugb",
+      "name_en": "AT125.80.AA.UG.B",
+      "name_ja": "AT125.80.AA.UG.B",
+      "reference": "AT125.80.AA.UG.B",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "manual",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 79866000,
+      "searchKeywordJa": "ジェイコブ AT125.80.AA.UG.B",
+      "searchKeywordEn": "Jacob & Co. AT125.80.AA.UG.B",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "tourbillon"
+      ],
+      "popular": false,
+      "summary_ja": "ジェイコブの型番AT125.80.AA.UG.B。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Jacob & Co. reference AT125.80.AA.UG.B, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-09-05"
     },
     {
       "id": "ref-am50040acsddbala",
@@ -873,7 +901,7 @@
       "summary_en": "Jacob & Co. reference AM500.40.AC.SD.DBALA, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-04"
+      "lastSeen": "2026-09-05"
     },
     {
       "id": "ref-hk11666d",
@@ -901,7 +929,7 @@
       "summary_en": "Jacob & Co. reference HK11666D, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-04"
+      "lastSeen": "2026-09-05"
     },
     {
       "id": "ref-i203124033",
@@ -930,35 +958,7 @@
       "summary_en": "Jacob & Co. reference I203124033, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-04"
-    },
-    {
-      "id": "ref-mbm2002",
-      "name_en": "MBM2002",
-      "name_ja": "MBM2002",
-      "reference": "MBM2002",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 400000,
-      "searchKeywordJa": "ジェイコブ MBM2002",
-      "searchKeywordEn": "Jacob & Co. MBM2002",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ジェイコブの型番MBM2002。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Jacob & Co. reference MBM2002, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 0,
-      "lastSeen": "2026-09-04"
+      "lastSeen": "2026-09-05"
     }
   ]
 }
