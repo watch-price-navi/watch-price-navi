@@ -1,6 +1,6 @@
 {
   "brandId": "moritz-grossmann",
-  "generatedAt": "2026-09-07T00:27:02.580Z",
+  "generatedAt": "2026-09-07T16:36:29.284Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -200,6 +200,34 @@
       "lastSeen": "2026-09-07"
     },
     {
+      "id": "ref-mg000854",
+      "name_en": "MG-000854",
+      "name_ja": "アトゥム デイト MG-000854",
+      "reference": "MG-000854",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 3677100,
+      "searchKeywordJa": "モリッツ・グロスマン MG-000854",
+      "searchKeywordEn": "Moritz Grossmann MG-000854",
+      "caseMaterial": "rose-gold",
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "モリッツ・グロスマンの型番MG-000854。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Moritz Grossmann reference MG-000854, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-09-07"
+    },
+    {
       "id": "ref-mg000461",
       "name_en": "MG-000461",
       "name_ja": "ベヌーパワーリザーブ MG-000461",
@@ -254,6 +282,34 @@
       "summary_en": "Moritz Grossmann reference MG-000779, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
+      "lastSeen": "2026-09-07"
+    },
+    {
+      "id": "ref-refmg002811",
+      "name_en": "REF.MG-002811",
+      "name_ja": "REF.MG-002811",
+      "reference": "REF.MG-002811",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 4247390,
+      "searchKeywordJa": "モリッツ・グロスマン REF.MG-002811",
+      "searchKeywordEn": "Moritz Grossmann REF.MG-002811",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "gmt"
+      ],
+      "popular": false,
+      "summary_ja": "モリッツ・グロスマンの型番REF.MG-002811。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Moritz Grossmann reference REF.MG-002811, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
       "lastSeen": "2026-09-07"
     },
     {

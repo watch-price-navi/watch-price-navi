@@ -1,8 +1,36 @@
 {
   "brandId": "nomos-glashuette",
-  "generatedAt": "2026-09-07T00:30:01.841Z",
+  "generatedAt": "2026-09-07T16:39:38.681Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
+    {
+      "id": "ref-tn1a1w238",
+      "name_en": "TN1A1W238",
+      "name_ja": "スーパーセール タンジェント TN1A1W238",
+      "reference": "TN1A1W238",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 372130,
+      "searchKeywordJa": "ノモス グラスヒュッテ TN1A1W238",
+      "searchKeywordEn": "NOMOS Glashütte TN1A1W238",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ノモス グラスヒュッテの型番TN1A1W238。市場で6件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "NOMOS Glashütte reference TN1A1W238, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 6,
+      "lastSeen": "2026-09-07"
+    },
     {
       "id": "ref-tn1a21w233",
       "name_en": "TN1A21W233",
@@ -55,34 +83,6 @@
       "popular": false,
       "summary_ja": "ノモス グラスヒュッテの型番CLS161011B2CSM。市場で5件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "NOMOS Glashütte reference CLS161011B2CSM, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 5,
-      "lastSeen": "2026-09-07"
-    },
-    {
-      "id": "ref-tn1a1w238",
-      "name_en": "TN1A1W238",
-      "name_ja": "スーパーセール タンジェント TN1A1W238",
-      "reference": "TN1A1W238",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 372130,
-      "searchKeywordJa": "ノモス グラスヒュッテ TN1A1W238",
-      "searchKeywordEn": "NOMOS Glashütte TN1A1W238",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ノモス グラスヒュッテの型番TN1A1W238。市場で5件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "NOMOS Glashütte reference TN1A1W238, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
       "lastSeen": "2026-09-07"

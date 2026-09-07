@@ -1,6 +1,6 @@
 {
   "brandId": "jacob-co",
-  "generatedAt": "2026-09-07T00:14:05.927Z",
+  "generatedAt": "2026-09-07T16:23:26.705Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -25,10 +25,10 @@
         "digital"
       ],
       "popular": false,
-      "summary_ja": "ジェイコブの型番330.100.1。市場で6件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "ジェイコブの型番330.100.1。市場で7件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Jacob & Co. reference 330.100.1, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 6,
+      "listingCount": 7,
       "lastSeen": "2026-09-07"
     },
     {
@@ -53,10 +53,10 @@
         "sport"
       ],
       "popular": false,
-      "summary_ja": "ジェイコブの型番10.25。市場で5件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "ジェイコブの型番10.25。市場で4件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Jacob & Co. reference 10.25, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 5,
+      "listingCount": 4,
       "lastSeen": "2026-09-07"
     },
     {
@@ -167,35 +167,6 @@
       "popular": false,
       "summary_ja": "ジェイコブの型番13.25。市場で2件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Jacob & Co. reference 13.25, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-09-07"
-    },
-    {
-      "id": "ref-jcgr522u075",
-      "name_en": "JC-GR5-22-U075",
-      "name_ja": "グランド ダイヤ JC-GR5-22-U075",
-      "reference": "JC-GR5-22-U075",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "quartz",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 504900,
-      "searchKeywordJa": "ジェイコブ JC-GR5-22-U075",
-      "searchKeywordEn": "Jacob & Co. JC-GR5-22-U075",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "gmt",
-        "limited-edition"
-      ],
-      "popular": false,
-      "summary_ja": "ジェイコブの型番JC-GR5-22-U075。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Jacob & Co. reference JC-GR5-22-U075, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
       "lastSeen": "2026-09-07"
@@ -540,34 +511,6 @@
       "lastSeen": "2026-09-07"
     },
     {
-      "id": "ref-hkjc0108",
-      "name_en": "HKJC0108",
-      "name_ja": "HKJC0108",
-      "reference": "HKJC0108",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": 40,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 454410,
-      "searchKeywordJa": "ジェイコブ HKJC0108",
-      "searchKeywordEn": "Jacob & Co. HKJC0108",
-      "caseMaterial": "stainless-steel",
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ジェイコブの型番HKJC0108。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Jacob & Co. reference HKJC0108, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-09-07"
-    },
-    {
       "id": "ref-hkjc0109",
       "name_en": "HKJC0109",
       "name_ja": "HKJC0109",
@@ -591,6 +534,34 @@
       "popular": false,
       "summary_ja": "ジェイコブの型番HKJC0109。市場で1件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Jacob & Co. reference HKJC0109, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-09-07"
+    },
+    {
+      "id": "ref-hkjc0108",
+      "name_en": "HKJC0108",
+      "name_ja": "HKJC0108",
+      "reference": "HKJC0108",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": 40,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 454410,
+      "searchKeywordJa": "ジェイコブ HKJC0108",
+      "searchKeywordEn": "Jacob & Co. HKJC0108",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ジェイコブの型番HKJC0108。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Jacob & Co. reference HKJC0108, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
       "lastSeen": "2026-09-07"
@@ -958,6 +929,35 @@
       "summary_en": "Jacob & Co. reference I203124033, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
+      "lastSeen": "2026-09-07"
+    },
+    {
+      "id": "ref-jcgr522u075",
+      "name_en": "JC-GR5-22-U075",
+      "name_ja": "グランド ダイヤ JC-GR5-22-U075",
+      "reference": "JC-GR5-22-U075",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "quartz",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 504900,
+      "searchKeywordJa": "ジェイコブ JC-GR5-22-U075",
+      "searchKeywordEn": "Jacob & Co. JC-GR5-22-U075",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "gmt",
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "ジェイコブの型番JC-GR5-22-U075。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Jacob & Co. reference JC-GR5-22-U075, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 0,
       "lastSeen": "2026-09-07"
     }
   ]
