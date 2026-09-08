@@ -1,36 +1,8 @@
 {
   "brandId": "moritz-grossmann",
-  "generatedAt": "2026-09-08T01:08:59.964Z",
+  "generatedAt": "2026-09-08T15:16:16.074Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
-    {
-      "id": "ref-mg000460",
-      "name_en": "MG-000460",
-      "name_ja": "ベヌーパワーリザーブ MG-000460",
-      "reference": "MG-000460",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 3952500,
-      "searchKeywordJa": "モリッツ・グロスマン MG-000460",
-      "searchKeywordEn": "Moritz Grossmann MG-000460",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "power-reserve"
-      ],
-      "popular": false,
-      "summary_ja": "モリッツ・グロスマンの型番MG-000460。市場で6件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Moritz Grossmann reference MG-000460, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 6,
-      "lastSeen": "2026-09-08"
-    },
     {
       "id": "ref-mg001405",
       "name_en": "MG-001405",
@@ -83,6 +55,34 @@
       "popular": false,
       "summary_ja": "モリッツ・グロスマンの型番MG-002267。市場で3件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Moritz Grossmann reference MG-002267, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
+      "lastSeen": "2026-09-08"
+    },
+    {
+      "id": "ref-mg000460",
+      "name_en": "MG-000460",
+      "name_ja": "ベヌーパワーリザーブ MG-000460",
+      "reference": "MG-000460",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 4658000,
+      "searchKeywordJa": "モリッツ・グロスマン MG-000460",
+      "searchKeywordEn": "Moritz Grossmann MG-000460",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "power-reserve"
+      ],
+      "popular": false,
+      "summary_ja": "モリッツ・グロスマンの型番MG-000460。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Moritz Grossmann reference MG-000460, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
       "lastSeen": "2026-09-08"
@@ -285,6 +285,34 @@
       "lastSeen": "2026-09-08"
     },
     {
+      "id": "ref-refmg002811",
+      "name_en": "REF.MG-002811",
+      "name_ja": "REF.MG-002811",
+      "reference": "REF.MG-002811",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 4247390,
+      "searchKeywordJa": "モリッツ・グロスマン REF.MG-002811",
+      "searchKeywordEn": "Moritz Grossmann REF.MG-002811",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "gmt"
+      ],
+      "popular": false,
+      "summary_ja": "モリッツ・グロスマンの型番REF.MG-002811。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Moritz Grossmann reference REF.MG-002811, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-09-08"
+    },
+    {
       "id": "ref-mg002302",
       "name_en": "MG-002302",
       "name_ja": "MG-002302",
@@ -365,7 +393,7 @@
       "summary_ja": "モリッツ・グロスマンの型番MG01.A-02-A000335。市場で1件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Moritz Grossmann reference MG01.A-02-A000335, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 1,
+      "listingCount": 0,
       "lastSeen": "2026-09-08"
     },
     {
