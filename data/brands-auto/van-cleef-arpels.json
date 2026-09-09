@@ -1,6 +1,6 @@
 {
   "brandId": "van-cleef-arpels",
-  "generatedAt": "2026-09-09T02:02:34.324Z",
+  "generatedAt": "2026-09-09T16:20:16.639Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -25,10 +25,10 @@
         "sport"
       ],
       "popular": false,
-      "summary_ja": "ヴァン クリーフ&アーペルの型番136574。市場で6件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "ヴァン クリーフ&アーペルの型番136574。市場で7件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Van Cleef & Arpels reference 136574, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 6,
+      "listingCount": 7,
       "lastSeen": "2026-09-09"
     },
     {
@@ -146,7 +146,7 @@
     {
       "id": "ref-vcaro29900",
       "name_en": "VCARO29900",
-      "name_ja": "チャーム ヴァンクリーフ VCARO29900",
+      "name_ja": "ヴァンクリーフ アーペル VCARO29900",
       "reference": "VCARO29900",
       "collection_en": null,
       "collection_ja": null,
@@ -165,10 +165,38 @@
         "limited-edition"
       ],
       "popular": false,
-      "summary_ja": "ヴァン クリーフ&アーペルの型番VCARO29900。市場で4件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "ヴァン クリーフ&アーペルの型番VCARO29900。市場で3件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Van Cleef & Arpels reference VCARO29900, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 4,
+      "listingCount": 3,
+      "lastSeen": "2026-09-09"
+    },
+    {
+      "id": "ref-vcaro8sf00hh1",
+      "name_en": "VCARO8SF00/HH1",
+      "name_ja": "ヴァンクリーフ アーペルズ VCARO8SF00/HH1",
+      "reference": "VCARO8SF00/HH1",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "quartz",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 1019150,
+      "searchKeywordJa": "ヴァン クリーフ&アーペル VCARO8SF00/HH1",
+      "searchKeywordEn": "Van Cleef & Arpels VCARO8SF00/HH1",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ヴァン クリーフ&アーペルの型番VCARO8SF00/HH1。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Van Cleef & Arpels reference VCARO8SF00/HH1, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
       "lastSeen": "2026-09-09"
     },
     {
@@ -251,34 +279,6 @@
       "popular": false,
       "summary_ja": "ヴァン クリーフ&アーペルの型番3575164。市場で2件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Van Cleef & Arpels reference 3575164, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-09-09"
-    },
-    {
-      "id": "ref-vcaro8sf00hh1",
-      "name_en": "VCARO8SF00/HH1",
-      "name_ja": "ヴァンクリーフ アーペルズ VCARO8SF00/HH1",
-      "reference": "VCARO8SF00/HH1",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "quartz",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 1019150,
-      "searchKeywordJa": "ヴァン クリーフ&アーペル VCARO8SF00/HH1",
-      "searchKeywordEn": "Van Cleef & Arpels VCARO8SF00/HH1",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ヴァン クリーフ&アーペルの型番VCARO8SF00/HH1。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Van Cleef & Arpels reference VCARO8SF00/HH1, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
       "lastSeen": "2026-09-09"
@@ -620,6 +620,34 @@
       "lastSeen": "2026-09-09"
     },
     {
+      "id": "ref-522671",
+      "name_en": "522671",
+      "name_ja": "522671",
+      "reference": "522671",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "quartz",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 400000,
+      "searchKeywordJa": "ヴァン クリーフ&アーペル 522671",
+      "searchKeywordEn": "Van Cleef & Arpels 522671",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ヴァン クリーフ&アーペルの型番522671。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Van Cleef & Arpels reference 522671, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-09-09"
+    },
+    {
       "id": "ref-2610014",
       "name_en": "2610014",
       "name_ja": "2610014",
@@ -676,34 +704,6 @@
       "lastSeen": "2026-09-09"
     },
     {
-      "id": "ref-522671",
-      "name_en": "522671",
-      "name_ja": "522671",
-      "reference": "522671",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "quartz",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 400000,
-      "searchKeywordJa": "ヴァン クリーフ&アーペル 522671",
-      "searchKeywordEn": "Van Cleef & Arpels 522671",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ヴァン クリーフ&アーペルの型番522671。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Van Cleef & Arpels reference 522671, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-09-09"
-    },
-    {
       "id": "ref-522363",
       "name_en": "522363",
       "name_ja": "522363",
@@ -722,7 +722,7 @@
       "gender": "unisex",
       "releaseYear": null,
       "tags": [
-        "sport"
+        "limited-edition"
       ],
       "popular": false,
       "summary_ja": "ヴァン クリーフ&アーペルの型番522363。市場で1件の出品が確認された、実際に流通しているモデルです。",
@@ -862,7 +862,7 @@
       "gender": "unisex",
       "releaseYear": null,
       "tags": [
-        "sport"
+        "limited-edition"
       ],
       "popular": false,
       "summary_ja": "ヴァン クリーフ&アーペルの型番115101。市場で1件の出品が確認された、実際に流通しているモデルです。",
@@ -1218,7 +1218,7 @@
       "movementType": "manual",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 8247550,
+      "priceFloorJpy": 8143000,
       "searchKeywordJa": "ヴァン クリーフ&アーペル VCARO8T500",
       "searchKeywordEn": "Van Cleef & Arpels VCARO8T500",
       "caseMaterial": null,
