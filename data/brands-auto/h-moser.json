@@ -1,8 +1,36 @@
 {
   "brandId": "h-moser",
-  "generatedAt": "2026-09-10T00:24:01.277Z",
+  "generatedAt": "2026-09-10T14:40:29.229Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
+    {
+      "id": "ref-13210109",
+      "name_en": "1321-0109",
+      "name_ja": "エンデバー スモールセコンド 1321-0109",
+      "reference": "1321-0109",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 1938000,
+      "searchKeywordJa": "H.モーザー 1321-0109",
+      "searchKeywordEn": "H. Moser & Cie. 1321-0109",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "small-seconds"
+      ],
+      "popular": false,
+      "summary_ja": "H.モーザーの型番1321-0109。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "H. Moser & Cie. reference 1321-0109, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
+      "lastSeen": "2026-09-10"
+    },
     {
       "id": "ref-342502001",
       "name_en": "342.502-001",
@@ -172,6 +200,34 @@
       "lastSeen": "2026-09-10"
     },
     {
+      "id": "ref-ref32011202",
+      "name_en": "REF.3201-1202",
+      "name_ja": "パイオニア センターセコンド REF.3201-1202",
+      "reference": "REF.3201-1202",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 2240600,
+      "searchKeywordJa": "H.モーザー REF.3201-1202",
+      "searchKeywordEn": "H. Moser & Cie. REF.3201-1202",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "H.モーザーの型番REF.3201-1202。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "H. Moser & Cie. reference REF.3201-1202, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-09-10"
+    },
+    {
       "id": "ref-12001233",
       "name_en": "1200-1233",
       "name_ja": "エンデバー センターセコンド 1200-1233",
@@ -284,6 +340,34 @@
       "lastSeen": "2026-09-10"
     },
     {
+      "id": "ref-ref23270200",
+      "name_en": "REF.2327-0200",
+      "name_ja": "REF.2327-0200",
+      "reference": "REF.2327-0200",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 1586482,
+      "searchKeywordJa": "H.モーザー REF.2327-0200",
+      "searchKeywordEn": "H. Moser & Cie. REF.2327-0200",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "small-seconds"
+      ],
+      "popular": false,
+      "summary_ja": "H.モーザーの型番REF.2327-0200。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "H. Moser & Cie. reference REF.2327-0200, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-09-10"
+    },
+    {
       "id": "ref-23270200",
       "name_en": "2327-0200",
       "name_ja": "2327-0200",
@@ -302,6 +386,7 @@
       "gender": "mens",
       "releaseYear": null,
       "tags": [
+        "limited-edition",
         "small-seconds"
       ],
       "popular": false,
@@ -396,32 +481,32 @@
       "lastSeen": "2026-09-10"
     },
     {
-      "id": "ref-13210109",
-      "name_en": "1321-0109",
-      "name_ja": "1321-0109",
-      "reference": "1321-0109",
+      "id": "ref-0gggmoau0001",
+      "name_en": "0GGGMOAU0001",
+      "name_ja": "0GGGMOAU0001",
+      "reference": "0GGGMOAU0001",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
-      "movementType": "manual",
+      "movementType": null,
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 1358300,
-      "searchKeywordJa": "H.モーザー 1321-0109",
-      "searchKeywordEn": "H. Moser & Cie. 1321-0109",
-      "caseMaterial": "rose-gold",
+      "priceFloorJpy": 1938000,
+      "searchKeywordJa": "H.モーザー 0GGGMOAU0001",
+      "searchKeywordEn": "H. Moser & Cie. 0GGGMOAU0001",
+      "caseMaterial": null,
       "waterResistanceM": null,
-      "gender": "unisex",
+      "gender": "mens",
       "releaseYear": null,
       "tags": [
         "small-seconds"
       ],
       "popular": false,
-      "summary_ja": "H.モーザーの型番1321-0109。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "H. Moser & Cie. reference 1321-0109, currently offered by multiple sellers in Japan.",
+      "summary_ja": "H.モーザーの型番0GGGMOAU0001。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "H. Moser & Cie. reference 0GGGMOAU0001, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 0,
-      "lastSeen": "2026-08-28"
+      "listingCount": 1,
+      "lastSeen": "2026-09-10"
     },
     {
       "id": "ref-10409g",

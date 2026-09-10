@@ -1,6 +1,6 @@
 {
   "brandId": "hyt",
-  "generatedAt": "2026-09-10T00:33:55.467Z",
+  "generatedAt": "2026-09-10T14:50:28.864Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -27,6 +27,35 @@
       "popular": false,
       "summary_ja": "HYTの型番048-TT-92-NF-RU。市場で2件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "HYT reference 048-TT-92-NF-RU, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-09-10"
+    },
+    {
+      "id": "ref-h02698a",
+      "name_en": "H02698-A",
+      "name_ja": "ハストロイドコレクション グリーンネビュラ H02698-A",
+      "reference": "H02698-A",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 7055000,
+      "searchKeywordJa": "HYT H02698-A",
+      "searchKeywordEn": "HYT H02698-A",
+      "caseMaterial": "carbon",
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "limited-edition",
+        "lightweight"
+      ],
+      "popular": false,
+      "summary_ja": "HYTの型番H02698-A。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "HYT reference H02698-A, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
       "lastSeen": "2026-09-10"
