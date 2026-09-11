@@ -1,6 +1,6 @@
 {
   "brandId": "jacob-co",
-  "generatedAt": "2026-09-11T00:37:19.821Z",
+  "generatedAt": "2026-09-11T14:56:49.244Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -25,38 +25,10 @@
         "digital"
       ],
       "popular": false,
-      "summary_ja": "ジェイコブの型番330.100.1。市場で7件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "ジェイコブの型番330.100.1。市場で5件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Jacob & Co. reference 330.100.1, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 7,
-      "lastSeen": "2026-09-11"
-    },
-    {
-      "id": "ref-1025",
-      "name_en": "10.25",
-      "name_ja": "ジョーロデオ ダイヤモンド 10.25",
-      "reference": "10.25",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 400000,
-      "searchKeywordJa": "ジェイコブ 10.25",
-      "searchKeywordEn": "Jacob & Co. 10.25",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ジェイコブの型番10.25。市場で4件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Jacob & Co. reference 10.25, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 4,
+      "listingCount": 5,
       "lastSeen": "2026-09-11"
     },
     {
@@ -81,10 +53,38 @@
         "sport"
       ],
       "popular": false,
-      "summary_ja": "ジェイコブの型番17.25。市場で4件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "ジェイコブの型番17.25。市場で5件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Jacob & Co. reference 17.25, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 4,
+      "listingCount": 5,
+      "lastSeen": "2026-09-11"
+    },
+    {
+      "id": "ref-1025",
+      "name_en": "10.25",
+      "name_ja": "ジョーロデオ ダイヤモンド 10.25",
+      "reference": "10.25",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 400000,
+      "searchKeywordJa": "ジェイコブ 10.25",
+      "searchKeywordEn": "Jacob & Co. 10.25",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ジェイコブの型番10.25。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Jacob & Co. reference 10.25, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
       "lastSeen": "2026-09-11"
     },
     {
