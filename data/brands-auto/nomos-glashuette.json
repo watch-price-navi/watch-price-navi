@@ -1,6 +1,6 @@
 {
   "brandId": "nomos-glashuette",
-  "generatedAt": "2026-09-12T01:00:46.187Z",
+  "generatedAt": "2026-09-12T14:26:40.489Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -172,6 +172,34 @@
       "lastSeen": "2026-09-12"
     },
     {
+      "id": "ref-nm160s2",
+      "name_en": "NM160S2",
+      "name_ja": "タンジェント ネオマティック NM160S2",
+      "reference": "NM160S2",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 1355750,
+      "searchKeywordJa": "ノモス グラスヒュッテ NM160S2",
+      "searchKeywordEn": "NOMOS Glashütte NM160S2",
+      "caseMaterial": "rose-gold",
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "ノモス グラスヒュッテの型番NM160S2。市場で4件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "NOMOS Glashütte reference NM160S2, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 4,
+      "lastSeen": "2026-09-12"
+    },
+    {
       "id": "ref-ld1a2ew238",
       "name_en": "LD1A2EW238",
       "name_ja": "ラドウィッグ エナメルホワイト LD1A2EW238",
@@ -223,34 +251,6 @@
       "popular": false,
       "summary_ja": "ノモス グラスヒュッテの型番AB161011BL2。市場で3件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "NOMOS Glashütte reference AB161011BL2, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 3,
-      "lastSeen": "2026-09-12"
-    },
-    {
-      "id": "ref-nm160s2",
-      "name_en": "NM160S2",
-      "name_ja": "タンジェント ネオマティック NM160S2",
-      "reference": "NM160S2",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 1355750,
-      "searchKeywordJa": "ノモス グラスヒュッテ NM160S2",
-      "searchKeywordEn": "NOMOS Glashütte NM160S2",
-      "caseMaterial": "rose-gold",
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "limited-edition"
-      ],
-      "popular": false,
-      "summary_ja": "ノモス グラスヒュッテの型番NM160S2。市場で3件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "NOMOS Glashütte reference NM160S2, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
       "lastSeen": "2026-09-12"
