@@ -1,6 +1,6 @@
 {
   "brandId": "ulysse-nardin",
-  "generatedAt": "2026-09-13T01:43:21.134Z",
+  "generatedAt": "2026-09-13T16:18:48.723Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -85,34 +85,6 @@
       "popular": false,
       "summary_ja": "ユリス・ナルダンの型番353-95LE-3C。市場で8件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Ulysse Nardin reference 353-95LE-3C, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 8,
-      "lastSeen": "2026-09-13"
-    },
-    {
-      "id": "ref-2460043",
-      "name_en": "246-00/43",
-      "name_ja": "エグゼクティブ デュアルタイム 246-00/43",
-      "reference": "246-00/43",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 1615000,
-      "searchKeywordJa": "ユリス・ナルダン 246-00/43",
-      "searchKeywordEn": "Ulysse Nardin 246-00/43",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "gmt"
-      ],
-      "popular": false,
-      "summary_ja": "ユリス・ナルダンの型番246-00/43。市場で8件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Ulysse Nardin reference 246-00/43, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 8,
       "lastSeen": "2026-09-13"
@@ -914,6 +886,35 @@
       "lastSeen": "2026-09-13"
     },
     {
+      "id": "ref-ref37231702b",
+      "name_en": "REF.3723-170-2B",
+      "name_ja": "スケルトン ダイバー REF.3723-170-2B",
+      "reference": "REF.3723-170-2B",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 2186625,
+      "searchKeywordJa": "ユリス・ナルダン REF.3723-170-2B",
+      "searchKeywordEn": "Ulysse Nardin REF.3723-170-2B",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "diver",
+        "skeleton"
+      ],
+      "popular": false,
+      "summary_ja": "ユリス・ナルダンの型番REF.3723-170-2B。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ulysse Nardin reference REF.3723-170-2B, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
+      "lastSeen": "2026-09-13"
+    },
+    {
       "id": "ref-13426",
       "name_en": "134-26",
       "name_ja": "アクア デイト 134-26",
@@ -970,34 +971,6 @@
       "lastSeen": "2026-09-13"
     },
     {
-      "id": "ref-56342",
-      "name_en": "563-42",
-      "name_ja": "ミケランジェロ クロノグラフ 563-42",
-      "reference": "563-42",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 319601,
-      "searchKeywordJa": "ユリス・ナルダン 563-42",
-      "searchKeywordEn": "Ulysse Nardin 563-42",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "chronograph"
-      ],
-      "popular": false,
-      "summary_ja": "ユリス・ナルダンの型番563-42。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Ulysse Nardin reference 563-42, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-09-13"
-    },
-    {
       "id": "ref-15522",
       "name_en": "155-22",
       "name_ja": "ニュートン デイト 155-22",
@@ -1021,6 +994,34 @@
       "popular": false,
       "summary_ja": "ユリス・ナルダンの型番155-22。市場で2件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Ulysse Nardin reference 155-22, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-09-13"
+    },
+    {
+      "id": "ref-56342",
+      "name_en": "563-42",
+      "name_ja": "ミケランジェロ クロノグラフ 563-42",
+      "reference": "563-42",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 319601,
+      "searchKeywordJa": "ユリス・ナルダン 563-42",
+      "searchKeywordEn": "Ulysse Nardin 563-42",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph"
+      ],
+      "popular": false,
+      "summary_ja": "ユリス・ナルダンの型番563-42。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ulysse Nardin reference 563-42, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
       "lastSeen": "2026-09-13"
@@ -1273,6 +1274,34 @@
       "popular": false,
       "summary_ja": "ユリス・ナルダンの型番2405-500-2A/3D。市場で2件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Ulysse Nardin reference 2405-500-2A/3D, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-09-13"
+    },
+    {
+      "id": "ref-2460043",
+      "name_en": "246-00/43",
+      "name_ja": "エグゼクティブ デュアルタイム 246-00/43",
+      "reference": "246-00/43",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 1615000,
+      "searchKeywordJa": "ユリス・ナルダン 246-00/43",
+      "searchKeywordEn": "Ulysse Nardin 246-00/43",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "gmt"
+      ],
+      "popular": false,
+      "summary_ja": "ユリス・ナルダンの型番246-00/43。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ulysse Nardin reference 246-00/43, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
       "lastSeen": "2026-09-13"

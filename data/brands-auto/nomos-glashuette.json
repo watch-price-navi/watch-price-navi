@@ -1,6 +1,6 @@
 {
   "brandId": "nomos-glashuette",
-  "generatedAt": "2026-09-13T00:45:55.314Z",
+  "generatedAt": "2026-09-13T15:24:21.090Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -60,34 +60,6 @@
       "lastSeen": "2026-09-13"
     },
     {
-      "id": "ref-tn130011pg2",
-      "name_en": "TN130011PG2",
-      "name_ja": "タンジェント ネオマティック TN130011PG2",
-      "reference": "TN130011PG2",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": 35,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 564740,
-      "searchKeywordJa": "ノモス グラスヒュッテ TN130011PG2",
-      "searchKeywordEn": "NOMOS Glashütte TN130011PG2",
-      "caseMaterial": "platinum",
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ノモス グラスヒュッテの型番TN130011PG2。市場で5件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "NOMOS Glashütte reference TN130011PG2, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 5,
-      "lastSeen": "2026-09-13"
-    },
-    {
       "id": "ref-tn1a1w238",
       "name_en": "TN1A1W238",
       "name_ja": "タンジェント TN1A1W238",
@@ -109,10 +81,10 @@
         "sport"
       ],
       "popular": false,
-      "summary_ja": "ノモス グラスヒュッテの型番TN1A1W238。市場で4件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "ノモス グラスヒュッテの型番TN1A1W238。市場で5件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "NOMOS Glashütte reference TN1A1W238, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 4,
+      "listingCount": 5,
       "lastSeen": "2026-09-13"
     },
     {
@@ -139,6 +111,34 @@
       "popular": false,
       "summary_ja": "ノモス グラスヒュッテの型番OR1A3BL233。市場で4件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "NOMOS Glashütte reference OR1A3BL233, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 4,
+      "lastSeen": "2026-09-13"
+    },
+    {
+      "id": "ref-tn130011pg2",
+      "name_en": "TN130011PG2",
+      "name_ja": "タンジェント ネオマティック TN130011PG2",
+      "reference": "TN130011PG2",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": 35,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 564740,
+      "searchKeywordJa": "ノモス グラスヒュッテ TN130011PG2",
+      "searchKeywordEn": "NOMOS Glashütte TN130011PG2",
+      "caseMaterial": "platinum",
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ノモス グラスヒュッテの型番TN130011PG2。市場で4件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "NOMOS Glashütte reference TN130011PG2, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
       "lastSeen": "2026-09-13"
