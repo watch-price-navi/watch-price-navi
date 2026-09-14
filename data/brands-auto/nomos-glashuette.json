@@ -1,36 +1,8 @@
 {
   "brandId": "nomos-glashuette",
-  "generatedAt": "2026-09-14T00:48:48.873Z",
+  "generatedAt": "2026-09-14T17:32:33.505Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
-    {
-      "id": "ref-tn1a21w233",
-      "name_en": "TN1A21W233",
-      "name_ja": "タンジェント デュオ TN1A21W233",
-      "reference": "TN1A21W233",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 148750,
-      "searchKeywordJa": "ノモス グラスヒュッテ TN1A21W233",
-      "searchKeywordEn": "NOMOS Glashütte TN1A21W233",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ノモス グラスヒュッテの型番TN1A21W233。市場で5件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "NOMOS Glashütte reference TN1A21W233, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 5,
-      "lastSeen": "2026-09-14"
-    },
     {
       "id": "ref-cls161011b2csm",
       "name_en": "CLS161011B2CSM",
@@ -81,10 +53,10 @@
         "sport"
       ],
       "popular": false,
-      "summary_ja": "ノモス グラスヒュッテの型番TN1A1W238。市場で5件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "ノモス グラスヒュッテの型番TN1A1W238。市場で4件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "NOMOS Glashütte reference TN1A1W238, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 5,
+      "listingCount": 4,
       "lastSeen": "2026-09-14"
     },
     {
@@ -253,6 +225,34 @@
       "summary_en": "NOMOS Glashütte reference AB161011BL2, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
+      "lastSeen": "2026-09-14"
+    },
+    {
+      "id": "ref-tn1a21w233",
+      "name_en": "TN1A21W233",
+      "name_ja": "タンジェント デュオ TN1A21W233",
+      "reference": "TN1A21W233",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 148750,
+      "searchKeywordJa": "ノモス グラスヒュッテ TN1A21W233",
+      "searchKeywordEn": "NOMOS Glashütte TN1A21W233",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ノモス グラスヒュッテの型番TN1A21W233。市場で5件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "NOMOS Glashütte reference TN1A21W233, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 0,
       "lastSeen": "2026-09-14"
     },
     {

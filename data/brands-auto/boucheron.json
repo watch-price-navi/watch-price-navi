@@ -1,6 +1,6 @@
 {
   "brandId": "boucheron",
-  "generatedAt": "2026-09-13T23:28:16.168Z",
+  "generatedAt": "2026-09-14T16:09:17.255Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -25,11 +25,39 @@
         "sport"
       ],
       "popular": false,
-      "summary_ja": "ブシュロンの型番JAL00134。市場で5件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "ブシュロンの型番JAL00134。市場で4件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Boucheron reference JAL00134, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 5,
-      "lastSeen": "2026-09-13"
+      "listingCount": 4,
+      "lastSeen": "2026-09-14"
+    },
+    {
+      "id": "ref-jal00281",
+      "name_en": "JAL00281",
+      "name_ja": "キャトル ラディアント JAL00281",
+      "reference": "JAL00281",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 382500,
+      "searchKeywordJa": "ブシュロン JAL00281",
+      "searchKeywordEn": "Boucheron JAL00281",
+      "caseMaterial": "white-gold",
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ブシュロンの型番JAL00281。市場で4件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Boucheron reference JAL00281, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 4,
+      "lastSeen": "2026-09-14"
     },
     {
       "id": "ref-jrg00290",
@@ -57,7 +85,7 @@
       "summary_en": "Boucheron reference JRG00290, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-09-13"
+      "lastSeen": "2026-09-14"
     },
     {
       "id": "ref-jal00279",
@@ -85,35 +113,7 @@
       "summary_en": "Boucheron reference JAL00279, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-09-13"
-    },
-    {
-      "id": "ref-jal00281",
-      "name_en": "JAL00281",
-      "name_ja": "キャトル ラディアント JAL00281",
-      "reference": "JAL00281",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 382500,
-      "searchKeywordJa": "ブシュロン JAL00281",
-      "searchKeywordEn": "Boucheron JAL00281",
-      "caseMaterial": "white-gold",
-      "waterResistanceM": null,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ブシュロンの型番JAL00281。市場で3件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Boucheron reference JAL00281, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 3,
-      "lastSeen": "2026-09-13"
+      "lastSeen": "2026-09-14"
     },
     {
       "id": "ref-jrg02144",
@@ -141,7 +141,7 @@
       "summary_en": "Boucheron reference JRG02144, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-09-13"
+      "lastSeen": "2026-09-14"
     },
     {
       "id": "ref-jrg01599",
@@ -169,7 +169,35 @@
       "summary_en": "Boucheron reference JRG01599, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-09-13"
+      "lastSeen": "2026-09-14"
+    },
+    {
+      "id": "ref-jrg03278",
+      "name_en": "JRG03278",
+      "name_ja": "セルパンボエム モチーフ JRG03278",
+      "reference": "JRG03278",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 863940,
+      "searchKeywordJa": "ブシュロン JRG03278",
+      "searchKeywordEn": "Boucheron JRG03278",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ブシュロンの型番JRG03278。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Boucheron reference JRG03278, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
+      "lastSeen": "2026-09-14"
     },
     {
       "id": "ref-jrg01987",
@@ -197,7 +225,7 @@
       "summary_en": "Boucheron reference JRG01987, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-09-13"
+      "lastSeen": "2026-09-14"
     },
     {
       "id": "ref-jrg02783",
@@ -225,7 +253,7 @@
       "summary_en": "Boucheron reference JRG02783, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-09-13"
+      "lastSeen": "2026-09-14"
     },
     {
       "id": "ref-jal00251",
@@ -253,7 +281,7 @@
       "summary_en": "Boucheron reference JAL00251, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-09-13"
+      "lastSeen": "2026-09-14"
     },
     {
       "id": "ref-jal00226",
@@ -281,7 +309,7 @@
       "summary_en": "Boucheron reference JAL00226, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-09-13"
+      "lastSeen": "2026-09-14"
     },
     {
       "id": "ref-jrg02143",
@@ -309,7 +337,7 @@
       "summary_en": "Boucheron reference JRG02143, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-09-13"
+      "lastSeen": "2026-09-14"
     },
     {
       "id": "ref-jrg01791",
@@ -337,7 +365,7 @@
       "summary_en": "Boucheron reference JRG01791, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-09-13"
+      "lastSeen": "2026-09-14"
     },
     {
       "id": "ref-jal00280",
@@ -365,35 +393,7 @@
       "summary_en": "Boucheron reference JAL00280, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-09-13"
-    },
-    {
-      "id": "ref-jrg00257",
-      "name_en": "JRG00257",
-      "name_ja": "キャトル クラシック JRG00257",
-      "reference": "JRG00257",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 654500,
-      "searchKeywordJa": "ブシュロン JRG00257",
-      "searchKeywordEn": "Boucheron JRG00257",
-      "caseMaterial": "yellow-gold",
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ブシュロンの型番JRG00257。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Boucheron reference JRG00257, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-09-13"
+      "lastSeen": "2026-09-14"
     },
     {
       "id": "ref-jbt00980",
@@ -421,22 +421,22 @@
       "summary_en": "Boucheron reference JBT00980, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-09-13"
+      "lastSeen": "2026-09-14"
     },
     {
-      "id": "ref-jrg03278",
-      "name_en": "JRG03278",
-      "name_ja": "セルパンボエム モチーフ JRG03278",
-      "reference": "JRG03278",
+      "id": "ref-jal00243",
+      "name_en": "JAL00243",
+      "name_ja": "キャトル クラシック JAL00243",
+      "reference": "JAL00243",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
       "movementType": null,
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 1020000,
-      "searchKeywordJa": "ブシュロン JRG03278",
-      "searchKeywordEn": "Boucheron JRG03278",
+      "priceFloorJpy": 613700,
+      "searchKeywordJa": "ブシュロン JAL00243",
+      "searchKeywordEn": "Boucheron JAL00243",
       "caseMaterial": null,
       "waterResistanceM": null,
       "gender": "unisex",
@@ -445,11 +445,11 @@
         "sport"
       ],
       "popular": false,
-      "summary_ja": "ブシュロンの型番JRG03278。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Boucheron reference JRG03278, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ブシュロンの型番JAL00243。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Boucheron reference JAL00243, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-09-13"
+      "lastSeen": "2026-09-14"
     },
     {
       "id": "ref-12608k469",
@@ -477,7 +477,7 @@
       "summary_en": "Boucheron reference 12608K469, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-13"
+      "lastSeen": "2026-09-14"
     },
     {
       "id": "ref-k18ygk18pgk18wg",
@@ -505,7 +505,7 @@
       "summary_en": "Boucheron reference K18YG/K18PG/K18WG, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-13"
+      "lastSeen": "2026-09-14"
     },
     {
       "id": "ref-jal01182",
@@ -533,7 +533,7 @@
       "summary_en": "Boucheron reference JAL01182, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-13"
+      "lastSeen": "2026-09-14"
     },
     {
       "id": "ref-jrg03137",
@@ -561,7 +561,7 @@
       "summary_en": "Boucheron reference JRG03137, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-13"
+      "lastSeen": "2026-09-14"
     },
     {
       "id": "ref-jrg01596",
@@ -589,7 +589,7 @@
       "summary_en": "Boucheron reference JRG01596, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-13"
+      "lastSeen": "2026-09-14"
     },
     {
       "id": "ref-jpn00595",
@@ -617,7 +617,7 @@
       "summary_en": "Boucheron reference JPN00595, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-13"
+      "lastSeen": "2026-09-14"
     },
     {
       "id": "ref-jbt0092919",
@@ -645,7 +645,7 @@
       "summary_en": "Boucheron reference JBT0092919, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-13"
+      "lastSeen": "2026-09-14"
     },
     {
       "id": "ref-jpn00635",
@@ -673,7 +673,7 @@
       "summary_en": "Boucheron reference JPN00635, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-13"
+      "lastSeen": "2026-09-14"
     },
     {
       "id": "ref-jsl00343",
@@ -701,7 +701,7 @@
       "summary_en": "Boucheron reference JSL00343, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-13"
+      "lastSeen": "2026-09-14"
     },
     {
       "id": "ref-jrg02684",
@@ -729,7 +729,7 @@
       "summary_en": "Boucheron reference JRG02684, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-13"
+      "lastSeen": "2026-09-14"
     },
     {
       "id": "ref-jpg00257",
@@ -757,7 +757,7 @@
       "summary_en": "Boucheron reference JPG00257, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-13"
+      "lastSeen": "2026-09-14"
     },
     {
       "id": "ref-jal00290",
@@ -785,7 +785,7 @@
       "summary_en": "Boucheron reference JAL00290, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-13"
+      "lastSeen": "2026-09-14"
     },
     {
       "id": "ref-jal00294",
@@ -813,7 +813,7 @@
       "summary_en": "Boucheron reference JAL00294, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-13"
+      "lastSeen": "2026-09-14"
     },
     {
       "id": "ref-jpn00581",
@@ -841,7 +841,7 @@
       "summary_en": "Boucheron reference JPN00581, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-13"
+      "lastSeen": "2026-09-14"
     },
     {
       "id": "ref-jal00261",
@@ -869,7 +869,7 @@
       "summary_en": "Boucheron reference JAL00261, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-13"
+      "lastSeen": "2026-09-14"
     },
     {
       "id": "ref-147334",
@@ -897,7 +897,7 @@
       "summary_en": "Boucheron reference 147334, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-13"
+      "lastSeen": "2026-09-14"
     },
     {
       "id": "ref-27087",
@@ -925,23 +925,23 @@
       "summary_en": "Boucheron reference 27087, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-13"
+      "lastSeen": "2026-09-14"
     },
     {
-      "id": "ref-jsl00322",
-      "name_en": "JSL00322",
-      "name_ja": "JSL00322",
-      "reference": "JSL00322",
+      "id": "ref-jpn00550",
+      "name_en": "JPN00550",
+      "name_ja": "JPN00550",
+      "reference": "JPN00550",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
       "movementType": null,
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 423300,
-      "searchKeywordJa": "ブシュロン JSL00322",
-      "searchKeywordEn": "Boucheron JSL00322",
-      "caseMaterial": "yellow-gold",
+      "priceFloorJpy": 390736,
+      "searchKeywordJa": "ブシュロン JPN00550",
+      "searchKeywordEn": "Boucheron JPN00550",
+      "caseMaterial": null,
       "waterResistanceM": null,
       "gender": "unisex",
       "releaseYear": null,
@@ -949,11 +949,11 @@
         "sport"
       ],
       "popular": false,
-      "summary_ja": "ブシュロンの型番JSL00322。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Boucheron reference JSL00322, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ブシュロンの型番JPN00550。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Boucheron reference JPN00550, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-13"
+      "lastSeen": "2026-09-14"
     },
     {
       "id": "ref-jbt00781",
@@ -981,7 +981,63 @@
       "summary_en": "Boucheron reference JBT00781, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-13"
+      "lastSeen": "2026-09-14"
+    },
+    {
+      "id": "ref-jpn00647",
+      "name_en": "JPN00647",
+      "name_ja": "JPN00647",
+      "reference": "JPN00647",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 399840,
+      "searchKeywordJa": "ブシュロン JPN00647",
+      "searchKeywordEn": "Boucheron JPN00647",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ブシュロンの型番JPN00647。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Boucheron reference JPN00647, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-09-14"
+    },
+    {
+      "id": "ref-jsl00322",
+      "name_en": "JSL00322",
+      "name_ja": "JSL00322",
+      "reference": "JSL00322",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 423300,
+      "searchKeywordJa": "ブシュロン JSL00322",
+      "searchKeywordEn": "Boucheron JSL00322",
+      "caseMaterial": "yellow-gold",
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ブシュロンの型番JSL00322。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Boucheron reference JSL00322, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-09-14"
     },
     {
       "id": "ref-jrg01789",
@@ -1009,175 +1065,7 @@
       "summary_en": "Boucheron reference JRG01789, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-13"
-    },
-    {
-      "id": "ref-jrg03511",
-      "name_en": "JRG03511",
-      "name_ja": "JRG03511",
-      "reference": "JRG03511",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 632145,
-      "searchKeywordJa": "ブシュロン JRG03511",
-      "searchKeywordEn": "Boucheron JRG03511",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ブシュロンの型番JRG03511。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Boucheron reference JRG03511, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-09-13"
-    },
-    {
-      "id": "ref-jbt00605",
-      "name_en": "JBT00605",
-      "name_ja": "JBT00605",
-      "reference": "JBT00605",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 881790,
-      "searchKeywordJa": "ブシュロン JBT00605",
-      "searchKeywordEn": "Boucheron JBT00605",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ブシュロンの型番JBT00605。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Boucheron reference JBT00605, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-09-13"
-    },
-    {
-      "id": "ref-jrg02487",
-      "name_en": "JRG02487",
-      "name_ja": "リング JRG02487",
-      "reference": "JRG02487",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 736780,
-      "searchKeywordJa": "ブシュロン JRG02487",
-      "searchKeywordEn": "Boucheron JRG02487",
-      "caseMaterial": "rose-gold",
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ブシュロンの型番JRG02487。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Boucheron reference JRG02487, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-09-13"
-    },
-    {
-      "id": "ref-296003",
-      "name_en": "296003",
-      "name_ja": "リング 296003",
-      "reference": "296003",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 736780,
-      "searchKeywordJa": "ブシュロン 296003",
-      "searchKeywordEn": "Boucheron 296003",
-      "caseMaterial": "rose-gold",
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ブシュロンの型番296003。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Boucheron reference 296003, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-09-13"
-    },
-    {
-      "id": "ref-jrg02673",
-      "name_en": "JRG02673",
-      "name_ja": "JRG02673",
-      "reference": "JRG02673",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 640815,
-      "searchKeywordJa": "ブシュロン JRG02673",
-      "searchKeywordEn": "Boucheron JRG02673",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ブシュロンの型番JRG02673。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Boucheron reference JRG02673, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-09-13"
-    },
-    {
-      "id": "ref-jrg03277",
-      "name_en": "JRG03277",
-      "name_ja": "JRG03277",
-      "reference": "JRG03277",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 882300,
-      "searchKeywordJa": "ブシュロン JRG03277",
-      "searchKeywordEn": "Boucheron JRG03277",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ブシュロンの型番JRG03277。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Boucheron reference JRG03277, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-09-13"
+      "lastSeen": "2026-09-14"
     },
     {
       "id": "ref-1155g",
@@ -1205,7 +1093,175 @@
       "summary_en": "Boucheron reference 11.55G, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-13"
+      "lastSeen": "2026-09-14"
+    },
+    {
+      "id": "ref-jrg03511",
+      "name_en": "JRG03511",
+      "name_ja": "JRG03511",
+      "reference": "JRG03511",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 632145,
+      "searchKeywordJa": "ブシュロン JRG03511",
+      "searchKeywordEn": "Boucheron JRG03511",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ブシュロンの型番JRG03511。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Boucheron reference JRG03511, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-09-14"
+    },
+    {
+      "id": "ref-jbt00605",
+      "name_en": "JBT00605",
+      "name_ja": "JBT00605",
+      "reference": "JBT00605",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 881790,
+      "searchKeywordJa": "ブシュロン JBT00605",
+      "searchKeywordEn": "Boucheron JBT00605",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ブシュロンの型番JBT00605。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Boucheron reference JBT00605, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-09-14"
+    },
+    {
+      "id": "ref-jrg02487",
+      "name_en": "JRG02487",
+      "name_ja": "リング JRG02487",
+      "reference": "JRG02487",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 736780,
+      "searchKeywordJa": "ブシュロン JRG02487",
+      "searchKeywordEn": "Boucheron JRG02487",
+      "caseMaterial": "rose-gold",
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ブシュロンの型番JRG02487。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Boucheron reference JRG02487, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-09-14"
+    },
+    {
+      "id": "ref-296003",
+      "name_en": "296003",
+      "name_ja": "リング 296003",
+      "reference": "296003",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 736780,
+      "searchKeywordJa": "ブシュロン 296003",
+      "searchKeywordEn": "Boucheron 296003",
+      "caseMaterial": "rose-gold",
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ブシュロンの型番296003。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Boucheron reference 296003, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-09-14"
+    },
+    {
+      "id": "ref-jrg02673",
+      "name_en": "JRG02673",
+      "name_ja": "JRG02673",
+      "reference": "JRG02673",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 640815,
+      "searchKeywordJa": "ブシュロン JRG02673",
+      "searchKeywordEn": "Boucheron JRG02673",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ブシュロンの型番JRG02673。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Boucheron reference JRG02673, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-09-14"
+    },
+    {
+      "id": "ref-jrg03277",
+      "name_en": "JRG03277",
+      "name_ja": "JRG03277",
+      "reference": "JRG03277",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 882300,
+      "searchKeywordJa": "ブシュロン JRG03277",
+      "searchKeywordEn": "Boucheron JRG03277",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ブシュロンの型番JRG03277。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Boucheron reference JRG03277, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-09-14"
     },
     {
       "id": "ref-jbt00944",
@@ -1233,7 +1289,7 @@
       "summary_en": "Boucheron reference JBT00944, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-13"
+      "lastSeen": "2026-09-14"
     },
     {
       "id": "ref-jpn00461",
@@ -1261,7 +1317,35 @@
       "summary_en": "Boucheron reference JPN00461, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-13"
+      "lastSeen": "2026-09-14"
+    },
+    {
+      "id": "ref-jrg00257",
+      "name_en": "JRG00257",
+      "name_ja": "JRG00257",
+      "reference": "JRG00257",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 654500,
+      "searchKeywordJa": "ブシュロン JRG00257",
+      "searchKeywordEn": "Boucheron JRG00257",
+      "caseMaterial": "yellow-gold",
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ブシュロンの型番JRG00257。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Boucheron reference JRG00257, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-09-14"
     },
     {
       "id": "ref-jbt00827",
@@ -1289,7 +1373,7 @@
       "summary_en": "Boucheron reference JBT00827, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-13"
+      "lastSeen": "2026-09-14"
     },
     {
       "id": "ref-15997",
@@ -1317,7 +1401,7 @@
       "summary_en": "Boucheron reference 15997, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-13"
+      "lastSeen": "2026-09-14"
     },
     {
       "id": "ref-jpn00678",
@@ -1345,7 +1429,7 @@
       "summary_en": "Boucheron reference JPN00678, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-13"
+      "lastSeen": "2026-09-14"
     },
     {
       "id": "ref-jbt00789",
@@ -1373,7 +1457,7 @@
       "summary_en": "Boucheron reference JBT00789, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-13"
+      "lastSeen": "2026-09-14"
     },
     {
       "id": "ref-jsl0016649",
@@ -1401,7 +1485,7 @@
       "summary_en": "Boucheron reference JSL0016649, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-13"
+      "lastSeen": "2026-09-14"
     },
     {
       "id": "ref-h222524020",
@@ -1429,7 +1513,7 @@
       "summary_en": "Boucheron reference H222524020, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-13"
+      "lastSeen": "2026-09-14"
     },
     {
       "id": "ref-jrg03028",
@@ -1457,35 +1541,7 @@
       "summary_en": "Boucheron reference JRG03028, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-13"
-    },
-    {
-      "id": "ref-jbt00748",
-      "name_en": "JBT00748",
-      "name_ja": "JBT00748",
-      "reference": "JBT00748",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 702015,
-      "searchKeywordJa": "ブシュロン JBT00748",
-      "searchKeywordEn": "Boucheron JBT00748",
-      "caseMaterial": "rose-gold",
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ブシュロンの型番JBT00748。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Boucheron reference JBT00748, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-09-13"
+      "lastSeen": "2026-09-14"
     },
     {
       "id": "ref-1qxibouu0001",
@@ -1513,23 +1569,23 @@
       "summary_en": "Boucheron reference 1QXIBOUU0001, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-13"
+      "lastSeen": "2026-09-14"
     },
     {
-      "id": "ref-27088",
-      "name_en": "27088",
-      "name_ja": "27088",
-      "reference": "27088",
+      "id": "ref-jbt00748",
+      "name_en": "JBT00748",
+      "name_ja": "JBT00748",
+      "reference": "JBT00748",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
       "movementType": null,
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 764983,
-      "searchKeywordJa": "ブシュロン 27088",
-      "searchKeywordEn": "Boucheron 27088",
-      "caseMaterial": null,
+      "priceFloorJpy": 702015,
+      "searchKeywordJa": "ブシュロン JBT00748",
+      "searchKeywordEn": "Boucheron JBT00748",
+      "caseMaterial": "rose-gold",
       "waterResistanceM": null,
       "gender": "unisex",
       "releaseYear": null,
@@ -1537,179 +1593,11 @@
         "sport"
       ],
       "popular": false,
-      "summary_ja": "ブシュロンの型番27088。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Boucheron reference 27088, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ブシュロンの型番JBT00748。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Boucheron reference JBT00748, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-13"
-    },
-    {
-      "id": "ref-jrg02992",
-      "name_en": "JRG02992",
-      "name_ja": "JRG02992",
-      "reference": "JRG02992",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 769250,
-      "searchKeywordJa": "ブシュロン JRG02992",
-      "searchKeywordEn": "Boucheron JRG02992",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ブシュロンの型番JRG02992。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Boucheron reference JRG02992, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-09-13"
-    },
-    {
-      "id": "ref-jal00243",
-      "name_en": "JAL00243",
-      "name_ja": "JAL00243",
-      "reference": "JAL00243",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 613700,
-      "searchKeywordJa": "ブシュロン JAL00243",
-      "searchKeywordEn": "Boucheron JAL00243",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ブシュロンの型番JAL00243。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Boucheron reference JAL00243, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-09-13"
-    },
-    {
-      "id": "ref-jbt00365m",
-      "name_en": "JBT00365M",
-      "name_ja": "JBT00365M",
-      "reference": "JBT00365M",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 771290,
-      "searchKeywordJa": "ブシュロン JBT00365M",
-      "searchKeywordEn": "Boucheron JBT00365M",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ブシュロンの型番JBT00365M。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Boucheron reference JBT00365M, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-09-13"
-    },
-    {
-      "id": "ref-jbt00362m",
-      "name_en": "JBT00362M",
-      "name_ja": "JBT00362M",
-      "reference": "JBT00362M",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 837165,
-      "searchKeywordJa": "ブシュロン JBT00362M",
-      "searchKeywordEn": "Boucheron JBT00362M",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ブシュロンの型番JBT00362M。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Boucheron reference JBT00362M, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-09-13"
-    },
-    {
-      "id": "ref-jpn00479",
-      "name_en": "JPN00479",
-      "name_ja": "JPN00479",
-      "reference": "JPN00479",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 721140,
-      "searchKeywordJa": "ブシュロン JPN00479",
-      "searchKeywordEn": "Boucheron JPN00479",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ブシュロンの型番JPN00479。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Boucheron reference JPN00479, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-09-13"
-    },
-    {
-      "id": "ref-jal00227",
-      "name_en": "JAL00227",
-      "name_ja": "JAL00227",
-      "reference": "JAL00227",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 734910,
-      "searchKeywordJa": "ブシュロン JAL00227",
-      "searchKeywordEn": "Boucheron JAL00227",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ブシュロンの型番JAL00227。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Boucheron reference JAL00227, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-09-13"
+      "lastSeen": "2026-09-14"
     },
     {
       "id": "ref-jsl0033947",
@@ -1737,7 +1625,175 @@
       "summary_en": "Boucheron reference JSL0033947, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-13"
+      "lastSeen": "2026-09-14"
+    },
+    {
+      "id": "ref-27088",
+      "name_en": "27088",
+      "name_ja": "27088",
+      "reference": "27088",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 764983,
+      "searchKeywordJa": "ブシュロン 27088",
+      "searchKeywordEn": "Boucheron 27088",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ブシュロンの型番27088。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Boucheron reference 27088, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-09-14"
+    },
+    {
+      "id": "ref-jrg02992",
+      "name_en": "JRG02992",
+      "name_ja": "JRG02992",
+      "reference": "JRG02992",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 769250,
+      "searchKeywordJa": "ブシュロン JRG02992",
+      "searchKeywordEn": "Boucheron JRG02992",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ブシュロンの型番JRG02992。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Boucheron reference JRG02992, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-09-14"
+    },
+    {
+      "id": "ref-jbt00365m",
+      "name_en": "JBT00365M",
+      "name_ja": "JBT00365M",
+      "reference": "JBT00365M",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 771290,
+      "searchKeywordJa": "ブシュロン JBT00365M",
+      "searchKeywordEn": "Boucheron JBT00365M",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ブシュロンの型番JBT00365M。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Boucheron reference JBT00365M, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-09-14"
+    },
+    {
+      "id": "ref-jbt00362m",
+      "name_en": "JBT00362M",
+      "name_ja": "JBT00362M",
+      "reference": "JBT00362M",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 837165,
+      "searchKeywordJa": "ブシュロン JBT00362M",
+      "searchKeywordEn": "Boucheron JBT00362M",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ブシュロンの型番JBT00362M。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Boucheron reference JBT00362M, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-09-14"
+    },
+    {
+      "id": "ref-jpn00479",
+      "name_en": "JPN00479",
+      "name_ja": "JPN00479",
+      "reference": "JPN00479",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 721140,
+      "searchKeywordJa": "ブシュロン JPN00479",
+      "searchKeywordEn": "Boucheron JPN00479",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ブシュロンの型番JPN00479。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Boucheron reference JPN00479, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-09-14"
+    },
+    {
+      "id": "ref-jal00227",
+      "name_en": "JAL00227",
+      "name_ja": "JAL00227",
+      "reference": "JAL00227",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 734910,
+      "searchKeywordJa": "ブシュロン JAL00227",
+      "searchKeywordEn": "Boucheron JAL00227",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ブシュロンの型番JAL00227。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Boucheron reference JAL00227, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-09-14"
     },
     {
       "id": "ref-jbt00690",
@@ -1765,7 +1821,7 @@
       "summary_en": "Boucheron reference JBT00690, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-13"
+      "lastSeen": "2026-09-14"
     },
     {
       "id": "ref-jrg01782",
@@ -1793,7 +1849,7 @@
       "summary_en": "Boucheron reference JRG01782, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-13"
+      "lastSeen": "2026-09-14"
     },
     {
       "id": "ref-jrg02484",
@@ -1821,7 +1877,7 @@
       "summary_en": "Boucheron reference JRG02484, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-13"
+      "lastSeen": "2026-09-14"
     },
     {
       "id": "ref-jbt00734m",
@@ -1849,7 +1905,7 @@
       "summary_en": "Boucheron reference JBT00734M, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-13"
+      "lastSeen": "2026-09-14"
     },
     {
       "id": "ref-jrg03027",
@@ -1877,7 +1933,7 @@
       "summary_en": "Boucheron reference JRG03027, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-13"
+      "lastSeen": "2026-09-14"
     },
     {
       "id": "ref-jbt00752",
@@ -1905,63 +1961,7 @@
       "summary_en": "Boucheron reference JBT00752, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-13"
-    },
-    {
-      "id": "ref-jpn00555",
-      "name_en": "JPN00555",
-      "name_ja": "JPN00555",
-      "reference": "JPN00555",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 1499400,
-      "searchKeywordJa": "ブシュロン JPN00555",
-      "searchKeywordEn": "Boucheron JPN00555",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ブシュロンの型番JPN00555。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Boucheron reference JPN00555, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-09-13"
-    },
-    {
-      "id": "ref-jrg03026",
-      "name_en": "JRG03026",
-      "name_ja": "JRG03026",
-      "reference": "JRG03026",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 1071000,
-      "searchKeywordJa": "ブシュロン JRG03026",
-      "searchKeywordEn": "Boucheron JRG03026",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ブシュロンの型番JRG03026。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Boucheron reference JRG03026, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-09-13"
+      "lastSeen": "2026-09-14"
     },
     {
       "id": "ref-jbt00817",
@@ -1989,7 +1989,63 @@
       "summary_en": "Boucheron reference JBT00817, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-13"
+      "lastSeen": "2026-09-14"
+    },
+    {
+      "id": "ref-jpn00555",
+      "name_en": "JPN00555",
+      "name_ja": "JPN00555",
+      "reference": "JPN00555",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 1499400,
+      "searchKeywordJa": "ブシュロン JPN00555",
+      "searchKeywordEn": "Boucheron JPN00555",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ブシュロンの型番JPN00555。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Boucheron reference JPN00555, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-09-14"
+    },
+    {
+      "id": "ref-jrg03026",
+      "name_en": "JRG03026",
+      "name_ja": "JRG03026",
+      "reference": "JRG03026",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 1071000,
+      "searchKeywordJa": "ブシュロン JRG03026",
+      "searchKeywordEn": "Boucheron JRG03026",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ブシュロンの型番JRG03026。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Boucheron reference JRG03026, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-09-14"
     },
     {
       "id": "ref-jbt00735",
@@ -2017,7 +2073,7 @@
       "summary_en": "Boucheron reference JBT00735, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-13"
+      "lastSeen": "2026-09-14"
     },
     {
       "id": "ref-jrg02997",
@@ -2045,35 +2101,7 @@
       "summary_en": "Boucheron reference JRG02997, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-13"
-    },
-    {
-      "id": "ref-jrg02998",
-      "name_en": "JRG02998",
-      "name_ja": "JRG02998",
-      "reference": "JRG02998",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 1945650,
-      "searchKeywordJa": "ブシュロン JRG02998",
-      "searchKeywordEn": "Boucheron JRG02998",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ブシュロンの型番JRG02998。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Boucheron reference JRG02998, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-09-13"
+      "lastSeen": "2026-09-14"
     },
     {
       "id": "ref-jrg03217",
@@ -2101,7 +2129,35 @@
       "summary_en": "Boucheron reference JRG03217, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-13"
+      "lastSeen": "2026-09-14"
+    },
+    {
+      "id": "ref-jrg02998",
+      "name_en": "JRG02998",
+      "name_ja": "JRG02998",
+      "reference": "JRG02998",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 1945650,
+      "searchKeywordJa": "ブシュロン JRG02998",
+      "searchKeywordEn": "Boucheron JRG02998",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ブシュロンの型番JRG02998。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Boucheron reference JRG02998, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-09-14"
     },
     {
       "id": "ref-906821",
@@ -2129,7 +2185,7 @@
       "summary_en": "Boucheron reference 906821, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-13"
+      "lastSeen": "2026-09-14"
     },
     {
       "id": "ref-908788",
@@ -2157,35 +2213,7 @@
       "summary_en": "Boucheron reference 908788, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-13"
-    },
-    {
-      "id": "ref-jpn00550",
-      "name_en": "JPN00550",
-      "name_ja": "JPN00550",
-      "reference": "JPN00550",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 390736,
-      "searchKeywordJa": "ブシュロン JPN00550",
-      "searchKeywordEn": "Boucheron JPN00550",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ブシュロンの型番JPN00550。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Boucheron reference JPN00550, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 0,
-      "lastSeen": "2026-09-13"
+      "lastSeen": "2026-09-14"
     },
     {
       "id": "ref-26987",
@@ -3110,34 +3138,6 @@
       "source": "auto",
       "listingCount": 0,
       "lastSeen": "2026-08-26"
-    },
-    {
-      "id": "ref-jpn00647",
-      "name_en": "JPN00647",
-      "name_ja": "JPN00647",
-      "reference": "JPN00647",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 390915,
-      "searchKeywordJa": "ブシュロン JPN00647",
-      "searchKeywordEn": "Boucheron JPN00647",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ブシュロンの型番JPN00647。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Boucheron reference JPN00647, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 0,
-      "lastSeen": "2026-08-24"
     },
     {
       "id": "ref-jrg0293847",
