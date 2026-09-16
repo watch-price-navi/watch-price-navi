@@ -1,6 +1,63 @@
 {
   "brandId": "laurent-ferrier",
-  "generatedAt": "2026-09-16T00:58:11.062Z",
+  "generatedAt": "2026-09-16T15:40:56.308Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
-  "models": []
+  "models": [
+    {
+      "id": "ref-lcf036t1g1g",
+      "name_en": "LCF036.T1.G1G",
+      "name_ja": "ローランフェリエ クラシックオリジン LCF036.T1.G1G",
+      "reference": "LCF036.T1.G1G",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "manual",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 3908300,
+      "searchKeywordJa": "ローラン・フェリエ LCF036.T1.G1G",
+      "searchKeywordEn": "Laurent Ferrier LCF036.T1.G1G",
+      "caseMaterial": "titanium",
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "lightweight"
+      ],
+      "popular": false,
+      "summary_ja": "ローラン・フェリエの型番LCF036.T1.G1G。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Laurent Ferrier reference LCF036.T1.G1G, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-09-16"
+    },
+    {
+      "id": "ref-lcf040t1c1gc51",
+      "name_en": "LCF040.T1.C1GC5.1",
+      "name_ja": "ローランフェリエ スポーツオート LCF040.T1.C1GC5.1",
+      "reference": "LCF040.T1.C1GC5.1",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 7835300,
+      "searchKeywordJa": "ローラン・フェリエ LCF040.T1.C1GC5.1",
+      "searchKeywordEn": "Laurent Ferrier LCF040.T1.C1GC5.1",
+      "caseMaterial": "titanium",
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "lightweight"
+      ],
+      "popular": false,
+      "summary_ja": "ローラン・フェリエの型番LCF040.T1.C1GC5.1。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Laurent Ferrier reference LCF040.T1.C1GC5.1, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-09-16"
+    }
+  ]
 }

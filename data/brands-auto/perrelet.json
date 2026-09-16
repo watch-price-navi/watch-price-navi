@@ -1,6 +1,6 @@
 {
   "brandId": "perrelet",
-  "generatedAt": "2026-09-16T01:29:10.574Z",
+  "generatedAt": "2026-09-16T16:13:23.107Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -928,34 +928,6 @@
       "lastSeen": "2026-09-16"
     },
     {
-      "id": "ref-vcar056000",
-      "name_en": "VCAR056000",
-      "name_ja": "VCAR056000",
-      "reference": "VCAR056000",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 912050,
-      "searchKeywordJa": "ペルレ VCAR056000",
-      "searchKeywordEn": "Perrelet VCAR056000",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ペルレの型番VCAR056000。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Perrelet reference VCAR056000, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-09-16"
-    },
-    {
       "id": "ref-vcaro7a800",
       "name_en": "VCARO7A800",
       "name_ja": "VCARO7A800",
@@ -1177,6 +1149,34 @@
       "summary_en": "Perrelet reference VCARP27F00, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
+      "lastSeen": "2026-09-16"
+    },
+    {
+      "id": "ref-vcar056000",
+      "name_en": "VCAR056000",
+      "name_ja": "VCAR056000",
+      "reference": "VCAR056000",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 912050,
+      "searchKeywordJa": "ペルレ VCAR056000",
+      "searchKeywordEn": "Perrelet VCAR056000",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ペルレの型番VCAR056000。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Perrelet reference VCAR056000, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 0,
       "lastSeen": "2026-09-16"
     },
     {
