@@ -1,6 +1,6 @@
 {
   "brandId": "parmigiani",
-  "generatedAt": "2026-09-18T01:26:13.508Z",
+  "generatedAt": "2026-09-18T15:28:44.508Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -509,6 +509,34 @@
       "lastSeen": "2026-09-18"
     },
     {
+      "id": "ref-refpfc9072020001",
+      "name_en": "REF.PFC907-2020001",
+      "name_ja": "トンダ アニュアルカレンダー REF.PFC907-2020001",
+      "reference": "REF.PFC907-2020001",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 6761690,
+      "searchKeywordJa": "パルミジャーニ・フルリエ REF.PFC907-2020001",
+      "searchKeywordEn": "Parmigiani Fleurier REF.PFC907-2020001",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "パルミジャーニ・フルリエの型番REF.PFC907-2020001。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Parmigiani Fleurier reference REF.PFC907-2020001, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-09-18"
+    },
+    {
       "id": "ref-200182",
       "name_en": "200182",
       "name_ja": "トンダ アニュアルカレンダー 200182",
@@ -759,7 +787,7 @@
       "summary_ja": "パルミジャーニ・フルリエの型番PFC803-1500020。市場で1件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Parmigiani Fleurier reference PFC803-1500020, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 1,
+      "listingCount": 0,
       "lastSeen": "2026-09-18"
     },
     {
@@ -788,7 +816,7 @@
       "summary_ja": "パルミジャーニ・フルリエの型番HC6181。市場で1件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Parmigiani Fleurier reference HC6181, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 1,
+      "listingCount": 0,
       "lastSeen": "2026-09-18"
     },
     {
