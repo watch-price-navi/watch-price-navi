@@ -1,6 +1,6 @@
 {
   "brandId": "bell-ross",
-  "generatedAt": "2026-09-17T14:30:02.055Z",
+  "generatedAt": "2026-09-17T23:46:40.098Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -28,10 +28,10 @@
         "vintage-reissue"
       ],
       "popular": false,
-      "summary_ja": "ベル&ロスの型番BR03-92。市場で15件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "ベル&ロスの型番BR03-92。市場で16件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Bell & Ross reference BR03-92, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 15,
+      "listingCount": 16,
       "lastSeen": "2026-09-17"
     },
     {
@@ -57,10 +57,10 @@
         "limited-edition"
       ],
       "popular": false,
-      "summary_ja": "ベル&ロスの型番BR0392-D-TR-CE/SRB。市場で12件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "ベル&ロスの型番BR0392-D-TR-CE/SRB。市場で11件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Bell & Ross reference BR0392-D-TR-CE/SRB, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 12,
+      "listingCount": 11,
       "lastSeen": "2026-09-17"
     },
     {
@@ -147,6 +147,35 @@
       "summary_en": "Bell & Ross reference BR03-92-D-LT-BR/SRB, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
+      "lastSeen": "2026-09-17"
+    },
+    {
+      "id": "ref-br12694sp",
+      "name_en": "BR126-94-SP",
+      "name_ja": "ヴィンテージ クロノグラフ BR126-94-SP",
+      "reference": "BR126-94-SP",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 227800,
+      "searchKeywordJa": "ベル&ロス BR126-94-SP",
+      "searchKeywordEn": "Bell & Ross BR126-94-SP",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "chronograph",
+        "vintage-reissue"
+      ],
+      "popular": false,
+      "summary_ja": "ベル&ロスの型番BR126-94-SP。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Bell & Ross reference BR126-94-SP, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
       "lastSeen": "2026-09-17"
     },
     {
@@ -407,30 +436,29 @@
       "lastSeen": "2026-09-17"
     },
     {
-      "id": "ref-br12694sp",
-      "name_en": "BR126-94-SP",
-      "name_ja": "ヴィンテージ クロノグラフ BR126-94-SP",
-      "reference": "BR126-94-SP",
+      "id": "ref-refbr0392",
+      "name_en": "REF.BR03-92",
+      "name_ja": "アビエーション スチール REF.BR03-92",
+      "reference": "REF.BR03-92",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
-      "movementType": "automatic",
+      "movementType": null,
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 227800,
-      "searchKeywordJa": "ベル&ロス BR126-94-SP",
-      "searchKeywordEn": "Bell & Ross BR126-94-SP",
+      "priceFloorJpy": 193800,
+      "searchKeywordJa": "ベル&ロス REF.BR03-92",
+      "searchKeywordEn": "Bell & Ross REF.BR03-92",
       "caseMaterial": null,
       "waterResistanceM": null,
-      "gender": "unisex",
+      "gender": "mens",
       "releaseYear": null,
       "tags": [
-        "chronograph",
-        "vintage-reissue"
+        "pilot"
       ],
       "popular": false,
-      "summary_ja": "ベル&ロスの型番BR126-94-SP。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Bell & Ross reference BR126-94-SP, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ベル&ロスの型番REF.BR03-92。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Bell & Ross reference REF.BR03-92, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
       "lastSeen": "2026-09-17"
@@ -611,6 +639,35 @@
       "lastSeen": "2026-09-17"
     },
     {
+      "id": "ref-br0394cbl50127",
+      "name_en": "BR03-94-CBL-50127",
+      "name_ja": "クロノグラフ パトルイユ BR03-94-CBL-50127",
+      "reference": "BR03-94-CBL-50127",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": 42,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 573750,
+      "searchKeywordJa": "ベル&ロス BR03-94-CBL-50127",
+      "searchKeywordEn": "Bell & Ross BR03-94-CBL-50127",
+      "caseMaterial": "ceramic",
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph",
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "ベル&ロスの型番BR03-94-CBL-50127。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Bell & Ross reference BR03-94-CBL-50127, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-09-17"
+    },
+    {
       "id": "ref-br0393gnstsrb",
       "name_en": "BR0393-GN-ST/SRB",
       "name_ja": "BR0393-GN-ST/SRB",
@@ -640,30 +697,29 @@
       "lastSeen": "2026-09-17"
     },
     {
-      "id": "ref-br0394cbl50127",
-      "name_en": "BR03-94-CBL-50127",
-      "name_ja": "クロノグラフ パトルイユ BR03-94-CBL-50127",
-      "reference": "BR03-94-CBL-50127",
+      "id": "ref-br0392dc",
+      "name_en": "BR03-92-D-C",
+      "name_ja": "ダイバータラ BR03-92-D-C",
+      "reference": "BR03-92-D-C",
       "collection_en": null,
       "collection_ja": null,
-      "caseSizeMm": 42,
-      "movementType": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 573750,
-      "searchKeywordJa": "ベル&ロス BR03-94-CBL-50127",
-      "searchKeywordEn": "Bell & Ross BR03-94-CBL-50127",
+      "priceFloorJpy": 477360,
+      "searchKeywordJa": "ベル&ロス BR03-92-D-C",
+      "searchKeywordEn": "Bell & Ross BR03-92-D-C",
       "caseMaterial": "ceramic",
       "waterResistanceM": null,
-      "gender": "mens",
+      "gender": "unisex",
       "releaseYear": null,
       "tags": [
-        "chronograph",
-        "limited-edition"
+        "diver"
       ],
       "popular": false,
-      "summary_ja": "ベル&ロスの型番BR03-94-CBL-50127。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Bell & Ross reference BR03-94-CBL-50127, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ベル&ロスの型番BR03-92-D-C。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Bell & Ross reference BR03-92-D-C, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
       "lastSeen": "2026-09-17"
@@ -751,34 +807,6 @@
       "summary_en": "Bell & Ross reference BR03-94-BTR-CE/SCA, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-09-17"
-    },
-    {
-      "id": "ref-br0392dc",
-      "name_en": "BR03-92-D-C",
-      "name_ja": "BR03-92-D-C",
-      "reference": "BR03-92-D-C",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 477360,
-      "searchKeywordJa": "ベル&ロス BR03-92-D-C",
-      "searchKeywordEn": "Bell & Ross BR03-92-D-C",
-      "caseMaterial": "ceramic",
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "diver"
-      ],
-      "popular": false,
-      "summary_ja": "ベル&ロスの型番BR03-92-D-C。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Bell & Ross reference BR03-92-D-C, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
       "lastSeen": "2026-09-17"
     },
     {
