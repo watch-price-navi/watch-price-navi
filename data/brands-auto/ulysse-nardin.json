@@ -1,6 +1,6 @@
 {
   "brandId": "ulysse-nardin",
-  "generatedAt": "2026-09-21T01:54:10.137Z",
+  "generatedAt": "2026-09-21T18:31:40.322Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -829,29 +829,30 @@
       "lastSeen": "2026-09-21"
     },
     {
-      "id": "ref-33122",
-      "name_en": "331-22",
-      "name_ja": "ユリスナルダン パーペチュアル 331-22",
-      "reference": "331-22",
+      "id": "ref-ref37231702b",
+      "name_en": "REF.3723-170-2B",
+      "name_ja": "スケルトン ダイバー REF.3723-170-2B",
+      "reference": "REF.3723-170-2B",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
-      "movementType": "automatic",
+      "movementType": null,
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 1421200,
-      "searchKeywordJa": "ユリス・ナルダン 331-22",
-      "searchKeywordEn": "Ulysse Nardin 331-22",
-      "caseMaterial": "yellow-gold",
+      "priceFloorJpy": 2186625,
+      "searchKeywordJa": "ユリス・ナルダン REF.3723-170-2B",
+      "searchKeywordEn": "Ulysse Nardin REF.3723-170-2B",
+      "caseMaterial": null,
       "waterResistanceM": null,
       "gender": "mens",
       "releaseYear": null,
       "tags": [
-        "sport"
+        "diver",
+        "skeleton"
       ],
       "popular": false,
-      "summary_ja": "ユリス・ナルダンの型番331-22。市場で3件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Ulysse Nardin reference 331-22, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ユリス・ナルダンの型番REF.3723-170-2B。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ulysse Nardin reference REF.3723-170-2B, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
       "lastSeen": "2026-09-21"
@@ -1558,6 +1559,34 @@
       "lastSeen": "2026-09-21"
     },
     {
+      "id": "ref-81631757mil92",
+      "name_en": "8163-175-7MIL/92",
+      "name_ja": "8163-175-7MIL/92",
+      "reference": "8163-175-7MIL/92",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 2707360,
+      "searchKeywordJa": "ユリス・ナルダン 8163-175-7MIL/92",
+      "searchKeywordEn": "Ulysse Nardin 8163-175-7MIL/92",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "diver"
+      ],
+      "popular": false,
+      "summary_ja": "ユリス・ナルダンの型番8163-175-7MIL/92。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ulysse Nardin reference 8163-175-7MIL/92, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-09-21"
+    },
+    {
       "id": "ref-17234003a00",
       "name_en": "1723-400-3A/00",
       "name_ja": "1723-400-3A/00",
@@ -1586,31 +1615,31 @@
       "lastSeen": "2026-09-21"
     },
     {
-      "id": "ref-81631757mil92",
-      "name_en": "8163-175-7MIL/92",
-      "name_ja": "8163-175-7MIL/92",
-      "reference": "8163-175-7MIL/92",
+      "id": "ref-33122",
+      "name_en": "331-22",
+      "name_ja": "ユリスナルダン パーペチュアル 331-22",
+      "reference": "331-22",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
       "movementType": "automatic",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 2707360,
-      "searchKeywordJa": "ユリス・ナルダン 8163-175-7MIL/92",
-      "searchKeywordEn": "Ulysse Nardin 8163-175-7MIL/92",
-      "caseMaterial": null,
+      "priceFloorJpy": 1421200,
+      "searchKeywordJa": "ユリス・ナルダン 331-22",
+      "searchKeywordEn": "Ulysse Nardin 331-22",
+      "caseMaterial": "yellow-gold",
       "waterResistanceM": null,
       "gender": "mens",
       "releaseYear": null,
       "tags": [
-        "diver"
+        "sport"
       ],
       "popular": false,
-      "summary_ja": "ユリス・ナルダンの型番8163-175-7MIL/92。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Ulysse Nardin reference 8163-175-7MIL/92, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ユリス・ナルダンの型番331-22。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ulysse Nardin reference 331-22, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 1,
+      "listingCount": 0,
       "lastSeen": "2026-09-21"
     },
     {

@@ -1,6 +1,6 @@
 {
   "brandId": "perrelet",
-  "generatedAt": "2026-09-21T01:18:13.884Z",
+  "generatedAt": "2026-09-21T17:55:19.865Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -195,6 +195,34 @@
       "popular": false,
       "summary_ja": "ペルレの型番A4066/2。市場で3件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Perrelet reference A4066/2, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
+      "lastSeen": "2026-09-21"
+    },
+    {
+      "id": "ref-a10751",
+      "name_en": "A1075/1",
+      "name_ja": "タービン クロノ A1075/1",
+      "reference": "A1075/1",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 484330,
+      "searchKeywordJa": "ペルレ A1075/1",
+      "searchKeywordEn": "Perrelet A1075/1",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph"
+      ],
+      "popular": false,
+      "summary_ja": "ペルレの型番A1075/1。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Perrelet reference A1075/1, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
       "lastSeen": "2026-09-21"
@@ -648,34 +676,6 @@
       "lastSeen": "2026-09-21"
     },
     {
-      "id": "ref-vcaro3y600",
-      "name_en": "VCARO3Y600",
-      "name_ja": "リング アーペル VCARO3Y600",
-      "reference": "VCARO3Y600",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 382491,
-      "searchKeywordJa": "ペルレ VCARO3Y600",
-      "searchKeywordEn": "Perrelet VCARO3Y600",
-      "caseMaterial": "yellow-gold",
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ペルレの型番VCARO3Y600。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Perrelet reference VCARO3Y600, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-09-21"
-    },
-    {
       "id": "ref-vcarp6x400",
       "name_en": "VCARP6X400",
       "name_ja": "スウィートクローバー VCARP6X400",
@@ -928,20 +928,20 @@
       "lastSeen": "2026-09-21"
     },
     {
-      "id": "ref-vcarn32452",
-      "name_en": "VCARN32452",
-      "name_ja": "リング VCARN32452",
-      "reference": "VCARN32452",
+      "id": "ref-vcaro3y600",
+      "name_en": "VCARO3Y600",
+      "name_ja": "VCARO3Y600",
+      "reference": "VCARO3Y600",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
       "movementType": null,
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 421600,
-      "searchKeywordJa": "ペルレ VCARN32452",
-      "searchKeywordEn": "Perrelet VCARN32452",
-      "caseMaterial": "rose-gold",
+      "priceFloorJpy": 382491,
+      "searchKeywordJa": "ペルレ VCARO3Y600",
+      "searchKeywordEn": "Perrelet VCARO3Y600",
+      "caseMaterial": "yellow-gold",
       "waterResistanceM": null,
       "gender": "unisex",
       "releaseYear": null,
@@ -949,8 +949,8 @@
         "sport"
       ],
       "popular": false,
-      "summary_ja": "ペルレの型番VCARN32452。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Perrelet reference VCARN32452, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ペルレの型番VCARO3Y600。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Perrelet reference VCARO3Y600, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
       "lastSeen": "2026-09-21"
@@ -1232,8 +1232,36 @@
       "summary_ja": "ペルレの型番VCARP27F00。市場で1件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Perrelet reference VCARP27F00, currently offered by multiple sellers in Japan.",
       "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-09-21"
+    },
+    {
+      "id": "ref-vcarn32452",
+      "name_en": "VCARN32452",
+      "name_ja": "リング VCARN32452",
+      "reference": "VCARN32452",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 421600,
+      "searchKeywordJa": "ペルレ VCARN32452",
+      "searchKeywordEn": "Perrelet VCARN32452",
+      "caseMaterial": "rose-gold",
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ペルレの型番VCARN32452。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Perrelet reference VCARN32452, currently offered by multiple sellers in Japan.",
+      "source": "auto",
       "listingCount": 0,
-      "lastSeen": "2026-09-20"
+      "lastSeen": "2026-09-21"
     },
     {
       "id": "ref-vcar056000",
