@@ -1,6 +1,6 @@
 {
   "brandId": "bell-ross",
-  "generatedAt": "2026-09-22T00:23:01.895Z",
+  "generatedAt": "2026-09-22T14:13:49.685Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -407,6 +407,34 @@
       "lastSeen": "2026-09-22"
     },
     {
+      "id": "ref-refbr0392",
+      "name_en": "REF.BR03-92",
+      "name_ja": "アビエーション スチール REF.BR03-92",
+      "reference": "REF.BR03-92",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 193800,
+      "searchKeywordJa": "ベル&ロス REF.BR03-92",
+      "searchKeywordEn": "Bell & Ross REF.BR03-92",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "pilot"
+      ],
+      "popular": false,
+      "summary_ja": "ベル&ロスの型番REF.BR03-92。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Bell & Ross reference REF.BR03-92, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-09-22"
+    },
+    {
       "id": "ref-br0192cfbca",
       "name_en": "BR01-92CFB-CA",
       "name_ja": "オートマティック ステンレススティール BR01-92CFB-CA",
@@ -458,37 +486,6 @@
       "popular": false,
       "summary_ja": "ベル&ロスの型番BR01-92-S。市場で2件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Bell & Ross reference BR01-92-S, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-09-22"
-    },
-    {
-      "id": "ref-brv394a521sca",
-      "name_en": "BRV394-A521/SCA",
-      "name_ja": "アルピーヌ デイト BRV394-A521/SCA",
-      "reference": "BRV394-A521/SCA",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 338300,
-      "searchKeywordJa": "ベル&ロス BRV394-A521/SCA",
-      "searchKeywordEn": "Bell & Ross BRV394-A521/SCA",
-      "caseMaterial": "carbon",
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "chronograph",
-        "skeleton",
-        "small-seconds",
-        "lightweight"
-      ],
-      "popular": false,
-      "summary_ja": "ベル&ロスの型番BRV394-A521/SCA。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Bell & Ross reference BRV394-A521/SCA, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
       "lastSeen": "2026-09-22"
@@ -721,6 +718,37 @@
       "summary_en": "Bell & Ross reference BR03-94-BTR-CE/SCA, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
+      "lastSeen": "2026-09-22"
+    },
+    {
+      "id": "ref-brv394a521sca",
+      "name_en": "BRV394-A521/SCA",
+      "name_ja": "アルピーヌ デイト BRV394-A521/SCA",
+      "reference": "BRV394-A521/SCA",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 338300,
+      "searchKeywordJa": "ベル&ロス BRV394-A521/SCA",
+      "searchKeywordEn": "Bell & Ross BRV394-A521/SCA",
+      "caseMaterial": "carbon",
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "chronograph",
+        "skeleton",
+        "small-seconds",
+        "lightweight"
+      ],
+      "popular": false,
+      "summary_ja": "ベル&ロスの型番BRV394-A521/SCA。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Bell & Ross reference BRV394-A521/SCA, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 0,
       "lastSeen": "2026-09-22"
     },
     {
