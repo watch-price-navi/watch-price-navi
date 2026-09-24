@@ -1,6 +1,6 @@
 {
   "brandId": "bell-ross",
-  "generatedAt": "2026-09-23T14:25:55.809Z",
+  "generatedAt": "2026-09-23T23:58:30.213Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -322,34 +322,6 @@
       "lastSeen": "2026-09-23"
     },
     {
-      "id": "ref-br0394btrcesca",
-      "name_en": "BR03-94-BTR-CE/SCA",
-      "name_ja": "ブラックトラック BR03-94-BTR-CE/SCA",
-      "reference": "BR03-94-BTR-CE/SCA",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 607410,
-      "searchKeywordJa": "ベル&ロス BR03-94-BTR-CE/SCA",
-      "searchKeywordEn": "Bell & Ross BR03-94-BTR-CE/SCA",
-      "caseMaterial": "ceramic",
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "limited-edition"
-      ],
-      "popular": false,
-      "summary_ja": "ベル&ロスの型番BR03-94-BTR-CE/SCA。市場で3件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Bell & Ross reference BR03-94-BTR-CE/SCA, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 3,
-      "lastSeen": "2026-09-23"
-    },
-    {
       "id": "ref-br0292",
       "name_en": "BR02-92",
       "name_ja": "マリーン ダイバーズウォッチ BR02-92",
@@ -402,6 +374,34 @@
       "popular": false,
       "summary_ja": "ベル&ロスの型番BR126-94-SP。市場で2件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Bell & Ross reference BR126-94-SP, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-09-23"
+    },
+    {
+      "id": "ref-refbr0392",
+      "name_en": "REF.BR03-92",
+      "name_ja": "アビエーション スチール REF.BR03-92",
+      "reference": "REF.BR03-92",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 193800,
+      "searchKeywordJa": "ベル&ロス REF.BR03-92",
+      "searchKeywordEn": "Bell & Ross REF.BR03-92",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "pilot"
+      ],
+      "popular": false,
+      "summary_ja": "ベル&ロスの型番REF.BR03-92。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Bell & Ross reference REF.BR03-92, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
       "lastSeen": "2026-09-23"
@@ -660,6 +660,34 @@
       "popular": false,
       "summary_ja": "ベル&ロスの型番BR-05C-A523-ST/SCA。市場で2件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Bell & Ross reference BR-05C-A523-ST/SCA, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-09-23"
+    },
+    {
+      "id": "ref-br0394btrcesca",
+      "name_en": "BR03-94-BTR-CE/SCA",
+      "name_ja": "ブラックトラック BR03-94-BTR-CE/SCA",
+      "reference": "BR03-94-BTR-CE/SCA",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 607410,
+      "searchKeywordJa": "ベル&ロス BR03-94-BTR-CE/SCA",
+      "searchKeywordEn": "Bell & Ross BR03-94-BTR-CE/SCA",
+      "caseMaterial": "ceramic",
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "ベル&ロスの型番BR03-94-BTR-CE/SCA。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Bell & Ross reference BR03-94-BTR-CE/SCA, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
       "lastSeen": "2026-09-23"
