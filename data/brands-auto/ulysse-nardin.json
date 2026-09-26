@@ -1,6 +1,6 @@
 {
   "brandId": "ulysse-nardin",
-  "generatedAt": "2026-09-26T02:33:57.887Z",
+  "generatedAt": "2026-09-26T16:23:04.610Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -885,6 +885,35 @@
       "lastSeen": "2026-09-26"
     },
     {
+      "id": "ref-ref37231702b",
+      "name_en": "REF.3723-170-2B",
+      "name_ja": "スケルトン ダイバー REF.3723-170-2B",
+      "reference": "REF.3723-170-2B",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 2186625,
+      "searchKeywordJa": "ユリス・ナルダン REF.3723-170-2B",
+      "searchKeywordEn": "Ulysse Nardin REF.3723-170-2B",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "diver",
+        "skeleton"
+      ],
+      "popular": false,
+      "summary_ja": "ユリス・ナルダンの型番REF.3723-170-2B。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ulysse Nardin reference REF.3723-170-2B, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
+      "lastSeen": "2026-09-26"
+    },
+    {
       "id": "ref-13421",
       "name_en": "134-21",
       "name_ja": "チェーン 134-21",
@@ -1076,34 +1105,6 @@
       "popular": false,
       "summary_ja": "ユリス・ナルダンの型番563-42。市場で2件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Ulysse Nardin reference 563-42, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-09-26"
-    },
-    {
-      "id": "ref-563427",
-      "name_en": "563-427",
-      "name_ja": "ユリス ナルダン 563-427",
-      "reference": "563-427",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 392700,
-      "searchKeywordJa": "ユリス・ナルダン 563-427",
-      "searchKeywordEn": "Ulysse Nardin 563-427",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "chronograph"
-      ],
-      "popular": false,
-      "summary_ja": "ユリス・ナルダンの型番563-427。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Ulysse Nardin reference 563-427, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
       "lastSeen": "2026-09-26"
@@ -1696,6 +1697,34 @@
       "summary_en": "Ulysse Nardin reference 1723-400-3A/00, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
+      "lastSeen": "2026-09-26"
+    },
+    {
+      "id": "ref-563427",
+      "name_en": "563-427",
+      "name_ja": "ユリス ナルダン 563-427",
+      "reference": "563-427",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 392700,
+      "searchKeywordJa": "ユリス・ナルダン 563-427",
+      "searchKeywordEn": "Ulysse Nardin 563-427",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph"
+      ],
+      "popular": false,
+      "summary_ja": "ユリス・ナルダンの型番563-427。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ulysse Nardin reference 563-427, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 0,
       "lastSeen": "2026-09-26"
     },
     {
