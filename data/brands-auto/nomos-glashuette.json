@@ -1,6 +1,6 @@
 {
   "brandId": "nomos-glashuette",
-  "generatedAt": "2026-09-25T16:14:19.628Z",
+  "generatedAt": "2026-09-26T01:37:32.062Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -25,11 +25,11 @@
         "sport"
       ],
       "popular": false,
-      "summary_ja": "ノモス グラスヒュッテの型番TN1A1W238。市場で6件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "ノモス グラスヒュッテの型番TN1A1W238。市場で4件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "NOMOS Glashütte reference TN1A1W238, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 6,
-      "lastSeen": "2026-09-25"
+      "listingCount": 4,
+      "lastSeen": "2026-09-26"
     },
     {
       "id": "ref-or1a3bl233",
@@ -57,7 +57,35 @@
       "summary_en": "NOMOS Glashütte reference OR1A3BL233, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-09-25"
+      "lastSeen": "2026-09-26"
+    },
+    {
+      "id": "ref-tn130011pg2",
+      "name_en": "TN130011PG2",
+      "name_ja": "タンジェント ネオマティック TN130011PG2",
+      "reference": "TN130011PG2",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": 35,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 564740,
+      "searchKeywordJa": "ノモス グラスヒュッテ TN130011PG2",
+      "searchKeywordEn": "NOMOS Glashütte TN130011PG2",
+      "caseMaterial": "platinum",
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ノモス グラスヒュッテの型番TN130011PG2。市場で4件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "NOMOS Glashütte reference TN130011PG2, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 4,
+      "lastSeen": "2026-09-26"
     },
     {
       "id": "ref-tn130011pg239",
@@ -85,7 +113,7 @@
       "summary_en": "NOMOS Glashütte reference TN130011PG239, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-09-25"
+      "lastSeen": "2026-09-26"
     },
     {
       "id": "ref-nm160s2",
@@ -113,7 +141,7 @@
       "summary_en": "NOMOS Glashütte reference NM160S2, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-09-25"
+      "lastSeen": "2026-09-26"
     },
     {
       "id": "ref-ld1a2ew238",
@@ -141,35 +169,7 @@
       "summary_en": "NOMOS Glashütte reference LD1A2EW238, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-09-25"
-    },
-    {
-      "id": "ref-tn130011pg2",
-      "name_en": "TN130011PG2",
-      "name_ja": "タンジェント ネオマティック TN130011PG2",
-      "reference": "TN130011PG2",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": 35,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 564740,
-      "searchKeywordJa": "ノモス グラスヒュッテ TN130011PG2",
-      "searchKeywordEn": "NOMOS Glashütte TN130011PG2",
-      "caseMaterial": "platinum",
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ノモス グラスヒュッテの型番TN130011PG2。市場で3件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "NOMOS Glashütte reference TN130011PG2, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 3,
-      "lastSeen": "2026-09-25"
+      "lastSeen": "2026-09-26"
     },
     {
       "id": "ref-ab161011bl2",
@@ -197,7 +197,7 @@
       "summary_en": "NOMOS Glashütte reference AB161011BL2, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-09-25"
+      "lastSeen": "2026-09-26"
     },
     {
       "id": "ref-cls161011b2csm",
