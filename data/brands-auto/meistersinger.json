@@ -1,6 +1,6 @@
 {
   "brandId": "meistersinger",
-  "generatedAt": "2026-09-27T01:11:18.487Z",
+  "generatedAt": "2026-09-27T16:10:44.214Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -25,10 +25,10 @@
         "limited-edition"
       ],
       "popular": false,
-      "summary_ja": "マイスタージンガーの型番PMN9908AV。市場で18件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "マイスタージンガーの型番PMN9908AV。市場で19件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "MeisterSinger reference PMN9908AV, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 18,
+      "listingCount": 19,
       "lastSeen": "2026-09-27"
     },
     {
@@ -53,10 +53,10 @@
         "limited-edition"
       ],
       "popular": false,
-      "summary_ja": "マイスタージンガーの型番BM9901G。市場で15件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "マイスタージンガーの型番BM9901G。市場で14件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "MeisterSinger reference BM9901G, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 15,
+      "listingCount": 14,
       "lastSeen": "2026-09-27"
     },
     {
@@ -81,10 +81,10 @@
         "limited-edition"
       ],
       "popular": false,
-      "summary_ja": "マイスタージンガーの型番PDD365901。市場で13件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "マイスタージンガーの型番PDD365901。市場で14件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "MeisterSinger reference PDD365901, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 13,
+      "listingCount": 14,
       "lastSeen": "2026-09-27"
     },
     {
@@ -182,7 +182,7 @@
       "movementType": "automatic",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 408595,
+      "priceFloorJpy": 233750,
       "searchKeywordJa": "マイスタージンガー PR365911G",
       "searchKeywordEn": "MeisterSinger PR365911G",
       "caseMaterial": null,
@@ -210,9 +210,37 @@
       "movementType": "automatic",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 348755,
+      "priceFloorJpy": 199750,
       "searchKeywordJa": "マイスタージンガー S-BM9902B",
       "searchKeywordEn": "MeisterSinger S-BM9902B",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "マイスタージンガーの型番S-BM9902B。市場で7件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "MeisterSinger reference S-BM9902B, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 7,
+      "lastSeen": "2026-09-27"
+    },
+    {
+      "id": "ref-pm9908",
+      "name_en": "PM9908",
+      "name_ja": "パンゲア エントリー PM9908",
+      "reference": "PM9908",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 199750,
+      "searchKeywordJa": "マイスタージンガー PM9908",
+      "searchKeywordEn": "MeisterSinger PM9908",
       "caseMaterial": null,
       "waterResistanceM": null,
       "gender": "unisex",
@@ -221,10 +249,10 @@
         "limited-edition"
       ],
       "popular": false,
-      "summary_ja": "マイスタージンガーの型番S-BM9902B。市場で6件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "MeisterSinger reference S-BM9902B, currently offered by multiple sellers in Japan.",
+      "summary_ja": "マイスタージンガーの型番PM9908。市場で7件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "MeisterSinger reference PM9908, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 6,
+      "listingCount": 7,
       "lastSeen": "2026-09-27"
     },
     {
@@ -256,19 +284,19 @@
       "lastSeen": "2026-09-27"
     },
     {
-      "id": "ref-pm9908",
-      "name_en": "PM9908",
-      "name_ja": "エントリー ノベルティー PM9908",
-      "reference": "PM9908",
+      "id": "ref-pr365917g",
+      "name_en": "PR365917G",
+      "name_ja": "エントリー ノベルティー PR365917G",
+      "reference": "PR365917G",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
       "movementType": "automatic",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 348755,
-      "searchKeywordJa": "マイスタージンガー PM9908",
-      "searchKeywordEn": "MeisterSinger PM9908",
+      "priceFloorJpy": 408595,
+      "searchKeywordJa": "マイスタージンガー PR365917G",
+      "searchKeywordEn": "MeisterSinger PR365917G",
       "caseMaterial": null,
       "waterResistanceM": null,
       "gender": "unisex",
@@ -277,10 +305,10 @@
         "limited-edition"
       ],
       "popular": false,
-      "summary_ja": "マイスタージンガーの型番PM9908。市場で4件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "MeisterSinger reference PM9908, currently offered by multiple sellers in Japan.",
+      "summary_ja": "マイスタージンガーの型番PR365917G。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "MeisterSinger reference PR365917G, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 4,
+      "listingCount": 2,
       "lastSeen": "2026-09-27"
     },
     {
@@ -340,19 +368,19 @@
       "lastSeen": "2026-09-27"
     },
     {
-      "id": "ref-pr365917g",
-      "name_en": "PR365917G",
-      "name_ja": "PR365917G",
-      "reference": "PR365917G",
+      "id": "ref-refedksodas2025",
+      "name_en": "REF.ED-KSOD-AS2025",
+      "name_ja": "REF.ED-KSOD-AS2025",
+      "reference": "REF.ED-KSOD-AS2025",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
       "movementType": "automatic",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 408595,
-      "searchKeywordJa": "マイスタージンガー PR365917G",
-      "searchKeywordEn": "MeisterSinger PR365917G",
+      "priceFloorJpy": 710600,
+      "searchKeywordJa": "マイスタージンガー REF.ED-KSOD-AS2025",
+      "searchKeywordEn": "MeisterSinger REF.ED-KSOD-AS2025",
       "caseMaterial": null,
       "waterResistanceM": null,
       "gender": "unisex",
@@ -361,8 +389,8 @@
         "limited-edition"
       ],
       "popular": false,
-      "summary_ja": "マイスタージンガーの型番PR365917G。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "MeisterSinger reference PR365917G, currently offered by multiple sellers in Japan.",
+      "summary_ja": "マイスタージンガーの型番REF.ED-KSOD-AS2025。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "MeisterSinger reference REF.ED-KSOD-AS2025, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
       "lastSeen": "2026-09-27"

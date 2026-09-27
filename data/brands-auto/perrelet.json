@@ -1,6 +1,6 @@
 {
   "brandId": "perrelet",
-  "generatedAt": "2026-09-27T01:37:48.716Z",
+  "generatedAt": "2026-09-27T16:36:52.218Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -256,34 +256,6 @@
       "lastSeen": "2026-09-27"
     },
     {
-      "id": "ref-3191",
-      "name_en": "3191",
-      "name_ja": "ペレレットダブルローター スケルトン 3191",
-      "reference": "3191",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 200000,
-      "searchKeywordJa": "ペルレ 3191",
-      "searchKeywordEn": "Perrelet 3191",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "skeleton"
-      ],
-      "popular": false,
-      "summary_ja": "ペルレの型番3191。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Perrelet reference 3191, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-09-27"
-    },
-    {
       "id": "ref-a2000",
       "name_en": "A2000",
       "name_ja": "ダイヤインデックス A2000",
@@ -307,6 +279,34 @@
       "popular": false,
       "summary_ja": "ペルレの型番A2000。市場で2件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Perrelet reference A2000, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-09-27"
+    },
+    {
+      "id": "ref-3191",
+      "name_en": "3191",
+      "name_ja": "ペレレットダブルローター スケルトン 3191",
+      "reference": "3191",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 200000,
+      "searchKeywordJa": "ペルレ 3191",
+      "searchKeywordEn": "Perrelet 3191",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "skeleton"
+      ],
+      "popular": false,
+      "summary_ja": "ペルレの型番3191。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Perrelet reference 3191, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
       "lastSeen": "2026-09-27"
@@ -1078,7 +1078,7 @@
       "movementType": null,
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 1943865,
+      "priceFloorJpy": 1963500,
       "searchKeywordJa": "ペルレ VCARP6X200",
       "searchKeywordEn": "Perrelet VCARP6X200",
       "caseMaterial": "rose-gold",
