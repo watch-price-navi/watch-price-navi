@@ -1,6 +1,6 @@
 {
   "brandId": "jacob-co",
-  "generatedAt": "2026-09-28T01:11:02.870Z",
+  "generatedAt": "2026-09-28T19:01:02.909Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -567,34 +567,6 @@
       "lastSeen": "2026-09-28"
     },
     {
-      "id": "ref-hkjc0107",
-      "name_en": "HKJC0107",
-      "name_ja": "HKJC0107",
-      "reference": "HKJC0107",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": 40,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 454410,
-      "searchKeywordJa": "ジェイコブ HKJC0107",
-      "searchKeywordEn": "Jacob & Co. HKJC0107",
-      "caseMaterial": "stainless-steel",
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ジェイコブの型番HKJC0107。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Jacob & Co. reference HKJC0107, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-09-28"
-    },
-    {
       "id": "ref-j2017",
       "name_en": "J2017",
       "name_ja": "ジョーロデオ J2017",
@@ -901,6 +873,34 @@
       "summary_en": "Jacob & Co. reference I203124033, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
+      "lastSeen": "2026-09-28"
+    },
+    {
+      "id": "ref-hkjc0107",
+      "name_en": "HKJC0107",
+      "name_ja": "HKJC0107",
+      "reference": "HKJC0107",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": 40,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 454410,
+      "searchKeywordJa": "ジェイコブ HKJC0107",
+      "searchKeywordEn": "Jacob & Co. HKJC0107",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ジェイコブの型番HKJC0107。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Jacob & Co. reference HKJC0107, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 0,
       "lastSeen": "2026-09-28"
     },
     {

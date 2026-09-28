@@ -1,6 +1,6 @@
 {
   "brandId": "bell-ross",
-  "generatedAt": "2026-09-28T00:02:52.510Z",
+  "generatedAt": "2026-09-28T17:51:15.721Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -28,10 +28,10 @@
         "vintage-reissue"
       ],
       "popular": false,
-      "summary_ja": "ベル&ロスの型番BR03-92。市場で13件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "ベル&ロスの型番BR03-92。市場で12件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Bell & Ross reference BR03-92, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 13,
+      "listingCount": 12,
       "lastSeen": "2026-09-28"
     },
     {
@@ -93,6 +93,34 @@
       "lastSeen": "2026-09-28"
     },
     {
+      "id": "ref-br0394swcesrb",
+      "name_en": "BR0394-SW-CE/SRB",
+      "name_ja": "インストゥルメント マルチメーター BR0394-SW-CE/SRB",
+      "reference": "BR0394-SW-CE/SRB",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 423300,
+      "searchKeywordJa": "ベル&ロス BR0394-SW-CE/SRB",
+      "searchKeywordEn": "Bell & Ross BR0394-SW-CE/SRB",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ベル&ロスの型番BR0394-SW-CE/SRB。市場で4件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Bell & Ross reference BR0394-SW-CE/SRB, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 4,
+      "lastSeen": "2026-09-28"
+    },
+    {
       "id": "ref-br0392dltbrsrb",
       "name_en": "BR03-92-D-LT-BR/SRB",
       "name_ja": "BR03-92-D-LT-BR/SRB",
@@ -150,34 +178,6 @@
       "lastSeen": "2026-09-28"
     },
     {
-      "id": "ref-br0392gc3stsca",
-      "name_en": "BR0392-GC3-ST/SCA",
-      "name_ja": "グレーラム BR0392-GC3-ST/SCA",
-      "reference": "BR0392-GC3-ST/SCA",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 253300,
-      "searchKeywordJa": "ベル&ロス BR0392-GC3-ST/SCA",
-      "searchKeywordEn": "Bell & Ross BR0392-GC3-ST/SCA",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ベル&ロスの型番BR0392-GC3-ST/SCA。市場で3件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Bell & Ross reference BR0392-GC3-ST/SCA, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 3,
-      "lastSeen": "2026-09-28"
-    },
-    {
       "id": "ref-br0392blustsca",
       "name_en": "BR0392-BLU-ST/SCA",
       "name_ja": "スティール BR0392-BLU-ST/SCA",
@@ -201,6 +201,34 @@
       "popular": false,
       "summary_ja": "ベル&ロスの型番BR0392-BLU-ST/SCA。市場で3件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Bell & Ross reference BR0392-BLU-ST/SCA, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
+      "lastSeen": "2026-09-28"
+    },
+    {
+      "id": "ref-br0392gc3stsca",
+      "name_en": "BR0392-GC3-ST/SCA",
+      "name_ja": "グレーラム BR0392-GC3-ST/SCA",
+      "reference": "BR0392-GC3-ST/SCA",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 253300,
+      "searchKeywordJa": "ベル&ロス BR0392-GC3-ST/SCA",
+      "searchKeywordEn": "Bell & Ross BR0392-GC3-ST/SCA",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ベル&ロスの型番BR0392-GC3-ST/SCA。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Bell & Ross reference BR0392-GC3-ST/SCA, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
       "lastSeen": "2026-09-28"
@@ -244,7 +272,7 @@
       "movementType": "automatic",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 275825,
+      "priceFloorJpy": 271150,
       "searchKeywordJa": "ベル&ロス BR0392-CAMO-CE/SRB",
       "searchKeywordEn": "Bell & Ross BR0392-CAMO-CE/SRB",
       "caseMaterial": "ceramic",
@@ -285,34 +313,6 @@
       "popular": false,
       "summary_ja": "ベル&ロスの型番BR0392-A522-CE/SRB。市場で3件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Bell & Ross reference BR0392-A522-CE/SRB, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 3,
-      "lastSeen": "2026-09-28"
-    },
-    {
-      "id": "ref-br0394swcesrb",
-      "name_en": "BR0394-SW-CE/SRB",
-      "name_ja": "インストゥルメント マルチメーター BR0394-SW-CE/SRB",
-      "reference": "BR0394-SW-CE/SRB",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 423300,
-      "searchKeywordJa": "ベル&ロス BR0394-SW-CE/SRB",
-      "searchKeywordEn": "Bell & Ross BR0394-SW-CE/SRB",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ベル&ロスの型番BR0394-SW-CE/SRB。市場で3件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Bell & Ross reference BR0394-SW-CE/SRB, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
       "lastSeen": "2026-09-28"
