@@ -1,6 +1,6 @@
 {
   "brandId": "jaquet-droz",
-  "generatedAt": "2026-09-29T02:31:21.972Z",
+  "generatedAt": "2026-09-29T17:16:13.486Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -509,20 +509,20 @@
       "lastSeen": "2026-09-29"
     },
     {
-      "id": "ref-j012630270",
-      "name_en": "J012630270",
-      "name_ja": "エクリプス オニキス J012630270",
-      "reference": "J012630270",
+      "id": "ref-j006010240",
+      "name_en": "J006010240",
+      "name_ja": "グランセコンドオフセンタ ステンレススチール J006010240",
+      "reference": "J006010240",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
-      "movementType": null,
+      "movementType": "automatic",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 873800,
-      "searchKeywordJa": "ジャケ・ドロー J012630270",
-      "searchKeywordEn": "Jaquet Droz J012630270",
-      "caseMaterial": null,
+      "priceFloorJpy": 722500,
+      "searchKeywordJa": "ジャケ・ドロー J006010240",
+      "searchKeywordEn": "Jaquet Droz J006010240",
+      "caseMaterial": "stainless-steel",
       "waterResistanceM": null,
       "gender": "mens",
       "releaseYear": null,
@@ -530,8 +530,8 @@
         "sport"
       ],
       "popular": false,
-      "summary_ja": "ジャケ・ドローの型番J012630270。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Jaquet Droz reference J012630270, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ジャケ・ドローの型番J006010240。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Jaquet Droz reference J006010240, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
       "lastSeen": "2026-09-29"
@@ -560,6 +560,34 @@
       "popular": false,
       "summary_ja": "ジャケ・ドローの型番J005000170。市場で2件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Jaquet Droz reference J005000170, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-09-29"
+    },
+    {
+      "id": "ref-j012630270",
+      "name_en": "J012630270",
+      "name_ja": "エクリプス オニキス J012630270",
+      "reference": "J012630270",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 873800,
+      "searchKeywordJa": "ジャケ・ドロー J012630270",
+      "searchKeywordEn": "Jaquet Droz J012630270",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ジャケ・ドローの型番J012630270。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Jaquet Droz reference J012630270, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
       "lastSeen": "2026-09-29"
@@ -759,6 +787,34 @@
       "summary_en": "Jaquet Droz reference J008334210, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
+      "lastSeen": "2026-09-29"
+    },
+    {
+      "id": "ref-refj007030240",
+      "name_en": "REF.J007030240",
+      "name_ja": "REF.J007030240",
+      "reference": "REF.J007030240",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 650122,
+      "searchKeywordJa": "ジャケ・ドロー REF.J007030240",
+      "searchKeywordEn": "Jaquet Droz REF.J007030240",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ジャケ・ドローの型番REF.J007030240。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Jaquet Droz reference REF.J007030240, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
       "lastSeen": "2026-09-29"
     },
     {
@@ -1264,34 +1320,6 @@
       "source": "auto",
       "listingCount": 0,
       "lastSeen": "2026-09-25"
-    },
-    {
-      "id": "ref-j006010240",
-      "name_en": "J006010240",
-      "name_ja": "グランセコンドオフセンタ ステンレススチール J006010240",
-      "reference": "J006010240",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 722500,
-      "searchKeywordJa": "ジャケ・ドロー J006010240",
-      "searchKeywordEn": "Jaquet Droz J006010240",
-      "caseMaterial": "stainless-steel",
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ジャケ・ドローの型番J006010240。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Jaquet Droz reference J006010240, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 0,
-      "lastSeen": "2026-09-24"
     },
     {
       "id": "ref-j007030242",
