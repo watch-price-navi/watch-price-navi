@@ -1,6 +1,6 @@
 {
   "brandId": "graham",
-  "generatedAt": "2026-09-30T01:33:02.420Z",
+  "generatedAt": "2026-09-30T16:54:11.255Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -29,6 +29,34 @@
       "summary_en": "Graham reference 2CCAU.G01A.T15N, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
+      "lastSeen": "2026-09-30"
+    },
+    {
+      "id": "ref-30000",
+      "name_en": "30000",
+      "name_ja": "クロノファイター オーバーサイズ 30000",
+      "reference": "30000",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 372300,
+      "searchKeywordJa": "グラハム 30000",
+      "searchKeywordEn": "Graham 30000",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph"
+      ],
+      "popular": false,
+      "summary_ja": "グラハムの型番30000。市場で4件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Graham reference 30000, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 4,
       "lastSeen": "2026-09-30"
     },
     {
@@ -425,6 +453,34 @@
       "lastSeen": "2026-09-30"
     },
     {
+      "id": "ref-ref20vasb02al30b",
+      "name_en": "REF.20VAS.B02A.L30B",
+      "name_ja": "クロノファイターオーバー フルブラック REF.20VAS.B02A.L30B",
+      "reference": "REF.20VAS.B02A.L30B",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 224400,
+      "searchKeywordJa": "グラハム REF.20VAS.B02A.L30B",
+      "searchKeywordEn": "Graham REF.20VAS.B02A.L30B",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "chronograph"
+      ],
+      "popular": false,
+      "summary_ja": "グラハムの型番REF.20VAS.B02A.L30B。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Graham reference REF.20VAS.B02A.L30B, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-09-30"
+    },
+    {
       "id": "ref-20xass02ac40b",
       "name_en": "20XAS.S02A.C40B",
       "name_ja": "オックスフォード ステンレススチール 20XAS.S02A.C40B",
@@ -595,7 +651,7 @@
     {
       "id": "ref-2ccacb16at34s",
       "name_en": "2CCAC.B16A.T34S",
-      "name_ja": "クロノファイターオーバー ターゲット 2CCAC.B16A.T34S",
+      "name_ja": "ワンダフルデー クロノファイターオーバー 2CCAC.B16A.T34S",
       "reference": "2CCAC.B16A.T34S",
       "collection_en": null,
       "collection_ja": null,
@@ -611,7 +667,8 @@
       "gender": "mens",
       "releaseYear": null,
       "tags": [
-        "chronograph"
+        "chronograph",
+        "limited-edition"
       ],
       "popular": false,
       "summary_ja": "グラハムの型番2CCAC.B16A.T34S。市場で2件の出品が確認された、実際に流通しているモデルです。",
@@ -621,9 +678,38 @@
       "lastSeen": "2026-09-30"
     },
     {
+      "id": "ref-2cvdsb36al153f",
+      "name_en": "2CVDS.B36A.L153F",
+      "name_ja": "ワンダフルデー クロノファイター 2CVDS.B36A.L153F",
+      "reference": "2CVDS.B36A.L153F",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 516120,
+      "searchKeywordJa": "グラハム 2CVDS.B36A.L153F",
+      "searchKeywordEn": "Graham 2CVDS.B36A.L153F",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph",
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "グラハムの型番2CVDS.B36A.L153F。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Graham reference 2CVDS.B36A.L153F, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-09-30"
+    },
+    {
       "id": "ref-2cvgsb42al138f",
       "name_en": "2CVGS.B42A.L138F",
-      "name_ja": "クロノファイター ヴィンテージ 2CVGS.B42A.L138F",
+      "name_ja": "ワンダフルデー クロノファイター 2CVGS.B42A.L138F",
       "reference": "2CVGS.B42A.L138F",
       "collection_en": null,
       "collection_ja": null,
@@ -650,37 +736,9 @@
       "lastSeen": "2026-09-30"
     },
     {
-      "id": "ref-2cvdsb36al153f",
-      "name_en": "2CVDS.B36A.L153F",
-      "name_ja": "クロノファイター グランド 2CVDS.B36A.L153F",
-      "reference": "2CVDS.B36A.L153F",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 516120,
-      "searchKeywordJa": "グラハム 2CVDS.B36A.L153F",
-      "searchKeywordEn": "Graham 2CVDS.B36A.L153F",
-      "caseMaterial": "stainless-steel",
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "chronograph"
-      ],
-      "popular": false,
-      "summary_ja": "グラハムの型番2CVDS.B36A.L153F。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Graham reference 2CVDS.B36A.L153F, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-09-30"
-    },
-    {
       "id": "ref-2cvdsu18al161f",
       "name_en": "2CVDS.U18A.L161F",
-      "name_ja": "クロノファイター グランド 2CVDS.U18A.L161F",
+      "name_ja": "ワンダフルデー クロノファイター 2CVDS.U18A.L161F",
       "reference": "2CVDS.U18A.L161F",
       "collection_en": null,
       "collection_ja": null,
@@ -696,7 +754,8 @@
       "gender": "mens",
       "releaseYear": null,
       "tags": [
-        "chronograph"
+        "chronograph",
+        "limited-edition"
       ],
       "popular": false,
       "summary_ja": "グラハムの型番2CVDS.U18A.L161F。市場で2件の出品が確認された、実際に流通しているモデルです。",
@@ -849,7 +908,7 @@
     {
       "id": "ref-2ccbkb35ak102k",
       "name_en": "2CCBK.B35A.K102K",
-      "name_ja": "クロノファイター スーパーライトカーボン 2CCBK.B35A.K102K",
+      "name_ja": "ワンダフルデー クロノファイター 2CCBK.B35A.K102K",
       "reference": "2CCBK.B35A.K102K",
       "collection_en": null,
       "collection_ja": null,
@@ -867,6 +926,7 @@
       "tags": [
         "chronograph",
         "tourbillon",
+        "limited-edition",
         "lightweight"
       ],
       "popular": false,
