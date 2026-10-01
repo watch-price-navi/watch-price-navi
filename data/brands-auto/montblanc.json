@@ -1,6 +1,6 @@
 {
   "brandId": "montblanc",
-  "generatedAt": "2026-09-30T17:26:35.459Z",
+  "generatedAt": "2026-10-01T02:11:47.817Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -26,11 +26,11 @@
         "limited-edition"
       ],
       "popular": false,
-      "summary_ja": "モンブランの型番4810。市場で89件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "モンブランの型番4810。市場で88件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Montblanc reference 4810, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 89,
-      "lastSeen": "2026-09-30"
+      "listingCount": 88,
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-112540",
@@ -56,40 +56,11 @@
         "vintage-reissue"
       ],
       "popular": false,
-      "summary_ja": "モンブランの型番112540。市場で30件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "モンブランの型番112540。市場で31件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Montblanc reference 112540, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 30,
-      "lastSeen": "2026-09-30"
-    },
-    {
-      "id": "ref-119951",
-      "name_en": "119951",
-      "name_ja": "ヘリテイジ モノプッシャー 119951",
-      "reference": "119951",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 233750,
-      "searchKeywordJa": "モンブラン 119951",
-      "searchKeywordEn": "Montblanc 119951",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "chronograph",
-        "vintage-reissue"
-      ],
-      "popular": false,
-      "summary_ja": "モンブランの型番119951。市場で27件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Montblanc reference 119951, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 27,
-      "lastSeen": "2026-09-30"
+      "listingCount": 31,
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-7016",
@@ -117,7 +88,36 @@
       "summary_en": "Montblanc reference 7016, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 26,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
+    },
+    {
+      "id": "ref-119951",
+      "name_en": "119951",
+      "name_ja": "ヘリテイジ モノプッシャー 119951",
+      "reference": "119951",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 233750,
+      "searchKeywordJa": "モンブラン 119951",
+      "searchKeywordEn": "Montblanc 119951",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph",
+        "vintage-reissue"
+      ],
+      "popular": false,
+      "summary_ja": "モンブランの型番119951。市場で25件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Montblanc reference 119951, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 25,
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-7042",
@@ -141,11 +141,40 @@
         "sport"
       ],
       "popular": false,
-      "summary_ja": "モンブランの型番7042。市場で24件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "モンブランの型番7042。市場で23件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Montblanc reference 7042, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 24,
-      "lastSeen": "2026-09-30"
+      "listingCount": 23,
+      "lastSeen": "2026-10-01"
+    },
+    {
+      "id": "ref-112648",
+      "name_en": "112648",
+      "name_ja": "ヘリテイジ クロノメトリー 112648",
+      "reference": "112648",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 168300,
+      "searchKeywordJa": "モンブラン 112648",
+      "searchKeywordEn": "Montblanc 112648",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph",
+        "gmt"
+      ],
+      "popular": false,
+      "summary_ja": "モンブランの型番112648。市場で23件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Montblanc reference 112648, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 23,
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-115936",
@@ -173,36 +202,7 @@
       "summary_en": "Montblanc reference 115936, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 21,
-      "lastSeen": "2026-09-30"
-    },
-    {
-      "id": "ref-112648",
-      "name_en": "112648",
-      "name_ja": "ヘリテイジ クロノメトリー 112648",
-      "reference": "112648",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 168300,
-      "searchKeywordJa": "モンブラン 112648",
-      "searchKeywordEn": "Montblanc 112648",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "chronograph",
-        "gmt"
-      ],
-      "popular": false,
-      "summary_ja": "モンブランの型番112648。市場で21件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Montblanc reference 112648, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 21,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-7474mb119955",
@@ -226,11 +226,11 @@
         "moonphase"
       ],
       "popular": false,
-      "summary_ja": "モンブランの型番7474/MB119955。市場で21件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "モンブランの型番7474/MB119955。市場で20件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Montblanc reference 7474/MB119955, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 21,
-      "lastSeen": "2026-09-30"
+      "listingCount": 20,
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-115122",
@@ -258,7 +258,35 @@
       "summary_en": "Montblanc reference 115122, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 19,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
+    },
+    {
+      "id": "ref-117577",
+      "name_en": "117577",
+      "name_ja": "スター デイト 117577",
+      "reference": "117577",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 143055,
+      "searchKeywordJa": "モンブラン 117577",
+      "searchKeywordEn": "Montblanc 117577",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "モンブランの型番117577。市場で19件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Montblanc reference 117577, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 19,
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-7102",
@@ -286,35 +314,7 @@
       "summary_en": "Montblanc reference 7102, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 19,
-      "lastSeen": "2026-09-30"
-    },
-    {
-      "id": "ref-117577",
-      "name_en": "117577",
-      "name_ja": "スター デイト 117577",
-      "reference": "117577",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 143055,
-      "searchKeywordJa": "モンブラン 117577",
-      "searchKeywordEn": "Montblanc 117577",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "モンブランの型番117577。市場で18件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Montblanc reference 117577, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 18,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-112521",
@@ -339,11 +339,11 @@
         "vintage-reissue"
       ],
       "popular": false,
-      "summary_ja": "モンブランの型番112521。市場で18件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "モンブランの型番112521。市場で19件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Montblanc reference 112521, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 18,
-      "lastSeen": "2026-09-30"
+      "listingCount": 19,
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-mb126758",
@@ -371,7 +371,7 @@
       "summary_en": "Montblanc reference MB126758, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 17,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-7039",
@@ -399,7 +399,7 @@
       "summary_en": "Montblanc reference 7039, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 16,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-116057",
@@ -427,35 +427,7 @@
       "summary_en": "Montblanc reference 116057, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 16,
-      "lastSeen": "2026-09-30"
-    },
-    {
-      "id": "ref-119945",
-      "name_en": "119945",
-      "name_ja": "ヘリテージ 119945",
-      "reference": "119945",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 152405,
-      "searchKeywordJa": "モンブラン 119945",
-      "searchKeywordEn": "Montblanc 119945",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "vintage-reissue"
-      ],
-      "popular": false,
-      "summary_ja": "モンブランの型番119945。市場で16件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Montblanc reference 119945, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 16,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-7201",
@@ -479,11 +451,39 @@
         "chronograph"
       ],
       "popular": false,
-      "summary_ja": "モンブランの型番7201。市場で16件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "モンブランの型番7201。市場で15件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Montblanc reference 7201, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 16,
-      "lastSeen": "2026-09-30"
+      "listingCount": 15,
+      "lastSeen": "2026-10-01"
+    },
+    {
+      "id": "ref-119945",
+      "name_en": "119945",
+      "name_ja": "ヘリテージ 119945",
+      "reference": "119945",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 152405,
+      "searchKeywordJa": "モンブラン 119945",
+      "searchKeywordEn": "Montblanc 119945",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "vintage-reissue"
+      ],
+      "popular": false,
+      "summary_ja": "モンブランの型番119945。市場で15件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Montblanc reference 119945, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 15,
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-116102",
@@ -512,7 +512,7 @@
       "summary_en": "Montblanc reference 116102, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 15,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-116479",
@@ -540,7 +540,7 @@
       "summary_en": "Montblanc reference 116479, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 15,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-7138",
@@ -569,7 +569,7 @@
       "summary_en": "Montblanc reference 7138, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 15,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-114336",
@@ -597,7 +597,7 @@
       "summary_en": "Montblanc reference 114336, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 14,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-119948",
@@ -626,7 +626,7 @@
       "summary_en": "Montblanc reference 119948, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 13,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-112145",
@@ -654,7 +654,7 @@
       "summary_en": "Montblanc reference 112145, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 13,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-112541",
@@ -684,7 +684,7 @@
       "summary_en": "Montblanc reference 112541, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 13,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-7036",
@@ -712,7 +712,7 @@
       "summary_en": "Montblanc reference 7036, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 12,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-112519",
@@ -740,7 +740,7 @@
       "summary_en": "Montblanc reference 112519, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 12,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-116058",
@@ -768,7 +768,7 @@
       "summary_en": "Montblanc reference 116058, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 12,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-118224",
@@ -797,7 +797,7 @@
       "summary_en": "Montblanc reference 118224, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 12,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-113824",
@@ -825,7 +825,7 @@
       "summary_en": "Montblanc reference 113824, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 12,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-7104",
@@ -853,7 +853,7 @@
       "summary_en": "Montblanc reference 7104, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 12,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-126912",
@@ -881,7 +881,7 @@
       "summary_en": "Montblanc reference 126912, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 12,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-129373",
@@ -909,7 +909,7 @@
       "summary_en": "Montblanc reference 129373, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 12,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-mb133300",
@@ -937,7 +937,7 @@
       "summary_en": "Montblanc reference MB133300, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 12,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-mb130983",
@@ -965,7 +965,7 @@
       "summary_en": "Montblanc reference MB130983, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 12,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-111590",
@@ -993,7 +993,7 @@
       "summary_en": "Montblanc reference 111590, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 11,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-119952",
@@ -1022,7 +1022,7 @@
       "summary_en": "Montblanc reference 119952, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 11,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-mb129369",
@@ -1050,7 +1050,7 @@
       "summary_en": "Montblanc reference MB129369, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 11,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-114858",
@@ -1078,7 +1078,7 @@
       "summary_en": "Montblanc reference 114858, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 10,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-117323",
@@ -1106,7 +1106,7 @@
       "summary_en": "Montblanc reference 117323, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 10,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-114872",
@@ -1134,7 +1134,7 @@
       "summary_en": "Montblanc reference 114872, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 10,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-112604",
@@ -1162,7 +1162,7 @@
       "summary_en": "Montblanc reference 112604, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 10,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-116101",
@@ -1190,7 +1190,35 @@
       "summary_en": "Montblanc reference 116101, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 10,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
+    },
+    {
+      "id": "ref-129615",
+      "name_en": "129615",
+      "name_ja": "デイト アラビア 129615",
+      "reference": "129615",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 254320,
+      "searchKeywordJa": "モンブラン 129615",
+      "searchKeywordEn": "Montblanc 129615",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "gmt"
+      ],
+      "popular": false,
+      "summary_ja": "モンブランの型番129615。市場で10件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Montblanc reference 129615, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 10,
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-mb132291",
@@ -1218,35 +1246,35 @@
       "summary_en": "Montblanc reference MB132291, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 10,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
-      "id": "ref-7336112633",
-      "name_en": "7336/112633",
-      "name_ja": "トラディション デイト 7336/112633",
-      "reference": "7336/112633",
+      "id": "ref-114368",
+      "name_en": "114368",
+      "name_ja": "トラディション デイト 114368",
+      "reference": "114368",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
-      "movementType": "quartz",
+      "movementType": "automatic",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 83963,
-      "searchKeywordJa": "モンブラン 7336/112633",
-      "searchKeywordEn": "Montblanc 7336/112633",
+      "priceFloorJpy": 130198,
+      "searchKeywordJa": "モンブラン 114368",
+      "searchKeywordEn": "Montblanc 114368",
       "caseMaterial": null,
       "waterResistanceM": null,
-      "gender": "mens",
+      "gender": "ladies",
       "releaseYear": null,
       "tags": [
         "sport"
       ],
       "popular": false,
-      "summary_ja": "モンブランの型番7336/112633。市場で9件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Montblanc reference 7336/112633, currently offered by multiple sellers in Japan.",
+      "summary_ja": "モンブランの型番114368。市場で9件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Montblanc reference 114368, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 9,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-7069",
@@ -1274,7 +1302,7 @@
       "summary_en": "Montblanc reference 7069, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 9,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-7034",
@@ -1302,7 +1330,7 @@
       "summary_en": "Montblanc reference 7034, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 9,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-116098",
@@ -1330,35 +1358,7 @@
       "summary_en": "Montblanc reference 116098, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 9,
-      "lastSeen": "2026-09-30"
-    },
-    {
-      "id": "ref-117576",
-      "name_en": "117576",
-      "name_ja": "スター スターレガシー 117576",
-      "reference": "117576",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": 42,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 192950,
-      "searchKeywordJa": "モンブラン 117576",
-      "searchKeywordEn": "Montblanc 117576",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "モンブランの型番117576。市場で9件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Montblanc reference 117576, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 9,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-133269",
@@ -1386,35 +1386,7 @@
       "summary_en": "Montblanc reference 133269, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 9,
-      "lastSeen": "2026-09-30"
-    },
-    {
-      "id": "ref-129615",
-      "name_en": "129615",
-      "name_ja": "ステンレススティール デイト 129615",
-      "reference": "129615",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 254320,
-      "searchKeywordJa": "モンブラン 129615",
-      "searchKeywordEn": "Montblanc 129615",
-      "caseMaterial": "stainless-steel",
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "gmt"
-      ],
-      "popular": false,
-      "summary_ja": "モンブランの型番129615。市場で9件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Montblanc reference 129615, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 9,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-mb119286",
@@ -1442,7 +1414,7 @@
       "summary_en": "Montblanc reference MB119286, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 9,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-102337",
@@ -1471,22 +1443,22 @@
       "summary_en": "Montblanc reference 102337, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 9,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
-      "id": "ref-114841",
-      "name_en": "114841",
-      "name_ja": "デイト オートマティック 114841",
-      "reference": "114841",
+      "id": "ref-7336112633",
+      "name_en": "7336/112633",
+      "name_ja": "トラディション デイト 7336/112633",
+      "reference": "7336/112633",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
-      "movementType": "automatic",
+      "movementType": "quartz",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 117810,
-      "searchKeywordJa": "モンブラン 114841",
-      "searchKeywordEn": "Montblanc 114841",
+      "priceFloorJpy": 83963,
+      "searchKeywordJa": "モンブラン 7336/112633",
+      "searchKeywordEn": "Montblanc 7336/112633",
       "caseMaterial": null,
       "waterResistanceM": null,
       "gender": "mens",
@@ -1495,39 +1467,11 @@
         "sport"
       ],
       "popular": false,
-      "summary_ja": "モンブランの型番114841。市場で8件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Montblanc reference 114841, currently offered by multiple sellers in Japan.",
+      "summary_ja": "モンブランの型番7336/112633。市場で8件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Montblanc reference 7336/112633, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 8,
-      "lastSeen": "2026-09-30"
-    },
-    {
-      "id": "ref-114368",
-      "name_en": "114368",
-      "name_ja": "トラディション 114368",
-      "reference": "114368",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 130198,
-      "searchKeywordJa": "モンブラン 114368",
-      "searchKeywordEn": "Montblanc 114368",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "モンブランの型番114368。市場で8件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Montblanc reference 114368, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 8,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-117832",
@@ -1555,36 +1499,35 @@
       "summary_en": "Montblanc reference 117832, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 8,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
-      "id": "ref-7223",
-      "name_en": "7223",
-      "name_ja": "クロノグラフ スター 7223",
-      "reference": "7223",
+      "id": "ref-117576",
+      "name_en": "117576",
+      "name_ja": "スター スターレガシー 117576",
+      "reference": "117576",
       "collection_en": null,
       "collection_ja": null,
-      "caseSizeMm": null,
+      "caseSizeMm": 42,
       "movementType": "automatic",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 176800,
-      "searchKeywordJa": "モンブラン 7223",
-      "searchKeywordEn": "Montblanc 7223",
-      "caseMaterial": "stainless-steel",
+      "priceFloorJpy": 192950,
+      "searchKeywordJa": "モンブラン 117576",
+      "searchKeywordEn": "Montblanc 117576",
+      "caseMaterial": null,
       "waterResistanceM": null,
       "gender": "mens",
       "releaseYear": null,
       "tags": [
-        "chronograph",
-        "gmt"
+        "sport"
       ],
       "popular": false,
-      "summary_ja": "モンブランの型番7223。市場で8件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Montblanc reference 7223, currently offered by multiple sellers in Japan.",
+      "summary_ja": "モンブランの型番117576。市場で8件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Montblanc reference 117576, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 8,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-mb118515",
@@ -1612,7 +1555,7 @@
       "summary_en": "Montblanc reference MB118515, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 8,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-mb112639",
@@ -1640,7 +1583,35 @@
       "summary_en": "Montblanc reference MB112639, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 8,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
+    },
+    {
+      "id": "ref-119947",
+      "name_en": "119947",
+      "name_ja": "デイデイト ヘリテイジ 119947",
+      "reference": "119947",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 278630,
+      "searchKeywordJa": "モンブラン 119947",
+      "searchKeywordEn": "Montblanc 119947",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "vintage-reissue"
+      ],
+      "popular": false,
+      "summary_ja": "モンブランの型番119947。市場で8件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Montblanc reference 119947, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 8,
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-114869",
@@ -1668,7 +1639,7 @@
       "summary_en": "Montblanc reference 114869, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 8,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-119943",
@@ -1696,7 +1667,35 @@
       "summary_en": "Montblanc reference 119943, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 7,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
+    },
+    {
+      "id": "ref-114841",
+      "name_en": "114841",
+      "name_ja": "デイト オートマティック 114841",
+      "reference": "114841",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 117810,
+      "searchKeywordJa": "モンブラン 114841",
+      "searchKeywordEn": "Montblanc 114841",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "モンブランの型番114841。市場で7件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Montblanc reference 114841, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 7,
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-7081",
@@ -1725,7 +1724,7 @@
       "summary_en": "Montblanc reference 7081, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 7,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-119065",
@@ -1753,7 +1752,7 @@
       "summary_en": "Montblanc reference 119065, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 7,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-7403",
@@ -1782,63 +1781,7 @@
       "summary_en": "Montblanc reference 7403, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 7,
-      "lastSeen": "2026-09-30"
-    },
-    {
-      "id": "ref-125583",
-      "name_en": "125583",
-      "name_ja": "125583",
-      "reference": "125583",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 281350,
-      "searchKeywordJa": "モンブラン 125583",
-      "searchKeywordEn": "Montblanc 125583",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "モンブランの型番125583。市場で7件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Montblanc reference 125583, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 7,
-      "lastSeen": "2026-09-30"
-    },
-    {
-      "id": "ref-119947",
-      "name_en": "119947",
-      "name_ja": "デイデイト ヘリテージ 119947",
-      "reference": "119947",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 278630,
-      "searchKeywordJa": "モンブラン 119947",
-      "searchKeywordEn": "Montblanc 119947",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "vintage-reissue"
-      ],
-      "popular": false,
-      "summary_ja": "モンブランの型番119947。市場で7件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Montblanc reference 119947, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 7,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-111620",
@@ -1866,7 +1809,7 @@
       "summary_en": "Montblanc reference 111620, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 7,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-2510067",
@@ -1894,7 +1837,7 @@
       "summary_en": "Montblanc reference 2510067, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 7,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-110715",
@@ -1922,7 +1865,7 @@
       "summary_en": "Montblanc reference 110715, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 7,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-mb130793",
@@ -1950,7 +1893,7 @@
       "summary_en": "Montblanc reference MB130793, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 7,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-mb130986",
@@ -1978,7 +1921,35 @@
       "summary_en": "Montblanc reference MB130986, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 7,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
+    },
+    {
+      "id": "ref-7020",
+      "name_en": "7020",
+      "name_ja": "デイト マイスターシュティック 7020",
+      "reference": "7020",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "quartz",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 60588,
+      "searchKeywordJa": "モンブラン 7020",
+      "searchKeywordEn": "Montblanc 7020",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "モンブランの型番7020。市場で6件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Montblanc reference 7020, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 6,
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-mb112496",
@@ -2006,7 +1977,7 @@
       "summary_en": "Montblanc reference MB112496, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-116061",
@@ -2034,7 +2005,7 @@
       "summary_en": "Montblanc reference 116061, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-mb119960",
@@ -2062,7 +2033,7 @@
       "summary_en": "Montblanc reference MB119960, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-7050",
@@ -2090,35 +2061,7 @@
       "summary_en": "Montblanc reference 7050, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-09-30"
-    },
-    {
-      "id": "ref-30000",
-      "name_en": "30000",
-      "name_ja": "プロフィール スポーツレディ 30000",
-      "reference": "30000",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 131750,
-      "searchKeywordJa": "モンブラン 30000",
-      "searchKeywordEn": "Montblanc 30000",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "limited-edition"
-      ],
-      "popular": false,
-      "summary_ja": "モンブランの型番30000。市場で6件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Montblanc reference 30000, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 6,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-116059",
@@ -2146,7 +2089,35 @@
       "summary_en": "Montblanc reference 116059, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
+    },
+    {
+      "id": "ref-30000",
+      "name_en": "30000",
+      "name_ja": "プロフィール スポーツレディ 30000",
+      "reference": "30000",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 131750,
+      "searchKeywordJa": "モンブラン 30000",
+      "searchKeywordEn": "Montblanc 30000",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "モンブランの型番30000。市場で6件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Montblanc reference 30000, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 6,
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-7067",
@@ -2175,35 +2146,36 @@
       "summary_en": "Montblanc reference 7067, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
-      "id": "ref-106467",
-      "name_en": "106467",
-      "name_ja": "マイスター シュティック 106467",
-      "reference": "106467",
+      "id": "ref-2210137",
+      "name_en": "2210137",
+      "name_ja": "ヘリテージ クロノメトリー 2210137",
+      "reference": "2210137",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
       "movementType": "automatic",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 122400,
-      "searchKeywordJa": "モンブラン 106467",
-      "searchKeywordEn": "Montblanc 106467",
+      "priceFloorJpy": 168300,
+      "searchKeywordJa": "モンブラン 2210137",
+      "searchKeywordEn": "Montblanc 2210137",
       "caseMaterial": null,
       "waterResistanceM": null,
-      "gender": "mens",
+      "gender": "unisex",
       "releaseYear": null,
       "tags": [
-        "sport"
+        "chronograph",
+        "vintage-reissue"
       ],
       "popular": false,
-      "summary_ja": "モンブランの型番106467。市場で6件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Montblanc reference 106467, currently offered by multiple sellers in Japan.",
+      "summary_ja": "モンブランの型番2210137。市場で6件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Montblanc reference 2210137, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-114853",
@@ -2231,7 +2203,63 @@
       "summary_en": "Montblanc reference 114853, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
+    },
+    {
+      "id": "ref-126915",
+      "name_en": "126915",
+      "name_ja": "126915",
+      "reference": "126915",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 230350,
+      "searchKeywordJa": "モンブラン 126915",
+      "searchKeywordEn": "Montblanc 126915",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "モンブランの型番126915。市場で6件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Montblanc reference 126915, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 6,
+      "lastSeen": "2026-10-01"
+    },
+    {
+      "id": "ref-7223",
+      "name_en": "7223",
+      "name_ja": "スター クロノグラフ 7223",
+      "reference": "7223",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 184008,
+      "searchKeywordJa": "モンブラン 7223",
+      "searchKeywordEn": "Montblanc 7223",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph"
+      ],
+      "popular": false,
+      "summary_ja": "モンブランの型番7223。市場で6件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Montblanc reference 7223, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 6,
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-106501",
@@ -2259,7 +2287,7 @@
       "summary_en": "Montblanc reference 106501, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-115079",
@@ -2287,7 +2315,7 @@
       "summary_en": "Montblanc reference 115079, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-115360",
@@ -2315,7 +2343,7 @@
       "summary_en": "Montblanc reference 115360, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-mb124341",
@@ -2343,22 +2371,22 @@
       "summary_en": "Montblanc reference MB124341, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
-      "id": "ref-101548",
-      "name_en": "101548",
-      "name_ja": "タイムウォーカー クロノグラフ 101548",
-      "reference": "101548",
+      "id": "ref-mb1178357456",
+      "name_en": "MB117835/7456",
+      "name_ja": "クロノグラフ MB117835/7456",
+      "reference": "MB117835/7456",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
       "movementType": "automatic",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 172975,
-      "searchKeywordJa": "モンブラン 101548",
-      "searchKeywordEn": "Montblanc 101548",
+      "priceFloorJpy": 199903,
+      "searchKeywordJa": "モンブラン MB117835/7456",
+      "searchKeywordEn": "Montblanc MB117835/7456",
       "caseMaterial": null,
       "waterResistanceM": null,
       "gender": "mens",
@@ -2367,11 +2395,11 @@
         "chronograph"
       ],
       "popular": false,
-      "summary_ja": "モンブランの型番101548。市場で6件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Montblanc reference 101548, currently offered by multiple sellers in Japan.",
+      "summary_ja": "モンブランの型番MB117835/7456。市場で6件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Montblanc reference MB117835/7456, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-mb113702",
@@ -2399,7 +2427,35 @@
       "summary_en": "Montblanc reference MB113702, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
+    },
+    {
+      "id": "ref-101548",
+      "name_en": "101548",
+      "name_ja": "タイムウォーカー クロノグラフ 101548",
+      "reference": "101548",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 172975,
+      "searchKeywordJa": "モンブラン 101548",
+      "searchKeywordEn": "Montblanc 101548",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph"
+      ],
+      "popular": false,
+      "summary_ja": "モンブランの型番101548。市場で6件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Montblanc reference 101548, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 6,
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-mb126105",
@@ -2427,7 +2483,7 @@
       "summary_en": "Montblanc reference MB126105, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-125582",
@@ -2455,7 +2511,35 @@
       "summary_en": "Montblanc reference 125582, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
+    },
+    {
+      "id": "ref-125583",
+      "name_en": "125583",
+      "name_ja": "125583",
+      "reference": "125583",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 281350,
+      "searchKeywordJa": "モンブラン 125583",
+      "searchKeywordEn": "Montblanc 125583",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "モンブランの型番125583。市場で6件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Montblanc reference 125583, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 6,
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-113876",
@@ -2483,7 +2567,35 @@
       "summary_en": "Montblanc reference 113876, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
+    },
+    {
+      "id": "ref-refmb129371",
+      "name_en": "REF.MB129371",
+      "name_ja": "アイスシー オートマティック REF.MB129371",
+      "reference": "REF.MB129371",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 270300,
+      "searchKeywordJa": "モンブラン REF.MB129371",
+      "searchKeywordEn": "Montblanc REF.MB129371",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "モンブランの型番REF.MB129371。市場で6件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Montblanc reference REF.MB129371, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 6,
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-mb119907",
@@ -2511,35 +2623,7 @@
       "summary_en": "Montblanc reference MB119907, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-09-30"
-    },
-    {
-      "id": "ref-112647",
-      "name_en": "112647",
-      "name_ja": "ヘリテイジ クロノメトリー 112647",
-      "reference": "112647",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 295800,
-      "searchKeywordJa": "モンブラン 112647",
-      "searchKeywordEn": "Montblanc 112647",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "chronograph"
-      ],
-      "popular": false,
-      "summary_ja": "モンブランの型番112647。市場で6件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Montblanc reference 112647, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 6,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-mb129616",
@@ -2567,35 +2651,7 @@
       "summary_en": "Montblanc reference MB129616, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-09-30"
-    },
-    {
-      "id": "ref-112538",
-      "name_en": "112538",
-      "name_ja": "ヘリテイジ クロノメトリー 112538",
-      "reference": "112538",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 306680,
-      "searchKeywordJa": "モンブラン 112538",
-      "searchKeywordEn": "Montblanc 112538",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "chronograph"
-      ],
-      "popular": false,
-      "summary_ja": "モンブランの型番112538。市場で6件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Montblanc reference 112538, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 6,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-118516",
@@ -2623,7 +2679,35 @@
       "summary_en": "Montblanc reference 118516, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
+    },
+    {
+      "id": "ref-112538",
+      "name_en": "112538",
+      "name_ja": "ヘリテイジ クロノメトリー 112538",
+      "reference": "112538",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 306680,
+      "searchKeywordJa": "モンブラン 112538",
+      "searchKeywordEn": "Montblanc 112538",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph"
+      ],
+      "popular": false,
+      "summary_ja": "モンブランの型番112538。市場で6件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Montblanc reference 112538, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 6,
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-129617",
@@ -2652,35 +2736,7 @@
       "summary_en": "Montblanc reference 129617, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-09-30"
-    },
-    {
-      "id": "ref-7435126079",
-      "name_en": "7435/126079",
-      "name_ja": "スターレガシー ムーンフェイズ 7435/126079",
-      "reference": "7435/126079",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 278630,
-      "searchKeywordJa": "モンブラン 7435/126079",
-      "searchKeywordEn": "Montblanc 7435/126079",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "moonphase"
-      ],
-      "popular": false,
-      "summary_ja": "モンブランの型番7435/126079。市場で6件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Montblanc reference 7435/126079, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 6,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-129369",
@@ -2708,7 +2764,7 @@
       "summary_en": "Montblanc reference 129369, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-mb132950",
@@ -2736,7 +2792,7 @@
       "summary_en": "Montblanc reference MB132950, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-mb134296",
@@ -2764,7 +2820,7 @@
       "summary_en": "Montblanc reference MB134296, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-mb129626",
@@ -2793,7 +2849,7 @@
       "summary_en": "Montblanc reference MB129626, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-1786",
@@ -2822,7 +2878,7 @@
       "summary_en": "Montblanc reference 1786, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-mb130984",
@@ -2850,35 +2906,7 @@
       "summary_en": "Montblanc reference MB130984, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-09-30"
-    },
-    {
-      "id": "ref-mb129370",
-      "name_en": "MB129370",
-      "name_ja": "ローン ノベルティ MB129370",
-      "reference": "MB129370",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 498355,
-      "searchKeywordJa": "モンブラン MB129370",
-      "searchKeywordEn": "Montblanc MB129370",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "モンブランの型番MB129370。市場で6件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Montblanc reference MB129370, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 6,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-mb126079",
@@ -2906,7 +2934,7 @@
       "summary_en": "Montblanc reference MB126079, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-107070",
@@ -2934,7 +2962,7 @@
       "summary_en": "Montblanc reference 107070, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-mb129415",
@@ -2962,7 +2990,7 @@
       "summary_en": "Montblanc reference MB129415, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-mb118514",
@@ -2990,7 +3018,7 @@
       "summary_en": "Montblanc reference MB118514, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-mb126912",
@@ -3018,7 +3046,7 @@
       "summary_en": "Montblanc reference MB126912, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-119954",
@@ -3047,7 +3075,7 @@
       "summary_en": "Montblanc reference 119954, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-mb128676",
@@ -3075,7 +3103,7 @@
       "summary_en": "Montblanc reference MB128676, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-8000",
@@ -3103,7 +3131,7 @@
       "summary_en": "Montblanc reference 8000, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-mb133268",
@@ -3131,7 +3159,7 @@
       "summary_en": "Montblanc reference MB133268, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-pl178202",
@@ -3159,7 +3187,7 @@
       "summary_en": "Montblanc reference PL178202, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-7038",
@@ -3187,35 +3215,7 @@
       "summary_en": "Montblanc reference 7038, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-09-30"
-    },
-    {
-      "id": "ref-7020",
-      "name_en": "7020",
-      "name_ja": "デイト マイスターシュティック 7020",
-      "reference": "7020",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "quartz",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 60588,
-      "searchKeywordJa": "モンブラン 7020",
-      "searchKeywordEn": "Montblanc 7020",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "モンブランの型番7020。市場で5件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Montblanc reference 7020, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 5,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-7239",
@@ -3243,7 +3243,7 @@
       "summary_en": "Montblanc reference 7239, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-7309",
@@ -3271,7 +3271,7 @@
       "summary_en": "Montblanc reference 7309, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-108766",
@@ -3299,35 +3299,35 @@
       "summary_en": "Montblanc reference 108766, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
-      "id": "ref-118774",
-      "name_en": "118774",
-      "name_ja": "ボエム オートマティック 118774",
-      "reference": "118774",
+      "id": "ref-112496",
+      "name_en": "112496",
+      "name_ja": "ボエム ムーンフェイズ 112496",
+      "reference": "112496",
       "collection_en": null,
       "collection_ja": null,
-      "caseSizeMm": 30,
-      "movementType": "automatic",
+      "caseSizeMm": null,
+      "movementType": "quartz",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 111265,
-      "searchKeywordJa": "モンブラン 118774",
-      "searchKeywordEn": "Montblanc 118774",
+      "priceFloorJpy": 88638,
+      "searchKeywordJa": "モンブラン 112496",
+      "searchKeywordEn": "Montblanc 112496",
       "caseMaterial": null,
       "waterResistanceM": null,
       "gender": "ladies",
       "releaseYear": null,
       "tags": [
-        "sport"
+        "moonphase"
       ],
       "popular": false,
-      "summary_ja": "モンブランの型番118774。市場で5件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Montblanc reference 118774, currently offered by multiple sellers in Japan.",
+      "summary_ja": "モンブランの型番112496。市場で5件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Montblanc reference 112496, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-119960",
@@ -3355,7 +3355,7 @@
       "summary_en": "Montblanc reference 119960, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-mb9672",
@@ -3383,7 +3383,7 @@
       "summary_en": "Montblanc reference MB9672, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-7210",
@@ -3411,7 +3411,7 @@
       "summary_en": "Montblanc reference 7210, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-116060",
@@ -3439,36 +3439,7 @@
       "summary_en": "Montblanc reference 116060, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-09-30"
-    },
-    {
-      "id": "ref-2210137",
-      "name_en": "2210137",
-      "name_ja": "ヘリテージ クロノメトリー 2210137",
-      "reference": "2210137",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 168300,
-      "searchKeywordJa": "モンブラン 2210137",
-      "searchKeywordEn": "Montblanc 2210137",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "chronograph",
-        "vintage-reissue"
-      ],
-      "popular": false,
-      "summary_ja": "モンブランの型番2210137。市場で5件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Montblanc reference 2210137, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 5,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-124341",
@@ -3496,35 +3467,35 @@
       "summary_en": "Montblanc reference 124341, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
-      "id": "ref-mb116241",
-      "name_en": "MB116241",
-      "name_ja": "オートマティック MB116241",
-      "reference": "MB116241",
+      "id": "ref-106467",
+      "name_en": "106467",
+      "name_ja": "マイスター シュティック 106467",
+      "reference": "106467",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
-      "movementType": null,
+      "movementType": "automatic",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 159800,
-      "searchKeywordJa": "モンブラン MB116241",
-      "searchKeywordEn": "Montblanc MB116241",
+      "priceFloorJpy": 122400,
+      "searchKeywordJa": "モンブラン 106467",
+      "searchKeywordEn": "Montblanc 106467",
       "caseMaterial": null,
       "waterResistanceM": null,
-      "gender": "unisex",
+      "gender": "mens",
       "releaseYear": null,
       "tags": [
         "sport"
       ],
       "popular": false,
-      "summary_ja": "モンブランの型番MB116241。市場で5件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Montblanc reference MB116241, currently offered by multiple sellers in Japan.",
+      "summary_ja": "モンブランの型番106467。市場で5件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Montblanc reference 106467, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-7456",
@@ -3552,7 +3523,7 @@
       "summary_en": "Montblanc reference 7456, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-mb115122",
@@ -3580,35 +3551,7 @@
       "summary_en": "Montblanc reference MB115122, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-09-30"
-    },
-    {
-      "id": "ref-126915",
-      "name_en": "126915",
-      "name_ja": "126915",
-      "reference": "126915",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 230350,
-      "searchKeywordJa": "モンブラン 126915",
-      "searchKeywordEn": "Montblanc 126915",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "モンブランの型番126915。市場で5件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Montblanc reference 126915, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 5,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-115361",
@@ -3636,7 +3579,7 @@
       "summary_en": "Montblanc reference 115361, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-106502",
@@ -3664,7 +3607,7 @@
       "summary_en": "Montblanc reference 106502, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-7203",
@@ -3692,7 +3635,7 @@
       "summary_en": "Montblanc reference 7203, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-110703",
@@ -3720,7 +3663,35 @@
       "summary_en": "Montblanc reference 110703, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
+    },
+    {
+      "id": "ref-111057",
+      "name_en": "111057",
+      "name_ja": "ボエム ダイヤベゼル 111057",
+      "reference": "111057",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 224213,
+      "searchKeywordJa": "モンブラン 111057",
+      "searchKeywordEn": "Montblanc 111057",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "モンブランの型番111057。市場で5件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Montblanc reference 111057, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 5,
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-1293697578",
@@ -3748,7 +3719,7 @@
       "summary_en": "Montblanc reference 129369/7578, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-mb118222",
@@ -3776,7 +3747,7 @@
       "summary_en": "Montblanc reference MB118222, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-118223",
@@ -3804,7 +3775,35 @@
       "summary_en": "Montblanc reference 118223, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
+    },
+    {
+      "id": "ref-112647",
+      "name_en": "112647",
+      "name_ja": "ヘリテイジ クロノメトリー 112647",
+      "reference": "112647",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 295800,
+      "searchKeywordJa": "モンブラン 112647",
+      "searchKeywordEn": "Montblanc 112647",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "chronograph"
+      ],
+      "popular": false,
+      "summary_ja": "モンブランの型番112647。市場で5件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Montblanc reference 112647, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 5,
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-mb128670",
@@ -3832,7 +3831,7 @@
       "summary_en": "Montblanc reference MB128670, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-116508",
@@ -3860,7 +3859,7 @@
       "summary_en": "Montblanc reference 116508, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-mb128671",
@@ -3888,7 +3887,7 @@
       "summary_en": "Montblanc reference MB128671, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-112556",
@@ -3916,7 +3915,35 @@
       "summary_en": "Montblanc reference 112556, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
+    },
+    {
+      "id": "ref-7435126079",
+      "name_en": "7435/126079",
+      "name_ja": "スターレガシー ムーンフェイズ 7435/126079",
+      "reference": "7435/126079",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 278630,
+      "searchKeywordJa": "モンブラン 7435/126079",
+      "searchKeywordEn": "Montblanc 7435/126079",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "moonphase"
+      ],
+      "popular": false,
+      "summary_ja": "モンブランの型番7435/126079。市場で5件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Montblanc reference 7435/126079, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 5,
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-mb1293717578",
@@ -3944,7 +3971,7 @@
       "summary_en": "Montblanc reference MB129371/7578, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-7501119959",
@@ -3972,7 +3999,7 @@
       "summary_en": "Montblanc reference 7501/119959, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-125581",
@@ -4000,7 +4027,7 @@
       "summary_en": "Montblanc reference 125581, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-112539",
@@ -4028,35 +4055,7 @@
       "summary_en": "Montblanc reference 112539, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-09-30"
-    },
-    {
-      "id": "ref-mb134359",
-      "name_en": "MB134359",
-      "name_ja": "スターレガシー デイト MB134359",
-      "reference": "MB134359",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": 42,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 283305,
-      "searchKeywordJa": "モンブラン MB134359",
-      "searchKeywordEn": "Montblanc MB134359",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "モンブランの型番MB134359。市場で5件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Montblanc reference MB134359, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 5,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-mb125581",
@@ -4084,7 +4083,35 @@
       "summary_en": "Montblanc reference MB125581, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
+    },
+    {
+      "id": "ref-mb134359",
+      "name_en": "MB134359",
+      "name_ja": "スターレガシー デイト MB134359",
+      "reference": "MB134359",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": 42,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 283305,
+      "searchKeywordJa": "モンブラン MB134359",
+      "searchKeywordEn": "Montblanc MB134359",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "モンブランの型番MB134359。市場で5件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Montblanc reference MB134359, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 5,
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-119347",
@@ -4112,7 +4139,7 @@
       "summary_en": "Montblanc reference 119347, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-126361",
@@ -4140,7 +4167,7 @@
       "summary_en": "Montblanc reference 126361, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-mb129373",
@@ -4168,7 +4195,7 @@
       "summary_en": "Montblanc reference MB129373, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-mb134024",
@@ -4196,7 +4223,7 @@
       "summary_en": "Montblanc reference MB134024, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-mb134022",
@@ -4224,7 +4251,63 @@
       "summary_en": "Montblanc reference MB134022, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
+    },
+    {
+      "id": "ref-mb129370",
+      "name_en": "MB129370",
+      "name_ja": "ローン ノベルティ MB129370",
+      "reference": "MB129370",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 498355,
+      "searchKeywordJa": "モンブラン MB129370",
+      "searchKeywordEn": "Montblanc MB129370",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "モンブランの型番MB129370。市場で5件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Montblanc reference MB129370, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 5,
+      "lastSeen": "2026-10-01"
+    },
+    {
+      "id": "ref-refmb129415",
+      "name_en": "REF.MB129415",
+      "name_ja": "ジオスフェール オキシジェン REF.MB129415",
+      "reference": "REF.MB129415",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 511402,
+      "searchKeywordJa": "モンブラン REF.MB129415",
+      "searchKeywordEn": "Montblanc REF.MB129415",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "モンブランの型番REF.MB129415。市場で5件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Montblanc reference REF.MB129415, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 5,
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-mb136765",
@@ -4252,7 +4335,7 @@
       "summary_en": "Montblanc reference MB136765, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-mb134017",
@@ -4280,7 +4363,7 @@
       "summary_en": "Montblanc reference MB134017, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-7007",
@@ -4308,7 +4391,35 @@
       "summary_en": "Montblanc reference 7007, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
+    },
+    {
+      "id": "ref-refmb130961",
+      "name_en": "REF.MB130961",
+      "name_ja": "ジオスフェール REF.MB130961",
+      "reference": "REF.MB130961",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 598102,
+      "searchKeywordJa": "モンブラン REF.MB130961",
+      "searchKeywordEn": "Montblanc REF.MB130961",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "モンブランの型番REF.MB130961。市場で5件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Montblanc reference REF.MB130961, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 5,
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-7047",
@@ -4336,7 +4447,7 @@
       "summary_en": "Montblanc reference 7047, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-105913",
@@ -4364,7 +4475,7 @@
       "summary_en": "Montblanc reference 105913, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-7023",
@@ -4392,35 +4503,7 @@
       "summary_en": "Montblanc reference 7023, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-09-30"
-    },
-    {
-      "id": "ref-112496",
-      "name_en": "112496",
-      "name_ja": "ボエム ムーンフェイズ 112496",
-      "reference": "112496",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "quartz",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 88638,
-      "searchKeywordJa": "モンブラン 112496",
-      "searchKeywordEn": "Montblanc 112496",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "moonphase"
-      ],
-      "popular": false,
-      "summary_ja": "モンブランの型番112496。市場で4件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Montblanc reference 112496, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 4,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-7017",
@@ -4448,7 +4531,35 @@
       "summary_en": "Montblanc reference 7017, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
+    },
+    {
+      "id": "ref-118774",
+      "name_en": "118774",
+      "name_ja": "ボエム オートマティック 118774",
+      "reference": "118774",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": 30,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 111265,
+      "searchKeywordJa": "モンブラン 118774",
+      "searchKeywordEn": "Montblanc 118774",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "モンブランの型番118774。市場で4件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Montblanc reference 118774, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 4,
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-7236",
@@ -4476,7 +4587,7 @@
       "summary_en": "Montblanc reference 7236, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-2310040",
@@ -4504,7 +4615,7 @@
       "summary_en": "Montblanc reference 2310040, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-119941",
@@ -4532,35 +4643,7 @@
       "summary_en": "Montblanc reference 119941, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-09-30"
-    },
-    {
-      "id": "ref-131274",
-      "name_en": "131274",
-      "name_ja": "トラディション 131274",
-      "reference": "131274",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 168300,
-      "searchKeywordJa": "モンブラン 131274",
-      "searchKeywordEn": "Montblanc 131274",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "モンブランの型番131274。市場で4件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Montblanc reference 131274, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 4,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-111581",
@@ -4588,7 +4671,7 @@
       "summary_en": "Montblanc reference 111581, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-2510021",
@@ -4616,7 +4699,7 @@
       "summary_en": "Montblanc reference 2510021, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-7073",
@@ -4644,7 +4727,64 @@
       "summary_en": "Montblanc reference 7073, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
+    },
+    {
+      "id": "ref-7348",
+      "name_en": "7348",
+      "name_ja": "ヘリテイジ クロノメトリー 7348",
+      "reference": "7348",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 166430,
+      "searchKeywordJa": "モンブラン 7348",
+      "searchKeywordEn": "Montblanc 7348",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph",
+        "gmt"
+      ],
+      "popular": false,
+      "summary_ja": "モンブランの型番7348。市場で4件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Montblanc reference 7348, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 4,
+      "lastSeen": "2026-10-01"
+    },
+    {
+      "id": "ref-mb116241",
+      "name_en": "MB116241",
+      "name_ja": "オートマティック MB116241",
+      "reference": "MB116241",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 159800,
+      "searchKeywordJa": "モンブラン MB116241",
+      "searchKeywordEn": "Montblanc MB116241",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "モンブランの型番MB116241。市場で4件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Montblanc reference MB116241, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 4,
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-mb116508",
@@ -4673,7 +4813,7 @@
       "summary_en": "Montblanc reference MB116508, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-7490119945",
@@ -4701,7 +4841,7 @@
       "summary_en": "Montblanc reference 7490/119945, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-7109",
@@ -4730,7 +4870,7 @@
       "summary_en": "Montblanc reference 7109, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-9650",
@@ -4758,7 +4898,7 @@
       "summary_en": "Montblanc reference 9650, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-109135",
@@ -4786,7 +4926,7 @@
       "summary_en": "Montblanc reference 109135, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-108768",
@@ -4814,7 +4954,7 @@
       "summary_en": "Montblanc reference 108768, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-u0112512",
@@ -4842,51 +4982,23 @@
       "summary_en": "Montblanc reference U0112512, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
-      "id": "ref-mb1178357456",
-      "name_en": "MB117835/7456",
-      "name_ja": "クロノグラフ MB117835/7456",
-      "reference": "MB117835/7456",
+      "id": "ref-7175",
+      "name_en": "7175",
+      "name_ja": "タイムウォーカー ステンレススティール 7175",
+      "reference": "7175",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
       "movementType": "automatic",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 199903,
-      "searchKeywordJa": "モンブラン MB117835/7456",
-      "searchKeywordEn": "Montblanc MB117835/7456",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "chronograph"
-      ],
-      "popular": false,
-      "summary_ja": "モンブランの型番MB117835/7456。市場で4件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Montblanc reference MB117835/7456, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 4,
-      "lastSeen": "2026-09-30"
-    },
-    {
-      "id": "ref-mb35420",
-      "name_en": "MB35420",
-      "name_ja": "タイムウォーカー ビッグデイト MB35420",
-      "reference": "MB35420",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 201960,
-      "searchKeywordJa": "モンブラン MB35420",
-      "searchKeywordEn": "Montblanc MB35420",
-      "caseMaterial": "two-tone",
+      "priceFloorJpy": 229823,
+      "searchKeywordJa": "モンブラン 7175",
+      "searchKeywordEn": "Montblanc 7175",
+      "caseMaterial": "stainless-steel",
       "waterResistanceM": null,
       "gender": "mens",
       "releaseYear": null,
@@ -4894,11 +5006,11 @@
         "sport"
       ],
       "popular": false,
-      "summary_ja": "モンブランの型番MB35420。市場で4件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Montblanc reference MB35420, currently offered by multiple sellers in Japan.",
+      "summary_ja": "モンブランの型番7175。市場で4件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Montblanc reference 7175, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-107339",
@@ -4928,147 +5040,7 @@
       "summary_en": "Montblanc reference 107339, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-09-30"
-    },
-    {
-      "id": "ref-111057",
-      "name_en": "111057",
-      "name_ja": "ボエム ダイヤベゼル 111057",
-      "reference": "111057",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 224213,
-      "searchKeywordJa": "モンブラン 111057",
-      "searchKeywordEn": "Montblanc 111057",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "モンブランの型番111057。市場で4件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Montblanc reference 111057, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 4,
-      "lastSeen": "2026-09-30"
-    },
-    {
-      "id": "ref-2410036",
-      "name_en": "2410036",
-      "name_ja": "スターレガシー デイト 2410036",
-      "reference": "2410036",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": 42,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 205700,
-      "searchKeywordJa": "モンブラン 2410036",
-      "searchKeywordEn": "Montblanc 2410036",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "モンブランの型番2410036。市場で4件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Montblanc reference 2410036, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 4,
-      "lastSeen": "2026-09-30"
-    },
-    {
-      "id": "ref-2510189",
-      "name_en": "2510189",
-      "name_ja": "ヘリテイジ モノプッシャー 2510189",
-      "reference": "2510189",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 233750,
-      "searchKeywordJa": "モンブラン 2510189",
-      "searchKeywordEn": "Montblanc 2510189",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "chronograph"
-      ],
-      "popular": false,
-      "summary_ja": "モンブランの型番2510189。市場で4件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Montblanc reference 2510189, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 4,
-      "lastSeen": "2026-09-30"
-    },
-    {
-      "id": "ref-117575",
-      "name_en": "117575",
-      "name_ja": "スター レガシー 117575",
-      "reference": "117575",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 185130,
-      "searchKeywordJa": "モンブラン 117575",
-      "searchKeywordEn": "Montblanc 117575",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "モンブランの型番117575。市場で4件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Montblanc reference 117575, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 4,
-      "lastSeen": "2026-09-30"
-    },
-    {
-      "id": "ref-7253108955",
-      "name_en": "7253/108955",
-      "name_ja": "タイムウォーカー ワールドタイム 7253/108955",
-      "reference": "7253/108955",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 213180,
-      "searchKeywordJa": "モンブラン 7253/108955",
-      "searchKeywordEn": "Montblanc 7253/108955",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "world-timer"
-      ],
-      "popular": false,
-      "summary_ja": "モンブランの型番7253/108955。市場で4件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Montblanc reference 7253/108955, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 4,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-117324",
@@ -5096,13 +5068,41 @@
       "summary_en": "Montblanc reference 117324, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
-      "id": "ref-119934",
-      "name_en": "119934",
-      "name_ja": "ボエム ナイト 119934",
-      "reference": "119934",
+      "id": "ref-117575",
+      "name_en": "117575",
+      "name_ja": "スター レガシー 117575",
+      "reference": "117575",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 185130,
+      "searchKeywordJa": "モンブラン 117575",
+      "searchKeywordEn": "Montblanc 117575",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "モンブランの型番117575。市場で4件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Montblanc reference 117575, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 4,
+      "lastSeen": "2026-10-01"
+    },
+    {
+      "id": "ref-7253108955",
+      "name_en": "7253/108955",
+      "name_ja": "タイムウォーカー ワールドタイム 7253/108955",
+      "reference": "7253/108955",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
@@ -5110,21 +5110,21 @@
       "caliber": null,
       "listPriceJpy": null,
       "priceFloorJpy": 213180,
-      "searchKeywordJa": "モンブラン 119934",
-      "searchKeywordEn": "Montblanc 119934",
+      "searchKeywordJa": "モンブラン 7253/108955",
+      "searchKeywordEn": "Montblanc 7253/108955",
       "caseMaterial": null,
       "waterResistanceM": null,
-      "gender": "ladies",
+      "gender": "mens",
       "releaseYear": null,
       "tags": [
-        "sport"
+        "world-timer"
       ],
       "popular": false,
-      "summary_ja": "モンブランの型番119934。市場で4件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Montblanc reference 119934, currently offered by multiple sellers in Japan.",
+      "summary_ja": "モンブランの型番7253/108955。市場で4件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Montblanc reference 7253/108955, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-7492119948",
@@ -5153,7 +5153,7 @@
       "summary_en": "Montblanc reference 7492/119948, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-ss1858",
@@ -5181,35 +5181,7 @@
       "summary_en": "Montblanc reference SS1858, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-09-30"
-    },
-    {
-      "id": "ref-mb116099",
-      "name_en": "MB116099",
-      "name_ja": "タイムウォーカー クロノグラフ MB116099",
-      "reference": "MB116099",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": 43,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 184450,
-      "searchKeywordJa": "モンブラン MB116099",
-      "searchKeywordEn": "Montblanc MB116099",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "chronograph"
-      ],
-      "popular": false,
-      "summary_ja": "モンブランの型番MB116099。市場で4件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Montblanc reference MB116099, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 4,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-113826",
@@ -5237,7 +5209,7 @@
       "summary_en": "Montblanc reference 113826, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-116097",
@@ -5265,7 +5237,7 @@
       "summary_en": "Montblanc reference 116097, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-701841",
@@ -5293,7 +5265,7 @@
       "summary_en": "Montblanc reference 70184-1, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-119959",
@@ -5321,22 +5293,22 @@
       "summary_en": "Montblanc reference 119959, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
-      "id": "ref-114875",
-      "name_en": "114875",
-      "name_ja": "ヘリテイジ クロノメトリー 114875",
-      "reference": "114875",
+      "id": "ref-7494119951",
+      "name_en": "7494/119951",
+      "name_ja": "ヘリテイジ モノプッシャー 7494/119951",
+      "reference": "7494/119951",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
-      "movementType": null,
+      "movementType": "automatic",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 314483,
-      "searchKeywordJa": "モンブラン 114875",
-      "searchKeywordEn": "Montblanc 114875",
+      "priceFloorJpy": 250580,
+      "searchKeywordJa": "モンブラン 7494/119951",
+      "searchKeywordEn": "Montblanc 7494/119951",
       "caseMaterial": null,
       "waterResistanceM": null,
       "gender": "mens",
@@ -5345,11 +5317,11 @@
         "chronograph"
       ],
       "popular": false,
-      "summary_ja": "モンブランの型番114875。市場で4件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Montblanc reference 114875, currently offered by multiple sellers in Japan.",
+      "summary_ja": "モンブランの型番7494/119951。市場で4件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Montblanc reference 7494/119951, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-132948",
@@ -5377,7 +5349,35 @@
       "summary_en": "Montblanc reference 132948, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
+    },
+    {
+      "id": "ref-refmb131275",
+      "name_en": "REF.MB131275",
+      "name_ja": "トラディション デイト REF.MB131275",
+      "reference": "REF.MB131275",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 325380,
+      "searchKeywordJa": "モンブラン REF.MB131275",
+      "searchKeywordEn": "Montblanc REF.MB131275",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "モンブランの型番REF.MB131275。市場で4件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Montblanc reference REF.MB131275, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 4,
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-108956",
@@ -5405,7 +5405,35 @@
       "summary_en": "Montblanc reference 108956, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
+    },
+    {
+      "id": "ref-112499",
+      "name_en": "112499",
+      "name_ja": "ボヘム ムーンフェイズ 112499",
+      "reference": "112499",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 390830,
+      "searchKeywordJa": "モンブラン 112499",
+      "searchKeywordEn": "Montblanc 112499",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "moonphase"
+      ],
+      "popular": false,
+      "summary_ja": "モンブランの型番112499。市場で4件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Montblanc reference 112499, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 4,
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-106488",
@@ -5434,7 +5462,7 @@
       "summary_en": "Montblanc reference 106488, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-111012",
@@ -5463,35 +5491,36 @@
       "summary_en": "Montblanc reference 111012, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
-      "id": "ref-111834",
-      "name_en": "111834",
-      "name_ja": "ニコラ リューセック 111834",
-      "reference": "111834",
+      "id": "ref-ref102334",
+      "name_en": "REF.102334",
+      "name_ja": "ニコラ リューセック REF.102334",
+      "reference": "REF.102334",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
-      "movementType": "automatic",
+      "movementType": "manual",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 1982200,
-      "searchKeywordJa": "モンブラン 111834",
-      "searchKeywordEn": "Montblanc 111834",
+      "priceFloorJpy": 1993250,
+      "searchKeywordJa": "モンブラン REF.102334",
+      "searchKeywordEn": "Montblanc REF.102334",
       "caseMaterial": null,
       "waterResistanceM": null,
-      "gender": "mens",
+      "gender": "unisex",
       "releaseYear": null,
       "tags": [
-        "chronograph"
+        "chronograph",
+        "limited-edition"
       ],
       "popular": false,
-      "summary_ja": "モンブランの型番111834。市場で4件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Montblanc reference 111834, currently offered by multiple sellers in Japan.",
+      "summary_ja": "モンブランの型番REF.102334。市場で4件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Montblanc reference REF.102334, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-7183",
@@ -5519,7 +5548,7 @@
       "summary_en": "Montblanc reference 7183, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-7079",
@@ -5547,7 +5576,35 @@
       "summary_en": "Montblanc reference 7079, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
+    },
+    {
+      "id": "ref-7005",
+      "name_en": "7005",
+      "name_ja": "マイスターシュテック デイト 7005",
+      "reference": "7005",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "quartz",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 55913,
+      "searchKeywordJa": "モンブラン 7005",
+      "searchKeywordEn": "Montblanc 7005",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "モンブランの型番7005。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Montblanc reference 7005, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-117047",
@@ -5575,7 +5632,7 @@
       "summary_en": "Montblanc reference 117047, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-7068",
@@ -5603,7 +5660,7 @@
       "summary_en": "Montblanc reference 7068, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-7312",
@@ -5631,7 +5688,7 @@
       "summary_en": "Montblanc reference 7312, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-7035",
@@ -5659,7 +5716,7 @@
       "summary_en": "Montblanc reference 7035, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-z26159",
@@ -5687,7 +5744,7 @@
       "summary_en": "Montblanc reference Z26-159, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-7070",
@@ -5715,7 +5772,7 @@
       "summary_en": "Montblanc reference 7070, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-36064",
@@ -5743,35 +5800,7 @@
       "summary_en": "Montblanc reference 36064, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-09-30"
-    },
-    {
-      "id": "ref-106237",
-      "name_en": "106237",
-      "name_ja": "プロフィール 106237",
-      "reference": "106237",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 131750,
-      "searchKeywordJa": "モンブラン 106237",
-      "searchKeywordEn": "Montblanc 106237",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "limited-edition"
-      ],
-      "popular": false,
-      "summary_ja": "モンブランの型番106237。市場で3件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Montblanc reference 106237, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 3,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-115074",
@@ -5799,7 +5828,35 @@
       "summary_en": "Montblanc reference 115074, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
+    },
+    {
+      "id": "ref-106237",
+      "name_en": "106237",
+      "name_ja": "プロフィール 106237",
+      "reference": "106237",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 131750,
+      "searchKeywordJa": "モンブラン 106237",
+      "searchKeywordEn": "Montblanc 106237",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "モンブランの型番106237。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Montblanc reference 106237, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-7391",
@@ -5827,7 +5884,35 @@
       "summary_en": "Montblanc reference 7391, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
+    },
+    {
+      "id": "ref-131274",
+      "name_en": "131274",
+      "name_ja": "トラディション 131274",
+      "reference": "131274",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 168300,
+      "searchKeywordJa": "モンブラン 131274",
+      "searchKeywordEn": "Montblanc 131274",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "モンブランの型番131274。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Montblanc reference 131274, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-7188",
@@ -5855,7 +5940,7 @@
       "summary_en": "Montblanc reference 7188, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-115494",
@@ -5883,35 +5968,7 @@
       "summary_en": "Montblanc reference 115494, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-09-30"
-    },
-    {
-      "id": "ref-116241",
-      "name_en": "116241",
-      "name_ja": "116241",
-      "reference": "116241",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 140063,
-      "searchKeywordJa": "モンブラン 116241",
-      "searchKeywordEn": "Montblanc 116241",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "モンブランの型番116241。市場で3件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Montblanc reference 116241, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 3,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-7426",
@@ -5939,35 +5996,7 @@
       "summary_en": "Montblanc reference 7426, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-09-30"
-    },
-    {
-      "id": "ref-7362",
-      "name_en": "7362",
-      "name_ja": "ボエム ダイヤ 7362",
-      "reference": "7362",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 164560,
-      "searchKeywordJa": "モンブラン 7362",
-      "searchKeywordEn": "Montblanc 7362",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "モンブランの型番7362。市場で3件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Montblanc reference 7362, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 3,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-7201106466",
@@ -5995,7 +6024,35 @@
       "summary_en": "Montblanc reference 7201/106466, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
+    },
+    {
+      "id": "ref-mb114340",
+      "name_en": "MB114340",
+      "name_ja": "トラディショナル クロノグラフ MB114340",
+      "reference": "MB114340",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "quartz",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 142800,
+      "searchKeywordJa": "モンブラン MB114340",
+      "searchKeywordEn": "Montblanc MB114340",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "chronograph"
+      ],
+      "popular": false,
+      "summary_ja": "モンブランの型番MB114340。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Montblanc reference MB114340, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-mb114853",
@@ -6023,7 +6080,35 @@
       "summary_en": "Montblanc reference MB114853, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
+    },
+    {
+      "id": "ref-7362",
+      "name_en": "7362",
+      "name_ja": "ボエム ダイヤ 7362",
+      "reference": "7362",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 164560,
+      "searchKeywordJa": "モンブラン 7362",
+      "searchKeywordEn": "Montblanc 7362",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "モンブランの型番7362。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Montblanc reference 7362, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-7383",
@@ -6051,7 +6136,7 @@
       "summary_en": "Montblanc reference 7383, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-7454117833",
@@ -6079,7 +6164,7 @@
       "summary_en": "Montblanc reference 7454/117833, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-7019",
@@ -6107,7 +6192,7 @@
       "summary_en": "Montblanc reference 7019, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-114731",
@@ -6135,7 +6220,7 @@
       "summary_en": "Montblanc reference 114731, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-7037",
@@ -6163,7 +6248,7 @@
       "summary_en": "Montblanc reference 7037, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-7345112520",
@@ -6191,7 +6276,7 @@
       "summary_en": "Montblanc reference 7345/112520, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-114856",
@@ -6219,7 +6304,7 @@
       "summary_en": "Montblanc reference 114856, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-7572117576",
@@ -6247,7 +6332,7 @@
       "summary_en": "Montblanc reference 7572/117576, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-7260",
@@ -6275,7 +6360,7 @@
       "summary_en": "Montblanc reference 7260, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-114734",
@@ -6303,35 +6388,7 @@
       "summary_en": "Montblanc reference 114734, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-09-30"
-    },
-    {
-      "id": "ref-7175",
-      "name_en": "7175",
-      "name_ja": "タイムウォーカー ステンレススティール 7175",
-      "reference": "7175",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 229823,
-      "searchKeywordJa": "モンブラン 7175",
-      "searchKeywordEn": "Montblanc 7175",
-      "caseMaterial": "stainless-steel",
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "モンブランの型番7175。市場で3件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Montblanc reference 7175, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 3,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-1023767104",
@@ -6359,7 +6416,35 @@
       "summary_en": "Montblanc reference 102376/7104, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
+    },
+    {
+      "id": "ref-119940",
+      "name_en": "119940",
+      "name_ja": "タイムウォーカー クロノグラフ 119940",
+      "reference": "119940",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 185130,
+      "searchKeywordJa": "モンブラン 119940",
+      "searchKeywordEn": "Montblanc 119940",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph"
+      ],
+      "popular": false,
+      "summary_ja": "モンブランの型番119940。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Montblanc reference 119940, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-7360",
@@ -6387,7 +6472,63 @@
       "summary_en": "Montblanc reference 7360, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
+    },
+    {
+      "id": "ref-mb35420",
+      "name_en": "MB35420",
+      "name_ja": "タイムウォーカー ビッグデイト MB35420",
+      "reference": "MB35420",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 201960,
+      "searchKeywordJa": "モンブラン MB35420",
+      "searchKeywordEn": "Montblanc MB35420",
+      "caseMaterial": "two-tone",
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "モンブランの型番MB35420。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Montblanc reference MB35420, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
+      "lastSeen": "2026-10-01"
+    },
+    {
+      "id": "ref-2510189",
+      "name_en": "2510189",
+      "name_ja": "ヘリテイジ モノプッシャー 2510189",
+      "reference": "2510189",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 233750,
+      "searchKeywordJa": "モンブラン 2510189",
+      "searchKeywordEn": "Montblanc 2510189",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "chronograph"
+      ],
+      "popular": false,
+      "summary_ja": "モンブランの型番2510189。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Montblanc reference 2510189, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-112512",
@@ -6415,7 +6556,35 @@
       "summary_en": "Montblanc reference 112512, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
+    },
+    {
+      "id": "ref-119934",
+      "name_en": "119934",
+      "name_ja": "ボエム ナイト 119934",
+      "reference": "119934",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 213180,
+      "searchKeywordJa": "モンブラン 119934",
+      "searchKeywordEn": "Montblanc 119934",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "モンブランの型番119934。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Montblanc reference 119934, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-102376",
@@ -6443,7 +6612,63 @@
       "summary_en": "Montblanc reference 102376, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
+    },
+    {
+      "id": "ref-mb116099",
+      "name_en": "MB116099",
+      "name_ja": "タイムウォーカー クロノグラフ MB116099",
+      "reference": "MB116099",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": 43,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 184450,
+      "searchKeywordJa": "モンブラン MB116099",
+      "searchKeywordEn": "Montblanc MB116099",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph"
+      ],
+      "popular": false,
+      "summary_ja": "モンブランの型番MB116099。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Montblanc reference MB116099, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
+      "lastSeen": "2026-10-01"
+    },
+    {
+      "id": "ref-mb116097",
+      "name_en": "MB116097",
+      "name_ja": "タイムウォーカー クロノグラフ MB116097",
+      "reference": "MB116097",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": 43,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 220150,
+      "searchKeywordJa": "モンブラン MB116097",
+      "searchKeywordEn": "Montblanc MB116097",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph"
+      ],
+      "popular": false,
+      "summary_ja": "モンブランの型番MB116097。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Montblanc reference MB116097, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-105813",
@@ -6471,7 +6696,7 @@
       "summary_en": "Montblanc reference 105813, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-111625",
@@ -6499,22 +6724,106 @@
       "summary_en": "Montblanc reference 111625, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
-      "id": "ref-7494119951",
-      "name_en": "7494/119951",
-      "name_ja": "ヘリテイジ モノプッシャー 7494/119951",
-      "reference": "7494/119951",
+      "id": "ref-refmb116102",
+      "name_en": "REF.MB116102",
+      "name_ja": "タイムウォーカークロノグ REF.MB116102",
+      "reference": "REF.MB116102",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 259972,
+      "searchKeywordJa": "モンブラン REF.MB116102",
+      "searchKeywordEn": "Montblanc REF.MB116102",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "chronograph"
+      ],
+      "popular": false,
+      "summary_ja": "モンブランの型番REF.MB116102。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Montblanc reference REF.MB116102, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
+      "lastSeen": "2026-10-01"
+    },
+    {
+      "id": "ref-106501m29430",
+      "name_en": "106501/M29430",
+      "name_ja": "タイムウォーカー コンビ 106501/M29430",
+      "reference": "106501/M29430",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
       "movementType": "automatic",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 250580,
-      "searchKeywordJa": "モンブラン 7494/119951",
-      "searchKeywordEn": "Montblanc 7494/119951",
+      "priceFloorJpy": 278630,
+      "searchKeywordJa": "モンブラン 106501/M29430",
+      "searchKeywordEn": "Montblanc 106501/M29430",
+      "caseMaterial": "two-tone",
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "モンブランの型番106501/M29430。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Montblanc reference 106501/M29430, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
+      "lastSeen": "2026-10-01"
+    },
+    {
+      "id": "ref-refmb116096",
+      "name_en": "REF.MB116096",
+      "name_ja": "タイムウォーカークロノグ REF.MB116096",
+      "reference": "REF.MB116096",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 251302,
+      "searchKeywordJa": "モンブラン REF.MB116096",
+      "searchKeywordEn": "Montblanc REF.MB116096",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "chronograph"
+      ],
+      "popular": false,
+      "summary_ja": "モンブランの型番REF.MB116096。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Montblanc reference REF.MB116096, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
+      "lastSeen": "2026-10-01"
+    },
+    {
+      "id": "ref-114875",
+      "name_en": "114875",
+      "name_ja": "ヘリテイジ クロノメトリー 114875",
+      "reference": "114875",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 314483,
+      "searchKeywordJa": "モンブラン 114875",
+      "searchKeywordEn": "Montblanc 114875",
       "caseMaterial": null,
       "waterResistanceM": null,
       "gender": "mens",
@@ -6523,11 +6832,11 @@
         "chronograph"
       ],
       "popular": false,
-      "summary_ja": "モンブランの型番7494/119951。市場で3件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Montblanc reference 7494/119951, currently offered by multiple sellers in Japan.",
+      "summary_ja": "モンブランの型番114875。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Montblanc reference 114875, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-107916",
@@ -6555,7 +6864,7 @@
       "summary_en": "Montblanc reference 107916, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-v0102337",
@@ -6583,50 +6892,50 @@
       "summary_en": "Montblanc reference V0102337, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
-      "id": "ref-112499",
-      "name_en": "112499",
-      "name_ja": "ボヘム ムーンフェイズ 112499",
-      "reference": "112499",
+      "id": "ref-111834",
+      "name_en": "111834",
+      "name_ja": "ニコラ リューセック 111834",
+      "reference": "111834",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
       "movementType": "automatic",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 390830,
-      "searchKeywordJa": "モンブラン 112499",
-      "searchKeywordEn": "Montblanc 112499",
+      "priceFloorJpy": 1982200,
+      "searchKeywordJa": "モンブラン 111834",
+      "searchKeywordEn": "Montblanc 111834",
       "caseMaterial": null,
       "waterResistanceM": null,
-      "gender": "ladies",
+      "gender": "mens",
       "releaseYear": null,
       "tags": [
-        "moonphase"
+        "chronograph"
       ],
       "popular": false,
-      "summary_ja": "モンブランの型番112499。市場で3件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Montblanc reference 112499, currently offered by multiple sellers in Japan.",
+      "summary_ja": "モンブランの型番111834。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Montblanc reference 111834, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
-      "id": "ref-7005",
-      "name_en": "7005",
-      "name_ja": "マイスターシュテック デイト 7005",
-      "reference": "7005",
+      "id": "ref-2410036",
+      "name_en": "2410036",
+      "name_ja": "スターレガシー デイト 2410036",
+      "reference": "2410036",
       "collection_en": null,
       "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "quartz",
+      "caseSizeMm": 42,
+      "movementType": "automatic",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 55913,
-      "searchKeywordJa": "モンブラン 7005",
-      "searchKeywordEn": "Montblanc 7005",
+      "priceFloorJpy": 205700,
+      "searchKeywordJa": "モンブラン 2410036",
+      "searchKeywordEn": "Montblanc 2410036",
       "caseMaterial": null,
       "waterResistanceM": null,
       "gender": "unisex",
@@ -6635,11 +6944,11 @@
         "sport"
       ],
       "popular": false,
-      "summary_ja": "モンブランの型番7005。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Montblanc reference 7005, currently offered by multiple sellers in Japan.",
+      "summary_ja": "モンブランの型番2410036。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Montblanc reference 2410036, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-09-30"
+      "listingCount": 3,
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-7002",
@@ -6667,7 +6976,7 @@
       "summary_en": "Montblanc reference 7002, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-h18270",
@@ -6695,35 +7004,7 @@
       "summary_en": "Montblanc reference H18270, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-09-30"
-    },
-    {
-      "id": "ref-7108",
-      "name_en": "7108",
-      "name_ja": "プロファイル クロノグラフ 7108",
-      "reference": "7108",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "quartz",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 91630,
-      "searchKeywordJa": "モンブラン 7108",
-      "searchKeywordEn": "Montblanc 7108",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "chronograph"
-      ],
-      "popular": false,
-      "summary_ja": "モンブランの型番7108。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Montblanc reference 7108, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-127775",
@@ -6751,7 +7032,35 @@
       "summary_en": "Montblanc reference 127775, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
+    },
+    {
+      "id": "ref-7108",
+      "name_en": "7108",
+      "name_ja": "プロファイル クロノグラフ 7108",
+      "reference": "7108",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "quartz",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 91630,
+      "searchKeywordJa": "モンブラン 7108",
+      "searchKeywordEn": "Montblanc 7108",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph"
+      ],
+      "popular": false,
+      "summary_ja": "モンブランの型番7108。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Montblanc reference 7108, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-112633",
@@ -6779,7 +7088,7 @@
       "summary_en": "Montblanc reference 112633, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-7334",
@@ -6807,7 +7116,63 @@
       "summary_en": "Montblanc reference 7334, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
+    },
+    {
+      "id": "ref-707029430",
+      "name_en": "7070/29430",
+      "name_ja": "ノーメンテナンス タイムウォーカー 7070/29430",
+      "reference": "7070/29430",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 104550,
+      "searchKeywordJa": "モンブラン 7070/29430",
+      "searchKeywordEn": "Montblanc 7070/29430",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "モンブランの型番7070/29430。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Montblanc reference 7070/29430, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-10-01"
+    },
+    {
+      "id": "ref-7375114368",
+      "name_en": "7375/114368",
+      "name_ja": "トラディション デイト 7375/114368",
+      "reference": "7375/114368",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 119680,
+      "searchKeywordJa": "モンブラン 7375/114368",
+      "searchKeywordEn": "Montblanc 7375/114368",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "モンブランの型番7375/114368。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Montblanc reference 7375/114368, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-7034m29300",
@@ -6835,7 +7200,7 @@
       "summary_en": "Montblanc reference 7034/M29300, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-1110567383",
@@ -6863,35 +7228,35 @@
       "summary_en": "Montblanc reference 111056/7383, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
-      "id": "ref-mb114340",
-      "name_en": "MB114340",
-      "name_ja": "トラディショナル クロノグラフ MB114340",
-      "reference": "MB114340",
+      "id": "ref-7371114336",
+      "name_en": "7371/114336",
+      "name_ja": "トラディション デイト 7371/114336",
+      "reference": "7371/114336",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
-      "movementType": "quartz",
+      "movementType": "automatic",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 142800,
-      "searchKeywordJa": "モンブラン MB114340",
-      "searchKeywordEn": "Montblanc MB114340",
+      "priceFloorJpy": 138380,
+      "searchKeywordJa": "モンブラン 7371/114336",
+      "searchKeywordEn": "Montblanc 7371/114336",
       "caseMaterial": null,
       "waterResistanceM": null,
-      "gender": "unisex",
+      "gender": "mens",
       "releaseYear": null,
       "tags": [
-        "chronograph"
+        "sport"
       ],
       "popular": false,
-      "summary_ja": "モンブランの型番MB114340。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Montblanc reference MB114340, currently offered by multiple sellers in Japan.",
+      "summary_ja": "モンブランの型番7371/114336。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Montblanc reference 7371/114336, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-7389",
@@ -6919,7 +7284,35 @@
       "summary_en": "Montblanc reference 7389, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
+    },
+    {
+      "id": "ref-116241",
+      "name_en": "116241",
+      "name_ja": "116241",
+      "reference": "116241",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 140063,
+      "searchKeywordJa": "モンブラン 116241",
+      "searchKeywordEn": "Montblanc 116241",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "モンブランの型番116241。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Montblanc reference 116241, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-7190",
@@ -6947,7 +7340,7 @@
       "summary_en": "Montblanc reference 7190, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-7141",
@@ -6975,7 +7368,7 @@
       "summary_en": "Montblanc reference 7141, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-7409115080",
@@ -7003,35 +7396,7 @@
       "summary_en": "Montblanc reference 7409/115080, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-09-30"
-    },
-    {
-      "id": "ref-110347",
-      "name_en": "110347",
-      "name_ja": "ノーメンテナンス スタークロノグラフ 110347",
-      "reference": "110347",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 156570,
-      "searchKeywordJa": "モンブラン 110347",
-      "searchKeywordEn": "Montblanc 110347",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "chronograph"
-      ],
-      "popular": false,
-      "summary_ja": "モンブランの型番110347。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Montblanc reference 110347, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-101551",
@@ -7059,7 +7424,7 @@
       "summary_en": "Montblanc reference 101551, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-110338",
@@ -7087,7 +7452,7 @@
       "summary_en": "Montblanc reference 110338, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-102377",
@@ -7115,7 +7480,7 @@
       "summary_en": "Montblanc reference 102377, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-7061",
@@ -7143,7 +7508,7 @@
       "summary_en": "Montblanc reference 7061, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-109345",
@@ -7171,35 +7536,7 @@
       "summary_en": "Montblanc reference 109345, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-09-30"
-    },
-    {
-      "id": "ref-119940",
-      "name_en": "119940",
-      "name_ja": "タイムウォーカー クロノグラフ 119940",
-      "reference": "119940",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 185130,
-      "searchKeywordJa": "モンブラン 119940",
-      "searchKeywordEn": "Montblanc 119940",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "chronograph"
-      ],
-      "popular": false,
-      "summary_ja": "モンブランの型番119940。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Montblanc reference 119940, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-132433",
@@ -7227,35 +7564,7 @@
       "summary_en": "Montblanc reference 132433, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-09-30"
-    },
-    {
-      "id": "ref-mb116097",
-      "name_en": "MB116097",
-      "name_ja": "タイムウォーカー クロノグラフ MB116097",
-      "reference": "MB116097",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": 43,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 220150,
-      "searchKeywordJa": "モンブラン MB116097",
-      "searchKeywordEn": "Montblanc MB116097",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "chronograph"
-      ],
-      "popular": false,
-      "summary_ja": "モンブランの型番MB116097。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Montblanc reference MB116097, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-119920",
@@ -7283,7 +7592,7 @@
       "summary_en": "Montblanc reference 119920, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-f26110",
@@ -7311,7 +7620,7 @@
       "summary_en": "Montblanc reference F26-110, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-106468",
@@ -7339,7 +7648,7 @@
       "summary_en": "Montblanc reference 106468, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-101549",
@@ -7367,7 +7676,7 @@
       "summary_en": "Montblanc reference 101549, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-115071",
@@ -7395,7 +7704,7 @@
       "summary_en": "Montblanc reference 115071, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-148477",
@@ -7423,36 +7732,7 @@
       "summary_en": "Montblanc reference 148477, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-09-30"
-    },
-    {
-      "id": "ref-7348",
-      "name_en": "7348",
-      "name_ja": "ヘリテイジ クロノメトリー 7348",
-      "reference": "7348",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 166430,
-      "searchKeywordJa": "モンブラン 7348",
-      "searchKeywordEn": "Montblanc 7348",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "chronograph",
-        "gmt"
-      ],
-      "popular": false,
-      "summary_ja": "モンブランの型番7348。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Montblanc reference 7348, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-7077",
@@ -7480,7 +7760,7 @@
       "summary_en": "Montblanc reference 7077, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-7092",
@@ -7508,7 +7788,7 @@
       "summary_en": "Montblanc reference 7092, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-plbd3tmj108770",
@@ -7536,7 +7816,7 @@
       "summary_en": "Montblanc reference PLBD3TMJ/108770, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-108770",
@@ -7564,63 +7844,7 @@
       "summary_en": "Montblanc reference 108770, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-30"
-    },
-    {
-      "id": "ref-7375114368",
-      "name_en": "7375/114368",
-      "name_ja": "7375/114368",
-      "reference": "7375/114368",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 119680,
-      "searchKeywordJa": "モンブラン 7375/114368",
-      "searchKeywordEn": "Montblanc 7375/114368",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "モンブランの型番7375/114368。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Montblanc reference 7375/114368, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-09-30"
-    },
-    {
-      "id": "ref-7371114336",
-      "name_en": "7371/114336",
-      "name_ja": "7371/114336",
-      "reference": "7371/114336",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 138380,
-      "searchKeywordJa": "モンブラン 7371/114336",
-      "searchKeywordEn": "Montblanc 7371/114336",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "モンブランの型番7371/114336。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Montblanc reference 7371/114336, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-11648q",
@@ -7648,7 +7872,7 @@
       "summary_en": "Montblanc reference 11648Q, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-7542",
@@ -7676,7 +7900,35 @@
       "summary_en": "Montblanc reference 7542, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
+    },
+    {
+      "id": "ref-110347",
+      "name_en": "110347",
+      "name_ja": "110347",
+      "reference": "110347",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 156570,
+      "searchKeywordJa": "モンブラン 110347",
+      "searchKeywordEn": "Montblanc 110347",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "chronograph"
+      ],
+      "popular": false,
+      "summary_ja": "モンブランの型番110347。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Montblanc reference 110347, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-7206",
@@ -7704,7 +7956,7 @@
       "summary_en": "Montblanc reference 7206, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-7201106467",
@@ -7732,7 +7984,7 @@
       "summary_en": "Montblanc reference 7201/106467, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-sc23216",
@@ -7760,7 +8012,7 @@
       "summary_en": "Montblanc reference SC23216, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-7163",
@@ -7788,7 +8040,7 @@
       "summary_en": "Montblanc reference 7163, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-111080",
@@ -7816,7 +8068,7 @@
       "summary_en": "Montblanc reference 111080, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-mb221402",
@@ -7844,7 +8096,7 @@
       "summary_en": "Montblanc reference MB221402, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-sc23212",
@@ -7872,7 +8124,7 @@
       "summary_en": "Montblanc reference SC23212, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-132456",
@@ -7900,7 +8152,7 @@
       "summary_en": "Montblanc reference 132456, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-12746",
@@ -7928,7 +8180,7 @@
       "summary_en": "Montblanc reference 12746, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-132448",
@@ -7956,7 +8208,7 @@
       "summary_en": "Montblanc reference 132448, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-2868",
@@ -7984,7 +8236,7 @@
       "summary_en": "Montblanc reference 2868, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-132447",
@@ -8012,7 +8264,7 @@
       "summary_en": "Montblanc reference 132447, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-2867",
@@ -8040,35 +8292,7 @@
       "summary_en": "Montblanc reference 2867, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-30"
-    },
-    {
-      "id": "ref-mb114345",
-      "name_en": "MB114345",
-      "name_ja": "MB114345",
-      "reference": "MB114345",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 117300,
-      "searchKeywordJa": "モンブラン MB114345",
-      "searchKeywordEn": "Montblanc MB114345",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "モンブランの型番MB114345。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Montblanc reference MB114345, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-0jb2mlau0002",
@@ -8096,7 +8320,7 @@
       "summary_en": "Montblanc reference 0JB2MLAU0002, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-mb128849",
@@ -8124,7 +8348,7 @@
       "summary_en": "Montblanc reference MB128849, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-117838",
@@ -8152,7 +8376,7 @@
       "summary_en": "Montblanc reference 117838, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-149661",
@@ -8180,7 +8404,7 @@
       "summary_en": "Montblanc reference 149661, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
       "id": "ref-906811",
@@ -8208,34 +8432,34 @@
       "summary_en": "Montblanc reference 906811, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-09-30"
+      "lastSeen": "2026-10-01"
     },
     {
-      "id": "ref-106501m29430",
-      "name_en": "106501/M29430",
-      "name_ja": "106501/M29430",
-      "reference": "106501/M29430",
+      "id": "ref-mb114345",
+      "name_en": "MB114345",
+      "name_ja": "MB114345",
+      "reference": "MB114345",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
-      "movementType": "automatic",
+      "movementType": null,
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 278630,
-      "searchKeywordJa": "モンブラン 106501/M29430",
-      "searchKeywordEn": "Montblanc 106501/M29430",
-      "caseMaterial": "two-tone",
+      "priceFloorJpy": 117300,
+      "searchKeywordJa": "モンブラン MB114345",
+      "searchKeywordEn": "Montblanc MB114345",
+      "caseMaterial": null,
       "waterResistanceM": null,
-      "gender": "mens",
+      "gender": "unisex",
       "releaseYear": null,
       "tags": [
         "sport"
       ],
       "popular": false,
-      "summary_ja": "モンブランの型番106501/M29430。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Montblanc reference 106501/M29430, currently offered by multiple sellers in Japan.",
+      "summary_ja": "モンブランの型番MB114345。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Montblanc reference MB114345, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 1,
+      "listingCount": 0,
       "lastSeen": "2026-09-30"
     },
     {
