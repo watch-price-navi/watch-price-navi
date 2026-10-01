@@ -1,6 +1,6 @@
 {
   "brandId": "van-cleef-arpels",
-  "generatedAt": "2026-10-01T03:15:45.358Z",
+  "generatedAt": "2026-10-01T19:08:57.547Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -406,7 +406,7 @@
       "movementType": "quartz",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 981750,
+      "priceFloorJpy": 953700,
       "searchKeywordJa": "ヴァン クリーフ&アーペル 122974/511BN",
       "searchKeywordEn": "Van Cleef & Arpels 122974/511BN",
       "caseMaterial": "yellow-gold",
@@ -928,6 +928,34 @@
       "lastSeen": "2026-10-01"
     },
     {
+      "id": "ref-115101",
+      "name_en": "115101",
+      "name_ja": "115101",
+      "reference": "115101",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "quartz",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 400000,
+      "searchKeywordJa": "ヴァン クリーフ&アーペル 115101",
+      "searchKeywordEn": "Van Cleef & Arpels 115101",
+      "caseMaterial": "yellow-gold",
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ヴァン クリーフ&アーペルの型番115101。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Van Cleef & Arpels reference 115101, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-10-01"
+    },
+    {
       "id": "ref-423003",
       "name_en": "423.003",
       "name_ja": "423.003",
@@ -1346,34 +1374,6 @@
       "source": "auto",
       "listingCount": 1,
       "lastSeen": "2026-10-01"
-    },
-    {
-      "id": "ref-115101",
-      "name_en": "115101",
-      "name_ja": "115101",
-      "reference": "115101",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "quartz",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 400000,
-      "searchKeywordJa": "ヴァン クリーフ&アーペル 115101",
-      "searchKeywordEn": "Van Cleef & Arpels 115101",
-      "caseMaterial": "yellow-gold",
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ヴァン クリーフ&アーペルの型番115101。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Van Cleef & Arpels reference 115101, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 0,
-      "lastSeen": "2026-09-28"
     },
     {
       "id": "ref-vcar029700",
