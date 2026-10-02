@@ -1,36 +1,8 @@
 {
   "brandId": "jacob-co",
-  "generatedAt": "2026-10-02T02:12:49.633Z",
+  "generatedAt": "2026-10-02T17:07:57.104Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
-    {
-      "id": "ref-3301001",
-      "name_en": "330.100.1",
-      "name_ja": "ファイブタイムゾーン ゴースト 330.100.1",
-      "reference": "330.100.1",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "quartz",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 400000,
-      "searchKeywordJa": "ジェイコブ 330.100.1",
-      "searchKeywordEn": "Jacob & Co. 330.100.1",
-      "caseMaterial": "stainless-steel",
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "digital"
-      ],
-      "popular": false,
-      "summary_ja": "ジェイコブの型番330.100.1。市場で6件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Jacob & Co. reference 330.100.1, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 6,
-      "lastSeen": "2026-10-02"
-    },
     {
       "id": "ref-1025",
       "name_en": "10.25",
@@ -53,10 +25,10 @@
         "sport"
       ],
       "popular": false,
-      "summary_ja": "ジェイコブの型番10.25。市場で5件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "ジェイコブの型番10.25。市場で4件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Jacob & Co. reference 10.25, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 5,
+      "listingCount": 4,
       "lastSeen": "2026-10-02"
     },
     {
@@ -85,6 +57,34 @@
       "summary_en": "Jacob & Co. reference 17.25, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
+      "lastSeen": "2026-10-02"
+    },
+    {
+      "id": "ref-3301001",
+      "name_en": "330.100.1",
+      "name_ja": "ファイブタイムゾーン ゴースト 330.100.1",
+      "reference": "330.100.1",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "quartz",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 509830,
+      "searchKeywordJa": "ジェイコブ 330.100.1",
+      "searchKeywordEn": "Jacob & Co. 330.100.1",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "digital"
+      ],
+      "popular": false,
+      "summary_ja": "ジェイコブの型番330.100.1。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Jacob & Co. reference 330.100.1, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
       "lastSeen": "2026-10-02"
     },
     {
@@ -139,6 +139,34 @@
       "popular": false,
       "summary_ja": "ジェイコブの型番2451.1SJ。市場で2件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Jacob & Co. reference 2451.1SJ, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-10-02"
+    },
+    {
+      "id": "ref-hkjc0107",
+      "name_en": "HKJC0107",
+      "name_ja": "ダイヤモンドベゼル カラーフル HKJC0107",
+      "reference": "HKJC0107",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": 40,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 454410,
+      "searchKeywordJa": "ジェイコブ HKJC0107",
+      "searchKeywordEn": "Jacob & Co. HKJC0107",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ジェイコブの型番HKJC0107。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Jacob & Co. reference HKJC0107, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
       "lastSeen": "2026-10-02"
@@ -562,34 +590,6 @@
       "popular": false,
       "summary_ja": "ジェイコブの型番HKJC0108。市場で1件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Jacob & Co. reference HKJC0108, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-10-02"
-    },
-    {
-      "id": "ref-hkjc0107",
-      "name_en": "HKJC0107",
-      "name_ja": "HKJC0107",
-      "reference": "HKJC0107",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": 40,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 454410,
-      "searchKeywordJa": "ジェイコブ HKJC0107",
-      "searchKeywordEn": "Jacob & Co. HKJC0107",
-      "caseMaterial": "stainless-steel",
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ジェイコブの型番HKJC0107。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Jacob & Co. reference HKJC0107, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
       "lastSeen": "2026-10-02"
