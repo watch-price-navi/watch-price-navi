@@ -1,6 +1,6 @@
 {
   "brandId": "ulysse-nardin",
-  "generatedAt": "2026-10-04T02:26:21.649Z",
+  "generatedAt": "2026-10-04T17:25:09.164Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -706,7 +706,8 @@
       "gender": "unisex",
       "releaseYear": null,
       "tags": [
-        "gmt"
+        "gmt",
+        "limited-edition"
       ],
       "popular": false,
       "summary_ja": "ユリス・ナルダンの型番243-22。市場で3件の出品が確認された、実際に流通しているモデルです。",
@@ -1175,7 +1176,7 @@
       "movementType": "automatic",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 1589500,
+      "priceFloorJpy": 1402500,
       "searchKeywordJa": "ユリス・ナルダン 333-92B2-3C/923",
       "searchKeywordEn": "Ulysse Nardin 333-92B2-3C/923",
       "caseMaterial": null,
