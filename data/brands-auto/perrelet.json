@@ -1,6 +1,6 @@
 {
   "brandId": "perrelet",
-  "generatedAt": "2026-10-05T01:58:01.638Z",
+  "generatedAt": "2026-10-05T20:29:10.001Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -732,34 +732,6 @@
       "lastSeen": "2026-10-05"
     },
     {
-      "id": "ref-vcarn32300",
-      "name_en": "VCARN32300",
-      "name_ja": "VCARN32300",
-      "reference": "VCARN32300",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 338300,
-      "searchKeywordJa": "ペルレ VCARN32300",
-      "searchKeywordEn": "Perrelet VCARN32300",
-      "caseMaterial": "white-gold",
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ペルレの型番VCARN32300。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Perrelet reference VCARN32300, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-10-05"
-    },
-    {
       "id": "ref-vcaro3y500",
       "name_en": "VCARO3Y500",
       "name_ja": "VCARO3Y500",
@@ -1261,6 +1233,34 @@
       "summary_en": "Perrelet reference VCARP27F00, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
+      "lastSeen": "2026-10-05"
+    },
+    {
+      "id": "ref-vcarn32300",
+      "name_en": "VCARN32300",
+      "name_ja": "VCARN32300",
+      "reference": "VCARN32300",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 338300,
+      "searchKeywordJa": "ペルレ VCARN32300",
+      "searchKeywordEn": "Perrelet VCARN32300",
+      "caseMaterial": "white-gold",
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ペルレの型番VCARN32300。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Perrelet reference VCARN32300, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 0,
       "lastSeen": "2026-10-05"
     },
     {
