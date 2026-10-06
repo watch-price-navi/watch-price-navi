@@ -1,6 +1,6 @@
 {
   "brandId": "bell-ross",
-  "generatedAt": "2026-10-06T01:59:15.061Z",
+  "generatedAt": "2026-10-06T16:09:23.900Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -14,22 +14,22 @@
       "movementType": null,
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 431800,
+      "priceFloorJpy": 338300,
       "searchKeywordJa": "ベル&ロス 30000",
       "searchKeywordEn": "Bell & Ross 30000",
       "caseMaterial": "ceramic",
       "waterResistanceM": null,
-      "gender": "unisex",
+      "gender": "mens",
       "releaseYear": null,
       "tags": [
         "diver",
         "limited-edition"
       ],
       "popular": false,
-      "summary_ja": "ベル&ロスの型番30000。市場で69件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "ベル&ロスの型番30000。市場で74件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Bell & Ross reference 30000, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 69,
+      "listingCount": 74,
       "lastSeen": "2026-10-06"
     },
     {
@@ -151,34 +151,6 @@
       "lastSeen": "2026-10-06"
     },
     {
-      "id": "ref-br0392blustsca",
-      "name_en": "BR0392-BLU-ST/SCA",
-      "name_ja": "スティール BR0392-BLU-ST/SCA",
-      "reference": "BR0392-BLU-ST/SCA",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 267750,
-      "searchKeywordJa": "ベル&ロス BR0392-BLU-ST/SCA",
-      "searchKeywordEn": "Bell & Ross BR0392-BLU-ST/SCA",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ベル&ロスの型番BR0392-BLU-ST/SCA。市場で3件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Bell & Ross reference BR0392-BLU-ST/SCA, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 3,
-      "lastSeen": "2026-10-06"
-    },
-    {
       "id": "ref-br0392gc3stsca",
       "name_en": "BR0392-GC3-ST/SCA",
       "name_ja": "グレーラム BR0392-GC3-ST/SCA",
@@ -202,6 +174,34 @@
       "popular": false,
       "summary_ja": "ベル&ロスの型番BR0392-GC3-ST/SCA。市場で3件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Bell & Ross reference BR0392-GC3-ST/SCA, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
+      "lastSeen": "2026-10-06"
+    },
+    {
+      "id": "ref-br0392blustsca",
+      "name_en": "BR0392-BLU-ST/SCA",
+      "name_ja": "スティール BR0392-BLU-ST/SCA",
+      "reference": "BR0392-BLU-ST/SCA",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 267750,
+      "searchKeywordJa": "ベル&ロス BR0392-BLU-ST/SCA",
+      "searchKeywordEn": "Bell & Ross BR0392-BLU-ST/SCA",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ベル&ロスの型番BR0392-BLU-ST/SCA。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Bell & Ross reference BR0392-BLU-ST/SCA, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
       "lastSeen": "2026-10-06"
@@ -494,7 +494,7 @@
     {
       "id": "ref-br0192cfbca",
       "name_en": "BR01-92CFB-CA",
-      "name_ja": "オートマティック ステンレススティール BR01-92CFB-CA",
+      "name_ja": "マラソン オートマティック BR01-92CFB-CA",
       "reference": "BR01-92CFB-CA",
       "collection_en": null,
       "collection_ja": null,
@@ -510,7 +510,7 @@
       "gender": "mens",
       "releaseYear": null,
       "tags": [
-        "sport"
+        "limited-edition"
       ],
       "popular": false,
       "summary_ja": "ベル&ロスの型番BR01-92CFB-CA。市場で2件の出品が確認された、実際に流通しているモデルです。",
@@ -522,7 +522,7 @@
     {
       "id": "ref-br0192s",
       "name_en": "BR01-92-S",
-      "name_ja": "オートマティック ステンレススティール BR01-92-S",
+      "name_ja": "マラソン オートマティック BR01-92-S",
       "reference": "BR01-92-S",
       "collection_en": null,
       "collection_ja": null,
@@ -538,7 +538,7 @@
       "gender": "mens",
       "releaseYear": null,
       "tags": [
-        "sport"
+        "limited-edition"
       ],
       "popular": false,
       "summary_ja": "ベル&ロスの型番BR01-92-S。市場で2件の出品が確認された、実際に流通しているモデルです。",

@@ -1,6 +1,6 @@
 {
   "brandId": "ulysse-nardin",
-  "generatedAt": "2026-10-06T04:19:09.934Z",
+  "generatedAt": "2026-10-06T18:27:05.839Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -631,6 +631,34 @@
       "lastSeen": "2026-10-06"
     },
     {
+      "id": "ref-11831702b3a",
+      "name_en": "1183-170-2B/3A",
+      "name_ja": "ユリス ナルダン 1183-170-2B/3A",
+      "reference": "1183-170-2B/3A",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 1122000,
+      "searchKeywordJa": "ユリス・ナルダン 1183-170-2B/3A",
+      "searchKeywordEn": "Ulysse Nardin 1183-170-2B/3A",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "diver"
+      ],
+      "popular": false,
+      "summary_ja": "ユリス・ナルダンの型番1183-170-2B/3A。市場で4件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ulysse Nardin reference 1183-170-2B/3A, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 4,
+      "lastSeen": "2026-10-06"
+    },
+    {
       "id": "ref-24355",
       "name_en": "243-55",
       "name_ja": "デュアルタイム スモールセコンド 243-55",
@@ -1219,6 +1247,34 @@
       "summary_en": "Ulysse Nardin reference 2405-500-2A/3D, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
+      "lastSeen": "2026-10-06"
+    },
+    {
+      "id": "ref-4000",
+      "name_en": "4000",
+      "name_ja": "4000",
+      "reference": "4000",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "manual",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 168300,
+      "searchKeywordJa": "ユリス・ナルダン 4000",
+      "searchKeywordEn": "Ulysse Nardin 4000",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ユリス・ナルダンの型番4000。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ulysse Nardin reference 4000, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
       "lastSeen": "2026-10-06"
     },
     {

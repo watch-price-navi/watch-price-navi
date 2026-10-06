@@ -1,6 +1,6 @@
 {
   "brandId": "carl-f-bucherer",
-  "generatedAt": "2026-10-06T02:15:32.193Z",
+  "generatedAt": "2026-10-06T16:25:27.251Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -27,10 +27,10 @@
         "vintage-reissue"
       ],
       "popular": false,
-      "summary_ja": "カール F. ブヘラの型番30000。市場で7件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "カール F. ブヘラの型番30000。市場で9件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Carl F. Bucherer reference 30000, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 7,
+      "listingCount": 9,
       "lastSeen": "2026-10-06"
     },
     {
@@ -57,6 +57,34 @@
       "popular": false,
       "summary_ja": "カール F. ブヘラの型番10632.23。市場で3件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Carl F. Bucherer reference 10632.23, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
+      "lastSeen": "2026-10-06"
+    },
+    {
+      "id": "ref-0010632235321",
+      "name_en": "00.10632.23.53.21",
+      "name_ja": "パトラビ スキューバテック 00.10632.23.53.21",
+      "reference": "00.10632.23.53.21",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 410550,
+      "searchKeywordJa": "カール F. ブヘラ 00.10632.23.53.21",
+      "searchKeywordEn": "Carl F. Bucherer 00.10632.23.53.21",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "カール F. ブヘラの型番00.10632.23.53.21。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Carl F. Bucherer reference 00.10632.23.53.21, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
       "lastSeen": "2026-10-06"
@@ -201,6 +229,34 @@
       "summary_en": "Carl F. Bucherer reference 00.10803.08.32.01, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
+      "lastSeen": "2026-10-06"
+    },
+    {
+      "id": "ref-1092208",
+      "name_en": "10922.08",
+      "name_ja": "カール ブヘラ 10922.08",
+      "reference": "10922.08",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 300000,
+      "searchKeywordJa": "カール F. ブヘラ 10922.08",
+      "searchKeywordEn": "Carl F. Bucherer 10922.08",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "small-seconds"
+      ],
+      "popular": false,
+      "summary_ja": "カール F. ブヘラの型番10922.08。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Carl F. Bucherer reference 10922.08, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
       "lastSeen": "2026-10-06"
     },
     {
@@ -648,6 +704,7 @@
       "gender": "mens",
       "releaseYear": null,
       "tags": [
+        "limited-edition",
         "power-reserve"
       ],
       "popular": false,
@@ -788,7 +845,7 @@
       "gender": "mens",
       "releaseYear": null,
       "tags": [
-        "sport"
+        "limited-edition"
       ],
       "popular": false,
       "summary_ja": "カール F. ブヘラの型番00.10923.08.33.99。市場で1件の出品が確認された、実際に流通しているモデルです。",
@@ -816,7 +873,7 @@
       "gender": "mens",
       "releaseYear": null,
       "tags": [
-        "sport"
+        "limited-edition"
       ],
       "popular": false,
       "summary_ja": "カール F. ブヘラの型番10923.08。市場で1件の出品が確認された、実際に流通しているモデルです。",
@@ -892,7 +949,7 @@
       "movementType": null,
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 325550,
+      "priceFloorJpy": 321300,
       "searchKeywordJa": "カール F. ブヘラ 00.10910.08.13.01",
       "searchKeywordEn": "Carl F. Bucherer 00.10910.08.13.01",
       "caseMaterial": null,
