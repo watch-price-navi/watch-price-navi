@@ -1,8 +1,36 @@
 {
   "brandId": "nomos-glashuette",
-  "generatedAt": "2026-10-08T18:09:31.302Z",
+  "generatedAt": "2026-10-09T02:56:24.500Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
+    {
+      "id": "ref-tn1a1w238",
+      "name_en": "TN1A1W238",
+      "name_ja": "タンジェント TN1A1W238",
+      "reference": "TN1A1W238",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 372130,
+      "searchKeywordJa": "ノモス グラスヒュッテ TN1A1W238",
+      "searchKeywordEn": "NOMOS Glashütte TN1A1W238",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ノモス グラスヒュッテの型番TN1A1W238。市場で5件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "NOMOS Glashütte reference TN1A1W238, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 5,
+      "lastSeen": "2026-10-09"
+    },
     {
       "id": "ref-30000",
       "name_en": "30000",
@@ -29,40 +57,12 @@
       "summary_en": "NOMOS Glashütte reference 30000, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-10-08"
-    },
-    {
-      "id": "ref-tn1a1w238",
-      "name_en": "TN1A1W238",
-      "name_ja": "マラソン タンジェント TN1A1W238",
-      "reference": "TN1A1W238",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 372130,
-      "searchKeywordJa": "ノモス グラスヒュッテ TN1A1W238",
-      "searchKeywordEn": "NOMOS Glashütte TN1A1W238",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ノモス グラスヒュッテの型番TN1A1W238。市場で4件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "NOMOS Glashütte reference TN1A1W238, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 4,
-      "lastSeen": "2026-10-08"
+      "lastSeen": "2026-10-09"
     },
     {
       "id": "ref-or1a3bl233",
       "name_en": "OR1A3BL233",
-      "name_ja": "マラソン オリオン OR1A3BL233",
+      "name_ja": "オリオン ミッドナイトブルー OR1A3BL233",
       "reference": "OR1A3BL233",
       "collection_en": null,
       "collection_ja": null,
@@ -85,12 +85,12 @@
       "summary_en": "NOMOS Glashütte reference OR1A3BL233, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-10-08"
+      "lastSeen": "2026-10-09"
     },
     {
       "id": "ref-tn130011pg2",
       "name_en": "TN130011PG2",
-      "name_ja": "マラソン タンジェント TN130011PG2",
+      "name_ja": "タンジェント ネオマティック TN130011PG2",
       "reference": "TN130011PG2",
       "collection_en": null,
       "collection_ja": null,
@@ -113,12 +113,12 @@
       "summary_en": "NOMOS Glashütte reference TN130011PG2, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-10-08"
+      "lastSeen": "2026-10-09"
     },
     {
       "id": "ref-tn130011pg239",
       "name_en": "TN130011PG239",
-      "name_ja": "マラソン タンジェント TN130011PG239",
+      "name_ja": "タンジェント ネオマティック TN130011PG239",
       "reference": "TN130011PG239",
       "collection_en": null,
       "collection_ja": null,
@@ -141,12 +141,12 @@
       "summary_en": "NOMOS Glashütte reference TN130011PG239, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-10-08"
+      "lastSeen": "2026-10-09"
     },
     {
       "id": "ref-nm160s2",
       "name_en": "NM160S2",
-      "name_ja": "マラソン タンジェント NM160S2",
+      "name_ja": "タンジェント ネオマティック NM160S2",
       "reference": "NM160S2",
       "collection_en": null,
       "collection_ja": null,
@@ -169,7 +169,7 @@
       "summary_en": "NOMOS Glashütte reference NM160S2, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-10-08"
+      "lastSeen": "2026-10-09"
     },
     {
       "id": "ref-r2502079",
@@ -197,12 +197,12 @@
       "summary_en": "NOMOS Glashütte reference R2502079, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-10-08"
+      "lastSeen": "2026-10-09"
     },
     {
       "id": "ref-ld1a2ew238",
       "name_en": "LD1A2EW238",
-      "name_ja": "マラソン ラドウィッグ LD1A2EW238",
+      "name_ja": "ラドウィッグ エナメルホワイト LD1A2EW238",
       "reference": "LD1A2EW238",
       "collection_en": null,
       "collection_ja": null,
@@ -225,12 +225,12 @@
       "summary_en": "NOMOS Glashütte reference LD1A2EW238, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-10-08"
+      "lastSeen": "2026-10-09"
     },
     {
       "id": "ref-ab161011bl2",
       "name_en": "AB161011BL2",
-      "name_ja": "マラソン アウトバーン AB161011BL2",
+      "name_ja": "アウトバーン ネオマティック AB161011BL2",
       "reference": "AB161011BL2",
       "collection_en": null,
       "collection_ja": null,
@@ -253,7 +253,7 @@
       "summary_en": "NOMOS Glashütte reference AB161011BL2, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-10-08"
+      "lastSeen": "2026-10-09"
     },
     {
       "id": "ref-cls161011b2csm",
