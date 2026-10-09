@@ -1,6 +1,6 @@
 {
   "brandId": "graham",
-  "generatedAt": "2026-10-09T02:17:24.788Z",
+  "generatedAt": "2026-10-09T17:13:08.427Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -172,34 +172,6 @@
       "lastSeen": "2026-10-09"
     },
     {
-      "id": "ref-20vasb02al30b",
-      "name_en": "20VAS.B02A.L30B",
-      "name_ja": "クロノファイター オーバーサイズ 20VAS.B02A.L30B",
-      "reference": "20VAS.B02A.L30B",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 231880,
-      "searchKeywordJa": "グラハム 20VAS.B02A.L30B",
-      "searchKeywordEn": "Graham 20VAS.B02A.L30B",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "chronograph"
-      ],
-      "popular": false,
-      "summary_ja": "グラハムの型番20VAS.B02A.L30B。市場で3件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Graham reference 20VAS.B02A.L30B, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 3,
-      "lastSeen": "2026-10-09"
-    },
-    {
       "id": "ref-20vass01al50b",
       "name_en": "20VAS.S01A.L50B",
       "name_ja": "クロノファイター オーバーサイズ 20VAS.S01A.L50B",
@@ -223,6 +195,34 @@
       "popular": false,
       "summary_ja": "グラハムの型番20VAS.S01A.L50B。市場で3件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Graham reference 20VAS.S01A.L50B, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
+      "lastSeen": "2026-10-09"
+    },
+    {
+      "id": "ref-20vasb02al30b",
+      "name_en": "20VAS.B02A.L30B",
+      "name_ja": "クロノファイター オーバーサイズ 20VAS.B02A.L30B",
+      "reference": "20VAS.B02A.L30B",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 231880,
+      "searchKeywordJa": "グラハム 20VAS.B02A.L30B",
+      "searchKeywordEn": "Graham 20VAS.B02A.L30B",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph"
+      ],
+      "popular": false,
+      "summary_ja": "グラハムの型番20VAS.B02A.L30B。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Graham reference 20VAS.B02A.L30B, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
       "lastSeen": "2026-10-09"
@@ -481,6 +481,34 @@
       "lastSeen": "2026-10-09"
     },
     {
+      "id": "ref-ref20vasb02al30b",
+      "name_en": "REF.20VAS.B02A.L30B",
+      "name_ja": "クロノファイターオーバー フルブラック REF.20VAS.B02A.L30B",
+      "reference": "REF.20VAS.B02A.L30B",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 224400,
+      "searchKeywordJa": "グラハム REF.20VAS.B02A.L30B",
+      "searchKeywordEn": "Graham REF.20VAS.B02A.L30B",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "chronograph"
+      ],
+      "popular": false,
+      "summary_ja": "グラハムの型番REF.20VAS.B02A.L30B。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Graham reference REF.20VAS.B02A.L30B, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-10-09"
+    },
+    {
       "id": "ref-20xass02ac40b",
       "name_en": "20XAS.S02A.C40B",
       "name_ja": "オックスフォード ステンレススチール 20XAS.S02A.C40B",
@@ -651,7 +679,7 @@
     {
       "id": "ref-2ccacb16at34s",
       "name_en": "2CCAC.B16A.T34S",
-      "name_ja": "マラソン クロノファイターオーバー 2CCAC.B16A.T34S",
+      "name_ja": "クロノファイターオーバー ターゲット 2CCAC.B16A.T34S",
       "reference": "2CCAC.B16A.T34S",
       "collection_en": null,
       "collection_ja": null,
@@ -667,8 +695,7 @@
       "gender": "mens",
       "releaseYear": null,
       "tags": [
-        "chronograph",
-        "limited-edition"
+        "chronograph"
       ],
       "popular": false,
       "summary_ja": "グラハムの型番2CCAC.B16A.T34S。市場で2件の出品が確認された、実際に流通しているモデルです。",
@@ -678,9 +705,37 @@
       "lastSeen": "2026-10-09"
     },
     {
+      "id": "ref-2cvdsb36al153f",
+      "name_en": "2CVDS.B36A.L153F",
+      "name_ja": "クロノファイター グランド 2CVDS.B36A.L153F",
+      "reference": "2CVDS.B36A.L153F",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 516120,
+      "searchKeywordJa": "グラハム 2CVDS.B36A.L153F",
+      "searchKeywordEn": "Graham 2CVDS.B36A.L153F",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph"
+      ],
+      "popular": false,
+      "summary_ja": "グラハムの型番2CVDS.B36A.L153F。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Graham reference 2CVDS.B36A.L153F, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-10-09"
+    },
+    {
       "id": "ref-2cvgsb42al138f",
       "name_en": "2CVGS.B42A.L138F",
-      "name_ja": "マラソン クロノファイター 2CVGS.B42A.L138F",
+      "name_ja": "クロノファイター ヴィンテージ 2CVGS.B42A.L138F",
       "reference": "2CVGS.B42A.L138F",
       "collection_en": null,
       "collection_ja": null,
@@ -707,38 +762,9 @@
       "lastSeen": "2026-10-09"
     },
     {
-      "id": "ref-2cvdsb36al153f",
-      "name_en": "2CVDS.B36A.L153F",
-      "name_ja": "マラソン クロノファイター 2CVDS.B36A.L153F",
-      "reference": "2CVDS.B36A.L153F",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 516120,
-      "searchKeywordJa": "グラハム 2CVDS.B36A.L153F",
-      "searchKeywordEn": "Graham 2CVDS.B36A.L153F",
-      "caseMaterial": "stainless-steel",
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "chronograph",
-        "limited-edition"
-      ],
-      "popular": false,
-      "summary_ja": "グラハムの型番2CVDS.B36A.L153F。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Graham reference 2CVDS.B36A.L153F, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-10-09"
-    },
-    {
       "id": "ref-2cvdsu18al161f",
       "name_en": "2CVDS.U18A.L161F",
-      "name_ja": "マラソン クロノファイター 2CVDS.U18A.L161F",
+      "name_ja": "クロノファイター グランド 2CVDS.U18A.L161F",
       "reference": "2CVDS.U18A.L161F",
       "collection_en": null,
       "collection_ja": null,
@@ -754,8 +780,7 @@
       "gender": "mens",
       "releaseYear": null,
       "tags": [
-        "chronograph",
-        "limited-edition"
+        "chronograph"
       ],
       "popular": false,
       "summary_ja": "グラハムの型番2CVDS.U18A.L161F。市場で2件の出品が確認された、実際に流通しているモデルです。",
@@ -908,7 +933,7 @@
     {
       "id": "ref-2ccbkb35ak102k",
       "name_en": "2CCBK.B35A.K102K",
-      "name_ja": "マラソン クロノファイター 2CCBK.B35A.K102K",
+      "name_ja": "クロノファイター スーパーライトカーボン 2CCBK.B35A.K102K",
       "reference": "2CCBK.B35A.K102K",
       "collection_en": null,
       "collection_ja": null,
@@ -926,7 +951,6 @@
       "tags": [
         "chronograph",
         "tourbillon",
-        "limited-edition",
         "lightweight"
       ],
       "popular": false,
@@ -1021,6 +1045,34 @@
       "lastSeen": "2026-10-09"
     },
     {
+      "id": "ref-146070",
+      "name_en": "146070",
+      "name_ja": "146070",
+      "reference": "146070",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 222904,
+      "searchKeywordJa": "グラハム 146070",
+      "searchKeywordEn": "Graham 146070",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "グラハムの型番146070。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Graham reference 146070, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-10-09"
+    },
+    {
       "id": "ref-150894",
       "name_en": "150894",
       "name_ja": "150894",
@@ -1049,19 +1101,75 @@
       "lastSeen": "2026-10-09"
     },
     {
-      "id": "ref-146070",
-      "name_en": "146070",
-      "name_ja": "146070",
-      "reference": "146070",
+      "id": "ref-2cvasg02al137f",
+      "name_en": "2CVAS.G02A.L137F",
+      "name_ja": "2CVAS.G02A.L137F",
+      "reference": "2CVAS.G02A.L137F",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
-      "movementType": "automatic",
+      "movementType": null,
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 222904,
-      "searchKeywordJa": "グラハム 146070",
-      "searchKeywordEn": "Graham 146070",
+      "priceFloorJpy": 417690,
+      "searchKeywordJa": "グラハム 2CVAS.G02A.L137F",
+      "searchKeywordEn": "Graham 2CVAS.G02A.L137F",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph"
+      ],
+      "popular": false,
+      "summary_ja": "グラハムの型番2CVAS.G02A.L137F。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Graham reference 2CVAS.G02A.L137F, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-10-09"
+    },
+    {
+      "id": "ref-2cvass03al139b",
+      "name_en": "2CVAS.S03A.L139B",
+      "name_ja": "2CVAS.S03A.L139B",
+      "reference": "2CVAS.S03A.L139B",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 417690,
+      "searchKeywordJa": "グラハム 2CVAS.S03A.L139B",
+      "searchKeywordEn": "Graham 2CVAS.S03A.L139B",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph"
+      ],
+      "popular": false,
+      "summary_ja": "グラハムの型番2CVAS.S03A.L139B。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Graham reference 2CVAS.S03A.L139B, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-10-09"
+    },
+    {
+      "id": "ref-2sxakg01ak138t",
+      "name_en": "2SXAK.G01A.K138T",
+      "name_ja": "2SXAK.G01A.K138T",
+      "reference": "2SXAK.G01A.K138T",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 622965,
+      "searchKeywordJa": "グラハム 2SXAK.G01A.K138T",
+      "searchKeywordEn": "Graham 2SXAK.G01A.K138T",
       "caseMaterial": null,
       "waterResistanceM": null,
       "gender": "mens",
@@ -1070,8 +1178,8 @@
         "sport"
       ],
       "popular": false,
-      "summary_ja": "グラハムの型番146070。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Graham reference 146070, currently offered by multiple sellers in Japan.",
+      "summary_ja": "グラハムの型番2SXAK.G01A.K138T。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Graham reference 2SXAK.G01A.K138T, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
       "lastSeen": "2026-10-09"

@@ -1,6 +1,6 @@
 {
   "brandId": "sinn",
-  "generatedAt": "2026-10-09T03:41:26.514Z",
+  "generatedAt": "2026-10-09T18:32:25.104Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -26,10 +26,10 @@
         "limited-edition"
       ],
       "popular": false,
-      "summary_ja": "ジンの型番503.EZM-1。市場で27件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "ジンの型番503.EZM-1。市場で28件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Sinn reference 503.EZM-1, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 27,
+      "listingCount": 28,
       "lastSeen": "2026-10-09"
     },
     {
@@ -83,10 +83,10 @@
         "limited-edition"
       ],
       "popular": false,
-      "summary_ja": "ジンの型番603.EZM-3。市場で20件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "ジンの型番603.EZM-3。市場で19件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Sinn reference 603.EZM-3, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 20,
+      "listingCount": 19,
       "lastSeen": "2026-10-09"
     },
     {
@@ -108,20 +108,19 @@
       "gender": "mens",
       "releaseYear": null,
       "tags": [
-        "chronograph",
-        "limited-edition"
+        "chronograph"
       ],
       "popular": false,
-      "summary_ja": "ジンの型番6000。市場で12件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "ジンの型番6000。市場で13件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Sinn reference 6000, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 12,
+      "listingCount": 13,
       "lastSeen": "2026-10-09"
     },
     {
       "id": "ref-157ezm4",
       "name_en": "157.EZM-4",
-      "name_ja": "ドイツ レスキュー 157.EZM-4",
+      "name_ja": "クロノグラフ ドイツ 157.EZM-4",
       "reference": "157.EZM-4",
       "collection_en": null,
       "collection_ja": null,
@@ -140,10 +139,10 @@
         "chronograph"
       ],
       "popular": false,
-      "summary_ja": "ジンの型番157.EZM-4。市場で10件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "ジンの型番157.EZM-4。市場で11件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Sinn reference 157.EZM-4, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 10,
+      "listingCount": 11,
       "lastSeen": "2026-10-09"
     },
     {
@@ -320,34 +319,6 @@
       "lastSeen": "2026-10-09"
     },
     {
-      "id": "ref-6033b",
-      "name_en": "6033.B",
-      "name_ja": "リミテッド 6033.B",
-      "reference": "6033.B",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 408765,
-      "searchKeywordJa": "ジン 6033.B",
-      "searchKeywordEn": "Sinn 6033.B",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ジンの型番6033.B。市場で5件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Sinn reference 6033.B, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 5,
-      "lastSeen": "2026-10-09"
-    },
-    {
       "id": "ref-5100",
       "name_en": "5100",
       "name_ja": "クロノグラフ レマニア 5100",
@@ -370,10 +341,10 @@
         "military"
       ],
       "popular": false,
-      "summary_ja": "ジンの型番5100。市場で4件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "ジンの型番5100。市場で5件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Sinn reference 5100, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 4,
+      "listingCount": 5,
       "lastSeen": "2026-10-09"
     },
     {
@@ -575,6 +546,34 @@
       "lastSeen": "2026-10-09"
     },
     {
+      "id": "ref-6033b",
+      "name_en": "6033.B",
+      "name_ja": "リミテッド 6033.B",
+      "reference": "6033.B",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 408765,
+      "searchKeywordJa": "ジン 6033.B",
+      "searchKeywordEn": "Sinn 6033.B",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ジンの型番6033.B。市場で4件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Sinn reference 6033.B, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 4,
+      "lastSeen": "2026-10-09"
+    },
+    {
       "id": "ref-r2600103",
       "name_en": "R2600103",
       "name_ja": "パイロットウォッチ シリーズ R2600103",
@@ -769,6 +768,34 @@
       "popular": false,
       "summary_ja": "ジンの型番6068.B。市場で3件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Sinn reference 6068.B, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
+      "lastSeen": "2026-10-09"
+    },
+    {
+      "id": "ref-8827ti",
+      "name_en": "8827.TI",
+      "name_ja": "ダイバーズウォッチ デイト 8827.TI",
+      "reference": "8827.TI",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 372130,
+      "searchKeywordJa": "ジン 8827.TI",
+      "searchKeywordEn": "Sinn 8827.TI",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "diver"
+      ],
+      "popular": false,
+      "summary_ja": "ジンの型番8827.TI。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Sinn reference 8827.TI, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
       "lastSeen": "2026-10-09"
@@ -998,34 +1025,6 @@
       "lastSeen": "2026-10-09"
     },
     {
-      "id": "ref-05p06jul10",
-      "name_en": "05P06JUL10",
-      "name_ja": "ファントム 05P06JUL10",
-      "reference": "05P06JUL10",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 390830,
-      "searchKeywordJa": "ジン 05P06JUL10",
-      "searchKeywordEn": "Sinn 05P06JUL10",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "limited-edition"
-      ],
-      "popular": false,
-      "summary_ja": "ジンの型番05P06JUL10。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Sinn reference 05P06JUL10, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-10-09"
-    },
-    {
       "id": "ref-203st18kt",
       "name_en": "203.ST.18KT",
       "name_ja": "デイデイト 203.ST.18KT",
@@ -1054,6 +1053,34 @@
       "lastSeen": "2026-10-09"
     },
     {
+      "id": "ref-05p06jul10",
+      "name_en": "05P06JUL10",
+      "name_ja": "ファントム 05P06JUL10",
+      "reference": "05P06JUL10",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 390830,
+      "searchKeywordJa": "ジン 05P06JUL10",
+      "searchKeywordEn": "Sinn 05P06JUL10",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "ジンの型番05P06JUL10。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Sinn reference 05P06JUL10, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-10-09"
+    },
+    {
       "id": "ref-144747",
       "name_en": "144-747",
       "name_ja": "ルフトハンザカーゴ 144-747",
@@ -1077,6 +1104,34 @@
       "popular": false,
       "summary_ja": "ジンの型番144-747。市場で2件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Sinn reference 144-747, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-10-09"
+    },
+    {
+      "id": "ref-ref506ezm11",
+      "name_en": "REF.506.EZM1.1",
+      "name_ja": "REF.506.EZM1.1",
+      "reference": "REF.506.EZM1.1",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 823522,
+      "searchKeywordJa": "ジン REF.506.EZM1.1",
+      "searchKeywordEn": "Sinn REF.506.EZM1.1",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ジンの型番REF.506.EZM1.1。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Sinn reference REF.506.EZM1.1, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
       "lastSeen": "2026-10-09"
@@ -1250,34 +1305,6 @@
       "lastSeen": "2026-10-09"
     },
     {
-      "id": "ref-144747cargo",
-      "name_en": "144-747.CARGO",
-      "name_ja": "144-747.CARGO",
-      "reference": "144-747.CARGO",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 392700,
-      "searchKeywordJa": "ジン 144-747.CARGO",
-      "searchKeywordEn": "Sinn 144-747.CARGO",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "limited-edition"
-      ],
-      "popular": false,
-      "summary_ja": "ジンの型番144-747.CARGO。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Sinn reference 144-747.CARGO, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-10-09"
-    },
-    {
       "id": "ref-2510282",
       "name_en": "2510282",
       "name_ja": "ファイナンシャル クロノグラフ 2510282",
@@ -1306,29 +1333,29 @@
       "lastSeen": "2026-10-09"
     },
     {
-      "id": "ref-8827ti",
-      "name_en": "8827.TI",
-      "name_ja": "ダイバーズウォッチ デイト 8827.TI",
-      "reference": "8827.TI",
+      "id": "ref-144747cargo",
+      "name_en": "144-747.CARGO",
+      "name_ja": "144-747.CARGO",
+      "reference": "144-747.CARGO",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
       "movementType": "automatic",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 400180,
-      "searchKeywordJa": "ジン 8827.TI",
-      "searchKeywordEn": "Sinn 8827.TI",
+      "priceFloorJpy": 392700,
+      "searchKeywordJa": "ジン 144-747.CARGO",
+      "searchKeywordEn": "Sinn 144-747.CARGO",
       "caseMaterial": null,
       "waterResistanceM": null,
       "gender": "mens",
       "releaseYear": null,
       "tags": [
-        "diver"
+        "limited-edition"
       ],
       "popular": false,
-      "summary_ja": "ジンの型番8827.TI。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Sinn reference 8827.TI, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ジンの型番144-747.CARGO。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Sinn reference 144-747.CARGO, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
       "lastSeen": "2026-10-09"
@@ -1475,34 +1502,6 @@
       "lastSeen": "2026-10-09"
     },
     {
-      "id": "ref-7489abc6733320",
-      "name_en": "7489ABC6733320",
-      "name_ja": "7489ABC6733320",
-      "reference": "7489ABC6733320",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 331500,
-      "searchKeywordJa": "ジン 7489ABC6733320",
-      "searchKeywordEn": "Sinn 7489ABC6733320",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "chronograph"
-      ],
-      "popular": false,
-      "summary_ja": "ジンの型番7489ABC6733320。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Sinn reference 7489ABC6733320, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-10-09"
-    },
-    {
       "id": "ref-7418abc2844710",
       "name_en": "7418ABC2844710",
       "name_ja": "7418ABC2844710",
@@ -1554,6 +1553,34 @@
       "popular": false,
       "summary_ja": "ジンの型番2560179。市場で1件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Sinn reference 2560179, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-10-09"
+    },
+    {
+      "id": "ref-7489abc6733320",
+      "name_en": "7489ABC6733320",
+      "name_ja": "7489ABC6733320",
+      "reference": "7489ABC6733320",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 331500,
+      "searchKeywordJa": "ジン 7489ABC6733320",
+      "searchKeywordEn": "Sinn 7489ABC6733320",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph"
+      ],
+      "popular": false,
+      "summary_ja": "ジンの型番7489ABC6733320。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Sinn reference 7489ABC6733320, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
       "lastSeen": "2026-10-09"
@@ -2100,34 +2127,6 @@
       "lastSeen": "2026-10-09"
     },
     {
-      "id": "ref-303silver12",
-      "name_en": "303.SILVER.12",
-      "name_ja": "303.SILVER.12",
-      "reference": "303.SILVER.12",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 235451,
-      "searchKeywordJa": "ジン 303.SILVER.12",
-      "searchKeywordEn": "Sinn 303.SILVER.12",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "chronograph"
-      ],
-      "popular": false,
-      "summary_ja": "ジンの型番303.SILVER.12。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Sinn reference 303.SILVER.12, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-10-09"
-    },
-    {
       "id": "ref-8820",
       "name_en": "8820",
       "name_ja": "8820",
@@ -2151,6 +2150,34 @@
       "popular": false,
       "summary_ja": "ジンの型番8820。市場で1件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Sinn reference 8820, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-10-09"
+    },
+    {
+      "id": "ref-303silver12",
+      "name_en": "303.SILVER.12",
+      "name_ja": "303.SILVER.12",
+      "reference": "303.SILVER.12",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 235451,
+      "searchKeywordJa": "ジン 303.SILVER.12",
+      "searchKeywordEn": "Sinn 303.SILVER.12",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph"
+      ],
+      "popular": false,
+      "summary_ja": "ジンの型番303.SILVER.12。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Sinn reference 303.SILVER.12, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
       "lastSeen": "2026-10-09"
@@ -2299,6 +2326,34 @@
       "lastSeen": "2026-10-09"
     },
     {
+      "id": "ref-sw3001",
+      "name_en": "SW300-1",
+      "name_ja": "SW300-1",
+      "reference": "SW300-1",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 372130,
+      "searchKeywordJa": "ジン SW300-1",
+      "searchKeywordEn": "Sinn SW300-1",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "diver"
+      ],
+      "popular": false,
+      "summary_ja": "ジンの型番SW300-1。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Sinn reference SW300-1, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-10-09"
+    },
+    {
       "id": "ref-9910",
       "name_en": "9910",
       "name_ja": "9910",
@@ -2356,34 +2411,6 @@
       "lastSeen": "2026-10-09"
     },
     {
-      "id": "ref-sw3001",
-      "name_en": "SW300-1",
-      "name_ja": "SW300-1",
-      "reference": "SW300-1",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 372130,
-      "searchKeywordJa": "ジン SW300-1",
-      "searchKeywordEn": "Sinn SW300-1",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "diver"
-      ],
-      "popular": false,
-      "summary_ja": "ジンの型番SW300-1。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Sinn reference SW300-1, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-10-09"
-    },
-    {
       "id": "ref-36133",
       "name_en": "361-33",
       "name_ja": "361-33",
@@ -2407,6 +2434,34 @@
       "popular": false,
       "summary_ja": "ジンの型番361-33。市場で1件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Sinn reference 361-33, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-10-09"
+    },
+    {
+      "id": "ref-6052",
+      "name_en": "6052",
+      "name_ja": "6052",
+      "reference": "6052",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 990675,
+      "searchKeywordJa": "ジン 6052",
+      "searchKeywordEn": "Sinn 6052",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ジンの型番6052。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Sinn reference 6052, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
       "lastSeen": "2026-10-09"
@@ -3200,34 +3255,6 @@
       "popular": false,
       "summary_ja": "ジンの型番1739.AG.B。市場で1件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Sinn reference 1739.AG.B, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 0,
-      "lastSeen": "2026-09-14"
-    },
-    {
-      "id": "ref-6052",
-      "name_en": "6052",
-      "name_ja": "6052",
-      "reference": "6052",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 1122000,
-      "searchKeywordJa": "ジン 6052",
-      "searchKeywordEn": "Sinn 6052",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ジンの型番6052。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Sinn reference 6052, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 0,
       "lastSeen": "2026-09-14"
