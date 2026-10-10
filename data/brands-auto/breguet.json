@@ -1,6 +1,6 @@
 {
   "brandId": "breguet",
-  "generatedAt": "2026-10-09T16:32:21.929Z",
+  "generatedAt": "2026-10-10T01:17:25.490Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -29,12 +29,12 @@
       "summary_en": "Breguet reference 5817ST/12/5V8, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 37,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-30000",
       "name_en": "30000",
-      "name_ja": "30000",
+      "name_ja": "マリーン 30000",
       "reference": "30000",
       "collection_en": null,
       "collection_ja": null,
@@ -55,11 +55,11 @@
         "vintage-reissue"
       ],
       "popular": false,
-      "summary_ja": "ブレゲの型番30000。市場で36件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "ブレゲの型番30000。市場で32件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Breguet reference 30000, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 36,
-      "lastSeen": "2026-10-09"
+      "listingCount": 32,
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-2067",
@@ -68,8 +68,8 @@
       "reference": "2067",
       "collection_en": null,
       "collection_ja": null,
-      "caseSizeMm": 42,
-      "movementType": "automatic",
+      "caseSizeMm": null,
+      "movementType": null,
       "caliber": null,
       "listPriceJpy": null,
       "priceFloorJpy": 1439050,
@@ -83,11 +83,11 @@
         "chronograph"
       ],
       "popular": false,
-      "summary_ja": "ブレゲの型番2067。市場で32件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "ブレゲの型番2067。市場で31件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Breguet reference 2067, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 32,
-      "lastSeen": "2026-10-09"
+      "listingCount": 31,
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-2067st92sw0",
@@ -116,7 +116,7 @@
       "summary_en": "Breguet reference 2067ST/92/SW0, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 26,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-2067st923wu",
@@ -125,7 +125,7 @@
       "reference": "2067ST/92/3WU",
       "collection_en": null,
       "collection_ja": null,
-      "caseSizeMm": 42,
+      "caseSizeMm": null,
       "movementType": "automatic",
       "caliber": null,
       "listPriceJpy": null,
@@ -144,35 +144,7 @@
       "summary_en": "Breguet reference 2067ST/92/3WU, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 25,
-      "lastSeen": "2026-10-09"
-    },
-    {
-      "id": "ref-3810st929zu",
-      "name_en": "3810ST/92/9ZU",
-      "name_ja": "トランスアトランティック グレー 3810ST/92/9ZU",
-      "reference": "3810ST/92/9ZU",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 661980,
-      "searchKeywordJa": "ブレゲ 3810ST/92/9ZU",
-      "searchKeywordEn": "Breguet 3810ST/92/9ZU",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "chronograph"
-      ],
-      "popular": false,
-      "summary_ja": "ブレゲの型番3810ST/92/9ZU。市場で23件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Breguet reference 3810ST/92/9ZU, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 23,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-3810br929zu",
@@ -200,7 +172,35 @@
       "summary_en": "Breguet reference 3810BR/92/9ZU, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 23,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
+    },
+    {
+      "id": "ref-3810st929zu",
+      "name_en": "3810ST/92/9ZU",
+      "name_ja": "トランスアトランティック グレー 3810ST/92/9ZU",
+      "reference": "3810ST/92/9ZU",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 661980,
+      "searchKeywordJa": "ブレゲ 3810ST/92/9ZU",
+      "searchKeywordEn": "Breguet 3810ST/92/9ZU",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "chronograph"
+      ],
+      "popular": false,
+      "summary_ja": "ブレゲの型番3810ST/92/9ZU。市場で22件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Breguet reference 3810ST/92/9ZU, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 22,
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-2057st92sw0",
@@ -225,11 +225,11 @@
         "military"
       ],
       "popular": false,
-      "summary_ja": "ブレゲの型番2057ST/92/SW0。市場で21件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "ブレゲの型番2057ST/92/SW0。市場で22件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Breguet reference 2057ST/92/SW0, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 21,
-      "lastSeen": "2026-10-09"
+      "listingCount": 22,
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-2057",
@@ -254,11 +254,11 @@
         "military"
       ],
       "popular": false,
-      "summary_ja": "ブレゲの型番2057。市場で20件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "ブレゲの型番2057。市場で21件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Breguet reference 2057, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 20,
-      "lastSeen": "2026-10-09"
+      "listingCount": 21,
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-5517",
@@ -287,7 +287,7 @@
       "summary_en": "Breguet reference 5517, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 20,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-1000",
@@ -316,7 +316,7 @@
       "summary_en": "Breguet reference 1000, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 18,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-5517tiy15zu",
@@ -344,7 +344,7 @@
       "summary_en": "Breguet reference 5517TI/Y1/5ZU, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 17,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-5527",
@@ -372,35 +372,7 @@
       "summary_en": "Breguet reference 5527, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 17,
-      "lastSeen": "2026-10-09"
-    },
-    {
-      "id": "ref-5517bby29zu",
-      "name_en": "5517BB/Y2/9ZU",
-      "name_ja": "マリーン 5517BB/Y2/9ZU",
-      "reference": "5517BB/Y2/9ZU",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 3191750,
-      "searchKeywordJa": "ブレゲ 5517BB/Y2/9ZU",
-      "searchKeywordEn": "Breguet 5517BB/Y2/9ZU",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ブレゲの型番5517BB/Y2/9ZU。市場で16件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Breguet reference 5517BB/Y2/9ZU, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 16,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-3800st923w6",
@@ -429,7 +401,7 @@
       "summary_en": "Breguet reference 3800ST/92/3W6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 15,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-5517tiy19zu",
@@ -453,11 +425,39 @@
         "lightweight"
       ],
       "popular": false,
-      "summary_ja": "ブレゲの型番5517TI/Y1/9ZU。市場で14件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "ブレゲの型番5517TI/Y1/9ZU。市場で15件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Breguet reference 5517TI/Y1/9ZU, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 14,
-      "lastSeen": "2026-10-09"
+      "listingCount": 15,
+      "lastSeen": "2026-10-10"
+    },
+    {
+      "id": "ref-5517bby29zu",
+      "name_en": "5517BB/Y2/9ZU",
+      "name_ja": "マリーン 5517BB/Y2/9ZU",
+      "reference": "5517BB/Y2/9ZU",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 3191750,
+      "searchKeywordJa": "ブレゲ 5517BB/Y2/9ZU",
+      "searchKeywordEn": "Breguet 5517BB/Y2/9ZU",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ブレゲの型番5517BB/Y2/9ZU。市場で15件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Breguet reference 5517BB/Y2/9ZU, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 15,
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-8918ba58964d00d3l",
@@ -485,7 +485,7 @@
       "summary_en": "Breguet reference 8918BA/58/964/D00D3L, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 13,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-8918bb58964d00d3l",
@@ -513,7 +513,7 @@
       "summary_en": "Breguet reference 8918BB/58/964/D00D3L, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 13,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-3807stj2sw9",
@@ -542,35 +542,7 @@
       "summary_en": "Breguet reference 3807ST/J2/SW9, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 12,
-      "lastSeen": "2026-10-09"
-    },
-    {
-      "id": "ref-3810st92sz9",
-      "name_en": "3810ST/92/SZ9",
-      "name_ja": "クロノグラフ ノーメンテナンス 3810ST/92/SZ9",
-      "reference": "3810ST/92/SZ9",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 699380,
-      "searchKeywordJa": "ブレゲ 3810ST/92/SZ9",
-      "searchKeywordEn": "Breguet 3810ST/92/SZ9",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "chronograph"
-      ],
-      "popular": false,
-      "summary_ja": "ブレゲの型番3810ST/92/SZ9。市場で11件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Breguet reference 3810ST/92/SZ9, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 11,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-3810",
@@ -598,63 +570,35 @@
       "summary_en": "Breguet reference 3810, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 11,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
-      "id": "ref-5817st12sv0",
-      "name_en": "5817ST/12/SV0",
-      "name_ja": "マリーン ラージデイト 5817ST/12/SV0",
-      "reference": "5817ST/12/SV0",
+      "id": "ref-3810st92sz9",
+      "name_en": "3810ST/92/SZ9",
+      "name_ja": "クロノグラフ ノーメンテナンス 3810ST/92/SZ9",
+      "reference": "3810ST/92/SZ9",
       "collection_en": null,
       "collection_ja": null,
-      "caseSizeMm": 39,
-      "movementType": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 1369350,
-      "searchKeywordJa": "ブレゲ 5817ST/12/SV0",
-      "searchKeywordEn": "Breguet 5817ST/12/SV0",
-      "caseMaterial": "stainless-steel",
+      "priceFloorJpy": 699380,
+      "searchKeywordJa": "ブレゲ 3810ST/92/SZ9",
+      "searchKeywordEn": "Breguet 3810ST/92/SZ9",
+      "caseMaterial": null,
       "waterResistanceM": null,
       "gender": "mens",
       "releaseYear": null,
       "tags": [
-        "sport"
+        "chronograph"
       ],
       "popular": false,
-      "summary_ja": "ブレゲの型番5817ST/12/SV0。市場で11件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Breguet reference 5817ST/12/SV0, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ブレゲの型番3810ST/92/SZ9。市場で10件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Breguet reference 3810ST/92/SZ9, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 11,
-      "lastSeen": "2026-10-09"
-    },
-    {
-      "id": "ref-8918br58964d00d3l",
-      "name_en": "8918BR/58/964/D00D3L",
-      "name_ja": "レーヌ ナープル 8918BR/58/964/D00D3L",
-      "reference": "8918BR/58/964/D00D3L",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 2958000,
-      "searchKeywordJa": "ブレゲ 8918BR/58/964/D00D3L",
-      "searchKeywordEn": "Breguet 8918BR/58/964/D00D3L",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ブレゲの型番8918BR/58/964/D00D3L。市場で11件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Breguet reference 8918BR/58/964/D00D3L, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 11,
-      "lastSeen": "2026-10-09"
+      "listingCount": 10,
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-1011",
@@ -683,7 +627,35 @@
       "summary_en": "Breguet reference 10.11, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 10,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
+    },
+    {
+      "id": "ref-5817st12sv0",
+      "name_en": "5817ST/12/SV0",
+      "name_ja": "マリーン ラージデイト 5817ST/12/SV0",
+      "reference": "5817ST/12/SV0",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": 39,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 1369350,
+      "searchKeywordJa": "ブレゲ 5817ST/12/SV0",
+      "searchKeywordEn": "Breguet 5817ST/12/SV0",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ブレゲの型番5817ST/12/SV0。市場で10件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Breguet reference 5817ST/12/SV0, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 10,
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-5517tiy1tz0",
@@ -711,7 +683,7 @@
       "summary_en": "Breguet reference 5517TI/Y1/TZ0, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 10,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-5817brz25v8",
@@ -739,7 +711,63 @@
       "summary_en": "Breguet reference 5817BR/Z2/5V8, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 10,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
+    },
+    {
+      "id": "ref-8918br58964d00d3l",
+      "name_en": "8918BR/58/964/D00D3L",
+      "name_ja": "レーヌ ナープル 8918BR/58/964/D00D3L",
+      "reference": "8918BR/58/964/D00D3L",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 2958000,
+      "searchKeywordJa": "ブレゲ 8918BR/58/964/D00D3L",
+      "searchKeywordEn": "Breguet 8918BR/58/964/D00D3L",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ブレゲの型番8918BR/58/964/D00D3L。市場で10件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Breguet reference 8918BR/58/964/D00D3L, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 10,
+      "lastSeen": "2026-10-10"
+    },
+    {
+      "id": "ref-9087br29rc0",
+      "name_en": "9087BR/29/RC0",
+      "name_ja": "クラシック ノーメンテナンス 9087BR/29/RC0",
+      "reference": "9087BR/29/RC0",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 3468510,
+      "searchKeywordJa": "ブレゲ 9087BR/29/RC0",
+      "searchKeywordEn": "Breguet 9087BR/29/RC0",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "moonphase"
+      ],
+      "popular": false,
+      "summary_ja": "ブレゲの型番9087BR/29/RC0。市場で10件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Breguet reference 9087BR/29/RC0, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 10,
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-3800",
@@ -767,7 +795,7 @@
       "summary_en": "Breguet reference 3800, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 9,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-3803st923w6",
@@ -796,7 +824,7 @@
       "summary_en": "Breguet reference 3803ST/92/3W6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 9,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-5817",
@@ -824,7 +852,7 @@
       "summary_en": "Breguet reference 5817, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 9,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-5527tig29wv",
@@ -852,7 +880,7 @@
       "summary_en": "Breguet reference 5527TI/G2/9WV, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 9,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-5197ba15986",
@@ -880,7 +908,7 @@
       "summary_en": "Breguet reference 5197BA/15/986, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 9,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-5277bb129v6",
@@ -908,7 +936,7 @@
       "summary_en": "Breguet reference 5277BB/12/9V6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 9,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-5857st12sz0",
@@ -936,7 +964,7 @@
       "summary_en": "Breguet reference 5857ST/12/SZ0, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 9,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-5847bb125zv",
@@ -964,35 +992,7 @@
       "summary_en": "Breguet reference 5847BB/12/5ZV, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 9,
-      "lastSeen": "2026-10-09"
-    },
-    {
-      "id": "ref-9087br29rc0",
-      "name_en": "9087BR/29/RC0",
-      "name_ja": "クラシック ノーメンテナンス 9087BR/29/RC0",
-      "reference": "9087BR/29/RC0",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 3468510,
-      "searchKeywordJa": "ブレゲ 9087BR/29/RC0",
-      "searchKeywordEn": "Breguet 9087BR/29/RC0",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "moonphase"
-      ],
-      "popular": false,
-      "summary_ja": "ブレゲの型番9087BR/29/RC0。市場で9件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Breguet reference 9087BR/29/RC0, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 9,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-5817st925v8",
@@ -1020,7 +1020,7 @@
       "summary_en": "Breguet reference 5817ST/92/5V8, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 8,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-5920br15984",
@@ -1048,7 +1048,7 @@
       "summary_en": "Breguet reference 5920BR/15/984, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 8,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-7787br129v6",
@@ -1076,7 +1076,36 @@
       "summary_en": "Breguet reference 7787/BR/12/9V6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 8,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
+    },
+    {
+      "id": "ref-5857st125zu",
+      "name_en": "5857ST/12/5ZU",
+      "name_ja": "マリーン 5857ST/12/5ZU",
+      "reference": "5857ST/12/5ZU",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 1954150,
+      "searchKeywordJa": "ブレゲ 5857ST/12/5ZU",
+      "searchKeywordEn": "Breguet 5857ST/12/5ZU",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "gmt",
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "ブレゲの型番5857ST/12/5ZU。市場で8件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Breguet reference 5857ST/12/5ZU, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 8,
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-5140bb299w6",
@@ -1104,7 +1133,7 @@
       "summary_en": "Breguet reference 5140BB/29/9W6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 8,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-8068br59764dd00",
@@ -1132,7 +1161,7 @@
       "summary_en": "Breguet reference 8068BR/59/764/DD00, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 8,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-5827bb125zu",
@@ -1160,7 +1189,7 @@
       "summary_en": "Breguet reference 5827BB/12/5ZU, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 8,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-8928br8d944dd0d3l",
@@ -1188,7 +1217,7 @@
       "summary_en": "Breguet reference 8928BR/8D/944/DD0D3L, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 8,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-3880brz29xv",
@@ -1216,7 +1245,7 @@
       "summary_en": "Breguet reference 3880BR/Z2/9XV, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 8,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-5527br129wv",
@@ -1244,7 +1273,7 @@
       "summary_en": "Breguet reference 5527BR/12/9WV, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 8,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-3810tih23zu",
@@ -1272,7 +1301,35 @@
       "summary_en": "Breguet reference 3810TI/H2/3ZU, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 7,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
+    },
+    {
+      "id": "ref-3880sth2sx0",
+      "name_en": "3880ST/H2/SX0",
+      "name_ja": "クロノグラフ チャコールグレー 3880ST/H2/SX0",
+      "reference": "3880ST/H2/SX0",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": 44,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 1436330,
+      "searchKeywordJa": "ブレゲ 3880ST/H2/SX0",
+      "searchKeywordEn": "Breguet 3880ST/H2/SX0",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph"
+      ],
+      "popular": false,
+      "summary_ja": "ブレゲの型番3880ST/H2/SX0。市場で7件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Breguet reference 3880ST/H2/SX0, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 7,
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-7787bb129v6",
@@ -1300,36 +1357,7 @@
       "summary_en": "Breguet reference 7787BB/12/9V6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 7,
-      "lastSeen": "2026-10-09"
-    },
-    {
-      "id": "ref-5857st125zu",
-      "name_en": "5857ST/12/5ZU",
-      "name_ja": "マリーン 5857ST/12/5ZU",
-      "reference": "5857ST/12/5ZU",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 1954150,
-      "searchKeywordJa": "ブレゲ 5857ST/12/5ZU",
-      "searchKeywordEn": "Breguet 5857ST/12/5ZU",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "gmt",
-        "limited-edition"
-      ],
-      "popular": false,
-      "summary_ja": "ブレゲの型番5857ST/12/5ZU。市場で7件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Breguet reference 5857ST/12/5ZU, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 7,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-9518",
@@ -1357,7 +1385,63 @@
       "summary_en": "Breguet reference 9518, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 7,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
+    },
+    {
+      "id": "ref-8918br5t964d00d3l",
+      "name_en": "8918BR/5T/964/D00D3L",
+      "name_ja": "レーヌ ナープル 8918BR/5T/964/D00D3L",
+      "reference": "8918BR/5T/964/D00D3L",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 3272500,
+      "searchKeywordJa": "ブレゲ 8918BR/5T/964/D00D3L",
+      "searchKeywordEn": "Breguet 8918BR/5T/964/D00D3L",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ブレゲの型番8918BR/5T/964/D00D3L。市場で7件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Breguet reference 8918BR/5T/964/D00D3L, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 7,
+      "lastSeen": "2026-10-10"
+    },
+    {
+      "id": "ref-8908bb52864",
+      "name_en": "8908BB/52/864",
+      "name_ja": "クィーン ネイプルズ 8908BB/52/864",
+      "reference": "8908BB/52/864",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 2252500,
+      "searchKeywordJa": "ブレゲ 8908BB/52/864",
+      "searchKeywordEn": "Breguet 8908BB/52/864",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ブレゲの型番8908BB/52/864。市場で7件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Breguet reference 8908BB/52/864, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 7,
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-5177bb2y9v6",
@@ -1385,7 +1469,7 @@
       "summary_en": "Breguet reference 5177BB/2Y/9V6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 7,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-8918bb2n764d00d",
@@ -1413,7 +1497,7 @@
       "summary_en": "Breguet reference 8918BB/2N/764/D00D, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 7,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-3820brf2rw9",
@@ -1441,7 +1525,7 @@
       "summary_en": "Breguet reference 3820BR/F2/RW9, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 7,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-5177",
@@ -1469,7 +1553,7 @@
       "summary_en": "Breguet reference 5177, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 7,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-5527brg35wv",
@@ -1497,7 +1581,35 @@
       "summary_en": "Breguet reference 5527BR/G3/5WV, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 7,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
+    },
+    {
+      "id": "ref-9088bb52bc0dd00",
+      "name_en": "9088BB/52/BC0/DD00",
+      "name_ja": "クラシック 9088BB/52/BC0/DD00",
+      "reference": "9088BB/52/BC0/DD00",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 6800000,
+      "searchKeywordJa": "ブレゲ 9088BB/52/BC0/DD00",
+      "searchKeywordEn": "Breguet 9088BB/52/BC0/DD00",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ブレゲの型番9088BB/52/BC0/DD00。市場で7件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Breguet reference 9088BB/52/BC0/DD00, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 7,
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-3820",
@@ -1525,7 +1637,35 @@
       "summary_en": "Breguet reference 3820, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
+    },
+    {
+      "id": "ref-4820std2s76",
+      "name_en": "4820ST/D2/S76",
+      "name_ja": "トランスアトランティック 4820ST/D2/S76",
+      "reference": "4820ST/D2/S76",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 644300,
+      "searchKeywordJa": "ブレゲ 4820ST/D2/S76",
+      "searchKeywordEn": "Breguet 4820ST/D2/S76",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ブレゲの型番4820ST/D2/S76。市場で6件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Breguet reference 4820ST/D2/S76, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 6,
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-3820sth29w6",
@@ -1553,7 +1693,7 @@
       "summary_en": "Breguet reference 3820ST/H2/9W6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-3800st929w6",
@@ -1581,7 +1721,7 @@
       "summary_en": "Breguet reference 3800ST/92/9W6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-4820st59s76",
@@ -1609,35 +1749,63 @@
       "summary_en": "Breguet reference 4820ST/59/S76, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
-      "id": "ref-3880sth2sx0",
-      "name_en": "3880ST/H2/SX0",
-      "name_ja": "クロノグラフ チャコールグレー 3880ST/H2/SX0",
-      "reference": "3880ST/H2/SX0",
+      "id": "ref-9517ste2984",
+      "name_en": "9517ST/E2/984",
+      "name_ja": "マリーン レディ 9517ST/E2/984",
+      "reference": "9517ST/E2/984",
       "collection_en": null,
       "collection_ja": null,
-      "caseSizeMm": 44,
-      "movementType": "automatic",
+      "caseSizeMm": null,
+      "movementType": null,
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 1436330,
-      "searchKeywordJa": "ブレゲ 3880ST/H2/SX0",
-      "searchKeywordEn": "Breguet 3880ST/H2/SX0",
+      "priceFloorJpy": 1410150,
+      "searchKeywordJa": "ブレゲ 9517ST/E2/984",
+      "searchKeywordEn": "Breguet 9517ST/E2/984",
       "caseMaterial": null,
       "waterResistanceM": null,
-      "gender": "mens",
+      "gender": "ladies",
       "releaseYear": null,
       "tags": [
-        "chronograph"
+        "sport"
       ],
       "popular": false,
-      "summary_ja": "ブレゲの型番3880ST/H2/SX0。市場で6件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Breguet reference 3880ST/H2/SX0, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ブレゲの型番9517ST/E2/984。市場で6件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Breguet reference 9517ST/E2/984, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
+    },
+    {
+      "id": "ref-9517",
+      "name_en": "9517",
+      "name_ja": "マリーン レディ 9517",
+      "reference": "9517",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 1410150,
+      "searchKeywordJa": "ブレゲ 9517",
+      "searchKeywordEn": "Breguet 9517",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ブレゲの型番9517。市場で6件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Breguet reference 9517, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 6,
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-9088bb29964dd0d",
@@ -1665,7 +1833,7 @@
       "summary_en": "Breguet reference 9088BB/29/964/DD0D, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-9088",
@@ -1693,7 +1861,63 @@
       "summary_en": "Breguet reference 9088, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
+    },
+    {
+      "id": "ref-5410",
+      "name_en": "5410",
+      "name_ja": "ヘリテージ 5410",
+      "reference": "5410",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 2014500,
+      "searchKeywordJa": "ブレゲ 5410",
+      "searchKeywordEn": "Breguet 5410",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "vintage-reissue"
+      ],
+      "popular": false,
+      "summary_ja": "ブレゲの型番5410。市場で6件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Breguet reference 5410, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 6,
+      "lastSeen": "2026-10-10"
+    },
+    {
+      "id": "ref-9517st5w584",
+      "name_en": "9517ST/5W/584",
+      "name_ja": "マリーン レディ 9517ST/5W/584",
+      "reference": "9517ST/5W/584",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 1615000,
+      "searchKeywordJa": "ブレゲ 9517ST/5W/584",
+      "searchKeywordEn": "Breguet 9517ST/5W/584",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ブレゲの型番9517ST/5W/584。市場で6件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Breguet reference 9517ST/5W/584, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 6,
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-5527tig25wv",
@@ -1722,7 +1946,7 @@
       "summary_en": "Breguet reference 5527TI/G2/5WV, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-5287br929zu",
@@ -1750,63 +1974,7 @@
       "summary_en": "Breguet reference 5287BR/92/9ZU, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-10-09"
-    },
-    {
-      "id": "ref-8908bb52864",
-      "name_en": "8908BB/52/864",
-      "name_ja": "クィーン ネイプルズ 8908BB/52/864",
-      "reference": "8908BB/52/864",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 2252500,
-      "searchKeywordJa": "ブレゲ 8908BB/52/864",
-      "searchKeywordEn": "Breguet 8908BB/52/864",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ブレゲの型番8908BB/52/864。市場で6件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Breguet reference 8908BB/52/864, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 6,
-      "lastSeen": "2026-10-09"
-    },
-    {
-      "id": "ref-8918br5t964d00d3l",
-      "name_en": "8918BR/5T/964/D00D3L",
-      "name_ja": "レーヌ ナープル 8918BR/5T/964/D00D3L",
-      "reference": "8918BR/5T/964/D00D3L",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 3272500,
-      "searchKeywordJa": "ブレゲ 8918BR/5T/964/D00D3L",
-      "searchKeywordEn": "Breguet 8918BR/5T/964/D00D3L",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ブレゲの型番8918BR/5T/964/D00D3L。市場で6件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Breguet reference 8918BR/5T/964/D00D3L, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 6,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-8918bb5p964d00d3l",
@@ -1834,7 +2002,7 @@
       "summary_en": "Breguet reference 8918BB/5P/964/D00D3L, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-8918",
@@ -1862,7 +2030,7 @@
       "summary_en": "Breguet reference 8918, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-8918br2c364d00d",
@@ -1890,35 +2058,7 @@
       "summary_en": "Breguet reference 8918BR/2C/364/D00D, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-10-09"
-    },
-    {
-      "id": "ref-9088bb52bc0dd00",
-      "name_en": "9088BB/52/BC0/DD00",
-      "name_ja": "クラシック 9088BB/52/BC0/DD00",
-      "reference": "9088BB/52/BC0/DD00",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 6800000,
-      "searchKeywordJa": "ブレゲ 9088BB/52/BC0/DD00",
-      "searchKeywordEn": "Breguet 9088BB/52/BC0/DD00",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ブレゲの型番9088BB/52/BC0/DD00。市場で6件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Breguet reference 9088BB/52/BC0/DD00, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 6,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-5527bby2bw0",
@@ -1946,7 +2086,7 @@
       "summary_en": "Breguet reference 5527BB/Y2/BW0, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-3820tik2tw9",
@@ -1975,35 +2115,7 @@
       "summary_en": "Breguet reference 3820TI/K2/TW9, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-10-09"
-    },
-    {
-      "id": "ref-4820std2s76",
-      "name_en": "4820ST/D2/S76",
-      "name_ja": "トランスアトランティック 4820ST/D2/S76",
-      "reference": "4820ST/D2/S76",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 644300,
-      "searchKeywordJa": "ブレゲ 4820ST/D2/S76",
-      "searchKeywordEn": "Breguet 4820ST/D2/S76",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ブレゲの型番4820ST/D2/S76。市場で5件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Breguet reference 4820ST/D2/S76, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 5,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-8967",
@@ -2031,35 +2143,7 @@
       "summary_en": "Breguet reference 8967, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-10-09"
-    },
-    {
-      "id": "ref-5817st",
-      "name_en": "5817ST",
-      "name_ja": "マリーン ラージデイト 5817ST",
-      "reference": "5817ST",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 1445000,
-      "searchKeywordJa": "ブレゲ 5817ST",
-      "searchKeywordEn": "Breguet 5817ST",
-      "caseMaterial": "stainless-steel",
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ブレゲの型番5817ST。市場で5件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Breguet reference 5817ST, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 5,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-9068",
@@ -2087,7 +2171,7 @@
       "summary_en": "Breguet reference 9068, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-9087br52964",
@@ -2115,35 +2199,7 @@
       "summary_en": "Breguet reference 9087BR/52/964, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-10-09"
-    },
-    {
-      "id": "ref-5410",
-      "name_en": "5410",
-      "name_ja": "ヘリテージ 5410",
-      "reference": "5410",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 2014500,
-      "searchKeywordJa": "ブレゲ 5410",
-      "searchKeywordEn": "Breguet 5410",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "vintage-reissue"
-      ],
-      "popular": false,
-      "summary_ja": "ブレゲの型番5410。市場で5件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Breguet reference 5410, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 5,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-8861bb11386d000",
@@ -2172,7 +2228,7 @@
       "summary_en": "Breguet reference 8861BB/11/386/D000, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-8860bb11386",
@@ -2201,35 +2257,35 @@
       "summary_en": "Breguet reference 8860BB/11/386, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
-      "id": "ref-9517st5w584",
-      "name_en": "9517ST/5W/584",
-      "name_ja": "マリーン レディ 9517ST/5W/584",
-      "reference": "9517ST/5W/584",
+      "id": "ref-5817st",
+      "name_en": "5817ST",
+      "name_ja": "マリーン ラージデイト 5817ST",
+      "reference": "5817ST",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
-      "movementType": null,
+      "movementType": "automatic",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 1615000,
-      "searchKeywordJa": "ブレゲ 9517ST/5W/584",
-      "searchKeywordEn": "Breguet 9517ST/5W/584",
-      "caseMaterial": null,
+      "priceFloorJpy": 1445000,
+      "searchKeywordJa": "ブレゲ 5817ST",
+      "searchKeywordEn": "Breguet 5817ST",
+      "caseMaterial": "stainless-steel",
       "waterResistanceM": null,
-      "gender": "ladies",
+      "gender": "mens",
       "releaseYear": null,
       "tags": [
         "sport"
       ],
       "popular": false,
-      "summary_ja": "ブレゲの型番9517ST/5W/584。市場で5件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Breguet reference 9517ST/5W/584, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ブレゲの型番5817ST。市場で5件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Breguet reference 5817ST, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-5140",
@@ -2257,35 +2313,7 @@
       "summary_en": "Breguet reference 5140, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-10-09"
-    },
-    {
-      "id": "ref-5817sty2sv0",
-      "name_en": "5817ST/Y2/SV0",
-      "name_ja": "マリーン ラージデイト 5817ST/Y2/SV0",
-      "reference": "5817ST/Y2/SV0",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 1552100,
-      "searchKeywordJa": "ブレゲ 5817ST/Y2/SV0",
-      "searchKeywordEn": "Breguet 5817ST/Y2/SV0",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "limited-edition"
-      ],
-      "popular": false,
-      "summary_ja": "ブレゲの型番5817ST/Y2/SV0。市場で5件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Breguet reference 5817ST/Y2/SV0, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 5,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-5517bby25zu",
@@ -2313,35 +2341,7 @@
       "summary_en": "Breguet reference 5517BB/Y2/5ZU, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-10-09"
-    },
-    {
-      "id": "ref-918bb28964",
-      "name_en": "918BB/28/964",
-      "name_ja": "クィーン ネイプルズ 918BB/28/964",
-      "reference": "918BB/28/964",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 3279300,
-      "searchKeywordJa": "ブレゲ 918BB/28/964",
-      "searchKeywordEn": "Breguet 918BB/28/964",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ブレゲの型番918BB/28/964。市場で5件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Breguet reference 918BB/28/964, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 5,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-4400bb12b70",
@@ -2369,7 +2369,7 @@
       "summary_en": "Breguet reference 4400BB/12/B70, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-g5857st125zu",
@@ -2397,35 +2397,7 @@
       "summary_en": "Breguet reference G5857ST/12/5ZU, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-10-09"
-    },
-    {
-      "id": "ref-8068bb59764",
-      "name_en": "8068BB/59/764",
-      "name_ja": "クラシック 8068BB/59/764",
-      "reference": "8068BB/59/764",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 2641800,
-      "searchKeywordJa": "ブレゲ 8068BB/59/764",
-      "searchKeywordEn": "Breguet 8068BB/59/764",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ブレゲの型番8068BB/59/764。市場で5件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Breguet reference 8068BB/59/764, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 5,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-8928br51944dd0d3l",
@@ -2453,7 +2425,7 @@
       "summary_en": "Breguet reference 8928BR/51/944/DD0D3L, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-8928br8d844dd0d",
@@ -2481,35 +2453,7 @@
       "summary_en": "Breguet reference 8928BR/8D/844/DD0D, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-10-09"
-    },
-    {
-      "id": "ref-5847bb925zv",
-      "name_en": "5847BB/92/5ZV",
-      "name_ja": "マリーン ロイヤル 5847BB/92/5ZV",
-      "reference": "5847BB/92/5ZV",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 5083000,
-      "searchKeywordJa": "ブレゲ 5847BB/92/5ZV",
-      "searchKeywordEn": "Breguet 5847BB/92/5ZV",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ブレゲの型番5847BB/92/5ZV。市場で5件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Breguet reference 5847BB/92/5ZV, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 5,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-7137bby59vu",
@@ -2537,7 +2481,35 @@
       "summary_en": "Breguet reference 7137BB/Y5/9VU, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
+    },
+    {
+      "id": "ref-5847bb925zv",
+      "name_en": "5847BB/92/5ZV",
+      "name_ja": "マリーン ロイヤル 5847BB/92/5ZV",
+      "reference": "5847BB/92/5ZV",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 5083000,
+      "searchKeywordJa": "ブレゲ 5847BB/92/5ZV",
+      "searchKeywordEn": "Breguet 5847BB/92/5ZV",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ブレゲの型番5847BB/92/5ZV。市場で5件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Breguet reference 5847BB/92/5ZV, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 5,
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-5287bb929zu",
@@ -2565,7 +2537,7 @@
       "summary_en": "Breguet reference 5287BB/92/9ZU, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-5335br429w6",
@@ -2593,7 +2565,7 @@
       "summary_en": "Breguet reference 5335BR/42/9W6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-3800st92sw6",
@@ -2621,7 +2593,7 @@
       "summary_en": "Breguet reference 3800ST/92/SW6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-3807",
@@ -2650,7 +2622,7 @@
       "summary_en": "Breguet reference 3807, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-8068",
@@ -2678,7 +2650,7 @@
       "summary_en": "Breguet reference 8068, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-5920ba15984",
@@ -2706,12 +2678,12 @@
       "summary_en": "Breguet reference 5920BA/15/984, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-3880sth23xv",
       "name_en": "3880ST/H2/3XV",
-      "name_ja": "ローン レザー 3880ST/H2/3XV",
+      "name_ja": "レザー ローン 3880ST/H2/3XV",
       "reference": "3880ST/H2/3XV",
       "collection_en": null,
       "collection_ja": null,
@@ -2734,63 +2706,7 @@
       "summary_en": "Breguet reference 3880ST/H2/3XV, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-10-09"
-    },
-    {
-      "id": "ref-9517ste2984",
-      "name_en": "9517ST/E2/984",
-      "name_ja": "マリーン レディ 9517ST/E2/984",
-      "reference": "9517ST/E2/984",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 1410150,
-      "searchKeywordJa": "ブレゲ 9517ST/E2/984",
-      "searchKeywordEn": "Breguet 9517ST/E2/984",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ブレゲの型番9517ST/E2/984。市場で4件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Breguet reference 9517ST/E2/984, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 4,
-      "lastSeen": "2026-10-09"
-    },
-    {
-      "id": "ref-9517",
-      "name_en": "9517",
-      "name_ja": "マリーン レディ 9517",
-      "reference": "9517",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 1410150,
-      "searchKeywordJa": "ブレゲ 9517",
-      "searchKeywordEn": "Breguet 9517",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ブレゲの型番9517。市場で4件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Breguet reference 9517, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 4,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-4821str2s76",
@@ -2818,7 +2734,35 @@
       "summary_en": "Breguet reference 4821ST/R2/S76, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
+    },
+    {
+      "id": "ref-ref2067st92sw0",
+      "name_en": "REF.2067ST/92/SW0",
+      "name_ja": "クロノグラフ REF.2067ST/92/SW0",
+      "reference": "REF.2067ST/92/SW0",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 1945650,
+      "searchKeywordJa": "ブレゲ REF.2067ST/92/SW0",
+      "searchKeywordEn": "Breguet REF.2067ST/92/SW0",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph"
+      ],
+      "popular": false,
+      "summary_ja": "ブレゲの型番REF.2067ST/92/SW0。市場で4件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Breguet reference REF.2067ST/92/SW0, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 4,
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-5157bb119v6",
@@ -2846,7 +2790,7 @@
       "summary_en": "Breguet reference 5157BB/11/9V6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-5157",
@@ -2874,7 +2818,7 @@
       "summary_en": "Breguet reference 5157, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-5157br119v6",
@@ -2902,7 +2846,7 @@
       "summary_en": "Breguet reference 5157BR/11/9V6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-5527tiy19wv",
@@ -2930,7 +2874,7 @@
       "summary_en": "Breguet reference 5527TI/Y1/9WV, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-7147",
@@ -2958,35 +2902,63 @@
       "summary_en": "Breguet reference 7147, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
-      "id": "ref-5400bb129v6",
-      "name_en": "5400BB/12/9V6",
-      "name_ja": "ヘリテージ 5400BB/12/9V6",
-      "reference": "5400BB/12/9V6",
+      "id": "ref-918bb28964",
+      "name_en": "918BB/28/964",
+      "name_ja": "クィーン ネイプルズ 918BB/28/964",
+      "reference": "918BB/28/964",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
       "movementType": null,
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 3077000,
-      "searchKeywordJa": "ブレゲ 5400BB/12/9V6",
-      "searchKeywordEn": "Breguet 5400BB/12/9V6",
+      "priceFloorJpy": 3279300,
+      "searchKeywordJa": "ブレゲ 918BB/28/964",
+      "searchKeywordEn": "Breguet 918BB/28/964",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ブレゲの型番918BB/28/964。市場で4件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Breguet reference 918BB/28/964, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 4,
+      "lastSeen": "2026-10-10"
+    },
+    {
+      "id": "ref-ref5827brz25zu",
+      "name_en": "REF.5827BR/Z2/5ZU",
+      "name_ja": "マリーン クロノグラフ REF.5827BR/Z2/5ZU",
+      "reference": "REF.5827BR/Z2/5ZU",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 3105900,
+      "searchKeywordJa": "ブレゲ REF.5827BR/Z2/5ZU",
+      "searchKeywordEn": "Breguet REF.5827BR/Z2/5ZU",
       "caseMaterial": null,
       "waterResistanceM": null,
       "gender": "mens",
       "releaseYear": null,
       "tags": [
-        "vintage-reissue"
+        "chronograph"
       ],
       "popular": false,
-      "summary_ja": "ブレゲの型番5400BB/12/9V6。市場で4件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Breguet reference 5400BB/12/9V6, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ブレゲの型番REF.5827BR/Z2/5ZU。市場で4件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Breguet reference REF.5827BR/Z2/5ZU, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-5827br",
@@ -3014,7 +2986,7 @@
       "summary_en": "Breguet reference 5827BR, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-18351g",
@@ -3042,7 +3014,7 @@
       "summary_en": "Breguet reference 183.51G, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-627062",
@@ -3070,7 +3042,7 @@
       "summary_en": "Breguet reference 627062, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-9518br52584",
@@ -3098,7 +3070,35 @@
       "summary_en": "Breguet reference 9518BR/52/584, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
+    },
+    {
+      "id": "ref-8068bb59764",
+      "name_en": "8068BB/59/764",
+      "name_ja": "クラシック 8068BB/59/764",
+      "reference": "8068BB/59/764",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 2641800,
+      "searchKeywordJa": "ブレゲ 8068BB/59/764",
+      "searchKeywordEn": "Breguet 8068BB/59/764",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ブレゲの型番8068BB/59/764。市場で4件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Breguet reference 8068BB/59/764, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 4,
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-8908bb52964d00d3l",
@@ -3126,7 +3126,35 @@
       "summary_en": "Breguet reference 8908BB/52/964/D00D3L, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
+    },
+    {
+      "id": "ref-ref5827br125zu",
+      "name_en": "REF.5827BR/12/5ZU",
+      "name_ja": "マリーン クロノグラフ REF.5827BR/12/5ZU",
+      "reference": "REF.5827BR/12/5ZU",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 2659650,
+      "searchKeywordJa": "ブレゲ REF.5827BR/12/5ZU",
+      "searchKeywordEn": "Breguet REF.5827BR/12/5ZU",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph"
+      ],
+      "popular": false,
+      "summary_ja": "ブレゲの型番REF.5827BR/12/5ZU。市場で4件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Breguet reference REF.5827BR/12/5ZU, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 4,
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-5527brg39wv",
@@ -3154,7 +3182,35 @@
       "summary_en": "Breguet reference 5527BR/G3/9WV, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
+    },
+    {
+      "id": "ref-7727br129wu",
+      "name_en": "7727BR/12/9WU",
+      "name_ja": "クラシック クロノメトリー 7727BR/12/9WU",
+      "reference": "7727BR/12/9WU",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 4058750,
+      "searchKeywordJa": "ブレゲ 7727BR/12/9WU",
+      "searchKeywordEn": "Breguet 7727BR/12/9WU",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph"
+      ],
+      "popular": false,
+      "summary_ja": "ブレゲの型番7727BR/12/9WU。市場で4件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Breguet reference 7727BR/12/9WU, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 4,
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-8928bb5w944dd0d3l",
@@ -3182,7 +3238,7 @@
       "summary_en": "Breguet reference 8928BB/5W/944/DD0D3L, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-7337bb129vu",
@@ -3210,7 +3266,7 @@
       "summary_en": "Breguet reference 7337BB/12/9VU, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-5517br125zu",
@@ -3238,7 +3294,7 @@
       "summary_en": "Breguet reference 5517BR/12/5ZU, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-9088bb29bc0dd00",
@@ -3266,7 +3322,7 @@
       "summary_en": "Breguet reference 9088BB/29/BC0/DD00, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-5557brys9wv",
@@ -3294,7 +3350,35 @@
       "summary_en": "Breguet reference 5557BR/YS/9WV, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
+    },
+    {
+      "id": "ref-5817sty2sv0",
+      "name_en": "5817ST/Y2/SV0",
+      "name_ja": "マリーン ラージデイト 5817ST/Y2/SV0",
+      "reference": "5817ST/Y2/SV0",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 1552100,
+      "searchKeywordJa": "ブレゲ 5817ST/Y2/SV0",
+      "searchKeywordEn": "Breguet 5817ST/Y2/SV0",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "ブレゲの型番5817ST/Y2/SV0。市場で4件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Breguet reference 5817ST/Y2/SV0, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 4,
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-2500499",
@@ -3322,63 +3406,7 @@
       "summary_en": "Breguet reference 2500499, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-10-09"
-    },
-    {
-      "id": "ref-3803",
-      "name_en": "3803",
-      "name_ja": "アエロナバル フランス 3803",
-      "reference": "3803",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 988295,
-      "searchKeywordJa": "ブレゲ 3803",
-      "searchKeywordEn": "Breguet 3803",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "limited-edition"
-      ],
-      "popular": false,
-      "summary_ja": "ブレゲの型番3803。市場で3件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Breguet reference 3803, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 3,
-      "lastSeen": "2026-10-09"
-    },
-    {
-      "id": "ref-05p06jul10",
-      "name_en": "05P06JUL10",
-      "name_ja": "トランスアトランティック クロノグラフ 05P06JUL10",
-      "reference": "05P06JUL10",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 899300,
-      "searchKeywordJa": "ブレゲ 05P06JUL10",
-      "searchKeywordEn": "Breguet 05P06JUL10",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "chronograph"
-      ],
-      "popular": false,
-      "summary_ja": "ブレゲの型番05P06JUL10。市場で3件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Breguet reference 05P06JUL10, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 3,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-3820sth23w6",
@@ -3406,7 +3434,7 @@
       "summary_en": "Breguet reference 3820ST/H2/3W6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-8068ba",
@@ -3434,7 +3462,7 @@
       "summary_en": "Breguet reference 8068BA, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-8561bb11942",
@@ -3462,7 +3490,7 @@
       "summary_en": "Breguet reference 8561BB/11/942, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-5910ba15984",
@@ -3490,7 +3518,7 @@
       "summary_en": "Breguet reference 5910BA/15/984, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-3803st",
@@ -3518,35 +3546,7 @@
       "summary_en": "Breguet reference 3803ST, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-10-09"
-    },
-    {
-      "id": "ref-5910br15984",
-      "name_en": "5910BR/15/984",
-      "name_ja": "クラシック 5910BR/15/984",
-      "reference": "5910BR/15/984",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 1188300,
-      "searchKeywordJa": "ブレゲ 5910BR/15/984",
-      "searchKeywordEn": "Breguet 5910BR/15/984",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ブレゲの型番5910BR/15/984。市場で3件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Breguet reference 5910BR/15/984, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 3,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-2510216",
@@ -3574,7 +3574,7 @@
       "summary_en": "Breguet reference 2510216, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-3661br12984dd00",
@@ -3604,35 +3604,7 @@
       "summary_en": "Breguet reference 3661BR/12/984/DD00, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-10-09"
-    },
-    {
-      "id": "ref-5930ba12986",
-      "name_en": "5930BA/12/986",
-      "name_ja": "クラシック ツインバレル 5930BA/12/986",
-      "reference": "5930BA/12/986",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 1252050,
-      "searchKeywordJa": "ブレゲ 5930BA/12/986",
-      "searchKeywordEn": "Breguet 5930BA/12/986",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ブレゲの型番5930BA/12/986。市場で3件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Breguet reference 5930BA/12/986, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 3,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-9517st5w984",
@@ -3660,7 +3632,7 @@
       "summary_en": "Breguet reference 9517ST/5W/984, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-2410333",
@@ -3688,7 +3660,7 @@
       "summary_en": "Breguet reference 2410333, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-3460bb",
@@ -3716,7 +3688,7 @@
       "summary_en": "Breguet reference 3460BB, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-s2501753th",
@@ -3744,7 +3716,7 @@
       "summary_en": "Breguet reference S2501753T-H, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-5410br129vv",
@@ -3772,7 +3744,7 @@
       "summary_en": "Breguet reference 5410BR/12/9VV, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-9068bb12976dd00",
@@ -3800,7 +3772,63 @@
       "summary_en": "Breguet reference 9068BB/12/976/DD00, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
+    },
+    {
+      "id": "ref-5178bb",
+      "name_en": "5178BB",
+      "name_ja": "クラシック アラビア 5178BB",
+      "reference": "5178BB",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 1477300,
+      "searchKeywordJa": "ブレゲ 5178BB",
+      "searchKeywordEn": "Breguet 5178BB",
+      "caseMaterial": "white-gold",
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ブレゲの型番5178BB。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Breguet reference 5178BB, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
+      "lastSeen": "2026-10-10"
+    },
+    {
+      "id": "ref-5410bb129vv",
+      "name_en": "5410BB/12/9VV",
+      "name_ja": "ヘリテージ 5410BB/12/9VV",
+      "reference": "5410BB/12/9VV",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 2123300,
+      "searchKeywordJa": "ブレゲ 5410BB/12/9VV",
+      "searchKeywordEn": "Breguet 5410BB/12/9VV",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "vintage-reissue"
+      ],
+      "popular": false,
+      "summary_ja": "ブレゲの型番5410BB/12/9VV。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Breguet reference 5410BB/12/9VV, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-5817st92sm0",
@@ -3828,7 +3856,7 @@
       "summary_en": "Breguet reference 5817ST/92/SM0, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-2067st92swo",
@@ -3856,7 +3884,7 @@
       "summary_en": "Breguet reference 2067/ST/92/SWO, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-5480br12996",
@@ -3884,7 +3912,35 @@
       "summary_en": "Breguet reference 5480BR/12/996, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
+    },
+    {
+      "id": "ref-ref5817st12svo",
+      "name_en": "REF.5817ST/12/SVO",
+      "name_ja": "マリーン ラージデイト REF.5817ST/12/SVO",
+      "reference": "REF.5817ST/12/SVO",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 1465102,
+      "searchKeywordJa": "ブレゲ REF.5817ST/12/SVO",
+      "searchKeywordEn": "Breguet REF.5817ST/12/SVO",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ブレゲの型番REF.5817ST/12/SVO。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Breguet reference REF.5817ST/12/SVO, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-9518ste2584",
@@ -3912,7 +3968,7 @@
       "summary_en": "Breguet reference 9518ST/E2/584, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-5817st92sv0",
@@ -3940,7 +3996,7 @@
       "summary_en": "Breguet reference 5817ST/92/SV0, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-40568",
@@ -3968,7 +4024,7 @@
       "summary_en": "Breguet reference 40568, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-7147br299wu",
@@ -3996,7 +4052,7 @@
       "summary_en": "Breguet reference 7147BR/29/9WU, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-5277br129v6",
@@ -4024,7 +4080,7 @@
       "summary_en": "Breguet reference 5277BR/12/9V6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-8968brx1986",
@@ -4052,7 +4108,7 @@
       "summary_en": "Breguet reference 8968BR/X1/986, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-5517tig25zu",
@@ -4080,7 +4136,7 @@
       "summary_en": "Breguet reference 5517TI/G2/5ZU, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-9088bb29964",
@@ -4108,7 +4164,7 @@
       "summary_en": "Breguet reference 9088BB/29/964, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-8928bb58844dd0d",
@@ -4136,7 +4192,7 @@
       "summary_en": "Breguet reference 8928BB/58/844/DD0D, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-9068br12976",
@@ -4164,7 +4220,7 @@
       "summary_en": "Breguet reference 9068BR/12/976, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-3400bb12b90",
@@ -4192,7 +4248,7 @@
       "summary_en": "Breguet reference 3400BB/12/B90, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-3820brm29w6",
@@ -4220,7 +4276,35 @@
       "summary_en": "Breguet reference 3820BR/M2/9W6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
+    },
+    {
+      "id": "ref-5400bb129v6",
+      "name_en": "5400BB/12/9V6",
+      "name_ja": "ヘリテージ 5400BB/12/9V6",
+      "reference": "5400BB/12/9V6",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 3077000,
+      "searchKeywordJa": "ブレゲ 5400BB/12/9V6",
+      "searchKeywordEn": "Breguet 5400BB/12/9V6",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "vintage-reissue"
+      ],
+      "popular": false,
+      "summary_ja": "ブレゲの型番5400BB/12/9V6。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Breguet reference 5400BB/12/9V6, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-8861br11386",
@@ -4249,7 +4333,7 @@
       "summary_en": "Breguet reference 8861BR/11/386, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-5827brzz5zu",
@@ -4277,7 +4361,7 @@
       "summary_en": "Breguet reference 5827BR/ZZ/5ZU, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-8928br51944",
@@ -4305,7 +4389,7 @@
       "summary_en": "Breguet reference 8928BR/51/944, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-7057brg99w6",
@@ -4333,7 +4417,63 @@
       "summary_en": "Breguet reference 7057BR/G9/9W6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
+    },
+    {
+      "id": "ref-5187br15986",
+      "name_en": "5187BR/15/986",
+      "name_ja": "クラシック レギュレーター 5187BR/15/986",
+      "reference": "5187BR/15/986",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 2128400,
+      "searchKeywordJa": "ブレゲ 5187BR/15/986",
+      "searchKeywordEn": "Breguet 5187BR/15/986",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ブレゲの型番5187BR/15/986。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Breguet reference 5187BR/15/986, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
+      "lastSeen": "2026-10-10"
+    },
+    {
+      "id": "ref-5857",
+      "name_en": "5857",
+      "name_ja": "マリーン 5857",
+      "reference": "5857",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 2522800,
+      "searchKeywordJa": "ブレゲ 5857",
+      "searchKeywordEn": "Breguet 5857",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "gmt"
+      ],
+      "popular": false,
+      "summary_ja": "ブレゲの型番5857。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Breguet reference 5857, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-5817ba129v8",
@@ -4361,7 +4501,7 @@
       "summary_en": "Breguet reference 5817BA/12/9V8, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-5827brz25zu",
@@ -4389,35 +4529,7 @@
       "summary_en": "Breguet reference 5827BR/Z2/5ZU, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-10-09"
-    },
-    {
-      "id": "ref-8918bb",
-      "name_en": "8918BB",
-      "name_ja": "クイーン ネイプルズ 8918BB",
-      "reference": "8918BB",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 2703000,
-      "searchKeywordJa": "ブレゲ 8918BB",
-      "searchKeywordEn": "Breguet 8918BB",
-      "caseMaterial": "white-gold",
-      "waterResistanceM": null,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ブレゲの型番8918BB。市場で3件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Breguet reference 8918BB, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 3,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-8908br5t964d00d",
@@ -4445,7 +4557,35 @@
       "summary_en": "Breguet reference 8908BR/5T/964D00D, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
+    },
+    {
+      "id": "ref-ref5827bb125zu",
+      "name_en": "REF.5827BB/12/5ZU",
+      "name_ja": "マリーン クロノグラフ REF.5827BB/12/5ZU",
+      "reference": "REF.5827BB/12/5ZU",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 2606950,
+      "searchKeywordJa": "ブレゲ REF.5827BB/12/5ZU",
+      "searchKeywordEn": "Breguet REF.5827BB/12/5ZU",
+      "caseMaterial": "white-gold",
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "chronograph"
+      ],
+      "popular": false,
+      "summary_ja": "ブレゲの型番REF.5827BB/12/5ZU。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Breguet reference REF.5827BB/12/5ZU, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-8928ba51944dd0d3l",
@@ -4473,7 +4613,7 @@
       "summary_en": "Breguet reference 8928BA/51/944/DD0D3L, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-7137br159vu",
@@ -4502,35 +4642,7 @@
       "summary_en": "Breguet reference 7137BR/15/9VU, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-10-09"
-    },
-    {
-      "id": "ref-7727br129wu",
-      "name_en": "7727BR/12/9WU",
-      "name_ja": "クラシック クロノメトリー 7727BR/12/9WU",
-      "reference": "7727BR/12/9WU",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 4058750,
-      "searchKeywordJa": "ブレゲ 7727BR/12/9WU",
-      "searchKeywordEn": "Breguet 7727BR/12/9WU",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "chronograph"
-      ],
-      "popular": false,
-      "summary_ja": "ブレゲの型番7727BR/12/9WU。市場で3件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Breguet reference 7727BR/12/9WU, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 3,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-7597bbg19wu",
@@ -4558,35 +4670,35 @@
       "summary_en": "Breguet reference 7597BB/G1/9WU, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
-      "id": "ref-5527br125wv",
-      "name_en": "5527BR/12/5WV",
-      "name_ja": "マリーン クロノグラフ 5527BR/12/5WV",
-      "reference": "5527BR/12/5WV",
+      "id": "ref-ref7137br159vu",
+      "name_en": "REF.7137BR/15/9VU",
+      "name_ja": "クラシック シルバーメンズ REF.7137BR/15/9VU",
+      "reference": "REF.7137BR/15/9VU",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
       "movementType": null,
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 3704300,
-      "searchKeywordJa": "ブレゲ 5527BR/12/5WV",
-      "searchKeywordEn": "Breguet 5527BR/12/5WV",
+      "priceFloorJpy": 3703875,
+      "searchKeywordJa": "ブレゲ REF.7137BR/15/9VU",
+      "searchKeywordEn": "Breguet REF.7137BR/15/9VU",
       "caseMaterial": null,
       "waterResistanceM": null,
       "gender": "mens",
       "releaseYear": null,
       "tags": [
-        "chronograph"
+        "sport"
       ],
       "popular": false,
-      "summary_ja": "ブレゲの型番5527BR/12/5WV。市場で3件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Breguet reference 5527BR/12/5WV, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ブレゲの型番REF.7137BR/15/9VU。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Breguet reference REF.7137BR/15/9VU, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-7137",
@@ -4614,7 +4726,7 @@
       "summary_en": "Breguet reference 7137, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-g5177br15rv0",
@@ -4642,7 +4754,7 @@
       "summary_en": "Breguet reference G5177BR15RV0, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-5177br15rv0",
@@ -4670,7 +4782,7 @@
       "summary_en": "Breguet reference 5177BR/15/RV0, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-8928br8d944dd0d",
@@ -4698,7 +4810,7 @@
       "summary_en": "Breguet reference 8928BR/8D/944DD0D, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-5517br",
@@ -4726,7 +4838,35 @@
       "summary_en": "Breguet reference 5517BR, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
+    },
+    {
+      "id": "ref-ref5827bb12bz0",
+      "name_en": "REF.5827BB/12/BZ0",
+      "name_ja": "マリーン クロノグラフ REF.5827BB/12/BZ0",
+      "reference": "REF.5827BB/12/BZ0",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 6294250,
+      "searchKeywordJa": "ブレゲ REF.5827BB/12/BZ0",
+      "searchKeywordEn": "Breguet REF.5827BB/12/BZ0",
+      "caseMaterial": "white-gold",
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "chronograph"
+      ],
+      "popular": false,
+      "summary_ja": "ブレゲの型番REF.5827BB/12/BZ0。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Breguet reference REF.5827BB/12/BZ0, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-3470ba",
@@ -4754,7 +4894,7 @@
       "summary_en": "Breguet reference 3470BA, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-4820",
@@ -4782,7 +4922,7 @@
       "summary_en": "Breguet reference 4820, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-2320094",
@@ -4810,7 +4950,63 @@
       "summary_en": "Breguet reference 2320094, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
+    },
+    {
+      "id": "ref-3803",
+      "name_en": "3803",
+      "name_ja": "アエロナバル フランス 3803",
+      "reference": "3803",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 988295,
+      "searchKeywordJa": "ブレゲ 3803",
+      "searchKeywordEn": "Breguet 3803",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "ブレゲの型番3803。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Breguet reference 3803, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-10-10"
+    },
+    {
+      "id": "ref-05p06jul10",
+      "name_en": "05P06JUL10",
+      "name_ja": "トランスアトランティック クロノグラフ 05P06JUL10",
+      "reference": "05P06JUL10",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 899300,
+      "searchKeywordJa": "ブレゲ 05P06JUL10",
+      "searchKeywordEn": "Breguet 05P06JUL10",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "chronograph"
+      ],
+      "popular": false,
+      "summary_ja": "ブレゲの型番05P06JUL10。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Breguet reference 05P06JUL10, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-3817stx23zu",
@@ -4838,7 +5034,7 @@
       "summary_en": "Breguet reference 3817ST/X2/3ZU, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-9807st5w922",
@@ -4866,7 +5062,7 @@
       "summary_en": "Breguet reference 9807ST/5W/922, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-3660bb12984",
@@ -4894,7 +5090,35 @@
       "summary_en": "Breguet reference 3660BB/12/984, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
+    },
+    {
+      "id": "ref-5910br15984",
+      "name_en": "5910BR/15/984",
+      "name_ja": "クラシック 5910BR/15/984",
+      "reference": "5910BR/15/984",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 1188300,
+      "searchKeywordJa": "ブレゲ 5910BR/15/984",
+      "searchKeywordEn": "Breguet 5910BR/15/984",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ブレゲの型番5910BR/15/984。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Breguet reference 5910BR/15/984, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-2510135",
@@ -4922,7 +5146,7 @@
       "summary_en": "Breguet reference 2510135, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-5920",
@@ -4950,7 +5174,7 @@
       "summary_en": "Breguet reference 5920, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-8068ba52964",
@@ -4978,35 +5202,7 @@
       "summary_en": "Breguet reference 8068BA/52/964, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-09"
-    },
-    {
-      "id": "ref-5917",
-      "name_en": "5917",
-      "name_ja": "クラシック 5917",
-      "reference": "5917",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 1184900,
-      "searchKeywordJa": "ブレゲ 5917",
-      "searchKeywordEn": "Breguet 5917",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ブレゲの型番5917。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Breguet reference 5917, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-3290ba12286",
@@ -5034,7 +5230,7 @@
       "summary_en": "Breguet reference 3290BA/12/286, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-2610058",
@@ -5062,35 +5258,35 @@
       "summary_en": "Breguet reference 2610058, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
-      "id": "ref-3817",
-      "name_en": "3817",
-      "name_ja": "クロノグラフ デイト 3817",
-      "reference": "3817",
+      "id": "ref-5917",
+      "name_en": "5917",
+      "name_ja": "クラシック 5917",
+      "reference": "5917",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
       "movementType": "automatic",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 1026630,
-      "searchKeywordJa": "ブレゲ 3817",
-      "searchKeywordEn": "Breguet 3817",
+      "priceFloorJpy": 1184900,
+      "searchKeywordJa": "ブレゲ 5917",
+      "searchKeywordEn": "Breguet 5917",
       "caseMaterial": null,
       "waterResistanceM": null,
       "gender": "mens",
       "releaseYear": null,
       "tags": [
-        "chronograph"
+        "sport"
       ],
       "popular": false,
-      "summary_ja": "ブレゲの型番3817。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Breguet reference 3817, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ブレゲの型番5917。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Breguet reference 5917, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-4400sa12x70",
@@ -5118,7 +5314,35 @@
       "summary_en": "Breguet reference 4400SA/12/X70, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
+    },
+    {
+      "id": "ref-3817",
+      "name_en": "3817",
+      "name_ja": "クロノグラフ デイト 3817",
+      "reference": "3817",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 1026630,
+      "searchKeywordJa": "ブレゲ 3817",
+      "searchKeywordEn": "Breguet 3817",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph"
+      ],
+      "popular": false,
+      "summary_ja": "ブレゲの型番3817。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Breguet reference 3817, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-ba8211",
@@ -5146,7 +5370,7 @@
       "summary_en": "Breguet reference BA8211, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-9518st5w584d000",
@@ -5174,23 +5398,51 @@
       "summary_en": "Breguet reference 9518ST/5W/584/D000, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
-      "id": "ref-5178bb",
-      "name_en": "5178BB",
-      "name_ja": "クラシック アラビア 5178BB",
-      "reference": "5178BB",
+      "id": "ref-ref3800",
+      "name_en": "REF.3800",
+      "name_ja": "アエロナバル スチール REF.3800",
+      "reference": "REF.3800",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
       "movementType": null,
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 1477300,
-      "searchKeywordJa": "ブレゲ 5178BB",
-      "searchKeywordEn": "Breguet 5178BB",
-      "caseMaterial": "white-gold",
+      "priceFloorJpy": 1077800,
+      "searchKeywordJa": "ブレゲ REF.3800",
+      "searchKeywordEn": "Breguet REF.3800",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ブレゲの型番REF.3800。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Breguet reference REF.3800, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-10-10"
+    },
+    {
+      "id": "ref-ref3150bb",
+      "name_en": "REF.3150BB",
+      "name_ja": "クラシック REF.3150BB",
+      "reference": "REF.3150BB",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 1370710,
+      "searchKeywordJa": "ブレゲ REF.3150BB",
+      "searchKeywordEn": "Breguet REF.3150BB",
+      "caseMaterial": null,
       "waterResistanceM": null,
       "gender": "unisex",
       "releaseYear": null,
@@ -5198,39 +5450,11 @@
         "sport"
       ],
       "popular": false,
-      "summary_ja": "ブレゲの型番5178BB。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Breguet reference 5178BB, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ブレゲの型番REF.3150BB。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Breguet reference REF.3150BB, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-09"
-    },
-    {
-      "id": "ref-5410bb129vv",
-      "name_en": "5410BB/12/9VV",
-      "name_ja": "ヘリテージ 5410BB/12/9VV",
-      "reference": "5410BB/12/9VV",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 2123300,
-      "searchKeywordJa": "ブレゲ 5410BB/12/9VV",
-      "searchKeywordEn": "Breguet 5410BB/12/9VV",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "vintage-reissue"
-      ],
-      "popular": false,
-      "summary_ja": "ブレゲの型番5410BB/12/9VV。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Breguet reference 5410BB/12/9VV, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-m557171",
@@ -5258,7 +5482,7 @@
       "summary_en": "Breguet reference M5-57171, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-5517ti",
@@ -5286,63 +5510,7 @@
       "summary_en": "Breguet reference 5517TI, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-09"
-    },
-    {
-      "id": "ref-8968brx19860d00",
-      "name_en": "8968BR/X1/986/0D00",
-      "name_ja": "クイーンオブネイプルズ アンスラサイト 8968BR/X1/986/0D00",
-      "reference": "8968BR/X1/986/0D00",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 1963500,
-      "searchKeywordJa": "ブレゲ 8968BR/X1/986/0D00",
-      "searchKeywordEn": "Breguet 8968BR/X1/986/0D00",
-      "caseMaterial": "rose-gold",
-      "waterResistanceM": null,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ブレゲの型番8968BR/X1/986/0D00。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Breguet reference 8968BR/X1/986/0D00, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-10-09"
-    },
-    {
-      "id": "ref-8968",
-      "name_en": "8968",
-      "name_ja": "クイーンオブネイプルズ アンスラサイト 8968",
-      "reference": "8968",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 1963500,
-      "searchKeywordJa": "ブレゲ 8968",
-      "searchKeywordEn": "Breguet 8968",
-      "caseMaterial": "rose-gold",
-      "waterResistanceM": null,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ブレゲの型番8968。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Breguet reference 8968, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-5907bb12984",
@@ -5370,35 +5538,7 @@
       "summary_en": "Breguet reference 5907BB/12/984, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-09"
-    },
-    {
-      "id": "ref-5967ba119w6",
-      "name_en": "5967BA/11/9W6",
-      "name_ja": "クラシック アールデコ 5967BA/11/9W6",
-      "reference": "5967BA/11/9W6",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": 41,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 1508750,
-      "searchKeywordJa": "ブレゲ 5967BA/11/9W6",
-      "searchKeywordEn": "Breguet 5967BA/11/9W6",
-      "caseMaterial": "yellow-gold",
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ブレゲの型番5967BA/11/9W6。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Breguet reference 5967BA/11/9W6, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-3820ban29w6",
@@ -5426,22 +5566,50 @@
       "summary_en": "Breguet reference 3820BA/N2/9W6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
-      "id": "ref-3700ba129v6",
-      "name_en": "3700BA/12/9V6",
-      "name_ja": "マリーンデュオタイマー 3700BA/12/9V6",
-      "reference": "3700BA/12/9V6",
+      "id": "ref-5967ba119w6",
+      "name_en": "5967BA/11/9W6",
+      "name_ja": "クラシック アールデコ 5967BA/11/9W6",
+      "reference": "5967BA/11/9W6",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": 41,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 1508750,
+      "searchKeywordJa": "ブレゲ 5967BA/11/9W6",
+      "searchKeywordEn": "Breguet 5967BA/11/9W6",
+      "caseMaterial": "yellow-gold",
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ブレゲの型番5967BA/11/9W6。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Breguet reference 5967BA/11/9W6, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-10-10"
+    },
+    {
+      "id": "ref-5930ba12986",
+      "name_en": "5930BA/12/986",
+      "name_ja": "クラシック ツインバレル 5930BA/12/986",
+      "reference": "5930BA/12/986",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
       "movementType": null,
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 1997500,
-      "searchKeywordJa": "ブレゲ 3700BA/12/9V6",
-      "searchKeywordEn": "Breguet 3700BA/12/9V6",
+      "priceFloorJpy": 1252050,
+      "searchKeywordJa": "ブレゲ 5930BA/12/986",
+      "searchKeywordEn": "Breguet 5930BA/12/986",
       "caseMaterial": null,
       "waterResistanceM": null,
       "gender": "mens",
@@ -5450,11 +5618,11 @@
         "sport"
       ],
       "popular": false,
-      "summary_ja": "ブレゲの型番3700BA/12/9V6。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Breguet reference 3700BA/12/9V6, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ブレゲの型番5930BA/12/986。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Breguet reference 5930BA/12/986, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-5178ba299v6",
@@ -5482,7 +5650,7 @@
       "summary_en": "Breguet reference 5178BA/29/9V6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-7027",
@@ -5510,7 +5678,7 @@
       "summary_en": "Breguet reference 7027, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-9068br52976dd000",
@@ -5538,7 +5706,7 @@
       "summary_en": "Breguet reference 9068BR/52/976DD000, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-a2600758",
@@ -5566,7 +5734,35 @@
       "summary_en": "Breguet reference A2600758, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
+    },
+    {
+      "id": "ref-ref8068bb59764",
+      "name_en": "REF.8068BB/59/764",
+      "name_ja": "クラシック REF.8068BB/59/764",
+      "reference": "REF.8068BB/59/764",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 2253290,
+      "searchKeywordJa": "ブレゲ REF.8068BB/59/764",
+      "searchKeywordEn": "Breguet REF.8068BB/59/764",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ブレゲの型番REF.8068BB/59/764。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Breguet reference REF.8068BB/59/764, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-8928ba51844dd0d",
@@ -5594,106 +5790,22 @@
       "summary_en": "Breguet reference 8928BA/51/844/DD0D, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
-      "id": "ref-5187br15986",
-      "name_en": "5187BR/15/986",
-      "name_ja": "クラシック レギュレーター 5187BR/15/986",
-      "reference": "5187BR/15/986",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 2128400,
-      "searchKeywordJa": "ブレゲ 5187BR/15/986",
-      "searchKeywordEn": "Breguet 5187BR/15/986",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ブレゲの型番5187BR/15/986。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Breguet reference 5187BR/15/986, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-10-09"
-    },
-    {
-      "id": "ref-8818ba59564",
-      "name_en": "8818BA/59/564",
-      "name_ja": "マリーン 8818BA/59/564",
-      "reference": "8818BA/59/564",
+      "id": "ref-3460bpt12996",
+      "name_en": "3460BPT/12/996",
+      "name_ja": "マリーン クロノグラフ 3460BPT/12/996",
+      "reference": "3460BPT/12/996",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
       "movementType": null,
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 2302650,
-      "searchKeywordJa": "ブレゲ 8818BA/59/564",
-      "searchKeywordEn": "Breguet 8818BA/59/564",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ブレゲの型番8818BA/59/564。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Breguet reference 8818BA/59/564, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-10-09"
-    },
-    {
-      "id": "ref-5857",
-      "name_en": "5857",
-      "name_ja": "マリーン 5857",
-      "reference": "5857",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 2522800,
-      "searchKeywordJa": "ブレゲ 5857",
-      "searchKeywordEn": "Breguet 5857",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "gmt"
-      ],
-      "popular": false,
-      "summary_ja": "ブレゲの型番5857。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Breguet reference 5857, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-10-09"
-    },
-    {
-      "id": "ref-5527tiy1two",
-      "name_en": "5527TI/Y1/TWO",
-      "name_ja": "マリーン クロノグラフ 5527TI/Y1/TWO",
-      "reference": "5527TI/Y1/TWO",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 2531300,
-      "searchKeywordJa": "ブレゲ 5527TI/Y1/TWO",
-      "searchKeywordEn": "Breguet 5527TI/Y1/TWO",
+      "priceFloorJpy": 2409750,
+      "searchKeywordJa": "ブレゲ 3460BPT/12/996",
+      "searchKeywordEn": "Breguet 3460BPT/12/996",
       "caseMaterial": null,
       "waterResistanceM": null,
       "gender": "mens",
@@ -5702,11 +5814,11 @@
         "chronograph"
       ],
       "popular": false,
-      "summary_ja": "ブレゲの型番5527TI/Y1/TWO。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Breguet reference 5527TI/Y1/TWO, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ブレゲの型番3460BPT/12/996。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Breguet reference 3460BPT/12/996, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-5857brz25zu",
@@ -5734,91 +5846,63 @@
       "summary_en": "Breguet reference 5857BR/Z2/5ZU, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
-      "id": "ref-8068bb52bc0dd00",
-      "name_en": "8068BB/52/BC0/DD00",
-      "name_ja": "クラシック シェル 8068BB/52/BC0/DD00",
-      "reference": "8068BB/52/BC0/DD00",
+      "id": "ref-5527tiy1two",
+      "name_en": "5527TI/Y1/TWO",
+      "name_ja": "マリーン クロノグラフ 5527TI/Y1/TWO",
+      "reference": "5527TI/Y1/TWO",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 3386400,
-      "searchKeywordJa": "ブレゲ 8068BB/52/BC0/DD00",
-      "searchKeywordEn": "Breguet 8068BB/52/BC0/DD00",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ブレゲの型番8068BB/52/BC0/DD00。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Breguet reference 8068BB/52/BC0/DD00, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-10-09"
-    },
-    {
-      "id": "ref-8787br29986",
-      "name_en": "8787BR/29/986",
-      "name_ja": "クラシック 8787BR/29/986",
-      "reference": "8787BR/29/986",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": 36,
       "movementType": null,
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 2140300,
-      "searchKeywordJa": "ブレゲ 8787BR/29/986",
-      "searchKeywordEn": "Breguet 8787BR/29/986",
+      "priceFloorJpy": 2531300,
+      "searchKeywordJa": "ブレゲ 5527TI/Y1/TWO",
+      "searchKeywordEn": "Breguet 5527TI/Y1/TWO",
       "caseMaterial": null,
       "waterResistanceM": null,
-      "gender": "unisex",
+      "gender": "mens",
       "releaseYear": null,
       "tags": [
-        "sport"
+        "chronograph"
       ],
       "popular": false,
-      "summary_ja": "ブレゲの型番8787BR/29/986。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Breguet reference 8787BR/29/986, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ブレゲの型番5527TI/Y1/TWO。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Breguet reference 5527TI/Y1/TWO, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
-      "id": "ref-8787",
-      "name_en": "8787",
-      "name_ja": "クラシック 8787",
-      "reference": "8787",
+      "id": "ref-8918bb",
+      "name_en": "8918BB",
+      "name_ja": "クイーン ネイプルズ 8918BB",
+      "reference": "8918BB",
       "collection_en": null,
       "collection_ja": null,
-      "caseSizeMm": 36,
+      "caseSizeMm": null,
       "movementType": null,
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 2140300,
-      "searchKeywordJa": "ブレゲ 8787",
-      "searchKeywordEn": "Breguet 8787",
-      "caseMaterial": null,
+      "priceFloorJpy": 2703000,
+      "searchKeywordJa": "ブレゲ 8918BB",
+      "searchKeywordEn": "Breguet 8918BB",
+      "caseMaterial": "white-gold",
       "waterResistanceM": null,
-      "gender": "unisex",
+      "gender": "ladies",
       "releaseYear": null,
       "tags": [
         "sport"
       ],
       "popular": false,
-      "summary_ja": "ブレゲの型番8787。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Breguet reference 8787, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ブレゲの型番8918BB。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Breguet reference 8918BB, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-5277",
@@ -5846,7 +5930,91 @@
       "summary_en": "Breguet reference 5277, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
+    },
+    {
+      "id": "ref-8787br29986",
+      "name_en": "8787BR/29/986",
+      "name_ja": "クラシック 8787BR/29/986",
+      "reference": "8787BR/29/986",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": 36,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 2140300,
+      "searchKeywordJa": "ブレゲ 8787BR/29/986",
+      "searchKeywordEn": "Breguet 8787BR/29/986",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ブレゲの型番8787BR/29/986。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Breguet reference 8787BR/29/986, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-10-10"
+    },
+    {
+      "id": "ref-8787",
+      "name_en": "8787",
+      "name_ja": "クラシック 8787",
+      "reference": "8787",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": 36,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 2140300,
+      "searchKeywordJa": "ブレゲ 8787",
+      "searchKeywordEn": "Breguet 8787",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ブレゲの型番8787。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Breguet reference 8787, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-10-10"
+    },
+    {
+      "id": "ref-8068bb52bc0dd00",
+      "name_en": "8068BB/52/BC0/DD00",
+      "name_ja": "クラシック シェル 8068BB/52/BC0/DD00",
+      "reference": "8068BB/52/BC0/DD00",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 3386400,
+      "searchKeywordJa": "ブレゲ 8068BB/52/BC0/DD00",
+      "searchKeywordEn": "Breguet 8068BB/52/BC0/DD00",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ブレゲの型番8068BB/52/BC0/DD00。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Breguet reference 8068BB/52/BC0/DD00, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-8818bb59864dd0d",
@@ -5874,7 +6042,35 @@
       "summary_en": "Breguet reference 8818BB/59/864/DD0D, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
+    },
+    {
+      "id": "ref-ref3820bbp29w6",
+      "name_en": "REF.3820BB/P2/9W6",
+      "name_ja": "トランスアトランティック ホワイトゴールド REF.3820BB/P2/9W6",
+      "reference": "REF.3820BB/P2/9W6",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 2160700,
+      "searchKeywordJa": "ブレゲ REF.3820BB/P2/9W6",
+      "searchKeywordEn": "Breguet REF.3820BB/P2/9W6",
+      "caseMaterial": "white-gold",
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ブレゲの型番REF.3820BB/P2/9W6。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Breguet reference REF.3820BB/P2/9W6, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-8400ba12a40",
@@ -5902,7 +6098,63 @@
       "summary_en": "Breguet reference 8400BA/12/A40, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
+    },
+    {
+      "id": "ref-8068ba52ac0dd00",
+      "name_en": "8068BA/52/AC0/DD00",
+      "name_ja": "クラシック ダイヤベゼル 8068BA/52/AC0/DD00",
+      "reference": "8068BA/52/AC0/DD00",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 3141600,
+      "searchKeywordJa": "ブレゲ 8068BA/52/AC0/DD00",
+      "searchKeywordEn": "Breguet 8068BA/52/AC0/DD00",
+      "caseMaterial": "yellow-gold",
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ブレゲの型番8068BA/52/AC0/DD00。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Breguet reference 8068BA/52/AC0/DD00, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-10-10"
+    },
+    {
+      "id": "ref-5527br125wv",
+      "name_en": "5527BR/12/5WV",
+      "name_ja": "マリーン クロノグラフ 5527BR/12/5WV",
+      "reference": "5527BR/12/5WV",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 3704300,
+      "searchKeywordJa": "ブレゲ 5527BR/12/5WV",
+      "searchKeywordEn": "Breguet 5527BR/12/5WV",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph"
+      ],
+      "popular": false,
+      "summary_ja": "ブレゲの型番5527BR/12/5WV。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Breguet reference 5527BR/12/5WV, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-8928bb",
@@ -5930,7 +6182,7 @@
       "summary_en": "Breguet reference 8928BB, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-4400ba12a70",
@@ -5958,7 +6210,7 @@
       "summary_en": "Breguet reference 4400BA/12/A70, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-5247bb299v6",
@@ -5986,7 +6238,7 @@
       "summary_en": "Breguet reference 5247BB/29/9V6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-5247",
@@ -6014,7 +6266,7 @@
       "summary_en": "Breguet reference 5247, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-3358bb52986dd",
@@ -6042,7 +6294,7 @@
       "summary_en": "Breguet reference 3358BB/52/986DD, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-8958bb51974d00d3l",
@@ -6070,35 +6322,7 @@
       "summary_en": "Breguet reference 8958BB/51/974/D00D3L, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-09"
-    },
-    {
-      "id": "ref-9088br29rc0dd00",
-      "name_en": "9088BR/29/RC0/DD00",
-      "name_ja": "クラシック 9088BR/29/RC0/DD00",
-      "reference": "9088BR/29/RC0/DD00",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 6800000,
-      "searchKeywordJa": "ブレゲ 9088BR/29/RC0/DD00",
-      "searchKeywordEn": "Breguet 9088BR/29/RC0/DD00",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ブレゲの型番9088BR/29/RC0/DD00。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Breguet reference 9088BR/29/RC0/DD00, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-8928br5wj20dd00",
@@ -6126,7 +6350,35 @@
       "summary_en": "Breguet reference 8928BR/5W/J20/DD00, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
+    },
+    {
+      "id": "ref-9088br29rc0dd00",
+      "name_en": "9088BR/29/RC0/DD00",
+      "name_ja": "クラシック 9088BR/29/RC0/DD00",
+      "reference": "9088BR/29/RC0/DD00",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 6800000,
+      "searchKeywordJa": "ブレゲ 9088BR/29/RC0/DD00",
+      "searchKeywordEn": "Breguet 9088BR/29/RC0/DD00",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ブレゲの型番9088BR/29/RC0/DD00。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Breguet reference 9088BR/29/RC0/DD00, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-9087br52rc0",
@@ -6154,7 +6406,7 @@
       "summary_en": "Breguet reference 9087BR/52/RC0, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-3880brz2rxv",
@@ -6182,7 +6434,7 @@
       "summary_en": "Breguet reference 3880BR/Z2/RXV, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-7327",
@@ -6210,7 +6462,7 @@
       "summary_en": "Breguet reference 7327, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-5817bez2ev0",
@@ -6238,7 +6490,63 @@
       "summary_en": "Breguet reference 5817BE/Z2/EV0, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
+    },
+    {
+      "id": "ref-5327bb1e9v6",
+      "name_en": "5327BB/1E/9V6",
+      "name_ja": "クラシック カンティエーム 5327BB/1E/9V6",
+      "reference": "5327BB/1E/9V6",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 5759600,
+      "searchKeywordJa": "ブレゲ 5327BB/1E/9V6",
+      "searchKeywordEn": "Breguet 5327BB/1E/9V6",
+      "caseMaterial": "white-gold",
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ブレゲの型番5327BB/1E/9V6。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Breguet reference 5327BB/1E/9V6, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-10-10"
+    },
+    {
+      "id": "ref-5327",
+      "name_en": "5327",
+      "name_ja": "クラシック カンティエーム 5327",
+      "reference": "5327",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 5759600,
+      "searchKeywordJa": "ブレゲ 5327",
+      "searchKeywordEn": "Breguet 5327",
+      "caseMaterial": "white-gold",
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ブレゲの型番5327。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Breguet reference 5327, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-5727br129zu",
@@ -6266,7 +6574,35 @@
       "summary_en": "Breguet reference 5727BR/12/9ZU, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
+    },
+    {
+      "id": "ref-5353br",
+      "name_en": "5353BR",
+      "name_ja": "5353BR",
+      "reference": "5353BR",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 7913500,
+      "searchKeywordJa": "ブレゲ 5353BR",
+      "searchKeywordEn": "Breguet 5353BR",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "tourbillon"
+      ],
+      "popular": false,
+      "summary_ja": "ブレゲの型番5353BR。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Breguet reference 5353BR, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-3577",
@@ -6295,119 +6631,7 @@
       "summary_en": "Breguet reference 3577, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-09"
-    },
-    {
-      "id": "ref-5327bb1e9v6",
-      "name_en": "5327BB/1E/9V6",
-      "name_ja": "クラシック カンティエーム 5327BB/1E/9V6",
-      "reference": "5327BB/1E/9V6",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 5759600,
-      "searchKeywordJa": "ブレゲ 5327BB/1E/9V6",
-      "searchKeywordEn": "Breguet 5327BB/1E/9V6",
-      "caseMaterial": "white-gold",
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ブレゲの型番5327BB/1E/9V6。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Breguet reference 5327BB/1E/9V6, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-10-09"
-    },
-    {
-      "id": "ref-5327",
-      "name_en": "5327",
-      "name_ja": "クラシック カンティエーム 5327",
-      "reference": "5327",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 5759600,
-      "searchKeywordJa": "ブレゲ 5327",
-      "searchKeywordEn": "Breguet 5327",
-      "caseMaterial": "white-gold",
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ブレゲの型番5327。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Breguet reference 5327, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-10-09"
-    },
-    {
-      "id": "ref-5353br",
-      "name_en": "5353BR",
-      "name_ja": "5353BR",
-      "reference": "5353BR",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 7913500,
-      "searchKeywordJa": "ブレゲ 5353BR",
-      "searchKeywordEn": "Breguet 5353BR",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "tourbillon"
-      ],
-      "popular": false,
-      "summary_ja": "ブレゲの型番5353BR。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Breguet reference 5353BR, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-10-09"
-    },
-    {
-      "id": "ref-5317br129v6",
-      "name_en": "5317BR/12/9V6",
-      "name_ja": "ローン クラシック 5317BR/12/9V6",
-      "reference": "5317BR/12/9V6",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 7967050,
-      "searchKeywordJa": "ブレゲ 5317BR/12/9V6",
-      "searchKeywordEn": "Breguet 5317BR/12/9V6",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "tourbillon"
-      ],
-      "popular": false,
-      "summary_ja": "ブレゲの型番5317BR/12/9V6。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Breguet reference 5317BR/12/9V6, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-g7800bb119yv",
@@ -6435,7 +6659,7 @@
       "summary_en": "Breguet reference G7800BB/119/YV, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-7800",
@@ -6463,7 +6687,35 @@
       "summary_en": "Breguet reference 7800, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
+    },
+    {
+      "id": "ref-5317br129v6",
+      "name_en": "5317BR/12/9V6",
+      "name_ja": "ローン クラシック 5317BR/12/9V6",
+      "reference": "5317BR/12/9V6",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 7967050,
+      "searchKeywordJa": "ブレゲ 5317BR/12/9V6",
+      "searchKeywordEn": "Breguet 5317BR/12/9V6",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "tourbillon"
+      ],
+      "popular": false,
+      "summary_ja": "ブレゲの型番5317BR/12/9V6。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Breguet reference 5317BR/12/9V6, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-9835bb5y964",
@@ -6491,7 +6743,7 @@
       "summary_en": "Breguet reference 9835BB/5Y/964, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-5238bb109v6dd00",
@@ -6520,7 +6772,7 @@
       "summary_en": "Breguet reference 5238BB/10/9V6/DD00, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-3797pt1e9wu",
@@ -6549,7 +6801,7 @@
       "summary_en": "Breguet reference 3797PT/1E/9WU, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-8670bb12bb0",
@@ -6577,7 +6829,7 @@
       "summary_en": "Breguet reference 8670BB/12/BB0, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-9518br52984d000",
@@ -6605,7 +6857,7 @@
       "summary_en": "Breguet reference 9518BR/52/984/D000, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-8918bb5p964d00d",
@@ -6633,7 +6885,7 @@
       "summary_en": "Breguet reference 8918BB/5P/964D00D, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-tb100001",
@@ -6661,7 +6913,7 @@
       "summary_en": "Breguet reference TB100001, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-3577ba",
@@ -6689,7 +6941,7 @@
       "summary_en": "Breguet reference 3577BA, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-0035420stu",
@@ -6717,7 +6969,7 @@
       "summary_en": "Breguet reference 0035420STU, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-9779abc",
@@ -6745,35 +6997,7 @@
       "summary_en": "Breguet reference 9779ABC, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-09"
-    },
-    {
-      "id": "ref-6wib0125",
-      "name_en": "6WIB0125",
-      "name_ja": "6WIB0125",
-      "reference": "6WIB0125",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 686383,
-      "searchKeywordJa": "ブレゲ 6WIB0125",
-      "searchKeywordEn": "Breguet 6WIB0125",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ブレゲの型番6WIB0125。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Breguet reference 6WIB0125, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-6wib0098",
@@ -6801,7 +7025,35 @@
       "summary_en": "Breguet reference 6WIB0098, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
+    },
+    {
+      "id": "ref-6wib0125",
+      "name_en": "6WIB0125",
+      "name_ja": "6WIB0125",
+      "reference": "6WIB0125",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 686383,
+      "searchKeywordJa": "ブレゲ 6WIB0125",
+      "searchKeywordEn": "Breguet 6WIB0125",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ブレゲの型番6WIB0125。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Breguet reference 6WIB0125, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-4401sa12x70d",
@@ -6829,7 +7081,7 @@
       "summary_en": "Breguet reference 4401SA/12/X70D, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-5511270",
@@ -6857,7 +7109,7 @@
       "summary_en": "Breguet reference 5511270, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-3910ba15984",
@@ -6885,7 +7137,7 @@
       "summary_en": "Breguet reference 3910BA/15/984, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-3910",
@@ -6913,7 +7165,7 @@
       "summary_en": "Breguet reference 3910, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-8670ba12964",
@@ -6941,7 +7193,7 @@
       "summary_en": "Breguet reference 8670BA/12/964, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-m555590",
@@ -6969,7 +7221,7 @@
       "summary_en": "Breguet reference M5-55590, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-5907ba",
@@ -6997,7 +7249,63 @@
       "summary_en": "Breguet reference 5907BA, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
+    },
+    {
+      "id": "ref-8968brx19860d00",
+      "name_en": "8968BR/X1/986/0D00",
+      "name_ja": "8968BR/X1/986/0D00",
+      "reference": "8968BR/X1/986/0D00",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 1963500,
+      "searchKeywordJa": "ブレゲ 8968BR/X1/986/0D00",
+      "searchKeywordEn": "Breguet 8968BR/X1/986/0D00",
+      "caseMaterial": "rose-gold",
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ブレゲの型番8968BR/X1/986/0D00。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Breguet reference 8968BR/X1/986/0D00, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-10-10"
+    },
+    {
+      "id": "ref-8968",
+      "name_en": "8968",
+      "name_ja": "8968",
+      "reference": "8968",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 1963500,
+      "searchKeywordJa": "ブレゲ 8968",
+      "searchKeywordEn": "Breguet 8968",
+      "caseMaterial": "rose-gold",
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ブレゲの型番8968。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Breguet reference 8968, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-3815tihm3zu",
@@ -7027,7 +7335,7 @@
       "summary_en": "Breguet reference 3815TI/HM/3ZU, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-3815",
@@ -7057,79 +7365,23 @@
       "summary_en": "Breguet reference 3815, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
-      "id": "ref-19864",
-      "name_en": "19864",
-      "name_ja": "19864",
-      "reference": "19864",
+      "id": "ref-8818ba59564",
+      "name_en": "8818BA/59/564",
+      "name_ja": "8818BA/59/564",
+      "reference": "8818BA/59/564",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
       "movementType": null,
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 2719915,
-      "searchKeywordJa": "ブレゲ 19864",
-      "searchKeywordEn": "Breguet 19864",
-      "caseMaterial": "white-gold",
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ブレゲの型番19864。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Breguet reference 19864, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-10-09"
-    },
-    {
-      "id": "ref-8341",
-      "name_en": "8341",
-      "name_ja": "8341",
-      "reference": "8341",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 2719915,
-      "searchKeywordJa": "ブレゲ 8341",
-      "searchKeywordEn": "Breguet 8341",
-      "caseMaterial": "white-gold",
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ブレゲの型番8341。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Breguet reference 8341, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-10-09"
-    },
-    {
-      "id": "ref-8908ba",
-      "name_en": "8908BA",
-      "name_ja": "8908BA",
-      "reference": "8908BA",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 2195550,
-      "searchKeywordJa": "ブレゲ 8908BA",
-      "searchKeywordEn": "Breguet 8908BA",
-      "caseMaterial": "yellow-gold",
+      "priceFloorJpy": 2302650,
+      "searchKeywordJa": "ブレゲ 8818BA/59/564",
+      "searchKeywordEn": "Breguet 8818BA/59/564",
+      "caseMaterial": null,
       "waterResistanceM": null,
       "gender": "ladies",
       "releaseYear": null,
@@ -7137,11 +7389,11 @@
         "sport"
       ],
       "popular": false,
-      "summary_ja": "ブレゲの型番8908BA。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Breguet reference 8908BA, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ブレゲの型番8818BA/59/564。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Breguet reference 8818BA/59/564, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-8928",
@@ -7169,7 +7421,35 @@
       "summary_en": "Breguet reference 8928, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
+    },
+    {
+      "id": "ref-8908ba",
+      "name_en": "8908BA",
+      "name_ja": "8908BA",
+      "reference": "8908BA",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 2195550,
+      "searchKeywordJa": "ブレゲ 8908BA",
+      "searchKeywordEn": "Breguet 8908BA",
+      "caseMaterial": "yellow-gold",
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ブレゲの型番8908BA。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Breguet reference 8908BA, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-5547tig25zu",
@@ -7197,7 +7477,7 @@
       "summary_en": "Breguet reference 5547TI/G2/5ZU, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-5547",
@@ -7225,7 +7505,35 @@
       "summary_en": "Breguet reference 5547, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
+    },
+    {
+      "id": "ref-ref3400ba12a90",
+      "name_en": "REF.3400BA/12/A90",
+      "name_ja": "REF.3400BA/12/A90",
+      "reference": "REF.3400BA/12/A90",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 3207772,
+      "searchKeywordJa": "ブレゲ REF.3400BA/12/A90",
+      "searchKeywordEn": "Breguet REF.3400BA/12/A90",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ブレゲの型番REF.3400BA/12/A90。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Breguet reference REF.3400BA/12/A90, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-8421",
@@ -7253,7 +7561,7 @@
       "summary_en": "Breguet reference 8421, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-8928ba8d844dd0d",
@@ -7281,7 +7589,7 @@
       "summary_en": "Breguet reference 8928BA/8D/844/DD0D, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-ba369015286",
@@ -7309,7 +7617,7 @@
       "summary_en": "Breguet reference BA3690/15/286, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-8401ba",
@@ -7337,7 +7645,7 @@
       "summary_en": "Breguet reference 8401BA, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-5357pt1b9v6",
@@ -7365,7 +7673,7 @@
       "summary_en": "Breguet reference 5357PT/1B/9V6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-5357",
@@ -7393,7 +7701,7 @@
       "summary_en": "Breguet reference 5357, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-3357ba",
@@ -7421,7 +7729,36 @@
       "summary_en": "Breguet reference 3357BA, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
+    },
+    {
+      "id": "ref-ref5460ba12ae0",
+      "name_en": "REF.5460/BA/12/AE0",
+      "name_ja": "REF.5460/BA/12/AE0",
+      "reference": "REF.5460/BA/12/AE0",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 5927050,
+      "searchKeywordJa": "ブレゲ REF.5460/BA/12/AE0",
+      "searchKeywordEn": "Breguet REF.5460/BA/12/AE0",
+      "caseMaterial": "yellow-gold",
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "chronograph",
+        "vintage-reissue"
+      ],
+      "popular": false,
+      "summary_ja": "ブレゲの型番REF.5460/BA/12/AE0。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Breguet reference REF.5460/BA/12/AE0, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-5460",
@@ -7450,7 +7787,7 @@
       "summary_en": "Breguet reference 5460, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-3757ba1e9v6",
@@ -7478,7 +7815,7 @@
       "summary_en": "Breguet reference 3757BA/1E/9V6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-gje26ba208589db1",
@@ -7506,7 +7843,7 @@
       "summary_en": "Breguet reference GJE26BA20.8589/DB1, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-3797",
@@ -7535,7 +7872,7 @@
       "summary_en": "Breguet reference 3797, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-5887pty29wv",
@@ -7563,7 +7900,7 @@
       "summary_en": "Breguet reference 5887PT/Y2/9WV, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-5887",
@@ -7591,7 +7928,7 @@
       "summary_en": "Breguet reference 5887, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-5829",
@@ -7619,7 +7956,7 @@
       "summary_en": "Breguet reference 5829, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-660000",
@@ -7647,7 +7984,7 @@
       "summary_en": "Breguet reference 660000, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-1005g",
@@ -7675,7 +8012,7 @@
       "summary_en": "Breguet reference 100.5G, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-0hrxbcau0001",
@@ -7703,7 +8040,7 @@
       "summary_en": "Breguet reference 0HRXBCAU0001, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-1icjbcau0001",
@@ -7731,7 +8068,7 @@
       "summary_en": "Breguet reference 1ICJBCAU0001, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-1534g",
@@ -7759,7 +8096,7 @@
       "summary_en": "Breguet reference 153.4G, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-8967st58986",
@@ -7787,7 +8124,7 @@
       "summary_en": "Breguet reference 8967ST/58/986, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-150172",
@@ -7815,7 +8152,7 @@
       "summary_en": "Breguet reference 150172, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-132kbcau0002",
@@ -7843,7 +8180,7 @@
       "summary_en": "Breguet reference 132KBCAU0002, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-150346",
@@ -7871,7 +8208,7 @@
       "summary_en": "Breguet reference 150346, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-0df7bcau0122",
@@ -7899,7 +8236,7 @@
       "summary_en": "Breguet reference 0DF7BCAU0122, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-0wx3bcau0001",
@@ -7927,7 +8264,7 @@
       "summary_en": "Breguet reference 0WX3BCAU0001, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-1028g",
@@ -7955,7 +8292,7 @@
       "summary_en": "Breguet reference 102.8G, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-0df7bcau0104",
@@ -7983,7 +8320,7 @@
       "summary_en": "Breguet reference 0DF7BCAU0104, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-001jbcau0008",
@@ -8011,7 +8348,7 @@
       "summary_en": "Breguet reference 001JBCAU0008, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-1290bcau0001",
@@ -8039,7 +8376,7 @@
       "summary_en": "Breguet reference 1290BCAU0001, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-0odubcau0001",
@@ -8067,7 +8404,7 @@
       "summary_en": "Breguet reference 0ODUBCAU0001, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-0df7bcau0117",
@@ -8095,7 +8432,7 @@
       "summary_en": "Breguet reference 0DF7BCAU0117, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-006xbcau0157",
@@ -8123,7 +8460,35 @@
       "summary_en": "Breguet reference 006XBCAU0157, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
+    },
+    {
+      "id": "ref-3700ba129v6",
+      "name_en": "3700BA/12/9V6",
+      "name_ja": "3700BA/12/9V6",
+      "reference": "3700BA/12/9V6",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 1997500,
+      "searchKeywordJa": "ブレゲ 3700BA/12/9V6",
+      "searchKeywordEn": "Breguet 3700BA/12/9V6",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ブレゲの型番3700BA/12/9V6。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Breguet reference 3700BA/12/9V6, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-0gbhbcau0002",
@@ -8151,7 +8516,7 @@
       "summary_en": "Breguet reference 0GBHBCAU0002, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-09njbcau0002",
@@ -8179,7 +8544,7 @@
       "summary_en": "Breguet reference 09NJBCAU0002, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-0n00bcau0003",
@@ -8207,7 +8572,7 @@
       "summary_en": "Breguet reference 0N00BCAU0003, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-007ubcau0126",
@@ -8235,7 +8600,7 @@
       "summary_en": "Breguet reference 007UBCAU0126, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-1eo8bcau0001",
@@ -8263,7 +8628,7 @@
       "summary_en": "Breguet reference 1EO8BCAU0001, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-8918br2a364d0",
@@ -8291,35 +8656,7 @@
       "summary_en": "Breguet reference 8918BR/2A/364/D0, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-09"
-    },
-    {
-      "id": "ref-8068ba52ac0dd00",
-      "name_en": "8068BA/52/AC0/DD00",
-      "name_ja": "8068BA/52/AC0/DD00",
-      "reference": "8068BA/52/AC0/DD00",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 3141600,
-      "searchKeywordJa": "ブレゲ 8068BA/52/AC0/DD00",
-      "searchKeywordEn": "Breguet 8068BA/52/AC0/DD00",
-      "caseMaterial": "yellow-gold",
-      "waterResistanceM": null,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ブレゲの型番8068BA/52/AC0/DD00。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Breguet reference 8068BA/52/AC0/DD00, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-0fi6bcau0001",
@@ -8347,35 +8684,7 @@
       "summary_en": "Breguet reference 0FI6BCAU0001, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-09"
-    },
-    {
-      "id": "ref-3460bpt12996",
-      "name_en": "3460BPT/12/996",
-      "name_ja": "3460BPT/12/996",
-      "reference": "3460BPT/12/996",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 2409750,
-      "searchKeywordJa": "ブレゲ 3460BPT/12/996",
-      "searchKeywordEn": "Breguet 3460BPT/12/996",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "chronograph"
-      ],
-      "popular": false,
-      "summary_ja": "ブレゲの型番3460BPT/12/996。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Breguet reference 3460BPT/12/996, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-0cxmbcau0001",
@@ -8403,7 +8712,7 @@
       "summary_en": "Breguet reference 0CXMBCAU0001, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-3820ban2aw9",
@@ -8431,7 +8740,7 @@
       "summary_en": "Breguet reference 3820BA/N2/AW9, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-10"
     },
     {
       "id": "ref-8918bb5d964d0",
@@ -8459,6 +8768,62 @@
       "summary_en": "Breguet reference 8918BB/5D/964/D0, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
+      "lastSeen": "2026-10-10"
+    },
+    {
+      "id": "ref-19864",
+      "name_en": "19864",
+      "name_ja": "19864",
+      "reference": "19864",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 2719915,
+      "searchKeywordJa": "ブレゲ 19864",
+      "searchKeywordEn": "Breguet 19864",
+      "caseMaterial": "white-gold",
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ブレゲの型番19864。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Breguet reference 19864, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 0,
+      "lastSeen": "2026-10-09"
+    },
+    {
+      "id": "ref-8341",
+      "name_en": "8341",
+      "name_ja": "8341",
+      "reference": "8341",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 2719915,
+      "searchKeywordJa": "ブレゲ 8341",
+      "searchKeywordEn": "Breguet 8341",
+      "caseMaterial": "white-gold",
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ブレゲの型番8341。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Breguet reference 8341, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 0,
       "lastSeen": "2026-10-09"
     },
     {
