@@ -1,6 +1,6 @@
 {
   "brandId": "piaget",
-  "generatedAt": "2026-10-12T21:06:01.006Z",
+  "generatedAt": "2026-10-13T04:37:48.757Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -26,11 +26,11 @@
         "skeleton"
       ],
       "popular": false,
-      "summary_ja": "ピアジェの型番30000。市場で44件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "ピアジェの型番30000。市場で43件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Piaget reference 30000, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 44,
-      "lastSeen": "2026-10-12"
+      "listingCount": 43,
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-g0a39112",
@@ -58,7 +58,7 @@
       "summary_en": "Piaget reference G0A39112, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 22,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-27050",
@@ -82,11 +82,11 @@
         "sport"
       ],
       "popular": false,
-      "summary_ja": "ピアジェの型番27050。市場で19件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "ピアジェの型番27050。市場で21件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Piaget reference 27050, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 19,
-      "lastSeen": "2026-10-12"
+      "listingCount": 21,
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-g0a38139",
@@ -114,7 +114,35 @@
       "summary_en": "Piaget reference G0A38139, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 19,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
+    },
+    {
+      "id": "ref-g0a47014",
+      "name_en": "G0A47014",
+      "name_ja": "デイト ローン G0A47014",
+      "reference": "G0A47014",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": 42,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 1213800,
+      "searchKeywordJa": "ピアジェ G0A47014",
+      "searchKeywordEn": "Piaget G0A47014",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ピアジェの型番G0A47014。市場で14件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Piaget reference G0A47014, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 14,
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-g0a43001",
@@ -142,63 +170,7 @@
       "summary_en": "Piaget reference G0A43001, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 13,
-      "lastSeen": "2026-10-12"
-    },
-    {
-      "id": "ref-g0a41004",
-      "name_en": "G0A41004",
-      "name_ja": "クロノグラフ オートマ G0A41004",
-      "reference": "G0A41004",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 1147500,
-      "searchKeywordJa": "ピアジェ G0A41004",
-      "searchKeywordEn": "Piaget G0A41004",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "chronograph"
-      ],
-      "popular": false,
-      "summary_ja": "ピアジェの型番G0A41004。市場で13件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Piaget reference G0A41004, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 13,
-      "lastSeen": "2026-10-12"
-    },
-    {
-      "id": "ref-p11269",
-      "name_en": "P11269",
-      "name_ja": "クロノグラフ オートマ P11269",
-      "reference": "P11269",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 1147500,
-      "searchKeywordJa": "ピアジェ P11269",
-      "searchKeywordEn": "Piaget P11269",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "chronograph"
-      ],
-      "popular": false,
-      "summary_ja": "ピアジェの型番P11269。市場で13件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Piaget reference P11269, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 13,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-g0a39138",
@@ -219,7 +191,6 @@
       "gender": "mens",
       "releaseYear": null,
       "tags": [
-        "limited-edition",
         "small-seconds"
       ],
       "popular": false,
@@ -227,7 +198,7 @@
       "summary_en": "Piaget reference G0A39138, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 13,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-g0a42163",
@@ -255,7 +226,7 @@
       "summary_en": "Piaget reference G0A42163, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 13,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-g0a40031",
@@ -284,7 +255,176 @@
       "summary_en": "Piaget reference G0A40031, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 13,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
+    },
+    {
+      "id": "ref-g0a48125",
+      "name_en": "G0A48125",
+      "name_ja": "アルティプラノ アルティメート G0A48125",
+      "reference": "G0A48125",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 2412300,
+      "searchKeywordJa": "ピアジェ G0A48125",
+      "searchKeywordEn": "Piaget G0A48125",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "skeleton"
+      ],
+      "popular": false,
+      "summary_ja": "ピアジェの型番G0A48125。市場で13件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Piaget reference G0A48125, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 13,
+      "lastSeen": "2026-10-13"
+    },
+    {
+      "id": "ref-p11311",
+      "name_en": "P11311",
+      "name_ja": "アルティプラノ アルティメート P11311",
+      "reference": "P11311",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 2412300,
+      "searchKeywordJa": "ピアジェ P11311",
+      "searchKeywordEn": "Piaget P11311",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "skeleton"
+      ],
+      "popular": false,
+      "summary_ja": "ピアジェの型番P11311。市場で13件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Piaget reference P11311, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 13,
+      "lastSeen": "2026-10-13"
+    },
+    {
+      "id": "ref-g0a31114",
+      "name_en": "G0A31114",
+      "name_ja": "アルティプラノ ローン G0A31114",
+      "reference": "G0A31114",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "manual",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 839800,
+      "searchKeywordJa": "ピアジェ G0A31114",
+      "searchKeywordEn": "Piaget G0A31114",
+      "caseMaterial": "rose-gold",
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ピアジェの型番G0A31114。市場で12件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Piaget reference G0A31114, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 12,
+      "lastSeen": "2026-10-13"
+    },
+    {
+      "id": "ref-g0a41004",
+      "name_en": "G0A41004",
+      "name_ja": "クロノグラフ オートマ G0A41004",
+      "reference": "G0A41004",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 1147500,
+      "searchKeywordJa": "ピアジェ G0A41004",
+      "searchKeywordEn": "Piaget G0A41004",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph"
+      ],
+      "popular": false,
+      "summary_ja": "ピアジェの型番G0A41004。市場で12件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Piaget reference G0A41004, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 12,
+      "lastSeen": "2026-10-13"
+    },
+    {
+      "id": "ref-p11269",
+      "name_en": "P11269",
+      "name_ja": "クロノグラフ オートマ P11269",
+      "reference": "P11269",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 1147500,
+      "searchKeywordJa": "ピアジェ P11269",
+      "searchKeywordEn": "Piaget P11269",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph"
+      ],
+      "popular": false,
+      "summary_ja": "ピアジェの型番P11269。市場で12件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Piaget reference P11269, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 12,
+      "lastSeen": "2026-10-13"
+    },
+    {
+      "id": "ref-g0a46013",
+      "name_en": "G0A46013",
+      "name_ja": "クロノグラフ ラバー G0A46013",
+      "reference": "G0A46013",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 1173000,
+      "searchKeywordJa": "ピアジェ G0A46013",
+      "searchKeywordEn": "Piaget G0A46013",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph",
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "ピアジェの型番G0A46013。市場で12件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Piaget reference G0A46013, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 12,
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-g0a30097",
@@ -312,7 +452,7 @@
       "summary_en": "Piaget reference G0A30097, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 12,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-g0a45400",
@@ -340,63 +480,36 @@
       "summary_en": "Piaget reference G0A45400, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 12,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
-      "id": "ref-g0a48125",
-      "name_en": "G0A48125",
-      "name_ja": "アルティプラノ アルティメート G0A48125",
-      "reference": "G0A48125",
+      "id": "ref-g0a33069",
+      "name_en": "G0A33069",
+      "name_ja": "エンペラドール パワーリザーブ G0A33069",
+      "reference": "G0A33069",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
       "movementType": "automatic",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 2412300,
-      "searchKeywordJa": "ピアジェ G0A48125",
-      "searchKeywordEn": "Piaget G0A48125",
-      "caseMaterial": null,
+      "priceFloorJpy": 1103300,
+      "searchKeywordJa": "ピアジェ G0A33069",
+      "searchKeywordEn": "Piaget G0A33069",
+      "caseMaterial": "white-gold",
       "waterResistanceM": null,
       "gender": "mens",
       "releaseYear": null,
       "tags": [
-        "skeleton"
+        "power-reserve",
+        "small-seconds"
       ],
       "popular": false,
-      "summary_ja": "ピアジェの型番G0A48125。市場で12件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Piaget reference G0A48125, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ピアジェの型番G0A33069。市場で12件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Piaget reference G0A33069, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 12,
-      "lastSeen": "2026-10-12"
-    },
-    {
-      "id": "ref-p11311",
-      "name_en": "P11311",
-      "name_ja": "アルティプラノ アルティメート P11311",
-      "reference": "P11311",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 2412300,
-      "searchKeywordJa": "ピアジェ P11311",
-      "searchKeywordEn": "Piaget P11311",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "skeleton"
-      ],
-      "popular": false,
-      "summary_ja": "ピアジェの型番P11311。市場で12件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Piaget reference P11311, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 12,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-g0a45121",
@@ -424,7 +537,7 @@
       "summary_en": "Piaget reference G0A45121, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 12,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-p10402",
@@ -452,64 +565,7 @@
       "summary_en": "Piaget reference P10402, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 11,
-      "lastSeen": "2026-10-12"
-    },
-    {
-      "id": "ref-g0a30509",
-      "name_en": "G0A30509",
-      "name_ja": "アルティプラノ ローズゴールド G0A30509",
-      "reference": "G0A30509",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "manual",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 841500,
-      "searchKeywordJa": "ピアジェ G0A30509",
-      "searchKeywordEn": "Piaget G0A30509",
-      "caseMaterial": "rose-gold",
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ピアジェの型番G0A30509。市場で11件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Piaget reference G0A30509, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 11,
-      "lastSeen": "2026-10-12"
-    },
-    {
-      "id": "ref-g0a46013",
-      "name_en": "G0A46013",
-      "name_ja": "クロノグラフ ラバー G0A46013",
-      "reference": "G0A46013",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 1173000,
-      "searchKeywordJa": "ピアジェ G0A46013",
-      "searchKeywordEn": "Piaget G0A46013",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "chronograph",
-        "limited-edition"
-      ],
-      "popular": false,
-      "summary_ja": "ピアジェの型番G0A46013。市場で11件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Piaget reference G0A46013, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 11,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-g0a35137",
@@ -537,7 +593,7 @@
       "summary_en": "Piaget reference G0A35137, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 11,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-g0a34136",
@@ -565,7 +621,7 @@
       "summary_en": "Piaget reference G0A34136, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 11,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-1980s",
@@ -593,7 +649,7 @@
       "summary_en": "Piaget reference 1980S, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 10,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-27150",
@@ -622,50 +678,22 @@
       "summary_en": "Piaget reference 27150, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 10,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
-      "id": "ref-g0a35001",
-      "name_en": "G0A35001",
-      "name_ja": "デイト G0A35001",
-      "reference": "G0A35001",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 867680,
-      "searchKeywordJa": "ピアジェ G0A35001",
-      "searchKeywordEn": "Piaget G0A35001",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "chronograph"
-      ],
-      "popular": false,
-      "summary_ja": "ピアジェの型番G0A35001。市場で10件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Piaget reference G0A35001, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 10,
-      "lastSeen": "2026-10-12"
-    },
-    {
-      "id": "ref-g0a31114",
-      "name_en": "G0A31114",
-      "name_ja": "アルティプラノ ローン G0A31114",
-      "reference": "G0A31114",
+      "id": "ref-g0a30509",
+      "name_en": "G0A30509",
+      "name_ja": "アルティプラノ ローズゴールド G0A30509",
+      "reference": "G0A30509",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
       "movementType": "manual",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 839800,
-      "searchKeywordJa": "ピアジェ G0A31114",
-      "searchKeywordEn": "Piaget G0A31114",
+      "priceFloorJpy": 841500,
+      "searchKeywordJa": "ピアジェ G0A30509",
+      "searchKeywordEn": "Piaget G0A30509",
       "caseMaterial": "rose-gold",
       "waterResistanceM": null,
       "gender": "mens",
@@ -674,11 +702,11 @@
         "sport"
       ],
       "popular": false,
-      "summary_ja": "ピアジェの型番G0A31114。市場で10件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Piaget reference G0A31114, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ピアジェの型番G0A30509。市場で10件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Piaget reference G0A30509, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 10,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-g0a40110",
@@ -706,35 +734,7 @@
       "summary_en": "Piaget reference G0A40110, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 10,
-      "lastSeen": "2026-10-12"
-    },
-    {
-      "id": "ref-g0a44285",
-      "name_en": "G0A44285",
-      "name_ja": "ポセション ダイヤモンドベゼル G0A44285",
-      "reference": "G0A44285",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 1355750,
-      "searchKeywordJa": "ピアジェ G0A44285",
-      "searchKeywordEn": "Piaget G0A44285",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ピアジェの型番G0A44285。市場で10件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Piaget reference G0A44285, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 10,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-80564k81",
@@ -747,7 +747,7 @@
       "movementType": "quartz",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 1170960,
+      "priceFloorJpy": 1112437,
       "searchKeywordJa": "ピアジェ 80564K81",
       "searchKeywordEn": "Piaget 80564K81",
       "caseMaterial": "white-gold",
@@ -762,7 +762,7 @@
       "summary_en": "Piaget reference 80564K81, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 10,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-p10246",
@@ -790,7 +790,7 @@
       "summary_en": "Piaget reference P10246, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 9,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-g0a43090",
@@ -818,7 +818,7 @@
       "summary_en": "Piaget reference G0A43090, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 9,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-80563k81",
@@ -846,7 +846,35 @@
       "summary_en": "Piaget reference 80563K81, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 9,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
+    },
+    {
+      "id": "ref-g0a44285",
+      "name_en": "G0A44285",
+      "name_ja": "ポセション ダイヤモンドベゼル G0A44285",
+      "reference": "G0A44285",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 1355750,
+      "searchKeywordJa": "ピアジェ G0A44285",
+      "searchKeywordEn": "Piaget G0A44285",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ピアジェの型番G0A44285。市場で9件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Piaget reference G0A44285, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 9,
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-g0a45082",
@@ -874,7 +902,7 @@
       "summary_en": "Piaget reference G0A45082, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 9,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-g0a45406",
@@ -902,7 +930,35 @@
       "summary_en": "Piaget reference G0A45406, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 9,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
+    },
+    {
+      "id": "ref-g0a45407",
+      "name_en": "G0A45407",
+      "name_ja": "アルティプラノ オリジン G0A45407",
+      "reference": "G0A45407",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 2239750,
+      "searchKeywordJa": "ピアジェ G0A45407",
+      "searchKeywordEn": "Piaget G0A45407",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ピアジェの型番G0A45407。市場で9件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Piaget reference G0A45407, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 9,
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-8154",
@@ -930,7 +986,35 @@
       "summary_en": "Piaget reference 8154, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 8,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
+    },
+    {
+      "id": "ref-g0a35001",
+      "name_en": "G0A35001",
+      "name_ja": "デイト G0A35001",
+      "reference": "G0A35001",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 867680,
+      "searchKeywordJa": "ピアジェ G0A35001",
+      "searchKeywordEn": "Piaget G0A35001",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ピアジェの型番G0A35001。市場で8件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Piaget reference G0A35001, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 8,
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-5225",
@@ -958,22 +1042,22 @@
       "summary_en": "Piaget reference 5225, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 8,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
-      "id": "ref-g0a45407",
-      "name_en": "G0A45407",
-      "name_ja": "アルティプラノ オリジン G0A45407",
-      "reference": "G0A45407",
+      "id": "ref-g0a48080",
+      "name_en": "G0A48080",
+      "name_ja": "ポセッション グレー G0A48080",
+      "reference": "G0A48080",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
       "movementType": null,
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 2239750,
-      "searchKeywordJa": "ピアジェ G0A45407",
-      "searchKeywordEn": "Piaget G0A45407",
+      "priceFloorJpy": 839800,
+      "searchKeywordJa": "ピアジェ G0A48080",
+      "searchKeywordEn": "Piaget G0A48080",
       "caseMaterial": null,
       "waterResistanceM": null,
       "gender": "ladies",
@@ -982,26 +1066,26 @@
         "sport"
       ],
       "popular": false,
-      "summary_ja": "ピアジェの型番G0A45407。市場で8件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Piaget reference G0A45407, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ピアジェの型番G0A48080。市場で8件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Piaget reference G0A48080, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 8,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
-      "id": "ref-g0a47008",
-      "name_en": "G0A47008",
-      "name_ja": "スケルトン G0A47008",
-      "reference": "G0A47008",
+      "id": "ref-refg0a45004",
+      "name_en": "REF.G0A45004",
+      "name_ja": "スケルトン REF.G0A45004",
+      "reference": "REF.G0A45004",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
       "movementType": null,
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 2448000,
-      "searchKeywordJa": "ピアジェ G0A47008",
-      "searchKeywordEn": "Piaget G0A47008",
+      "priceFloorJpy": 2302650,
+      "searchKeywordJa": "ピアジェ REF.G0A45004",
+      "searchKeywordEn": "Piaget REF.G0A45004",
       "caseMaterial": null,
       "waterResistanceM": null,
       "gender": "mens",
@@ -1010,11 +1094,11 @@
         "skeleton"
       ],
       "popular": false,
-      "summary_ja": "ピアジェの型番G0A47008。市場で8件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Piaget reference G0A47008, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ピアジェの型番REF.G0A45004。市場で8件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Piaget reference REF.G0A45004, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 8,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-p10691",
@@ -1035,14 +1119,14 @@
       "gender": "ladies",
       "releaseYear": null,
       "tags": [
-        "limited-edition"
+        "sport"
       ],
       "popular": false,
       "summary_ja": "ピアジェの型番P10691。市場で7件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Piaget reference P10691, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 7,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-pgg0a43080",
@@ -1070,7 +1154,7 @@
       "summary_en": "Piaget reference PGG0A43080, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 7,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-5222",
@@ -1098,7 +1182,63 @@
       "summary_en": "Piaget reference 5222, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 7,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
+    },
+    {
+      "id": "ref-g0a34011",
+      "name_en": "G0A34011",
+      "name_ja": "デイト G0A34011",
+      "reference": "G0A34011",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 637330,
+      "searchKeywordJa": "ピアジェ G0A34011",
+      "searchKeywordEn": "Piaget G0A34011",
+      "caseMaterial": "titanium",
+      "waterResistanceM": 100,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "lightweight"
+      ],
+      "popular": false,
+      "summary_ja": "ピアジェの型番G0A34011。市場で7件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Piaget reference G0A34011, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 7,
+      "lastSeen": "2026-10-13"
+    },
+    {
+      "id": "ref-p10605",
+      "name_en": "P10605",
+      "name_ja": "デイト P10605",
+      "reference": "P10605",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 637330,
+      "searchKeywordJa": "ピアジェ P10605",
+      "searchKeywordEn": "Piaget P10605",
+      "caseMaterial": "titanium",
+      "waterResistanceM": 100,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "lightweight"
+      ],
+      "popular": false,
+      "summary_ja": "ピアジェの型番P10605。市場で7件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Piaget reference P10605, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 7,
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-26001",
@@ -1126,7 +1266,7 @@
       "summary_en": "Piaget reference 26001, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 7,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-g0a34010",
@@ -1154,7 +1294,7 @@
       "summary_en": "Piaget reference G0A34010, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 7,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-g0a34113",
@@ -1182,7 +1322,7 @@
       "summary_en": "Piaget reference G0A34113, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 7,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-p10522",
@@ -1210,7 +1350,7 @@
       "summary_en": "Piaget reference P10522, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 7,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-goa41002",
@@ -1238,35 +1378,7 @@
       "summary_en": "Piaget reference GOA41002, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 7,
-      "lastSeen": "2026-10-12"
-    },
-    {
-      "id": "ref-g0a48080",
-      "name_en": "G0A48080",
-      "name_ja": "ポセッション グレー G0A48080",
-      "reference": "G0A48080",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 839800,
-      "searchKeywordJa": "ピアジェ G0A48080",
-      "searchKeywordEn": "Piaget G0A48080",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ピアジェの型番G0A48080。市場で7件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Piaget reference G0A48080, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 7,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-5964ak81",
@@ -1294,7 +1406,7 @@
       "summary_en": "Piaget reference 5964AK81, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 7,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-g0a44284",
@@ -1322,7 +1434,7 @@
       "summary_en": "Piaget reference G0A44284, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 7,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-goa44284",
@@ -1350,7 +1462,7 @@
       "summary_en": "Piaget reference GOA44284, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 7,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-g0a41544",
@@ -1378,7 +1490,7 @@
       "summary_en": "Piaget reference G0A41544, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 7,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-g0a39110",
@@ -1399,15 +1511,14 @@
       "gender": "mens",
       "releaseYear": null,
       "tags": [
-        "skeleton",
-        "limited-edition"
+        "skeleton"
       ],
       "popular": false,
       "summary_ja": "ピアジェの型番G0A39110。市場で7件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Piaget reference G0A39110, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 7,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-g0a36547",
@@ -1428,14 +1539,14 @@
       "gender": "unisex",
       "releaseYear": null,
       "tags": [
-        "limited-edition"
+        "sport"
       ],
       "popular": false,
       "summary_ja": "ピアジェの型番G0A36547。市場で7件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Piaget reference G0A36547, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 7,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-g0a44051",
@@ -1463,35 +1574,7 @@
       "summary_en": "Piaget reference G0A44051, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 7,
-      "lastSeen": "2026-10-12"
-    },
-    {
-      "id": "ref-g0a38131",
-      "name_en": "G0A38131",
-      "name_ja": "アルティプラノ イエローゴールド G0A38131",
-      "reference": "G0A38131",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 1776500,
-      "searchKeywordJa": "ピアジェ G0A38131",
-      "searchKeywordEn": "Piaget G0A38131",
-      "caseMaterial": "yellow-gold",
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ピアジェの型番G0A38131。市場で7件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Piaget reference G0A38131, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 7,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-g0a50301",
@@ -1519,7 +1602,7 @@
       "summary_en": "Piaget reference G0A50301, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 7,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-g0a26020",
@@ -1547,7 +1630,7 @@
       "summary_en": "Piaget reference G0A26020, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 7,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-2310125",
@@ -1575,7 +1658,7 @@
       "summary_en": "Piaget reference 2310125, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 7,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-27700",
@@ -1603,7 +1686,63 @@
       "summary_en": "Piaget reference 27700, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 7,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
+    },
+    {
+      "id": "ref-refg0a39133",
+      "name_en": "REF.G0A39133",
+      "name_ja": "アルティプラノ REF.G0A39133",
+      "reference": "REF.G0A39133",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 2632875,
+      "searchKeywordJa": "ピアジェ REF.G0A39133",
+      "searchKeywordEn": "Piaget REF.G0A39133",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ピアジェの型番REF.G0A39133。市場で7件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Piaget reference REF.G0A39133, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 7,
+      "lastSeen": "2026-10-13"
+    },
+    {
+      "id": "ref-g0a47008",
+      "name_en": "G0A47008",
+      "name_ja": "スケルトン G0A47008",
+      "reference": "G0A47008",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 2448000,
+      "searchKeywordJa": "ピアジェ G0A47008",
+      "searchKeywordEn": "Piaget G0A47008",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "skeleton"
+      ],
+      "popular": false,
+      "summary_ja": "ピアジェの型番G0A47008。市場で7件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Piaget reference G0A47008, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 7,
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-g0a43080",
@@ -1631,7 +1770,7 @@
       "summary_en": "Piaget reference G0A43080, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-g0a48380",
@@ -1659,7 +1798,7 @@
       "summary_en": "Piaget reference G0A48380, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-g0a36532",
@@ -1687,7 +1826,7 @@
       "summary_en": "Piaget reference G0A36532, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-goa36532",
@@ -1715,63 +1854,7 @@
       "summary_en": "Piaget reference GOA36532, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-10-12"
-    },
-    {
-      "id": "ref-g0a34011",
-      "name_en": "G0A34011",
-      "name_ja": "デイト G0A34011",
-      "reference": "G0A34011",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 637330,
-      "searchKeywordJa": "ピアジェ G0A34011",
-      "searchKeywordEn": "Piaget G0A34011",
-      "caseMaterial": "titanium",
-      "waterResistanceM": 100,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "lightweight"
-      ],
-      "popular": false,
-      "summary_ja": "ピアジェの型番G0A34011。市場で6件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Piaget reference G0A34011, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 6,
-      "lastSeen": "2026-10-12"
-    },
-    {
-      "id": "ref-p10605",
-      "name_en": "P10605",
-      "name_ja": "デイト P10605",
-      "reference": "P10605",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 637330,
-      "searchKeywordJa": "ピアジェ P10605",
-      "searchKeywordEn": "Piaget P10605",
-      "caseMaterial": "titanium",
-      "waterResistanceM": 100,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "lightweight"
-      ],
-      "popular": false,
-      "summary_ja": "ピアジェの型番P10605。市場で6件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Piaget reference P10605, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 6,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-goa34002",
@@ -1799,7 +1882,7 @@
       "summary_en": "Piaget reference GOA34002, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-p10534",
@@ -1827,7 +1910,7 @@
       "summary_en": "Piaget reference P10534, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-p10120g0a29066",
@@ -1855,7 +1938,7 @@
       "summary_en": "Piaget reference P10120/G0A29066, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-g0a37003",
@@ -1883,22 +1966,22 @@
       "summary_en": "Piaget reference G0A37003, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
-      "id": "ref-p10320",
-      "name_en": "P10320",
-      "name_ja": "アルティプラノ ローズゴールド P10320",
-      "reference": "P10320",
+      "id": "ref-goa31114",
+      "name_en": "GOA31114",
+      "name_ja": "アルティプラノ GOA31114",
+      "reference": "GOA31114",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
-      "movementType": null,
+      "movementType": "manual",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 886380,
-      "searchKeywordJa": "ピアジェ P10320",
-      "searchKeywordEn": "Piaget P10320",
+      "priceFloorJpy": 918000,
+      "searchKeywordJa": "ピアジェ GOA31114",
+      "searchKeywordEn": "Piaget GOA31114",
       "caseMaterial": "rose-gold",
       "waterResistanceM": null,
       "gender": "mens",
@@ -1907,39 +1990,39 @@
         "sport"
       ],
       "popular": false,
-      "summary_ja": "ピアジェの型番P10320。市場で6件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Piaget reference P10320, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ピアジェの型番GOA31114。市場で6件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Piaget reference GOA31114, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
-      "id": "ref-p10018g0a28007",
-      "name_en": "P10018/G0A28007",
-      "name_ja": "ダイヤ ライムライト P10018/G0A28007",
-      "reference": "P10018/G0A28007",
+      "id": "ref-p10321",
+      "name_en": "P10321",
+      "name_ja": "アルティプラノ P10321",
+      "reference": "P10321",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
-      "movementType": null,
+      "movementType": "manual",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 883150,
-      "searchKeywordJa": "ピアジェ P10018/G0A28007",
-      "searchKeywordEn": "Piaget P10018/G0A28007",
-      "caseMaterial": "white-gold",
+      "priceFloorJpy": 918000,
+      "searchKeywordJa": "ピアジェ P10321",
+      "searchKeywordEn": "Piaget P10321",
+      "caseMaterial": "rose-gold",
       "waterResistanceM": null,
-      "gender": "ladies",
+      "gender": "mens",
       "releaseYear": null,
       "tags": [
         "sport"
       ],
       "popular": false,
-      "summary_ja": "ピアジェの型番P10018/G0A28007。市場で6件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Piaget reference P10018/G0A28007, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ピアジェの型番P10321。市場で6件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Piaget reference P10321, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-p11268g0a41002",
@@ -1967,7 +2050,7 @@
       "summary_en": "Piaget reference P11268/G0A41002, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-g0a42107",
@@ -1995,7 +2078,7 @@
       "summary_en": "Piaget reference G0A42107, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-g0a31105",
@@ -2023,64 +2106,7 @@
       "summary_en": "Piaget reference G0A31105, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-10-12"
-    },
-    {
-      "id": "ref-g0a47014",
-      "name_en": "G0A47014",
-      "name_ja": "デイト G0A47014",
-      "reference": "G0A47014",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": 42,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 1213800,
-      "searchKeywordJa": "ピアジェ G0A47014",
-      "searchKeywordEn": "Piaget G0A47014",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ピアジェの型番G0A47014。市場で6件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Piaget reference G0A47014, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 6,
-      "lastSeen": "2026-10-12"
-    },
-    {
-      "id": "ref-g0a36118",
-      "name_en": "G0A36118",
-      "name_ja": "アルティプラノ ダイヤ G0A36118",
-      "reference": "G0A36118",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "manual",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 1103300,
-      "searchKeywordJa": "ピアジェ G0A36118",
-      "searchKeywordEn": "Piaget G0A36118",
-      "caseMaterial": "rose-gold",
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "limited-edition",
-        "small-seconds"
-      ],
-      "popular": false,
-      "summary_ja": "ピアジェの型番G0A36118。市場で6件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Piaget reference G0A36118, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 6,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-g0a41035",
@@ -2108,7 +2134,91 @@
       "summary_en": "Piaget reference G0A41035, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
+    },
+    {
+      "id": "ref-g0a38130",
+      "name_en": "G0A38130",
+      "name_ja": "アルティプラノ オートマ G0A38130",
+      "reference": "G0A38130",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 1147500,
+      "searchKeywordJa": "ピアジェ G0A38130",
+      "searchKeywordEn": "Piaget G0A38130",
+      "caseMaterial": "white-gold",
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ピアジェの型番G0A38130。市場で6件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Piaget reference G0A38130, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 6,
+      "lastSeen": "2026-10-13"
+    },
+    {
+      "id": "ref-goa38130",
+      "name_en": "GOA38130",
+      "name_ja": "アルティプラノ オートマ GOA38130",
+      "reference": "GOA38130",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 1147500,
+      "searchKeywordJa": "ピアジェ GOA38130",
+      "searchKeywordEn": "Piaget GOA38130",
+      "caseMaterial": "white-gold",
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ピアジェの型番GOA38130。市場で6件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Piaget reference GOA38130, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 6,
+      "lastSeen": "2026-10-13"
+    },
+    {
+      "id": "ref-g0a36118",
+      "name_en": "G0A36118",
+      "name_ja": "アルティプラノ ダイヤ G0A36118",
+      "reference": "G0A36118",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "manual",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 1103300,
+      "searchKeywordJa": "ピアジェ G0A36118",
+      "searchKeywordEn": "Piaget G0A36118",
+      "caseMaterial": "rose-gold",
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "small-seconds"
+      ],
+      "popular": false,
+      "summary_ja": "ピアジェの型番G0A36118。市場で6件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Piaget reference G0A36118, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 6,
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-g0a44001",
@@ -2136,7 +2246,7 @@
       "summary_en": "Piaget reference G0A44001, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-g0a33115",
@@ -2158,7 +2268,6 @@
       "releaseYear": null,
       "tags": [
         "skeleton",
-        "limited-edition",
         "small-seconds"
       ],
       "popular": false,
@@ -2166,7 +2275,7 @@
       "summary_en": "Piaget reference G0A33115, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-goa42005",
@@ -2194,7 +2303,7 @@
       "summary_en": "Piaget reference GOA42005, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-g0a42005",
@@ -2222,7 +2331,7 @@
       "summary_en": "Piaget reference G0A42005, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-g0a46063",
@@ -2250,7 +2359,7 @@
       "summary_en": "Piaget reference G0A46063, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-p11736",
@@ -2278,7 +2387,35 @@
       "summary_en": "Piaget reference P11736, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
+    },
+    {
+      "id": "ref-g0a38131",
+      "name_en": "G0A38131",
+      "name_ja": "アルティプラノ イエローゴールド G0A38131",
+      "reference": "G0A38131",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 1776500,
+      "searchKeywordJa": "ピアジェ G0A38131",
+      "searchKeywordEn": "Piaget G0A38131",
+      "caseMaterial": "yellow-gold",
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ピアジェの型番G0A38131。市場で6件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Piaget reference G0A38131, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 6,
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-g0a38160",
@@ -2306,7 +2443,7 @@
       "summary_en": "Piaget reference G0A38160, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-g0a40013",
@@ -2334,7 +2471,7 @@
       "summary_en": "Piaget reference G0A40013, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-g0a47010",
@@ -2362,7 +2499,7 @@
       "summary_en": "Piaget reference G0A47010, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-goa47010",
@@ -2390,7 +2527,35 @@
       "summary_en": "Piaget reference GOA47010, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
+    },
+    {
+      "id": "ref-refg0a47010",
+      "name_en": "REF.G0A47010",
+      "name_ja": "デイト REF.G0A47010",
+      "reference": "REF.G0A47010",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 2543625,
+      "searchKeywordJa": "ピアジェ REF.G0A47010",
+      "searchKeywordEn": "Piaget REF.G0A47010",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ピアジェの型番REF.G0A47010。市場で6件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Piaget reference REF.G0A47010, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 6,
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-goa18355",
@@ -2418,7 +2583,7 @@
       "summary_en": "Piaget reference GOA18355, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-1497g",
@@ -2446,7 +2611,7 @@
       "summary_en": "Piaget reference 149.7G, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-g0a46049",
@@ -2474,7 +2639,7 @@
       "summary_en": "Piaget reference G0A46049, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-p10023",
@@ -2502,7 +2667,7 @@
       "summary_en": "Piaget reference P10023, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-p10021",
@@ -2531,7 +2696,7 @@
       "summary_en": "Piaget reference P10021, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-27050g0a26005",
@@ -2559,7 +2724,7 @@
       "summary_en": "Piaget reference 27050/G0A26005, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-p10374",
@@ -2587,7 +2752,7 @@
       "summary_en": "Piaget reference P10374, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-5221",
@@ -2615,7 +2780,7 @@
       "summary_en": "Piaget reference 5221, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-g0a39105",
@@ -2643,7 +2808,7 @@
       "summary_en": "Piaget reference G0A39105, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-p11013",
@@ -2671,7 +2836,7 @@
       "summary_en": "Piaget reference P11013, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-pi0320",
@@ -2699,7 +2864,35 @@
       "summary_en": "Piaget reference PI0320, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
+    },
+    {
+      "id": "ref-p10320",
+      "name_en": "P10320",
+      "name_ja": "アルティプラノ ローズゴールド P10320",
+      "reference": "P10320",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 886380,
+      "searchKeywordJa": "ピアジェ P10320",
+      "searchKeywordEn": "Piaget P10320",
+      "caseMaterial": "rose-gold",
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ピアジェの型番P10320。市場で5件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Piaget reference P10320, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 5,
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-g0a16006",
@@ -2720,70 +2913,42 @@
       "gender": "unisex",
       "releaseYear": null,
       "tags": [
-        "limited-edition"
+        "sport"
       ],
       "popular": false,
       "summary_ja": "ピアジェの型番G0A16006。市場で5件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Piaget reference G0A16006, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
-      "id": "ref-goa31114",
-      "name_en": "GOA31114",
-      "name_ja": "アルティプラノ GOA31114",
-      "reference": "GOA31114",
+      "id": "ref-p10018g0a28007",
+      "name_en": "P10018/G0A28007",
+      "name_ja": "ダイヤ ライムライト P10018/G0A28007",
+      "reference": "P10018/G0A28007",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
-      "movementType": "manual",
+      "movementType": null,
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 918000,
-      "searchKeywordJa": "ピアジェ GOA31114",
-      "searchKeywordEn": "Piaget GOA31114",
-      "caseMaterial": "rose-gold",
+      "priceFloorJpy": 883150,
+      "searchKeywordJa": "ピアジェ P10018/G0A28007",
+      "searchKeywordEn": "Piaget P10018/G0A28007",
+      "caseMaterial": "white-gold",
       "waterResistanceM": null,
-      "gender": "mens",
+      "gender": "ladies",
       "releaseYear": null,
       "tags": [
         "sport"
       ],
       "popular": false,
-      "summary_ja": "ピアジェの型番GOA31114。市場で5件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Piaget reference GOA31114, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ピアジェの型番P10018/G0A28007。市場で5件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Piaget reference P10018/G0A28007, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-10-12"
-    },
-    {
-      "id": "ref-p10321",
-      "name_en": "P10321",
-      "name_ja": "アルティプラノ P10321",
-      "reference": "P10321",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "manual",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 918000,
-      "searchKeywordJa": "ピアジェ P10321",
-      "searchKeywordEn": "Piaget P10321",
-      "caseMaterial": "rose-gold",
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ピアジェの型番P10321。市場で5件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Piaget reference P10321, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 5,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-g0a33062",
@@ -2811,7 +2976,7 @@
       "summary_en": "Piaget reference G0A33062, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-202601oh",
@@ -2839,7 +3004,7 @@
       "summary_en": "Piaget reference 2026/01OH, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-g0a42109",
@@ -2867,7 +3032,7 @@
       "summary_en": "Piaget reference G0A42109, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-p11426",
@@ -2895,7 +3060,7 @@
       "summary_en": "Piaget reference P11426, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-g0a42100",
@@ -2923,7 +3088,7 @@
       "summary_en": "Piaget reference G0A42100, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-g0a41006",
@@ -2951,7 +3116,7 @@
       "summary_en": "Piaget reference G0A41006, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-g0a36138",
@@ -2979,7 +3144,7 @@
       "summary_en": "Piaget reference G0A36138, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-g0a35118",
@@ -3007,7 +3172,7 @@
       "summary_en": "Piaget reference G0A35118, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-p10724g0a35133",
@@ -3035,7 +3200,7 @@
       "summary_en": "Piaget reference P10724/G0A35133, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-p11567g0a44060",
@@ -3063,35 +3228,7 @@
       "summary_en": "Piaget reference P11567/G0A44060, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-10-12"
-    },
-    {
-      "id": "ref-84024k81",
-      "name_en": "84024K81",
-      "name_ja": "ダンサー ダイヤモンド 84024K81",
-      "reference": "84024K81",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 1767150,
-      "searchKeywordJa": "ピアジェ 84024K81",
-      "searchKeywordEn": "Piaget 84024K81",
-      "caseMaterial": "white-gold",
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ピアジェの型番84024K81。市場で5件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Piaget reference 84024K81, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 5,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-g0a44096",
@@ -3119,7 +3256,35 @@
       "summary_en": "Piaget reference G0A44096, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
+    },
+    {
+      "id": "ref-84024k81",
+      "name_en": "84024K81",
+      "name_ja": "ダンサー ダイヤモンド 84024K81",
+      "reference": "84024K81",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 1767150,
+      "searchKeywordJa": "ピアジェ 84024K81",
+      "searchKeywordEn": "Piaget 84024K81",
+      "caseMaterial": "white-gold",
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ピアジェの型番84024K81。市場で5件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Piaget reference 84024K81, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 5,
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-27000",
@@ -3140,14 +3305,14 @@
       "gender": "mens",
       "releaseYear": null,
       "tags": [
-        "limited-edition"
+        "sport"
       ],
       "popular": false,
       "summary_ja": "ピアジェの型番27000。市場で5件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Piaget reference 27000, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-p10879g0a33090",
@@ -3175,7 +3340,7 @@
       "summary_en": "Piaget reference P10879/G0A33090, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-g0a32035",
@@ -3203,7 +3368,7 @@
       "summary_en": "Piaget reference G0A32035, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-p10430",
@@ -3231,7 +3396,7 @@
       "summary_en": "Piaget reference P10430, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-902087",
@@ -3259,35 +3424,7 @@
       "summary_en": "Piaget reference 902087, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-10-12"
-    },
-    {
-      "id": "ref-g0a46023",
-      "name_en": "G0A46023",
-      "name_ja": "G0A46023",
-      "reference": "G0A46023",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 3492072,
-      "searchKeywordJa": "ピアジェ G0A46023",
-      "searchKeywordEn": "Piaget G0A46023",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ピアジェの型番G0A46023。市場で5件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Piaget reference G0A46023, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 5,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-p11709g0a49029",
@@ -3315,7 +3452,7 @@
       "summary_en": "Piaget reference P11709/G0A49029, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-g0a41245",
@@ -3343,7 +3480,7 @@
       "summary_en": "Piaget reference G0A41245, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-35879",
@@ -3371,63 +3508,7 @@
       "summary_en": "Piaget reference 35879, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-10-12"
-    },
-    {
-      "id": "ref-g0a38130",
-      "name_en": "G0A38130",
-      "name_ja": "アルティプラノ オートマ G0A38130",
-      "reference": "G0A38130",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 1147500,
-      "searchKeywordJa": "ピアジェ G0A38130",
-      "searchKeywordEn": "Piaget G0A38130",
-      "caseMaterial": "white-gold",
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ピアジェの型番G0A38130。市場で5件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Piaget reference G0A38130, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 5,
-      "lastSeen": "2026-10-12"
-    },
-    {
-      "id": "ref-goa38130",
-      "name_en": "GOA38130",
-      "name_ja": "アルティプラノ オートマ GOA38130",
-      "reference": "GOA38130",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 1147500,
-      "searchKeywordJa": "ピアジェ GOA38130",
-      "searchKeywordEn": "Piaget GOA38130",
-      "caseMaterial": "white-gold",
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ピアジェの型番GOA38130。市場で5件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Piaget reference GOA38130, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 5,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-27050p10023",
@@ -3455,7 +3536,7 @@
       "summary_en": "Piaget reference 27050/P10023, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-90920",
@@ -3483,7 +3564,7 @@
       "summary_en": "Piaget reference 90920, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-p10275",
@@ -3511,7 +3592,35 @@
       "summary_en": "Piaget reference P10275, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
+    },
+    {
+      "id": "ref-refg0a43090",
+      "name_en": "REF.G0A43090",
+      "name_ja": "ポセション REF.G0A43090",
+      "reference": "REF.G0A43090",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 684802,
+      "searchKeywordJa": "ピアジェ REF.G0A43090",
+      "searchKeywordEn": "Piaget REF.G0A43090",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ピアジェの型番REF.G0A43090。市場で4件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Piaget reference REF.G0A43090, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 4,
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-p10402goa30107",
@@ -3539,7 +3648,7 @@
       "summary_en": "Piaget reference P10402/GOA30107, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-5322",
@@ -3567,7 +3676,7 @@
       "summary_en": "Piaget reference 5322, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-g0a21064",
@@ -3595,7 +3704,7 @@
       "summary_en": "Piaget reference G0A21064, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-2510192",
@@ -3623,7 +3732,35 @@
       "summary_en": "Piaget reference 2510192, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
+    },
+    {
+      "id": "ref-refg0a43081",
+      "name_en": "REF.G0A43081",
+      "name_ja": "ポセション REF.G0A43081",
+      "reference": "REF.G0A43081",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 892882,
+      "searchKeywordJa": "ピアジェ REF.G0A43081",
+      "searchKeywordEn": "Piaget REF.G0A43081",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ピアジェの型番REF.G0A43081。市場で4件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Piaget reference REF.G0A43081, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 4,
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-13603",
@@ -3651,7 +3788,7 @@
       "summary_en": "Piaget reference 13603, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-15978",
@@ -3679,7 +3816,7 @@
       "summary_en": "Piaget reference 15978, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-p10175",
@@ -3707,7 +3844,63 @@
       "summary_en": "Piaget reference P10175, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
+    },
+    {
+      "id": "ref-goa33069",
+      "name_en": "GOA33069",
+      "name_ja": "ブラックタイ エンペラドール GOA33069",
+      "reference": "GOA33069",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 1140700,
+      "searchKeywordJa": "ピアジェ GOA33069",
+      "searchKeywordEn": "Piaget GOA33069",
+      "caseMaterial": "white-gold",
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ピアジェの型番GOA33069。市場で4件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Piaget reference GOA33069, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 4,
+      "lastSeen": "2026-10-13"
+    },
+    {
+      "id": "ref-p10570",
+      "name_en": "P10570",
+      "name_ja": "ブラックタイ エンペラドール P10570",
+      "reference": "P10570",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 1140700,
+      "searchKeywordJa": "ピアジェ P10570",
+      "searchKeywordEn": "Piaget P10570",
+      "caseMaterial": "white-gold",
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ピアジェの型番P10570。市場で4件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Piaget reference P10570, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 4,
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-g0a44282",
@@ -3735,7 +3928,7 @@
       "summary_en": "Piaget reference G0A44282, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-goa43084",
@@ -3763,7 +3956,7 @@
       "summary_en": "Piaget reference GOA43084, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-90564k81",
@@ -3791,7 +3984,7 @@
       "summary_en": "Piaget reference 90564K81, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-8066k61",
@@ -3819,7 +4012,7 @@
       "summary_en": "Piaget reference 8066K61, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-g0a42048",
@@ -3847,7 +4040,7 @@
       "summary_en": "Piaget reference G0A42048, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-p11342",
@@ -3875,7 +4068,7 @@
       "summary_en": "Piaget reference P11342, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-goa32101",
@@ -3903,7 +4096,7 @@
       "summary_en": "Piaget reference GOA32101, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-g0a08600",
@@ -3931,7 +4124,7 @@
       "summary_en": "Piaget reference G0A08600, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-goa44096",
@@ -3959,7 +4152,7 @@
       "summary_en": "Piaget reference GOA44096, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-18k750wg",
@@ -3987,7 +4180,7 @@
       "summary_en": "Piaget reference 18K/750/WG, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-541039",
@@ -4015,7 +4208,7 @@
       "summary_en": "Piaget reference 541039, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-16370",
@@ -4043,7 +4236,7 @@
       "summary_en": "Piaget reference 16370, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-9066d23",
@@ -4071,7 +4264,7 @@
       "summary_en": "Piaget reference 9066D23, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-p11375g0a42050",
@@ -4099,7 +4292,7 @@
       "summary_en": "Piaget reference P11375/G0A42050, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-90256c626",
@@ -4127,7 +4320,7 @@
       "summary_en": "Piaget reference 90256C626, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-p11054g0a39125",
@@ -4155,7 +4348,35 @@
       "summary_en": "Piaget reference P11054/G0A39125, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
+    },
+    {
+      "id": "ref-ref27050",
+      "name_en": "REF.27050",
+      "name_ja": "アップストリーム オートマ REF.27050",
+      "reference": "REF.27050",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 457300,
+      "searchKeywordJa": "ピアジェ REF.27050",
+      "searchKeywordEn": "Piaget REF.27050",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ピアジェの型番REF.27050。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Piaget reference REF.27050, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-8193",
@@ -4183,7 +4404,7 @@
       "summary_en": "Piaget reference 8193, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-p10001",
@@ -4211,7 +4432,7 @@
       "summary_en": "Piaget reference P10001, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-15968575",
@@ -4239,7 +4460,7 @@
       "summary_en": "Piaget reference 15968/575, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-t11711836",
@@ -4267,7 +4488,7 @@
       "summary_en": "Piaget reference T11711836, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-54025",
@@ -4295,7 +4516,7 @@
       "summary_en": "Piaget reference 54025, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-p10866",
@@ -4323,7 +4544,7 @@
       "summary_en": "Piaget reference P10866, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-8154n",
@@ -4351,7 +4572,35 @@
       "summary_en": "Piaget reference 8154N, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
+    },
+    {
+      "id": "ref-p10040",
+      "name_en": "P10040",
+      "name_ja": "ノーメンテナンス エンペラドール P10040",
+      "reference": "P10040",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 867510,
+      "searchKeywordJa": "ピアジェ P10040",
+      "searchKeywordEn": "Piaget P10040",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ピアジェの型番P10040。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Piaget reference P10040, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-80563",
@@ -4379,7 +4628,7 @@
       "summary_en": "Piaget reference 80563, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-goa29131",
@@ -4407,7 +4656,7 @@
       "summary_en": "Piaget reference GOA29131, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-41545",
@@ -4435,7 +4684,7 @@
       "summary_en": "Piaget reference 41545, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-5354m601d",
@@ -4463,7 +4712,7 @@
       "summary_en": "Piaget reference 5354M601D, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-15123k81",
@@ -4476,7 +4725,7 @@
       "movementType": "quartz",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 1387710,
+      "priceFloorJpy": 1318350,
       "searchKeywordJa": "ピアジェ 15123K81",
       "searchKeywordEn": "Piaget 15123K81",
       "caseMaterial": null,
@@ -4491,7 +4740,7 @@
       "summary_en": "Piaget reference 15123K81, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-9066",
@@ -4519,7 +4768,7 @@
       "summary_en": "Piaget reference 9066, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-16040m407d",
@@ -4547,7 +4796,7 @@
       "summary_en": "Piaget reference 16040M407D, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-p10318",
@@ -4575,7 +4824,7 @@
       "summary_en": "Piaget reference P10318, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-94024nk81",
@@ -4603,7 +4852,7 @@
       "summary_en": "Piaget reference 94024NK81, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-1282g",
@@ -4631,7 +4880,7 @@
       "summary_en": "Piaget reference 128.2G, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-91577c577",
@@ -4659,7 +4908,7 @@
       "summary_en": "Piaget reference 91577C577, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-1146g",
@@ -4687,7 +4936,7 @@
       "summary_en": "Piaget reference 114.6G, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-p10140",
@@ -4715,7 +4964,7 @@
       "summary_en": "Piaget reference P10140, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-ggp98014",
@@ -4743,7 +4992,7 @@
       "summary_en": "Piaget reference GGP98014, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-83541c626",
@@ -4771,7 +5020,147 @@
       "summary_en": "Piaget reference 83541C626, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
+    },
+    {
+      "id": "ref-ref9403",
+      "name_en": "REF.9403",
+      "name_ja": "ヴィンテージ REF.9403",
+      "reference": "REF.9403",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "manual",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 3412750,
+      "searchKeywordJa": "ピアジェ REF.9403",
+      "searchKeywordEn": "Piaget REF.9403",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ピアジェの型番REF.9403。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Piaget reference REF.9403, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
+      "lastSeen": "2026-10-13"
+    },
+    {
+      "id": "ref-g0a46023",
+      "name_en": "G0A46023",
+      "name_ja": "G0A46023",
+      "reference": "G0A46023",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 3492072,
+      "searchKeywordJa": "ピアジェ G0A46023",
+      "searchKeywordEn": "Piaget G0A46023",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ピアジェの型番G0A46023。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Piaget reference G0A46023, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
+      "lastSeen": "2026-10-13"
+    },
+    {
+      "id": "ref-7131c516",
+      "name_en": "7131C516",
+      "name_ja": "エンペラドール 7131C516",
+      "reference": "7131C516",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 4114000,
+      "searchKeywordJa": "ピアジェ 7131C516",
+      "searchKeywordEn": "Piaget 7131C516",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ピアジェの型番7131C516。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Piaget reference 7131C516, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
+      "lastSeen": "2026-10-13"
+    },
+    {
+      "id": "ref-4a003722",
+      "name_en": "4A003722",
+      "name_ja": "エンペラドール 4A003722",
+      "reference": "4A003722",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 4114000,
+      "searchKeywordJa": "ピアジェ 4A003722",
+      "searchKeywordEn": "Piaget 4A003722",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ピアジェの型番4A003722。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Piaget reference 4A003722, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
+      "lastSeen": "2026-10-13"
+    },
+    {
+      "id": "ref-14257g",
+      "name_en": "142.57G",
+      "name_ja": "エンペラドール 142.57G",
+      "reference": "142.57G",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 4114000,
+      "searchKeywordJa": "ピアジェ 142.57G",
+      "searchKeywordEn": "Piaget 142.57G",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ピアジェの型番142.57G。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Piaget reference 142.57G, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-7038",
@@ -4799,7 +5188,7 @@
       "summary_en": "Piaget reference 7038, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-0002420920",
@@ -4827,7 +5216,7 @@
       "summary_en": "Piaget reference 0002420-920, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-534427",
@@ -4855,7 +5244,7 @@
       "summary_en": "Piaget reference 534427, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-80463",
@@ -4883,7 +5272,7 @@
       "summary_en": "Piaget reference 80463, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-16241",
@@ -4911,7 +5300,7 @@
       "summary_en": "Piaget reference 16241, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-abcq32864",
@@ -4939,7 +5328,7 @@
       "summary_en": "Piaget reference ABCQ32864, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-202105",
@@ -4967,7 +5356,7 @@
       "summary_en": "Piaget reference 2021/05, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-4642",
@@ -4995,7 +5384,7 @@
       "summary_en": "Piaget reference 4642, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-83684",
@@ -5023,7 +5412,7 @@
       "summary_en": "Piaget reference 83684, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-8005",
@@ -5051,7 +5440,7 @@
       "summary_en": "Piaget reference 8005, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-9005",
@@ -5079,7 +5468,91 @@
       "summary_en": "Piaget reference 9005, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
+    },
+    {
+      "id": "ref-92538",
+      "name_en": "92538",
+      "name_ja": "ブラックタイエスペラドー 92538",
+      "reference": "92538",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "manual",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 523260,
+      "searchKeywordJa": "ピアジェ 92538",
+      "searchKeywordEn": "Piaget 92538",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ピアジェの型番92538。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Piaget reference 92538, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-10-13"
+    },
+    {
+      "id": "ref-ref9251",
+      "name_en": "REF.9251",
+      "name_ja": "トノー イエローゴールド REF.9251",
+      "reference": "REF.9251",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 732615,
+      "searchKeywordJa": "ピアジェ REF.9251",
+      "searchKeywordEn": "Piaget REF.9251",
+      "caseMaterial": "yellow-gold",
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ピアジェの型番REF.9251。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Piaget reference REF.9251, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-10-13"
+    },
+    {
+      "id": "ref-ref90802",
+      "name_en": "REF.90802",
+      "name_ja": "ヴィンテージ REF.90802",
+      "reference": "REF.90802",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "manual",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 820930,
+      "searchKeywordJa": "ピアジェ REF.90802",
+      "searchKeywordEn": "Piaget REF.90802",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ピアジェの型番REF.90802。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Piaget reference REF.90802, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-17241",
@@ -5107,7 +5580,7 @@
       "summary_en": "Piaget reference 17241, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-9952",
@@ -5135,7 +5608,35 @@
       "summary_en": "Piaget reference 9952, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
+    },
+    {
+      "id": "ref-ref90952",
+      "name_en": "REF.90952",
+      "name_ja": "ラシェンヌ ナンバードエディション REF.90952",
+      "reference": "REF.90952",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "manual",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 1179800,
+      "searchKeywordJa": "ピアジェ REF.90952",
+      "searchKeywordEn": "Piaget REF.90952",
+      "caseMaterial": "yellow-gold",
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ピアジェの型番REF.90952。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Piaget reference REF.90952, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-90952",
@@ -5163,7 +5664,35 @@
       "summary_en": "Piaget reference 90952, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
+    },
+    {
+      "id": "ref-ref9802d2",
+      "name_en": "REF.9802D2",
+      "name_ja": "トラディション エクストリームリー REF.9802D2",
+      "reference": "REF.9802D2",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 1613300,
+      "searchKeywordJa": "ピアジェ REF.9802D2",
+      "searchKeywordEn": "Piaget REF.9802D2",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ピアジェの型番REF.9802D2。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Piaget reference REF.9802D2, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-6328g",
@@ -5191,7 +5720,7 @@
       "summary_en": "Piaget reference 63.28G, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-9805",
@@ -5219,119 +5748,7 @@
       "summary_en": "Piaget reference 9805, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-12"
-    },
-    {
-      "id": "ref-9007d2b",
-      "name_en": "9007D2B",
-      "name_ja": "トラディション 9007D2B",
-      "reference": "9007D2B",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": 25,
-      "movementType": "manual",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 1514700,
-      "searchKeywordJa": "ピアジェ 9007D2B",
-      "searchKeywordEn": "Piaget 9007D2B",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ピアジェの型番9007D2B。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Piaget reference 9007D2B, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-10-12"
-    },
-    {
-      "id": "ref-4a001798",
-      "name_en": "4A001798",
-      "name_ja": "オクタゴナル オニキス 4A001798",
-      "reference": "4A001798",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "manual",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 1496000,
-      "searchKeywordJa": "ピアジェ 4A001798",
-      "searchKeywordEn": "Piaget 4A001798",
-      "caseMaterial": "white-gold",
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ピアジェの型番4A001798。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Piaget reference 4A001798, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-10-12"
-    },
-    {
-      "id": "ref-93401",
-      "name_en": "93401",
-      "name_ja": "オクタゴナル オニキス 93401",
-      "reference": "93401",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "manual",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 1496000,
-      "searchKeywordJa": "ピアジェ 93401",
-      "searchKeywordEn": "Piaget 93401",
-      "caseMaterial": "white-gold",
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ピアジェの型番93401。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Piaget reference 93401, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-10-12"
-    },
-    {
-      "id": "ref-2678g",
-      "name_en": "26.78G",
-      "name_ja": "オクタゴナル オニキス 26.78G",
-      "reference": "26.78G",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "manual",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 1496000,
-      "searchKeywordJa": "ピアジェ 26.78G",
-      "searchKeywordEn": "Piaget 26.78G",
-      "caseMaterial": "white-gold",
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ピアジェの型番26.78G。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Piaget reference 26.78G, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-147962",
@@ -5359,7 +5776,7 @@
       "summary_en": "Piaget reference 147962, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-924d23",
@@ -5387,22 +5804,106 @@
       "summary_en": "Piaget reference 924D23, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
-      "id": "ref-83225",
-      "name_en": "83225",
-      "name_ja": "トラディション 83225",
-      "reference": "83225",
+      "id": "ref-4a001798",
+      "name_en": "4A001798",
+      "name_ja": "オクタゴナル オニキス 4A001798",
+      "reference": "4A001798",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
-      "movementType": null,
+      "movementType": "manual",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 1677900,
-      "searchKeywordJa": "ピアジェ 83225",
-      "searchKeywordEn": "Piaget 83225",
+      "priceFloorJpy": 1496000,
+      "searchKeywordJa": "ピアジェ 4A001798",
+      "searchKeywordEn": "Piaget 4A001798",
+      "caseMaterial": "white-gold",
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ピアジェの型番4A001798。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Piaget reference 4A001798, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-10-13"
+    },
+    {
+      "id": "ref-93401",
+      "name_en": "93401",
+      "name_ja": "オクタゴナル オニキス 93401",
+      "reference": "93401",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "manual",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 1496000,
+      "searchKeywordJa": "ピアジェ 93401",
+      "searchKeywordEn": "Piaget 93401",
+      "caseMaterial": "white-gold",
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ピアジェの型番93401。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Piaget reference 93401, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-10-13"
+    },
+    {
+      "id": "ref-2678g",
+      "name_en": "26.78G",
+      "name_ja": "オクタゴナル オニキス 26.78G",
+      "reference": "26.78G",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "manual",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 1496000,
+      "searchKeywordJa": "ピアジェ 26.78G",
+      "searchKeywordEn": "Piaget 26.78G",
+      "caseMaterial": "white-gold",
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ピアジェの型番26.78G。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Piaget reference 26.78G, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-10-13"
+    },
+    {
+      "id": "ref-9007d2b",
+      "name_en": "9007D2B",
+      "name_ja": "トラディション 9007D2B",
+      "reference": "9007D2B",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": 25,
+      "movementType": "manual",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 1514700,
+      "searchKeywordJa": "ピアジェ 9007D2B",
+      "searchKeywordEn": "Piaget 9007D2B",
       "caseMaterial": null,
       "waterResistanceM": null,
       "gender": "ladies",
@@ -5411,11 +5912,11 @@
         "sport"
       ],
       "popular": false,
-      "summary_ja": "ピアジェの型番83225。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Piaget reference 83225, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ピアジェの型番9007D2B。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Piaget reference 9007D2B, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-9706g2",
@@ -5443,35 +5944,35 @@
       "summary_en": "Piaget reference 9706G2, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
-      "id": "ref-9578",
-      "name_en": "9578",
-      "name_ja": "レジェンドヘキサゴンウォ マラカイト 9578",
-      "reference": "9578",
+      "id": "ref-83225",
+      "name_en": "83225",
+      "name_ja": "トラディション 83225",
+      "reference": "83225",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
       "movementType": null,
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 2113100,
-      "searchKeywordJa": "ピアジェ 9578",
-      "searchKeywordEn": "Piaget 9578",
-      "caseMaterial": "white-gold",
+      "priceFloorJpy": 1677900,
+      "searchKeywordJa": "ピアジェ 83225",
+      "searchKeywordEn": "Piaget 83225",
+      "caseMaterial": null,
       "waterResistanceM": null,
-      "gender": "mens",
+      "gender": "ladies",
       "releaseYear": null,
       "tags": [
         "sport"
       ],
       "popular": false,
-      "summary_ja": "ピアジェの型番9578。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Piaget reference 9578, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ピアジェの型番83225。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Piaget reference 83225, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-9065d2",
@@ -5499,7 +6000,7 @@
       "summary_en": "Piaget reference 9065D2, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-90563k81",
@@ -5527,7 +6028,7 @@
       "summary_en": "Piaget reference 90563K81, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-9401a6",
@@ -5555,7 +6056,7 @@
       "summary_en": "Piaget reference 9401A6, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-9826d2",
@@ -5583,7 +6084,35 @@
       "summary_en": "Piaget reference 9826D2, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
+    },
+    {
+      "id": "ref-ref9731d2",
+      "name_en": "REF.9731D2",
+      "name_ja": "ヴィンテージ REF.9731D2",
+      "reference": "REF.9731D2",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "manual",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 3272500,
+      "searchKeywordJa": "ピアジェ REF.9731D2",
+      "searchKeywordEn": "Piaget REF.9731D2",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ピアジェの型番REF.9731D2。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Piaget reference REF.9731D2, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-15201c626",
@@ -5611,7 +6140,7 @@
       "summary_en": "Piaget reference 15201C626, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-19719",
@@ -5639,7 +6168,7 @@
       "summary_en": "Piaget reference 19719, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-9633a68n",
@@ -5667,7 +6196,7 @@
       "summary_en": "Piaget reference 9633A68N, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-4a001785",
@@ -5695,7 +6224,7 @@
       "summary_en": "Piaget reference 4A001785, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-9017g",
@@ -5723,7 +6252,7 @@
       "summary_en": "Piaget reference 90.17G, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-9771",
@@ -5751,7 +6280,7 @@
       "summary_en": "Piaget reference 9771, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-99045a68",
@@ -5779,7 +6308,7 @@
       "summary_en": "Piaget reference 99045A68, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-8401c626",
@@ -5807,7 +6336,7 @@
       "summary_en": "Piaget reference 8401C626, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-50015k835",
@@ -5835,7 +6364,7 @@
       "summary_en": "Piaget reference 50015K835, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-g34pj949",
@@ -5863,7 +6392,7 @@
       "summary_en": "Piaget reference G34PJ949, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-g34p7k60",
@@ -5891,7 +6420,7 @@
       "summary_en": "Piaget reference G34P7K60, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-g36pc800",
@@ -5919,7 +6448,7 @@
       "summary_en": "Piaget reference G36PC800, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-k18750yg",
@@ -5947,7 +6476,7 @@
       "summary_en": "Piaget reference K18/750/YG, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-14015",
@@ -5975,7 +6504,7 @@
       "summary_en": "Piaget reference 14015, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-3816e",
@@ -6003,22 +6532,22 @@
       "summary_en": "Piaget reference 3816E, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
-      "id": "ref-4a003721",
-      "name_en": "4A003721",
-      "name_ja": "4A003721",
-      "reference": "4A003721",
+      "id": "ref-ref13344",
+      "name_en": "REF.13344",
+      "name_ja": "REF.13344",
+      "reference": "REF.13344",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
-      "movementType": "manual",
+      "movementType": null,
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 2057000,
-      "searchKeywordJa": "ピアジェ 4A003721",
-      "searchKeywordEn": "Piaget 4A003721",
+      "priceFloorJpy": 850510,
+      "searchKeywordJa": "ピアジェ REF.13344",
+      "searchKeywordEn": "Piaget REF.13344",
       "caseMaterial": null,
       "waterResistanceM": null,
       "gender": "unisex",
@@ -6027,67 +6556,11 @@
         "sport"
       ],
       "popular": false,
-      "summary_ja": "ピアジェの型番4A003721。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Piaget reference 4A003721, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ピアジェの型番REF.13344。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Piaget reference REF.13344, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-12"
-    },
-    {
-      "id": "ref-3169g",
-      "name_en": "31.69G",
-      "name_ja": "31.69G",
-      "reference": "31.69G",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "manual",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 2057000,
-      "searchKeywordJa": "ピアジェ 31.69G",
-      "searchKeywordEn": "Piaget 31.69G",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ピアジェの型番31.69G。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Piaget reference 31.69G, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-10-12"
-    },
-    {
-      "id": "ref-9802",
-      "name_en": "9802",
-      "name_ja": "9802",
-      "reference": "9802",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "manual",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 2057000,
-      "searchKeywordJa": "ピアジェ 9802",
-      "searchKeywordEn": "Piaget 9802",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ピアジェの型番9802。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Piaget reference 9802, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-9902",
@@ -6115,7 +6588,7 @@
       "summary_en": "Piaget reference 9902, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-147695",
@@ -6143,7 +6616,119 @@
       "summary_en": "Piaget reference 147695, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
+    },
+    {
+      "id": "ref-4a003721",
+      "name_en": "4A003721",
+      "name_ja": "4A003721",
+      "reference": "4A003721",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "manual",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 2057000,
+      "searchKeywordJa": "ピアジェ 4A003721",
+      "searchKeywordEn": "Piaget 4A003721",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ピアジェの型番4A003721。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Piaget reference 4A003721, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-10-13"
+    },
+    {
+      "id": "ref-3169g",
+      "name_en": "31.69G",
+      "name_ja": "31.69G",
+      "reference": "31.69G",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "manual",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 2057000,
+      "searchKeywordJa": "ピアジェ 31.69G",
+      "searchKeywordEn": "Piaget 31.69G",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ピアジェの型番31.69G。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Piaget reference 31.69G, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-10-13"
+    },
+    {
+      "id": "ref-9802",
+      "name_en": "9802",
+      "name_ja": "9802",
+      "reference": "9802",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "manual",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 2057000,
+      "searchKeywordJa": "ピアジェ 9802",
+      "searchKeywordEn": "Piaget 9802",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ピアジェの型番9802。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Piaget reference 9802, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-10-13"
+    },
+    {
+      "id": "ref-9578",
+      "name_en": "9578",
+      "name_ja": "9578",
+      "reference": "9578",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 2113100,
+      "searchKeywordJa": "ピアジェ 9578",
+      "searchKeywordEn": "Piaget 9578",
+      "caseMaterial": "white-gold",
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ピアジェの型番9578。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Piaget reference 9578, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-900319b11",
@@ -6171,7 +6756,7 @@
       "summary_en": "Piaget reference 900319B11, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-14485",
@@ -6199,7 +6784,7 @@
       "summary_en": "Piaget reference 14485, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-9131c111",
@@ -6227,7 +6812,7 @@
       "summary_en": "Piaget reference 9131.C111, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-2610023",
@@ -6255,35 +6840,7 @@
       "summary_en": "Piaget reference 2610023, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-12"
-    },
-    {
-      "id": "ref-g36u4100",
-      "name_en": "G36U4100",
-      "name_ja": "G36U4100",
-      "reference": "G36U4100",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 150000,
-      "searchKeywordJa": "ピアジェ G36U4100",
-      "searchKeywordEn": "Piaget G36U4100",
-      "caseMaterial": "rose-gold",
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ピアジェの型番G36U4100。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Piaget reference G36U4100, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-g34p5m00",
@@ -6311,7 +6868,7 @@
       "summary_en": "Piaget reference G34P5M00, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-g34p8m50",
@@ -6339,7 +6896,7 @@
       "summary_en": "Piaget reference G34P8M50, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-h111726807",
@@ -6367,7 +6924,7 @@
       "summary_en": "Piaget reference H111726807, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-g34pq600",
@@ -6395,7 +6952,7 @@
       "summary_en": "Piaget reference G34PQ600, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-g34j0351",
@@ -6423,7 +6980,7 @@
       "summary_en": "Piaget reference G34J0351, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-g34p7d00",
@@ -6451,7 +7008,7 @@
       "summary_en": "Piaget reference G34P7D00, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-g34pv600",
@@ -6479,7 +7036,7 @@
       "summary_en": "Piaget reference G34PV600, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-g0a25014",
@@ -6507,7 +7064,7 @@
       "summary_en": "Piaget reference G0A25014, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-148535",
@@ -6535,7 +7092,7 @@
       "summary_en": "Piaget reference 148535, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-149960",
@@ -6563,7 +7120,7 @@
       "summary_en": "Piaget reference 149960, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-750wg750pg",
@@ -6591,7 +7148,7 @@
       "summary_en": "Piaget reference 750WG/750PG, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-g34ux700",
@@ -6619,7 +7176,7 @@
       "summary_en": "Piaget reference G34UX700, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-0iz9piau0001",
@@ -6647,7 +7204,7 @@
       "summary_en": "Piaget reference 0IZ9PIAU0001, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-g34pk155",
@@ -6675,7 +7232,7 @@
       "summary_en": "Piaget reference G34PK155, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-g34pu600",
@@ -6703,7 +7260,7 @@
       "summary_en": "Piaget reference G34PU600, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-909049",
@@ -6731,7 +7288,7 @@
       "summary_en": "Piaget reference 909049, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-909378",
@@ -6759,7 +7316,7 @@
       "summary_en": "Piaget reference 909378, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-gda38131",
@@ -6787,7 +7344,7 @@
       "summary_en": "Piaget reference GDA38131, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-p10918",
@@ -6815,7 +7372,7 @@
       "summary_en": "Piaget reference P10918, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-0ixapiau0001",
@@ -6843,7 +7400,7 @@
       "summary_en": "Piaget reference 0IXAPIAU0001, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-p10345",
@@ -6871,7 +7428,7 @@
       "summary_en": "Piaget reference P10345, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-p10724g0a3513",
@@ -6899,7 +7456,35 @@
       "summary_en": "Piaget reference P10724/G0A3513, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
+    },
+    {
+      "id": "ref-0gqkpiau0001",
+      "name_en": "0GQKPIAU0001",
+      "name_ja": "0GQKPIAU0001",
+      "reference": "0GQKPIAU0001",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 1258000,
+      "searchKeywordJa": "ピアジェ 0GQKPIAU0001",
+      "searchKeywordEn": "Piaget 0GQKPIAU0001",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ピアジェの型番0GQKPIAU0001。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Piaget reference 0GQKPIAU0001, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-24010",
@@ -6927,7 +7512,7 @@
       "summary_en": "Piaget reference 24010, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-198059",
@@ -6955,7 +7540,7 @@
       "summary_en": "Piaget reference 198059, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-905720",
@@ -6983,7 +7568,7 @@
       "summary_en": "Piaget reference 905720, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-909600",
@@ -7011,7 +7596,7 @@
       "summary_en": "Piaget reference 909600, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-901018",
@@ -7039,7 +7624,7 @@
       "summary_en": "Piaget reference 901018, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-1282",
@@ -7067,6 +7652,34 @@
       "summary_en": "Piaget reference 128.2, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
+      "lastSeen": "2026-10-13"
+    },
+    {
+      "id": "ref-g36u4100",
+      "name_en": "G36U4100",
+      "name_ja": "G36U4100",
+      "reference": "G36U4100",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 150000,
+      "searchKeywordJa": "ピアジェ G36U4100",
+      "searchKeywordEn": "Piaget G36U4100",
+      "caseMaterial": "rose-gold",
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ピアジェの型番G36U4100。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Piaget reference G36U4100, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 0,
       "lastSeen": "2026-10-12"
     },
     {
