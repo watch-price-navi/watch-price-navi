@@ -1,6 +1,6 @@
 {
   "brandId": "ulysse-nardin",
-  "generatedAt": "2026-10-13T05:10:54.862Z",
+  "generatedAt": "2026-10-13T19:26:49.649Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -1271,6 +1271,34 @@
       "popular": false,
       "summary_ja": "ユリス・ナルダンの型番4000。市場で1件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Ulysse Nardin reference 4000, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-10-13"
+    },
+    {
+      "id": "ref-20322",
+      "name_en": "203-22",
+      "name_ja": "203-22",
+      "reference": "203-22",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 217260,
+      "searchKeywordJa": "ユリス・ナルダン 203-22",
+      "searchKeywordEn": "Ulysse Nardin 203-22",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "gmt"
+      ],
+      "popular": false,
+      "summary_ja": "ユリス・ナルダンの型番203-22。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ulysse Nardin reference 203-22, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
       "lastSeen": "2026-10-13"
@@ -2625,34 +2653,6 @@
       "popular": false,
       "summary_ja": "ユリス・ナルダンの型番36000。市場で4件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Ulysse Nardin reference 36000, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 0,
-      "lastSeen": "2026-08-16"
-    },
-    {
-      "id": "ref-20322",
-      "name_en": "203-22",
-      "name_ja": "サンマルコ 203-22",
-      "reference": "203-22",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 193900,
-      "searchKeywordJa": "ユリス・ナルダン 203-22",
-      "searchKeywordEn": "Ulysse Nardin 203-22",
-      "caseMaterial": "yellow-gold",
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "gmt"
-      ],
-      "popular": false,
-      "summary_ja": "ユリス・ナルダンの型番203-22。市場で4件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Ulysse Nardin reference 203-22, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 0,
       "lastSeen": "2026-08-16"
