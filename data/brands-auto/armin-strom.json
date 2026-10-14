@@ -1,12 +1,40 @@
 {
   "brandId": "armin-strom",
-  "generatedAt": "2026-10-14T00:25:19.899Z",
+  "generatedAt": "2026-10-14T14:34:49.447Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
+      "id": "ref-st21tri90",
+      "name_en": "ST21-TRI.90",
+      "name_ja": "アーミン シュトローム ST21-TRI.90",
+      "reference": "ST21-TRI.90",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 1564000,
+      "searchKeywordJa": "アーミン・シュトローム ST21-TRI.90",
+      "searchKeywordEn": "Armin Strom ST21-TRI.90",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "アーミン・シュトロームの型番ST21-TRI.90。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Armin Strom reference ST21-TRI.90, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-10-14"
+    },
+    {
       "id": "ref-30000",
       "name_en": "30000",
-      "name_ja": "アーミン シュトローム 30000",
+      "name_ja": "30000",
       "reference": "30000",
       "collection_en": null,
       "collection_ja": null,
@@ -25,10 +53,10 @@
         "limited-edition"
       ],
       "popular": false,
-      "summary_ja": "アーミン・シュトロームの型番30000。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "アーミン・シュトロームの型番30000。市場で1件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Armin Strom reference 30000, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 3,
+      "listingCount": 1,
       "lastSeen": "2026-10-14"
     },
     {
@@ -56,35 +84,7 @@
       "summary_ja": "アーミン・シュトロームの型番ST22-OR.90。市場で3件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Armin Strom reference ST22-OR.90, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 3,
-      "lastSeen": "2026-10-14"
-    },
-    {
-      "id": "ref-st21tri90",
-      "name_en": "ST21-TRI.90",
-      "name_ja": "アーミン シュトローム ST21-TRI.90",
-      "reference": "ST21-TRI.90",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 1564000,
-      "searchKeywordJa": "アーミン・シュトローム ST21-TRI.90",
-      "searchKeywordEn": "Armin Strom ST21-TRI.90",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "limited-edition"
-      ],
-      "popular": false,
-      "summary_ja": "アーミン・シュトロームの型番ST21-TRI.90。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Armin Strom reference ST21-TRI.90, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
+      "listingCount": 0,
       "lastSeen": "2026-10-14"
     }
   ]

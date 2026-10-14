@@ -1,6 +1,6 @@
 {
   "brandId": "muhle-glashutte",
-  "generatedAt": "2026-10-14T01:54:53.394Z",
+  "generatedAt": "2026-10-14T16:06:45.368Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -98,7 +98,7 @@
       "movementType": null,
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 212500,
+      "priceFloorJpy": 191250,
       "searchKeywordJa": "ミューレ・グラスヒュッテ 30000",
       "searchKeywordEn": "Mühle-Glashütte 30000",
       "caseMaterial": null,
@@ -110,10 +110,10 @@
         "gmt"
       ],
       "popular": false,
-      "summary_ja": "ミューレ・グラスヒュッテの型番30000。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "ミューレ・グラスヒュッテの型番30000。市場で4件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Mühle-Glashütte reference 30000, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 3,
+      "listingCount": 4,
       "lastSeen": "2026-10-14"
     },
     {
@@ -142,6 +142,34 @@
       "summary_en": "Mühle-Glashütte reference M1-44-43-LB, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
+      "lastSeen": "2026-10-14"
+    },
+    {
+      "id": "ref-m14103kb",
+      "name_en": "M1-41-03-KB",
+      "name_ja": "レスキュータイマー M1-41-03-KB",
+      "reference": "M1-41-03-KB",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 191250,
+      "searchKeywordJa": "ミューレ・グラスヒュッテ M1-41-03-KB",
+      "searchKeywordEn": "Mühle-Glashütte M1-41-03-KB",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ミューレ・グラスヒュッテの型番M1-41-03-KB。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Mühle-Glashütte reference M1-41-03-KB, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
       "lastSeen": "2026-10-14"
     },
     {
@@ -397,34 +425,6 @@
       "lastSeen": "2026-10-14"
     },
     {
-      "id": "ref-m14075mb2",
-      "name_en": "M1-40-75-MB2",
-      "name_ja": "M1-40-75-MB2",
-      "reference": "M1-40-75-MB2",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 150000,
-      "searchKeywordJa": "ミューレ・グラスヒュッテ M1-40-75-MB2",
-      "searchKeywordEn": "Mühle-Glashütte M1-40-75-MB2",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ミューレ・グラスヒュッテの型番M1-40-75-MB2。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Mühle-Glashütte reference M1-40-75-MB2, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-10-14"
-    },
-    {
       "id": "ref-m137374lb",
       "name_en": "M1-37-37/4LB",
       "name_ja": "M1-37-37/4LB",
@@ -448,6 +448,34 @@
       "popular": false,
       "summary_ja": "ミューレ・グラスヒュッテの型番M1-37-37/4LB。市場で1件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Mühle-Glashütte reference M1-37-37/4LB, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-10-14"
+    },
+    {
+      "id": "ref-m14075mb2",
+      "name_en": "M1-40-75-MB2",
+      "name_ja": "M1-40-75-MB2",
+      "reference": "M1-40-75-MB2",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 150000,
+      "searchKeywordJa": "ミューレ・グラスヒュッテ M1-40-75-MB2",
+      "searchKeywordEn": "Mühle-Glashütte M1-40-75-MB2",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ミューレ・グラスヒュッテの型番M1-40-75-MB2。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Mühle-Glashütte reference M1-40-75-MB2, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
       "lastSeen": "2026-10-14"
@@ -481,34 +509,6 @@
       "lastSeen": "2026-10-14"
     },
     {
-      "id": "ref-m14072mb2",
-      "name_en": "M1-40-72-MB2",
-      "name_ja": "M1-40-72-MB2",
-      "reference": "M1-40-72-MB2",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 150000,
-      "searchKeywordJa": "ミューレ・グラスヒュッテ M1-40-72-MB2",
-      "searchKeywordEn": "Mühle-Glashütte M1-40-72-MB2",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ミューレ・グラスヒュッテの型番M1-40-72-MB2。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Mühle-Glashütte reference M1-40-72-MB2, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-10-14"
-    },
-    {
       "id": "ref-m12521lb",
       "name_en": "M1-25-21LB",
       "name_ja": "M1-25-21LB",
@@ -532,6 +532,34 @@
       "popular": false,
       "summary_ja": "ミューレ・グラスヒュッテの型番M1-25-21LB。市場で1件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Mühle-Glashütte reference M1-25-21LB, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-10-14"
+    },
+    {
+      "id": "ref-m14072mb2",
+      "name_en": "M1-40-72-MB2",
+      "name_ja": "M1-40-72-MB2",
+      "reference": "M1-40-72-MB2",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 150000,
+      "searchKeywordJa": "ミューレ・グラスヒュッテ M1-40-72-MB2",
+      "searchKeywordEn": "Mühle-Glashütte M1-40-72-MB2",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ミューレ・グラスヒュッテの型番M1-40-72-MB2。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Mühle-Glashütte reference M1-40-72-MB2, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
       "lastSeen": "2026-10-14"
@@ -592,34 +620,6 @@
       "source": "auto",
       "listingCount": 0,
       "lastSeen": "2026-10-10"
-    },
-    {
-      "id": "ref-m14103kb",
-      "name_en": "M1-41-03-KB",
-      "name_ja": "M1-41-03-KB",
-      "reference": "M1-41-03-KB",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 191250,
-      "searchKeywordJa": "ミューレ・グラスヒュッテ M1-41-03-KB",
-      "searchKeywordEn": "Mühle-Glashütte M1-41-03-KB",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ミューレ・グラスヒュッテの型番M1-41-03-KB。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Mühle-Glashütte reference M1-41-03-KB, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 0,
-      "lastSeen": "2026-10-09"
     },
     {
       "id": "ref-m12974lb",
