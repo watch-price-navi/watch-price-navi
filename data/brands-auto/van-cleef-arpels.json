@@ -1,6 +1,6 @@
 {
   "brandId": "van-cleef-arpels",
-  "generatedAt": "2026-10-15T02:37:41.328Z",
+  "generatedAt": "2026-10-15T16:51:45.950Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -452,34 +452,6 @@
       "lastSeen": "2026-10-15"
     },
     {
-      "id": "ref-vcarm95800",
-      "name_en": "VCARM95800",
-      "name_ja": "ヴァンクリーフ アーペル VCARM95800",
-      "reference": "VCARM95800",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 1335180,
-      "searchKeywordJa": "ヴァン クリーフ&アーペル VCARM95800",
-      "searchKeywordEn": "Van Cleef & Arpels VCARM95800",
-      "caseMaterial": "white-gold",
-      "waterResistanceM": null,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ヴァン クリーフ&アーペルの型番VCARM95800。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Van Cleef & Arpels reference VCARM95800, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-10-15"
-    },
-    {
       "id": "ref-122974",
       "name_en": "122974",
       "name_ja": "ヴァンクリーフ アーペル 122974",
@@ -722,7 +694,7 @@
       "gender": "unisex",
       "releaseYear": null,
       "tags": [
-        "limited-edition"
+        "sport"
       ],
       "popular": false,
       "summary_ja": "ヴァン クリーフ&アーペルの型番522363。市場で1件の出品が確認された、実際に流通しているモデルです。",
@@ -918,7 +890,7 @@
       "gender": "unisex",
       "releaseYear": null,
       "tags": [
-        "limited-edition"
+        "sport"
       ],
       "popular": false,
       "summary_ja": "ヴァン クリーフ&アーペルの型番115101。市場で1件の出品が確認された、実際に流通しているモデルです。",
@@ -1175,6 +1147,34 @@
       "popular": false,
       "summary_ja": "ヴァン クリーフ&アーペルの型番18901B1。市場で1件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Van Cleef & Arpels reference 18901B1, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-10-15"
+    },
+    {
+      "id": "ref-vcarm95800",
+      "name_en": "VCARM95800",
+      "name_ja": "VCARM95800",
+      "reference": "VCARM95800",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 1335180,
+      "searchKeywordJa": "ヴァン クリーフ&アーペル VCARM95800",
+      "searchKeywordEn": "Van Cleef & Arpels VCARM95800",
+      "caseMaterial": "white-gold",
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ヴァン クリーフ&アーペルの型番VCARM95800。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Van Cleef & Arpels reference VCARM95800, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
       "lastSeen": "2026-10-15"

@@ -1,6 +1,6 @@
 {
   "brandId": "richard-mille",
-  "generatedAt": "2026-10-15T02:06:43.019Z",
+  "generatedAt": "2026-10-15T16:21:29.722Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -42,7 +42,7 @@
       "movementType": null,
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 58998500,
+      "priceFloorJpy": 46189000,
       "searchKeywordJa": "リシャール・ミル RM11-03",
       "searchKeywordEn": "Richard Mille RM11-03",
       "caseMaterial": null,
@@ -53,10 +53,10 @@
         "limited-edition"
       ],
       "popular": false,
-      "summary_ja": "リシャール・ミルの型番RM11-03。市場で19件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "リシャール・ミルの型番RM11-03。市場で22件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Richard Mille reference RM11-03, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 19,
+      "listingCount": 22,
       "lastSeen": "2026-10-15"
     },
     {
@@ -257,34 +257,6 @@
       "lastSeen": "2026-10-15"
     },
     {
-      "id": "ref-rm7401",
-      "name_en": "RM74-01",
-      "name_ja": "RM74-01",
-      "reference": "RM74-01",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 67830000,
-      "searchKeywordJa": "リシャール・ミル RM74-01",
-      "searchKeywordEn": "Richard Mille RM74-01",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "リシャール・ミルの型番RM74-01。市場で14件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Richard Mille reference RM74-01, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 14,
-      "lastSeen": "2026-10-15"
-    },
-    {
       "id": "ref-rm3001ti",
       "name_en": "RM30-01.TI",
       "name_ja": "オートマティック デクラッチャブル RM30-01.TI",
@@ -308,6 +280,34 @@
       "popular": false,
       "summary_ja": "リシャール・ミルの型番RM30-01.TI。市場で12件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Richard Mille reference RM30-01.TI, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 12,
+      "lastSeen": "2026-10-15"
+    },
+    {
+      "id": "ref-rm7401",
+      "name_en": "RM74-01",
+      "name_ja": "RM74-01",
+      "reference": "RM74-01",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 67830000,
+      "searchKeywordJa": "リシャール・ミル RM74-01",
+      "searchKeywordEn": "Richard Mille RM74-01",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "リシャール・ミルの型番RM74-01。市場で12件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Richard Mille reference RM74-01, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 12,
       "lastSeen": "2026-10-15"
