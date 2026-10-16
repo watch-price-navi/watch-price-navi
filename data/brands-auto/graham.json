@@ -1,6 +1,6 @@
 {
   "brandId": "graham",
-  "generatedAt": "2026-10-16T00:42:10.924Z",
+  "generatedAt": "2026-10-16T14:56:59.071Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -32,6 +32,34 @@
       "lastSeen": "2026-10-16"
     },
     {
+      "id": "ref-2crbsb10al81f",
+      "name_en": "2CRBS.B10A.L81F",
+      "name_ja": "クロノファイター フォートレス 2CRBS.B10A.L81F",
+      "reference": "2CRBS.B10A.L81F",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 254830,
+      "searchKeywordJa": "グラハム 2CRBS.B10A.L81F",
+      "searchKeywordEn": "Graham 2CRBS.B10A.L81F",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "chronograph"
+      ],
+      "popular": false,
+      "summary_ja": "グラハムの型番2CRBS.B10A.L81F。市場で4件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Graham reference 2CRBS.B10A.L81F, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 4,
+      "lastSeen": "2026-10-16"
+    },
+    {
       "id": "ref-30000",
       "name_en": "30000",
       "name_ja": "クロノファイター オーバーサイズ 30000",
@@ -57,34 +85,6 @@
       "summary_en": "Graham reference 30000, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-10-16"
-    },
-    {
-      "id": "ref-8804510",
-      "name_en": "8804510",
-      "name_ja": "クロノファイターオーバー 8804510",
-      "reference": "8804510",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 200000,
-      "searchKeywordJa": "グラハム 8804510",
-      "searchKeywordEn": "Graham 8804510",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "chronograph"
-      ],
-      "popular": false,
-      "summary_ja": "グラハムの型番8804510。市場で3件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Graham reference 8804510, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 3,
       "lastSeen": "2026-10-16"
     },
     {
@@ -256,34 +256,6 @@
       "lastSeen": "2026-10-16"
     },
     {
-      "id": "ref-2crbsb10al81f",
-      "name_en": "2CRBS.B10A.L81F",
-      "name_ja": "クロノファイター フォートレス 2CRBS.B10A.L81F",
-      "reference": "2CRBS.B10A.L81F",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 254830,
-      "searchKeywordJa": "グラハム 2CRBS.B10A.L81F",
-      "searchKeywordEn": "Graham 2CRBS.B10A.L81F",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "chronograph"
-      ],
-      "popular": false,
-      "summary_ja": "グラハムの型番2CRBS.B10A.L81F。市場で3件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Graham reference 2CRBS.B10A.L81F, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 3,
-      "lastSeen": "2026-10-16"
-    },
-    {
       "id": "ref-2cxass01al17s",
       "name_en": "2CXAS.S01A.L17S",
       "name_ja": "クロノファイター デイト 2CXAS.S01A.L17S",
@@ -450,6 +422,62 @@
       "summary_en": "Graham reference 2CVAS.S08A.L155F, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
+      "lastSeen": "2026-10-16"
+    },
+    {
+      "id": "ref-8804510",
+      "name_en": "8804510",
+      "name_ja": "クロノファイターオーバー 8804510",
+      "reference": "8804510",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 200000,
+      "searchKeywordJa": "グラハム 8804510",
+      "searchKeywordEn": "Graham 8804510",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph"
+      ],
+      "popular": false,
+      "summary_ja": "グラハムの型番8804510。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Graham reference 8804510, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-10-16"
+    },
+    {
+      "id": "ref-ref20vasb02al30b",
+      "name_en": "REF.20VAS.B02A.L30B",
+      "name_ja": "クロノファイターオーバー フルブラック REF.20VAS.B02A.L30B",
+      "reference": "REF.20VAS.B02A.L30B",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 222530,
+      "searchKeywordJa": "グラハム REF.20VAS.B02A.L30B",
+      "searchKeywordEn": "Graham REF.20VAS.B02A.L30B",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "chronograph"
+      ],
+      "popular": false,
+      "summary_ja": "グラハムの型番REF.20VAS.B02A.L30B。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Graham reference REF.20VAS.B02A.L30B, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
       "lastSeen": "2026-10-16"
     },
     {
@@ -1055,7 +1083,7 @@
       "movementType": "automatic",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 222904,
+      "priceFloorJpy": 212245,
       "searchKeywordJa": "グラハム 146070",
       "searchKeywordEn": "Graham 146070",
       "caseMaterial": null,

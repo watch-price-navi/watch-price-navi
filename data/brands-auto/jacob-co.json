@@ -1,6 +1,6 @@
 {
   "brandId": "jacob-co",
-  "generatedAt": "2026-10-16T01:02:22.956Z",
+  "generatedAt": "2026-10-16T15:17:14.214Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -595,34 +595,6 @@
       "lastSeen": "2026-10-16"
     },
     {
-      "id": "ref-j2017",
-      "name_en": "J2017",
-      "name_ja": "ジョーロデオ J2017",
-      "reference": "J2017",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 566865,
-      "searchKeywordJa": "ジェイコブ J2017",
-      "searchKeywordEn": "Jacob & Co. J2017",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ジェイコブの型番J2017。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Jacob & Co. reference J2017, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-10-16"
-    },
-    {
       "id": "ref-j2020",
       "name_en": "J2020",
       "name_ja": "ジョーロデオ J2020",
@@ -646,6 +618,34 @@
       "popular": false,
       "summary_ja": "ジェイコブの型番J2020。市場で1件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Jacob & Co. reference J2020, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-10-16"
+    },
+    {
+      "id": "ref-j2017",
+      "name_en": "J2017",
+      "name_ja": "ジョーロデオ J2017",
+      "reference": "J2017",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 566865,
+      "searchKeywordJa": "ジェイコブ J2017",
+      "searchKeywordEn": "Jacob & Co. J2017",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ジェイコブの型番J2017。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Jacob & Co. reference J2017, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
       "lastSeen": "2026-10-16"
