@@ -1,6 +1,6 @@
 {
   "brandId": "bovet",
-  "generatedAt": "2026-10-18T23:38:26.464Z",
+  "generatedAt": "2026-10-19T16:44:47.797Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -29,7 +29,7 @@
       "summary_en": "Bovet reference 2210416, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-10-18"
+      "lastSeen": "2026-10-19"
     },
     {
       "id": "ref-d4010",
@@ -57,7 +57,7 @@
       "summary_en": "Bovet reference D401.0, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-10-18"
+      "lastSeen": "2026-10-19"
     },
     {
       "id": "ref-sp0189go",
@@ -85,7 +85,35 @@
       "summary_en": "Bovet reference SP0189-GO, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-18"
+      "lastSeen": "2026-10-19"
+    },
+    {
+      "id": "ref-sp0469",
+      "name_en": "SP0469",
+      "name_ja": "SP0469",
+      "reference": "SP0469",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 1273300,
+      "searchKeywordJa": "ボヴェ SP0469",
+      "searchKeywordEn": "Bovet SP0469",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph"
+      ],
+      "popular": false,
+      "summary_ja": "ボヴェの型番SP0469。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Bovet reference SP0469, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-10-19"
     },
     {
       "id": "ref-nts0058",
@@ -113,7 +141,7 @@
       "summary_en": "Bovet reference NTS0058, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-10-18"
+      "lastSeen": "2026-10-19"
     },
     {
       "id": "ref-sp0449gomaba",
