@@ -1,6 +1,6 @@
 {
   "brandId": "bell-ross",
-  "generatedAt": "2026-10-20T00:38:23.043Z",
+  "generatedAt": "2026-10-20T14:30:39.658Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -27,10 +27,10 @@
         "limited-edition"
       ],
       "popular": false,
-      "summary_ja": "ベル&ロスの型番30000。市場で75件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "ベル&ロスの型番30000。市場で77件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Bell & Ross reference 30000, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 75,
+      "listingCount": 77,
       "lastSeen": "2026-10-20"
     },
     {
@@ -202,34 +202,6 @@
       "popular": false,
       "summary_ja": "ベル&ロスの型番BR03-92-D-BU-ST/SRB。市場で3件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Bell & Ross reference BR03-92-D-BU-ST/SRB, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 3,
-      "lastSeen": "2026-10-20"
-    },
-    {
-      "id": "ref-br0392phantomce",
-      "name_en": "BR0392-PHANTOM-CE",
-      "name_ja": "ファントム ローン BR0392-PHANTOM-CE",
-      "reference": "BR0392-PHANTOM-CE",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 298180,
-      "searchKeywordJa": "ベル&ロス BR0392-PHANTOM-CE",
-      "searchKeywordEn": "Bell & Ross BR0392-PHANTOM-CE",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ベル&ロスの型番BR0392-PHANTOM-CE。市場で3件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Bell & Ross reference BR0392-PHANTOM-CE, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
       "lastSeen": "2026-10-20"
@@ -496,6 +468,34 @@
       "lastSeen": "2026-10-20"
     },
     {
+      "id": "ref-br0392dc",
+      "name_en": "BR03-92-D-C",
+      "name_ja": "ダイバータラ BR03-92-D-C",
+      "reference": "BR03-92-D-C",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 477360,
+      "searchKeywordJa": "ベル&ロス BR03-92-D-C",
+      "searchKeywordEn": "Bell & Ross BR03-92-D-C",
+      "caseMaterial": "ceramic",
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "diver"
+      ],
+      "popular": false,
+      "summary_ja": "ベル&ロスの型番BR03-92-D-C。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Bell & Ross reference BR03-92-D-C, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-10-20"
+    },
+    {
       "id": "ref-br01cm203scr",
       "name_en": "BR01-CM-203/SCR",
       "name_ja": "BR01-CM-203/SCR",
@@ -581,31 +581,31 @@
       "lastSeen": "2026-10-20"
     },
     {
-      "id": "ref-br0392dc",
-      "name_en": "BR03-92-D-C",
-      "name_ja": "BR03-92-D-C",
-      "reference": "BR03-92-D-C",
+      "id": "ref-br0392phantomce",
+      "name_en": "BR0392-PHANTOM-CE",
+      "name_ja": "ファントム ローン BR0392-PHANTOM-CE",
+      "reference": "BR0392-PHANTOM-CE",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
-      "movementType": "automatic",
+      "movementType": null,
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 477360,
-      "searchKeywordJa": "ベル&ロス BR03-92-D-C",
-      "searchKeywordEn": "Bell & Ross BR03-92-D-C",
-      "caseMaterial": "ceramic",
+      "priceFloorJpy": 298180,
+      "searchKeywordJa": "ベル&ロス BR0392-PHANTOM-CE",
+      "searchKeywordEn": "Bell & Ross BR0392-PHANTOM-CE",
+      "caseMaterial": null,
       "waterResistanceM": null,
-      "gender": "unisex",
+      "gender": "mens",
       "releaseYear": null,
       "tags": [
-        "diver"
+        "sport"
       ],
       "popular": false,
-      "summary_ja": "ベル&ロスの型番BR03-92-D-C。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Bell & Ross reference BR03-92-D-C, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ベル&ロスの型番BR0392-PHANTOM-CE。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Bell & Ross reference BR0392-PHANTOM-CE, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 1,
+      "listingCount": 0,
       "lastSeen": "2026-10-20"
     },
     {
