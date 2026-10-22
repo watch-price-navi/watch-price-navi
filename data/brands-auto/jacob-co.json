@@ -1,6 +1,6 @@
 {
   "brandId": "jacob-co",
-  "generatedAt": "2026-10-22T01:27:03.753Z",
+  "generatedAt": "2026-10-22T15:53:22.538Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -25,10 +25,10 @@
         "sport"
       ],
       "popular": false,
-      "summary_ja": "ジェイコブの型番10.25。市場で4件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "ジェイコブの型番10.25。市場で5件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Jacob & Co. reference 10.25, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 4,
+      "listingCount": 5,
       "lastSeen": "2026-10-22"
     },
     {
@@ -735,6 +735,34 @@
       "lastSeen": "2026-10-22"
     },
     {
+      "id": "ref-30000",
+      "name_en": "30000",
+      "name_ja": "30000",
+      "reference": "30000",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 954550,
+      "searchKeywordJa": "ジェイコブ 30000",
+      "searchKeywordEn": "Jacob & Co. 30000",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ジェイコブの型番30000。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Jacob & Co. reference 30000, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-10-22"
+    },
+    {
       "id": "ref-hkjc0100",
       "name_en": "HKJC0100",
       "name_ja": "HKJC0100",
@@ -786,62 +814,6 @@
       "popular": false,
       "summary_ja": "ジェイコブの型番4A000110。市場で1件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Jacob & Co. reference 4A000110, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-10-22"
-    },
-    {
-      "id": "ref-am50040acsddbala",
-      "name_en": "AM500.40.AC.SD.DBALA",
-      "name_ja": "AM500.40.AC.SD.DBALA",
-      "reference": "AM500.40.AC.SD.DBALA",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 70660500,
-      "searchKeywordJa": "ジェイコブ AM500.40.AC.SD.DBALA",
-      "searchKeywordEn": "Jacob & Co. AM500.40.AC.SD.DBALA",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "limited-edition"
-      ],
-      "popular": false,
-      "summary_ja": "ジェイコブの型番AM500.40.AC.SD.DBALA。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Jacob & Co. reference AM500.40.AC.SD.DBALA, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-10-22"
-    },
-    {
-      "id": "ref-hk11666d",
-      "name_en": "HK11666D",
-      "name_ja": "HK11666D",
-      "reference": "HK11666D",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 70660500,
-      "searchKeywordJa": "ジェイコブ HK11666D",
-      "searchKeywordEn": "Jacob & Co. HK11666D",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "limited-edition"
-      ],
-      "popular": false,
-      "summary_ja": "ジェイコブの型番HK11666D。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Jacob & Co. reference HK11666D, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
       "lastSeen": "2026-10-22"
@@ -931,6 +903,62 @@
       "lastSeen": "2026-10-22"
     },
     {
+      "id": "ref-am50040acsddbala",
+      "name_en": "AM500.40.AC.SD.DBALA",
+      "name_ja": "AM500.40.AC.SD.DBALA",
+      "reference": "AM500.40.AC.SD.DBALA",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 70660500,
+      "searchKeywordJa": "ジェイコブ AM500.40.AC.SD.DBALA",
+      "searchKeywordEn": "Jacob & Co. AM500.40.AC.SD.DBALA",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "ジェイコブの型番AM500.40.AC.SD.DBALA。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Jacob & Co. reference AM500.40.AC.SD.DBALA, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-10-22"
+    },
+    {
+      "id": "ref-hk11666d",
+      "name_en": "HK11666D",
+      "name_ja": "HK11666D",
+      "reference": "HK11666D",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 70660500,
+      "searchKeywordJa": "ジェイコブ HK11666D",
+      "searchKeywordEn": "Jacob & Co. HK11666D",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "ジェイコブの型番HK11666D。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Jacob & Co. reference HK11666D, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-10-22"
+    },
+    {
       "id": "ref-i203124033",
       "name_en": "I203124033",
       "name_ja": "I203124033",
@@ -958,34 +986,6 @@
       "source": "auto",
       "listingCount": 1,
       "lastSeen": "2026-10-22"
-    },
-    {
-      "id": "ref-30000",
-      "name_en": "30000",
-      "name_ja": "30000",
-      "reference": "30000",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 954550,
-      "searchKeywordJa": "ジェイコブ 30000",
-      "searchKeywordEn": "Jacob & Co. 30000",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ジェイコブの型番30000。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Jacob & Co. reference 30000, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 0,
-      "lastSeen": "2026-10-21"
     },
     {
       "id": "ref-at10040acufa",

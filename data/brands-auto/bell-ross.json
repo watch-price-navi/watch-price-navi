@@ -1,6 +1,6 @@
 {
   "brandId": "bell-ross",
-  "generatedAt": "2026-10-22T00:18:06.656Z",
+  "generatedAt": "2026-10-22T14:43:04.462Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -27,10 +27,10 @@
         "limited-edition"
       ],
       "popular": false,
-      "summary_ja": "ベル&ロスの型番30000。市場で78件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "ベル&ロスの型番30000。市場で77件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Bell & Ross reference 30000, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 78,
+      "listingCount": 77,
       "lastSeen": "2026-10-22"
     },
     {
@@ -267,6 +267,35 @@
       "lastSeen": "2026-10-22"
     },
     {
+      "id": "ref-br0394cbl50127",
+      "name_en": "BR03-94-CBL-50127",
+      "name_ja": "クロノグラフ パトルイユ BR03-94-CBL-50127",
+      "reference": "BR03-94-CBL-50127",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": 42,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 573750,
+      "searchKeywordJa": "ベル&ロス BR03-94-CBL-50127",
+      "searchKeywordEn": "Bell & Ross BR03-94-CBL-50127",
+      "caseMaterial": "ceramic",
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph",
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "ベル&ロスの型番BR03-94-CBL-50127。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Bell & Ross reference BR03-94-CBL-50127, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
+      "lastSeen": "2026-10-22"
+    },
+    {
       "id": "ref-br0392s",
       "name_en": "BR03-92-S",
       "name_ja": "デイト BR03-92-S",
@@ -380,6 +409,34 @@
       "lastSeen": "2026-10-22"
     },
     {
+      "id": "ref-br0394s",
+      "name_en": "BR03-94-S",
+      "name_ja": "BR03-94-S",
+      "reference": "BR03-94-S",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 305712,
+      "searchKeywordJa": "ベル&ロス BR03-94-S",
+      "searchKeywordEn": "Bell & Ross BR03-94-S",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ベル&ロスの型番BR03-94-S。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Bell & Ross reference BR03-94-S, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-10-22"
+    },
+    {
       "id": "ref-brv394rs20sst",
       "name_en": "BRV394-RS20/SST",
       "name_ja": "ヴィンテージ クロノグラフ BRV394-RS20/SST",
@@ -405,35 +462,6 @@
       "popular": false,
       "summary_ja": "ベル&ロスの型番BRV394-RS20/SST。市場で2件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Bell & Ross reference BRV394-RS20/SST, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-10-22"
-    },
-    {
-      "id": "ref-br0394cbl50127",
-      "name_en": "BR03-94-CBL-50127",
-      "name_ja": "クロノグラフ パトルイユ BR03-94-CBL-50127",
-      "reference": "BR03-94-CBL-50127",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": 42,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 573750,
-      "searchKeywordJa": "ベル&ロス BR03-94-CBL-50127",
-      "searchKeywordEn": "Bell & Ross BR03-94-CBL-50127",
-      "caseMaterial": "ceramic",
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "chronograph",
-        "limited-edition"
-      ],
-      "popular": false,
-      "summary_ja": "ベル&ロスの型番BR03-94-CBL-50127。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Bell & Ross reference BR03-94-CBL-50127, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
       "lastSeen": "2026-10-22"
