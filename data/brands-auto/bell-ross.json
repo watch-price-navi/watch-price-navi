@@ -1,6 +1,6 @@
 {
   "brandId": "bell-ross",
-  "generatedAt": "2026-10-24T00:06:25.159Z",
+  "generatedAt": "2026-10-24T13:31:32.852Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -27,10 +27,10 @@
         "limited-edition"
       ],
       "popular": false,
-      "summary_ja": "ベル&ロスの型番30000。市場で75件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "ベル&ロスの型番30000。市場で76件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Bell & Ross reference 30000, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 75,
+      "listingCount": 76,
       "lastSeen": "2026-10-24"
     },
     {
@@ -438,6 +438,34 @@
       "lastSeen": "2026-10-24"
     },
     {
+      "id": "ref-br0392dc",
+      "name_en": "BR03-92-D-C",
+      "name_ja": "ダイバータラ BR03-92-D-C",
+      "reference": "BR03-92-D-C",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 477360,
+      "searchKeywordJa": "ベル&ロス BR03-92-D-C",
+      "searchKeywordEn": "Bell & Ross BR03-92-D-C",
+      "caseMaterial": "ceramic",
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "diver"
+      ],
+      "popular": false,
+      "summary_ja": "ベル&ロスの型番BR03-92-D-C。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Bell & Ross reference BR03-92-D-C, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-10-24"
+    },
+    {
       "id": "ref-br0393gnstsrb",
       "name_en": "BR0393-GN-ST/SRB",
       "name_ja": "BR0393-GN-ST/SRB",
@@ -462,34 +490,6 @@
       "popular": false,
       "summary_ja": "ベル&ロスの型番BR0393-GN-ST/SRB。市場で2件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Bell & Ross reference BR0393-GN-ST/SRB, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-10-24"
-    },
-    {
-      "id": "ref-br0392dc",
-      "name_en": "BR03-92-D-C",
-      "name_ja": "ダイバータラ BR03-92-D-C",
-      "reference": "BR03-92-D-C",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 477360,
-      "searchKeywordJa": "ベル&ロス BR03-92-D-C",
-      "searchKeywordEn": "Bell & Ross BR03-92-D-C",
-      "caseMaterial": "ceramic",
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "diver"
-      ],
-      "popular": false,
-      "summary_ja": "ベル&ロスの型番BR03-92-D-C。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Bell & Ross reference BR03-92-D-C, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
       "lastSeen": "2026-10-24"

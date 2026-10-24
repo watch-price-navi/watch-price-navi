@@ -1,6 +1,6 @@
 {
   "brandId": "perrelet",
-  "generatedAt": "2026-10-24T01:52:18.567Z",
+  "generatedAt": "2026-10-24T15:13:36.122Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -109,10 +109,10 @@
         "sport"
       ],
       "popular": false,
-      "summary_ja": "ペルレの型番VCARN32400。市場で5件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "ペルレの型番VCARN32400。市場で7件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Perrelet reference VCARN32400, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 5,
+      "listingCount": 7,
       "lastSeen": "2026-10-24"
     },
     {
@@ -928,34 +928,6 @@
       "lastSeen": "2026-10-24"
     },
     {
-      "id": "ref-vcaro7a700",
-      "name_en": "VCARO7A700",
-      "name_ja": "VCARO7A700",
-      "reference": "VCARO7A700",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 719610,
-      "searchKeywordJa": "ペルレ VCARO7A700",
-      "searchKeywordEn": "Perrelet VCARO7A700",
-      "caseMaterial": "rose-gold",
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ペルレの型番VCARO7A700。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Perrelet reference VCARO7A700, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-10-24"
-    },
-    {
       "id": "ref-vcaro95800",
       "name_en": "VCARO95800",
       "name_ja": "VCARO95800",
@@ -1093,6 +1065,34 @@
       "summary_en": "Perrelet reference VCARP27F00, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
+      "lastSeen": "2026-10-24"
+    },
+    {
+      "id": "ref-vcaro7a700",
+      "name_en": "VCARO7A700",
+      "name_ja": "VCARO7A700",
+      "reference": "VCARO7A700",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 719610,
+      "searchKeywordJa": "ペルレ VCARO7A700",
+      "searchKeywordEn": "Perrelet VCARO7A700",
+      "caseMaterial": "rose-gold",
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ペルレの型番VCARO7A700。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Perrelet reference VCARO7A700, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 0,
       "lastSeen": "2026-10-24"
     },
     {
