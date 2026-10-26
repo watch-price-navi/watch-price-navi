@@ -1,6 +1,6 @@
 {
   "brandId": "nomos-glashuette",
-  "generatedAt": "2026-10-26T00:55:25.648Z",
+  "generatedAt": "2026-10-26T17:45:38.466Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -25,36 +25,36 @@
         "sport"
       ],
       "popular": false,
-      "summary_ja": "ノモス グラスヒュッテの型番TN1A1W238。市場で6件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "ノモス グラスヒュッテの型番TN1A1W238。市場で5件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "NOMOS Glashütte reference TN1A1W238, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 6,
+      "listingCount": 5,
       "lastSeen": "2026-10-26"
     },
     {
-      "id": "ref-30000",
-      "name_en": "30000",
-      "name_ja": "タンジェント ネオマティック 30000",
-      "reference": "30000",
+      "id": "ref-tn130011pg2",
+      "name_en": "TN130011PG2",
+      "name_ja": "マラソン タンジェント TN130011PG2",
+      "reference": "TN130011PG2",
       "collection_en": null,
       "collection_ja": null,
-      "caseSizeMm": null,
+      "caseSizeMm": 35,
       "movementType": null,
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 301750,
-      "searchKeywordJa": "ノモス グラスヒュッテ 30000",
-      "searchKeywordEn": "NOMOS Glashütte 30000",
-      "caseMaterial": null,
+      "priceFloorJpy": 564740,
+      "searchKeywordJa": "ノモス グラスヒュッテ TN130011PG2",
+      "searchKeywordEn": "NOMOS Glashütte TN130011PG2",
+      "caseMaterial": "platinum",
       "waterResistanceM": null,
-      "gender": "mens",
+      "gender": "unisex",
       "releaseYear": null,
       "tags": [
         "sport"
       ],
       "popular": false,
-      "summary_ja": "ノモス グラスヒュッテの型番30000。市場で4件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "NOMOS Glashütte reference 30000, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ノモス グラスヒュッテの型番TN130011PG2。市場で4件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "NOMOS Glashütte reference TN130011PG2, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
       "lastSeen": "2026-10-26"
@@ -172,34 +172,6 @@
       "lastSeen": "2026-10-26"
     },
     {
-      "id": "ref-tn130011pg2",
-      "name_en": "TN130011PG2",
-      "name_ja": "マラソン タンジェント TN130011PG2",
-      "reference": "TN130011PG2",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": 35,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 564740,
-      "searchKeywordJa": "ノモス グラスヒュッテ TN130011PG2",
-      "searchKeywordEn": "NOMOS Glashütte TN130011PG2",
-      "caseMaterial": "platinum",
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ノモス グラスヒュッテの型番TN130011PG2。市場で3件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "NOMOS Glashütte reference TN130011PG2, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 3,
-      "lastSeen": "2026-10-26"
-    },
-    {
       "id": "ref-ab161011bl2",
       "name_en": "AB161011BL2",
       "name_ja": "マラソン アウトバーン AB161011BL2",
@@ -225,6 +197,34 @@
       "summary_en": "NOMOS Glashütte reference AB161011BL2, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
+      "lastSeen": "2026-10-26"
+    },
+    {
+      "id": "ref-30000",
+      "name_en": "30000",
+      "name_ja": "タンジェント ネオマティック 30000",
+      "reference": "30000",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 301750,
+      "searchKeywordJa": "ノモス グラスヒュッテ 30000",
+      "searchKeywordEn": "NOMOS Glashütte 30000",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ノモス グラスヒュッテの型番30000。市場で4件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "NOMOS Glashütte reference 30000, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 0,
       "lastSeen": "2026-10-26"
     },
     {

@@ -1,6 +1,6 @@
 {
   "brandId": "perrelet",
-  "generatedAt": "2026-10-26T01:15:04.854Z",
+  "generatedAt": "2026-10-26T18:06:06.392Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -279,6 +279,34 @@
       "popular": false,
       "summary_ja": "ペルレの型番2390。市場で2件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Perrelet reference 2390, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-10-26"
+    },
+    {
+      "id": "ref-a10811",
+      "name_en": "A1081/1",
+      "name_ja": "タービン スケルトン A1081/1",
+      "reference": "A1081/1",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 200000,
+      "searchKeywordJa": "ペルレ A1081/1",
+      "searchKeywordEn": "Perrelet A1081/1",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "skeleton"
+      ],
+      "popular": false,
+      "summary_ja": "ペルレの型番A1081/1。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Perrelet reference A1081/1, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
       "lastSeen": "2026-10-26"
@@ -676,34 +704,6 @@
       "lastSeen": "2026-10-26"
     },
     {
-      "id": "ref-vcarn33000",
-      "name_en": "VCARN33000",
-      "name_ja": "VCARN33000",
-      "reference": "VCARN33000",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 200000,
-      "searchKeywordJa": "ペルレ VCARN33000",
-      "searchKeywordEn": "Perrelet VCARN33000",
-      "caseMaterial": "rose-gold",
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ペルレの型番VCARN33000。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Perrelet reference VCARN33000, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-10-26"
-    },
-    {
       "id": "ref-vcarn32450",
       "name_en": "VCARN32450",
       "name_ja": "VCARN32450",
@@ -727,6 +727,34 @@
       "popular": false,
       "summary_ja": "ペルレの型番VCARN32450。市場で1件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Perrelet reference VCARN32450, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-10-26"
+    },
+    {
+      "id": "ref-vcarn33000",
+      "name_en": "VCARN33000",
+      "name_ja": "VCARN33000",
+      "reference": "VCARN33000",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 200000,
+      "searchKeywordJa": "ペルレ VCARN33000",
+      "searchKeywordEn": "Perrelet VCARN33000",
+      "caseMaterial": "rose-gold",
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ペルレの型番VCARN33000。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Perrelet reference VCARN33000, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
       "lastSeen": "2026-10-26"

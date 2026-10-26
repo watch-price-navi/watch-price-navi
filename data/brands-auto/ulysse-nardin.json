@@ -1,39 +1,8 @@
 {
   "brandId": "ulysse-nardin",
-  "generatedAt": "2026-10-26T01:49:35.725Z",
+  "generatedAt": "2026-10-26T18:42:11.323Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
-    {
-      "id": "ref-30000",
-      "name_en": "30000",
-      "name_ja": "ユリス ナルダン 30000",
-      "reference": "30000",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": 42,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 392700,
-      "searchKeywordJa": "ユリス・ナルダン 30000",
-      "searchKeywordEn": "Ulysse Nardin 30000",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "diver",
-        "chronograph",
-        "gmt",
-        "limited-edition"
-      ],
-      "popular": false,
-      "summary_ja": "ユリス・ナルダンの型番30000。市場で13件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Ulysse Nardin reference 30000, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 13,
-      "lastSeen": "2026-10-26"
-    },
     {
       "id": "ref-26333",
       "name_en": "263-33",
@@ -1921,6 +1890,37 @@
       "summary_en": "Ulysse Nardin reference 7536, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
+      "lastSeen": "2026-10-26"
+    },
+    {
+      "id": "ref-30000",
+      "name_en": "30000",
+      "name_ja": "ユリス ナルダン 30000",
+      "reference": "30000",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": 42,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 392700,
+      "searchKeywordJa": "ユリス・ナルダン 30000",
+      "searchKeywordEn": "Ulysse Nardin 30000",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "diver",
+        "chronograph",
+        "gmt",
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "ユリス・ナルダンの型番30000。市場で13件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ulysse Nardin reference 30000, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 0,
       "lastSeen": "2026-10-26"
     },
     {
