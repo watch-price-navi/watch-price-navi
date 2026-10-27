@@ -1,6 +1,6 @@
 {
   "brandId": "perrelet",
-  "generatedAt": "2026-10-27T02:33:28.008Z",
+  "generatedAt": "2026-10-27T17:17:08.271Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -452,6 +452,34 @@
       "lastSeen": "2026-10-27"
     },
     {
+      "id": "ref-vcarpbny001a06259",
+      "name_en": "VCARPBNY00/1A06259",
+      "name_ja": "ヴァン クリーフ VCARPBNY00/1A06259",
+      "reference": "VCARPBNY00/1A06259",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": 23,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 794750,
+      "searchKeywordJa": "ペルレ VCARPBNY00/1A06259",
+      "searchKeywordEn": "Perrelet VCARPBNY00/1A06259",
+      "caseMaterial": "yellow-gold",
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ペルレの型番VCARPBNY00/1A06259。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Perrelet reference VCARPBNY00/1A06259, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-10-27"
+    },
+    {
       "id": "ref-vcaro3y500",
       "name_en": "VCARO3Y500",
       "name_ja": "ヴァンクリーフ アーペル VCARO3Y500",
@@ -589,34 +617,6 @@
       "summary_en": "Perrelet reference VCARN32300, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-10-27"
-    },
-    {
-      "id": "ref-vcarpbny001a06259",
-      "name_en": "VCARPBNY00/1A06259",
-      "name_ja": "VCARPBNY00/1A06259",
-      "reference": "VCARPBNY00/1A06259",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": 23,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 794750,
-      "searchKeywordJa": "ペルレ VCARPBNY00/1A06259",
-      "searchKeywordEn": "Perrelet VCARPBNY00/1A06259",
-      "caseMaterial": "yellow-gold",
-      "waterResistanceM": null,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ペルレの型番VCARPBNY00/1A06259。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Perrelet reference VCARPBNY00/1A06259, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
       "lastSeen": "2026-10-27"
     },
     {
@@ -984,6 +984,34 @@
       "lastSeen": "2026-10-27"
     },
     {
+      "id": "ref-vcaro95800",
+      "name_en": "VCARO95800",
+      "name_ja": "VCARO95800",
+      "reference": "VCARO95800",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 780070,
+      "searchKeywordJa": "ペルレ VCARO95800",
+      "searchKeywordEn": "Perrelet VCARO95800",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ペルレの型番VCARO95800。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Perrelet reference VCARO95800, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-10-27"
+    },
+    {
       "id": "ref-vcarp3k700",
       "name_en": "VCARP3K700",
       "name_ja": "VCARP3K700",
@@ -1094,34 +1122,6 @@
       "source": "auto",
       "listingCount": 1,
       "lastSeen": "2026-10-27"
-    },
-    {
-      "id": "ref-vcaro95800",
-      "name_en": "VCARO95800",
-      "name_ja": "VCARO95800",
-      "reference": "VCARO95800",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 780070,
-      "searchKeywordJa": "ペルレ VCARO95800",
-      "searchKeywordEn": "Perrelet VCARO95800",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ペルレの型番VCARO95800。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Perrelet reference VCARO95800, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 0,
-      "lastSeen": "2026-10-26"
     },
     {
       "id": "ref-vcaro7a700",

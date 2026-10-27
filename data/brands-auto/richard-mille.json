@@ -1,6 +1,6 @@
 {
   "brandId": "richard-mille",
-  "generatedAt": "2026-10-27T02:43:41.284Z",
+  "generatedAt": "2026-10-27T17:27:07.903Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -25,66 +25,10 @@
         "chronograph"
       ],
       "popular": false,
-      "summary_ja": "リシャール・ミルの型番RM11-03FQ。市場で34件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "リシャール・ミルの型番RM11-03FQ。市場で33件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Richard Mille reference RM11-03FQ, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 34,
-      "lastSeen": "2026-10-27"
-    },
-    {
-      "id": "ref-rm1103",
-      "name_en": "RM11-03",
-      "name_ja": "アラビア RM11-03",
-      "reference": "RM11-03",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 46189000,
-      "searchKeywordJa": "リシャール・ミル RM11-03",
-      "searchKeywordEn": "Richard Mille RM11-03",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "limited-edition"
-      ],
-      "popular": false,
-      "summary_ja": "リシャール・ミルの型番RM11-03。市場で22件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Richard Mille reference RM11-03, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 22,
-      "lastSeen": "2026-10-27"
-    },
-    {
-      "id": "ref-rm0701rgca",
-      "name_en": "RM07-01-RG-CA",
-      "name_ja": "オートマティック RM07-01-RG-CA",
-      "reference": "RM07-01-RG-CA",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 43775000,
-      "searchKeywordJa": "リシャール・ミル RM07-01-RG-CA",
-      "searchKeywordEn": "Richard Mille RM07-01-RG-CA",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "リシャール・ミルの型番RM07-01-RG-CA。市場で19件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Richard Mille reference RM07-01-RG-CA, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 19,
+      "listingCount": 33,
       "lastSeen": "2026-10-27"
     },
     {
@@ -116,6 +60,62 @@
       "lastSeen": "2026-10-27"
     },
     {
+      "id": "ref-rm0701rgca",
+      "name_en": "RM07-01-RG-CA",
+      "name_ja": "オートマティック RM07-01-RG-CA",
+      "reference": "RM07-01-RG-CA",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 43775000,
+      "searchKeywordJa": "リシャール・ミル RM07-01-RG-CA",
+      "searchKeywordEn": "Richard Mille RM07-01-RG-CA",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "リシャール・ミルの型番RM07-01-RG-CA。市場で18件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Richard Mille reference RM07-01-RG-CA, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 18,
+      "lastSeen": "2026-10-27"
+    },
+    {
+      "id": "ref-rm1103ca",
+      "name_en": "RM11-03CA",
+      "name_ja": "グレー RM11-03CA",
+      "reference": "RM11-03CA",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 54230000,
+      "searchKeywordJa": "リシャール・ミル RM11-03CA",
+      "searchKeywordEn": "Richard Mille RM11-03CA",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "リシャール・ミルの型番RM11-03CA。市場で17件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Richard Mille reference RM11-03CA, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 17,
+      "lastSeen": "2026-10-27"
+    },
+    {
       "id": "ref-rm6501",
       "name_en": "RM65-01",
       "name_ja": "オートマティック スプリットセコンド RM65-01",
@@ -138,10 +138,10 @@
         "lightweight"
       ],
       "popular": false,
-      "summary_ja": "リシャール・ミルの型番RM65-01。市場で17件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "リシャール・ミルの型番RM65-01。市場で16件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Richard Mille reference RM65-01, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 17,
+      "listingCount": 16,
       "lastSeen": "2026-10-27"
     },
     {
@@ -173,34 +173,6 @@
       "lastSeen": "2026-10-27"
     },
     {
-      "id": "ref-rm1103ca",
-      "name_en": "RM11-03CA",
-      "name_ja": "グレー RM11-03CA",
-      "reference": "RM11-03CA",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 54230000,
-      "searchKeywordJa": "リシャール・ミル RM11-03CA",
-      "searchKeywordEn": "Richard Mille RM11-03CA",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "リシャール・ミルの型番RM11-03CA。市場で16件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Richard Mille reference RM11-03CA, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 16,
-      "lastSeen": "2026-10-27"
-    },
-    {
       "id": "ref-rm6501fq",
       "name_en": "RM65-01FQ",
       "name_ja": "オートマティック スプリットセコンド RM65-01FQ",
@@ -226,6 +198,34 @@
       "summary_en": "Richard Mille reference RM65-01FQ, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 16,
+      "lastSeen": "2026-10-27"
+    },
+    {
+      "id": "ref-rm3001catzp",
+      "name_en": "RM30-01.CA-TZP",
+      "name_ja": "オートマティック デクラッチャブル RM30-01.CA-TZP",
+      "reference": "RM30-01.CA-TZP",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 55930000,
+      "searchKeywordJa": "リシャール・ミル RM30-01.CA-TZP",
+      "searchKeywordEn": "Richard Mille RM30-01.CA-TZP",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "リシャール・ミルの型番RM30-01.CA-TZP。市場で14件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Richard Mille reference RM30-01.CA-TZP, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 14,
       "lastSeen": "2026-10-27"
     },
     {
@@ -285,34 +285,6 @@
       "lastSeen": "2026-10-27"
     },
     {
-      "id": "ref-rm3001catzp",
-      "name_en": "RM30-01.CA-TZP",
-      "name_ja": "オートマティック デクラッチャブル RM30-01.CA-TZP",
-      "reference": "RM30-01.CA-TZP",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 55930000,
-      "searchKeywordJa": "リシャール・ミル RM30-01.CA-TZP",
-      "searchKeywordEn": "Richard Mille RM30-01.CA-TZP",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "リシャール・ミルの型番RM30-01.CA-TZP。市場で11件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Richard Mille reference RM30-01.CA-TZP, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 11,
-      "lastSeen": "2026-10-27"
-    },
-    {
       "id": "ref-hk11782x",
       "name_en": "HK11782X",
       "name_ja": "ブラックセラミック ダイヤモンドセット HK11782X",
@@ -334,10 +306,10 @@
         "sport"
       ],
       "popular": false,
-      "summary_ja": "リシャール・ミルの型番HK11782X。市場で8件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "リシャール・ミルの型番HK11782X。市場で9件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Richard Mille reference HK11782X, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 8,
+      "listingCount": 9,
       "lastSeen": "2026-10-27"
     },
     {
@@ -392,6 +364,35 @@
       "popular": false,
       "summary_ja": "リシャール・ミルの型番RM35-02。市場で6件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Richard Mille reference RM35-02, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 6,
+      "lastSeen": "2026-10-27"
+    },
+    {
+      "id": "ref-rm1103",
+      "name_en": "RM11-03",
+      "name_ja": "リシャールミル クラシック RM11-03",
+      "reference": "RM11-03",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 46189000,
+      "searchKeywordJa": "リシャール・ミル RM11-03",
+      "searchKeywordEn": "Richard Mille RM11-03",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph",
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "リシャール・ミルの型番RM11-03。市場で6件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Richard Mille reference RM11-03, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
       "lastSeen": "2026-10-27"
