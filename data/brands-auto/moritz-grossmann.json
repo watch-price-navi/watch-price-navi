@@ -1,8 +1,38 @@
 {
   "brandId": "moritz-grossmann",
-  "generatedAt": "2026-10-30T02:42:06.913Z",
+  "generatedAt": "2026-10-30T17:28:32.660Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
+    {
+      "id": "ref-30000",
+      "name_en": "30000",
+      "name_ja": "ベヌー 30000",
+      "reference": "30000",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 3060000,
+      "searchKeywordJa": "モリッツ・グロスマン 30000",
+      "searchKeywordEn": "Moritz Grossmann 30000",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "tourbillon",
+        "limited-edition",
+        "power-reserve"
+      ],
+      "popular": false,
+      "summary_ja": "モリッツ・グロスマンの型番30000。市場で20件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Moritz Grossmann reference 30000, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 20,
+      "lastSeen": "2026-10-30"
+    },
     {
       "id": "ref-mg001405",
       "name_en": "MG-001405",
@@ -285,6 +315,34 @@
       "lastSeen": "2026-10-30"
     },
     {
+      "id": "ref-refmg002811",
+      "name_en": "REF.MG-002811",
+      "name_ja": "REF.MG-002811",
+      "reference": "REF.MG-002811",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 4247390,
+      "searchKeywordJa": "モリッツ・グロスマン REF.MG-002811",
+      "searchKeywordEn": "Moritz Grossmann REF.MG-002811",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "gmt"
+      ],
+      "popular": false,
+      "summary_ja": "モリッツ・グロスマンの型番REF.MG-002811。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Moritz Grossmann reference REF.MG-002811, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-10-30"
+    },
+    {
       "id": "ref-mg002302",
       "name_en": "MG-002302",
       "name_ja": "MG-002302",
@@ -339,36 +397,6 @@
       "source": "auto",
       "listingCount": 1,
       "lastSeen": "2026-10-30"
-    },
-    {
-      "id": "ref-30000",
-      "name_en": "30000",
-      "name_ja": "ベヌー 30000",
-      "reference": "30000",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 3060000,
-      "searchKeywordJa": "モリッツ・グロスマン 30000",
-      "searchKeywordEn": "Moritz Grossmann 30000",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "tourbillon",
-        "limited-edition",
-        "power-reserve"
-      ],
-      "popular": false,
-      "summary_ja": "モリッツ・グロスマンの型番30000。市場で20件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Moritz Grossmann reference 30000, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 0,
-      "lastSeen": "2026-10-26"
     },
     {
       "id": "ref-mg01a02a000335",
