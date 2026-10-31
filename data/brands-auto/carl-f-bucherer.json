@@ -1,6 +1,6 @@
 {
   "brandId": "carl-f-bucherer",
-  "generatedAt": "2026-10-31T01:21:12.909Z",
+  "generatedAt": "2026-10-31T15:48:30.795Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -147,34 +147,6 @@
       "lastSeen": "2026-10-31"
     },
     {
-      "id": "ref-0010803123201",
-      "name_en": "00.10803.12.32.01",
-      "name_ja": "ヘリテージ バイコンパックス 00.10803.12.32.01",
-      "reference": "00.10803.12.32.01",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 698700,
-      "searchKeywordJa": "カール F. ブヘラ 00.10803.12.32.01",
-      "searchKeywordEn": "Carl F. Bucherer 00.10803.12.32.01",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "vintage-reissue"
-      ],
-      "popular": false,
-      "summary_ja": "カール F. ブヘラの型番00.10803.12.32.01。市場で3件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Carl F. Bucherer reference 00.10803.12.32.01, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 3,
-      "lastSeen": "2026-10-31"
-    },
-    {
       "id": "ref-0010919089321",
       "name_en": "00.10919.08.93.21",
       "name_ja": "マネロ フライバック 00.10919.08.93.21",
@@ -198,6 +170,34 @@
       "popular": false,
       "summary_ja": "カール F. ブヘラの型番00.10919.08.93.21。市場で3件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Carl F. Bucherer reference 00.10919.08.93.21, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
+      "lastSeen": "2026-10-31"
+    },
+    {
+      "id": "ref-0010803123201",
+      "name_en": "00.10803.12.32.01",
+      "name_ja": "ヘリテージ バイコンパックス 00.10803.12.32.01",
+      "reference": "00.10803.12.32.01",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 698700,
+      "searchKeywordJa": "カール F. ブヘラ 00.10803.12.32.01",
+      "searchKeywordEn": "Carl F. Bucherer 00.10803.12.32.01",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "vintage-reissue"
+      ],
+      "popular": false,
+      "summary_ja": "カール F. ブヘラの型番00.10803.12.32.01。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Carl F. Bucherer reference 00.10803.12.32.01, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
       "lastSeen": "2026-10-31"
@@ -647,6 +647,7 @@
       "gender": "mens",
       "releaseYear": null,
       "tags": [
+        "limited-edition",
         "power-reserve"
       ],
       "popular": false,
@@ -759,7 +760,7 @@
       "gender": "mens",
       "releaseYear": null,
       "tags": [
-        "sport"
+        "limited-edition"
       ],
       "popular": false,
       "summary_ja": "カール F. ブヘラの型番00.10923.08.33.99。市場で1件の出品が確認された、実際に流通しているモデルです。",
@@ -787,7 +788,7 @@
       "gender": "mens",
       "releaseYear": null,
       "tags": [
-        "sport"
+        "limited-edition"
       ],
       "popular": false,
       "summary_ja": "カール F. ブヘラの型番10923.08。市場で1件の出品が確認された、実際に流通しているモデルです。",

@@ -1,6 +1,6 @@
 {
   "brandId": "h-moser",
-  "generatedAt": "2026-10-31T01:57:25.872Z",
+  "generatedAt": "2026-10-31T16:24:58.342Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -341,6 +341,35 @@
       "lastSeen": "2026-10-31"
     },
     {
+      "id": "ref-69021200",
+      "name_en": "6902-1200",
+      "name_ja": "ストリームライナー フライバック 6902-1200",
+      "reference": "6902-1200",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 5235490,
+      "searchKeywordJa": "H.モーザー 6902-1200",
+      "searchKeywordEn": "H. Moser & Cie. 6902-1200",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph",
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "H.モーザーの型番6902-1200。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "H. Moser & Cie. reference 6902-1200, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-10-31"
+    },
+    {
       "id": "ref-23270200",
       "name_en": "2327-0200",
       "name_ja": "2327-0200",
@@ -359,6 +388,7 @@
       "gender": "mens",
       "releaseYear": null,
       "tags": [
+        "limited-edition",
         "small-seconds"
       ],
       "popular": false,

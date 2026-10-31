@@ -1,6 +1,6 @@
 {
   "brandId": "perrelet",
-  "generatedAt": "2026-10-31T02:49:56.074Z",
+  "generatedAt": "2026-10-31T17:18:19.094Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -144,6 +144,34 @@
       "lastSeen": "2026-10-31"
     },
     {
+      "id": "ref-1390",
+      "name_en": "1390",
+      "name_ja": "ダブルローター 1390",
+      "reference": "1390",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 200000,
+      "searchKeywordJa": "ペルレ 1390",
+      "searchKeywordEn": "Perrelet 1390",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ペルレの型番1390。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Perrelet reference 1390, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
+      "lastSeen": "2026-10-31"
+    },
+    {
       "id": "ref-a10751",
       "name_en": "A1075/1",
       "name_ja": "タービン クロノ A1075/1",
@@ -228,34 +256,6 @@
       "lastSeen": "2026-10-31"
     },
     {
-      "id": "ref-1390",
-      "name_en": "1390",
-      "name_ja": "ダブルローター 1390",
-      "reference": "1390",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 200000,
-      "searchKeywordJa": "ペルレ 1390",
-      "searchKeywordEn": "Perrelet 1390",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ペルレの型番1390。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Perrelet reference 1390, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-10-31"
-    },
-    {
       "id": "ref-2390",
       "name_en": "2390",
       "name_ja": "ダブルローター 2390",
@@ -279,34 +279,6 @@
       "popular": false,
       "summary_ja": "ペルレの型番2390。市場で2件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Perrelet reference 2390, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-10-31"
-    },
-    {
-      "id": "ref-a10811",
-      "name_en": "A1081/1",
-      "name_ja": "タービン スケルトン A1081/1",
-      "reference": "A1081/1",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 200000,
-      "searchKeywordJa": "ペルレ A1081/1",
-      "searchKeywordEn": "Perrelet A1081/1",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "skeleton"
-      ],
-      "popular": false,
-      "summary_ja": "ペルレの型番A1081/1。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Perrelet reference A1081/1, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
       "lastSeen": "2026-10-31"
@@ -1121,6 +1093,34 @@
       "summary_en": "Perrelet reference VCARP27F00, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
+      "lastSeen": "2026-10-31"
+    },
+    {
+      "id": "ref-a10811",
+      "name_en": "A1081/1",
+      "name_ja": "タービン スケルトン A1081/1",
+      "reference": "A1081/1",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 200000,
+      "searchKeywordJa": "ペルレ A1081/1",
+      "searchKeywordEn": "Perrelet A1081/1",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "skeleton"
+      ],
+      "popular": false,
+      "summary_ja": "ペルレの型番A1081/1。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Perrelet reference A1081/1, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 0,
       "lastSeen": "2026-10-31"
     },
     {
