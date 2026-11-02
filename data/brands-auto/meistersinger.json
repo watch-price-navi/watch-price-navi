@@ -1,8 +1,36 @@
 {
   "brandId": "meistersinger",
-  "generatedAt": "2026-11-02T02:30:27.527Z",
+  "generatedAt": "2026-11-02T20:59:17.145Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
+    {
+      "id": "ref-10000pt",
+      "name_en": "10000PT",
+      "name_ja": "ノベルティー パンゲア 10000PT",
+      "reference": "10000PT",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": 38,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 303875,
+      "searchKeywordJa": "マイスタージンガー 10000PT",
+      "searchKeywordEn": "MeisterSinger 10000PT",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "マイスタージンガーの型番10000PT。市場で70件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "MeisterSinger reference 10000PT, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 70,
+      "lastSeen": "2026-11-02"
+    },
     {
       "id": "ref-pmn9908av",
       "name_en": "PMN9908AV",
@@ -53,10 +81,10 @@
         "limited-edition"
       ],
       "popular": false,
-      "summary_ja": "マイスタージンガーの型番BM9901G。市場で14件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "マイスタージンガーの型番BM9901G。市場で15件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "MeisterSinger reference BM9901G, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 14,
+      "listingCount": 15,
       "lastSeen": "2026-11-02"
     },
     {
@@ -109,10 +137,10 @@
         "limited-edition"
       ],
       "popular": false,
-      "summary_ja": "マイスタージンガーの型番BM9908。市場で13件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "マイスタージンガーの型番BM9908。市場で12件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "MeisterSinger reference BM9908, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 13,
+      "listingCount": 12,
       "lastSeen": "2026-11-02"
     },
     {
@@ -172,6 +200,34 @@
       "lastSeen": "2026-11-02"
     },
     {
+      "id": "ref-pm9908",
+      "name_en": "PM9908",
+      "name_ja": "パンゲア ノベルティー PM9908",
+      "reference": "PM9908",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 199750,
+      "searchKeywordJa": "マイスタージンガー PM9908",
+      "searchKeywordEn": "MeisterSinger PM9908",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "マイスタージンガーの型番PM9908。市場で8件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "MeisterSinger reference PM9908, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 8,
+      "lastSeen": "2026-11-02"
+    },
+    {
       "id": "ref-sbm9902b",
       "name_en": "S-BM9902B",
       "name_ja": "ナンバースリー スペシャルナンバースリー S-BM9902B",
@@ -193,10 +249,10 @@
         "limited-edition"
       ],
       "popular": false,
-      "summary_ja": "マイスタージンガーの型番S-BM9902B。市場で9件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "マイスタージンガーの型番S-BM9902B。市場で8件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "MeisterSinger reference S-BM9902B, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 9,
+      "listingCount": 8,
       "lastSeen": "2026-11-02"
     },
     {
@@ -228,37 +284,9 @@
       "lastSeen": "2026-11-02"
     },
     {
-      "id": "ref-pm9908",
-      "name_en": "PM9908",
-      "name_ja": "パンゲア エントリー PM9908",
-      "reference": "PM9908",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 199750,
-      "searchKeywordJa": "マイスタージンガー PM9908",
-      "searchKeywordEn": "MeisterSinger PM9908",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "limited-edition"
-      ],
-      "popular": false,
-      "summary_ja": "マイスタージンガーの型番PM9908。市場で7件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "MeisterSinger reference PM9908, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 7,
-      "lastSeen": "2026-11-02"
-    },
-    {
       "id": "ref-pr365911g",
       "name_en": "PR365911G",
-      "name_ja": "プリマティック PR365911G",
+      "name_ja": "プリマティック ノベルティー PR365911G",
       "reference": "PR365911G",
       "collection_en": null,
       "collection_ja": null,
@@ -277,10 +305,10 @@
         "limited-edition"
       ],
       "popular": false,
-      "summary_ja": "マイスタージンガーの型番PR365911G。市場で5件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "マイスタージンガーの型番PR365911G。市場で6件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "MeisterSinger reference PR365911G, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 5,
+      "listingCount": 6,
       "lastSeen": "2026-11-02"
     },
     {
@@ -305,16 +333,16 @@
         "limited-edition"
       ],
       "popular": false,
-      "summary_ja": "マイスタージンガーの型番S-BM9928。市場で4件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "マイスタージンガーの型番S-BM9928。市場で6件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "MeisterSinger reference S-BM9928, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 4,
+      "listingCount": 6,
       "lastSeen": "2026-11-02"
     },
     {
       "id": "ref-pdd365927",
       "name_en": "PDD365927",
-      "name_ja": "エントリー パンゲア PDD365927",
+      "name_ja": "パンゲア デイデイト PDD365927",
       "reference": "PDD365927",
       "collection_en": null,
       "collection_ja": null,
@@ -342,7 +370,7 @@
     {
       "id": "ref-pr365917g",
       "name_en": "PR365917G",
-      "name_ja": "エントリー ノベルティー PR365917G",
+      "name_ja": "ノベルティー プリマティック PR365917G",
       "reference": "PR365917G",
       "collection_en": null,
       "collection_ja": null,
@@ -370,7 +398,7 @@
     {
       "id": "ref-bm1103",
       "name_en": "BM1103",
-      "name_ja": "エントリー ノベルティー BM1103",
+      "name_ja": "ノベルティー ペリグラフ BM1103",
       "reference": "BM1103",
       "collection_en": null,
       "collection_ja": null,
@@ -398,7 +426,7 @@
     {
       "id": "ref-bm1108",
       "name_en": "BM1108",
-      "name_ja": "エントリー ノベルティー BM1108",
+      "name_ja": "ノベルティー ペリグラフ BM1108",
       "reference": "BM1108",
       "collection_en": null,
       "collection_ja": null,
@@ -424,37 +452,9 @@
       "lastSeen": "2026-11-02"
     },
     {
-      "id": "ref-bm1101g",
-      "name_en": "BM1101G",
-      "name_ja": "エントリー ノベルティー BM1101G",
-      "reference": "BM1101G",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 348755,
-      "searchKeywordJa": "マイスタージンガー BM1101G",
-      "searchKeywordEn": "MeisterSinger BM1101G",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "limited-edition"
-      ],
-      "popular": false,
-      "summary_ja": "マイスタージンガーの型番BM1101G。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "MeisterSinger reference BM1101G, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-11-02"
-    },
-    {
       "id": "ref-sbm1128",
       "name_en": "S-BM1128",
-      "name_ja": "エントリー ノベルティー S-BM1128",
+      "name_ja": "ノベルティー ペリグラフ S-BM1128",
       "reference": "S-BM1128",
       "collection_en": null,
       "collection_ja": null,
@@ -475,6 +475,34 @@
       "popular": false,
       "summary_ja": "マイスタージンガーの型番S-BM1128。市場で2件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "MeisterSinger reference S-BM1128, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-11-02"
+    },
+    {
+      "id": "ref-bm1101g",
+      "name_en": "BM1101G",
+      "name_ja": "ノベルティー ペリグラフ BM1101G",
+      "reference": "BM1101G",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 348755,
+      "searchKeywordJa": "マイスタージンガー BM1101G",
+      "searchKeywordEn": "MeisterSinger BM1101G",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "マイスタージンガーの型番BM1101G。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "MeisterSinger reference BM1101G, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
       "lastSeen": "2026-11-02"
@@ -564,6 +592,34 @@
       "lastSeen": "2026-11-02"
     },
     {
+      "id": "ref-refedksodas2025",
+      "name_en": "REF.ED-KSOD-AS2025",
+      "name_ja": "REF.ED-KSOD-AS2025",
+      "reference": "REF.ED-KSOD-AS2025",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 710600,
+      "searchKeywordJa": "マイスタージンガー REF.ED-KSOD-AS2025",
+      "searchKeywordEn": "MeisterSinger REF.ED-KSOD-AS2025",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "マイスタージンガーの型番REF.ED-KSOD-AS2025。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "MeisterSinger reference REF.ED-KSOD-AS2025, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-11-02"
+    },
+    {
       "id": "ref-sam1018",
       "name_en": "S-AM1018",
       "name_ja": "S-AM1018",
@@ -618,34 +674,6 @@
       "source": "auto",
       "listingCount": 1,
       "lastSeen": "2026-11-02"
-    },
-    {
-      "id": "ref-10000pt",
-      "name_en": "10000PT",
-      "name_ja": "ノベルティー パンゲア 10000PT",
-      "reference": "10000PT",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": 38,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 303875,
-      "searchKeywordJa": "マイスタージンガー 10000PT",
-      "searchKeywordEn": "MeisterSinger 10000PT",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "limited-edition"
-      ],
-      "popular": false,
-      "summary_ja": "マイスタージンガーの型番10000PT。市場で71件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "MeisterSinger reference 10000PT, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 0,
-      "lastSeen": "2026-11-01"
     },
     {
       "id": "ref-30000pt",
