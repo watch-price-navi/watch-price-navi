@@ -1,6 +1,6 @@
 {
   "brandId": "jaquet-droz",
-  "generatedAt": "2026-11-03T04:28:05.240Z",
+  "generatedAt": "2026-11-03T18:28:46.610Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -117,6 +117,35 @@
       "lastSeen": "2026-11-03"
     },
     {
+      "id": "ref-1111",
+      "name_en": "11.11",
+      "name_ja": "ジャケ ドロー 11.11",
+      "reference": "11.11",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 630700,
+      "searchKeywordJa": "ジャケ・ドロー 11.11",
+      "searchKeywordEn": "Jaquet Droz 11.11",
+      "caseMaterial": "ceramic",
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "limited-edition",
+        "power-reserve"
+      ],
+      "popular": false,
+      "summary_ja": "ジャケ・ドローの型番11.11。市場で4件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Jaquet Droz reference 11.11, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 4,
+      "lastSeen": "2026-11-03"
+    },
+    {
       "id": "ref-j016934",
       "name_en": "J016934",
       "name_ja": "グレー ホワイトゴールド J016934",
@@ -168,6 +197,34 @@
       "popular": false,
       "summary_ja": "ジャケ・ドローの型番J005004570。市場で3件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Jaquet Droz reference J005004570, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
+      "lastSeen": "2026-11-03"
+    },
+    {
+      "id": "ref-j003031200",
+      "name_en": "J003031200",
+      "name_ja": "グラン セコンド J003031200",
+      "reference": "J003031200",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 1307725,
+      "searchKeywordJa": "ジャケ・ドロー J003031200",
+      "searchKeywordEn": "Jaquet Droz J003031200",
+      "caseMaterial": "yellow-gold",
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "ジャケ・ドローの型番J003031200。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Jaquet Droz reference J003031200, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
       "lastSeen": "2026-11-03"
@@ -593,34 +650,6 @@
       "lastSeen": "2026-11-03"
     },
     {
-      "id": "ref-j003031200",
-      "name_en": "J003031200",
-      "name_ja": "J003031200",
-      "reference": "J003031200",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 1307725,
-      "searchKeywordJa": "ジャケ・ドロー J003031200",
-      "searchKeywordEn": "Jaquet Droz J003031200",
-      "caseMaterial": "yellow-gold",
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "limited-edition"
-      ],
-      "popular": false,
-      "summary_ja": "ジャケ・ドローの型番J003031200。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Jaquet Droz reference J003031200, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-11-03"
-    },
-    {
       "id": "ref-j003033442",
       "name_en": "J003033442",
       "name_ja": "グランセコンド ペトリファイドウッド J003033442",
@@ -702,6 +731,34 @@
       "summary_en": "Jaquet Droz reference J012610271, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
+      "lastSeen": "2026-11-03"
+    },
+    {
+      "id": "ref-refj007030240",
+      "name_en": "REF.J007030240",
+      "name_ja": "REF.J007030240",
+      "reference": "REF.J007030240",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 598102,
+      "searchKeywordJa": "ジャケ・ドロー REF.J007030240",
+      "searchKeywordEn": "Jaquet Droz REF.J007030240",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ジャケ・ドローの型番REF.J007030240。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Jaquet Droz reference REF.J007030240, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
       "lastSeen": "2026-11-03"
     },
     {

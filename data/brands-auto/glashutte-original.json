@@ -1,6 +1,6 @@
 {
   "brandId": "glashutte-original",
-  "generatedAt": "2026-11-03T04:01:51.088Z",
+  "generatedAt": "2026-11-03T18:02:51.589Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -22,14 +22,15 @@
       "gender": "mens",
       "releaseYear": null,
       "tags": [
+        "chronograph",
         "moonphase",
         "limited-edition"
       ],
       "popular": false,
-      "summary_ja": "グラスヒュッテ・オリジナルの型番30000。市場で26件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "グラスヒュッテ・オリジナルの型番30000。市場で33件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Glashütte Original reference 30000, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 26,
+      "listingCount": 33,
       "lastSeen": "2026-11-03"
     },
     {
@@ -89,34 +90,6 @@
       "lastSeen": "2026-11-03"
     },
     {
-      "id": "ref-151385",
-      "name_en": "151385",
-      "name_ja": "151385",
-      "reference": "151385",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 605880,
-      "searchKeywordJa": "グラスヒュッテ・オリジナル 151385",
-      "searchKeywordEn": "Glashütte Original 151385",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "chronograph"
-      ],
-      "popular": false,
-      "summary_ja": "グラスヒュッテ・オリジナルの型番151385。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Glashütte Original reference 151385, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-11-03"
-    },
-    {
       "id": "ref-100011302",
       "name_en": "100-01-13-02",
       "name_ja": "100-01-13-02",
@@ -168,6 +141,34 @@
       "popular": false,
       "summary_ja": "グラスヒュッテ・オリジナルの型番151370。市場で1件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Glashütte Original reference 151370, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-11-03"
+    },
+    {
+      "id": "ref-151385",
+      "name_en": "151385",
+      "name_ja": "151385",
+      "reference": "151385",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 605880,
+      "searchKeywordJa": "グラスヒュッテ・オリジナル 151385",
+      "searchKeywordEn": "Glashütte Original 151385",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph"
+      ],
+      "popular": false,
+      "summary_ja": "グラスヒュッテ・オリジナルの型番151385。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Glashütte Original reference 151385, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
       "lastSeen": "2026-11-03"
