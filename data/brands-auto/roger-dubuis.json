@@ -1,6 +1,6 @@
 {
   "brandId": "roger-dubuis",
-  "generatedAt": "2026-11-04T03:48:02.342Z",
+  "generatedAt": "2026-11-04T19:23:04.702Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -61,34 +61,6 @@
       "lastSeen": "2026-11-04"
     },
     {
-      "id": "ref-rddbex0463",
-      "name_en": "RDDBEX0463",
-      "name_ja": "エクスカリバー オートマティック RDDBEX0463",
-      "reference": "RDDBEX0463",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": 36,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 1645600,
-      "searchKeywordJa": "ロジェ・デュブイ RDDBEX0463",
-      "searchKeywordEn": "Roger Dubuis RDDBEX0463",
-      "caseMaterial": "stainless-steel",
-      "waterResistanceM": null,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ロジェ・デュブイの型番RDDBEX0463。市場で10件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Roger Dubuis reference RDDBEX0463, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 10,
-      "lastSeen": "2026-11-04"
-    },
-    {
       "id": "ref-rddbex0387",
       "name_en": "RDDBEX0387",
       "name_ja": "エクスカリバー グレー RDDBEX0387",
@@ -112,6 +84,34 @@
       "popular": false,
       "summary_ja": "ロジェ・デュブイの型番RDDBEX0387。市場で10件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Roger Dubuis reference RDDBEX0387, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 10,
+      "lastSeen": "2026-11-04"
+    },
+    {
+      "id": "ref-rddbex0463",
+      "name_en": "RDDBEX0463",
+      "name_ja": "エクスカリバー オートマティック RDDBEX0463",
+      "reference": "RDDBEX0463",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": 36,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 1645600,
+      "searchKeywordJa": "ロジェ・デュブイ RDDBEX0463",
+      "searchKeywordEn": "Roger Dubuis RDDBEX0463",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ロジェ・デュブイの型番RDDBEX0463。市場で10件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Roger Dubuis reference RDDBEX0463, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 10,
       "lastSeen": "2026-11-04"
@@ -887,34 +887,6 @@
       "lastSeen": "2026-11-04"
     },
     {
-      "id": "ref-ex4578",
-      "name_en": "EX45-78",
-      "name_ja": "エクスカリバー クロノグラフ EX45-78",
-      "reference": "EX45-78",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 981750,
-      "searchKeywordJa": "ロジェ・デュブイ EX45-78",
-      "searchKeywordEn": "Roger Dubuis EX45-78",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "chronograph"
-      ],
-      "popular": false,
-      "summary_ja": "ロジェ・デュブイの型番EX45-78。市場で3件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Roger Dubuis reference EX45-78, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 3,
-      "lastSeen": "2026-11-04"
-    },
-    {
       "id": "ref-dbex0443",
       "name_en": "DBEX0443",
       "name_ja": "エクスカリバー スモールセコンド DBEX0443",
@@ -938,6 +910,34 @@
       "popular": false,
       "summary_ja": "ロジェ・デュブイの型番DBEX0443。市場で3件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Roger Dubuis reference DBEX0443, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
+      "lastSeen": "2026-11-04"
+    },
+    {
+      "id": "ref-ex4578",
+      "name_en": "EX45-78",
+      "name_ja": "エクスカリバー クロノグラフ EX45-78",
+      "reference": "EX45-78",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 981750,
+      "searchKeywordJa": "ロジェ・デュブイ EX45-78",
+      "searchKeywordEn": "Roger Dubuis EX45-78",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph"
+      ],
+      "popular": false,
+      "summary_ja": "ロジェ・デュブイの型番EX45-78。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Roger Dubuis reference EX45-78, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
       "lastSeen": "2026-11-04"
@@ -1022,6 +1022,34 @@
       "popular": false,
       "summary_ja": "ロジェ・デュブイの型番RDDBVE0079。市場で3件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Roger Dubuis reference RDDBVE0079, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
+      "lastSeen": "2026-11-04"
+    },
+    {
+      "id": "ref-refdbex0748",
+      "name_en": "REF.DBEX0748",
+      "name_ja": "エクスカリバー スパイダー REF.DBEX0748",
+      "reference": "REF.DBEX0748",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 2659650,
+      "searchKeywordJa": "ロジェ・デュブイ REF.DBEX0748",
+      "searchKeywordEn": "Roger Dubuis REF.DBEX0748",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "skeleton"
+      ],
+      "popular": false,
+      "summary_ja": "ロジェ・デュブイの型番REF.DBEX0748。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Roger Dubuis reference REF.DBEX0748, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
       "lastSeen": "2026-11-04"

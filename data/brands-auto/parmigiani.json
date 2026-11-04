@@ -1,6 +1,6 @@
 {
   "brandId": "parmigiani",
-  "generatedAt": "2026-11-04T03:32:51.497Z",
+  "generatedAt": "2026-11-04T19:07:58.030Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -54,10 +54,10 @@
         "limited-edition"
       ],
       "popular": false,
-      "summary_ja": "パルミジャーニ・フルリエの型番B00182。市場で7件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "パルミジャーニ・フルリエの型番B00182。市場で9件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Parmigiani Fleurier reference B00182, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 7,
+      "listingCount": 9,
       "lastSeen": "2026-11-04"
     },
     {
@@ -224,6 +224,34 @@
       "popular": false,
       "summary_ja": "パルミジャーニ・フルリエの型番PFC288-1062500-HA14。市場で3件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Parmigiani Fleurier reference PFC288-1062500-HA14, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
+      "lastSeen": "2026-11-04"
+    },
+    {
+      "id": "ref-refpfc9060000210",
+      "name_en": "REF.PFC906-0000210",
+      "name_ja": "トンダグラフ パルミジャーニ REF.PFC906-0000210",
+      "reference": "REF.PFC906-0000210",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 1856400,
+      "searchKeywordJa": "パルミジャーニ・フルリエ REF.PFC906-0000210",
+      "searchKeywordEn": "Parmigiani Fleurier REF.PFC906-0000210",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "パルミジャーニ・フルリエの型番REF.PFC906-0000210。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Parmigiani Fleurier reference REF.PFC906-0000210, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
       "lastSeen": "2026-11-04"
@@ -422,6 +450,62 @@
       "summary_en": "Parmigiani Fleurier reference HA1441, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
+      "lastSeen": "2026-11-04"
+    },
+    {
+      "id": "ref-pfc9051020001",
+      "name_en": "PFC905-1020001",
+      "name_ja": "トンダ ラトラパンテ PFC905-1020001",
+      "reference": "PFC905-1020001",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 2861610,
+      "searchKeywordJa": "パルミジャーニ・フルリエ PFC905-1020001",
+      "searchKeywordEn": "Parmigiani Fleurier PFC905-1020001",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "gmt"
+      ],
+      "popular": false,
+      "summary_ja": "パルミジャーニ・フルリエの型番PFC905-1020001。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Parmigiani Fleurier reference PFC905-1020001, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-11-04"
+    },
+    {
+      "id": "ref-100182",
+      "name_en": "100182",
+      "name_ja": "トンダ ラトラパンテ 100182",
+      "reference": "100182",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 2861610,
+      "searchKeywordJa": "パルミジャーニ・フルリエ 100182",
+      "searchKeywordEn": "Parmigiani Fleurier 100182",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "gmt"
+      ],
+      "popular": false,
+      "summary_ja": "パルミジャーニ・フルリエの型番100182。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Parmigiani Fleurier reference 100182, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
       "lastSeen": "2026-11-04"
     },
     {
@@ -926,34 +1010,6 @@
       "popular": false,
       "summary_ja": "パルミジャーニ・フルリエの型番PFS906-1020002。市場で2件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Parmigiani Fleurier reference PFS906-1020002, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 0,
-      "lastSeen": "2026-10-11"
-    },
-    {
-      "id": "ref-100182",
-      "name_en": "100182",
-      "name_ja": "トンダ 100182",
-      "reference": "100182",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 2528750,
-      "searchKeywordJa": "パルミジャーニ・フルリエ 100182",
-      "searchKeywordEn": "Parmigiani Fleurier 100182",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "パルミジャーニ・フルリエの型番100182。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Parmigiani Fleurier reference 100182, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 0,
       "lastSeen": "2026-10-11"

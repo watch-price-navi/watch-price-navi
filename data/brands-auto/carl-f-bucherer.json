@@ -1,6 +1,6 @@
 {
   "brandId": "carl-f-bucherer",
-  "generatedAt": "2026-11-04T02:05:57.858Z",
+  "generatedAt": "2026-11-04T17:44:03.229Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -56,8 +56,37 @@
         "vintage-reissue"
       ],
       "popular": false,
-      "summary_ja": "カール F. ブヘラの型番00.10803.08.12.01。市場で5件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "カール F. ブヘラの型番00.10803.08.12.01。市場で6件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Carl F. Bucherer reference 00.10803.08.12.01, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 6,
+      "lastSeen": "2026-11-04"
+    },
+    {
+      "id": "ref-0010803074201",
+      "name_en": "00.10803.07.42.01",
+      "name_ja": "ヘリテージ バイコンパックス 00.10803.07.42.01",
+      "reference": "00.10803.07.42.01",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 635800,
+      "searchKeywordJa": "カール F. ブヘラ 00.10803.07.42.01",
+      "searchKeywordEn": "Carl F. Bucherer 00.10803.07.42.01",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "limited-edition",
+        "vintage-reissue"
+      ],
+      "popular": false,
+      "summary_ja": "カール F. ブヘラの型番00.10803.07.42.01。市場で5件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Carl F. Bucherer reference 00.10803.07.42.01, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
       "lastSeen": "2026-11-04"
@@ -600,35 +629,6 @@
       "lastSeen": "2026-11-04"
     },
     {
-      "id": "ref-0010803074201",
-      "name_en": "00.10803.07.42.01",
-      "name_ja": "カール ブヘラ 00.10803.07.42.01",
-      "reference": "00.10803.07.42.01",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 635800,
-      "searchKeywordJa": "カール F. ブヘラ 00.10803.07.42.01",
-      "searchKeywordEn": "Carl F. Bucherer 00.10803.07.42.01",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "limited-edition",
-        "vintage-reissue"
-      ],
-      "popular": false,
-      "summary_ja": "カール F. ブヘラの型番00.10803.07.42.01。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Carl F. Bucherer reference 00.10803.07.42.01, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-11-04"
-    },
-    {
       "id": "ref-0010323083121",
       "name_en": "00.10323.08.31.21",
       "name_ja": "00.10323.08.31.21",
@@ -848,6 +848,35 @@
       "popular": false,
       "summary_ja": "カール F. ブヘラの型番1JKDCBAU0002。市場で1件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Carl F. Bucherer reference 1JKDCBAU0002, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-11-04"
+    },
+    {
+      "id": "ref-08qtcbau0001",
+      "name_en": "08QTCBAU0001",
+      "name_ja": "08QTCBAU0001",
+      "reference": "08QTCBAU0001",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 593300,
+      "searchKeywordJa": "カール F. ブヘラ 08QTCBAU0001",
+      "searchKeywordEn": "Carl F. Bucherer 08QTCBAU0001",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "limited-edition",
+        "vintage-reissue"
+      ],
+      "popular": false,
+      "summary_ja": "カール F. ブヘラの型番08QTCBAU0001。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Carl F. Bucherer reference 08QTCBAU0001, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
       "lastSeen": "2026-11-04"
