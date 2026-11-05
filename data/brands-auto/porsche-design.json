@@ -1,6 +1,6 @@
 {
   "brandId": "porsche-design",
-  "generatedAt": "2026-11-05T03:32:31.645Z",
+  "generatedAt": "2026-11-05T19:27:35.623Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -375,29 +375,30 @@
       "lastSeen": "2026-11-05"
     },
     {
-      "id": "ref-p8722",
-      "name_en": "P8722",
-      "name_ja": "メガネ P8722",
-      "reference": "P8722",
+      "id": "ref-ref7177",
+      "name_en": "REF.7177",
+      "name_ja": "REF.7177",
+      "reference": "REF.7177",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
-      "movementType": null,
+      "movementType": "automatic",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 250000,
-      "searchKeywordJa": "ポルシェ・デザイン P8722",
-      "searchKeywordEn": "Porsche Design P8722",
-      "caseMaterial": "titanium",
+      "priceFloorJpy": 499630,
+      "searchKeywordJa": "ポルシェ・デザイン REF.7177",
+      "searchKeywordEn": "Porsche Design REF.7177",
+      "caseMaterial": null,
       "waterResistanceM": null,
       "gender": "mens",
       "releaseYear": null,
       "tags": [
-        "lightweight"
+        "chronograph",
+        "military"
       ],
       "popular": false,
-      "summary_ja": "ポルシェ・デザインの型番P8722。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Porsche Design reference P8722, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ポルシェ・デザインの型番REF.7177。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Porsche Design reference REF.7177, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
       "lastSeen": "2026-11-05"
@@ -459,6 +460,34 @@
       "lastSeen": "2026-11-05"
     },
     {
+      "id": "ref-p636043",
+      "name_en": "P6360.43",
+      "name_ja": "P6360.43",
+      "reference": "P6360.43",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 250000,
+      "searchKeywordJa": "ポルシェ・デザイン P6360.43",
+      "searchKeywordEn": "Porsche Design P6360.43",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph"
+      ],
+      "popular": false,
+      "summary_ja": "ポルシェ・デザインの型番P6360.43。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Porsche Design reference P6360.43, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-11-05"
+    },
+    {
       "id": "ref-660541",
       "name_en": "6605.41",
       "name_ja": "6605.41",
@@ -511,34 +540,6 @@
       "popular": false,
       "summary_ja": "ポルシェ・デザインの型番6500.10。市場で1件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Porsche Design reference 6500.10, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-11-05"
-    },
-    {
-      "id": "ref-p636043",
-      "name_en": "P6360.43",
-      "name_ja": "P6360.43",
-      "reference": "P6360.43",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 250000,
-      "searchKeywordJa": "ポルシェ・デザイン P6360.43",
-      "searchKeywordEn": "Porsche Design P6360.43",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "chronograph"
-      ],
-      "popular": false,
-      "summary_ja": "ポルシェ・デザインの型番P6360.43。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Porsche Design reference P6360.43, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
       "lastSeen": "2026-11-05"
@@ -966,6 +967,34 @@
       "lastSeen": "2026-11-05"
     },
     {
+      "id": "ref-ref652013410270",
+      "name_en": "REF.6520.13.41.0270",
+      "name_ja": "REF.6520.13.41.0270",
+      "reference": "REF.6520.13.41.0270",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 400180,
+      "searchKeywordJa": "ポルシェ・デザイン REF.6520.13.41.0270",
+      "searchKeywordEn": "Porsche Design REF.6520.13.41.0270",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ポルシェ・デザインの型番REF.6520.13.41.0270。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Porsche Design reference REF.6520.13.41.0270, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-11-05"
+    },
+    {
       "id": "ref-6013605005082",
       "name_en": "6013.6.05.005.08.2",
       "name_ja": "6013.6.05.005.08.2",
@@ -1078,6 +1107,34 @@
       "summary_en": "Porsche Design reference P6520, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
+      "lastSeen": "2026-11-05"
+    },
+    {
+      "id": "ref-p8722",
+      "name_en": "P8722",
+      "name_ja": "メガネ P8722",
+      "reference": "P8722",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 250000,
+      "searchKeywordJa": "ポルシェ・デザイン P8722",
+      "searchKeywordEn": "Porsche Design P8722",
+      "caseMaterial": "titanium",
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "lightweight"
+      ],
+      "popular": false,
+      "summary_ja": "ポルシェ・デザインの型番P8722。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Porsche Design reference P8722, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 0,
       "lastSeen": "2026-11-05"
     },
     {

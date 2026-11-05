@@ -1,6 +1,6 @@
 {
   "brandId": "chronoswiss",
-  "generatedAt": "2026-11-05T02:10:56.534Z",
+  "generatedAt": "2026-11-05T18:05:24.641Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -39,7 +39,7 @@
       "reference": "CH7633",
       "collection_en": null,
       "collection_ja": null,
-      "caseSizeMm": null,
+      "caseSizeMm": 40,
       "movementType": "automatic",
       "caliber": null,
       "listPriceJpy": null,
@@ -54,10 +54,10 @@
         "chronograph"
       ],
       "popular": false,
-      "summary_ja": "クロノスイスの型番CH7633。市場で6件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "クロノスイスの型番CH7633。市場で7件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Chronoswiss reference CH7633, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 6,
+      "listingCount": 7,
       "lastSeen": "2026-11-05"
     },
     {
@@ -485,34 +485,6 @@
       "lastSeen": "2026-11-05"
     },
     {
-      "id": "ref-ch12431",
-      "name_en": "CH1243.1",
-      "name_ja": "シリウス レギュレーター CH1243.1",
-      "reference": "CH1243.1",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 418880,
-      "searchKeywordJa": "クロノスイス CH1243.1",
-      "searchKeywordEn": "Chronoswiss CH1243.1",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "chronograph"
-      ],
-      "popular": false,
-      "summary_ja": "クロノスイスの型番CH1243.1。市場で3件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Chronoswiss reference CH1243.1, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 3,
-      "lastSeen": "2026-11-05"
-    },
-    {
       "id": "ref-ch8733si",
       "name_en": "CH-8733-SI",
       "name_ja": "シリウス レギュレーター CH-8733-SI",
@@ -541,6 +513,34 @@
       "lastSeen": "2026-11-05"
     },
     {
+      "id": "ref-ch12431",
+      "name_en": "CH1243.1",
+      "name_ja": "シリウス レギュレーター CH1243.1",
+      "reference": "CH1243.1",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 418880,
+      "searchKeywordJa": "クロノスイス CH1243.1",
+      "searchKeywordEn": "Chronoswiss CH1243.1",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph"
+      ],
+      "popular": false,
+      "summary_ja": "クロノスイスの型番CH1243.1。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Chronoswiss reference CH1243.1, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
+      "lastSeen": "2026-11-05"
+    },
+    {
       "id": "ref-ch7523",
       "name_en": "CH7523",
       "name_ja": "クロノグラフ ムーンフェイズ CH7523",
@@ -551,7 +551,7 @@
       "movementType": "automatic",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 474980,
+      "priceFloorJpy": 427482,
       "searchKeywordJa": "クロノスイス CH7523",
       "searchKeywordEn": "Chronoswiss CH7523",
       "caseMaterial": "stainless-steel",
@@ -1137,6 +1137,35 @@
       "lastSeen": "2026-11-05"
     },
     {
+      "id": "ref-refch6725bkbk",
+      "name_en": "REF.CH-6725-BKBK",
+      "name_ja": "フラインググランドレギュ レーター REF.CH-6725-BKBK",
+      "reference": "REF.CH-6725-BKBK",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 508300,
+      "searchKeywordJa": "クロノスイス REF.CH-6725-BKBK",
+      "searchKeywordEn": "Chronoswiss REF.CH-6725-BKBK",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph",
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "クロノスイスの型番REF.CH-6725-BKBK。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Chronoswiss reference REF.CH-6725-BKBK, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-11-05"
+    },
+    {
       "id": "ref-ch4023si",
       "name_en": "CH-4023-SI",
       "name_ja": "ローン レギュレーター CH-4023-SI",
@@ -1211,7 +1240,8 @@
       "gender": "mens",
       "releaseYear": null,
       "tags": [
-        "chronograph"
+        "chronograph",
+        "limited-edition"
       ],
       "popular": false,
       "summary_ja": "クロノスイスの型番CH-9343.1。市場で1件の出品が確認された、実際に流通しているモデルです。",
@@ -1343,7 +1373,7 @@
       "movementType": "manual",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 446930,
+      "priceFloorJpy": 402237,
       "searchKeywordJa": "クロノスイス CH6322",
       "searchKeywordEn": "Chronoswiss CH6322",
       "caseMaterial": null,
@@ -1356,6 +1386,34 @@
       "popular": false,
       "summary_ja": "クロノスイスの型番CH6322。市場で1件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Chronoswiss reference CH6322, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-11-05"
+    },
+    {
+      "id": "ref-ch2703",
+      "name_en": "CH2703",
+      "name_ja": "CH2703",
+      "reference": "CH2703",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 953700,
+      "searchKeywordJa": "クロノスイス CH2703",
+      "searchKeywordEn": "Chronoswiss CH2703",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph"
+      ],
+      "popular": false,
+      "summary_ja": "クロノスイスの型番CH2703。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Chronoswiss reference CH2703, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
       "lastSeen": "2026-11-05"
@@ -1413,34 +1471,6 @@
       "popular": false,
       "summary_ja": "クロノスイスの型番CH-8753-BLBK。市場で1件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Chronoswiss reference CH-8753-BLBK, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-11-05"
-    },
-    {
-      "id": "ref-ch2703",
-      "name_en": "CH2703",
-      "name_ja": "CH2703",
-      "reference": "CH2703",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 1122000,
-      "searchKeywordJa": "クロノスイス CH2703",
-      "searchKeywordEn": "Chronoswiss CH2703",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "chronograph"
-      ],
-      "popular": false,
-      "summary_ja": "クロノスイスの型番CH2703。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Chronoswiss reference CH2703, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
       "lastSeen": "2026-11-05"

@@ -1,6 +1,6 @@
 {
   "brandId": "bell-ross",
-  "generatedAt": "2026-11-05T01:42:21.037Z",
+  "generatedAt": "2026-11-05T17:36:39.186Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -27,10 +27,10 @@
         "limited-edition"
       ],
       "popular": false,
-      "summary_ja": "ベル&ロスの型番30000。市場で82件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "ベル&ロスの型番30000。市場で80件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Bell & Ross reference 30000, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 82,
+      "listingCount": 80,
       "lastSeen": "2026-11-05"
     },
     {
@@ -382,7 +382,7 @@
     {
       "id": "ref-br0192cfbca",
       "name_en": "BR01-92CFB-CA",
-      "name_ja": "オートマティック ステンレススティール BR01-92CFB-CA",
+      "name_ja": "マラソン オートマティック BR01-92CFB-CA",
       "reference": "BR01-92CFB-CA",
       "collection_en": null,
       "collection_ja": null,
@@ -398,7 +398,7 @@
       "gender": "mens",
       "releaseYear": null,
       "tags": [
-        "sport"
+        "limited-edition"
       ],
       "popular": false,
       "summary_ja": "ベル&ロスの型番BR01-92CFB-CA。市場で2件の出品が確認された、実際に流通しているモデルです。",
@@ -410,7 +410,7 @@
     {
       "id": "ref-br0192s",
       "name_en": "BR01-92-S",
-      "name_ja": "オートマティック ステンレススティール BR01-92-S",
+      "name_ja": "マラソン オートマティック BR01-92-S",
       "reference": "BR01-92-S",
       "collection_en": null,
       "collection_ja": null,
@@ -426,7 +426,7 @@
       "gender": "mens",
       "releaseYear": null,
       "tags": [
-        "sport"
+        "limited-edition"
       ],
       "popular": false,
       "summary_ja": "ベル&ロスの型番BR01-92-S。市場で2件の出品が確認された、実際に流通しているモデルです。",
@@ -524,34 +524,6 @@
       "lastSeen": "2026-11-05"
     },
     {
-      "id": "ref-br0392dc",
-      "name_en": "BR03-92-D-C",
-      "name_ja": "ダイバータラ BR03-92-D-C",
-      "reference": "BR03-92-D-C",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 477360,
-      "searchKeywordJa": "ベル&ロス BR03-92-D-C",
-      "searchKeywordEn": "Bell & Ross BR03-92-D-C",
-      "caseMaterial": "ceramic",
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "diver"
-      ],
-      "popular": false,
-      "summary_ja": "ベル&ロスの型番BR03-92-D-C。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Bell & Ross reference BR03-92-D-C, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-11-05"
-    },
-    {
       "id": "ref-br01cm203scr",
       "name_en": "BR01-CM-203/SCR",
       "name_ja": "BR01-CM-203/SCR",
@@ -634,6 +606,34 @@
       "summary_en": "Bell & Ross reference BR03-94-BTR-CE/SCA, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
+      "lastSeen": "2026-11-05"
+    },
+    {
+      "id": "ref-br0392dc",
+      "name_en": "BR03-92-D-C",
+      "name_ja": "BR03-92-D-C",
+      "reference": "BR03-92-D-C",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 477360,
+      "searchKeywordJa": "ベル&ロス BR03-92-D-C",
+      "searchKeywordEn": "Bell & Ross BR03-92-D-C",
+      "caseMaterial": "ceramic",
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "diver"
+      ],
+      "popular": false,
+      "summary_ja": "ベル&ロスの型番BR03-92-D-C。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Bell & Ross reference BR03-92-D-C, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
       "lastSeen": "2026-11-05"
     },
     {
