@@ -1,6 +1,6 @@
 {
   "brandId": "perrelet",
-  "generatedAt": "2026-11-07T03:00:11.777Z",
+  "generatedAt": "2026-11-07T17:39:07.435Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -1012,29 +1012,29 @@
       "lastSeen": "2026-11-07"
     },
     {
-      "id": "ref-vcarp4e200",
-      "name_en": "VCARP4E200",
-      "name_ja": "VCARP4E200",
-      "reference": "VCARP4E200",
+      "id": "ref-6jkb0335",
+      "name_en": "6JKB0335",
+      "name_ja": "6JKB0335",
+      "reference": "6JKB0335",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
       "movementType": null,
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 1028500,
-      "searchKeywordJa": "ペルレ VCARP4E200",
-      "searchKeywordEn": "Perrelet VCARP4E200",
-      "caseMaterial": null,
+      "priceFloorJpy": 873757,
+      "searchKeywordJa": "ペルレ 6JKB0335",
+      "searchKeywordEn": "Perrelet 6JKB0335",
+      "caseMaterial": "rose-gold",
       "waterResistanceM": null,
-      "gender": "unisex",
+      "gender": "mens",
       "releaseYear": null,
       "tags": [
         "sport"
       ],
       "popular": false,
-      "summary_ja": "ペルレの型番VCARP4E200。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Perrelet reference VCARP4E200, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ペルレの型番6JKB0335。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Perrelet reference 6JKB0335, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
       "lastSeen": "2026-11-07"
@@ -1093,6 +1093,34 @@
       "summary_en": "Perrelet reference VCARP6X400, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
+      "lastSeen": "2026-11-07"
+    },
+    {
+      "id": "ref-vcarp4e200",
+      "name_en": "VCARP4E200",
+      "name_ja": "VCARP4E200",
+      "reference": "VCARP4E200",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 1028500,
+      "searchKeywordJa": "ペルレ VCARP4E200",
+      "searchKeywordEn": "Perrelet VCARP4E200",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ペルレの型番VCARP4E200。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Perrelet reference VCARP4E200, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 0,
       "lastSeen": "2026-11-07"
     },
     {

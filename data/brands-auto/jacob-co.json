@@ -1,36 +1,8 @@
 {
   "brandId": "jacob-co",
-  "generatedAt": "2026-11-07T02:25:27.274Z",
+  "generatedAt": "2026-11-07T17:01:35.140Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
-    {
-      "id": "ref-1025",
-      "name_en": "10.25",
-      "name_ja": "ジョーロデオ ダイヤモンド 10.25",
-      "reference": "10.25",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 400000,
-      "searchKeywordJa": "ジェイコブ 10.25",
-      "searchKeywordEn": "Jacob & Co. 10.25",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ジェイコブの型番10.25。市場で5件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Jacob & Co. reference 10.25, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 5,
-      "lastSeen": "2026-11-07"
-    },
     {
       "id": "ref-1725",
       "name_en": "17.25",
@@ -57,6 +29,34 @@
       "summary_en": "Jacob & Co. reference 17.25, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
+      "lastSeen": "2026-11-07"
+    },
+    {
+      "id": "ref-1025",
+      "name_en": "10.25",
+      "name_ja": "ジョーロデオ ダイヤモンド 10.25",
+      "reference": "10.25",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 400000,
+      "searchKeywordJa": "ジェイコブ 10.25",
+      "searchKeywordEn": "Jacob & Co. 10.25",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ジェイコブの型番10.25。市場で4件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Jacob & Co. reference 10.25, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 4,
       "lastSeen": "2026-11-07"
     },
     {
@@ -819,34 +819,6 @@
       "lastSeen": "2026-11-07"
     },
     {
-      "id": "ref-at12580aaugb",
-      "name_en": "AT125.80.AA.UG.B",
-      "name_ja": "AT125.80.AA.UG.B",
-      "reference": "AT125.80.AA.UG.B",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "manual",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 79866000,
-      "searchKeywordJa": "ジェイコブ AT125.80.AA.UG.B",
-      "searchKeywordEn": "Jacob & Co. AT125.80.AA.UG.B",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "tourbillon"
-      ],
-      "popular": false,
-      "summary_ja": "ジェイコブの型番AT125.80.AA.UG.B。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Jacob & Co. reference AT125.80.AA.UG.B, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-11-07"
-    },
-    {
       "id": "ref-as30040apakafl4a",
       "name_en": "AS300.40.AP.AK.AFL4A",
       "name_ja": "AS300.40.AP.AK.AFL4A",
@@ -898,6 +870,34 @@
       "popular": false,
       "summary_ja": "ジェイコブの型番4A005973。市場で1件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Jacob & Co. reference 4A005973, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-11-07"
+    },
+    {
+      "id": "ref-at12580aaugb",
+      "name_en": "AT125.80.AA.UG.B",
+      "name_ja": "AT125.80.AA.UG.B",
+      "reference": "AT125.80.AA.UG.B",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "manual",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 79866000,
+      "searchKeywordJa": "ジェイコブ AT125.80.AA.UG.B",
+      "searchKeywordEn": "Jacob & Co. AT125.80.AA.UG.B",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "tourbillon"
+      ],
+      "popular": false,
+      "summary_ja": "ジェイコブの型番AT125.80.AA.UG.B。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Jacob & Co. reference AT125.80.AA.UG.B, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
       "lastSeen": "2026-11-07"

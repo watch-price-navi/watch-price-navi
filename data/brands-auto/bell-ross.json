@@ -1,6 +1,6 @@
 {
   "brandId": "bell-ross",
-  "generatedAt": "2026-11-07T01:19:51.235Z",
+  "generatedAt": "2026-11-07T15:51:39.101Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -27,10 +27,10 @@
         "limited-edition"
       ],
       "popular": false,
-      "summary_ja": "ベル&ロスの型番30000。市場で78件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "ベル&ロスの型番30000。市場で82件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Bell & Ross reference 30000, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 78,
+      "listingCount": 82,
       "lastSeen": "2026-11-07"
     },
     {
@@ -352,35 +352,6 @@
       "lastSeen": "2026-11-07"
     },
     {
-      "id": "ref-br05ca523stsca",
-      "name_en": "BR-05C-A523-ST/SCA",
-      "name_ja": "クロノ アルピーヌ BR-05C-A523-ST/SCA",
-      "reference": "BR-05C-A523-ST/SCA",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 633420,
-      "searchKeywordJa": "ベル&ロス BR-05C-A523-ST/SCA",
-      "searchKeywordEn": "Bell & Ross BR-05C-A523-ST/SCA",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "chronograph",
-        "limited-edition"
-      ],
-      "popular": false,
-      "summary_ja": "ベル&ロスの型番BR-05C-A523-ST/SCA。市場で3件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Bell & Ross reference BR-05C-A523-ST/SCA, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 3,
-      "lastSeen": "2026-11-07"
-    },
-    {
       "id": "ref-br0392s",
       "name_en": "BR03-92-S",
       "name_ja": "デイト BR03-92-S",
@@ -604,6 +575,35 @@
       "popular": false,
       "summary_ja": "ベル&ロスの型番BR01-CM-203/SCR。市場で2件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Bell & Ross reference BR01-CM-203/SCR, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-11-07"
+    },
+    {
+      "id": "ref-br05ca523stsca",
+      "name_en": "BR-05C-A523-ST/SCA",
+      "name_ja": "クロノ アルピーヌ BR-05C-A523-ST/SCA",
+      "reference": "BR-05C-A523-ST/SCA",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 633420,
+      "searchKeywordJa": "ベル&ロス BR-05C-A523-ST/SCA",
+      "searchKeywordEn": "Bell & Ross BR-05C-A523-ST/SCA",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "chronograph",
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "ベル&ロスの型番BR-05C-A523-ST/SCA。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Bell & Ross reference BR-05C-A523-ST/SCA, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
       "lastSeen": "2026-11-07"
