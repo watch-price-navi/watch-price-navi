@@ -1,6 +1,6 @@
 {
   "brandId": "perrelet",
-  "generatedAt": "2026-11-08T02:41:00.789Z",
+  "generatedAt": "2026-11-08T17:55:57.669Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -732,34 +732,6 @@
       "lastSeen": "2026-11-08"
     },
     {
-      "id": "ref-vcarn33000",
-      "name_en": "VCARN33000",
-      "name_ja": "VCARN33000",
-      "reference": "VCARN33000",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 200000,
-      "searchKeywordJa": "ペルレ VCARN33000",
-      "searchKeywordEn": "Perrelet VCARN33000",
-      "caseMaterial": "rose-gold",
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ペルレの型番VCARN33000。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Perrelet reference VCARN33000, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-11-08"
-    },
-    {
       "id": "ref-a1069",
       "name_en": "A1069",
       "name_ja": "A1069",
@@ -783,6 +755,34 @@
       "popular": false,
       "summary_ja": "ペルレの型番A1069。市場で1件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Perrelet reference A1069, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-11-08"
+    },
+    {
+      "id": "ref-vcarn33000",
+      "name_en": "VCARN33000",
+      "name_ja": "VCARN33000",
+      "reference": "VCARN33000",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 200000,
+      "searchKeywordJa": "ペルレ VCARN33000",
+      "searchKeywordEn": "Perrelet VCARN33000",
+      "caseMaterial": "rose-gold",
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ペルレの型番VCARN33000。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Perrelet reference VCARN33000, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
       "lastSeen": "2026-11-08"
