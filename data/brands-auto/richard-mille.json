@@ -1,6 +1,6 @@
 {
   "brandId": "richard-mille",
-  "generatedAt": "2026-11-09T03:07:38.895Z",
+  "generatedAt": "2026-11-09T21:54:17.698Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -119,34 +119,6 @@
       "lastSeen": "2026-11-09"
     },
     {
-      "id": "ref-rm1104ca",
-      "name_en": "RM11-04CA",
-      "name_ja": "アニュアルカレンダー RM11-04CA",
-      "reference": "RM11-04CA",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": 49.9,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 60350000,
-      "searchKeywordJa": "リシャール・ミル RM11-04CA",
-      "searchKeywordEn": "Richard Mille RM11-04CA",
-      "caseMaterial": "carbon",
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "lightweight"
-      ],
-      "popular": false,
-      "summary_ja": "リシャール・ミルの型番RM11-04CA。市場で18件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Richard Mille reference RM11-04CA, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 18,
-      "lastSeen": "2026-11-09"
-    },
-    {
       "id": "ref-rm6501",
       "name_en": "RM65-01",
       "name_ja": "オートマティック スプリットセコンド RM65-01",
@@ -204,29 +176,29 @@
       "lastSeen": "2026-11-09"
     },
     {
-      "id": "ref-rm6501fq",
-      "name_en": "RM65-01FQ",
-      "name_ja": "オートマティック スプリットセコンド RM65-01FQ",
-      "reference": "RM65-01FQ",
+      "id": "ref-rm1104ca",
+      "name_en": "RM11-04CA",
+      "name_ja": "アニュアルカレンダー RM11-04CA",
+      "reference": "RM11-04CA",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": 49.9,
       "movementType": "automatic",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 61030000,
-      "searchKeywordJa": "リシャール・ミル RM65-01FQ",
-      "searchKeywordEn": "Richard Mille RM65-01FQ",
-      "caseMaterial": null,
+      "priceFloorJpy": 60350000,
+      "searchKeywordJa": "リシャール・ミル RM11-04CA",
+      "searchKeywordEn": "Richard Mille RM11-04CA",
+      "caseMaterial": "carbon",
       "waterResistanceM": null,
       "gender": "mens",
       "releaseYear": null,
       "tags": [
-        "chronograph"
+        "lightweight"
       ],
       "popular": false,
-      "summary_ja": "リシャール・ミルの型番RM65-01FQ。市場で16件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Richard Mille reference RM65-01FQ, currently offered by multiple sellers in Japan.",
+      "summary_ja": "リシャール・ミルの型番RM11-04CA。市場で16件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Richard Mille reference RM11-04CA, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 16,
       "lastSeen": "2026-11-09"
@@ -253,10 +225,38 @@
         "lightweight"
       ],
       "popular": false,
-      "summary_ja": "リシャール・ミルの型番RM11-03CA。市場で15件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "リシャール・ミルの型番RM11-03CA。市場で16件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Richard Mille reference RM11-03CA, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 15,
+      "listingCount": 16,
+      "lastSeen": "2026-11-09"
+    },
+    {
+      "id": "ref-rm6501fq",
+      "name_en": "RM65-01FQ",
+      "name_ja": "オートマティック スプリットセコンド RM65-01FQ",
+      "reference": "RM65-01FQ",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": 49.9,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 61030000,
+      "searchKeywordJa": "リシャール・ミル RM65-01FQ",
+      "searchKeywordEn": "Richard Mille RM65-01FQ",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph"
+      ],
+      "popular": false,
+      "summary_ja": "リシャール・ミルの型番RM65-01FQ。市場で16件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Richard Mille reference RM65-01FQ, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 16,
       "lastSeen": "2026-11-09"
     },
     {
