@@ -1,6 +1,6 @@
 {
   "brandId": "harry-winston",
-  "generatedAt": "2026-11-09T20:58:56.139Z",
+  "generatedAt": "2026-11-10T04:48:34.567Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -31,7 +31,7 @@
       "summary_en": "Harry Winston reference 30000, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 26,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-midahm42rr001",
@@ -55,11 +55,11 @@
         "skeleton"
       ],
       "popular": false,
-      "summary_ja": "ハリー・ウィンストンの型番MIDAHM42RR001。市場で21件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "ハリー・ウィンストンの型番MIDAHM42RR001。市場で20件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Harry Winston reference MIDAHM42RR001, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 21,
-      "lastSeen": "2026-11-09"
+      "listingCount": 20,
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-midabd42ww002",
@@ -87,7 +87,7 @@
       "summary_en": "Harry Winston reference MIDABD42WW002, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 18,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-oceahr42zz001",
@@ -115,7 +115,7 @@
       "summary_en": "Harry Winston reference OCEAHR42ZZ001, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 17,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-midabd42ww001",
@@ -143,7 +143,7 @@
       "summary_en": "Harry Winston reference MIDABD42WW001, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 16,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-midahm42ww001",
@@ -171,35 +171,7 @@
       "summary_en": "Harry Winston reference MIDAHM42WW001, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 15,
-      "lastSeen": "2026-11-09"
-    },
-    {
-      "id": "ref-prnatz41rr001",
-      "name_en": "PRNATZ41RR001",
-      "name_ja": "プルミエール エキセンター PRNATZ41RR001",
-      "reference": "PRNATZ41RR001",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": 41,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 2642650,
-      "searchKeywordJa": "ハリー・ウィンストン PRNATZ41RR001",
-      "searchKeywordEn": "Harry Winston PRNATZ41RR001",
-      "caseMaterial": "rose-gold",
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "gmt"
-      ],
-      "popular": false,
-      "summary_ja": "ハリー・ウィンストンの型番PRNATZ41RR001。市場で14件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Harry Winston reference PRNATZ41RR001, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 14,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-oceatz44zz008",
@@ -224,11 +196,39 @@
         "limited-edition"
       ],
       "popular": false,
-      "summary_ja": "ハリー・ウィンストンの型番OCEATZ44ZZ008。市場で13件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "ハリー・ウィンストンの型番OCEATZ44ZZ008。市場で14件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Harry Winston reference OCEATZ44ZZ008, currently offered by multiple sellers in Japan.",
       "source": "auto",
+      "listingCount": 14,
+      "lastSeen": "2026-11-10"
+    },
+    {
+      "id": "ref-prnatz41rr001",
+      "name_en": "PRNATZ41RR001",
+      "name_ja": "プルミエール エキセンター PRNATZ41RR001",
+      "reference": "PRNATZ41RR001",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": 41,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 2642650,
+      "searchKeywordJa": "ハリー・ウィンストン PRNATZ41RR001",
+      "searchKeywordEn": "Harry Winston PRNATZ41RR001",
+      "caseMaterial": "rose-gold",
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "gmt"
+      ],
+      "popular": false,
+      "summary_ja": "ハリー・ウィンストンの型番PRNATZ41RR001。市場で13件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Harry Winston reference PRNATZ41RR001, currently offered by multiple sellers in Japan.",
+      "source": "auto",
       "listingCount": 13,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-prnatz41ww001",
@@ -256,35 +256,7 @@
       "summary_en": "Harry Winston reference PRNATZ41WW001, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 13,
-      "lastSeen": "2026-11-09"
-    },
-    {
-      "id": "ref-400mcra44wlmdd31",
-      "name_en": "400/MCRA44WL.MD/D3.1",
-      "name_ja": "オーシャン クロノグラフ 400/MCRA44WL.MD/D3.1",
-      "reference": "400/MCRA44WL.MD/D3.1",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": 44,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 5423000,
-      "searchKeywordJa": "ハリー・ウィンストン 400/MCRA44WL.MD/D3.1",
-      "searchKeywordEn": "Harry Winston 400/MCRA44WL.MD/D3.1",
-      "caseMaterial": "white-gold",
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "chronograph"
-      ],
-      "popular": false,
-      "summary_ja": "ハリー・ウィンストンの型番400/MCRA44WL.MD/D3.1。市場で12件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Harry Winston reference 400/MCRA44WL.MD/D3.1, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 12,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-oceatz44rr011",
@@ -312,7 +284,35 @@
       "summary_en": "Harry Winston reference OCEATZ44RR011, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 11,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
+    },
+    {
+      "id": "ref-400mcra44wlmdd31",
+      "name_en": "400/MCRA44WL.MD/D3.1",
+      "name_ja": "オーシャン クロノグラフ 400/MCRA44WL.MD/D3.1",
+      "reference": "400/MCRA44WL.MD/D3.1",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": 44,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 5423000,
+      "searchKeywordJa": "ハリー・ウィンストン 400/MCRA44WL.MD/D3.1",
+      "searchKeywordEn": "Harry Winston 400/MCRA44WL.MD/D3.1",
+      "caseMaterial": "white-gold",
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph"
+      ],
+      "popular": false,
+      "summary_ja": "ハリー・ウィンストンの型番400/MCRA44WL.MD/D3.1。市場で11件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Harry Winston reference 400/MCRA44WL.MD/D3.1, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 11,
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-oceapc42ww001",
@@ -340,7 +340,35 @@
       "summary_en": "Harry Winston reference OCEAPC42WW001, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 10,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
+    },
+    {
+      "id": "ref-oceabi42ww001",
+      "name_en": "OCEABI42WW001",
+      "name_ja": "オーシャン バイレトログラード OCEABI42WW001",
+      "reference": "OCEABI42WW001",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": 42,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 5083000,
+      "searchKeywordJa": "ハリー・ウィンストン OCEABI42WW001",
+      "searchKeywordEn": "Harry Winston OCEABI42WW001",
+      "caseMaterial": "white-gold",
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "ハリー・ウィンストンの型番OCEABI42WW001。市場で10件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Harry Winston reference OCEABI42WW001, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 10,
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-oceamp42ww001",
@@ -369,36 +397,7 @@
       "summary_en": "Harry Winston reference OCEAMP42WW001, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 10,
-      "lastSeen": "2026-11-09"
-    },
-    {
-      "id": "ref-oceach44rr003",
-      "name_en": "OCEACH44RR003",
-      "name_ja": "オーシャン クロノグラフ OCEACH44RR003",
-      "reference": "OCEACH44RR003",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": 44,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 7633000,
-      "searchKeywordJa": "ハリー・ウィンストン OCEACH44RR003",
-      "searchKeywordEn": "Harry Winston OCEACH44RR003",
-      "caseMaterial": "rose-gold",
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "chronograph",
-        "limited-edition"
-      ],
-      "popular": false,
-      "summary_ja": "ハリー・ウィンストンの型番OCEACH44RR003。市場で10件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Harry Winston reference OCEACH44RR003, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 10,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-midahd42ww002",
@@ -426,7 +425,7 @@
       "summary_en": "Harry Winston reference MIDAHD42WW002, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 9,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-410mca44wz",
@@ -455,7 +454,7 @@
       "summary_en": "Harry Winston reference 410-MCA44WZ, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 9,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-oceatz44ww013",
@@ -484,35 +483,35 @@
       "summary_en": "Harry Winston reference OCEATZ44WW013, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 9,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
-      "id": "ref-oceabi42ww001",
-      "name_en": "OCEABI42WW001",
-      "name_ja": "オーシャン バイレトログラード OCEABI42WW001",
-      "reference": "OCEABI42WW001",
+      "id": "ref-midahm29ww001",
+      "name_en": "MIDAHM29WW001",
+      "name_ja": "ミッドナイト オートマティック MIDAHM29WW001",
+      "reference": "MIDAHM29WW001",
       "collection_en": null,
       "collection_ja": null,
-      "caseSizeMm": 42,
+      "caseSizeMm": 29,
       "movementType": "automatic",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 5083000,
-      "searchKeywordJa": "ハリー・ウィンストン OCEABI42WW001",
-      "searchKeywordEn": "Harry Winston OCEABI42WW001",
+      "priceFloorJpy": 963050,
+      "searchKeywordJa": "ハリー・ウィンストン MIDAHM29WW001",
+      "searchKeywordEn": "Harry Winston MIDAHM29WW001",
       "caseMaterial": "white-gold",
       "waterResistanceM": null,
-      "gender": "mens",
+      "gender": "ladies",
       "releaseYear": null,
       "tags": [
-        "limited-edition"
+        "sport"
       ],
       "popular": false,
-      "summary_ja": "ハリー・ウィンストンの型番OCEABI42WW001。市場で9件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Harry Winston reference OCEABI42WW001, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ハリー・ウィンストンの型番MIDAHM29WW001。市場で8件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Harry Winston reference MIDAHM29WW001, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 9,
-      "lastSeen": "2026-11-09"
+      "listingCount": 8,
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-prnatz41rr002",
@@ -540,7 +539,7 @@
       "summary_en": "Harry Winston reference PRNATZ41RR002, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 8,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-prnatz41ww002",
@@ -568,7 +567,7 @@
       "summary_en": "Harry Winston reference PRNATZ41WW002, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 8,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-oceact44ww002",
@@ -596,35 +595,36 @@
       "summary_en": "Harry Winston reference OCEACT44WW002, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 8,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
-      "id": "ref-midahm29ww001",
-      "name_en": "MIDAHM29WW001",
-      "name_ja": "ミッドナイト オートマティック MIDAHM29WW001",
-      "reference": "MIDAHM29WW001",
+      "id": "ref-oceach44rr003",
+      "name_en": "OCEACH44RR003",
+      "name_ja": "オーシャン クロノグラフ OCEACH44RR003",
+      "reference": "OCEACH44RR003",
       "collection_en": null,
       "collection_ja": null,
-      "caseSizeMm": 29,
+      "caseSizeMm": 44,
       "movementType": "automatic",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 963050,
-      "searchKeywordJa": "ハリー・ウィンストン MIDAHM29WW001",
-      "searchKeywordEn": "Harry Winston MIDAHM29WW001",
-      "caseMaterial": "white-gold",
+      "priceFloorJpy": 7633000,
+      "searchKeywordJa": "ハリー・ウィンストン OCEACH44RR003",
+      "searchKeywordEn": "Harry Winston OCEACH44RR003",
+      "caseMaterial": "rose-gold",
       "waterResistanceM": null,
-      "gender": "ladies",
+      "gender": "mens",
       "releaseYear": null,
       "tags": [
-        "sport"
+        "chronograph",
+        "limited-edition"
       ],
       "popular": false,
-      "summary_ja": "ハリー・ウィンストンの型番MIDAHM29WW001。市場で7件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Harry Winston reference MIDAHM29WW001, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ハリー・ウィンストンの型番OCEACH44RR003。市場で8件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Harry Winston reference OCEACH44RR003, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 7,
-      "lastSeen": "2026-11-09"
+      "listingCount": 8,
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-midahm29rr001",
@@ -652,7 +652,7 @@
       "summary_en": "Harry Winston reference MIDAHM29RR001, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 7,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-avcqhm16rr001",
@@ -680,7 +680,7 @@
       "summary_en": "Harry Winston reference AVCQHM16RR001, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 7,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-midqmp39rr001",
@@ -708,7 +708,7 @@
       "summary_en": "Harry Winston reference MIDQMP39RR001, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 7,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-oceach44wz001",
@@ -737,7 +737,7 @@
       "summary_en": "Harry Winston reference OCEACH44WZ001, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 7,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-aveqhm21rr119",
@@ -765,7 +765,7 @@
       "summary_en": "Harry Winston reference AVEQHM21RR119, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 7,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-ocemal44zz004",
@@ -793,7 +793,7 @@
       "summary_en": "Harry Winston reference OCEMAL44ZZ004, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 7,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-midabd42rr001",
@@ -821,7 +821,7 @@
       "summary_en": "Harry Winston reference MIDABD42RR001, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 7,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-oceabd42rr001",
@@ -849,7 +849,7 @@
       "summary_en": "Harry Winston reference OCEABD42RR001, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 7,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-oceamp42zz001",
@@ -878,7 +878,7 @@
       "summary_en": "Harry Winston reference OCEAMP42ZZ001, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-450ma42rlw1",
@@ -906,7 +906,7 @@
       "summary_en": "Harry Winston reference 450/MA42RL.W1, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-200mmtz39w",
@@ -935,7 +935,35 @@
       "summary_en": "Harry Winston reference 200-MMTZ39W, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
+    },
+    {
+      "id": "ref-preach37yy003",
+      "name_en": "PREACH37YY003",
+      "name_ja": "プルミエール クロノグラフ PREACH37YY003",
+      "reference": "PREACH37YY003",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": 37,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 2945250,
+      "searchKeywordJa": "ハリー・ウィンストン PREACH37YY003",
+      "searchKeywordEn": "Harry Winston PREACH37YY003",
+      "caseMaterial": "yellow-gold",
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "chronograph"
+      ],
+      "popular": false,
+      "summary_ja": "ハリー・ウィンストンの型番PREACH37YY003。市場で6件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Harry Winston reference PREACH37YY003, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 6,
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-200mapc41w",
@@ -963,7 +991,7 @@
       "summary_en": "Harry Winston reference 200/MAPC41W, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-oceach44ww001",
@@ -992,7 +1020,7 @@
       "summary_en": "Harry Winston reference OCEACH44WW001, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-oceat044ww0011",
@@ -1021,7 +1049,7 @@
       "summary_en": "Harry Winston reference OCEAT044WW0011, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 6,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-oceabi42zz001",
@@ -1049,7 +1077,7 @@
       "summary_en": "Harry Winston reference OCEABI42ZZ001, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-oceatz44zz002",
@@ -1078,36 +1106,7 @@
       "summary_en": "Harry Winston reference OCEATZ44ZZ002, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-11-09"
-    },
-    {
-      "id": "ref-oceact44zz007",
-      "name_en": "OCEACT44ZZ007",
-      "name_ja": "オーシャン トリレトロ OCEACT44ZZ007",
-      "reference": "OCEACT44ZZ007",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": 44,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 2294150,
-      "searchKeywordJa": "ハリー・ウィンストン OCEACT44ZZ007",
-      "searchKeywordEn": "Harry Winston OCEACT44ZZ007",
-      "caseMaterial": "carbon",
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "chronograph",
-        "lightweight"
-      ],
-      "popular": false,
-      "summary_ja": "ハリー・ウィンストンの型番OCEACT44ZZ007。市場で5件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Harry Winston reference OCEACT44ZZ007, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 5,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-avcqhm16ww014",
@@ -1135,7 +1134,7 @@
       "summary_en": "Harry Winston reference AVCQHM16WW014, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-prnqhm39ww001",
@@ -1163,35 +1162,7 @@
       "summary_en": "Harry Winston reference PRNQHM39WW001, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-11-09"
-    },
-    {
-      "id": "ref-preach37yy003",
-      "name_en": "PREACH37YY003",
-      "name_ja": "プルミエール クロノグラフ PREACH37YY003",
-      "reference": "PREACH37YY003",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": 37,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 2945250,
-      "searchKeywordJa": "ハリー・ウィンストン PREACH37YY003",
-      "searchKeywordEn": "Harry Winston PREACH37YY003",
-      "caseMaterial": "yellow-gold",
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "chronograph"
-      ],
-      "popular": false,
-      "summary_ja": "ハリー・ウィンストンの型番PREACH37YY003。市場で5件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Harry Winston reference PREACH37YY003, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 5,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-preach39rr002",
@@ -1219,7 +1190,7 @@
       "summary_en": "Harry Winston reference PREACH39RR002, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-200masr37w",
@@ -1247,7 +1218,7 @@
       "summary_en": "Harry Winston reference 200/MASR37W, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-prnqhm36ww017",
@@ -1275,36 +1246,7 @@
       "summary_en": "Harry Winston reference PRNQHM36WW017, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-11-09"
-    },
-    {
-      "id": "ref-oceach44wz007",
-      "name_en": "OCEACH44WZ007",
-      "name_ja": "オーシャン ダイバー OCEACH44WZ007",
-      "reference": "OCEACH44WZ007",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": 44,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 3893000,
-      "searchKeywordJa": "ハリー・ウィンストン OCEACH44WZ007",
-      "searchKeywordEn": "Harry Winston OCEACH44WZ007",
-      "caseMaterial": "white-gold",
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "diver",
-        "chronograph"
-      ],
-      "popular": false,
-      "summary_ja": "ハリー・ウィンストンの型番OCEACH44WZ007。市場で5件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Harry Winston reference OCEACH44WZ007, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 5,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-oceatg45zz001",
@@ -1334,7 +1276,7 @@
       "summary_en": "Harry Winston reference OCEATG45ZZ001, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-oceapc42ww002",
@@ -1363,7 +1305,7 @@
       "summary_en": "Harry Winston reference OCEAPC42WW002, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-oceact44rr024",
@@ -1391,7 +1333,36 @@
       "summary_en": "Harry Winston reference OCEACT44RR024, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
+    },
+    {
+      "id": "ref-oceach44rz005",
+      "name_en": "OCEACH44RZ005",
+      "name_ja": "オーシャン ダイバー OCEACH44RZ005",
+      "reference": "OCEACH44RZ005",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": 44,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 3995000,
+      "searchKeywordJa": "ハリー・ウィンストン OCEACH44RZ005",
+      "searchKeywordEn": "Harry Winston OCEACH44RZ005",
+      "caseMaterial": "rose-gold",
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "diver",
+        "chronograph"
+      ],
+      "popular": false,
+      "summary_ja": "ハリー・ウィンストンの型番OCEACH44RZ005。市場で5件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Harry Winston reference OCEACH44RZ005, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 5,
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-oceabd42rr002",
@@ -1419,36 +1390,7 @@
       "summary_en": "Harry Winston reference OCEABD42RR002, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-11-09"
-    },
-    {
-      "id": "ref-midatg45rr001",
-      "name_en": "MIDATG45RR001",
-      "name_ja": "ミッドナイト トゥールビヨン MIDATG45RR001",
-      "reference": "MIDATG45RR001",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": 45,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 12410000,
-      "searchKeywordJa": "ハリー・ウィンストン MIDATG45RR001",
-      "searchKeywordEn": "Harry Winston MIDATG45RR001",
-      "caseMaterial": "rose-gold",
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "gmt",
-        "tourbillon"
-      ],
-      "popular": false,
-      "summary_ja": "ハリー・ウィンストンの型番MIDATG45RR001。市場で5件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Harry Winston reference MIDATG45RR001, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 5,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-avcqmp16ww001",
@@ -1476,7 +1418,7 @@
       "summary_en": "Harry Winston reference AVCQMP16WW001, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-midahd42rr002",
@@ -1504,7 +1446,7 @@
       "summary_en": "Harry Winston reference MIDAHD42RR002, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-ocsqhd36zz001",
@@ -1532,7 +1474,7 @@
       "summary_en": "Harry Winston reference OCSQHD36ZZ001, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-prnqhm31ww001",
@@ -1560,7 +1502,7 @@
       "summary_en": "Harry Winston reference PRNQHM31WW001, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-200uabi34w",
@@ -1588,22 +1530,22 @@
       "summary_en": "Harry Winston reference 200-UABI34W, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
-      "id": "ref-411lca38z",
-      "name_en": "411/LCA38Z",
-      "name_ja": "ハリーウィンストン オーシャンスポーツレディ 411/LCA38Z",
-      "reference": "411/LCA38Z",
+      "id": "ref-avcqhm16ww052",
+      "name_en": "AVCQHM16WW052",
+      "name_ja": "アヴェニュー エリプティック AVCQHM16WW052",
+      "reference": "AVCQHM16WW052",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
-      "movementType": "automatic",
+      "movementType": null,
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 1087999,
-      "searchKeywordJa": "ハリー・ウィンストン 411/LCA38Z",
-      "searchKeywordEn": "Harry Winston 411/LCA38Z",
+      "priceFloorJpy": 1188300,
+      "searchKeywordJa": "ハリー・ウィンストン AVCQHM16WW052",
+      "searchKeywordEn": "Harry Winston AVCQHM16WW052",
       "caseMaterial": null,
       "waterResistanceM": null,
       "gender": "ladies",
@@ -1612,11 +1554,11 @@
         "sport"
       ],
       "popular": false,
-      "summary_ja": "ハリー・ウィンストンの型番411/LCA38Z。市場で4件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Harry Winston reference 411/LCA38Z, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ハリー・ウィンストンの型番AVCQHM16WW052。市場で4件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Harry Winston reference AVCQHM16WW052, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-midqhm32rr002",
@@ -1644,7 +1586,7 @@
       "summary_en": "Harry Winston reference MIDQHM32RR002, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-midahd39rr003",
@@ -1672,7 +1614,7 @@
       "summary_en": "Harry Winston reference MIDAHD39RR003, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-midqhm39ww002",
@@ -1700,7 +1642,7 @@
       "summary_en": "Harry Winston reference MIDQHM39WW002, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-ocsach38zz007",
@@ -1728,7 +1670,7 @@
       "summary_en": "Harry Winston reference OCSACH38ZZ007, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-midahd39ww004",
@@ -1756,7 +1698,7 @@
       "summary_en": "Harry Winston reference MIDAHD39WW004, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-aveqhm21ww231",
@@ -1784,7 +1726,7 @@
       "summary_en": "Harry Winston reference AVEQHM21WW231, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-avcqhm19ww136",
@@ -1812,7 +1754,7 @@
       "summary_en": "Harry Winston reference AVCQHM19WW136, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-avcqhm19rr030",
@@ -1840,7 +1782,7 @@
       "summary_en": "Harry Winston reference AVCQHM19RR030, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-aveqmp21rr001",
@@ -1868,7 +1810,7 @@
       "summary_en": "Harry Winston reference AVEQMP21RR001, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-preatz41ww001",
@@ -1896,7 +1838,36 @@
       "summary_en": "Harry Winston reference PREATZ41WW001, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
+    },
+    {
+      "id": "ref-oceact44zz007",
+      "name_en": "OCEACT44ZZ007",
+      "name_ja": "オーシャン トリレトロ OCEACT44ZZ007",
+      "reference": "OCEACT44ZZ007",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": 44,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 2294150,
+      "searchKeywordJa": "ハリー・ウィンストン OCEACT44ZZ007",
+      "searchKeywordEn": "Harry Winston OCEACT44ZZ007",
+      "caseMaterial": "carbon",
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph",
+        "lightweight"
+      ],
+      "popular": false,
+      "summary_ja": "ハリー・ウィンストンの型番OCEACT44ZZ007。市場で4件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Harry Winston reference OCEACT44ZZ007, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 4,
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-aveqhm21rr122",
@@ -1924,7 +1895,7 @@
       "summary_en": "Harry Winston reference AVEQHM21RR122, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-332lqwlwdd31",
@@ -1952,7 +1923,7 @@
       "summary_en": "Harry Winston reference 332LQWL.WD/D3.1, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-avcqhm16ww055",
@@ -1980,7 +1951,7 @@
       "summary_en": "Harry Winston reference AVCQHM16WW055, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-aveqhm21ww286",
@@ -2008,7 +1979,7 @@
       "summary_en": "Harry Winston reference AVEQHM21WW286, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-midabd42rr002",
@@ -2036,7 +2007,7 @@
       "summary_en": "Harry Winston reference MIDABD42RR002, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-oceatz44ww002",
@@ -2064,7 +2035,36 @@
       "summary_en": "Harry Winston reference OCEATZ44WW002, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
+    },
+    {
+      "id": "ref-oceach44wz007",
+      "name_en": "OCEACH44WZ007",
+      "name_ja": "オーシャン ダイバー OCEACH44WZ007",
+      "reference": "OCEACH44WZ007",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": 44,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 3893000,
+      "searchKeywordJa": "ハリー・ウィンストン OCEACH44WZ007",
+      "searchKeywordEn": "Harry Winston OCEACH44WZ007",
+      "caseMaterial": "white-gold",
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "diver",
+        "chronograph"
+      ],
+      "popular": false,
+      "summary_ja": "ハリー・ウィンストンの型番OCEACH44WZ007。市場で4件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Harry Winston reference OCEACH44WZ007, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 4,
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-avcqhm19ww139",
@@ -2092,7 +2092,7 @@
       "summary_en": "Harry Winston reference AVCQHM19WW139, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-oceato44ww002",
@@ -2121,36 +2121,7 @@
       "summary_en": "Harry Winston reference OCEATO44WW002, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-11-09"
-    },
-    {
-      "id": "ref-oceach44rz005",
-      "name_en": "OCEACH44RZ005",
-      "name_ja": "オーシャン ダイバー OCEACH44RZ005",
-      "reference": "OCEACH44RZ005",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": 44,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 3995000,
-      "searchKeywordJa": "ハリー・ウィンストン OCEACH44RZ005",
-      "searchKeywordEn": "Harry Winston OCEACH44RZ005",
-      "caseMaterial": "rose-gold",
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "diver",
-        "chronograph"
-      ],
-      "popular": false,
-      "summary_ja": "ハリー・ウィンストンの型番OCEACH44RZ005。市場で4件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Harry Winston reference OCEACH44RZ005, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 4,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-400mmac44zck",
@@ -2178,7 +2149,7 @@
       "summary_en": "Harry Winston reference 400/MMAC44ZCK, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-oceahr42rr002",
@@ -2206,7 +2177,7 @@
       "summary_en": "Harry Winston reference OCEAHR42RR002, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-oceahr42ww001",
@@ -2234,7 +2205,7 @@
       "summary_en": "Harry Winston reference OCEAHR42WW001, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-ocemtj45ww002",
@@ -2264,7 +2235,36 @@
       "summary_en": "Harry Winston reference OCEMTJ45WW002, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
+    },
+    {
+      "id": "ref-midatg45rr001",
+      "name_en": "MIDATG45RR001",
+      "name_ja": "ミッドナイト トゥールビヨン MIDATG45RR001",
+      "reference": "MIDATG45RR001",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": 45,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 12410000,
+      "searchKeywordJa": "ハリー・ウィンストン MIDATG45RR001",
+      "searchKeywordEn": "Harry Winston MIDATG45RR001",
+      "caseMaterial": "rose-gold",
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "gmt",
+        "tourbillon"
+      ],
+      "popular": false,
+      "summary_ja": "ハリー・ウィンストンの型番MIDATG45RR001。市場で4件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Harry Winston reference MIDATG45RR001, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 4,
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-avsatz45ww003",
@@ -2292,7 +2292,7 @@
       "summary_en": "Harry Winston reference AVSATZ45WW003, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-midatg45rr002",
@@ -2321,23 +2321,23 @@
       "summary_en": "Harry Winston reference MIDATG45RR002, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
-      "id": "ref-450mattz45w",
-      "name_en": "450/MATTZ45W",
-      "name_ja": "ミッドナイト トゥールビヨン 450/MATTZ45W",
-      "reference": "450/MATTZ45W",
+      "id": "ref-400mattz45r",
+      "name_en": "400/MATTZ45R",
+      "name_ja": "オーシャン トゥールビヨン 400/MATTZ45R",
+      "reference": "400/MATTZ45R",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": 45,
       "movementType": "automatic",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 15980000,
-      "searchKeywordJa": "ハリー・ウィンストン 450/MATTZ45W",
-      "searchKeywordEn": "Harry Winston 450/MATTZ45W",
-      "caseMaterial": "white-gold",
+      "priceFloorJpy": 19448000,
+      "searchKeywordJa": "ハリー・ウィンストン 400/MATTZ45R",
+      "searchKeywordEn": "Harry Winston 400/MATTZ45R",
+      "caseMaterial": "rose-gold",
       "waterResistanceM": null,
       "gender": "mens",
       "releaseYear": null,
@@ -2346,11 +2346,11 @@
         "limited-edition"
       ],
       "popular": false,
-      "summary_ja": "ハリー・ウィンストンの型番450/MATTZ45W。市場で4件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Harry Winston reference 450/MATTZ45W, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ハリー・ウィンストンの型番400/MATTZ45R。市場で4件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Harry Winston reference 400/MATTZ45R, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-411mca44z",
@@ -2379,7 +2379,7 @@
       "summary_en": "Harry Winston reference 411/MCA44Z, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-ocsach44zz002",
@@ -2408,7 +2408,36 @@
       "summary_en": "Harry Winston reference OCSACH44ZZ002, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
+    },
+    {
+      "id": "ref-ocsach44zz007",
+      "name_en": "OCSACH44ZZ007",
+      "name_ja": "ハリーウィンストン オーシャンスポーツ OCSACH44ZZ007",
+      "reference": "OCSACH44ZZ007",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 956930,
+      "searchKeywordJa": "ハリー・ウィンストン OCSACH44ZZ007",
+      "searchKeywordEn": "Harry Winston OCSACH44ZZ007",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph",
+        "skeleton"
+      ],
+      "popular": false,
+      "summary_ja": "ハリー・ウィンストンの型番OCSACH44ZZ007。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Harry Winston reference OCSACH44ZZ007, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-ocsach44zz006",
@@ -2437,7 +2466,7 @@
       "summary_en": "Harry Winston reference OCSACH44ZZ006, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-340lqwlmd31",
@@ -2465,7 +2494,7 @@
       "summary_en": "Harry Winston reference 340/LQWL.M/D3.1, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-oceabd42zz001",
@@ -2493,7 +2522,7 @@
       "summary_en": "Harry Winston reference OCEABD42ZZ001, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-ocears42zz001",
@@ -2521,50 +2550,22 @@
       "summary_en": "Harry Winston reference OCEARS42ZZ001, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
-      "id": "ref-400mcra44zkcs",
-      "name_en": "400/MCRA44ZKC.S",
-      "name_ja": "ハリーウィンストン オーシャン 400/MCRA44ZKC.S",
-      "reference": "400/MCRA44ZKC.S",
+      "id": "ref-411lca38z",
+      "name_en": "411/LCA38Z",
+      "name_ja": "ハリーウィンストン オーシャンスポーツレディ 411/LCA38Z",
+      "reference": "411/LCA38Z",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
       "movementType": "automatic",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 1103300,
-      "searchKeywordJa": "ハリー・ウィンストン 400/MCRA44ZKC.S",
-      "searchKeywordEn": "Harry Winston 400/MCRA44ZKC.S",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "chronograph"
-      ],
-      "popular": false,
-      "summary_ja": "ハリー・ウィンストンの型番400/MCRA44ZKC.S。市場で3件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Harry Winston reference 400/MCRA44ZKC.S, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 3,
-      "lastSeen": "2026-11-09"
-    },
-    {
-      "id": "ref-avcqhm16ww052",
-      "name_en": "AVCQHM16WW052",
-      "name_ja": "アヴェニュー エリプティック AVCQHM16WW052",
-      "reference": "AVCQHM16WW052",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 1231650,
-      "searchKeywordJa": "ハリー・ウィンストン AVCQHM16WW052",
-      "searchKeywordEn": "Harry Winston AVCQHM16WW052",
+      "priceFloorJpy": 1087999,
+      "searchKeywordJa": "ハリー・ウィンストン 411/LCA38Z",
+      "searchKeywordEn": "Harry Winston 411/LCA38Z",
       "caseMaterial": null,
       "waterResistanceM": null,
       "gender": "ladies",
@@ -2573,39 +2574,11 @@
         "sport"
       ],
       "popular": false,
-      "summary_ja": "ハリー・ウィンストンの型番AVCQHM16WW052。市場で3件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Harry Winston reference AVCQHM16WW052, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ハリー・ウィンストンの型番411/LCA38Z。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Harry Winston reference 411/LCA38Z, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-11-09"
-    },
-    {
-      "id": "ref-midahd42ww003",
-      "name_en": "MIDAHD42WW003",
-      "name_ja": "ハリーウィンストン ミッドナイト MIDAHD42WW003",
-      "reference": "MIDAHD42WW003",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 1290300,
-      "searchKeywordJa": "ハリー・ウィンストン MIDAHD42WW003",
-      "searchKeywordEn": "Harry Winston MIDAHD42WW003",
-      "caseMaterial": "white-gold",
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ハリー・ウィンストンの型番MIDAHD42WW003。市場で3件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Harry Winston reference MIDAHD42WW003, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 3,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-emeqhm18yy001",
@@ -2633,7 +2606,7 @@
       "summary_en": "Harry Winston reference EMEQHM18YY001, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-avcqhm16ww060",
@@ -2661,7 +2634,7 @@
       "summary_en": "Harry Winston reference AVCQHM16WW060, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-aveatz37zz001",
@@ -2689,7 +2662,7 @@
       "summary_en": "Harry Winston reference AVEATZ37ZZ001, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-ocsach38zz008",
@@ -2717,7 +2690,7 @@
       "summary_en": "Harry Winston reference OCSACH38ZZ008, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-midass36rr001",
@@ -2745,7 +2718,7 @@
       "summary_en": "Harry Winston reference MIDASS36RR001, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-midahm36ww001",
@@ -2773,7 +2746,7 @@
       "summary_en": "Harry Winston reference MIDAHM36WW001, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-avcqhm16ww059",
@@ -2801,7 +2774,7 @@
       "summary_en": "Harry Winston reference AVCQHM16WW059, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-200mawpc38",
@@ -2830,7 +2803,7 @@
       "summary_en": "Harry Winston reference 200.MAWPC38, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-310lqglma05",
@@ -2858,7 +2831,7 @@
       "summary_en": "Harry Winston reference 310/LQGL.M/A05, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-aveahm21rr001",
@@ -2886,7 +2859,7 @@
       "summary_en": "Harry Winston reference AVEAHM21RR001, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-oceabi42ww002",
@@ -2914,7 +2887,7 @@
       "summary_en": "Harry Winston reference OCEABI42WW002, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-avcqhm16ww005",
@@ -2942,7 +2915,7 @@
       "summary_en": "Harry Winston reference AVCQHM16WW005, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-oceamp42rr002",
@@ -2971,7 +2944,7 @@
       "summary_en": "Harry Winston reference OCEAMP42RR002, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-400mat44w",
@@ -3000,7 +2973,7 @@
       "summary_en": "Harry Winston reference 400-MAT44W, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-oceato44rr009",
@@ -3029,36 +3002,7 @@
       "summary_en": "Harry Winston reference OCEATO44RR009, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-11-09"
-    },
-    {
-      "id": "ref-400mattz45r",
-      "name_en": "400/MATTZ45R",
-      "name_ja": "オーシャン トゥールビヨン 400/MATTZ45R",
-      "reference": "400/MATTZ45R",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": 45,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 19448000,
-      "searchKeywordJa": "ハリー・ウィンストン 400/MATTZ45R",
-      "searchKeywordEn": "Harry Winston 400/MATTZ45R",
-      "caseMaterial": "rose-gold",
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "tourbillon",
-        "limited-edition"
-      ],
-      "popular": false,
-      "summary_ja": "ハリー・ウィンストンの型番400/MATTZ45R。市場で3件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Harry Winston reference 400/MATTZ45R, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 3,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-ocemtd45ww002",
@@ -3087,7 +3031,36 @@
       "summary_en": "Harry Winston reference OCEMTD45WW002, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
+    },
+    {
+      "id": "ref-ocemtj45ww002wg",
+      "name_en": "OCEMTJ45WW002WG",
+      "name_ja": "オーシャントゥールビヨン ジャンピングアワー OCEMTJ45WW002WG",
+      "reference": "OCEMTJ45WW002WG",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 29580000,
+      "searchKeywordJa": "ハリー・ウィンストン OCEMTJ45WW002WG",
+      "searchKeywordEn": "Harry Winston OCEMTJ45WW002WG",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "tourbillon",
+        "skeleton"
+      ],
+      "popular": false,
+      "summary_ja": "ハリー・ウィンストンの型番OCEMTJ45WW002WG。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Harry Winston reference OCEMTJ45WW002WG, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-400mcra44w",
@@ -3115,7 +3088,36 @@
       "summary_en": "Harry Winston reference 400/MCRA44W, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
+    },
+    {
+      "id": "ref-450mattz45w",
+      "name_en": "450/MATTZ45W",
+      "name_ja": "ミッドナイト トゥールビヨン 450/MATTZ45W",
+      "reference": "450/MATTZ45W",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": 45,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 15980000,
+      "searchKeywordJa": "ハリー・ウィンストン 450/MATTZ45W",
+      "searchKeywordEn": "Harry Winston 450/MATTZ45W",
+      "caseMaterial": "white-gold",
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "tourbillon",
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "ハリー・ウィンストンの型番450/MATTZ45W。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Harry Winston reference 450/MATTZ45W, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-450lq32w",
@@ -3143,7 +3145,7 @@
       "summary_en": "Harry Winston reference 450/LQ32W, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-ocsqhm36zz001",
@@ -3171,7 +3173,7 @@
       "summary_en": "Harry Winston reference OCSQHM36ZZ001, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-411lq36z",
@@ -3199,7 +3201,7 @@
       "summary_en": "Harry Winston reference 411-LQ36Z, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-avcqhm16ww024",
@@ -3227,7 +3229,7 @@
       "summary_en": "Harry Winston reference AVCQHM16WW024, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-avcqhm16rr032",
@@ -3255,7 +3257,7 @@
       "summary_en": "Harry Winston reference AVCQHM16RR032, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-330lqwlmpd21",
@@ -3283,7 +3285,7 @@
       "summary_en": "Harry Winston reference 330LQWLMPD21, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-411mca44zck2",
@@ -3311,7 +3313,7 @@
       "summary_en": "Harry Winston reference 411/MCA44ZC.K2, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-332lqrlwd31",
@@ -3339,36 +3341,7 @@
       "summary_en": "Harry Winston reference 332/LQRL.W/D3.1, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-11-09"
-    },
-    {
-      "id": "ref-ocsach44zz007",
-      "name_en": "OCSACH44ZZ007",
-      "name_ja": "ハリーウィンストン オーシャンスポーツ OCSACH44ZZ007",
-      "reference": "OCSACH44ZZ007",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 956930,
-      "searchKeywordJa": "ハリー・ウィンストン OCSACH44ZZ007",
-      "searchKeywordEn": "Harry Winston OCSACH44ZZ007",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "chronograph",
-        "skeleton"
-      ],
-      "popular": false,
-      "summary_ja": "ハリー・ウィンストンの型番OCSACH44ZZ007。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Harry Winston reference OCSACH44ZZ007, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-avcqhm16rr017",
@@ -3396,7 +3369,7 @@
       "summary_en": "Harry Winston reference AVCQHM16RR017, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-411mca44zcw",
@@ -3425,7 +3398,7 @@
       "summary_en": "Harry Winston reference 411/MCA44ZC.W, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-ocsach44zz001",
@@ -3454,7 +3427,7 @@
       "summary_en": "Harry Winston reference OCSACH44ZZ001, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-200uabi34wwg",
@@ -3482,7 +3455,7 @@
       "summary_en": "Harry Winston reference 200-UABI34WWG, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-emeahd33ww001",
@@ -3510,7 +3483,7 @@
       "summary_en": "Harry Winston reference EMEAHD33WW001, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-oceasr42zz001",
@@ -3538,7 +3511,35 @@
       "summary_en": "Harry Winston reference OCEASR42ZZ001, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
+    },
+    {
+      "id": "ref-400mcra44zkcs",
+      "name_en": "400/MCRA44ZKC.S",
+      "name_ja": "ハリーウィンストン オーシャン 400/MCRA44ZKC.S",
+      "reference": "400/MCRA44ZKC.S",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 1103300,
+      "searchKeywordJa": "ハリー・ウィンストン 400/MCRA44ZKC.S",
+      "searchKeywordEn": "Harry Winston 400/MCRA44ZKC.S",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph"
+      ],
+      "popular": false,
+      "summary_ja": "ハリー・ウィンストンの型番400/MCRA44ZKC.S。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Harry Winston reference 400/MCRA44ZKC.S, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-avcqss16ww001",
@@ -3566,7 +3567,35 @@
       "summary_en": "Harry Winston reference AVCQSS16WW001, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
+    },
+    {
+      "id": "ref-midahd42ww003",
+      "name_en": "MIDAHD42WW003",
+      "name_ja": "ハリーウィンストン ミッドナイト MIDAHD42WW003",
+      "reference": "MIDAHD42WW003",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 1290300,
+      "searchKeywordJa": "ハリー・ウィンストン MIDAHD42WW003",
+      "searchKeywordEn": "Harry Winston MIDAHD42WW003",
+      "caseMaterial": "white-gold",
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ハリー・ウィンストンの型番MIDAHD42WW003。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Harry Winston reference MIDAHD42WW003, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-oceatz44zz007",
@@ -3594,7 +3623,7 @@
       "summary_en": "Harry Winston reference OCEATZ44ZZ007, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-avcqhm16rr045",
@@ -3622,7 +3651,7 @@
       "summary_en": "Harry Winston reference AVCQHM16RR045, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-330lqwlmd31",
@@ -3650,7 +3679,7 @@
       "summary_en": "Harry Winston reference 330/LQWL.M/D3.1, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-340lqwlmdd31",
@@ -3678,7 +3707,7 @@
       "summary_en": "Harry Winston reference 340/LQWL.MD/D3.1, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-avcqhm16rr034",
@@ -3706,7 +3735,7 @@
       "summary_en": "Harry Winston reference AVCQHM16RR034, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-200mmtz39r",
@@ -3734,7 +3763,7 @@
       "summary_en": "Harry Winston reference 200/MMTZ39R, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-midamp42rr004",
@@ -3762,7 +3791,7 @@
       "summary_en": "Harry Winston reference MIDAMP42RR004, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-prnqmp36rr001",
@@ -3790,7 +3819,7 @@
       "summary_en": "Harry Winston reference PRNQMP36RR001, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-oceach44zz004",
@@ -3818,7 +3847,7 @@
       "summary_en": "Harry Winston reference OCEACH44ZZ004, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-midahm42rr002",
@@ -3846,7 +3875,7 @@
       "summary_en": "Harry Winston reference MIDAHM42RR002, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-aveqhm21ww231wg",
@@ -3874,7 +3903,7 @@
       "summary_en": "Harry Winston reference AVEQHM21WW231WG, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-340lqwlm00",
@@ -3902,7 +3931,7 @@
       "summary_en": "Harry Winston reference 340LQWL.M/00, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-hjtqhm18pp006",
@@ -3930,7 +3959,7 @@
       "summary_en": "Harry Winston reference HJTQHM18PP006, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-aveqmp21ww008",
@@ -3958,7 +3987,7 @@
       "summary_en": "Harry Winston reference AVEQMP21WW008, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-400matz44w",
@@ -3986,7 +4015,7 @@
       "summary_en": "Harry Winston reference 400-MATZ44W, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-6466930h",
@@ -4014,7 +4043,7 @@
       "summary_en": "Harry Winston reference 6466930H, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-oceact44ww031",
@@ -4042,7 +4071,7 @@
       "summary_en": "Harry Winston reference OCEACT44WW031, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-60313",
@@ -4071,7 +4100,7 @@
       "summary_en": "Harry Winston reference 60313, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-c5464",
@@ -4100,7 +4129,7 @@
       "summary_en": "Harry Winston reference C5464, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-aveqhm21ww289",
@@ -4128,7 +4157,7 @@
       "summary_en": "Harry Winston reference AVEQHM21WW289, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-aveqmp21ww002",
@@ -4156,7 +4185,35 @@
       "summary_en": "Harry Winston reference AVEQMP21WW002, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
+    },
+    {
+      "id": "ref-refoceatg45zz001",
+      "name_en": "REF.OCEATG45ZZ001",
+      "name_ja": "オーシャンプロジェクト グレー REF.OCEATG45ZZ001",
+      "reference": "REF.OCEATG45ZZ001",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 3988072,
+      "searchKeywordJa": "ハリー・ウィンストン REF.OCEATG45ZZ001",
+      "searchKeywordEn": "Harry Winston REF.OCEATG45ZZ001",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ハリー・ウィンストンの型番REF.OCEATG45ZZ001。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Harry Winston reference REF.OCEATG45ZZ001, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-400mattz45w",
@@ -4186,7 +4243,7 @@
       "summary_en": "Harry Winston reference 400/MATTZ45W, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-210235",
@@ -4214,36 +4271,35 @@
       "summary_en": "Harry Winston reference 210235, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
-      "id": "ref-ocemtj45ww002wg",
-      "name_en": "OCEMTJ45WW002WG",
-      "name_ja": "オーシャントゥールビヨン ジャンピングアワー OCEMTJ45WW002WG",
-      "reference": "OCEMTJ45WW002WG",
+      "id": "ref-oceabd42ww002",
+      "name_en": "OCEABD42WW002",
+      "name_ja": "ハリーウィンストン オーシャン OCEABD42WW002",
+      "reference": "OCEABD42WW002",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
-      "movementType": null,
+      "movementType": "automatic",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 29580000,
-      "searchKeywordJa": "ハリー・ウィンストン OCEMTJ45WW002WG",
-      "searchKeywordEn": "Harry Winston OCEMTJ45WW002WG",
-      "caseMaterial": null,
+      "priceFloorJpy": 5610000,
+      "searchKeywordJa": "ハリー・ウィンストン OCEABD42WW002",
+      "searchKeywordEn": "Harry Winston OCEABD42WW002",
+      "caseMaterial": "white-gold",
       "waterResistanceM": null,
-      "gender": "unisex",
+      "gender": "mens",
       "releaseYear": null,
       "tags": [
-        "tourbillon",
-        "skeleton"
+        "limited-edition"
       ],
       "popular": false,
-      "summary_ja": "ハリー・ウィンストンの型番OCEMTJ45WW002WG。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Harry Winston reference OCEMTJ45WW002WG, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ハリー・ウィンストンの型番OCEABD42WW002。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Harry Winston reference OCEABD42WW002, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-oceact44zz006",
@@ -4271,7 +4327,7 @@
       "summary_en": "Harry Winston reference OCEACT44ZZ006, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-prnass36ww001",
@@ -4299,7 +4355,7 @@
       "summary_en": "Harry Winston reference PRNASS36WW001, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-oceach44rz001",
@@ -4328,35 +4384,7 @@
       "summary_en": "Harry Winston reference OCEACH44RZ001, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-11-09"
-    },
-    {
-      "id": "ref-ocsach44zz003",
-      "name_en": "OCSACH44ZZ003",
-      "name_ja": "オーシャン スポーツ OCSACH44ZZ003",
-      "reference": "OCSACH44ZZ003",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": 44,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 2639250,
-      "searchKeywordJa": "ハリー・ウィンストン OCSACH44ZZ003",
-      "searchKeywordEn": "Harry Winston OCSACH44ZZ003",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "chronograph"
-      ],
-      "popular": false,
-      "summary_ja": "ハリー・ウィンストンの型番OCSACH44ZZ003。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Harry Winston reference OCSACH44ZZ003, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-120lq18g",
@@ -4384,7 +4412,7 @@
       "summary_en": "Harry Winston reference 120LQ18G, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-avcqhm16rr032332lqr",
@@ -4412,7 +4440,7 @@
       "summary_en": "Harry Winston reference AVCQHM16RR032/332LQR, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-149973",
@@ -4440,7 +4468,7 @@
       "summary_en": "Harry Winston reference 149973, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-avcqhm19ww018",
@@ -4468,7 +4496,7 @@
       "summary_en": "Harry Winston reference AVCQHM19WW018, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-332lqrlmd21sp1",
@@ -4496,7 +4524,7 @@
       "summary_en": "Harry Winston reference 332LQRLMD21SP1, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-avcqhm15ww020",
@@ -4524,7 +4552,7 @@
       "summary_en": "Harry Winston reference AVCQHM15WW020, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-hjtqhm20ww022",
@@ -4552,7 +4580,7 @@
       "summary_en": "Harry Winston reference HJTQHM20WW022, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-701011",
@@ -4580,7 +4608,7 @@
       "summary_en": "Harry Winston reference 70101-1, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-aveqhm21ww025",
@@ -4608,7 +4636,7 @@
       "summary_en": "Harry Winston reference AVEQHM21WW025, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-310lqwlm00",
@@ -4636,7 +4664,7 @@
       "summary_en": "Harry Winston reference 310/LQWL.M/00, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-310lqglmd22",
@@ -4664,7 +4692,7 @@
       "summary_en": "Harry Winston reference 310/LQGL.M/D2.2, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-aveqhm21rr029",
@@ -4692,7 +4720,35 @@
       "summary_en": "Harry Winston reference AVEQHM21RR029, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
+    },
+    {
+      "id": "ref-refaveqhm21rr023",
+      "name_en": "REF.AVEQHM21RR023",
+      "name_ja": "REF.AVEQHM21RR023",
+      "reference": "REF.AVEQHM21RR023",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "quartz",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 1428000,
+      "searchKeywordJa": "ハリー・ウィンストン REF.AVEQHM21RR023",
+      "searchKeywordEn": "Harry Winston REF.AVEQHM21RR023",
+      "caseMaterial": "rose-gold",
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ハリー・ウィンストンの型番REF.AVEQHM21RR023。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Harry Winston reference REF.AVEQHM21RR023, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-avcqhm16rr005059",
@@ -4720,7 +4776,7 @@
       "summary_en": "Harry Winston reference AVCQHM16RR005/059, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-400mcra44zk",
@@ -4749,7 +4805,7 @@
       "summary_en": "Harry Winston reference 400-MCRA44ZK, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-1209g",
@@ -4778,7 +4834,7 @@
       "summary_en": "Harry Winston reference 120.9G, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-310lqwlm2a14",
@@ -4806,7 +4862,7 @@
       "summary_en": "Harry Winston reference 310/LQW/L.M2/A14, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-emeqhd33ww001",
@@ -4834,7 +4890,7 @@
       "summary_en": "Harry Winston reference EMEQHD33WW001, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-avcqmp16rr004",
@@ -4862,7 +4918,7 @@
       "summary_en": "Harry Winston reference AVCQMP16RR004, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-hw3305",
@@ -4890,7 +4946,7 @@
       "summary_en": "Harry Winston reference HW3305, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-5001",
@@ -4918,7 +4974,7 @@
       "summary_en": "Harry Winston reference 5001, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-oceabi42zz003",
@@ -4946,7 +5002,7 @@
       "summary_en": "Harry Winston reference OCEABI42ZZ003, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-avcqhm16ww021",
@@ -4974,7 +5030,7 @@
       "summary_en": "Harry Winston reference AVCQHM16WW021, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-avcqhm19ww125",
@@ -5002,7 +5058,35 @@
       "summary_en": "Harry Winston reference AVCQHM19WW125, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
+    },
+    {
+      "id": "ref-refaveqhm21ww231",
+      "name_en": "REF.AVEQHM21WW231",
+      "name_ja": "REF.AVEQHM21WW231",
+      "reference": "REF.AVEQHM21WW231",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "quartz",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 2448000,
+      "searchKeywordJa": "ハリー・ウィンストン REF.AVEQHM21WW231",
+      "searchKeywordEn": "Harry Winston REF.AVEQHM21WW231",
+      "caseMaterial": "white-gold",
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ハリー・ウィンストンの型番REF.AVEQHM21WW231。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Harry Winston reference REF.AVEQHM21WW231, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-avcqhm19rr037",
@@ -5030,7 +5114,7 @@
       "summary_en": "Harry Winston reference AVCQHM19RR037, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-avcqtz19ww001",
@@ -5058,7 +5142,7 @@
       "summary_en": "Harry Winston reference AVCQTZ19WW001, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-avcqtz19rr001",
@@ -5086,7 +5170,7 @@
       "summary_en": "Harry Winston reference AVCQTZ19RR001, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-avsatz45rr003",
@@ -5114,35 +5198,7 @@
       "summary_en": "Harry Winston reference AVSATZ45RR003, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-11-09"
-    },
-    {
-      "id": "ref-hjtqhm22pp011",
-      "name_en": "HJTQHM22PP011",
-      "name_ja": "HJTQHM22PP011",
-      "reference": "HJTQHM22PP011",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 5992500,
-      "searchKeywordJa": "ハリー・ウィンストン HJTQHM22PP011",
-      "searchKeywordEn": "Harry Winston HJTQHM22PP011",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ハリー・ウィンストンの型番HJTQHM22PP011。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Harry Winston reference HJTQHM22PP011, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-oceatz44rr012",
@@ -5171,7 +5227,35 @@
       "summary_en": "Harry Winston reference OCEATZ44RR012, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
+    },
+    {
+      "id": "ref-hjtqhm22pp011",
+      "name_en": "HJTQHM22PP011",
+      "name_ja": "HJTQHM22PP011",
+      "reference": "HJTQHM22PP011",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 5992500,
+      "searchKeywordJa": "ハリー・ウィンストン HJTQHM22PP011",
+      "searchKeywordEn": "Harry Winston HJTQHM22PP011",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ハリー・ウィンストンの型番HJTQHM22PP011。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Harry Winston reference HJTQHM22PP011, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-hjtghm27ww001",
@@ -5199,7 +5283,7 @@
       "summary_en": "Harry Winston reference HJTGHM27WW001, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-ocemtj45ww003",
@@ -5228,7 +5312,7 @@
       "summary_en": "Harry Winston reference OCEMTJ45WW003, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-27127",
@@ -5256,7 +5340,7 @@
       "summary_en": "Harry Winston reference 27127, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-r9dprd005brl050",
@@ -5284,7 +5368,7 @@
       "summary_en": "Harry Winston reference R9DPRD005BRL-050, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-905486",
@@ -5312,7 +5396,7 @@
       "summary_en": "Harry Winston reference 905486, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-h162325388",
@@ -5340,7 +5424,7 @@
       "summary_en": "Harry Winston reference H162325388, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-906936",
@@ -5368,7 +5452,7 @@
       "summary_en": "Harry Winston reference 906936, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-47548",
@@ -5396,7 +5480,35 @@
       "summary_en": "Harry Winston reference 47548, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
+    },
+    {
+      "id": "ref-905793",
+      "name_en": "905793",
+      "name_ja": "905793",
+      "reference": "905793",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 500000,
+      "searchKeywordJa": "ハリー・ウィンストン 905793",
+      "searchKeywordEn": "Harry Winston 905793",
+      "caseMaterial": "platinum",
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ハリー・ウィンストンの型番905793。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Harry Winston reference 905793, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-150825",
@@ -5424,7 +5536,7 @@
       "summary_en": "Harry Winston reference 150825, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-903089",
@@ -5452,7 +5564,7 @@
       "summary_en": "Harry Winston reference 903089, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-904233",
@@ -5480,35 +5592,7 @@
       "summary_en": "Harry Winston reference 904233, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-11-09"
-    },
-    {
-      "id": "ref-900405",
-      "name_en": "900405",
-      "name_ja": "900405",
-      "reference": "900405",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 935000,
-      "searchKeywordJa": "ハリー・ウィンストン 900405",
-      "searchKeywordEn": "Harry Winston 900405",
-      "caseMaterial": "platinum",
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ハリー・ウィンストンの型番900405。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Harry Winston reference 900405, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-903892",
@@ -5536,7 +5620,35 @@
       "summary_en": "Harry Winston reference 903892, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
+    },
+    {
+      "id": "ref-900405",
+      "name_en": "900405",
+      "name_ja": "900405",
+      "reference": "900405",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 935000,
+      "searchKeywordJa": "ハリー・ウィンストン 900405",
+      "searchKeywordEn": "Harry Winston 900405",
+      "caseMaterial": "platinum",
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ハリー・ウィンストンの型番900405。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Harry Winston reference 900405, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-900947",
@@ -5564,7 +5676,7 @@
       "summary_en": "Harry Winston reference 900947, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-285026",
@@ -5592,7 +5704,7 @@
       "summary_en": "Harry Winston reference 285026, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-903411",
@@ -5620,7 +5732,7 @@
       "summary_en": "Harry Winston reference 903411, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-rgdprd010mic050",
@@ -5648,7 +5760,7 @@
       "summary_en": "Harry Winston reference RGDPRD010MIC-050, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-904234",
@@ -5676,7 +5788,7 @@
       "summary_en": "Harry Winston reference 904234, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-oceach36rr002",
@@ -5704,7 +5816,7 @@
       "summary_en": "Harry Winston reference OCEACH36RR002, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-aveqhm21rr112",
@@ -5732,35 +5844,35 @@
       "summary_en": "Harry Winston reference AVEQHM21RR112, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
-      "id": "ref-oceabd42ww002",
-      "name_en": "OCEABD42WW002",
-      "name_ja": "OCEABD42WW002",
-      "reference": "OCEABD42WW002",
+      "id": "ref-ocsach44zz003",
+      "name_en": "OCSACH44ZZ003",
+      "name_ja": "OCSACH44ZZ003",
+      "reference": "OCSACH44ZZ003",
       "collection_en": null,
       "collection_ja": null,
-      "caseSizeMm": null,
+      "caseSizeMm": 44,
       "movementType": "automatic",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 5610000,
-      "searchKeywordJa": "ハリー・ウィンストン OCEABD42WW002",
-      "searchKeywordEn": "Harry Winston OCEABD42WW002",
-      "caseMaterial": "white-gold",
+      "priceFloorJpy": 2639250,
+      "searchKeywordJa": "ハリー・ウィンストン OCSACH44ZZ003",
+      "searchKeywordEn": "Harry Winston OCSACH44ZZ003",
+      "caseMaterial": null,
       "waterResistanceM": null,
       "gender": "mens",
       "releaseYear": null,
       "tags": [
-        "limited-edition"
+        "chronograph"
       ],
       "popular": false,
-      "summary_ja": "ハリー・ウィンストンの型番OCEABD42WW002。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Harry Winston reference OCEABD42WW002, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ハリー・ウィンストンの型番OCSACH44ZZ003。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Harry Winston reference OCSACH44ZZ003, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
-      "lastSeen": "2026-11-09"
+      "lastSeen": "2026-11-10"
     },
     {
       "id": "ref-emeqhm18rr005",
@@ -5789,34 +5901,6 @@
       "source": "auto",
       "listingCount": 0,
       "lastSeen": "2026-11-09"
-    },
-    {
-      "id": "ref-905793",
-      "name_en": "905793",
-      "name_ja": "905793",
-      "reference": "905793",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 500000,
-      "searchKeywordJa": "ハリー・ウィンストン 905793",
-      "searchKeywordEn": "Harry Winston 905793",
-      "caseMaterial": "platinum",
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ハリー・ウィンストンの型番905793。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Harry Winston reference 905793, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 0,
-      "lastSeen": "2026-11-08"
     },
     {
       "id": "ref-400mmac44wz",
