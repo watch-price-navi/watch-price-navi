@@ -1,6 +1,6 @@
 {
   "brandId": "jacob-co",
-  "generatedAt": "2026-11-10T04:58:12.287Z",
+  "generatedAt": "2026-11-10T18:25:01.601Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -279,34 +279,6 @@
       "popular": false,
       "summary_ja": "ジェイコブの型番29.75。市場で2件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Jacob & Co. reference 29.75, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-11-10"
-    },
-    {
-      "id": "ref-198196",
-      "name_en": "198196",
-      "name_ja": "タイムゾーン スカル 198196",
-      "reference": "198196",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 1234200,
-      "searchKeywordJa": "ジェイコブ 198196",
-      "searchKeywordEn": "Jacob & Co. 198196",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ジェイコブの型番198196。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Jacob & Co. reference 198196, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
       "lastSeen": "2026-11-10"
@@ -819,34 +791,6 @@
       "lastSeen": "2026-11-10"
     },
     {
-      "id": "ref-at12580aaugb",
-      "name_en": "AT125.80.AA.UG.B",
-      "name_ja": "AT125.80.AA.UG.B",
-      "reference": "AT125.80.AA.UG.B",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "manual",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 79866000,
-      "searchKeywordJa": "ジェイコブ AT125.80.AA.UG.B",
-      "searchKeywordEn": "Jacob & Co. AT125.80.AA.UG.B",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "tourbillon"
-      ],
-      "popular": false,
-      "summary_ja": "ジェイコブの型番AT125.80.AA.UG.B。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Jacob & Co. reference AT125.80.AA.UG.B, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-11-10"
-    },
-    {
       "id": "ref-as30040apakafl4a",
       "name_en": "AS300.40.AP.AK.AFL4A",
       "name_ja": "AS300.40.AP.AK.AFL4A",
@@ -898,6 +842,34 @@
       "popular": false,
       "summary_ja": "ジェイコブの型番4A005973。市場で1件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Jacob & Co. reference 4A005973, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-11-10"
+    },
+    {
+      "id": "ref-at12580aaugb",
+      "name_en": "AT125.80.AA.UG.B",
+      "name_ja": "AT125.80.AA.UG.B",
+      "reference": "AT125.80.AA.UG.B",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "manual",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 79866000,
+      "searchKeywordJa": "ジェイコブ AT125.80.AA.UG.B",
+      "searchKeywordEn": "Jacob & Co. AT125.80.AA.UG.B",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "tourbillon"
+      ],
+      "popular": false,
+      "summary_ja": "ジェイコブの型番AT125.80.AA.UG.B。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Jacob & Co. reference AT125.80.AA.UG.B, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
       "lastSeen": "2026-11-10"
@@ -983,6 +955,34 @@
       "popular": false,
       "summary_ja": "ジェイコブの型番I203124033。市場で1件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Jacob & Co. reference I203124033, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-11-10"
+    },
+    {
+      "id": "ref-198196",
+      "name_en": "198196",
+      "name_ja": "198196",
+      "reference": "198196",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 1234200,
+      "searchKeywordJa": "ジェイコブ 198196",
+      "searchKeywordEn": "Jacob & Co. 198196",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ジェイコブの型番198196。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Jacob & Co. reference 198196, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
       "lastSeen": "2026-11-10"
