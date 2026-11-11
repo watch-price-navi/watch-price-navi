@@ -1,6 +1,6 @@
 {
   "brandId": "h-moser",
-  "generatedAt": "2026-11-11T02:23:04.056Z",
+  "generatedAt": "2026-11-11T18:12:41.509Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -88,35 +88,6 @@
       "lastSeen": "2026-11-11"
     },
     {
-      "id": "ref-30000",
-      "name_en": "30000",
-      "name_ja": "モーザー エンデバー 30000",
-      "reference": "30000",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 2082500,
-      "searchKeywordJa": "H.モーザー 30000",
-      "searchKeywordEn": "H. Moser & Cie. 30000",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "gmt",
-        "small-seconds"
-      ],
-      "popular": false,
-      "summary_ja": "H.モーザーの型番30000。市場で3件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "H. Moser & Cie. reference 30000, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 3,
-      "lastSeen": "2026-11-11"
-    },
-    {
       "id": "ref-13430401",
       "name_en": "1343-0401",
       "name_ja": "エンデバー センターセコンド 1343-0401",
@@ -168,34 +139,6 @@
       "popular": false,
       "summary_ja": "H.モーザーの型番3200-1207。市場で2件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "H. Moser & Cie. reference 3200-1207, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-11-11"
-    },
-    {
-      "id": "ref-343505012",
-      "name_en": "343.505-012",
-      "name_ja": "グレー モナード 343.505-012",
-      "reference": "343.505-012",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "manual",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 1552100,
-      "searchKeywordJa": "H.モーザー 343.505-012",
-      "searchKeywordEn": "H. Moser & Cie. 343.505-012",
-      "caseMaterial": "white-gold",
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "H.モーザーの型番343.505-012。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "H. Moser & Cie. reference 343.505-012, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
       "lastSeen": "2026-11-11"
@@ -257,6 +200,34 @@
       "lastSeen": "2026-11-11"
     },
     {
+      "id": "ref-343505012",
+      "name_en": "343.505-012",
+      "name_ja": "グレー モナード 343.505-012",
+      "reference": "343.505-012",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "manual",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 1552100,
+      "searchKeywordJa": "H.モーザー 343.505-012",
+      "searchKeywordEn": "H. Moser & Cie. 343.505-012",
+      "caseMaterial": "white-gold",
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "H.モーザーの型番343.505-012。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "H. Moser & Cie. reference 343.505-012, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-11-11"
+    },
+    {
       "id": "ref-12001207",
       "name_en": "1200-1207",
       "name_ja": "エンデバー センターセコンド 1200-1207",
@@ -280,6 +251,34 @@
       "popular": false,
       "summary_ja": "H.モーザーの型番1200-1207。市場で2件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "H. Moser & Cie. reference 1200-1207, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-11-11"
+    },
+    {
+      "id": "ref-ref62001200",
+      "name_en": "REF.6200-1200",
+      "name_ja": "ストリームライナー センターセコンド REF.6200-1200",
+      "reference": "REF.6200-1200",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 3320950,
+      "searchKeywordJa": "H.モーザー REF.6200-1200",
+      "searchKeywordEn": "H. Moser & Cie. REF.6200-1200",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "H.モーザーの型番REF.6200-1200。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "H. Moser & Cie. reference REF.6200-1200, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
       "lastSeen": "2026-11-11"
@@ -416,7 +415,6 @@
       "gender": "mens",
       "releaseYear": null,
       "tags": [
-        "limited-edition",
         "small-seconds"
       ],
       "popular": false,
@@ -508,6 +506,35 @@
       "summary_en": "H. Moser & Cie. reference 04L0MOAU0001, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
+      "lastSeen": "2026-11-11"
+    },
+    {
+      "id": "ref-30000",
+      "name_en": "30000",
+      "name_ja": "モーザー エンデバー 30000",
+      "reference": "30000",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 2082500,
+      "searchKeywordJa": "H.モーザー 30000",
+      "searchKeywordEn": "H. Moser & Cie. 30000",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "gmt",
+        "small-seconds"
+      ],
+      "popular": false,
+      "summary_ja": "H.モーザーの型番30000。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "H. Moser & Cie. reference 30000, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 0,
       "lastSeen": "2026-11-11"
     },
     {

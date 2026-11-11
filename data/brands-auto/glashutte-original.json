@@ -1,37 +1,8 @@
 {
   "brandId": "glashutte-original",
-  "generatedAt": "2026-11-11T02:17:05.950Z",
+  "generatedAt": "2026-11-11T18:06:50.486Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
-    {
-      "id": "ref-30000",
-      "name_en": "30000",
-      "name_ja": "セネタ エクセレンス 30000",
-      "reference": "30000",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 600000,
-      "searchKeywordJa": "グラスヒュッテ・オリジナル 30000",
-      "searchKeywordEn": "Glashütte Original 30000",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "chronograph",
-        "moonphase"
-      ],
-      "popular": false,
-      "summary_ja": "グラスヒュッテ・オリジナルの型番30000。市場で33件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Glashütte Original reference 30000, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 33,
-      "lastSeen": "2026-11-11"
-    },
     {
       "id": "ref-10002221205",
       "name_en": "100-02-22-12-05",
@@ -170,6 +141,35 @@
       "summary_en": "Glashütte Original reference 151370, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
+      "lastSeen": "2026-11-11"
+    },
+    {
+      "id": "ref-30000",
+      "name_en": "30000",
+      "name_ja": "セネタ エクセレンス 30000",
+      "reference": "30000",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 600000,
+      "searchKeywordJa": "グラスヒュッテ・オリジナル 30000",
+      "searchKeywordEn": "Glashütte Original 30000",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph",
+        "moonphase"
+      ],
+      "popular": false,
+      "summary_ja": "グラスヒュッテ・オリジナルの型番30000。市場で33件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Glashütte Original reference 30000, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 0,
       "lastSeen": "2026-11-11"
     },
     {
