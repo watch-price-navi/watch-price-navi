@@ -1,6 +1,6 @@
 {
   "brandId": "chronoswiss",
-  "generatedAt": "2026-11-12T02:59:00.839Z",
+  "generatedAt": "2026-11-12T18:16:26.202Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -936,35 +936,6 @@
       "lastSeen": "2026-11-12"
     },
     {
-      "id": "ref-ch7523l",
-      "name_en": "CH7523L",
-      "name_ja": "レザー ムーンフェイズ CH7523L",
-      "reference": "CH7523L",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 308550,
-      "searchKeywordJa": "クロノスイス CH7523L",
-      "searchKeywordEn": "Chronoswiss CH7523L",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "chronograph",
-        "moonphase"
-      ],
-      "popular": false,
-      "summary_ja": "クロノスイスの型番CH7523L。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Chronoswiss reference CH7523L, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-11-12"
-    },
-    {
       "id": "ref-ch6233sw",
       "name_en": "CH6233SW",
       "name_ja": "タイムマスター メカニカル CH6233SW",
@@ -1108,6 +1079,35 @@
       "lastSeen": "2026-11-12"
     },
     {
+      "id": "ref-refch6725bkbk",
+      "name_en": "REF.CH-6725-BKBK",
+      "name_ja": "フラインググランドレギュ レーター REF.CH-6725-BKBK",
+      "reference": "REF.CH-6725-BKBK",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 508300,
+      "searchKeywordJa": "クロノスイス REF.CH-6725-BKBK",
+      "searchKeywordEn": "Chronoswiss REF.CH-6725-BKBK",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph",
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "クロノスイスの型番REF.CH-6725-BKBK。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Chronoswiss reference REF.CH-6725-BKBK, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-11-12"
+    },
+    {
       "id": "ref-ch4023si",
       "name_en": "CH-4023-SI",
       "name_ja": "ローン レギュレーター CH-4023-SI",
@@ -1131,6 +1131,35 @@
       "popular": false,
       "summary_ja": "クロノスイスの型番CH-4023-SI。市場で2件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Chronoswiss reference CH-4023-SI, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-11-12"
+    },
+    {
+      "id": "ref-ch3121w",
+      "name_en": "CH3121W",
+      "name_ja": "レギュレーター トゥールビヨン CH3121W",
+      "reference": "CH3121W",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "manual",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 1853000,
+      "searchKeywordJa": "クロノスイス CH3121W",
+      "searchKeywordEn": "Chronoswiss CH3121W",
+      "caseMaterial": "white-gold",
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph",
+        "tourbillon"
+      ],
+      "popular": false,
+      "summary_ja": "クロノスイスの型番CH3121W。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Chronoswiss reference CH3121W, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
       "lastSeen": "2026-11-12"
@@ -1386,6 +1415,35 @@
       "summary_en": "Chronoswiss reference CH-8753-BLBK, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
+      "lastSeen": "2026-11-12"
+    },
+    {
+      "id": "ref-ch7523l",
+      "name_en": "CH7523L",
+      "name_ja": "レザー ムーンフェイズ CH7523L",
+      "reference": "CH7523L",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 308550,
+      "searchKeywordJa": "クロノスイス CH7523L",
+      "searchKeywordEn": "Chronoswiss CH7523L",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "chronograph",
+        "moonphase"
+      ],
+      "popular": false,
+      "summary_ja": "クロノスイスの型番CH7523L。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Chronoswiss reference CH7523L, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 0,
       "lastSeen": "2026-11-12"
     },
     {
