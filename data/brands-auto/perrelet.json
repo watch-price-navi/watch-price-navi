@@ -1,6 +1,6 @@
 {
   "brandId": "perrelet",
-  "generatedAt": "2026-11-13T03:55:13.772Z",
+  "generatedAt": "2026-11-13T19:11:30.643Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -368,34 +368,6 @@
       "lastSeen": "2026-11-13"
     },
     {
-      "id": "ref-a1085",
-      "name_en": "A1085",
-      "name_ja": "タービン パイロット A1085",
-      "reference": "A1085",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 327063,
-      "searchKeywordJa": "ペルレ A1085",
-      "searchKeywordEn": "Perrelet A1085",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "pilot"
-      ],
-      "popular": false,
-      "summary_ja": "ペルレの型番A1085。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Perrelet reference A1085, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-11-13"
-    },
-    {
       "id": "ref-a40662",
       "name_en": "A4066/2",
       "name_ja": "タービン フルチタニウム A4066/2",
@@ -533,6 +505,34 @@
       "summary_en": "Perrelet reference 5346, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
+      "lastSeen": "2026-11-13"
+    },
+    {
+      "id": "ref-a1085",
+      "name_en": "A1085",
+      "name_ja": "A1085",
+      "reference": "A1085",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 327063,
+      "searchKeywordJa": "ペルレ A1085",
+      "searchKeywordEn": "Perrelet A1085",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "pilot"
+      ],
+      "popular": false,
+      "summary_ja": "ペルレの型番A1085。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Perrelet reference A1085, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
       "lastSeen": "2026-11-13"
     },
     {

@@ -1,6 +1,6 @@
 {
   "brandId": "van-cleef-arpels",
-  "generatedAt": "2026-11-13T04:36:32.658Z",
+  "generatedAt": "2026-11-13T19:52:35.386Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -172,34 +172,6 @@
       "lastSeen": "2026-11-13"
     },
     {
-      "id": "ref-vcar029a00",
-      "name_en": "VCAR029A00",
-      "name_ja": "ヴァンクリーフ アーペル VCAR029A00",
-      "reference": "VCAR029A00",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": 25.5,
-      "movementType": "quartz",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 770780,
-      "searchKeywordJa": "ヴァン クリーフ&アーペル VCAR029A00",
-      "searchKeywordEn": "Van Cleef & Arpels VCAR029A00",
-      "caseMaterial": "white-gold",
-      "waterResistanceM": null,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ヴァン クリーフ&アーペルの型番VCAR029A00。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Van Cleef & Arpels reference VCAR029A00, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-11-13"
-    },
-    {
       "id": "ref-vcaro8sf00hh1",
       "name_en": "VCARO8SF00/HH1",
       "name_ja": "ヴァンクリーフ アーペルズ VCARO8SF00/HH1",
@@ -223,6 +195,34 @@
       "popular": false,
       "summary_ja": "ヴァン クリーフ&アーペルの型番VCARO8SF00/HH1。市場で2件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Van Cleef & Arpels reference VCARO8SF00/HH1, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-11-13"
+    },
+    {
+      "id": "ref-vcar029a00",
+      "name_en": "VCAR029A00",
+      "name_ja": "ヴァンクリーフ アーペル VCAR029A00",
+      "reference": "VCAR029A00",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": 25.5,
+      "movementType": "quartz",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 770780,
+      "searchKeywordJa": "ヴァン クリーフ&アーペル VCAR029A00",
+      "searchKeywordEn": "Van Cleef & Arpels VCAR029A00",
+      "caseMaterial": "white-gold",
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ヴァン クリーフ&アーペルの型番VCAR029A00。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Van Cleef & Arpels reference VCAR029A00, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
       "lastSeen": "2026-11-13"
@@ -564,34 +564,6 @@
       "lastSeen": "2026-11-13"
     },
     {
-      "id": "ref-arb01500",
-      "name_en": "ARB01500",
-      "name_ja": "ヴァンクリーフ アーペル ARB01500",
-      "reference": "ARB01500",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "quartz",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 400000,
-      "searchKeywordJa": "ヴァン クリーフ&アーペル ARB01500",
-      "searchKeywordEn": "Van Cleef & Arpels ARB01500",
-      "caseMaterial": "stainless-steel",
-      "waterResistanceM": null,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ヴァン クリーフ&アーペルの型番ARB01500。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Van Cleef & Arpels reference ARB01500, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-11-13"
-    },
-    {
       "id": "ref-2410191",
       "name_en": "2410191",
       "name_ja": "2410191",
@@ -854,7 +826,7 @@
       "movementType": "quartz",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 1088000,
+      "priceFloorJpy": 1033600,
       "searchKeywordJa": "ヴァン クリーフ&アーペル HH69544",
       "searchKeywordEn": "Van Cleef & Arpels HH69544",
       "caseMaterial": null,
@@ -981,6 +953,34 @@
       "summary_en": "Van Cleef & Arpels reference VCARO8T500, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
+      "lastSeen": "2026-11-13"
+    },
+    {
+      "id": "ref-arb01500",
+      "name_en": "ARB01500",
+      "name_ja": "ヴァンクリーフ アーペル ARB01500",
+      "reference": "ARB01500",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "quartz",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 400000,
+      "searchKeywordJa": "ヴァン クリーフ&アーペル ARB01500",
+      "searchKeywordEn": "Van Cleef & Arpels ARB01500",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ヴァン クリーフ&アーペルの型番ARB01500。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Van Cleef & Arpels reference ARB01500, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 0,
       "lastSeen": "2026-11-13"
     },
     {
