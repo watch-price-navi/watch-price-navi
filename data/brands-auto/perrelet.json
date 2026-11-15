@@ -1,6 +1,6 @@
 {
   "brandId": "perrelet",
-  "generatedAt": "2026-11-15T03:06:30.041Z",
+  "generatedAt": "2026-11-15T18:21:19.353Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -141,34 +141,6 @@
       "summary_en": "Perrelet reference 2800, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
-      "lastSeen": "2026-11-15"
-    },
-    {
-      "id": "ref-a2000",
-      "name_en": "A2000",
-      "name_ja": "ダイヤインデックス A2000",
-      "reference": "A2000",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 200000,
-      "searchKeywordJa": "ペルレ A2000",
-      "searchKeywordEn": "Perrelet A2000",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ペルレの型番A2000。市場で3件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Perrelet reference A2000, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 3,
       "lastSeen": "2026-11-15"
     },
     {
@@ -645,6 +617,34 @@
       "summary_en": "Perrelet reference 5346, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
+      "lastSeen": "2026-11-15"
+    },
+    {
+      "id": "ref-a2000",
+      "name_en": "A2000",
+      "name_ja": "A2000",
+      "reference": "A2000",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 200000,
+      "searchKeywordJa": "ペルレ A2000",
+      "searchKeywordEn": "Perrelet A2000",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ペルレの型番A2000。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Perrelet reference A2000, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
       "lastSeen": "2026-11-15"
     },
     {
