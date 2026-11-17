@@ -1,6 +1,6 @@
 {
   "brandId": "moritz-grossmann",
-  "generatedAt": "2026-11-17T05:30:07.755Z",
+  "generatedAt": "2026-11-17T20:07:25.581Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -256,32 +256,31 @@
       "lastSeen": "2026-11-17"
     },
     {
-      "id": "ref-mg000779",
-      "name_en": "MG-000779",
-      "name_ja": "ベヌー トゥールビヨン MG-000779",
-      "reference": "MG-000779",
+      "id": "ref-refmg002811",
+      "name_en": "REF.MG-002811",
+      "name_ja": "REF.MG-002811",
+      "reference": "REF.MG-002811",
       "collection_en": null,
       "collection_ja": null,
       "caseSizeMm": null,
       "movementType": null,
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 16575000,
-      "searchKeywordJa": "モリッツ・グロスマン MG-000779",
-      "searchKeywordEn": "Moritz Grossmann MG-000779",
+      "priceFloorJpy": 3987290,
+      "searchKeywordJa": "モリッツ・グロスマン REF.MG-002811",
+      "searchKeywordEn": "Moritz Grossmann REF.MG-002811",
       "caseMaterial": null,
       "waterResistanceM": null,
-      "gender": "mens",
+      "gender": "unisex",
       "releaseYear": null,
       "tags": [
-        "tourbillon",
-        "limited-edition"
+        "gmt"
       ],
       "popular": false,
-      "summary_ja": "モリッツ・グロスマンの型番MG-000779。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Moritz Grossmann reference MG-000779, currently offered by multiple sellers in Japan.",
+      "summary_ja": "モリッツ・グロスマンの型番REF.MG-002811。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Moritz Grossmann reference REF.MG-002811, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 2,
+      "listingCount": 1,
       "lastSeen": "2026-11-17"
     },
     {
@@ -338,6 +337,35 @@
       "summary_en": "Moritz Grossmann reference MG-001909, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
+      "lastSeen": "2026-11-17"
+    },
+    {
+      "id": "ref-mg000779",
+      "name_en": "MG-000779",
+      "name_ja": "ベヌー トゥールビヨン MG-000779",
+      "reference": "MG-000779",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 16575000,
+      "searchKeywordJa": "モリッツ・グロスマン MG-000779",
+      "searchKeywordEn": "Moritz Grossmann MG-000779",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "tourbillon",
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "モリッツ・グロスマンの型番MG-000779。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Moritz Grossmann reference MG-000779, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 0,
       "lastSeen": "2026-11-17"
     },
     {

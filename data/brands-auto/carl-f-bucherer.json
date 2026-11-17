@@ -1,6 +1,6 @@
 {
   "brandId": "carl-f-bucherer",
-  "generatedAt": "2026-11-17T04:27:23.533Z",
+  "generatedAt": "2026-11-17T19:03:10.443Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -62,6 +62,34 @@
       "lastSeen": "2026-11-17"
     },
     {
+      "id": "ref-1063223",
+      "name_en": "10632.23",
+      "name_ja": "パトラビ スキューバテック 10632.23",
+      "reference": "10632.23",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 406300,
+      "searchKeywordJa": "カール F. ブヘラ 10632.23",
+      "searchKeywordEn": "Carl F. Bucherer 10632.23",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "カール F. ブヘラの型番10632.23。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Carl F. Bucherer reference 10632.23, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
+      "lastSeen": "2026-11-17"
+    },
+    {
       "id": "ref-0010632235321",
       "name_en": "00.10632.23.53.21",
       "name_ja": "パトラビ スキューバテック 00.10632.23.53.21",
@@ -113,34 +141,6 @@
       "popular": false,
       "summary_ja": "カール F. ブヘラの型番00.10632.23.33.99。市場で3件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Carl F. Bucherer reference 00.10632.23.33.99, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 3,
-      "lastSeen": "2026-11-17"
-    },
-    {
-      "id": "ref-1063223",
-      "name_en": "10632.23",
-      "name_ja": "パトラビ スキューバテック 10632.23",
-      "reference": "10632.23",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 406300,
-      "searchKeywordJa": "カール F. ブヘラ 10632.23",
-      "searchKeywordEn": "Carl F. Bucherer 10632.23",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "カール F. ブヘラの型番10632.23。市場で3件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Carl F. Bucherer reference 10632.23, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
       "lastSeen": "2026-11-17"
@@ -456,35 +456,6 @@
       "lastSeen": "2026-11-17"
     },
     {
-      "id": "ref-108030810010803",
-      "name_en": "10803.081/00.10803",
-      "name_ja": "ヘリテージ バイコンパックス 10803.081/00.10803",
-      "reference": "10803.081/00.10803",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 529550,
-      "searchKeywordJa": "カール F. ブヘラ 10803.081/00.10803",
-      "searchKeywordEn": "Carl F. Bucherer 10803.081/00.10803",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "limited-edition",
-        "vintage-reissue"
-      ],
-      "popular": false,
-      "summary_ja": "カール F. ブヘラの型番10803.081/00.10803。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Carl F. Bucherer reference 10803.081/00.10803, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-11-17"
-    },
-    {
       "id": "ref-1062008",
       "name_en": "10620.08",
       "name_ja": "カール ブヘラ 10620.08",
@@ -509,6 +480,35 @@
       "popular": false,
       "summary_ja": "カール F. ブヘラの型番10620.08。市場で2件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Carl F. Bucherer reference 10620.08, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-11-17"
+    },
+    {
+      "id": "ref-108030810010803",
+      "name_en": "10803.081/00.10803",
+      "name_ja": "ヘリテージ バイコンパックス 10803.081/00.10803",
+      "reference": "10803.081/00.10803",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 529550,
+      "searchKeywordJa": "カール F. ブヘラ 10803.081/00.10803",
+      "searchKeywordEn": "Carl F. Bucherer 10803.081/00.10803",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "limited-edition",
+        "vintage-reissue"
+      ],
+      "popular": false,
+      "summary_ja": "カール F. ブヘラの型番10803.081/00.10803。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Carl F. Bucherer reference 10803.081/00.10803, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
       "lastSeen": "2026-11-17"
