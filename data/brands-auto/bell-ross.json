@@ -1,6 +1,6 @@
 {
   "brandId": "bell-ross",
-  "generatedAt": "2026-11-18T03:08:50.405Z",
+  "generatedAt": "2026-11-18T18:16:52.336Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -379,36 +379,6 @@
       "lastSeen": "2026-11-18"
     },
     {
-      "id": "ref-brv394rs20sst",
-      "name_en": "BRV394-RS20/SST",
-      "name_ja": "ヴィンテージ クロノグラフ BRV394-RS20/SST",
-      "reference": "BRV394-RS20/SST",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": 43,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 363800,
-      "searchKeywordJa": "ベル&ロス BRV394-RS20/SST",
-      "searchKeywordEn": "Bell & Ross BRV394-RS20/SST",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "chronograph",
-        "skeleton",
-        "limited-edition"
-      ],
-      "popular": false,
-      "summary_ja": "ベル&ロスの型番BRV394-RS20/SST。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Bell & Ross reference BRV394-RS20/SST, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-11-18"
-    },
-    {
       "id": "ref-br0394cbl50127",
       "name_en": "BR03-94-CBL-50127",
       "name_ja": "クロノグラフ パトルイユ BR03-94-CBL-50127",
@@ -577,6 +547,36 @@
       "summary_en": "Bell & Ross reference BR03-94-BTR-CE/SCA, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
+      "lastSeen": "2026-11-18"
+    },
+    {
+      "id": "ref-brv394rs20sst",
+      "name_en": "BRV394-RS20/SST",
+      "name_ja": "BRV394-RS20/SST",
+      "reference": "BRV394-RS20/SST",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": 43,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 363800,
+      "searchKeywordJa": "ベル&ロス BRV394-RS20/SST",
+      "searchKeywordEn": "Bell & Ross BRV394-RS20/SST",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "chronograph",
+        "skeleton",
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "ベル&ロスの型番BRV394-RS20/SST。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Bell & Ross reference BRV394-RS20/SST, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
       "lastSeen": "2026-11-18"
     },
     {

@@ -1,36 +1,8 @@
 {
   "brandId": "perrelet",
-  "generatedAt": "2026-11-18T04:55:29.472Z",
+  "generatedAt": "2026-11-18T19:58:46.653Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
-    {
-      "id": "ref-3000",
-      "name_en": "3000",
-      "name_ja": "プリーツスクリーン タチカワブラインド 3000",
-      "reference": "3000",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 200000,
-      "searchKeywordJa": "ペルレ 3000",
-      "searchKeywordEn": "Perrelet 3000",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "diver"
-      ],
-      "popular": false,
-      "summary_ja": "ペルレの型番3000。市場で8件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Perrelet reference 3000, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 8,
-      "lastSeen": "2026-11-18"
-    },
     {
       "id": "ref-ps5341",
       "name_en": "PS-5341",
@@ -53,10 +25,10 @@
         "diver"
       ],
       "popular": false,
-      "summary_ja": "ペルレの型番PS-5341。市場で8件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "ペルレの型番PS-5341。市場で10件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Perrelet reference PS-5341, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 8,
+      "listingCount": 10,
       "lastSeen": "2026-11-18"
     },
     {
@@ -81,10 +53,38 @@
         "diver"
       ],
       "popular": false,
-      "summary_ja": "ペルレの型番5343。市場で8件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "ペルレの型番5343。市場で10件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Perrelet reference 5343, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 8,
+      "listingCount": 10,
+      "lastSeen": "2026-11-18"
+    },
+    {
+      "id": "ref-3000",
+      "name_en": "3000",
+      "name_ja": "プリーツスクリーン タチカワブラインド 3000",
+      "reference": "3000",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 200000,
+      "searchKeywordJa": "ペルレ 3000",
+      "searchKeywordEn": "Perrelet 3000",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "diver"
+      ],
+      "popular": false,
+      "summary_ja": "ペルレの型番3000。市場で9件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Perrelet reference 3000, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 9,
       "lastSeen": "2026-11-18"
     },
     {
@@ -139,6 +139,34 @@
       "popular": false,
       "summary_ja": "ペルレの型番1390。市場で4件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Perrelet reference 1390, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 4,
+      "lastSeen": "2026-11-18"
+    },
+    {
+      "id": "ref-2800",
+      "name_en": "2800",
+      "name_ja": "プリーツスクリーン タチカワブラインド 2800",
+      "reference": "2800",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 200000,
+      "searchKeywordJa": "ペルレ 2800",
+      "searchKeywordEn": "Perrelet 2800",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ペルレの型番2800。市場で4件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Perrelet reference 2800, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
       "lastSeen": "2026-11-18"
@@ -228,34 +256,6 @@
       "lastSeen": "2026-11-18"
     },
     {
-      "id": "ref-2800",
-      "name_en": "2800",
-      "name_ja": "プリーツスクリーン タチカワブラインド 2800",
-      "reference": "2800",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 200000,
-      "searchKeywordJa": "ペルレ 2800",
-      "searchKeywordEn": "Perrelet 2800",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ペルレの型番2800。市場で3件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Perrelet reference 2800, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 3,
-      "lastSeen": "2026-11-18"
-    },
-    {
       "id": "ref-a2000",
       "name_en": "A2000",
       "name_ja": "ダイヤインデックス A2000",
@@ -284,34 +284,6 @@
       "lastSeen": "2026-11-18"
     },
     {
-      "id": "ref-a2025",
-      "name_en": "A2025",
-      "name_ja": "フラワー A2025",
-      "reference": "A2025",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 200000,
-      "searchKeywordJa": "ペルレ A2025",
-      "searchKeywordEn": "Perrelet A2025",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "limited-edition"
-      ],
-      "popular": false,
-      "summary_ja": "ペルレの型番A2025。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Perrelet reference A2025, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-11-18"
-    },
-    {
       "id": "ref-1777",
       "name_en": "1777",
       "name_ja": "ダブルローター 1777",
@@ -335,6 +307,34 @@
       "popular": false,
       "summary_ja": "ペルレの型番1777。市場で2件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Perrelet reference 1777, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-11-18"
+    },
+    {
+      "id": "ref-a2025",
+      "name_en": "A2025",
+      "name_ja": "フラワー A2025",
+      "reference": "A2025",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 200000,
+      "searchKeywordJa": "ペルレ A2025",
+      "searchKeywordEn": "Perrelet A2025",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "ペルレの型番A2025。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Perrelet reference A2025, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
       "lastSeen": "2026-11-18"
@@ -701,34 +701,6 @@
       "summary_en": "Perrelet reference 5346, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
-      "lastSeen": "2026-11-18"
-    },
-    {
-      "id": "ref-vcaro3y551",
-      "name_en": "VCARO3Y551",
-      "name_ja": "VCARO3Y551",
-      "reference": "VCARO3Y551",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 235705,
-      "searchKeywordJa": "ペルレ VCARO3Y551",
-      "searchKeywordEn": "Perrelet VCARO3Y551",
-      "caseMaterial": "yellow-gold",
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ペルレの型番VCARO3Y551。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Perrelet reference VCARO3Y551, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
       "lastSeen": "2026-11-18"
     },
     {
@@ -1121,6 +1093,34 @@
       "summary_en": "Perrelet reference VCARP6X400, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
+      "lastSeen": "2026-11-18"
+    },
+    {
+      "id": "ref-vcaro3y551",
+      "name_en": "VCARO3Y551",
+      "name_ja": "VCARO3Y551",
+      "reference": "VCARO3Y551",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 235705,
+      "searchKeywordJa": "ペルレ VCARO3Y551",
+      "searchKeywordEn": "Perrelet VCARO3Y551",
+      "caseMaterial": "yellow-gold",
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ペルレの型番VCARO3Y551。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Perrelet reference VCARO3Y551, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 0,
       "lastSeen": "2026-11-18"
     },
     {
