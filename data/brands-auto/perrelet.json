@@ -1,6 +1,6 @@
 {
   "brandId": "perrelet",
-  "generatedAt": "2026-11-19T04:39:02.675Z",
+  "generatedAt": "2026-11-19T20:14:56.871Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -169,6 +169,34 @@
       "summary_en": "Perrelet reference 2800, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 4,
+      "lastSeen": "2026-11-19"
+    },
+    {
+      "id": "ref-a2046",
+      "name_en": "A2046",
+      "name_ja": "タービン レディ A2046",
+      "reference": "A2046",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 200000,
+      "searchKeywordJa": "ペルレ A2046",
+      "searchKeywordEn": "Perrelet A2046",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ペルレの型番A2046。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Perrelet reference A2046, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
       "lastSeen": "2026-11-19"
     },
     {
@@ -447,34 +475,6 @@
       "popular": false,
       "summary_ja": "ペルレの型番A1069。市場で2件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Perrelet reference A1069, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-11-19"
-    },
-    {
-      "id": "ref-a2046",
-      "name_en": "A2046",
-      "name_ja": "タービン レディ A2046",
-      "reference": "A2046",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 200000,
-      "searchKeywordJa": "ペルレ A2046",
-      "searchKeywordEn": "Perrelet A2046",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ペルレの型番A2046。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Perrelet reference A2046, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
       "lastSeen": "2026-11-19"
@@ -1012,6 +1012,34 @@
       "lastSeen": "2026-11-19"
     },
     {
+      "id": "ref-vcarp6x200",
+      "name_en": "VCARP6X200",
+      "name_ja": "VCARP6X200",
+      "reference": "VCARP6X200",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 1963500,
+      "searchKeywordJa": "ペルレ VCARP6X200",
+      "searchKeywordEn": "Perrelet VCARP6X200",
+      "caseMaterial": "rose-gold",
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ペルレの型番VCARP6X200。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Perrelet reference VCARP6X200, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-11-19"
+    },
+    {
       "id": "ref-vcarp27f00",
       "name_en": "VCARP27F00",
       "name_ja": "VCARP27F00",
@@ -1346,34 +1374,6 @@
       "source": "auto",
       "listingCount": 0,
       "lastSeen": "2026-10-16"
-    },
-    {
-      "id": "ref-vcarp6x200",
-      "name_en": "VCARP6X200",
-      "name_ja": "VCARP6X200",
-      "reference": "VCARP6X200",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 1963500,
-      "searchKeywordJa": "ペルレ VCARP6X200",
-      "searchKeywordEn": "Perrelet VCARP6X200",
-      "caseMaterial": "rose-gold",
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ペルレの型番VCARP6X200。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Perrelet reference VCARP6X200, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 0,
-      "lastSeen": "2026-10-13"
     },
     {
       "id": "ref-vcaro7a800",

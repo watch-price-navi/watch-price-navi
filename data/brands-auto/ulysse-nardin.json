@@ -1,6 +1,6 @@
 {
   "brandId": "ulysse-nardin",
-  "generatedAt": "2026-11-19T05:15:29.228Z",
+  "generatedAt": "2026-11-19T20:50:49.147Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -202,6 +202,35 @@
       "lastSeen": "2026-11-19"
     },
     {
+      "id": "ref-24322",
+      "name_en": "243-22",
+      "name_ja": "ユリスナルダン デュアルタイム 243-22",
+      "reference": "243-22",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 530145,
+      "searchKeywordJa": "ユリス・ナルダン 243-22",
+      "searchKeywordEn": "Ulysse Nardin 243-22",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "gmt",
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "ユリス・ナルダンの型番243-22。市場で6件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ulysse Nardin reference 243-22, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 6,
+      "lastSeen": "2026-11-19"
+    },
+    {
       "id": "ref-13322",
       "name_en": "133-22",
       "name_ja": "サンシアー ステンレススチール 133-22",
@@ -225,34 +254,6 @@
       "popular": false,
       "summary_ja": "ユリス・ナルダンの型番133-22。市場で5件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Ulysse Nardin reference 133-22, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 5,
-      "lastSeen": "2026-11-19"
-    },
-    {
-      "id": "ref-123779",
-      "name_en": "123-77-9",
-      "name_ja": "サンマルコ 123-77-9",
-      "reference": "123-77-9",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 138380,
-      "searchKeywordJa": "ユリス・ナルダン 123-77-9",
-      "searchKeywordEn": "Ulysse Nardin 123-77-9",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ユリス・ナルダンの型番123-77-9。市場で5件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Ulysse Nardin reference 123-77-9, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
       "lastSeen": "2026-11-19"
@@ -373,6 +374,34 @@
       "summary_en": "Ulysse Nardin reference 1185-170/BLACK-MON, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
+      "lastSeen": "2026-11-19"
+    },
+    {
+      "id": "ref-123779",
+      "name_en": "123-77-9",
+      "name_ja": "サンマルコ 123-77-9",
+      "reference": "123-77-9",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 138380,
+      "searchKeywordJa": "ユリス・ナルダン 123-77-9",
+      "searchKeywordEn": "Ulysse Nardin 123-77-9",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ユリス・ナルダンの型番123-77-9。市場で4件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ulysse Nardin reference 123-77-9, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 4,
       "lastSeen": "2026-11-19"
     },
     {
@@ -506,7 +535,8 @@
       "gender": "mens",
       "releaseYear": null,
       "tags": [
-        "gmt"
+        "gmt",
+        "limited-edition"
       ],
       "popular": false,
       "summary_ja": "ユリス・ナルダンの型番243-10-3/391。市場で4件の出品が確認された、実際に流通しているモデルです。",
@@ -830,34 +860,6 @@
       "lastSeen": "2026-11-19"
     },
     {
-      "id": "ref-24322",
-      "name_en": "243-22",
-      "name_ja": "ユリスナルダン デュアルタイム 243-22",
-      "reference": "243-22",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 589050,
-      "searchKeywordJa": "ユリス・ナルダン 243-22",
-      "searchKeywordEn": "Ulysse Nardin 243-22",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "gmt"
-      ],
-      "popular": false,
-      "summary_ja": "ユリス・ナルダンの型番243-22。市場で3件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Ulysse Nardin reference 243-22, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 3,
-      "lastSeen": "2026-11-19"
-    },
-    {
       "id": "ref-15031507m63",
       "name_en": "1503-150-7M/63",
       "name_ja": "マリーン マニュファクチュール 1503-150-7M/63",
@@ -1078,6 +1080,35 @@
       "popular": false,
       "summary_ja": "ユリス・ナルダンの型番1503-151。市場で3件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Ulysse Nardin reference 1503-151, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
+      "lastSeen": "2026-11-19"
+    },
+    {
+      "id": "ref-ref37231702b",
+      "name_en": "REF.3723-170-2B",
+      "name_ja": "スケルトン ダイバー REF.3723-170-2B",
+      "reference": "REF.3723-170-2B",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 2124150,
+      "searchKeywordJa": "ユリス・ナルダン REF.3723-170-2B",
+      "searchKeywordEn": "Ulysse Nardin REF.3723-170-2B",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "diver",
+        "skeleton"
+      ],
+      "popular": false,
+      "summary_ja": "ユリス・ナルダンの型番REF.3723-170-2B。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ulysse Nardin reference REF.3723-170-2B, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
       "lastSeen": "2026-11-19"
@@ -1781,6 +1812,34 @@
       "popular": false,
       "summary_ja": "ユリス・ナルダンの型番2410185。市場で1件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Ulysse Nardin reference 2410185, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-11-19"
+    },
+    {
+      "id": "ref-ref118331043",
+      "name_en": "REF.1183-310/43",
+      "name_ja": "REF.1183-310/43",
+      "reference": "REF.1183-310/43",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 720800,
+      "searchKeywordJa": "ユリス・ナルダン REF.1183-310/43",
+      "searchKeywordEn": "Ulysse Nardin REF.1183-310/43",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ユリス・ナルダンの型番REF.1183-310/43。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ulysse Nardin reference REF.1183-310/43, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
       "lastSeen": "2026-11-19"
