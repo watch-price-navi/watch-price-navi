@@ -1,6 +1,6 @@
 {
   "brandId": "van-cleef-arpels",
-  "generatedAt": "2026-11-20T04:57:38.960Z",
+  "generatedAt": "2026-11-20T20:23:29.962Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -22,7 +22,7 @@
       "gender": "ladies",
       "releaseYear": null,
       "tags": [
-        "sport"
+        "limited-edition"
       ],
       "popular": false,
       "summary_ja": "ヴァン クリーフ&アーペルの型番122974。市場で6件の出品が確認された、実際に流通しているモデルです。",
@@ -172,6 +172,34 @@
       "lastSeen": "2026-11-20"
     },
     {
+      "id": "ref-vcard21600",
+      "name_en": "VCARD21600",
+      "name_ja": "アルハンブラ スモールモデル VCARD21600",
+      "reference": "VCARD21600",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 712130,
+      "searchKeywordJa": "ヴァン クリーフ&アーペル VCARD21600",
+      "searchKeywordEn": "Van Cleef & Arpels VCARD21600",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ヴァン クリーフ&アーペルの型番VCARD21600。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Van Cleef & Arpels reference VCARD21600, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-11-20"
+    },
+    {
       "id": "ref-vcar08sf00",
       "name_en": "VCAR08SF00",
       "name_ja": "スウィート アルハンブラ VCAR08SF00",
@@ -274,7 +302,7 @@
       "gender": "ladies",
       "releaseYear": null,
       "tags": [
-        "sport"
+        "limited-edition"
       ],
       "popular": false,
       "summary_ja": "ヴァン クリーフ&アーペルの型番VCAR029A00。市場で2件の出品が確認された、実際に流通しているモデルです。",
@@ -312,34 +340,6 @@
       "lastSeen": "2026-11-20"
     },
     {
-      "id": "ref-vcar02vk00",
-      "name_en": "VCAR02VK00",
-      "name_ja": "カーネリアン ヴァンクリーフ VCAR02VK00",
-      "reference": "VCAR02VK00",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 1028500,
-      "searchKeywordJa": "ヴァン クリーフ&アーペル VCAR02VK00",
-      "searchKeywordEn": "Van Cleef & Arpels VCAR02VK00",
-      "caseMaterial": "rose-gold",
-      "waterResistanceM": null,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ヴァン クリーフ&アーペルの型番VCAR02VK00。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Van Cleef & Arpels reference VCAR02VK00, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-11-20"
-    },
-    {
       "id": "ref-vcar029800",
       "name_en": "VCAR029800",
       "name_ja": "ヴァンクリーフ アーペル VCAR029800",
@@ -363,6 +363,34 @@
       "popular": false,
       "summary_ja": "ヴァン クリーフ&アーペルの型番VCAR029800。市場で2件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Van Cleef & Arpels reference VCAR029800, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-11-20"
+    },
+    {
+      "id": "ref-vcar02vk00",
+      "name_en": "VCAR02VK00",
+      "name_ja": "カーネリアン ブラックフライデー VCAR02VK00",
+      "reference": "VCAR02VK00",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 1028500,
+      "searchKeywordJa": "ヴァン クリーフ&アーペル VCAR02VK00",
+      "searchKeywordEn": "Van Cleef & Arpels VCAR02VK00",
+      "caseMaterial": "rose-gold",
+      "waterResistanceM": null,
+      "gender": "ladies",
+      "releaseYear": null,
+      "tags": [
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "ヴァン クリーフ&アーペルの型番VCAR02VK00。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Van Cleef & Arpels reference VCAR02VK00, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
       "lastSeen": "2026-11-20"
@@ -722,7 +750,7 @@
       "gender": "ladies",
       "releaseYear": null,
       "tags": [
-        "sport"
+        "limited-edition"
       ],
       "popular": false,
       "summary_ja": "ヴァン クリーフ&アーペルの型番3575164。市場で1件の出品が確認された、実際に流通しているモデルです。",
@@ -816,34 +844,6 @@
       "lastSeen": "2026-11-20"
     },
     {
-      "id": "ref-18901b1",
-      "name_en": "18901B1",
-      "name_ja": "18901B1",
-      "reference": "18901B1",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 1317500,
-      "searchKeywordJa": "ヴァン クリーフ&アーペル 18901B1",
-      "searchKeywordEn": "Van Cleef & Arpels 18901B1",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ヴァン クリーフ&アーペルの型番18901B1。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Van Cleef & Arpels reference 18901B1, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 1,
-      "lastSeen": "2026-11-20"
-    },
-    {
       "id": "ref-18601",
       "name_en": "18601",
       "name_ja": "18601",
@@ -867,6 +867,34 @@
       "popular": false,
       "summary_ja": "ヴァン クリーフ&アーペルの型番18601。市場で1件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Van Cleef & Arpels reference 18601, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-11-20"
+    },
+    {
+      "id": "ref-18901b1",
+      "name_en": "18901B1",
+      "name_ja": "18901B1",
+      "reference": "18901B1",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 1317500,
+      "searchKeywordJa": "ヴァン クリーフ&アーペル 18901B1",
+      "searchKeywordEn": "Van Cleef & Arpels 18901B1",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ヴァン クリーフ&アーペルの型番18901B1。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Van Cleef & Arpels reference 18901B1, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
       "lastSeen": "2026-11-20"
@@ -1598,34 +1626,6 @@
       "source": "auto",
       "listingCount": 0,
       "lastSeen": "2026-09-03"
-    },
-    {
-      "id": "ref-vcard21600",
-      "name_en": "VCARD21600",
-      "name_ja": "ヴァンクリーフ アーペル VCARD21600",
-      "reference": "VCARD21600",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": 26,
-      "movementType": "quartz",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 679830,
-      "searchKeywordJa": "ヴァン クリーフ&アーペル VCARD21600",
-      "searchKeywordEn": "Van Cleef & Arpels VCARD21600",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "ladies",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ヴァン クリーフ&アーペルの型番VCARD21600。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Van Cleef & Arpels reference VCARD21600, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 0,
-      "lastSeen": "2026-08-27"
     },
     {
       "id": "ref-430958",
