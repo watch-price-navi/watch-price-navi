@@ -1,6 +1,6 @@
 {
   "brandId": "richard-mille",
-  "generatedAt": "2026-11-21T04:31:33.797Z",
+  "generatedAt": "2026-11-21T18:56:18.837Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -55,10 +55,10 @@
         "skeleton"
       ],
       "popular": false,
-      "summary_ja": "リシャール・ミルの型番RM65-01。市場で23件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "リシャール・ミルの型番RM65-01。市場で22件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Richard Mille reference RM65-01, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 23,
+      "listingCount": 22,
       "lastSeen": "2026-11-21"
     },
     {
@@ -84,10 +84,10 @@
         "lightweight"
       ],
       "popular": false,
-      "summary_ja": "リシャール・ミルの型番RM011-03。市場で21件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "リシャール・ミルの型番RM011-03。市場で20件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Richard Mille reference RM011-03, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 21,
+      "listingCount": 20,
       "lastSeen": "2026-11-21"
     },
     {
@@ -109,7 +109,6 @@
       "gender": "mens",
       "releaseYear": null,
       "tags": [
-        "chronograph",
         "limited-edition",
         "lightweight"
       ],
@@ -205,34 +204,6 @@
       "lastSeen": "2026-11-21"
     },
     {
-      "id": "ref-rm6101aocatzp",
-      "name_en": "RM61-01-AO-CA-TZP",
-      "name_ja": "ヨハン ブレイク RM61-01-AO-CA-TZP",
-      "reference": "RM61-01-AO-CA-TZP",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": 50.2,
-      "movementType": "manual",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 32725000,
-      "searchKeywordJa": "リシャール・ミル RM61-01-AO-CA-TZP",
-      "searchKeywordEn": "Richard Mille RM61-01-AO-CA-TZP",
-      "caseMaterial": "ceramic",
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "リシャール・ミルの型番RM61-01-AO-CA-TZP。市場で16件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Richard Mille reference RM61-01-AO-CA-TZP, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 16,
-      "lastSeen": "2026-11-21"
-    },
-    {
       "id": "ref-rm6501fq",
       "name_en": "RM65-01FQ",
       "name_ja": "オートマティック スプリットセコンド RM65-01FQ",
@@ -258,6 +229,34 @@
       "summary_en": "Richard Mille reference RM65-01FQ, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 16,
+      "lastSeen": "2026-11-21"
+    },
+    {
+      "id": "ref-rm6101aocatzp",
+      "name_en": "RM61-01-AO-CA-TZP",
+      "name_ja": "ヨハン ブレイク RM61-01-AO-CA-TZP",
+      "reference": "RM61-01-AO-CA-TZP",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": 50.2,
+      "movementType": "manual",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 32725000,
+      "searchKeywordJa": "リシャール・ミル RM61-01-AO-CA-TZP",
+      "searchKeywordEn": "Richard Mille RM61-01-AO-CA-TZP",
+      "caseMaterial": "ceramic",
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "リシャール・ミルの型番RM61-01-AO-CA-TZP。市場で14件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Richard Mille reference RM61-01-AO-CA-TZP, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 14,
       "lastSeen": "2026-11-21"
     },
     {
