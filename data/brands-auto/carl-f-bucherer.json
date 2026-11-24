@@ -1,6 +1,6 @@
 {
   "brandId": "carl-f-bucherer",
-  "generatedAt": "2026-11-24T05:51:13.738Z",
+  "generatedAt": "2026-11-24T20:38:28.300Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -62,6 +62,34 @@
       "lastSeen": "2026-11-24"
     },
     {
+      "id": "ref-0010632235321",
+      "name_en": "00.10632.23.53.21",
+      "name_ja": "パトラビ スキューバテック 00.10632.23.53.21",
+      "reference": "00.10632.23.53.21",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 410550,
+      "searchKeywordJa": "カール F. ブヘラ 00.10632.23.53.21",
+      "searchKeywordEn": "Carl F. Bucherer 00.10632.23.53.21",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "カール F. ブヘラの型番00.10632.23.53.21。市場で4件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Carl F. Bucherer reference 00.10632.23.53.21, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 4,
+      "lastSeen": "2026-11-24"
+    },
+    {
       "id": "ref-1063223",
       "name_en": "10632.23",
       "name_ja": "パトラビ スキューバテック 10632.23",
@@ -85,34 +113,6 @@
       "popular": false,
       "summary_ja": "カール F. ブヘラの型番10632.23。市場で3件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Carl F. Bucherer reference 10632.23, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 3,
-      "lastSeen": "2026-11-24"
-    },
-    {
-      "id": "ref-0010632235321",
-      "name_en": "00.10632.23.53.21",
-      "name_ja": "パトラビ スキューバテック 00.10632.23.53.21",
-      "reference": "00.10632.23.53.21",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 410550,
-      "searchKeywordJa": "カール F. ブヘラ 00.10632.23.53.21",
-      "searchKeywordEn": "Carl F. Bucherer 00.10632.23.53.21",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "カール F. ブヘラの型番00.10632.23.53.21。市場で3件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Carl F. Bucherer reference 00.10632.23.53.21, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
       "lastSeen": "2026-11-24"
@@ -156,7 +156,7 @@
       "movementType": null,
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 605115,
+      "priceFloorJpy": 574770,
       "searchKeywordJa": "カール F. ブヘラ 00.10919.08.93.21",
       "searchKeywordEn": "Carl F. Bucherer 00.10919.08.93.21",
       "caseMaterial": null,
@@ -514,34 +514,6 @@
       "lastSeen": "2026-11-24"
     },
     {
-      "id": "ref-0010923089301",
-      "name_en": "00.10923.08.93.01",
-      "name_ja": "マネロ セントラルカウンター 00.10923.08.93.01",
-      "reference": "00.10923.08.93.01",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": 42.5,
-      "movementType": null,
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 485350,
-      "searchKeywordJa": "カール F. ブヘラ 00.10923.08.93.01",
-      "searchKeywordEn": "Carl F. Bucherer 00.10923.08.93.01",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "カール F. ブヘラの型番00.10923.08.93.01。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Carl F. Bucherer reference 00.10923.08.93.01, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-11-24"
-    },
-    {
       "id": "ref-0010919083302",
       "name_en": "00.10919.08.33.02",
       "name_ja": "マネロ フライバック 00.10919.08.33.02",
@@ -565,6 +537,34 @@
       "popular": false,
       "summary_ja": "カール F. ブヘラの型番00.10919.08.33.02。市場で2件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Carl F. Bucherer reference 00.10919.08.33.02, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
+      "lastSeen": "2026-11-24"
+    },
+    {
+      "id": "ref-0010923089301",
+      "name_en": "00.10923.08.93.01",
+      "name_ja": "マネロ セントラルカウンター 00.10923.08.93.01",
+      "reference": "00.10923.08.93.01",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": 42.5,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 485350,
+      "searchKeywordJa": "カール F. ブヘラ 00.10923.08.93.01",
+      "searchKeywordEn": "Carl F. Bucherer 00.10923.08.93.01",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "カール F. ブヘラの型番00.10923.08.93.01。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Carl F. Bucherer reference 00.10923.08.93.01, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
       "lastSeen": "2026-11-24"
