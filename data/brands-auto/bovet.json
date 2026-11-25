@@ -1,6 +1,6 @@
 {
   "brandId": "bovet",
-  "generatedAt": "2026-11-25T04:36:24.729Z",
+  "generatedAt": "2026-11-25T19:33:44.452Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -139,6 +139,34 @@
       "popular": false,
       "summary_ja": "ボヴェの型番SP0469。市場で1件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "Bovet reference SP0469, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-11-25"
+    },
+    {
+      "id": "ref-nts008660rombfl",
+      "name_en": "NTS0086/60/ROM-BFL",
+      "name_ja": "NTS0086/60/ROM-BFL",
+      "reference": "NTS0086/60/ROM-BFL",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 2844950,
+      "searchKeywordJa": "ボヴェ NTS0086/60/ROM-BFL",
+      "searchKeywordEn": "Bovet NTS0086/60/ROM-BFL",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ボヴェの型番NTS0086/60/ROM-BFL。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Bovet reference NTS0086/60/ROM-BFL, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
       "lastSeen": "2026-11-25"

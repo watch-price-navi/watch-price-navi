@@ -1,6 +1,6 @@
 {
   "brandId": "meistersinger",
-  "generatedAt": "2026-11-25T05:51:26.607Z",
+  "generatedAt": "2026-11-25T20:44:50.977Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -25,10 +25,10 @@
         "limited-edition"
       ],
       "popular": false,
-      "summary_ja": "マイスタージンガーの型番10000PT。市場で70件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "マイスタージンガーの型番10000PT。市場で69件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "MeisterSinger reference 10000PT, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 70,
+      "listingCount": 69,
       "lastSeen": "2026-11-25"
     },
     {
@@ -193,10 +193,10 @@
         "limited-edition"
       ],
       "popular": false,
-      "summary_ja": "マイスタージンガーの型番S-BM9902B。市場で9件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "マイスタージンガーの型番S-BM9902B。市場で8件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "MeisterSinger reference S-BM9902B, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 9,
+      "listingCount": 8,
       "lastSeen": "2026-11-25"
     },
     {
@@ -333,10 +333,38 @@
         "limited-edition"
       ],
       "popular": false,
-      "summary_ja": "マイスタージンガーの型番PDD365927。市場で4件の出品が確認された、実際に流通しているモデルです。",
+      "summary_ja": "マイスタージンガーの型番PDD365927。市場で5件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "MeisterSinger reference PDD365927, currently offered by multiple sellers in Japan.",
       "source": "auto",
-      "listingCount": 4,
+      "listingCount": 5,
+      "lastSeen": "2026-11-25"
+    },
+    {
+      "id": "ref-sbm1128",
+      "name_en": "S-BM1128",
+      "name_ja": "ノベルティー ペリグラフ S-BM1128",
+      "reference": "S-BM1128",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 367455,
+      "searchKeywordJa": "マイスタージンガー S-BM1128",
+      "searchKeywordEn": "MeisterSinger S-BM1128",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "マイスタージンガーの型番S-BM1128。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "MeisterSinger reference S-BM1128, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
       "lastSeen": "2026-11-25"
     },
     {
@@ -442,39 +470,11 @@
       "gender": "unisex",
       "releaseYear": null,
       "tags": [
-        "limited-edition"
+        "sport"
       ],
       "popular": false,
       "summary_ja": "マイスタージンガーの型番BM1101G。市場で2件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "MeisterSinger reference BM1101G, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 2,
-      "lastSeen": "2026-11-25"
-    },
-    {
-      "id": "ref-sbm1128",
-      "name_en": "S-BM1128",
-      "name_ja": "ノベルティー ペリグラフ S-BM1128",
-      "reference": "S-BM1128",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 367455,
-      "searchKeywordJa": "マイスタージンガー S-BM1128",
-      "searchKeywordEn": "MeisterSinger S-BM1128",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "unisex",
-      "releaseYear": null,
-      "tags": [
-        "limited-edition"
-      ],
-      "popular": false,
-      "summary_ja": "マイスタージンガーの型番S-BM1128。市場で2件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "MeisterSinger reference S-BM1128, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 2,
       "lastSeen": "2026-11-25"
@@ -531,6 +531,34 @@
       "popular": false,
       "summary_ja": "マイスタージンガーの型番25-M-86。市場で1件の出品が確認された、実際に流通しているモデルです。",
       "summary_en": "MeisterSinger reference 25-M-86, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 1,
+      "lastSeen": "2026-11-25"
+    },
+    {
+      "id": "ref-refedksodas2025",
+      "name_en": "REF.ED-KSOD-AS2025",
+      "name_ja": "REF.ED-KSOD-AS2025",
+      "reference": "REF.ED-KSOD-AS2025",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 710600,
+      "searchKeywordJa": "マイスタージンガー REF.ED-KSOD-AS2025",
+      "searchKeywordEn": "MeisterSinger REF.ED-KSOD-AS2025",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "unisex",
+      "releaseYear": null,
+      "tags": [
+        "limited-edition"
+      ],
+      "popular": false,
+      "summary_ja": "マイスタージンガーの型番REF.ED-KSOD-AS2025。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "MeisterSinger reference REF.ED-KSOD-AS2025, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
       "lastSeen": "2026-11-25"
