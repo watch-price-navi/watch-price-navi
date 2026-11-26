@@ -1,6 +1,6 @@
 {
   "brandId": "ulysse-nardin",
-  "generatedAt": "2026-11-26T06:14:34.439Z",
+  "generatedAt": "2026-11-26T21:34:28.157Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
     {
@@ -555,7 +555,7 @@
       "movementType": "automatic",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 465630,
+      "priceFloorJpy": 437580,
       "searchKeywordJa": "ユリス・ナルダン 353-22",
       "searchKeywordEn": "Ulysse Nardin 353-22",
       "caseMaterial": null,
@@ -1027,6 +1027,34 @@
       "lastSeen": "2026-11-26"
     },
     {
+      "id": "ref-1533320le0a1751b",
+      "name_en": "1533-320LE-0A-175/1B",
+      "name_ja": "マリーン トルピユール 1533-320LE-0A-175/1B",
+      "reference": "1533-320LE-0A-175/1B",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": 44,
+      "movementType": null,
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 883150,
+      "searchKeywordJa": "ユリス・ナルダン 1533-320LE-0A-175/1B",
+      "searchKeywordEn": "Ulysse Nardin 1533-320LE-0A-175/1B",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "chronograph"
+      ],
+      "popular": false,
+      "summary_ja": "ユリス・ナルダンの型番1533-320LE-0A-175/1B。市場で3件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ulysse Nardin reference 1533-320LE-0A-175/1B, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 3,
+      "lastSeen": "2026-11-26"
+    },
+    {
       "id": "ref-118331043",
       "name_en": "1183-310/43",
       "name_ja": "マリーン トルピユール 1183-310/43",
@@ -1108,6 +1136,34 @@
       "summary_en": "Ulysse Nardin reference 2303-270/CARB, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 3,
+      "lastSeen": "2026-11-26"
+    },
+    {
+      "id": "ref-23368",
+      "name_en": "233-68",
+      "name_ja": "ミケランジェロ ビッグデイト 233-68",
+      "reference": "233-68",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 225522,
+      "searchKeywordJa": "ユリス・ナルダン 233-68",
+      "searchKeywordEn": "Ulysse Nardin 233-68",
+      "caseMaterial": null,
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "sport"
+      ],
+      "popular": false,
+      "summary_ja": "ユリス・ナルダンの型番233-68。市場で2件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ulysse Nardin reference 233-68, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 2,
       "lastSeen": "2026-11-26"
     },
     {
@@ -1674,29 +1730,29 @@
       "lastSeen": "2026-11-26"
     },
     {
-      "id": "ref-1533320le0a1751b",
-      "name_en": "1533-320LE-0A-175/1B",
-      "name_ja": "1533-320LE-0A-175/1B",
-      "reference": "1533-320LE-0A-175/1B",
+      "id": "ref-ref118331043",
+      "name_en": "REF.1183-310/43",
+      "name_ja": "REF.1183-310/43",
+      "reference": "REF.1183-310/43",
       "collection_en": null,
       "collection_ja": null,
-      "caseSizeMm": 44,
-      "movementType": null,
+      "caseSizeMm": null,
+      "movementType": "automatic",
       "caliber": null,
       "listPriceJpy": null,
-      "priceFloorJpy": 918850,
-      "searchKeywordJa": "ユリス・ナルダン 1533-320LE-0A-175/1B",
-      "searchKeywordEn": "Ulysse Nardin 1533-320LE-0A-175/1B",
+      "priceFloorJpy": 720800,
+      "searchKeywordJa": "ユリス・ナルダン REF.1183-310/43",
+      "searchKeywordEn": "Ulysse Nardin REF.1183-310/43",
       "caseMaterial": null,
       "waterResistanceM": null,
       "gender": "unisex",
       "releaseYear": null,
       "tags": [
-        "chronograph"
+        "sport"
       ],
       "popular": false,
-      "summary_ja": "ユリス・ナルダンの型番1533-320LE-0A-175/1B。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Ulysse Nardin reference 1533-320LE-0A-175/1B, currently offered by multiple sellers in Japan.",
+      "summary_ja": "ユリス・ナルダンの型番REF.1183-310/43。市場で1件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Ulysse Nardin reference REF.1183-310/43, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 1,
       "lastSeen": "2026-11-26"
@@ -2433,34 +2489,6 @@
       "source": "auto",
       "listingCount": 0,
       "lastSeen": "2026-10-31"
-    },
-    {
-      "id": "ref-23368",
-      "name_en": "233-68",
-      "name_ja": "233-68",
-      "reference": "233-68",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "automatic",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 250580,
-      "searchKeywordJa": "ユリス・ナルダン 233-68",
-      "searchKeywordEn": "Ulysse Nardin 233-68",
-      "caseMaterial": null,
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "sport"
-      ],
-      "popular": false,
-      "summary_ja": "ユリス・ナルダンの型番233-68。市場で1件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Ulysse Nardin reference 233-68, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 0,
-      "lastSeen": "2026-10-27"
     },
     {
       "id": "ref-22368752",
