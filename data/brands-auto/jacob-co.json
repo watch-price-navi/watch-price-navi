@@ -1,8 +1,36 @@
 {
   "brandId": "jacob-co",
-  "generatedAt": "2026-11-27T05:03:06.024Z",
+  "generatedAt": "2026-11-27T20:19:17.168Z",
   "note": "出品データから自動生成されたモデル。data/brands/ の人手カタログを補完します。過去に確認した型番は出品が途切れても残します。",
   "models": [
+    {
+      "id": "ref-3301001",
+      "name_en": "330.100.1",
+      "name_ja": "ファイブタイムゾーン ゴースト 330.100.1",
+      "reference": "330.100.1",
+      "collection_en": null,
+      "collection_ja": null,
+      "caseSizeMm": null,
+      "movementType": "quartz",
+      "caliber": null,
+      "listPriceJpy": null,
+      "priceFloorJpy": 400000,
+      "searchKeywordJa": "ジェイコブ 330.100.1",
+      "searchKeywordEn": "Jacob & Co. 330.100.1",
+      "caseMaterial": "stainless-steel",
+      "waterResistanceM": null,
+      "gender": "mens",
+      "releaseYear": null,
+      "tags": [
+        "digital"
+      ],
+      "popular": false,
+      "summary_ja": "ジェイコブの型番330.100.1。市場で5件の出品が確認された、実際に流通しているモデルです。",
+      "summary_en": "Jacob & Co. reference 330.100.1, currently offered by multiple sellers in Japan.",
+      "source": "auto",
+      "listingCount": 5,
+      "lastSeen": "2026-11-27"
+    },
     {
       "id": "ref-1025",
       "name_en": "10.25",
@@ -57,34 +85,6 @@
       "summary_en": "Jacob & Co. reference 17.25, currently offered by multiple sellers in Japan.",
       "source": "auto",
       "listingCount": 5,
-      "lastSeen": "2026-11-27"
-    },
-    {
-      "id": "ref-3301001",
-      "name_en": "330.100.1",
-      "name_ja": "ファイブタイムゾーン ゴースト 330.100.1",
-      "reference": "330.100.1",
-      "collection_en": null,
-      "collection_ja": null,
-      "caseSizeMm": null,
-      "movementType": "quartz",
-      "caliber": null,
-      "listPriceJpy": null,
-      "priceFloorJpy": 509830,
-      "searchKeywordJa": "ジェイコブ 330.100.1",
-      "searchKeywordEn": "Jacob & Co. 330.100.1",
-      "caseMaterial": "stainless-steel",
-      "waterResistanceM": null,
-      "gender": "mens",
-      "releaseYear": null,
-      "tags": [
-        "digital"
-      ],
-      "popular": false,
-      "summary_ja": "ジェイコブの型番330.100.1。市場で3件の出品が確認された、実際に流通しているモデルです。",
-      "summary_en": "Jacob & Co. reference 330.100.1, currently offered by multiple sellers in Japan.",
-      "source": "auto",
-      "listingCount": 3,
       "lastSeen": "2026-11-27"
     },
     {
